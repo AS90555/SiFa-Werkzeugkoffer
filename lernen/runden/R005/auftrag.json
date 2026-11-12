@@ -1,0 +1,55 @@
+{
+ "runde": "R005",
+ "art": "pruef",
+ "blind": true,
+ "auftraege": [
+  {
+   "kennung": "R005-01",
+   "auftrag": "a084",
+   "branche": "Labor, Qualitätssicherung Chemie",
+   "bereich": "Probenvorbereitung im Abzug"
+  },
+  {
+   "kennung": "R005-02",
+   "auftrag": "a052",
+   "branche": "Gesundheit, Rettungsdienst",
+   "bereich": "Rettungswagen, Patiententransport über Treppen"
+  },
+  {
+   "kennung": "R005-03",
+   "auftrag": "a028",
+   "branche": "Metall, Härterei",
+   "bereich": "Salzbad und Abschrecken"
+  },
+  {
+   "kennung": "R005-04",
+   "auftrag": "a069",
+   "branche": "Garten- und Landschaftsbau",
+   "bereich": "Hecken schneiden, Motorsäge, Freischneider"
+  },
+  {
+   "kennung": "R005-05",
+   "auftrag": "a067",
+   "branche": "Elektro, Schaltschrankbau",
+   "bereich": "Verdrahten und Prüfen unter Spannung"
+  },
+  {
+   "kennung": "R005-06",
+   "auftrag": "a073",
+   "branche": "Entsorgung, Wertstoffhof",
+   "bereich": "Annahme, Container, Presscontainer"
+  },
+  {
+   "kennung": "R005-07",
+   "auftrag": "a048",
+   "branche": "Lebensmittel, Molkerei",
+   "bereich": "Reinigung von Tanks und Leitungen"
+  },
+  {
+   "kennung": "R005-08",
+   "auftrag": "a026",
+   "branche": "Holz, Fensterbau",
+   "bereich": "Einzelteilbeschichtung an der Spritzanlage"
+  }
+ ]
+}
