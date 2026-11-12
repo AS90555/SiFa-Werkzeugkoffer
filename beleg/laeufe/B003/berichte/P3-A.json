@@ -1,0 +1,93 @@
+{"paket":"P3","pruefer":"A","eintraege":[
+ {"id":"R16","aussagen":[
+  {"id":"R16-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Abschnitt 3.1, Maßnahmen Plattenaufteilsäge (Reinigungs- und Wartungsarbeiten)","zitat":"Schalten Sie bei Reinigungs- und Wartungsarbeiten immer die gesamte Maschine am Hauptschalter aus und sichern Sie sie gegen Wiedereinschalten."},
+   {"datei":"DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt","stelle":"Abschnitt 3.2.1, Instandhaltung, Rüstarbeiten","zitat":"Ausgeschaltete Maschinen sind gegen unbeabsichtigtes Einschalten zu sichern, zum Beispiel mit einem Vorhängeschloss beziehungsweise bei Handmaschinen durch Ziehen des Netzsteckers."}],
+   "bemerkung":"In BetrSichV und TRBS 1112 gibt es dazu keinen wörtlichen Satz (dort nur Energien beseitigen, Sicherungsmaßnahmen festlegen). Belegt nur durch die beiden DGUV-Regeln, Stufe Empfehlung."},
+  {"id":"R16-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 10 Abs. 2 Satz 2","zitat":"Instandhaltungsmaßnahmen dürfen nur von fachkundigen, beauftragten und unterwiesenen Beschäftigten oder von sonstigen für die Durchführung der Instandhaltungsarbeiten geeigneten Auftragnehmern mit vergleichbarer Qualifikation durchgeführt werden."}]},
+  {"id":"R16-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 10 Abs. 3 Satz 2 Nr. 8","zitat":"sichere Arbeitsverfahren für solche Arbeitsbedingungen festzulegen, die vom Normalzustand abweichen,"}]}
+ ]},
+ {"id":"R76","aussagen":[
+  {"id":"R76-M1","urteil":"gedeckt","belege":[
+   {"datei":"ASR/ASR-A1-5.txt","stelle":"Abschnitt 8 Reinigung, Abs. 1 Satz 2","zitat":"Verunreinigungen und Ablagerungen, die zu Gefährdungen führen können, sind unverzüglich zu beseitigen."}]},
+  {"id":"R76-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"Anhang Nr. 1.5 Abs. 2 Satz 1","zitat":"Die Fußböden der Räume dürfen keine Unebenheiten, Löcher, Stolperstellen oder gefährlichen Schrägen aufweisen."},
+   {"datei":"ASR/ASR-A1-5.txt","stelle":"Abschnitt 4 Abs. 13 Satz 1","zitat":"Fußbodenstellen, an denen sich die Gefahr des Stolperns oder Ausrutschens technisch nicht vermeiden lässt,"},
+   {"datei":"ASR/ASR-A1-5.txt","stelle":"Abschnitt 4 Abs. 13 Satz 3 und 4","zitat":"Hierzu haben sich Warnaufsteller bewährt. Erforderlichenfalls ist der betreffende Bereich zusätzlich abzusperren."}],
+   "bemerkung":"Beseitigen: ArbStaettV Anhang 1.5 Abs. 2 und ASR A1.5 Abschnitt 4 Abs. 3. Kennzeichnen nicht vermeidbarer Stellen: ASR A1.5 Abschnitt 4 Abs. 13 und Abschnitt 5 Abs. 4 (nach ASR A1.3 zu kennzeichnen, bei Bedarf absperren)."},
+  {"id":"R76-M3","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in ASR A1.5 und ArbStaettV nach Sicherheitsschuh, Schuhwerk, Fußschutz, persönliche Schutzausrüstung, rutschhemmend; dort steht nichts (ASR A1.5 nennt Schuhwerk nur bei der Prüfung der Rutschhemmung des Bodens). Im ganzen Textordner nur: ASR A5-1 (Arbeitsplätze im Freien bei Eis und Schnee: Schuhwerk mit rutschhemmender Sohle) und DGUV Regel 109-607 (Sicherheitsschuhe nur bei verschütteter Erodierflüssigkeit). Beides gilt nicht allgemein für verschmutzte oder unebene Böden in der Werkstatt.","vorschlag":"Aussage streichen oder als Maßnahme nach Grundlage Erfahrung durch Andre kennzeichnen. Alternativ auf die Fälle beschränken, die ein Text nennt (Eis und Schnee im Freien nach ASR A5-1, Erodierflüssigkeit nach DGUV Regel 109-607). Der Text verlangt zuerst, die Ursache am Boden zu beseitigen."},
+  {"id":"R76-M4","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"§ 4 Abs. 4 Satz 1","zitat":"Der Arbeitgeber hat dafür zu sorgen, dass Verkehrswege, Fluchtwege und Notausgänge ständig freigehalten werden, damit sie jederzeit benutzbar sind."}]},
+  {"id":"R76-M5","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"Anhang Nr. 1.5 Abs. 2 Satz 2","zitat":"Sie müssen gegen Verrutschen gesichert, tragfähig, trittsicher und rutschhemmend sein."}]}
+ ]},
+ {"id":"R21","aussagen":[
+  {"id":"R21-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt","stelle":"Abschnitt 3.9.3 (Kreissägemaschinen)","zitat":"Eine nicht am Spaltkeil befestigte Schutzhaube muss so eingestellt werden, dass der"},
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Abschnitt 3.1.1, Betrieb, Benutzungsregeln","zitat":"Schutzhaube immer auf Werkstückhöhe einstellen. Werkstücke mit gleichmäßiger Geschwindigkeit und konstantem Andruck vorschieben."}],
+   "bemerkung":"Belegt für die Schutzhaube der Kreissäge (Handvorschub); die Aussage ist allgemeiner formuliert. Das Benutzen und Einstellen der Schutzeinrichtung auf das Werkstück steht dort so."},
+  {"id":"R21-M2","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Abschnitt 2.2.1, Absatz Werkzeuge","zitat":"Sorgen Sie dafür, dass für Arbeiten mit Handvorschub auch nur hierfür geeignete Werkzeuge verwendet werden."}]},
+  {"id":"R21-M3","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Abschnitt 3.1.1, Maßnahmen, Betrieb","zitat":"Geeignete Hilfsmittel, wie Schiebestock, Schiebeholz oder die Sägehilfe"}],
+   "bemerkung":"Im Text mit dem Zusatz nach Möglichkeit einsetzen. DGUV Regel 100-500 Abschnitt 3.9.7 macht den Schiebestock bei weniger als 120 mm Abstand zwischen Parallelanschlag und Sägeblatt zur Pflicht."}
+ ]},
+ {"id":"R14","aussagen":[
+  {"id":"R14-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 6 Abs. 1 Satz 2 Nr. 1 (nicht § 5)","zitat":"Arbeitsmittel ausreichend standsicher sein und, falls erforderlich, gegen unbeabsichtigte Positions- und Lageänderungen stabilisiert werden,"}],
+   "bemerkung":"Die behauptete Fundstelle § 5 stimmt nicht, richtig ist § 6 Abs. 1."},
+  {"id":"R14-M2","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Die Aussage Beladeregel nennt keinen Inhalt und lässt sich nicht prüfen. Gesucht in BetrSichV (§ 5, § 6, Anhang 1) nach Beladung, Ladung, Be- und Entladung, Kippen: nur allgemein, dass mobile Arbeitsmittel bei Be- und Entladung gegen unbeabsichtigte Bewegung zu sichern sind. Eine Beladeregel für Wagen steht dort nicht.","vorschlag":"Konkret formulieren, etwa: Zulässige Belastung nicht überschreiten, Standsicherheit nicht beeinträchtigen, Ladeeinheiten nicht stoßartig absetzen. Das steht in DGUV Information 208-061 Abschnitt 5.4 (Belastung) und müsste als eigene Quelle genannt werden."}
+ ]},
+ {"id":"R102","aussagen":[
+  {"id":"R102-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"Anhang Nr. 5.1 Satz 2","zitat":"Dazu gehört, dass diese Arbeitsplätze gegen Witterungseinflüsse geschützt sind oder den Beschäftigten geeignete persönliche Schutzausrüstungen zur Verfügung gestellt werden."}]}
+ ]},
+ {"id":"R94","aussagen":[
+  {"id":"R94-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/LasthandhabV.txt","stelle":"§ 2 Abs. 1","zitat":"geeignete organisatorische Maßnahmen zu treffen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, einzusetzen, um manuelle Handhabungen von Lasten, die für die Beschäftigten eine Gefährdung für Sicherheit und Gesundheit, insbesondere der Lendenwirbelsäule mit sich bringen, zu vermeiden."}],
+   "bemerkung":"Dass Personen als Lasten gelten, sagt die BAuA-Leitmerkmalmethode Heben-Halten-Tragen (Lasten können Gegenstände, Personen oder Tiere sein); die Verordnung selbst sagt es nicht ausdrücklich."},
+  {"id":"R94-M2","urteil":"gedeckt","belege":[
+   {"datei":"Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt","stelle":"Abschnitt Anwendungshinweise, Pflegetätigkeiten","zitat":"Pflegetätigkeiten, die über die in dieser Leitmerkmalmethode beschriebenen Definitionen von manuellem Heben, Halten und/oder Tragen hinausgehen, wie z.B. Patiententransfer, sind mit der Leitmerkmalmethode"}],
+   "bemerkung":"Der Text nennt für Patiententransfer die Leitmerkmalmethode Ganzkörperkräfte (LMM-GK), für das Heben und Umlagern im Sinne von Heben, Halten, Tragen die LMM-HHT. Die Methode ist eine Empfehlung der BAuA, keine Pflicht der Verordnung."}
+ ]},
+ {"id":"R08","aussagen":[
+  {"id":"R08-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 6 Abs. 2 Satz 1","zitat":"dass vorhandene Schutzeinrichtungen und zur Verfügung gestellte persönliche Schutzausrüstungen verwendet werden, dass erforderliche Schutz- oder Sicherheitseinrichtungen funktionsfähig sind und nicht auf einfache Weise manipuliert oder umgangen werden."}]},
+  {"id":"R08-M2","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in BetrSichV (§ 6, § 10, § 14, § 3 Abs. 6) und TRBS 2111 nach Schutzeinrichtung zusammen mit prüfen, regelmäßig, Funktionskontrolle: Keine Stelle verlangt die regelmäßige Prüfung von Schutzeinrichtungen. § 14 Abs. 2 regelt wiederkehrende Prüfung von Arbeitsmitteln mit Schäden verursachenden Einflüssen, TRBS 2111 nennt nur allgemein Sicht- und Funktionskontrolle des Arbeitsmittels vor Schichtbeginn.","vorschlag":"Aussage ändern in: Schutzeinrichtungen müssen funktionsfähig sein (BetrSichV § 6 Abs. 2) und Art, Umfang und Fristen wiederkehrender Prüfungen sind in der Gefährdungsbeurteilung festzulegen (BetrSichV § 3 Abs. 6)."}
+ ]},
+ {"id":"R38","aussagen":[
+  {"id":"R38-M1","urteil":"nicht-gedeckt","belege":[],"bemerkung":"PSA-BV § 2 sagt nur allgemein, welche persönliche Schutzausrüstung bereitzustellen ist (geeignet, Schutz gegen die Gefährdung); Schnittschutzhandschuhe oder Unterarmschutz stehen dort nicht. Im ganzen Textordner gesucht nach Schnittschutz, Unterarm, Armschutz, Ärmelschutz, Flachglas, Isolierglas: Flachglas kommt nur in einer Tabelle von ASR A1.5 vor, Schnittschutzhandschuhe nur bei Motorkettensäge (TRBS 2111), Metallbau-Handhabung (DGUV Regel 109-607) und Glasbruch im Labor (TRGS 520). Unterarmschutz bei Glas steht nirgends.","vorschlag":"Auf den allgemeinen Satz beschränken: Geeignete persönliche Schutzausrüstung gegen Schnittverletzungen bereitstellen (PSA-BV § 2 Abs. 1). Die Auswahl Schnittschutzhandschuhe und Unterarmschutz bräuchte eine Quelle zum Glashandling oder bliebe Erfahrung (nur Andre)."}
+ ]},
+ {"id":"R83","aussagen":[
+  {"id":"R83-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"Anhang I Nr. 2.3 Abs. 5 Satz 1","zitat":"Stäube sind an der Austritts- oder Entstehungsstelle möglichst vollständig zu erfassen und gefahrlos zu entsorgen."},
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"Anhang I Nr. 2.3 Abs. 3 Satz 2","zitat":"Staub emittierende Anlagen, Maschinen und Geräte müssen mit einer wirksamen Absaugung versehen sein, soweit dies nach dem Stand der Technik möglich ist"}]},
+  {"id":"R83-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"Anhang I Nr. 2.3 Abs. 6 Satz 2","zitat":"Ist dies nicht möglich, so sind die Staubablagerungen durch Feucht- oder Nassverfahren nach dem Stand der Technik oder durch saugende Verfahren unter Verwendung geeigneter Staubsauger oder Entstauber zu beseitigen."},
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"Anhang I Nr. 2.3 Abs. 6 Satz 3","zitat":"Abblasen von Staubablagerungen mit Druckluft ist grundsätzlich nicht zulässig."}],
+   "bemerkung":"Der Text lässt neben dem Saugen auch Feucht- oder Nassverfahren zu."}
+ ]},
+ {"id":"R07","aussagen":[
+  {"id":"R07-M1","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in BetrSichV (Anhang 1 Nr. 2, § 11), DGUV Regel 109-606, 109-607 und DGUV Vorschrift 52 nach Vakuum, Unterdruck, Saug, Warneinrichtung: Keine Stelle verlangt eine Warneinrichtung bei Unterdruckabfall. BetrSichV Anhang 1 Nr. 2.3.4 verlangt Warneinrichtungen nur für Hebemittel, deren Befehlseinrichtung nicht in der Nähe der Last liegt; DGUV Vorschrift 52 verlangt eine Warneinrichtung nur für Krane.","vorschlag":"Streichen oder auf den belegbaren Kern beschränken: Lastaufnahmemittel Vakuumheber ordnungsgemäß prüfen und Betriebsanleitung beachten (DGUV Regel 109-607). Die Warneinrichtung bei Unterdruckabfall bräuchte die Betriebsanleitung des Herstellers oder eine Norm als Quelle."},
+  {"id":"R07-M2","urteil":"nicht-gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 14 Abs. 2 Satz 1 und 2","zitat":"hat der Arbeitgeber wiederkehrend von einer zur Prüfung befähigten Person prüfen zu lassen. Die Prüfung muss entsprechend den nach § 3 Absatz 6 ermittelten Fristen stattfinden."},
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 3 Abs. 6 Satz 1","zitat":"Der Arbeitgeber hat Art und Umfang erforderlicher Prüfungen von Arbeitsmitteln sowie die Fristen von wiederkehrenden Prüfungen nach den §§ 14 und 16 zu ermitteln und festzulegen"}],
+   "bemerkung":"Teilweise belegt: wiederkehrende Prüfung und Fristfestlegung durch den Arbeitgeber stehen so in BetrSichV § 14 Abs. 2 und § 3 Abs. 6. Es fehlt der Teil üblicher Richtwert jährlich: Gesucht in BetrSichV und DGUV Regel 109-606, 109-607, 100-500, Vorschrift 52 nach jährlich und mindestens einmal bei Vakuumheber oder Lastaufnahmemittel, nichts gefunden (DGUV Regel 109-607 sagt nur, die Prüfungen müssten dokumentiert sein).","vorschlag":"Teilen: M2a Wiederkehrende Prüfung durch zur Prüfung befähigte Person, Frist legt der Arbeitgeber nach Gefährdungsbeurteilung fest (BetrSichV § 14 Abs. 2, § 3 Abs. 6, gedeckt). M2b Richtwert jährlich ohne Textquelle streichen oder als Erfahrung kennzeichnen."},
+  {"id":"R07-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"Anhang 1 Abschnitt 2 Nr. 2.5 Buchstabe g","zitat":"Lasten nicht mit kraftschlüssig wirkenden Lastaufnahmemitteln über ungeschützte Beschäftigte geführt werden."}],
+   "bemerkung":"Der Vakuumheber hält die Last durch Saugkraft und ist ein kraftschlüssig wirkendes Lastaufnahmemittel; das nennt der Text nicht ausdrücklich beim Namen. Die Verwendung ist in § 14 und § 3 Abs. 6 nicht geregelt, die behauptete Fundstelle trifft nur für M2 zu."}
+ ]},
+ {"id":"P15","aussagen":[
+  {"id":"P15","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbMedVV.txt","stelle":"§ 3 Abs. 1 Satz 1","zitat":"Der Arbeitgeber hat auf der Grundlage der Gefährdungsbeurteilung für eine angemessene arbeitsmedizinische Vorsorge zu sorgen."},
+   {"datei":"Gesetze-Verordnungen/ArbMedVV.txt","stelle":"§ 4 Abs. 1 Satz 1","zitat":"Der Arbeitgeber hat nach Maßgabe des Anhangs Pflichtvorsorge für die Beschäftigten zu veranlassen."},
+   {"datei":"Gesetze-Verordnungen/ArbMedVV.txt","stelle":"§ 5 Abs. 1 Satz 1","zitat":"Der Arbeitgeber hat den Beschäftigten Angebotsvorsorge nach Maßgabe des Anhangs anzubieten."}],
+   "bemerkung":"Ob Pflicht- oder Angebotsvorsorge fällig ist, bestimmt der Anhang je Anlass (zum Beispiel Lärm, Hartholzstaub, Gefahrstoffe)."}
+ ]},
+ {"id":"P18","aussagen":[
+  {"id":"P18","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbSchG.txt","stelle":"§ 5 Abs. 3 Nr. 6","zitat":"unzureichende Qualifikation und Unterweisung der Beschäftigten, 6. psychische Belastungen bei der Arbeit."}]}
+ ]}
+]}
