@@ -1,27 +1,167 @@
 [
- {"id":"g-anfahren","faktor":1,"name":"Person wird von Fahrzeug angefahren oder überrollt"},
- {"id":"g-last-faellt","faktor":1,"name":"Last fällt, rutscht oder trifft Personen"},
- {"id":"g-fahrzeug-kippt","faktor":1,"name":"Fahrzeug kippt oder wird falsch bedient"},
- {"id":"g-stapel-kippt","faktor":1,"name":"Stapel, Wagen oder Paket kippt"},
- {"id":"g-schwebende-last","faktor":1,"name":"Schwebende Last fällt herab"},
- {"id":"g-werkzeug","faktor":1,"name":"Kontakt mit laufendem Werkzeug"},
- {"id":"g-anlauf","faktor":1,"name":"Unerwarteter Anlauf im Sonderbetrieb"},
- {"id":"g-quetschen","faktor":1,"name":"Quetschen und Scheren an bewegten Teilen"},
- {"id":"g-einzug","faktor":1,"name":"Einzug von Hand oder Arm"},
- {"id":"g-schnitt","faktor":1,"name":"Schnitt- und Stichverletzung"},
- {"id":"g-splitter","faktor":1,"name":"Handverletzung durch Splitter und Kanten"},
- {"id":"g-geschoss","faktor":1,"name":"Getroffen werden von Klammer oder Teil"},
- {"id":"g-holzstaub","faktor":3,"name":"Atemwegserkrankung durch Holzstaub"},
- {"id":"g-hartholzstaub","faktor":3,"name":"Krebs der Nase durch Hartholzstaub"},
- {"id":"g-gefahrstoff","faktor":3,"name":"Gesundheitsschaden durch Gefahrstoff nach Einstufung"},
- {"id":"g-fruchtschaedigend","faktor":3,"name":"Schädigung des ungeborenen Kindes"},
- {"id":"g-haut-augen","faktor":3,"name":"Verätzung, Reizung oder Verkleben von Haut und Augen"},
- {"id":"g-brand-ex-staub","faktor":5,"name":"Brand oder Staubexplosion"},
- {"id":"g-brand-ex-stoff","faktor":5,"name":"Brand oder Explosion durch entzündbare Stoffe oder Gase"},
- {"id":"g-verbrennung","faktor":6,"name":"Verbrennung an heißen Flächen"},
- {"id":"g-laerm","faktor":7,"name":"Gehörschaden durch Lärm"},
- {"id":"g-heben-tragen","faktor":9,"name":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen"},
- {"id":"g-repetitiv","faktor":9,"name":"Hand-Arm-Beschwerden durch gleichförmige Arbeit"},
- {"id":"g-enger-raum","faktor":8,"name":"Verschüttung, Sauerstoffmangel, Absturz im Silo"},
- {"id":"g-abstimmung","faktor":11,"name":"Unfall durch fehlende Abstimmung mit Fremden"}
+ {
+  "id": "g-anfahren",
+  "faktor": 1,
+  "name": "Person wird von Fahrzeug angefahren oder überrollt"
+ },
+ {
+  "id": "g-last-faellt",
+  "faktor": 1,
+  "name": "Last fällt, rutscht oder trifft Personen"
+ },
+ {
+  "id": "g-fahrzeug-kippt",
+  "faktor": 1,
+  "name": "Fahrzeug kippt oder wird falsch bedient"
+ },
+ {
+  "id": "g-stapel-kippt",
+  "faktor": 1,
+  "name": "Stapel, Wagen oder Paket kippt"
+ },
+ {
+  "id": "g-schwebende-last",
+  "faktor": 1,
+  "name": "Schwebende Last fällt herab"
+ },
+ {
+  "id": "g-werkzeug",
+  "faktor": 1,
+  "name": "Kontakt mit laufendem Werkzeug"
+ },
+ {
+  "id": "g-anlauf",
+  "faktor": 1,
+  "name": "Unerwarteter Anlauf im Sonderbetrieb"
+ },
+ {
+  "id": "g-quetschen",
+  "faktor": 1,
+  "name": "Quetschen und Scheren an bewegten Teilen"
+ },
+ {
+  "id": "g-einzug",
+  "faktor": 1,
+  "name": "Einzug von Hand oder Arm"
+ },
+ {
+  "id": "g-schnitt",
+  "faktor": 1,
+  "name": "Schnitt- und Stichverletzung"
+ },
+ {
+  "id": "g-splitter",
+  "faktor": 1,
+  "name": "Handverletzung durch Splitter und Kanten"
+ },
+ {
+  "id": "g-geschoss",
+  "faktor": 1,
+  "name": "Getroffen werden von Klammer oder Teil"
+ },
+ {
+  "id": "g-holzstaub",
+  "faktor": 3,
+  "name": "Atemwegserkrankung durch Holzstaub"
+ },
+ {
+  "id": "g-hartholzstaub",
+  "faktor": 3,
+  "name": "Krebs der Nase durch Hartholzstaub"
+ },
+ {
+  "id": "g-gefahrstoff",
+  "faktor": 3,
+  "name": "Gesundheitsschaden durch Gefahrstoff nach Einstufung"
+ },
+ {
+  "id": "g-fruchtschaedigend",
+  "faktor": 3,
+  "name": "Schädigung des ungeborenen Kindes"
+ },
+ {
+  "id": "g-haut-augen",
+  "faktor": 3,
+  "name": "Verätzung, Reizung oder Verkleben von Haut und Augen"
+ },
+ {
+  "id": "g-brand-ex-staub",
+  "faktor": 5,
+  "name": "Brand oder Staubexplosion"
+ },
+ {
+  "id": "g-brand-ex-stoff",
+  "faktor": 5,
+  "name": "Brand oder Explosion durch entzündbare Stoffe oder Gase"
+ },
+ {
+  "id": "g-verbrennung",
+  "faktor": 6,
+  "name": "Verbrennung an heißen Flächen"
+ },
+ {
+  "id": "g-laerm",
+  "faktor": 7,
+  "name": "Gehörschaden durch Lärm"
+ },
+ {
+  "id": "g-heben-tragen",
+  "faktor": 9,
+  "name": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen"
+ },
+ {
+  "id": "g-repetitiv",
+  "faktor": 9,
+  "name": "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ },
+ {
+  "id": "g-enger-raum",
+  "faktor": 8,
+  "name": "Verschüttung, Sauerstoffmangel, Absturz im Silo"
+ },
+ {
+  "id": "g-abstimmung",
+  "faktor": 11,
+  "name": "Unfall durch fehlende Abstimmung mit Fremden"
+ },
+ {
+  "id": "g-sturz",
+  "faktor": 1,
+  "name": "Stolpern, Rutschen, Stürzen"
+ },
+ {
+  "id": "g-druckgas",
+  "faktor": 1,
+  "name": "Umfallende Druckgasflasche, abgerissenes Ventil"
+ },
+ {
+  "id": "g-elektrisch",
+  "faktor": 2,
+  "name": "Elektrischer Schlag, Störlichtbogen"
+ },
+ {
+  "id": "g-schweissrauch",
+  "faktor": 3,
+  "name": "Atemwegserkrankung durch Schweißrauch"
+ },
+ {
+  "id": "g-kss",
+  "faktor": 3,
+  "name": "Haut- und Atemwegserkrankung durch Kühlschmierstoff"
+ },
+ {
+  "id": "g-bio",
+  "faktor": 4,
+  "name": "Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff"
+ },
+ {
+  "id": "g-strahlung",
+  "faktor": 7,
+  "name": "Augen- und Hautschaden durch optische Strahlung"
+ },
+ {
+  "id": "g-klima",
+  "faktor": 8,
+  "name": "Belastung durch Kälte, Hitze oder Zugluft"
+ }
 ]

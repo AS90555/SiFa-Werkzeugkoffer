@@ -215,5 +215,68 @@
   "stufe": "vermutungswirkung",
   "stand": "siehe Datei",
   "datei": "TRBS/TRBS-1111.pdf"
+ },
+ {
+  "id": "trgs-528",
+  "titel": "TRGS 528 Schweißtechnische Arbeiten",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe Februar 2020, Fassung 07.08.2020",
+  "datei": "TRGS/TRGS-528.pdf"
+ },
+ {
+  "id": "trgs-611",
+  "titel": "TRGS 611 Verwendungsbeschränkungen für wassermischbare Kühlschmierstoffe",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRGS/TRGS-611.pdf"
+ },
+ {
+  "id": "trgs-800",
+  "titel": "TRGS 800 Brandschutzmaßnahmen",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe Dezember 2010",
+  "datei": "TRGS/TRGS-800.pdf"
+ },
+ {
+  "id": "trgs-745",
+  "titel": "TRBS 3145 / TRGS 745 Ortsbewegliche Druckgasbehälter",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe Februar 2016",
+  "datei": "TRGS/TRGS-745.pdf"
+ },
+ {
+  "id": "asr-a1-5",
+  "titel": "ASR A1.5 Fußböden",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A1-5.pdf"
+ },
+ {
+  "id": "asr-a3-5",
+  "titel": "ASR A3.5 Raumtemperatur",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A3-5.pdf"
+ },
+ {
+  "id": "dguv-v3",
+  "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+  "stufe": "pflicht",
+  "stand": "nicht abgelegt",
+  "datei": null
+ },
+ {
+  "id": "dguv-v52",
+  "titel": "DGUV Vorschrift 52 Krane",
+  "stufe": "pflicht",
+  "stand": "nicht abgelegt",
+  "datei": null
+ },
+ {
+  "id": "ostrv",
+  "titel": "Arbeitsschutzverordnung zu künstlicher optischer Strahlung",
+  "stufe": "pflicht",
+  "stand": "nicht abgelegt",
+  "datei": null
  }
 ]

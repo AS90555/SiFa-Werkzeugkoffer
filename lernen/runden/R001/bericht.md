@@ -1,12 +1,12 @@
 # Lernrunde R001
 
-Bibliothek: 58 Regeln, 27 Wörterbucheinträge.
+Bibliothek: 77 Regeln, 53 Wörterbucheinträge.
 
-**Trefferquote 24 %**: 11 getroffen, 2 nur als Rückfrage erkannt, 29 übersehen, 3 ohne Eintrag in der Bibliothek. Zusätzlich vom System: 8. Übersetzung: 29 Schritte zugeordnet, 66 Wünsche offen.
+**Trefferquote 27 %**: 12 getroffen, 2 nur als Rückfrage erkannt, 28 übersehen, 3 ohne Eintrag in der Bibliothek. Zusätzlich vom System: 8. Übersetzung: 29 Schritte zugeordnet, 66 Wünsche offen.
 
 | Kennung | Arbeitsplatz | Übersetzung | getroffen | Rückfrage | übersehen | ohne Eintrag | zusätzlich | Quote |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R001-A1 | Formatkreissäge im Maschinenraum | 5 Schritte, 10 Wünsche | 2 | 1 | 3 | 1 | 2 | 29 % |
+| R001-A1 | Formatkreissäge im Maschinenraum | 5 Schritte, 10 Wünsche | 3 | 1 | 2 | 1 | 2 | 43 % |
 | R001-A2 | Lackierplatz zwei, Bereich Oberfläche, Lackieren von Hand | 7 Schritte, 8 Wünsche | 3 | 1 | 3 | 1 | 2 | 38 % |
 | R001-A3 | Schweißplatz Nummer drei, Bereich Schweißen | 4 Schritte, 10 Wünsche | 1 | 0 | 6 | 0 | 0 | 14 % |
 | R001-A4 | CNC-Drehmaschine, Drehen mit Kühlschmierstoff | 4 Schritte, 15 Wünsche | 0 | 0 | 7 | 0 | 0 | 0 % |
@@ -22,14 +22,13 @@ Bibliothek: 58 Regeln, 27 Wörterbucheinträge.
 | 3 Gefahrstoffe | 5 | 6 |
 | 5 Brand- und Explosionsgefährdungen | 0 | 2 |
 | 6 Thermische Gefährdungen | 0 | 1 |
-| 7 Gefährdung durch spezielle physikalische Einwirkungen | 0 | 4 |
+| 7 Gefährdung durch spezielle physikalische Einwirkungen | 1 | 3 |
 | 8 Gefährdungen durch Arbeitsumgebungsbedingungen | 0 | 1 |
 | 9 Physische Belastung/Arbeitsschwere | 2 | 6 |
 
 ## Übersehen: Gefährdung ist in der Bibliothek, aber keine Regel hat ausgelöst
 
 - R001-A1: Heben und Tragen schwerer Spanplatten von Hand, dreißig- bis vierzigmal am Tag (Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen). Anlass: „hebt sie allein hoch“
-- R001-A1: Lärmbelastung über den ganzen Tag, Verständigung nur durch Schreien (Gehörschaden durch Lärm). Anlass: „Die Säge läuft den ganzen Tag, man muss schreien, um sich zu verständigen“
 - R001-A1: Unerwarteter Anlauf der Säge beim Blattwechsel, weil der Hauptschalter nicht abschließbar ist (Unerwarteter Anlauf im Sonderbetrieb). Anlass: „legt er den Hauptschalter an der Wand um, ein Schloss hat er nicht“
 - R001-A2: Reizung oder Verätzung von Haut und Augen beim Auswaschen von Rollen und Pinseln mit Verdünnung (Verätzung, Reizung oder Verkleben von Haut und Augen). Anlass: „Rollen und Pinsel werden in einer Waschwanne mit Verdünnung ausgewaschen“
 - R001-A2: Muskel-Skelett-Belastung beim gemeinsamen Heben und Umsetzen schwerer Türen (Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen). Anlass: „heben die beiden das Teil gemeinsam auf den Trockenwagen“

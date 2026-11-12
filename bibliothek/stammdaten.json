@@ -167,7 +167,9 @@
    "id": "aluprofil",
    "name": "Aluminiumprofil, Aluminiumschale",
    "merkmale": [
-    "m.alu"
+    "m.alu",
+    "m.metall",
+    "m.scharfkantig"
    ]
   },
   {
@@ -191,6 +193,104 @@
    "merkmale": [
     "m.gefahrstoff",
     "m.aerosol"
+   ]
+  },
+  {
+   "id": "plattenware",
+   "name": "Holzwerkstoffplatte, Spanplatte, MDF, Sperrholz",
+   "merkmale": [
+    "m.holz",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "massivholzteil",
+   "name": "Massivholzteil, Türblatt, Möbelteil",
+   "merkmale": [
+    "m.holz",
+    "m.sperrig",
+    "m.splitternd"
+   ]
+  },
+  {
+   "id": "stahlprofil",
+   "name": "Stahlprofil, Rohr, Stabmaterial",
+   "merkmale": [
+    "m.metall",
+    "m.langgut",
+    "m.scharfkantig"
+   ]
+  },
+  {
+   "id": "blech",
+   "name": "Blech, Blechtafel",
+   "merkmale": [
+    "m.metall",
+    "m.sperrig",
+    "m.scharfkantig"
+   ]
+  },
+  {
+   "id": "metallwerkstueck",
+   "name": "Metallwerkstück, Rohling, Gussteil",
+   "merkmale": [
+    "m.metall"
+   ]
+  },
+  {
+   "id": "metallspaene",
+   "name": "Metallspäne",
+   "merkmale": [
+    "m.metall",
+    "m.scharfkantig"
+   ]
+  },
+  {
+   "id": "kuehlschmierstoff",
+   "name": "Kühlschmierstoff",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.kss"
+   ]
+  },
+  {
+   "id": "druckgasflasche",
+   "name": "Druckgasflasche, Schutzgas, Sauerstoff, Acetylen",
+   "merkmale": [
+    "m.druckgas"
+   ]
+  },
+  {
+   "id": "loesemittel",
+   "name": "Verdünnung, Lösemittel, Kaltreiniger, Entfetter",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.loesemittel",
+    "m.reiniger"
+   ]
+  },
+  {
+   "id": "palette_gestapelt",
+   "name": "Palette oder Gitterbox mit gestapelter Ware",
+   "merkmale": [
+    "m.stapel_hoch"
+   ]
+  },
+  {
+   "id": "packgut",
+   "name": "Pakete, Bündel, Kartons",
+   "merkmale": []
+  },
+  {
+   "id": "packmittel",
+   "name": "Karton, Folie, Umreifungsband, Klebeband",
+   "merkmale": []
+  },
+  {
+   "id": "elektrische_anlage",
+   "name": "Elektrische Anlage, Schaltschrank, Leitungen",
+   "merkmale": [
+    "m.anlage"
    ]
   }
  ],
@@ -218,14 +318,14 @@
   },
   {
    "id": "heben",
-   "name": "Heben",
+   "name": "Heben mit Kran, Hebezeug oder Vakuumheber",
    "merkmale": [
     "v.heben"
    ]
   },
   {
    "id": "handhaben",
-   "name": "Handhaben, Auflegen, Abnehmen, Einsortieren",
+   "name": "Heben, Tragen, Handhaben von Hand",
    "merkmale": [
     "v.hand_wiederholt"
    ]
@@ -435,6 +535,80 @@
    "merkmale": [
     "v.stoff_auftragen"
    ]
+  },
+  {
+   "id": "schweissen",
+   "name": "Schweißen",
+   "merkmale": [
+    "v.schweissen",
+    "v.funken",
+    "v.heiss"
+   ]
+  },
+  {
+   "id": "loeten_brennschneiden",
+   "name": "Brennschneiden, Löten, Flämmen",
+   "merkmale": [
+    "v.funken",
+    "v.heiss"
+   ]
+  },
+  {
+   "id": "zerspanen_metall",
+   "name": "Drehen, Fräsen, Bohren von Metall",
+   "merkmale": [
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut"
+   ]
+  },
+  {
+   "id": "trennschleifen",
+   "name": "Trennschleifen, Schruppen, Schleifen von Metall",
+   "merkmale": [
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut",
+    "v.funken"
+   ]
+  },
+  {
+   "id": "verpacken",
+   "name": "Verpacken, Umreifen, Wickeln",
+   "merkmale": []
+  },
+  {
+   "id": "anmischen",
+   "name": "Anmischen, Umfüllen, Abmessen von Stoffen",
+   "merkmale": [
+    "v.stoff_auftragen"
+   ]
+  },
+  {
+   "id": "elektroarbeiten",
+   "name": "Arbeiten an elektrischen Anlagen",
+   "merkmale": [
+    "v.elektro"
+   ]
+  },
+  {
+   "id": "lagern_regal",
+   "name": "Lagern im Regal, Ein- und Auslagern",
+   "merkmale": [
+    "v.lagern_regal"
+   ]
+  },
+  {
+   "id": "foerdern",
+   "name": "Fördern auf Band oder Rollenbahn",
+   "merkmale": []
+  },
+  {
+   "id": "montieren",
+   "name": "Montieren, Zusammenbauen, Richten",
+   "merkmale": []
   }
  ],
  "ausfuehrung": [
@@ -560,6 +734,41 @@
    "merkmale": [
     "a.tauchbad"
    ]
+  },
+  {
+   "id": "schweissgeraet",
+   "name": "Schweißgerät, Brenner von Hand geführt",
+   "merkmale": [
+    "a.schweissgeraet"
+   ]
+  },
+  {
+   "id": "hebezeug",
+   "name": "Kran, Kettenzug, Hebezeug",
+   "merkmale": [
+    "a.hebezeug"
+   ]
+  },
+  {
+   "id": "stetigfoerderer",
+   "name": "Förderband, Rollenbahn, Späneförderer",
+   "merkmale": [
+    "a.stetigfoerderer"
+   ]
+  },
+  {
+   "id": "handhubwagen",
+   "name": "Handhubwagen ohne Antrieb",
+   "merkmale": [
+    "a.handhubwagen"
+   ]
+  },
+  {
+   "id": "gabelstapler",
+   "name": "Gabelstapler, Antrieb nicht bekannt",
+   "merkmale": [
+    "a.flurfoerderzeug"
+   ]
   }
  ],
  "umgebung": [
@@ -610,6 +819,32 @@
    "name": "Fremdfirma im Betrieb",
    "merkmale": [
     "u.fremdfirma"
+   ]
+  },
+  {
+   "id": "werkstatt",
+   "name": "Halle oder Werkstatt ohne Besonderheit",
+   "merkmale": []
+  },
+  {
+   "id": "fahrverkehr",
+   "name": "Fahrverkehr im Arbeitsbereich, Stapler fährt durch",
+   "merkmale": [
+    "u.fahrverkehr"
+   ]
+  },
+  {
+   "id": "laerm_umgebung",
+   "name": "Lärm aus der Umgebung, laute Nachbarplätze, Kompressor",
+   "merkmale": [
+    "u.laerm"
+   ]
+  },
+  {
+   "id": "kalt",
+   "name": "Kälte, Zugluft, offenes Tor",
+   "merkmale": [
+    "u.kalt"
    ]
   }
  ]

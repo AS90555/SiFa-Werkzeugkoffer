@@ -20,4 +20,11 @@ Form der Wahrheit:
 {"id":"R001-A1","branche":"…","arbeitsplatz":"…","gefaehrdungen":[{"text":"…","faktor":1,"bibliothek":"g-werkzeug","anlass":"wörtliche Stelle aus dem Protokoll"}]}
 ```
 
+**Weitere Regeln:**
+
+- Bekommt der Sprecher mehrere Aufträge, bearbeitet er sie nacheinander und unabhängig, je Auftrag zwei Dateien. Die Arbeitsplätze sollen sich deutlich unterscheiden.
+- Das Protokoll darf Mängel beschreiben, wie sie beim Rundgang auffallen. Die Wahrheit nennt die Gefährdung, nicht den Mangel.
+- Passt keine Gefährdung der Liste wirklich, bleibt die Kennung `null`. Eine ungefähr passende Kennung zu wählen ist ein Fehler. Schweißrauch ist zum Beispiel nicht dasselbe wie „Gefahrstoff nach Einstufung“, wenn es dafür einen eigenen Eintrag gibt, und ohne eigenen Eintrag bleibt er `null`.
+- Mindestens eine Gefährdung je Arbeitsplatz soll aus den Faktoren 2, 4, 6, 7, 8, 9 oder 10 stammen, wenn der Arbeitsplatz das hergibt.
+
 **Darf nicht:** die Bibliothek der Regeln lesen, andere Protokolle oder Wahrheiten lesen, das Protokoll auf die Bibliothek zuschneiden.

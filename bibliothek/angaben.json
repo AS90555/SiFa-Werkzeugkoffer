@@ -82,5 +82,15 @@
   "typ": "ja_nein",
   "ebene": "betrieb",
   "frage": "Arbeiten Fremdfirmen oder Leiharbeitnehmer im Betrieb?"
+ },
+ {
+  "id": "griffe_tag",
+  "typ": "zahl",
+  "frage": "Wie viele Hebe- oder Umsetzvorgänge je Arbeitstag?"
+ },
+ {
+  "id": "kss_wassergemischt",
+  "typ": "ja_nein",
+  "frage": "Ist der Kühlschmierstoff wassergemischt (Emulsion)?"
  }
 ]

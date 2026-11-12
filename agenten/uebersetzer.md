@@ -14,8 +14,17 @@
 4. Angaben nur eintragen, wenn das Protokoll sie ausdrücklich nennt (zum Beispiel Gewicht, Griffe je Stunde, Hartholz). Nie schätzen.
 5. Stoffe: jeden genannten Gefahrstoff unter `stoffe` eintragen, mit `sdb: null` und leerer Liste `h`. Keine H-Sätze erfinden.
 6. Alles, was sich nicht sauber zuordnen lässt, unter `wuensche` notieren: Was steht im Protokoll, was fehlt in den Stammdaten. **Nichts passend biegen.** Lieber ein Wunsch als eine falsche Zuordnung. Ein Schritt, für den Vorgang oder Ausführung fehlt, wird weggelassen und als Wunsch notiert.
-7. Unter `zuordnung` für jeden Schritt die Textstelle nennen, auf der er beruht, und ob die Zuordnung sicher ist.
-8. Prüfen mit `node lernen/pruefe-fall.js <datei>`. Fehler beheben, bis die Prüfung durchläuft.
+7. Beschreibt das Protokoll einen Mangel (fehlendes Schloss, lockerer Stecker, offene Abdeckung, fehlende Sicherung), kommt er unter `maengel` mit der Textstelle. Ein Mangel ist kein Schritt und keine Angabe.
+8. Unter `zuordnung` für jeden Schritt die Textstelle nennen, auf der er beruht, und ob die Zuordnung sicher ist.
+9. Prüfen mit `node lernen/pruefe-fall.js <datei>`. Fehler beheben, bis die Prüfung durchläuft.
+
+**Hinweise zur Zuordnung:**
+
+- Der Vorgang „Heben“ gilt nur für Kran, Hebezeug und Vakuumheber. Heben und Tragen von Hand ist „Heben, Tragen, Handhaben von Hand“.
+- Rüsten, Werkzeugwechsel, Reinigen und Störungsbeseitigung an einer Maschine sind Sonderbetrieb und bekommen das Material „Anlage“.
+- Ist die Umgebung unauffällig, „Halle oder Werkstatt ohne Besonderheit“ wählen. Mehrere Umgebungen sind möglich.
+- Ein Schritt darf ohne Material stehen, wenn keines passt. Das fehlende Material wird als Wunsch notiert.
+- Mehrere Protokolle in einem Lauf werden nacheinander und unabhängig voneinander bearbeitet, je Protokoll eine Datei.
 
 **Darf nicht:** `bibliothek/regeln.json` oder `bibliothek/gefaehrdungen.json` lesen, den Ordner `wahrheit/` lesen, Gefährdungen eintragen, das Protokoll ändern.
 
@@ -27,5 +36,6 @@ Muster:
  "stationen":[{"nr":1,"name":"…","bereich":"…","personen":2,"umgebung":["halle"],"angaben":{},
    "schritte":[{"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["kantel"]}]}],
  "wuensche":[{"text":"Stelle aus dem Protokoll","fehlt":"Was in den Stammdaten fehlt"}],
+ "maengel":[{"text":"Stelle aus dem Protokoll"}],
  "zuordnung":[{"schritt":1,"stelle":"Stelle aus dem Protokoll","sicher":true}]}
 ```

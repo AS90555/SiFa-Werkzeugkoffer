@@ -1,11 +1,11 @@
 {
  "runde": "R001",
- "regeln": 58,
- "quote": 24,
+ "regeln": 77,
+ "quote": 27,
  "summe": {
-  "getroffen": 11,
+  "getroffen": 12,
   "nachfrage": 2,
-  "uebersehen": 29,
+  "uebersehen": 28,
   "ohneEintrag": 3,
   "zusaetzlich": 8,
   "wuensche": 66,
@@ -16,9 +16,9 @@
    "id": "R001-A1",
    "arbeitsplatz": "Formatkreissäge im Maschinenraum",
    "branche": "Holz, kleine Tischlerei",
-   "getroffen": 2,
+   "getroffen": 3,
    "nachfrage": 1,
-   "uebersehen": 3,
+   "uebersehen": 2,
    "ohneEintrag": 1,
    "zusaetzlich": 2
   },
@@ -95,8 +95,8 @@
    "verfehlt": 1
   },
   "7": {
-   "getroffen": 0,
-   "verfehlt": 4
+   "getroffen": 1,
+   "verfehlt": 3
   },
   "8": {
    "getroffen": 0,
