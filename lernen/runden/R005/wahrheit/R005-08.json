@@ -1,0 +1,12 @@
+{
+  "id": "R005-08",
+  "branche": "Holz, Fensterbau",
+  "arbeitsplatz": "Einzelteilbeschichtung an der Spritzanlage",
+  "gefaehrdungen": [
+    {"text": "Lösemitteldampf in der Kabine und im Trockner kann sich an den heißen Heizstrahlern entzünden oder eine Verpuffung auslösen.", "faktor": 5, "anlass": "Die Luft in der Kabine riecht stark nach Lösemittel, und daneben steht der Trockner mit Heizstrahlern."},
+    {"text": "Bricht ein Brand aus, kommt die Person nicht schnell genug an den Feuerlöscher, und der Brand kann sich ausbreiten.", "faktor": 5, "anlass": "Ein Feuerlöscher hängt weit hinten an der Wand, der Weg ist mit Kartons zugestellt."},
+    {"text": "Beim Anrühren und Spritzen des Zweikomponentenlacks können Lacknebel und Härterdämpfe eingeatmet werden, die Haut reizen oder Allergien auslösen.", "faktor": 3, "anlass": "Der Lack kommt aus einem Behälter mit zwei Komponenten, der Härter wird vor Ort angerührt."},
+    {"text": "Der Lärm der Absaugung über den ganzen Schichttag kann das Gehör schädigen.", "faktor": 7, "anlass": "Die Absaugung im Dach ist laut, man verständigt sich mit Handzeichen."},
+    {"text": "Das lange Stehen und Vorbeugen über den Teilen belastet Rücken und Schultern.", "faktor": 9, "anlass": "Die Person steht den ganzen Tag, beugt sich über die Teile, um Ecken zu lackieren."}
+  ]
+}
