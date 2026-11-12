@@ -41,6 +41,7 @@ if (ab.stationen.length) {
 z.push('', '## Je Arbeitsplatz', '');
 for (const s of e.stationen) {
   { const fs0 = fall.stationen.find(x => x.nr === s.nr); z.push(`### ${s.nr} ${s.name}${fs0.bereich ? ' (' + fs0.bereich + ')' : ''}`, ''); }
+  { const fs1 = fall.stationen.find(x => x.nr === s.nr); const ma = [...(fs1.maengel || []), ...((fall.maengel || []).filter(m => !m.station || m.station === s.nr))]; if (ma.length) z.push(`Beim Rundgang gemeldete Mängel: ${ma.map(m => m.text).join('; ')}`, ''); }
   for (const t of s.treffer) {
     const r = R.get(t.regel);
     const quelle = r.quellen.length ? r.quellen.map(q => `${Q.get(q.id).titel}, ${q.stelle || 'Fundstelle offen'}`).join('; ') : 'ohne Beleg';

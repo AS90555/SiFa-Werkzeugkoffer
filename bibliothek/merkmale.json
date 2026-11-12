@@ -84,5 +84,14 @@
  "a.handhubwagen": "Handhubwagen ohne Antrieb",
  "u.fahrverkehr": "Fahrverkehr im Arbeitsbereich",
  "u.laerm": "Lärm aus der Umgebung",
- "u.kalt": "Kälte, Zugluft, offenes Tor"
+ "u.kalt": "Kälte, Zugluft, offenes Tor",
+ "m.heiss": "Heißes Werkstück oder heißer Stoff",
+ "m.staub": "Feines, staubendes Pulver",
+ "v.abblasen": "Abblasen mit Druckluft",
+ "a.presse": "Presse, Abkantpresse, Stanze",
+ "a.einzugswalzen": "Vorschubwalzen, Werkstück von Hand angelegt",
+ "u.boden": "Verschmutzter oder unebener Boden",
+ "u.zeitdruck": "Zeitdruck, Hektik",
+ "u.hitze": "Hitze, Wärmestrahlung",
+ "u.gefaelle": "Gefälle, Rampe"
 }

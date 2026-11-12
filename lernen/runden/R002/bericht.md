@@ -1,25 +1,25 @@
 # Lernrunde R002
 
-Bibliothek: 77 Regeln, 53 Wörterbucheinträge.
+Bibliothek: 89 Regeln, 68 Wörterbucheinträge.
 
-**Trefferquote 43 %**: 24 getroffen, 2 nur als Rückfrage erkannt, 24 übersehen, 6 ohne Eintrag in der Bibliothek. Zusätzlich vom System: 18. Übersetzung: 31 Schritte zugeordnet, 60 Wünsche offen.
+**Trefferquote 52 %**: 29 getroffen, 5 nur als Rückfrage erkannt, 16 übersehen, 6 ohne Eintrag in der Bibliothek. Zusätzlich vom System: 20. Übersetzung: 31 Schritte zugeordnet, 60 Wünsche offen.
 
 | Kennung | Arbeitsplatz | Übersetzung | getroffen | Rückfrage | übersehen | ohne Eintrag | zusätzlich | Quote |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R002-B1 | Tischlerei, Bankraum Montage von Möbeln | 5 Schritte, 6 Wünsche | 3 | 0 | 3 | 0 | 2 | 50 % |
+| R002-B1 | Tischlerei, Bankraum Montage von Möbeln | 5 Schritte, 6 Wünsche | 4 | 0 | 2 | 0 | 2 | 67 % |
 | R002-B2 | Möbelfertigung, Kantenanleimmaschine | 5 Schritte, 6 Wünsche | 2 | 1 | 3 | 0 | 4 | 33 % |
-| R002-B3 | Blechbearbeitung, hydraulische Abkantpresse | 4 Schritte, 7 Wünsche | 3 | 0 | 4 | 0 | 1 | 43 % |
-| R002-B4 | Schlosserei, Schleifplatz für Schweißteile | 4 Schritte, 7 Wünsche | 3 | 0 | 2 | 2 | 3 | 43 % |
-| R002-B5 | Pulverbeschichtung in Kabine zwei, Oberfläche | 4 Schritte, 10 Wünsche | 2 | 0 | 5 | 1 | 3 | 25 % |
+| R002-B3 | Blechbearbeitung, hydraulische Abkantpresse | 4 Schritte, 7 Wünsche | 5 | 1 | 1 | 0 | 1 | 71 % |
+| R002-B4 | Schlosserei, Schleifplatz für Schweißteile | 4 Schritte, 7 Wünsche | 3 | 1 | 1 | 2 | 4 | 43 % |
+| R002-B5 | Pulverbeschichtung in Kabine zwei, Oberfläche | 4 Schritte, 10 Wünsche | 2 | 1 | 4 | 1 | 3 | 25 % |
 | R002-B6 | Langgutlager mit Kragarmregalen, Ein- und Auslagern per Gabelstapler und von Hand | 3 Schritte, 8 Wünsche | 3 | 0 | 2 | 2 | 1 | 43 % |
-| R002-B7 | Sägen und Bohren von Stahl an Bandsäge und Säulenbohrmaschine | 4 Schritte, 8 Wünsche | 4 | 1 | 2 | 0 | 2 | 57 % |
-| R002-B8 | Wareneingang: Abladen vom Lkw, Transport auf Hof und in die Halle | 2 Schritte, 8 Wünsche | 4 | 0 | 3 | 1 | 2 | 50 % |
+| R002-B7 | Sägen und Bohren von Stahl an Bandsäge und Säulenbohrmaschine | 4 Schritte, 8 Wünsche | 5 | 1 | 1 | 0 | 3 | 71 % |
+| R002-B8 | Wareneingang: Abladen vom Lkw, Transport auf Hof und in die Halle | 2 Schritte, 8 Wünsche | 5 | 0 | 2 | 1 | 2 | 63 % |
 
 ## Je Gefährdungsfaktor
 
 | Faktor | getroffen | verfehlt |
 | --- | --- | --- |
-| 1 Mechanische Gefährdungen | 9 | 14 |
+| 1 Mechanische Gefährdungen | 14 | 9 |
 | 3 Gefahrstoffe | 2 | 4 |
 | 4 Biologische Arbeitsstoffe | 0 | 1 |
 | 5 Brand- und Explosionsgefährdungen | 0 | 2 |
@@ -32,28 +32,20 @@ Bibliothek: 77 Regeln, 53 Wörterbucheinträge.
 
 ## Übersehen: Gefährdung ist in der Bibliothek, aber keine Regel hat ausgelöst
 
-- R002-B1: Einklemmen der Finger zwischen Seite und Bankkante (Quetschen und Scheren an bewegten Teilen). Anlass: „Beim Absetzen muss man die Finger zwischen der Seite und der Bankkante halten“
 - R002-B1: Stolpern oder Rutschen auf Spänen und Leimresten (Stolpern, Rutschen, Stürzen). Anlass: „neben der Bank liegen oft Späne und Leimreste“
 - R002-B1: Verkleben von Haut und Händen durch Holzleim (Verätzung, Reizung oder Verkleben von Haut und Augen). Anlass: „Der Leim verklebt schnell Hände und Unterarme“
 - R002-B2: Hand oder Arm wird beim Anlegen zwischen die Walzen gezogen (Einzug von Hand oder Arm). Anlass: „Beim Anlegen greift man bis dicht an die Walzen heran“
 - R002-B2: Verbrennung an heißer Leimwalze und Schmelzkleber (Verbrennung an heißen Flächen). Anlass: „Der Kleber ist heiß, und die Leimwalze hat rund zweihundert Grad“
 - R002-B2: Kontakt mit den laufenden Fräsaggregaten (Kontakt mit laufendem Werkzeug). Anlass: „schneiden zwei Fräsaggregate die überstehende Kante ab“
-- R002-B3: Einklemmen der Hände zwischen Ober- und Unterwerkzeug (Quetschen und Scheren an bewegten Teilen). Anlass: „Beim Biegen ist der Bereich zwischen Oberwerkzeug und Unterwerkzeug eng“
 - R002-B3: Lärm an der Presse (Gehörschaden durch Lärm). Anlass: „Die Presse ist so laut, dass man sich nur mit Zeichen verständigt“
-- R002-B3: Gleichförmige Arbeit mit wiederkehrenden Handgriffen (Hand-Arm-Beschwerden durch gleichförmige Arbeit). Anlass: „rund dreihundert Biegungen pro Schicht“
-- R002-B3: Hineingreifen in die Presse bei überbrücktem Lichtgitter (Quetschen und Scheren an bewegten Teilen). Anlass: „Das Lichtgitter ist an einer Seite mit Klebeband überbrückt“
 - R002-B4: Verbrennung an noch warmen Schweißteilen (Verbrennung an heißen Flächen). Anlass: „die Teile sind oft noch warm, weil die Naht frisch ist“
-- R002-B4: Hand-Arm-Beschwerden durch gleichförmiges Schleifen (Hand-Arm-Beschwerden durch gleichförmige Arbeit). Anlass: „immer wieder dieselbe Bewegung mit dem Arm“
 - R002-B5: Staubexplosion oder Brand durch aufgewirbeltes Lackpulver (Brand oder Staubexplosion). Anlass: „dabei steigt feiner Staub auf“
 - R002-B5: Verbrennung an heißen Teilen am Ofenausgang (Verbrennung an heißen Flächen). Anlass: „Am Ofenausgang wird das Teil mit bloßen Händen oder mit Handschuhen abgenommen“
-- R002-B5: Hand-Arm-Beschwerden durch gleichförmiges Einhängen (Hand-Arm-Beschwerden durch gleichförmige Arbeit). Anlass: „das passiert mehrere hundert Mal am Tag“
 - R002-B5: Quetschen der Hände an bewegten Teilen des Förderers (Quetschen und Scheren an bewegten Teilen). Anlass: „Eingehängt wird am laufenden Förderer“
 - R002-B5: Stolpern oder Rutschen auf pulverbedecktem Boden (Stolpern, Rutschen, Stürzen). Anlass: „Auf dem Boden liegt an mehreren Stellen Pulver“
 - R002-B6: Unfall durch fehlende Abstimmung zwischen Staplerfahrer und Kollegen in den Gassen (Unfall durch fehlende Abstimmung mit Fremden). Anlass: „die Kollegen laufen dazwischen, oft ohne Blickkontakt“
 - R002-B6: Stolpern oder Rutschen auf Spänen am Boden (Stolpern, Rutschen, Stürzen). Anlass: „der Boden ist dann mit Spänen bedeckt“
-- R002-B7: Einzug von Handschuhen oder Hand in den Bohrer (Einzug von Hand oder Arm). Anlass: „Die Handschuhe sind aus Baumwolle und hängen lose an den Handgelenken“
 - R002-B7: Handverletzung durch scharfe Grate an den Schnittkanten (Handverletzung durch Splitter und Kanten). Anlass: „An den Schnittkanten bleibt ein scharfer Grat“
-- R002-B8: Kippen des Hubwagens auf dem geneigten Hof (Fahrzeug kippt oder wird falsch bedient). Anlass: „Der Hof hat ein leichtes Gefälle zum Tor hin“
 - R002-B8: Muskel-Skelett-Belastung durch Heben von Fensterflügeln und Glas (Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen). Anlass: „pro Flügel bis zu fünfzig Kilo“
 - R002-B8: Stolpern oder Umknicken an Steinen auf dem Hof (Stolpern, Rutschen, Stürzen). Anlass: „an der Kante liegen Steine“
 
@@ -141,11 +133,13 @@ Bibliothek: 77 Regeln, 53 Wörterbucheinträge.
 - R002-B4: Unerwarteter Anlauf im Sonderbetrieb
 - R002-B4: Brand oder Explosion durch entzündbare Stoffe oder Gase
 - R002-B4: Getroffen werden von Klammer oder Teil
+- R002-B4: Atemwegserkrankung durch Staub
 - R002-B5: Unerwarteter Anlauf im Sonderbetrieb
 - R002-B5: Schwebende Last fällt herab
 - R002-B5: Schnitt- und Stichverletzung
 - R002-B6: Schnitt- und Stichverletzung
 - R002-B7: Quetschen und Scheren an bewegten Teilen
 - R002-B7: Stolpern, Rutschen, Stürzen
+- R002-B7: Atemwegserkrankung durch Staub
 - R002-B8: Schnitt- und Stichverletzung
 - R002-B8: Brand oder Explosion durch entzündbare Stoffe oder Gase

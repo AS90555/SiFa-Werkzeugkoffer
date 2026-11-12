@@ -22,6 +22,8 @@
 
 - Der Vorgang „Heben“ gilt nur für Kran, Hebezeug und Vakuumheber. Heben und Tragen von Hand ist „Heben, Tragen, Handhaben von Hand“.
 - Rüsten, Werkzeugwechsel, Reinigen und Störungsbeseitigung an einer Maschine sind Sonderbetrieb und bekommen das Material „Anlage“.
+- Zustände der Umgebung gehören zur Umgebung, nicht zu den Mängeln allein: verschmutzter oder unebener Boden, Zeitdruck, Hitze, Kälte, Gefälle, Lärm von nebenan, Fahrverkehr. Ein solcher Zustand kann zugleich als Mangel notiert werden.
+- Nennt das Protokoll, dass dieselbe Bewegung sehr oft wiederholt wird, die Angabe `gleichfoermig` auf wahr setzen.
 - Ist die Umgebung unauffällig, „Halle oder Werkstatt ohne Besonderheit“ wählen. Mehrere Umgebungen sind möglich.
 - Ein Schritt darf ohne Material stehen, wenn keines passt. Das fehlende Material wird als Wunsch notiert.
 - Mehrere Protokolle in einem Lauf werden nacheinander und unabhängig voneinander bearbeitet, je Protokoll eine Datei.

@@ -51,5 +51,20 @@
 {"worte": ["heben von hand", "tragen", "umsetzen", "auflegen", "abnehmen", "hebt"], "vorgang": "handhaben", "ausfuehrung": "von_hand", "hinweis": "Der Vorgang Heben ist nur für Kran, Hebezeug und Vakuumheber"},
 {"worte": ["stapler fährt durch", "fahrweg", "staplerverkehr"], "umgebung": ["fahrverkehr"]},
 {"worte": ["kompressor", "laut von nebenan", "nachbarplatz ist laut"], "umgebung": ["laerm_umgebung"]},
-{"worte": ["zugluft", "tor steht offen", "im winter kalt", "kalt"], "umgebung": ["kalt"]}
+{"worte": ["zugluft", "tor steht offen", "im winter kalt", "kalt"], "umgebung": ["kalt"]},
+{"worte": ["abkantpresse", "gesenkbiegepresse", "stanze", "exzenterpresse", "hydraulikpresse", "biegen", "abkanten", "stanzen"], "vorgang": "umformen", "ausfuehrung": "presse"},
+{"worte": ["pulverbeschichten", "pulverkabine", "pulverpistole"], "vorgang": "pulverbeschichten", "material": ["pulverlack"]},
+{"worte": ["pulverlack", "beschichtungspulver"], "material": ["pulverlack"]},
+{"worte": ["einbrennofen", "ofen", "trockner"], "vorgang": "einbrennen"},
+{"worte": ["kantenanleimmaschine", "kantenanleimen", "schmelzkleber"], "vorgang": "kantenanleimen", "ausfuehrung": "durchlaufmaschine", "material": ["schmelzkleber"]},
+{"worte": ["dickenhobel", "breitbandschleifer", "abrichte"], "ausfuehrung": "durchlaufmaschine", "hinweis": "Vorgang nach Maschine wählen"},
+{"worte": ["druckluftpistole", "abblasen", "mit druckluft gereinigt"], "vorgang": "abblasen"},
+{"worte": ["kehren", "fegen", "besen"], "vorgang": "kehren", "ausfuehrung": "von_hand"},
+{"worte": ["sack", "gebinde entleeren", "einfüllen", "ansaugtrichter"], "vorgang": "entleeren"},
+{"worte": ["ladekran", "lkw-kran"], "ausfuehrung": "ladekran", "vorgang": "anschlagen"},
+{"worte": ["stolperstelle", "späne am boden", "öl am boden", "rutschig", "liegt auf dem boden", "schlagloch", "kabel am boden"], "umgebung": ["boden"]},
+{"worte": ["zeitdruck", "hektik", "unter druck", "muss schnell gehen", "termindruck"], "umgebung": ["zeitdruck"]},
+{"worte": ["hitze", "warm am ofen", "strahlungswärme"], "umgebung": ["hitze"]},
+{"worte": ["gefälle", "rampe", "abschüssig"], "umgebung": ["gefaelle"]},
+{"worte": ["immer dieselbe bewegung", "hundert mal", "dreihundert mal", "mehrere hundert mal", "im takt"], "angabe": {"gleichfoermig": true}}
 ]

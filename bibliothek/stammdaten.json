@@ -292,6 +292,33 @@
    "merkmale": [
     "m.anlage"
    ]
+  },
+  {
+   "id": "pulverlack",
+   "name": "Pulverlack, Beschichtungspulver",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.staub"
+   ]
+  },
+  {
+   "id": "schmelzkleber",
+   "name": "Schmelzkleber, heiß verarbeitet",
+   "merkmale": [
+    "m.heiss"
+   ]
+  },
+  {
+   "id": "heisses_werkstueck",
+   "name": "Heißes Werkstück, frisch geschweißt oder aus dem Ofen",
+   "merkmale": [
+    "m.heiss"
+   ]
+  },
+  {
+   "id": "kantenmaterial",
+   "name": "Kantenband, Furnier",
+   "merkmale": []
   }
  ],
  "vorgang": [
@@ -609,6 +636,71 @@
    "id": "montieren",
    "name": "Montieren, Zusammenbauen, Richten",
    "merkmale": []
+  },
+  {
+   "id": "umformen",
+   "name": "Biegen, Abkanten, Stanzen, Pressen",
+   "merkmale": [
+    "v.pressen",
+    "v.laut"
+   ]
+  },
+  {
+   "id": "pulverbeschichten",
+   "name": "Pulverbeschichten",
+   "merkmale": [
+    "v.stoff_auftragen",
+    "v.beschichten"
+   ]
+  },
+  {
+   "id": "einbrennen",
+   "name": "Einbrennen, Trocknen im Ofen",
+   "merkmale": [
+    "v.heiss"
+   ]
+  },
+  {
+   "id": "kantenanleimen",
+   "name": "Kanten anleimen und bündig fräsen",
+   "merkmale": [
+    "v.heiss",
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut",
+    "v.fraesen"
+   ]
+  },
+  {
+   "id": "abblasen",
+   "name": "Reinigen mit Druckluft, Abblasen",
+   "merkmale": [
+    "v.reinigen",
+    "v.abblasen",
+    "v.laut"
+   ]
+  },
+  {
+   "id": "kehren",
+   "name": "Kehren, Boden reinigen",
+   "merkmale": [
+    "v.reinigen"
+   ]
+  },
+  {
+   "id": "entleeren",
+   "name": "Säcke und Gebinde entleeren, Pulver oder Schüttgut einfüllen",
+   "merkmale": [
+    "v.stoff_auftragen"
+   ]
+  },
+  {
+   "id": "anschlagen",
+   "name": "Last anschlagen und am Kran führen",
+   "merkmale": [
+    "v.heben"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -769,6 +861,27 @@
    "merkmale": [
     "a.flurfoerderzeug"
    ]
+  },
+  {
+   "id": "presse",
+   "name": "Presse, Abkantpresse, Stanze",
+   "merkmale": [
+    "a.presse"
+   ]
+  },
+  {
+   "id": "durchlaufmaschine",
+   "name": "Durchlaufmaschine mit Vorschubwalzen, Werkstück von Hand angelegt",
+   "merkmale": [
+    "a.einzugswalzen"
+   ]
+  },
+  {
+   "id": "ladekran",
+   "name": "Ladekran am Fahrzeug",
+   "merkmale": [
+    "a.hebezeug"
+   ]
   }
  ],
  "umgebung": [
@@ -845,6 +958,34 @@
    "name": "Kälte, Zugluft, offenes Tor",
    "merkmale": [
     "u.kalt"
+   ]
+  },
+  {
+   "id": "boden",
+   "name": "Verschmutzter oder unebener Boden, Stolperstellen",
+   "merkmale": [
+    "u.boden"
+   ]
+  },
+  {
+   "id": "zeitdruck",
+   "name": "Zeitdruck, Hektik, häufige Störungen",
+   "merkmale": [
+    "u.zeitdruck"
+   ]
+  },
+  {
+   "id": "hitze",
+   "name": "Hitze, Wärmestrahlung",
+   "merkmale": [
+    "u.hitze"
+   ]
+  },
+  {
+   "id": "gefaelle",
+   "name": "Gefälle, Rampe",
+   "merkmale": [
+    "u.gefaelle"
    ]
   }
  ]

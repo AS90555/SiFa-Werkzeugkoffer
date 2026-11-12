@@ -163,5 +163,15 @@
   "id": "g-klima",
   "faktor": 8,
   "name": "Belastung durch Kälte, Hitze oder Zugluft"
+ },
+ {
+  "id": "g-staub",
+  "faktor": 3,
+  "name": "Atemwegserkrankung durch Staub"
+ },
+ {
+  "id": "g-psychisch",
+  "faktor": 10,
+  "name": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge"
  }
 ]

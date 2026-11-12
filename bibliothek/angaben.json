@@ -92,5 +92,10 @@
   "id": "kss_wassergemischt",
   "typ": "ja_nein",
   "frage": "Ist der Kühlschmierstoff wassergemischt (Emulsion)?"
+ },
+ {
+  "id": "gleichfoermig",
+  "typ": "ja_nein",
+  "frage": "Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht?"
  }
 ]

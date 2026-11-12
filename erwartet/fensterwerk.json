@@ -216,6 +216,16 @@
       3
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -241,6 +251,16 @@
       1
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -365,6 +385,18 @@
       2
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      3,
+      4
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -420,6 +452,17 @@
       2
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -556,6 +599,29 @@
      "fehlt": [
       "sensibilisierend"
      ]
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R81",
+     "status": "trifft zu",
+     "schritte": [
+      6
+     ],
+     "fehlt": []
     }
    ]
   },
@@ -672,6 +738,17 @@
       3
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      5
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -706,6 +783,17 @@
       3
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -742,6 +830,27 @@
       3
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      2,
+      3
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R82",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": []
     }
    ]
   },
@@ -766,6 +875,24 @@
      "fehlt": [
       "last_kg"
      ]
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R82",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
     }
    ]
   },
@@ -884,6 +1011,24 @@
      "fehlt": [
       "sdb"
      ]
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R82",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
     }
    ]
   },
@@ -927,6 +1072,16 @@
      ],
      "fehlt": [
       "sensibilisierend"
+     ]
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
      ]
     }
    ]
@@ -980,6 +1135,26 @@
       2
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      3,
+      4
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R82",
+     "status": "trifft zu",
+     "schritte": [
+      3,
+      4
+     ],
+     "fehlt": []
     }
    ]
   },
@@ -1029,6 +1204,25 @@
      "status": "trifft zu",
      "schritte": [
       3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      3
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R82",
+     "status": "trifft zu",
+     "schritte": [
+      1
      ],
      "fehlt": []
     }
@@ -1218,6 +1412,17 @@
      "fehlt": [
       "sensibilisierend"
      ]
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1,
+      3
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -1237,6 +1442,24 @@
     },
     {
      "regel": "R42",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R82",
      "status": "trifft zu",
      "schritte": [
       1
@@ -1267,6 +1490,16 @@
       1
      ],
      "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   },
@@ -1312,6 +1545,24 @@
     },
     {
      "regel": "R44",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
+    },
+    {
+     "regel": "R83",
      "status": "trifft zu",
      "schritte": [
       1
@@ -1440,6 +1691,16 @@
      "fehlt": [
       "sensibilisierend"
      ]
+    },
+    {
+     "regel": "R78",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "gleichfoermig"
+     ]
     }
    ]
   }
@@ -1563,11 +1824,17 @@
    "name": "Quetschen und Scheren an bewegten Teilen",
    "stationen": [
     11,
+    12,
+    13,
+    16,
     18,
-    20
+    19,
+    20,
+    25
    ],
    "regeln": [
     "R25",
+    "R82",
     "R33",
     "R36"
    ]
@@ -1582,6 +1849,7 @@
    ],
    "regeln": [
     "R20",
+    "R81",
     "R47"
    ]
   },
@@ -1713,6 +1981,17 @@
    "regeln": [
     "R35",
     "R49"
+   ]
+  },
+  {
+   "id": "g-staub",
+   "faktor": 3,
+   "name": "Atemwegserkrankung durch Staub",
+   "stationen": [
+    27
+   ],
+   "regeln": [
+    "R83"
    ]
   },
   {
@@ -1933,6 +2212,30 @@
     18,
     19,
     26
+   ]
+  },
+  {
+   "id": "gleichfoermig",
+   "frage": "Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht?",
+   "stationen": [
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17,
+    18,
+    19,
+    24,
+    25,
+    26,
+    27,
+    30
    ]
   }
  ],

@@ -278,5 +278,12 @@
   "stufe": "pflicht",
   "stand": "nicht abgelegt",
   "datei": null
+ },
+ {
+  "id": "trgs-900",
+  "titel": "TRGS 900 Arbeitsplatzgrenzwerte",
+  "stufe": "vermutungswirkung",
+  "stand": "Fassung 05.06.2026",
+  "datei": "TRGS/TRGS-900.pdf"
  }
 ]
