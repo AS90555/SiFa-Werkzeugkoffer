@@ -1,0 +1,26 @@
+{"id":"R001-A3","name":"R001-A3","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Trennspray","material":"spruehdose","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Schweißplatz 3","bereich":"Schweißen","personen":1,"umgebung":["halle"],"angaben":{"last_kg":20},
+   "schritte":[
+    {"vorgang":"heben","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"Geschweißt wird mit einem MAG-Schweißgerät, der Brenner wird von Hand geführt.","fehlt":"Vorgang Schweißen und Ausführung Schweißgerät mit Handführung fehlen. Der Schritt wurde weggelassen."},
+  {"text":"Vierkantrohr-Profile, 8 bis 20 kg, Schnittkanten scharf und nicht gebrochen","fehlt":"Material Stahlprofil oder Rohr mit Merkmal scharfkantig fehlt. Die Schritte 1 und 2 haben deshalb kein Material."},
+  {"text":"Die Profile wiegen zwischen acht und zwanzig Kilo.","fehlt":"Angabe last_kg mit dem Höchstwert 20 eingetragen. Griffe je Stunde sind nicht genannt und bleiben offen."},
+  {"text":"Das Schutzgas kommt aus einer Stahlflasche ... eine Kette hält sie nicht.","fehlt":"Druckgasflasche als Material und Vorgang Flaschen sichern oder lagern fehlen."},
+  {"text":"Neben dem Tisch steht der Nachbarplatz mit der Schleifmaschine ... dann muss man lauter sprechen.","fehlt":"Lärm von einem Nachbarplatz als Umgebung fehlt. Es gibt keinen Wert in dB(A). Schleifen gehört nicht zur Tätigkeit dieser Station."},
+  {"text":"Über dem Tisch hängt eine Absaugung, sie ist eingeschaltet, trotzdem sieht man den Dunst über dem Tisch.","fehlt":"Schweißrauch als Stoff und Absaugung für Schweißrauch fehlen. Die Absaugung in der Bibliothek gilt für Holzstaub und wurde nicht verwendet."},
+  {"text":"Frisch geschweißte Teile liegen noch glühend auf dem Tisch, bevor sie abkühlen.","fehlt":"Heiße Oberflächen als Material oder Merkmal fehlen."},
+  {"text":"Funken fliegen bis zur Kiste mit Trennspray in Armlänge.","fehlt":"Funkenflug und Brandgefahr bei Sprühdose in der Nähe können nicht abgebildet werden. Das Trennspray ist als Stoff eingetragen, SDB und H-Sätze sind offen."},
+  {"text":"Rüsten macht der Schweißer am Morgen selbst, dabei werden die Spannschrauben nachgezogen.","fehlt":"Vorgang Rüsten ist nur über Sonderbetrieb abgebildet. Spannen und Schweißvorrichtung als Material fehlen."},
+  {"text":"Nach Arbeitsende wird der Tisch mit der Drahtbürste gereinigt, Spritzer werden abgeschabt.","fehlt":"Reinigen mit Bürste oder Schaber ist nur über Sonderbetrieb abgebildet. Schweißspritzer als Material fehlen."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Schweißer holt sie von Hand aus dem Regal ... hebt sie nach dem Schweißen wieder herunter.","sicher":true},
+  {"schritt":2,"stelle":"legt sie auf den Tisch","sicher":false},
+  {"schritt":3,"stelle":"Rüsten macht der Schweißer am Morgen selbst, dabei werden die Spannschrauben nachgezogen.","sicher":false},
+  {"schritt":4,"stelle":"Nach Arbeitsende wird der Tisch mit der Drahtbürste gereinigt, Spritzer werden abgeschabt.","sicher":false}
+ ]}

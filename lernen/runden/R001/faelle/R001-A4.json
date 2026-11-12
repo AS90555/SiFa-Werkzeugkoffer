@@ -1,0 +1,32 @@
+{"id":"R001-A4","name":"R001-A4","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"CNC-Drehmaschine, vollständig verkleidet","bereich":"Zerspanung","personen":1,"umgebung":["halle"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"von_hand","material":[],"angaben":{"last_kg":12}},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Die Maschine dreht Wellen aus Stahl; Spindel dreht bei rund zweitausend Umdrehungen, Programm läuft bei geschlossener Schiebetür","fehlt":"Vorgang Drehen/Zerspanen von Metall auf der CNC-Maschine (nur Sägen von Metall vorhanden); Schritt weggelassen"},
+  {"text":"Rohlinge aus Stahl, acht bis zwölf Kilogramm","fehlt":"Material Stahlrohling/Metallwerkstück; Last mit dem Höchstwert 12 kg eingetragen, Spanne 8 bis 12 kg"},
+  {"text":"dreihundert Mal pro Schicht, immer mit demselben Griff","fehlt":"Griffe je Stunde nicht eintragbar, Schichtdauer fehlt; Angabe griffe_h bleibt offen. Auch Zwangshaltung/gleichartige Wiederholung und gebeugter Rücken ohne Ablageort in den Stammdaten"},
+  {"text":"Ein Strahl Kühlschmierstoff, eine Emulsion aus Wasser und Öl, spritzt auf das Werkzeug","fehlt":"Material Kühlschmierstoff (Gefahrstoff) fehlt in den Stammdaten, daher kein Eintrag unter stoffe; Vorgang Kühlschmierstoff zuführen fehlt"},
+  {"text":"Im Raum steht ein feiner, süßlich riechender Nebel","fehlt":"Kühlschmierstoffnebel in der Raumluft: keine Stammdaten-Kennung dafür"},
+  {"text":"Nach dem Eingriff sind die Hände meist nass und ölig","fehlt":"Hautkontakt mit Kühlschmierstoff: keine Angabe/Material in den Stammdaten"},
+  {"text":"Beim Schlichten fallen lange, scharfkantige Stahlspäne in die Verkleidung","fehlt":"Material Metallspäne; Vorgang Schlichten/Zerspanen fehlt"},
+  {"text":"Hat sich ein Span im Bereich am Spannfutter verklemmt, greift man mit der Hand hinein, während die Spindel noch ausläuft","fehlt":"Schritt als Sonderbetrieb von Hand eingetragen; Nachlaufende Spindel und Eingriff bei geschlossener Verkleidung nicht abbildbar; Material Metallspäne fehlt"},
+  {"text":"Die Späne laufen in eine Wanne, und ein Förderband bringt sie in einen Container","fehlt":"Vorgang Späne fördern/Förderband und Ausführung Späneförderer fehlen; Schritt weggelassen"},
+  {"text":"Die Umlenkrolle des Förderbands liegt offen, wer die Wanne leert, steht direkt davor","fehlt":"Ungeschützte Antriebs-/Umlenkstelle am Förderband: keine Ausführung oder Umgebung dafür"},
+  {"text":"Die Maschine ist laut, man verständigt sich nur durch Zeichen und kurzes Rufen","fehlt":"Kein Pegelwert genannt, daher laerm_db offen"},
+  {"text":"Hier arbeitet eine Person, bei einem neuen Auftrag rüstet der Einrichter","fehlt":"Zweite Person (Einrichter) nur zeitweise; Personenzahl 1 eingetragen"},
+  {"text":"Das Rüsten macht der Einrichter am Werkzeugwechsler mit einem Schlüssel","fehlt":"Als Sonderbetrieb von Hand eingetragen; Werkzeugwechsler der Maschine ist nicht abgebildet (werkzeug_wechseln passt nur für Messerwechsel)"},
+  {"text":"Gereinigt wird einmal pro Woche nach Schichtende, dabei wird die Wanne ausgeräumt","fehlt":"Als Sonderbetrieb von Hand eingetragen; Häufigkeit wöchentlich nicht abbildbar; Material Späne/Kühlschmierstoff fehlt"},
+  {"text":"Die Maschine ist vollständig verkleidet, die Schiebetür hat eine Sichtscheibe und bleibt während der Bearbeitung zu","fehlt":"Schutzeinrichtung/Verriegelung der Tür nicht als Angabe in den Stammdaten"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Bediener nimmt die Rohlinge aus einer Gitterbox ... Er hebt jedes Teil mit gebeugtem Rücken heraus und setzt es in das Spannfutter","sicher":true},
+  {"schritt":2,"stelle":"Hat sich ein Span im Bereich am Spannfutter verklemmt, greift man mit der Hand hinein, während die Spindel noch ausläuft","sicher":true},
+  {"schritt":3,"stelle":"Das Rüsten macht der Einrichter am Werkzeugwechsler mit einem Schlüssel","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird einmal pro Woche nach Schichtende, dabei wird die Wanne ausgeräumt","sicher":true}
+ ]}

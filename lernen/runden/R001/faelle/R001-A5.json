@@ -1,0 +1,35 @@
+{"id":"R001-A5","name":"R001-A5","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Kommissionier- und Verpackungsstation Rampe Nord","bereich":"Lager und Versand","personen":2,"umgebung":["lager","aussen"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"von_hand","material":["kantel"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["kantel"]},
+   {"vorgang":"bewegen","ausfuehrung":"mitgaenger_elektro","material":["kantelpaket"]},
+   {"vorgang":"bewegen","ausfuehrung":"gabelstapler_elektro","material":["kantelpaket"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"ein Bündel wiegt manchmal über dreißig Kilogramm","fehlt":"Genaues Gewicht je Griff nicht genannt, nur 'über dreißig'; last_kg nicht eingetragen"},
+  {"text":"oft mehr als hundert Mal, den ganzen Tag","fehlt":"Griffe je Stunde nicht genannt, nur grobe Zahl je Tag; griffe_h nicht eingetragen"},
+  {"text":"kleine Platten","fehlt":"Material Platte fehlt in den Stammdaten"},
+  {"text":"Oben in den Regalen liegen die Bündel dicht gepackt, beim Herausziehen rutschen manchmal welche nach","fehlt":"Vorgang Lagern gestapelt ist vorhanden, aber keine passende Ausführung für Regallagerung mit Herausziehen von Hand; Schritt weggelassen"},
+  {"text":"Stretchfolien-Wickler","fehlt":"Vorgang Verpacken/Wickeln und Ausführung Wickler fehlen; Schritt weggelassen"},
+  {"text":"Die Umreifungsmaschine läuft automatisch, man schiebt das Paket hinein und sie spannt das Band selbst, dabei laufen Rollen und Spanner mit","fehlt":"Vorgang Umreifen/Verpacken fehlt (Ausführung Halbautomat wäre denkbar); Schritt weggelassen"},
+  {"text":"Handabroller für Klebeband","fehlt":"Vorgang Verpacken mit Klebeband und Ausführung Handabroller fehlen (kleben meint Klebstoff auftragen); Schritt weggelassen"},
+  {"text":"Hohe Stapel auf den Paletten werden mit dem Hubwagen bewegt","fehlt":"Antrieb des Hubwagens nicht genannt (Handhubwagen ohne Antrieb nicht in der Bibliothek); Material Palette mit hohem Stapel fehlt, ersatzweise Kantelpaket"},
+  {"text":"zum Verladen fährt der Stapler über den Hof","fehlt":"Antrieb des Staplers nicht genannt; Material der Ladung nicht genannt, ersatzweise Kantelpaket"},
+  {"text":"Zwischen Regalen und Rampe gibt es keinen abgetrennten Gehweg, Stapler und Fußgänger teilen sich die Gänge","fehlt":"Keine Umgebung oder Angabe für fehlende Verkehrswege-Trennung"},
+  {"text":"Im Lager ist es staubig, die Lüftung läuft","fehlt":"Keine Angabe für Staubbelastung oder Lüftung an der Station"},
+  {"text":"Rüsten macht der Schichtleiter an der Umreifungsmaschine","fehlt":"Vorgang Rüsten ist nur als Sonderbetrieb vorhanden; Ausführung und Anlage Umreifungsmaschine nicht abbildbar, Ausführung von_hand und Material anlage nur ersatzweise"},
+  {"text":"gereinigt wird am Schichtende mit Druckluft und Besen","fehlt":"Reinigen mit Druckluft als Ausführung fehlt; von_hand ersatzweise"},
+  {"text":"im Lager ist zusätzlich ein Staplerfahrer unterwegs","fehlt":"Personen im Lager außerhalb der Station (Staplerfahrer) lassen sich nicht getrennt erfassen; Personenzahl der Station ist 2"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"holt Leisten, Kanthölzer ... aus den Regalfächern ... von Hand angehoben und auf den Packtisch gelegt","sicher":true},
+  {"schritt":2,"stelle":"legt sie auf eine Palette oder in einen Gitterboxwagen","sicher":true},
+  {"schritt":3,"stelle":"Hohe Stapel auf den Paletten werden mit dem Hubwagen bewegt","sicher":false},
+  {"schritt":4,"stelle":"zum Verladen fährt der Stapler über den Hof","sicher":false},
+  {"schritt":5,"stelle":"Rüsten macht der Schichtleiter an der Umreifungsmaschine","sicher":false},
+  {"schritt":6,"stelle":"gereinigt wird am Schichtende mit Druckluft und Besen","sicher":false}
+ ]}

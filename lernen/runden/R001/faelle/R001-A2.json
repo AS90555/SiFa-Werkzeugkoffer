@@ -1,0 +1,35 @@
+{"id":"R001-A2","name":"R001-A2","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Zweikomponentenlack, Grundlack","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Härter zum Zweikomponentenlack","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Verdünnung","material":"lackreste","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Lackierplatz 2","bereich":"Oberfläche","personen":2,"umgebung":["halle"],"angaben":{"hartholz":true,"last_kg":25},
+  "schritte":[
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"heben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"schleifen","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"lackieren","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"schleifen","ausfuehrung":"handmaschine","material":["element_lackiert"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["lackreste"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"Grundlack und Härter werden aus zwei Gebinden im Verhältnis angemischt und in einem Becher abgemessen","fehlt":"Vorgang Anmischen und Abmessen von Stoffen fehlt in den Stammdaten"},
+  {"text":"Die Lappen mit Verdünnung legt man in eine offene Metalltonne neben dem Platz","fehlt":"Vorgang Entsorgen oder Sammeln lösemittelgetränkter Lappen und Material für Lappen fehlen"},
+  {"text":"Exzenterschleifer, dessen Absaugschlauch daran hängt","fehlt":"Angabe, ob Handmaschine an Absaugung angeschlossen ist, fehlt; Material Holzstaub beim Schleifen wurde nicht eingetragen"},
+  {"text":"Türblätter und Korpusseiten, bis 2,20 m lang, bis 25 kg, liegen auf Böcken, zwei Personen heben gemeinsam","fehlt":"Material für Türblatt oder Korpusseite fehlt (Rahmen/Flügel passt nicht sicher); Angabe für gemeinsames Heben zu zweit fehlt; Griffe je Stunde nicht genannt"},
+  {"text":"Die Halle ist groß, das Tor steht im Sommer offen, im Winter ist es kalt","fehlt":"Umgebung Klima, Kälte oder offenes Tor fehlt in den Stammdaten"},
+  {"text":"Rüsten macht am Schichtbeginn der Schichtführer, Reinigen am Schichtende","fehlt":"Zuordnung von Tätigkeiten zu Personen, auch Schichtführer als dritte Person, fehlt; Rüsten (Böcke und Wagen aufstellen) und Befüllen der Gebinde sind in einem Schritt zusammengefasst"},
+  {"text":"Rollen und Pinsel werden in einer Waschwanne mit Verdünnung ausgewaschen","fehlt":"Reinigen von Werkzeug in Wanne von Hand mit Lösemittel ist nur ungefähr als reinigen_hand abgebildet; Reinigungsbecken (tauchbad) passt für Handwaschwanne nicht sicher"},
+  {"text":"Zwischen den Lagen wird wieder geschliffen","fehlt":"Nicht ausdrücklich genannt, ob wieder mit Exzenterschleifer; angenommen als Maschine, Gerät fehlt im Protokoll"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Rüsten macht am Schichtbeginn der Schichtführer, er stellt Böcke und Wagen auf und füllt die Gebinde nach","sicher":true},
+  {"schritt":2,"stelle":"zum Drehen und Umsetzen heben die beiden das Teil gemeinsam auf den Trockenwagen","sicher":false},
+  {"schritt":3,"stelle":"Geschliffen wird von Hand mit einem Exzenterschleifer, dessen Absaugschlauch daran hängt","sicher":true},
+  {"schritt":4,"stelle":"Gelackt wird mit Farbrolle und Pinsel, dünn, Lage für Lage","sicher":true},
+  {"schritt":5,"stelle":"zwischen den Lagen wird wieder geschliffen","sicher":false},
+  {"schritt":6,"stelle":"Rollen und Pinsel werden in einer Waschwanne mit Verdünnung ausgewaschen","sicher":false},
+  {"schritt":7,"stelle":"die Späne und Schleifreste vom Boden kommen mit dem Besen und dem Industriesauger weg","sicher":true}
+ ]}

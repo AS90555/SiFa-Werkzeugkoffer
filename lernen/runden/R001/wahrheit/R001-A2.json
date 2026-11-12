@@ -1,0 +1,55 @@
+{
+  "id": "R001-A2",
+  "branche": "Holz, Möbelfertigung",
+  "arbeitsplatz": "Lackierplatz zwei, Bereich Oberfläche, Lackieren von Hand",
+  "gefaehrdungen": [
+    {
+      "text": "Gesundheitsschaden durch den Zweikomponentenlack und seine Bestandteile",
+      "faktor": 3,
+      "bibliothek": "g-gefahrstoff",
+      "anlass": "Es ist ein Zweikomponentenlack"
+    },
+    {
+      "text": "Reizung oder Verätzung von Haut und Augen beim Auswaschen von Rollen und Pinseln mit Verdünnung",
+      "faktor": 3,
+      "bibliothek": "g-haut-augen",
+      "anlass": "Rollen und Pinsel werden in einer Waschwanne mit Verdünnung ausgewaschen"
+    },
+    {
+      "text": "Atemwegserkrankung durch den Staub beim Schleifen von Hand",
+      "faktor": 3,
+      "bibliothek": "g-holzstaub",
+      "anlass": "Geschliffen wird von Hand mit einem Exzenterschleifer, dessen Absaugschlauch daran hängt"
+    },
+    {
+      "text": "Krebs der Nase durch den Staub von Buche und Eiche",
+      "faktor": 3,
+      "bibliothek": "g-hartholzstaub",
+      "anlass": "Die Teile sind Türblätter und Korpusseiten aus Buche und Eiche"
+    },
+    {
+      "text": "Brand durch mit Verdünnung getränkte Lappen in einer offenen Metalltonne",
+      "faktor": 5,
+      "bibliothek": "g-brand-ex-stoff",
+      "anlass": "Die Lappen mit Verdünnung legt man in eine offene Metalltonne neben dem Platz"
+    },
+    {
+      "text": "Muskel-Skelett-Belastung beim gemeinsamen Heben und Umsetzen schwerer Türen",
+      "faktor": 9,
+      "bibliothek": "g-heben-tragen",
+      "anlass": "heben die beiden das Teil gemeinsam auf den Trockenwagen"
+    },
+    {
+      "text": "Hand-Arm-Beschwerden durch gleichförmiges Lackieren Lage für Lage",
+      "faktor": 9,
+      "bibliothek": "g-repetitiv",
+      "anlass": "Gelackt wird mit Farbrolle und Pinsel, dünn, Lage für Lage"
+    },
+    {
+      "text": "Belastung durch Kälte am Arbeitsplatz im Winter",
+      "faktor": 8,
+      "bibliothek": null,
+      "anlass": "im Winter ist es kalt"
+    }
+  ]
+}

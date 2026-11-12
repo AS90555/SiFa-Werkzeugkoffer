@@ -10,6 +10,7 @@ Stand: 12.11.2026, Version 0.3. Alle Regeln und Pflichten stehen fachlich im Ent
 - [Lastenheft](docs/02_Lastenheft.md): was es können muss
 - [Pflichtenheft](docs/03_Pflichtenheft.md): wie es gebaut wird
 - [Roadmap](docs/04_Roadmap.md): Meilensteine und ihre Abnahme
+- [Lernkreislauf](docs/05_Lernkreislauf.md): wie erzeugte Protokolle das System füttern und prüfen
 
 ## Der Arbeitskreis
 

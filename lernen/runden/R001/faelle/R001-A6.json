@@ -1,0 +1,26 @@
+{"id":"R001-A6","name":"R001-A6",
+ "betrieb":{"beschaeftigte":40},
+ "angaben":{},
+ "stoffe":[{"id":"s1","name":"Reiniger im Kanister mit Totenkopf-Kennzeichnung","material":"werkzeugreiniger","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Montagebucht hinten links","bereich":"Instandhaltung","personen":1,"umgebung":["halle"],"angaben":{"last_kg":60},
+   "schritte":[
+     {"vorgang":"heben","ausfuehrung":"von_hand","material":[]},
+     {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]},
+     {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":[]}
+   ]}],
+ "wuensche":[
+  {"text":"Die Stahlprofile wiegen bis sechzig Kilo, er hebt sie von Hand auf die Auflage, ein Stück nach dem anderen","fehlt":"Material Stahlprofil (Metall, Langgut) fehlt; Griffe je Stunde nicht genannt"},
+  {"text":"Zum Ablängen steht ein Winkelschleifer mit Trennscheibe auf dem Tisch, den führt er selbst über das Blech, es spritzen Funken und feine Grate ab","fehlt":"Vorgang Trennschleifen mit Trennscheibe (Funken, Metallstaub) fehlt; Sägen von Metall passt nicht; Winkelschleifer fehlt im Wörterbuch; Material Stahl/Blech fehlt"},
+  {"text":"Daneben läuft ein Kompressor, und der Winkelschleifer ist so laut, dass man sich nur anschreien kann","fehlt":"Kein Lärmpegel in dB(A) genannt; Lärmquelle Kompressor fehlt in den Stammdaten"},
+  {"text":"Über dem Bock hängt ein Kettenzug an einer Traverse, den holt er immer wieder heran und fährt Teile darunter durch","fehlt":"Ausführung Kettenzug / Hebezeug mit Traverse fehlt (Hängeförderer ist ein anderes Gerät)"},
+  {"text":"Die Schaltschrankklappe steht offen, ein Kabel wird nachgezogen, ein Teil der Anlage bleibt unter Spannung","fehlt":"Vorgang Arbeiten an elektrischen Anlagen, auch unter Spannung, fehlt; Material und Ausführung dafür fehlen"},
+  {"text":"Zum Entfetten steht ein Kanister mit Reiniger auf dem Boden, Totenkopf auf dem Etikett, nicht zugeschraubt","fehlt":"Material Entfetter/Kaltreiniger fehlt; beim Stoff nur als Behelf werkzeugreiniger eingetragen, weil das Feld Material Pflicht ist (vorhandene Reiniger sind für Glasrand, Tauchbad, Lackreste); Sicherheitsdatenblatt und H-Sätze unbekannt; Vorgang Entfetten nur vermutet, Tätigkeit selbst nicht beschrieben"},
+  {"text":"Ein Gabelstapler fährt zweimal am Tag durch die Tür, die Fahrwege sind mit Farbe markiert, aber der Fahrer schaut nicht immer hin","fehlt":"Fremder Fahrverkehr als Umgebung fehlt (Umgebung Verkehrsweg/Gabelstaplerverkehr); Mitarbeiter fährt nicht selbst, daher kein Schritt; Antrieb des Staplers unbekannt"},
+  {"text":"Die Stahlprofile liegen im Lager auf einem Bock","fehlt":"Unklar, ob die Bucht im Lager oder in der Halle liegt; Umgebung halle nur angenommen"},
+  {"text":"Gerüstet und gereinigt wird der Arbeitsplatz vom Mitarbeiter selbst am Ende der Schicht","fehlt":"Keine genauere Angabe, womit und wie gereinigt wird; Material offen"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"der Mann hebt sie von Hand auf die Auflage, ein Stück nach dem anderen","sicher":true},
+  {"schritt":2,"stelle":"Zum Entfetten steht ein Kanister mit Reiniger auf dem Boden","sicher":false},
+  {"schritt":3,"stelle":"Gerüstet und gereinigt wird der Arbeitsplatz vom Mitarbeiter selbst am Ende der Schicht","sicher":true}
+ ]}

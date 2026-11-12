@@ -1,0 +1,110 @@
+{
+ "runde": "R001",
+ "regeln": 58,
+ "quote": 24,
+ "summe": {
+  "getroffen": 11,
+  "nachfrage": 2,
+  "uebersehen": 29,
+  "ohneEintrag": 3,
+  "zusaetzlich": 8,
+  "wuensche": 66,
+  "schritte": 29
+ },
+ "faelle": [
+  {
+   "id": "R001-A1",
+   "arbeitsplatz": "Formatkreissäge im Maschinenraum",
+   "branche": "Holz, kleine Tischlerei",
+   "getroffen": 2,
+   "nachfrage": 1,
+   "uebersehen": 3,
+   "ohneEintrag": 1,
+   "zusaetzlich": 2
+  },
+  {
+   "id": "R001-A2",
+   "arbeitsplatz": "Lackierplatz zwei, Bereich Oberfläche, Lackieren von Hand",
+   "branche": "Holz, Möbelfertigung",
+   "getroffen": 3,
+   "nachfrage": 1,
+   "uebersehen": 3,
+   "ohneEintrag": 1,
+   "zusaetzlich": 2
+  },
+  {
+   "id": "R001-A3",
+   "arbeitsplatz": "Schweißplatz Nummer drei, Bereich Schweißen",
+   "branche": "Metall, Schlosserei und Metallbau",
+   "getroffen": 1,
+   "nachfrage": 0,
+   "uebersehen": 6,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R001-A4",
+   "arbeitsplatz": "CNC-Drehmaschine, Drehen mit Kühlschmierstoff",
+   "branche": "Metall, Zerspanung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 7,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R001-A5",
+   "arbeitsplatz": "Kommissionier- und Verpackungsstation im Versand an der Rampe Nord",
+   "branche": "Holz",
+   "getroffen": 5,
+   "nachfrage": 0,
+   "uebersehen": 3,
+   "ohneEintrag": 0,
+   "zusaetzlich": 4
+  },
+  {
+   "id": "R001-A6",
+   "arbeitsplatz": "Montagebucht hinten links in der Betriebswerkstatt, Bereich Instandhaltung",
+   "branche": "Metallbau, mittlerer Betrieb mit rund vierzig Beschäftigten",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 7,
+   "ohneEintrag": 1,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 4,
+   "verfehlt": 12
+  },
+  "2": {
+   "getroffen": 0,
+   "verfehlt": 2
+  },
+  "3": {
+   "getroffen": 5,
+   "verfehlt": 6
+  },
+  "5": {
+   "getroffen": 0,
+   "verfehlt": 2
+  },
+  "6": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 0,
+   "verfehlt": 4
+  },
+  "8": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "9": {
+   "getroffen": 2,
+   "verfehlt": 6
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{"id":"R001-A1","name":"R001-A1","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Reiniger aus der Sprühdose, riecht nach Lösemittel","material":"spruehdose","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Formatkreissäge an der Westwand","bereich":"Holzbearbeitung (Maschinenraum)","personen":1,"umgebung":[],"angaben":{"last_kg":35},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["holzstaub"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["spruehdose"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["schneidwerkzeug"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"Spanplatten, 18 mm, rund 2,5 m lang, etwa 35 kg","fehlt":"Material Spanplatte (Plattenware) fehlt in den Stammdaten"},
+  {"text":"dreißig- bis vierzigmal am Tag","fehlt":"Angabe griffe_h verlangt Griffe je Stunde, das Protokoll nennt nur Griffe je Tag; nicht umgerechnet"},
+  {"text":"Bei kurzen Zuschnitten schiebt man mit der Hand nach, die Hand kommt manchmal nah ans Blatt","fehlt":"Kein Merkmal für Handnähe am Blatt / Nachschieben ohne Schiebestock"},
+  {"text":"Sägeblatt etwa 300 mm unter einer Haube, Schiebetisch","fehlt":"Keine Angaben zu Schutzhaube, Spaltkeil, Rückschlag in den Stammdaten"},
+  {"text":"Absaugung über dem Blatt, trotzdem feiner Staub in der Luft","fehlt":"Absaugung an der Maschine (Erfassung am Blatt) ist nicht von der Absauganlage mit Silo unterscheidbar; keine Angabe zur Wirksamkeit"},
+  {"text":"Die Säge läuft den ganzen Tag, man muss schreien, um sich zu verständigen","fehlt":"Kein Lärmwert (laerm_db) im Protokoll"},
+  {"text":"Der Blattwechsel macht der Meister, Hauptschalter an der Wand umgelegt, ein Schloss hat er nicht","fehlt":"Kein Merkmal für Freischalten ohne Sicherung gegen Wiedereinschalten"},
+  {"text":"Mehrfachstecker am Verlängerungskabel, Stecker sitzt in der Steckdose locker","fehlt":"Elektrische Betriebsmittel und Zustand fehlen in den Stammdaten"},
+  {"text":"Ende der Schicht fegt der Lehrling die Späne zusammen","fehlt":"Alter des Lehrlings unbekannt (Jugendarbeitsschutz); Betriebsangabe jugendliche offen"},
+  {"text":"Maschinenraum, Bereich Holzbearbeitung","fehlt":"Umgebung nicht erkennbar: Das Protokoll nennt keine Arbeitsplätze in der Nähe, deshalb keine Umgebung gewählt"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"holt man vom Wagen, hebt sie allein hoch und legt sie auf den Tisch","sicher":true},
+  {"schritt":2,"stelle":"schiebt sie am Anschlag durch das Blatt (Formatkreissäge mit Schiebetisch)","sicher":true},
+  {"schritt":3,"stelle":"Zum Reinigen des Schiebetischs nimmt man einen Reiniger aus der Sprühdose","sicher":true},
+  {"schritt":4,"stelle":"Den Blattwechsel macht der Meister","sicher":false},
+  {"schritt":5,"stelle":"Ende der Schicht fegt der Lehrling die Späne zusammen","sicher":false}
+ ]}
