@@ -1,0 +1,12 @@
+{
+  "id": "R005-02",
+  "branche": "Gesundheit, Rettungsdienst",
+  "arbeitsplatz": "Rettungswagen, Patiententransport über Treppen",
+  "gefaehrdungen": [
+    {"text": "Beim Hinabtragen über ausgetretene Stufen mit wackelndem Geländer kann die Trage mit Patient wegrutschen, und die Helfer können gequetscht oder gestürzt werden.", "faktor": 1, "anlass": "Die Stufen sind ausgetreten, das Geländer wackelt."},
+    {"text": "Beim Tragen einer Last von rund 250 Kilogramm über Treppen kann der Rücken der Helfer überlastet werden.", "faktor": 9, "anlass": "Der Patient wird auf der Trage liegend gesichert, die Trage mit Patient wiegt rund 250 Kilogramm."},
+    {"text": "Auf dunklen Treppenstufen können die Helfer stolpern oder stürzen und dabei den Patienten fallen lassen.", "faktor": 8, "anlass": "Das Licht im Treppenhaus geht nach dreißig Sekunden aus, der Taster ist am Eingang."},
+    {"text": "Beim Abwischen der Trage und beim Reinigen des Innenraums kann Blut oder Körperflüssigkeit auf Haut oder Schleimhaut gelangen und Erreger übertragen.", "faktor": 4, "anlass": "Nach dem Einsatz wird die Trage mit Tüchern abgewischt, dafür steht eine Flasche mit Flächendesinfektionsmittel im Schrank."},
+    {"text": "Unter Zeitdruck bei acht bis zehn Einsätzen pro Schicht kann die Konzentration beim Treppensteigen nachlassen, und Fehler passieren schneller.", "faktor": 10, "anlass": "Etwa acht bis zehn Einsätze pro Schicht, oft mit Zeitdruck."}
+  ]
+}

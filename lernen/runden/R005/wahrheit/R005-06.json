@@ -1,0 +1,14 @@
+{
+  "id": "R005-06",
+  "branche": "Entsorgung, Wertstoffhof",
+  "arbeitsplatz": "Annahme, Container, Presscontainer",
+  "gefaehrdungen": [
+    {"text": "Beim Nachschieben mit der Hand in den Einfüllschacht kann die Hand unter die Pressplatte geraten und gequetscht werden, wenn die Presse anläuft.", "faktor": 1, "anlass": "Die Mitarbeiter schieben den Sperrmüll mit der Hand in den Einfüllschacht nach."},
+    {"text": "Ein rückwärts fahrendes Abrollfahrzeug kann Kunden oder Mitarbeiter auf dem Hof erfassen, besonders wenn sie hinter dem Fahrzeug stehen.", "faktor": 11, "anlass": "Wenn der Container voll ist, fährt ein Abrollfahrzeug rückwärts an den Presscontainer heran, während Kunden auf dem Hof stehen."},
+    {"text": "Das Heben schwerer Teile wie Matratzen über die Kante belastet Rücken und Schultern.", "faktor": 9, "anlass": "Schwere Teile wie Matratzen werden von Hand über die Kante gehoben und hineingeworfen."},
+    {"text": "Ein unbeschrifteter Lösemittelbehälter kann verwechselt werden, und Dämpfe können eingeatmet werden oder auf die Haut gelangen.", "faktor": 3, "anlass": "Unter dem Tisch im Kassenhäuschen steht eine Flasche mit Lösemittel, sie hat kein Etikett mehr."},
+    {"text": "Beim Laden von Batterien entsteht Wasserstoffgas, das sich bei Funken entzünden oder explodieren kann.", "faktor": 5, "anlass": "Die Batterien der Hubstapler werden am Ladeplatz neben der Halle geladen, es riecht nach Säure."},
+    {"text": "Auf dem glatten Hof können Personen ausrutschen und stürzen, besonders beim Gehen mit Lasten.", "faktor": 8, "anlass": "Der Hof ist im Winter rutschig, Streusalz liegt im Kübel."},
+    {"text": "Beim Entladen und Sortieren von Holz mit eingemischtem Autoglas kann man sich an den Scherben schneiden.", "faktor": 1, "anlass": "Glasscherben liegen im Schotter am Rand, Autoglas wird zusammen mit Holz angenommen."}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "R005-04",
+  "branche": "Garten- und Landschaftsbau",
+  "arbeitsplatz": "Hecken schneiden, Motorsäge, Freischneider",
+  "gefaehrdungen": [
+    {"text": "Beim Schneiden mit laufender Motorsäge und Freischneider können sich Bediener oder Helfer schwere Schnittverletzungen zuziehen, und ein Rückschlag der Säge kann treffen.", "faktor": 1, "anlass": "Zwei Personen arbeiten, einer führt den Freischneider mit einem Schneidmesser aus Metall, der andere schneidet die dicken Äste mit der Motorsäge, deren Kette sich schnell dreht."},
+    {"text": "Auf der Leiter kann der Helfer abstürzen, besonders wenn er den schweren Freischneider über Kopfhöhe mit einer Hand führt.", "faktor": 1, "anlass": "Oben auf der Leiter steht der Mann zwei Meter über Boden und hält den Freischneider über Kopfhöhe."},
+    {"text": "Der Lärm der Motoren und die Vibrationen der Geräte über den Tag können das Gehör schädigen sowie Hände und Arme auf Dauer schädigen.", "faktor": 7, "anlass": "Die Geräte laufen laut, man muss schreien, um sich zu verständigen."},
+    {"text": "Benzin in einem in der Sonne aufgeheizten Kanister kann ausgasen, und beim Tanken oder bei heißen Motoren kann sich der Dampf entzünden.", "faktor": 5, "anlass": "Das Benzin wird in einem Kanister mitgeführt, der neben dem Transporter in der Sonne steht."},
+    {"text": "Bei etwa 30 Grad unter Schnittschutzhosen kann es zu Hitzeerschöpfung und Kreislaufproblemen kommen.", "faktor": 6, "anlass": "Es ist heiß, etwa 30 Grad."},
+    {"text": "Das Schaufeln und Heben schweren Schnittguts sowie das Führen der Geräte über Kopf belastet Rücken und Schultern.", "faktor": 9, "anlass": "Die Äste werden auf den Boden geworfen und dann in einen Anhänger geschaufelt."}
+  ]
+}
