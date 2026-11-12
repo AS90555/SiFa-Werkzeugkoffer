@@ -51,7 +51,9 @@ function pruefe(b) {
   for (const d of doppelte(b.quellen.map(q => q.id))) f.push(`quellen: Kennung doppelt ${d}`);
   for (const q of b.quellen) if (!STUFEN.includes(q.stufe)) f.push(`quellen ${q.id}: unbekannte Stufe ${q.stufe}`);
   for (const d of doppelte(b.gefaehrdungen.map(g => g.id))) f.push(`gefaehrdungen: Kennung doppelt ${d}`);
-  for (const g of b.gefaehrdungen) if (!(Number.isInteger(g.faktor) && g.faktor >= 1 && g.faktor <= 11)) f.push(`gefaehrdungen ${g.id}: Faktor muss 1 bis 11 sein`);
+  const faktNr = new Set(((b.faktoren || {}).faktoren || []).map(x => x.nr));
+  if (b.faktoren && faktNr.size !== 11) f.push('faktoren: Es müssen genau elf Gefährdungsfaktoren sein');
+  for (const g of b.gefaehrdungen) if (!(Number.isInteger(g.faktor) && g.faktor >= 1 && g.faktor <= 11) || (b.faktoren && !faktNr.has(g.faktor))) f.push(`gefaehrdungen ${g.id}: Faktor muss 1 bis 11 sein`);
 
   for (const typ of TYPEN) {
     const liste = b.stammdaten[typ];
@@ -127,7 +129,7 @@ function pruefe(b) {
 
 function ladeBibliothek(ordner) {
   const b = {};
-  for (const n of ['merkmale', 'angaben', 'stammdaten', 'quellen', 'gefaehrdungen', 'regeln', 'pflichten', 'woerterbuch']) b[n] = lies(ordner, n);
+  for (const n of ['merkmale', 'angaben', 'stammdaten', 'quellen', 'gefaehrdungen', 'faktoren', 'regeln', 'pflichten', 'woerterbuch']) b[n] = lies(ordner, n);
   const { fehler, hinweise } = pruefe(b);
   if (fehler.length) { const e = new Error('Bibliothek fehlerhaft:\n- ' + fehler.join('\n- ')); e.fehler = fehler; throw e; }
   b.hinweise = hinweise;

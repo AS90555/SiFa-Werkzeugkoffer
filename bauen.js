@@ -2,7 +2,7 @@
 'use strict';
 // Baut das Werkzeug als eine Datei: dist/Aufnahme.html (zum Doppelklicken) und dist/artifact.html (zum Veröffentlichen).
 const fs = require('fs'); const path = require('path'); const w = __dirname; const lies = p => fs.readFileSync(path.join(w, p), 'utf8');
-const bib = {}; for (const n of ['merkmale', 'angaben', 'stammdaten', 'quellen', 'gefaehrdungen', 'regeln', 'pflichten', 'woerterbuch']) bib[n] = JSON.parse(lies(`bibliothek/${n}.json`));
+const bib = {}; for (const n of ['merkmale', 'angaben', 'stammdaten', 'quellen', 'gefaehrdungen', 'faktoren', 'regeln', 'pflichten', 'woerterbuch']) bib[n] = JSON.parse(lies(`bibliothek/${n}.json`));
 require('./kern/laden').ladeBibliothek(path.join(w, 'bibliothek')); // bricht bei Fehlern ab
 const modul = (n) => `(function(){const module={exports:{}};const require=function(x){if(x==='./laden')return KERN.laden;return {};};${lies(`kern/${n}.js`).replace("'use strict';", '')};return module.exports;})()`;
 const stand = new Date().toISOString().slice(0, 10).split('-').reverse().join('.');

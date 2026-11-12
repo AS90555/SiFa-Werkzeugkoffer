@@ -187,5 +187,33 @@
   "stufe": "pflicht",
   "stand": "Abruf 12.11.2026",
   "datei": "Gesetze-Verordnungen/JArbSchG.pdf"
+ },
+ {
+  "id": "dguv-g311-003",
+  "titel": "DGUV Grundsatz 311-003 Erstellung von Handlungshilfen zur Gefährdungsbeurteilung",
+  "stufe": "empfehlung",
+  "stand": "März 2020",
+  "datei": "DGUV/DGUV-Grundsatz-311-003_Handlungshilfen-zur-Gefaehrdungsbeurteilung.pdf"
+ },
+ {
+  "id": "asr-v3",
+  "titel": "ASR V3 Gefährdungsbeurteilung",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-V3.pdf"
+ },
+ {
+  "id": "trgs-555",
+  "titel": "TRGS 555 Betriebsanweisung und Information der Beschäftigten",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRGS/TRGS-555.pdf"
+ },
+ {
+  "id": "trbs-1111",
+  "titel": "TRBS 1111 Gefährdungsbeurteilung",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRBS/TRBS-1111.pdf"
  }
 ]

@@ -1,0 +1,53 @@
+{
+ "quelle": {
+  "id": "dguv-g311-003",
+  "stelle": "Abschnitt 3.4"
+ },
+ "hinweis": "Dieselben elf Gruppen nennt ASR V3 Abschnitt 5.2.2 mit Beispielen im Anhang.",
+ "faktoren": [
+  {
+   "nr": 1,
+   "name": "Mechanische Gefährdungen"
+  },
+  {
+   "nr": 2,
+   "name": "Elektrische Gefährdungen"
+  },
+  {
+   "nr": 3,
+   "name": "Gefahrstoffe"
+  },
+  {
+   "nr": 4,
+   "name": "Biologische Arbeitsstoffe"
+  },
+  {
+   "nr": 5,
+   "name": "Brand- und Explosionsgefährdungen"
+  },
+  {
+   "nr": 6,
+   "name": "Thermische Gefährdungen"
+  },
+  {
+   "nr": 7,
+   "name": "Gefährdung durch spezielle physikalische Einwirkungen"
+  },
+  {
+   "nr": 8,
+   "name": "Gefährdungen durch Arbeitsumgebungsbedingungen"
+  },
+  {
+   "nr": 9,
+   "name": "Physische Belastung/Arbeitsschwere"
+  },
+  {
+   "nr": 10,
+   "name": "Psychische Belastung"
+  },
+  {
+   "nr": 11,
+   "name": "Sonstige Gefährdungen"
+  }
+ ]
+}

@@ -28,7 +28,10 @@ Stand: 12.11.2026. Was der SiFa-Werkzeugkoffer aus Sicht der Sifa können muss. 
 | B6 | Fehlende Angaben erkennen und gezielt nachfragen | Muss | erfüllt |
 | B7 | Abdeckung der Holzbranche: Tischlerei, Fensterbau, Möbel | Muss | teilweise |
 | B8 | Abdeckung der Metallbranche: Zerspanen, Schweißen, Blech, Oberfläche | Soll | offen |
-| B9 | Querschnittsthemen: Bildschirm, Büro, Verkehrswege, Erste Hilfe, Brandschutz, elektrische Anlagen, psychische Belastung | Muss | offen |
+| B10 | Gliederung nach den elf anerkannten Gefährdungsfaktoren; je Arbeitsplatz ist jeder Faktor als betrachtet belegt | Muss | teilweise, Faktoren als Daten, Nachweis je Arbeitsplatz offen |
+| B11 | Das Werkzeug erfüllt die Mindestanforderungen des DGUV Grundsatzes 311-003 an Handlungshilfen zur Gefährdungsbeurteilung | Muss | teilweise, Prüfliste im Pflichtenheft 2.3 |
+| B12 | Besondere Personengruppen: Jugendliche, Schwangere und Stillende, Beschäftigte ohne ausreichende Deutschkenntnisse, Menschen mit Behinderung, Leiharbeitnehmer, Praktikanten, Berufsanfänger | Muss | teilweise |
+| B9 | Querschnittsthemen: Bildschirm, Büro, Verkehrswege, Erste Hilfe, Brandschutz, elektrische Anlagen, psychische Belastung, biologische Arbeitsstoffe | Muss | offen; für die Faktoren 2, 4 und 10 gibt es noch keine Regel |
 
 ## C Ergebnisse für den Betrieb
 
@@ -106,4 +109,5 @@ Stand: 12.11.2026. Was der SiFa-Werkzeugkoffer aus Sicht der Sifa können muss. 
 | I2 | Jeder bearbeitete Fall ist ein automatischer Test | Muss | erfüllt für den Pilot |
 | I3 | Fehlerhafte Daten werden beim Laden abgelehnt | Muss | erfüllt |
 | I4 | Trefferquote je Protokoll wird gemessen und im Lernbuch geführt | Muss | erfüllt als Ablauf, noch ohne Messwerte |
+| I6 | Jedes Ergebnis trägt den Hinweis, dass es die Beurteilung vor Ort nicht ersetzt und rechtlich unverbindlich ist | Muss | offen |
 | I5 | Sprache der Ergebnisse: klar, ohne Fachjargon, für Führungskräfte und Beschäftigte verständlich | Muss | teilweise |

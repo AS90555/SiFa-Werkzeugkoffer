@@ -23,7 +23,8 @@ Vom diktierten Protokoll zum ausgewerteten Fall, wiederholbar und gemessen.
 
 - Übersetzer als fester Ablauf, dazu der Weg ohne KI über Wörterbuch und Oberfläche.
 - Mindestens fünf Protokolle aus verschiedenen Betrieben und Bereichen verarbeitet.
-- Querschnittsthemen in der Bibliothek: Büro, Verkehrswege, Erste Hilfe, Brandschutz, elektrische Anlagen.
+- Querschnittsthemen in der Bibliothek: Büro, Verkehrswege, Erste Hilfe, Brandschutz, elektrische Anlagen, psychische Belastung. Jeder der elf Gefährdungsfaktoren hat mindestens eine Regel.
+- Fehlende Grundlagen im Regelwerk-Ordner beschafft (Pflichtenheft 3.1).
 
 **Abnahme:** Zwei neue Protokolle in Folge erreichen mindestens 80 % Trefferquote, ohne dass vorher an der Bibliothek nachgebessert wurde. Was das System zusätzlich findet, hat Andre zu mindestens 80 % als berechtigt bewertet.
 
@@ -45,7 +46,7 @@ Das, was der Unternehmer in der Hand hält.
 - Maßnahmenplan mit Verantwortlichem, Termin und Wirksamkeitsprüfung.
 - Dokumente: Gefährdungsbeurteilung, Pflichten-Check, Gefahrstoffverzeichnis, Arbeitsplatzkarte, Entscheidungsvorlage.
 
-**Abnahme:** Für das Fensterwerk und einen zweiten Fall entstehen alle fünf Dokumente druckfertig. Die Gefährdungsbeurteilung enthält die drei gesetzlich verlangten Teile: Ergebnis der Beurteilung, festgelegte Maßnahmen, Ergebnis der Überprüfung.
+**Abnahme:** Für das Fensterwerk und einen zweiten Fall entstehen alle fünf Dokumente druckfertig. Die Gefährdungsbeurteilung enthält die drei gesetzlich verlangten Teile: Ergebnis der Beurteilung, festgelegte Maßnahmen, Ergebnis der Überprüfung. Je Arbeitsplatz sind alle elf Gefährdungsfaktoren als betrachtet belegt. Die Prüfliste nach DGUV Grundsatz 311-003 (Pflichtenheft 2.3) steht vollständig auf „vorhanden“.
 
 ### M4 Abgeleitete Dokumente
 

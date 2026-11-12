@@ -3,7 +3,7 @@ const test = require('node:test'); const assert = require('node:assert'); const 
 const { ladeBibliothek, pruefe } = require('../kern/laden'); const { auswerten, uebersicht, werte, pflichten, abgleich } = require('../kern/auswerten');
 const w = path.join(__dirname, '..'); const lies = p => JSON.parse(fs.readFileSync(path.join(w, p), 'utf8'));
 const b = ladeBibliothek(path.join(w, 'bibliothek'));
-const kopie = () => JSON.parse(JSON.stringify({ merkmale: b.merkmale, angaben: b.angaben, stammdaten: b.stammdaten, quellen: b.quellen, gefaehrdungen: b.gefaehrdungen, regeln: b.regeln, pflichten: b.pflichten, woerterbuch: b.woerterbuch }));
+const kopie = () => JSON.parse(JSON.stringify({ merkmale: b.merkmale, angaben: b.angaben, stammdaten: b.stammdaten, quellen: b.quellen, gefaehrdungen: b.gefaehrdungen, faktoren: b.faktoren, regeln: b.regeln, pflichten: b.pflichten, woerterbuch: b.woerterbuch }));
 
 test('Bibliothek lädt ohne Fehler', () => { assert.ok(b.regeln.length >= 50); });
 
