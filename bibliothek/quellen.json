@@ -1,0 +1,191 @@
+[
+ {
+  "id": "arbschg",
+  "titel": "Arbeitsschutzgesetz",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/ArbSchG.pdf"
+ },
+ {
+  "id": "betrsichv",
+  "titel": "Betriebssicherheitsverordnung",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/BetrSichV.pdf"
+ },
+ {
+  "id": "gefstoffv",
+  "titel": "Gefahrstoffverordnung",
+  "stufe": "pflicht",
+  "stand": "zuletzt geändert 17.12.2025",
+  "datei": "Gesetze-Verordnungen/GefStoffV.pdf"
+ },
+ {
+  "id": "arbmedvv",
+  "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/ArbMedVV.pdf"
+ },
+ {
+  "id": "laermvibv",
+  "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.pdf"
+ },
+ {
+  "id": "lasthandhabv",
+  "titel": "Lastenhandhabungsverordnung",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/LasthandhabV.pdf"
+ },
+ {
+  "id": "psa-bv",
+  "titel": "PSA-Benutzungsverordnung",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/PSA-BV.pdf"
+ },
+ {
+  "id": "muschg",
+  "titel": "Mutterschutzgesetz",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/MuSchG.pdf"
+ },
+ {
+  "id": "dguv-v1",
+  "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+  "stufe": "pflicht",
+  "stand": "siehe Datei",
+  "datei": "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.pdf"
+ },
+ {
+  "id": "dguv-v68",
+  "titel": "DGUV Vorschrift 68 Flurförderzeuge",
+  "stufe": "pflicht",
+  "stand": "siehe Datei",
+  "datei": "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.pdf"
+ },
+ {
+  "id": "trgs-553",
+  "titel": "TRGS 553 Holzstaub",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe Juli 2022, Fassung 28.02.2025",
+  "datei": "TRGS/TRGS-553.pdf"
+ },
+ {
+  "id": "trbs-1112",
+  "titel": "TRBS 1112 Instandhaltung",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRBS/TRBS-1112.pdf"
+ },
+ {
+  "id": "trbs-2111",
+  "titel": "TRBS 2111 Mechanische Gefährdungen",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe März 2014",
+  "datei": "TRBS/TRBS-2111.pdf"
+ },
+ {
+  "id": "asr-a1-8",
+  "titel": "ASR A1.8 Verkehrswege",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe November 2012",
+  "datei": "ASR/ASR-A1-8.pdf"
+ },
+ {
+  "id": "asr-a2-1",
+  "titel": "ASR A2.1 Schutz vor Absturz und herabfallenden Gegenständen",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe November 2012",
+  "datei": "ASR/ASR-A2-1.pdf"
+ },
+ {
+  "id": "dguv-r113-004",
+  "titel": "DGUV Regel 113-004 Behälter, Silos und enge Räume",
+  "stufe": "empfehlung",
+  "stand": "siehe Datei",
+  "datei": "DGUV/DGUV-Regel-113-004_Behaelter-Silos-enge-Raeume.pdf"
+ },
+ {
+  "id": "dguv-r108-007",
+  "titel": "DGUV Regel 108-007 Lagereinrichtungen und -geräte",
+  "stufe": "empfehlung",
+  "stand": "nicht abgelegt",
+  "datei": null
+ },
+ {
+  "id": "dguv-r100-500",
+  "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+  "stufe": "empfehlung",
+  "stand": "nicht abgelegt",
+  "datei": null
+ },
+ {
+  "id": "dguv-g308-001",
+  "titel": "DGUV Grundsatz 308-001 Ausbildung und Beauftragung der Fahrer von Flurförderzeugen",
+  "stufe": "empfehlung",
+  "stand": "nicht abgelegt",
+  "datei": null
+ },
+ {
+  "id": "bauau-lmm",
+  "titel": "Leitmerkmalmethoden der BAuA",
+  "stufe": "empfehlung",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Leitmerkmalmethoden/"
+ },
+ {
+  "id": "hersteller",
+  "titel": "Betriebsanleitung des Herstellers",
+  "stufe": "empfehlung",
+  "stand": "je Maschine",
+  "datei": null
+ },
+ {
+  "id": "sdb",
+  "titel": "Sicherheitsdatenblatt des Stoffs",
+  "stufe": "empfehlung",
+  "stand": "je Stoff",
+  "datei": null
+ },
+ {
+  "id": "trgs-401",
+  "titel": "TRGS 401 Gefährdung durch Hautkontakt",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRGS/TRGS-401.pdf"
+ },
+ {
+  "id": "trgs-510",
+  "titel": "TRGS 510 Lagerung von Gefahrstoffen in ortsbeweglichen Behältern",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe Dezember 2020, Fassung 16.02.2021",
+  "datei": "TRGS/TRGS-510.pdf"
+ },
+ {
+  "id": "dguv-r109-606",
+  "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+  "stufe": "empfehlung",
+  "stand": "April 2019",
+  "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.pdf"
+ },
+ {
+  "id": "asig",
+  "titel": "Arbeitssicherheitsgesetz",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/ASiG.pdf"
+ },
+ {
+  "id": "jarbschg",
+  "titel": "Jugendarbeitsschutzgesetz",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/JArbSchG.pdf"
+ }
+]

@@ -1,0 +1,2026 @@
+{
+ "fall": "fensterwerk",
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Anlieferung",
+   "treffer": [
+    {
+     "regel": "R01",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R02",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R03",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R04",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R05",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R51",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Holzlager",
+   "treffer": [
+    {
+     "regel": "R01",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R02",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R03",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R06",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R51",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "name": "Bereitstellen am Zuschnitt",
+   "treffer": [
+    {
+     "regel": "R01",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R02",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R03",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R51",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R53",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "name": "Kantelzuschnitt",
+   "treffer": [
+    {
+     "regel": "R07",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R08",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R09",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R10",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R11",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "laerm_db"
+     ]
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R22",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R55",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "name": "Abnehmen und Einsortieren",
+   "treffer": [
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R13",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "name": "Transport der Fachwagen",
+   "treffer": [
+    {
+     "regel": "R01",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R04",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R15",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R51",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R53",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "name": "Profilieren in der CX-Anlage",
+   "treffer": [
+    {
+     "regel": "R08",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R09",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R10",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R11",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "laerm_db"
+     ]
+    },
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      3
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R13",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      3,
+      4
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R14",
+     "status": "trifft zu",
+     "schritte": [
+      4
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "name": "Rüsten, Reinigen, Warten an den Anlagen",
+   "treffer": [
+    {
+     "regel": "R16",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R17",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R23",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R50",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R54",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "name": "Einzelstab-Arbeitsplatz",
+   "treffer": [
+    {
+     "regel": "R09",
+     "status": "trifft zu",
+     "schritte": [
+      2,
+      4,
+      5,
+      6
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R10",
+     "status": "trifft zu",
+     "schritte": [
+      2,
+      4,
+      5,
+      6
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R11",
+     "status": "trifft zu",
+     "schritte": [
+      2,
+      5,
+      6
+     ],
+     "fehlt": [
+      "laerm_db"
+     ]
+    },
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      7
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R13",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      3,
+      4,
+      7,
+      8
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R14",
+     "status": "trifft zu",
+     "schritte": [
+      8
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      2,
+      4,
+      5,
+      6
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R19",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R20",
+     "status": "trifft zu",
+     "schritte": [
+      5
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R21",
+     "status": "trifft zu",
+     "schritte": [
+      6
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R22",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "eingestuft"
+     ]
+    },
+    {
+     "regel": "R50",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "h360"
+     ]
+    },
+    {
+     "regel": "R54",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "sensibilisierend"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 10,
+   "name": "Schleifen, Imprägnieren, Trocknen",
+   "treffer": [
+    {
+     "regel": "R08",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R09",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R10",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R11",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "laerm_db"
+     ]
+    },
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R13",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      5
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R14",
+     "status": "trifft zu",
+     "schritte": [
+      5
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R22",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R23",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R24",
+     "status": "trifft zu",
+     "schritte": [
+      4
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R50",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R54",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 11,
+   "name": "Eckverbindung",
+   "treffer": [
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R13",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R25",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 12,
+   "name": "Verbreiterungen anbringen",
+   "treffer": [
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R26",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": [
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R27",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 13,
+   "name": "Zwischenlagern",
+   "treffer": [
+    {
+     "regel": "R14",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R26",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "last_kg"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 14,
+   "name": "Aufhängen",
+   "treffer": [
+    {
+     "regel": "R28",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R29",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 15,
+   "name": "Lackieren",
+   "treffer": [
+    {
+     "regel": "R22",
+     "status": "offen",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "eingestuft"
+     ]
+    },
+    {
+     "regel": "R29",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R30",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "sdb"
+     ]
+    },
+    {
+     "regel": "R50",
+     "status": "offen",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "h360"
+     ]
+    },
+    {
+     "regel": "R54",
+     "status": "offen",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "sensibilisierend"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 16,
+   "name": "Zwischenschliff",
+   "treffer": [
+    {
+     "regel": "R09",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R26",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R32",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "sdb"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 17,
+   "name": "Rüsten, Reinigen, Warten der Lackieranlage",
+   "treffer": [
+    {
+     "regel": "R16",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R31",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "sdb"
+     ]
+    },
+    {
+     "regel": "R50",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "h360"
+     ]
+    },
+    {
+     "regel": "R54",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "sensibilisierend"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 18,
+   "name": "Abhängen",
+   "treffer": [
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R14",
+     "status": "trifft zu",
+     "schritte": [
+      4
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R26",
+     "status": "trifft zu",
+     "schritte": [
+      3,
+      4
+     ],
+     "fehlt": [
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R29",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R33",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 19,
+   "name": "Dichtung einziehen",
+   "treffer": [
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R22",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R26",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R34",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R35",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 20,
+   "name": "Beschlag setzen",
+   "treffer": [
+    {
+     "regel": "R36",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 21,
+   "name": "Klebeband in den Glasfalz",
+   "treffer": []
+  },
+  {
+   "nr": 22,
+   "name": "Glas einsetzen und verkleben",
+   "treffer": [
+    {
+     "regel": "R22",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "eingestuft"
+     ]
+    },
+    {
+     "regel": "R37",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "isocyanat",
+      "sdb"
+     ]
+    },
+    {
+     "regel": "R37b",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "isocyanat"
+     ]
+    },
+    {
+     "regel": "R50",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "h360"
+     ]
+    },
+    {
+     "regel": "R54",
+     "status": "offen",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "sensibilisierend"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 23,
+   "name": "Glas anliefern und lagern",
+   "treffer": [
+    {
+     "regel": "R38",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R39",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R40",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R51",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 24,
+   "name": "Glaspuffer speisen",
+   "treffer": [
+    {
+     "regel": "R07",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R22",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "eingestuft"
+     ]
+    },
+    {
+     "regel": "R38",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      2,
+      3
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R39",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R41",
+     "status": "trifft zu",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "entzuendbar",
+      "sdb"
+     ]
+    },
+    {
+     "regel": "R50",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "h360"
+     ]
+    },
+    {
+     "regel": "R54",
+     "status": "offen",
+     "schritte": [
+      3
+     ],
+     "fehlt": [
+      "sensibilisierend"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 25,
+   "name": "Aluschale aufklipsen",
+   "treffer": [
+    {
+     "regel": "R26",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R42",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 26,
+   "name": "Aluminium anliefern und kommissionieren",
+   "treffer": [
+    {
+     "regel": "R12",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "griffe_h",
+      "last_kg"
+     ]
+    },
+    {
+     "regel": "R42",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 27,
+   "name": "Aluminium zuschneiden und Rahmen bilden",
+   "treffer": [
+    {
+     "regel": "R08",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R42",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R43",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "laerm_db"
+     ]
+    },
+    {
+     "regel": "R44",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 28,
+   "name": "Absaugung und Silo",
+   "treffer": [
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R45",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R52",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 29,
+   "name": "Restholz zerkleinern",
+   "treffer": [
+    {
+     "regel": "R09",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R10",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R11",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": [
+      "laerm_db"
+     ]
+    },
+    {
+     "regel": "R18",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R47",
+     "status": "trifft zu",
+     "schritte": [
+      1
+     ],
+     "fehlt": []
+    }
+   ]
+  },
+  {
+   "nr": 30,
+   "name": "Werkzeugraum",
+   "treffer": [
+    {
+     "regel": "R48",
+     "status": "trifft zu",
+     "schritte": [
+      1,
+      2
+     ],
+     "fehlt": []
+    },
+    {
+     "regel": "R49",
+     "status": "trifft zu",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "sdb"
+     ]
+    },
+    {
+     "regel": "R50",
+     "status": "offen",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "h360"
+     ]
+    },
+    {
+     "regel": "R54",
+     "status": "offen",
+     "schritte": [
+      2
+     ],
+     "fehlt": [
+      "sensibilisierend"
+     ]
+    }
+   ]
+  }
+ ],
+ "gefaehrdungen": [
+  {
+   "id": "g-anfahren",
+   "faktor": 1,
+   "name": "Person wird von Fahrzeug angefahren oder überrollt",
+   "stationen": [
+    1,
+    2,
+    3,
+    6,
+    23
+   ],
+   "regeln": [
+    "R01",
+    "R53",
+    "R40"
+   ]
+  },
+  {
+   "id": "g-last-faellt",
+   "faktor": 1,
+   "name": "Last fällt, rutscht oder trifft Personen",
+   "stationen": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "regeln": [
+    "R03",
+    "R15"
+   ]
+  },
+  {
+   "id": "g-fahrzeug-kippt",
+   "faktor": 1,
+   "name": "Fahrzeug kippt oder wird falsch bedient",
+   "stationen": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "regeln": [
+    "R02",
+    "R04"
+   ]
+  },
+  {
+   "id": "g-stapel-kippt",
+   "faktor": 1,
+   "name": "Stapel, Wagen oder Paket kippt",
+   "stationen": [
+    2,
+    7,
+    9,
+    10,
+    13,
+    18,
+    23,
+    24
+   ],
+   "regeln": [
+    "R06",
+    "R14",
+    "R39"
+   ]
+  },
+  {
+   "id": "g-schwebende-last",
+   "faktor": 1,
+   "name": "Schwebende Last fällt herab",
+   "stationen": [
+    4,
+    14,
+    15,
+    18,
+    24
+   ],
+   "regeln": [
+    "R07",
+    "R29"
+   ]
+  },
+  {
+   "id": "g-werkzeug",
+   "faktor": 1,
+   "name": "Kontakt mit laufendem Werkzeug",
+   "stationen": [
+    4,
+    7,
+    9,
+    10,
+    27
+   ],
+   "regeln": [
+    "R08",
+    "R19",
+    "R21"
+   ]
+  },
+  {
+   "id": "g-anlauf",
+   "faktor": 1,
+   "name": "Unerwarteter Anlauf im Sonderbetrieb",
+   "stationen": [
+    8,
+    17
+   ],
+   "regeln": [
+    "R16"
+   ]
+  },
+  {
+   "id": "g-quetschen",
+   "faktor": 1,
+   "name": "Quetschen und Scheren an bewegten Teilen",
+   "stationen": [
+    11,
+    18,
+    20
+   ],
+   "regeln": [
+    "R25",
+    "R33",
+    "R36"
+   ]
+  },
+  {
+   "id": "g-einzug",
+   "faktor": 1,
+   "name": "Einzug von Hand oder Arm",
+   "stationen": [
+    9,
+    29
+   ],
+   "regeln": [
+    "R20",
+    "R47"
+   ]
+  },
+  {
+   "id": "g-schnitt",
+   "faktor": 1,
+   "name": "Schnitt- und Stichverletzung",
+   "stationen": [
+    19,
+    23,
+    24,
+    25,
+    26,
+    27,
+    30
+   ],
+   "regeln": [
+    "R34",
+    "R38",
+    "R42",
+    "R48"
+   ]
+  },
+  {
+   "id": "g-splitter",
+   "faktor": 1,
+   "name": "Handverletzung durch Splitter und Kanten",
+   "stationen": [
+    5,
+    7,
+    9,
+    10,
+    11
+   ],
+   "regeln": [
+    "R13"
+   ]
+  },
+  {
+   "id": "g-geschoss",
+   "faktor": 1,
+   "name": "Getroffen werden von Klammer oder Teil",
+   "stationen": [
+    14
+   ],
+   "regeln": [
+    "R28"
+   ]
+  },
+  {
+   "id": "g-holzstaub",
+   "faktor": 3,
+   "name": "Atemwegserkrankung durch Holzstaub",
+   "stationen": [
+    4,
+    7,
+    8,
+    9,
+    10,
+    16,
+    29
+   ],
+   "regeln": [
+    "R09",
+    "R17"
+   ]
+  },
+  {
+   "id": "g-hartholzstaub",
+   "faktor": 3,
+   "name": "Krebs der Nase durch Hartholzstaub",
+   "stationen": [
+    4,
+    7,
+    9,
+    10,
+    29
+   ],
+   "regeln": [
+    "R10"
+   ]
+  },
+  {
+   "id": "g-gefahrstoff",
+   "faktor": 3,
+   "name": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "stationen": [
+    4,
+    8,
+    10,
+    15,
+    16,
+    17,
+    19,
+    22,
+    24
+   ],
+   "regeln": [
+    "R22",
+    "R23",
+    "R54",
+    "R30",
+    "R32",
+    "R31",
+    "R37",
+    "R41"
+   ]
+  },
+  {
+   "id": "g-fruchtschaedigend",
+   "faktor": 3,
+   "name": "Schädigung des ungeborenen Kindes",
+   "stationen": [
+    8,
+    10
+   ],
+   "regeln": [
+    "R50"
+   ]
+  },
+  {
+   "id": "g-haut-augen",
+   "faktor": 3,
+   "name": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "stationen": [
+    19,
+    30
+   ],
+   "regeln": [
+    "R35",
+    "R49"
+   ]
+  },
+  {
+   "id": "g-brand-ex-staub",
+   "faktor": 5,
+   "name": "Brand oder Staubexplosion",
+   "stationen": [
+    4,
+    7,
+    8,
+    9,
+    10,
+    16,
+    27,
+    28,
+    29
+   ],
+   "regeln": [
+    "R18",
+    "R44",
+    "R45"
+   ]
+  },
+  {
+   "id": "g-brand-ex-stoff",
+   "faktor": 5,
+   "name": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "stationen": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    23
+   ],
+   "regeln": [
+    "R51",
+    "R55"
+   ]
+  },
+  {
+   "id": "g-verbrennung",
+   "faktor": 6,
+   "name": "Verbrennung an heißen Flächen",
+   "stationen": [
+    10
+   ],
+   "regeln": [
+    "R24"
+   ]
+  },
+  {
+   "id": "g-laerm",
+   "faktor": 7,
+   "name": "Gehörschaden durch Lärm",
+   "stationen": [
+    4,
+    7,
+    9,
+    10,
+    27,
+    29
+   ],
+   "regeln": [
+    "R11",
+    "R43"
+   ]
+  },
+  {
+   "id": "g-heben-tragen",
+   "faktor": 9,
+   "name": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "stationen": [
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    18,
+    19,
+    25,
+    26
+   ],
+   "regeln": [
+    "R12",
+    "R26"
+   ]
+  },
+  {
+   "id": "g-repetitiv",
+   "faktor": 9,
+   "name": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "stationen": [
+    12
+   ],
+   "regeln": [
+    "R27"
+   ]
+  },
+  {
+   "id": "g-abstimmung",
+   "faktor": 11,
+   "name": "Unfall durch fehlende Abstimmung mit Fremden",
+   "stationen": [
+    1,
+    28
+   ],
+   "regeln": [
+    "R05",
+    "R52"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  {
+   "id": "last_kg",
+   "frage": "Wie schwer ist die Last je Griff in kg?",
+   "stationen": [
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    18,
+    19,
+    25,
+    26
+   ]
+  },
+  {
+   "id": "griffe_h",
+   "frage": "Wie viele Griffe je Stunde?",
+   "stationen": [
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    18,
+    19,
+    26
+   ]
+  },
+  {
+   "id": "sdb",
+   "frage": "Liegt das aktuelle Sicherheitsdatenblatt vor?",
+   "stationen": [
+    15,
+    16,
+    17,
+    22,
+    24,
+    30
+   ]
+  },
+  {
+   "id": "h360",
+   "frage": "Weist das Sicherheitsdatenblatt H360 oder H361 aus?",
+   "stationen": [
+    9,
+    15,
+    17,
+    22,
+    24,
+    30
+   ]
+  },
+  {
+   "id": "entzuendbar",
+   "frage": "Ist der Stoff laut Sicherheitsdatenblatt entzündbar?",
+   "stationen": [
+    24
+   ]
+  },
+  {
+   "id": "isocyanat",
+   "frage": "Enthält der Klebstoff Isocyanate?",
+   "stationen": [
+    22
+   ]
+  },
+  {
+   "id": "laerm_db",
+   "frage": "Wie hoch ist der Tages-Lärmexpositionspegel in dB(A)?",
+   "stationen": [
+    4,
+    7,
+    9,
+    10,
+    27,
+    29
+   ]
+  },
+  {
+   "id": "eingestuft",
+   "frage": "Ist der Stoff laut Sicherheitsdatenblatt als gefährlich eingestuft?",
+   "stationen": [
+    9,
+    15,
+    22,
+    24
+   ]
+  },
+  {
+   "id": "sensibilisierend",
+   "frage": "Kann der Stoff laut Sicherheitsdatenblatt Allergien auslösen (H317, H334, EUH208)?",
+   "stationen": [
+    9,
+    15,
+    17,
+    22,
+    24,
+    30
+   ]
+  }
+ ],
+ "pflichten": [
+  {
+   "pflicht": "P01",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P02",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P03",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P04",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P05",
+   "status": "offen",
+   "fehlt": [
+    "beschaeftigte"
+   ]
+  },
+  {
+   "pflicht": "P06",
+   "status": "offen",
+   "fehlt": [
+    "beschaeftigte"
+   ]
+  },
+  {
+   "pflicht": "P07",
+   "status": "offen",
+   "fehlt": [
+    "jugendliche"
+   ]
+  },
+  {
+   "pflicht": "P08",
+   "status": "offen",
+   "fehlt": [
+    "jugendliche"
+   ]
+  },
+  {
+   "pflicht": "P09",
+   "status": "offen",
+   "fehlt": [
+    "frauen"
+   ]
+  },
+  {
+   "pflicht": "P10",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P11",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P12",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P13",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P14",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P15",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P16",
+   "status": "trifft zu",
+   "fehlt": []
+  },
+  {
+   "pflicht": "P17",
+   "status": "trifft zu",
+   "fehlt": []
+  }
+ ]
+}

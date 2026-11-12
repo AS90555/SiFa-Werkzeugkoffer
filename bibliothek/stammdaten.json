@@ -1,0 +1,616 @@
+{
+ "material": [
+  {
+   "id": "kantelpaket",
+   "name": "Kantelpaket",
+   "merkmale": [
+    "m.holz",
+    "m.langgut",
+    "m.paket"
+   ]
+  },
+  {
+   "id": "kantel",
+   "name": "Kantel roh oder zugeschnitten",
+   "merkmale": [
+    "m.holz",
+    "m.langgut",
+    "m.splitternd"
+   ]
+  },
+  {
+   "id": "kantel_profiliert",
+   "name": "Kantel profiliert",
+   "merkmale": [
+    "m.holz",
+    "m.langgut",
+    "m.splitternd"
+   ]
+  },
+  {
+   "id": "wagen_gefuellt",
+   "name": "Gefüllter Fach- oder Hordenwagen",
+   "merkmale": [
+    "m.ladungstraeger_hoch"
+   ]
+  },
+  {
+   "id": "rahmen",
+   "name": "Rahmen, Flügel, Verbreiterung",
+   "merkmale": [
+    "m.holz",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "element_lackiert",
+   "name": "Lackiertes oder zwischenbeschichtetes Element",
+   "merkmale": [
+    "m.holz",
+    "m.sperrig",
+    "m.beschichtet"
+   ]
+  },
+  {
+   "id": "holzstaub",
+   "name": "Holzstaub und Späne",
+   "merkmale": [
+    "m.holzstaub"
+   ]
+  },
+  {
+   "id": "restholz",
+   "name": "Restholz",
+   "merkmale": [
+    "m.holz"
+   ]
+  },
+  {
+   "id": "spachtel",
+   "name": "Spachtelmasse",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
+  },
+  {
+   "id": "leim",
+   "name": "Leim",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
+  },
+  {
+   "id": "impraegnierung",
+   "name": "Imprägnierung",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.impraegnierung"
+   ]
+  },
+  {
+   "id": "lack",
+   "name": "Grundierung, Zwischenlack, Decklack",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
+  },
+  {
+   "id": "lackreste",
+   "name": "Lackreste und Anlagenreiniger",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.lackreste"
+   ]
+  },
+  {
+   "id": "anlage",
+   "name": "Anlage und ihre Werkzeuge",
+   "merkmale": [
+    "m.anlage"
+   ]
+  },
+  {
+   "id": "dichtung",
+   "name": "Dichtungsprofil",
+   "merkmale": []
+  },
+  {
+   "id": "sekundenkleber",
+   "name": "Sekundenkleber",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.klebstoff_sekunden"
+   ]
+  },
+  {
+   "id": "beschlag",
+   "name": "Beschlagteile",
+   "merkmale": []
+  },
+  {
+   "id": "klebeband",
+   "name": "Klebeband",
+   "merkmale": []
+  },
+  {
+   "id": "kleber_2k",
+   "name": "2-Komponenten-Klebstoff",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.klebstoff_2k"
+   ]
+  },
+  {
+   "id": "isolierglas",
+   "name": "Isolierglasscheibe",
+   "merkmale": [
+    "m.glas"
+   ]
+  },
+  {
+   "id": "glaspaket",
+   "name": "Isolierglas im Paket oder Gestell",
+   "merkmale": [
+    "m.glas",
+    "m.glaspaket_stehend"
+   ]
+  },
+  {
+   "id": "glasreiniger",
+   "name": "Reiniger für den Randverbund",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.reiniger"
+   ]
+  },
+  {
+   "id": "aluprofil",
+   "name": "Aluminiumprofil, Aluminiumschale",
+   "merkmale": [
+    "m.alu"
+   ]
+  },
+  {
+   "id": "schneidwerkzeug",
+   "name": "Fräsköpfe und Messer",
+   "merkmale": [
+    "m.schneidwerkzeug"
+   ]
+  },
+  {
+   "id": "werkzeugreiniger",
+   "name": "Reiniger im Tauchbad",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.reiniger"
+   ]
+  },
+  {
+   "id": "spruehdose",
+   "name": "Schmier- oder Trennmittel in der Sprühdose",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.aerosol"
+   ]
+  }
+ ],
+ "vorgang": [
+  {
+   "id": "bewegen",
+   "name": "Abladen, Bewegen, Absetzen",
+   "merkmale": [
+    "v.last_bewegen"
+   ]
+  },
+  {
+   "id": "lagern_gestapelt",
+   "name": "Lagern gestapelt",
+   "merkmale": [
+    "v.lagern_gestapelt"
+   ]
+  },
+  {
+   "id": "lagern_stehend",
+   "name": "Lagern stehend im Wagen",
+   "merkmale": [
+    "v.lagern_stehend"
+   ]
+  },
+  {
+   "id": "heben",
+   "name": "Heben",
+   "merkmale": [
+    "v.heben"
+   ]
+  },
+  {
+   "id": "handhaben",
+   "name": "Handhaben, Auflegen, Abnehmen, Einsortieren",
+   "merkmale": [
+    "v.hand_wiederholt"
+   ]
+  },
+  {
+   "id": "saegen",
+   "name": "Sägen",
+   "merkmale": [
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut",
+    "v.saegen"
+   ]
+  },
+  {
+   "id": "hobeln_fraesen_bohren",
+   "name": "Hobeln, Fräsen, Bohren",
+   "merkmale": [
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut",
+    "v.fraesen"
+   ]
+  },
+  {
+   "id": "fraesen",
+   "name": "Fräsen",
+   "merkmale": [
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut",
+    "v.fraesen"
+   ]
+  },
+  {
+   "id": "schleifen",
+   "name": "Schleifen mit Maschine",
+   "merkmale": [
+    "v.abtragend",
+    "v.laut",
+    "v.schleifen"
+   ]
+  },
+  {
+   "id": "schleifen_hand",
+   "name": "Schleifen von Hand",
+   "merkmale": [
+    "v.abtragend",
+    "v.schleifen"
+   ]
+  },
+  {
+   "id": "spachteln",
+   "name": "Spachteln",
+   "merkmale": [
+    "v.stoff_auftragen"
+   ]
+  },
+  {
+   "id": "leimen",
+   "name": "Leim auftragen",
+   "merkmale": [
+    "v.stoff_auftragen"
+   ]
+  },
+  {
+   "id": "impraegnieren",
+   "name": "Imprägnieren",
+   "merkmale": [
+    "v.stoff_auftragen",
+    "v.impraegnieren"
+   ]
+  },
+  {
+   "id": "lackieren",
+   "name": "Beschichten mit Lack",
+   "merkmale": [
+    "v.stoff_auftragen",
+    "v.beschichten"
+   ]
+  },
+  {
+   "id": "trocknen_ir",
+   "name": "Trocknen mit Infrarot",
+   "merkmale": [
+    "v.trocknen_ir"
+   ]
+  },
+  {
+   "id": "pressen_verschrauben",
+   "name": "Pressen und Verschrauben",
+   "merkmale": [
+    "v.pressen",
+    "v.verschrauben"
+   ]
+  },
+  {
+   "id": "verschrauben",
+   "name": "Verschrauben",
+   "merkmale": [
+    "v.verschrauben"
+   ]
+  },
+  {
+   "id": "sonderbetrieb",
+   "name": "Rüsten, Reinigen, Instandhalten, Störung beheben",
+   "merkmale": [
+    "v.sonderbetrieb",
+    "v.reinigen"
+   ]
+  },
+  {
+   "id": "pruefen",
+   "name": "Prüfen, Sichtkontrolle",
+   "merkmale": []
+  },
+  {
+   "id": "eintreiben",
+   "name": "Krampen eintreiben",
+   "merkmale": [
+    "v.eintreiben"
+   ]
+  },
+  {
+   "id": "haengend_foerdern",
+   "name": "Hängend fördern",
+   "merkmale": [
+    "v.heben"
+   ]
+  },
+  {
+   "id": "senken",
+   "name": "Heben und Senken",
+   "merkmale": [
+    "v.heben"
+   ]
+  },
+  {
+   "id": "schneiden",
+   "name": "Schneiden",
+   "merkmale": []
+  },
+  {
+   "id": "kleben",
+   "name": "Kleben",
+   "merkmale": [
+    "v.stoff_auftragen",
+    "v.kleben"
+   ]
+  },
+  {
+   "id": "einsetzen",
+   "name": "Einsetzen, Fügen",
+   "merkmale": []
+  },
+  {
+   "id": "reinigen_hand",
+   "name": "Reinigen von Hand",
+   "merkmale": [
+    "v.reinigen",
+    "v.stoff_auftragen"
+   ]
+  },
+  {
+   "id": "saegen_metall",
+   "name": "Sägen von Metall",
+   "merkmale": [
+    "v.trennen",
+    "v.abtragend",
+    "v.schnell_drehend",
+    "v.laut",
+    "v.saegen"
+   ]
+  },
+  {
+   "id": "staub_foerdern",
+   "name": "Staub fördern, filtern, lagern",
+   "merkmale": []
+  },
+  {
+   "id": "zerkleinern",
+   "name": "Zerkleinern",
+   "merkmale": [
+    "v.zerkleinern",
+    "v.abtragend",
+    "v.laut"
+   ]
+  },
+  {
+   "id": "werkzeug_wechseln",
+   "name": "Werkzeug wechseln, Messer tauschen",
+   "merkmale": []
+  },
+  {
+   "id": "tauchreinigen",
+   "name": "Reinigen im Tauchbad",
+   "merkmale": [
+    "v.reinigen"
+   ]
+  },
+  {
+   "id": "spruehen",
+   "name": "Aufsprühen",
+   "merkmale": [
+    "v.stoff_auftragen"
+   ]
+  }
+ ],
+ "ausfuehrung": [
+  {
+   "id": "von_hand",
+   "name": "Von Hand",
+   "merkmale": [
+    "a.von_hand"
+   ]
+  },
+  {
+   "id": "handmaschine",
+   "name": "Handgeführte Maschine",
+   "merkmale": [
+    "a.handmaschine"
+   ]
+  },
+  {
+   "id": "stationaer_handvorschub",
+   "name": "Stationäre Maschine, Werkstück von Hand geführt",
+   "merkmale": [
+    "a.stationaer_handvorschub"
+   ]
+  },
+  {
+   "id": "vollautomat",
+   "name": "Vollautomatische Anlage",
+   "merkmale": [
+    "a.vollautomat"
+   ]
+  },
+  {
+   "id": "automat_lichtschranke",
+   "name": "Automat mit Lichtschranke",
+   "merkmale": [
+    "a.automat_lichtschranke"
+   ]
+  },
+  {
+   "id": "halbautomat",
+   "name": "Halbautomat mit Einlegen von Hand",
+   "merkmale": [
+    "a.halbautomat_einlegen"
+   ]
+  },
+  {
+   "id": "seitenstapler_elektro",
+   "name": "Vierwege-Seitenstapler, elektrisch",
+   "merkmale": [
+    "a.flurfoerderzeug",
+    "a.seitenstapler",
+    "a.batterie"
+   ]
+  },
+  {
+   "id": "gabelstapler_elektro",
+   "name": "Gabelstapler, elektrisch",
+   "merkmale": [
+    "a.flurfoerderzeug",
+    "a.batterie"
+   ]
+  },
+  {
+   "id": "mitgaenger_elektro",
+   "name": "Mitgänger-Hubwagen, elektrisch",
+   "merkmale": [
+    "a.mitgaenger",
+    "a.batterie"
+   ]
+  },
+  {
+   "id": "vakuumheber",
+   "name": "Vakuumheber, Vakuumkran",
+   "merkmale": [
+    "a.vakuumheber"
+   ]
+  },
+  {
+   "id": "druckluft_klammergeraet",
+   "name": "Druckluft-Klammergerät",
+   "merkmale": [
+    "a.druckluftgeraet"
+   ]
+  },
+  {
+   "id": "haengefoerderer",
+   "name": "Hängeförderer mit Traversen",
+   "merkmale": [
+    "a.haengefoerderer"
+   ]
+  },
+  {
+   "id": "hubsenkstation",
+   "name": "Hub-Senk-Station",
+   "merkmale": [
+    "a.hubsenkstation"
+   ]
+  },
+  {
+   "id": "dichtungsschere",
+   "name": "Dichtungsschere",
+   "merkmale": [
+    "a.handwerkzeug_klinge"
+   ]
+  },
+  {
+   "id": "absauganlage",
+   "name": "Absauganlage mit Filter und Silo",
+   "merkmale": [
+    "a.absauganlage_silo"
+   ]
+  },
+  {
+   "id": "zerkleinerer",
+   "name": "Zerkleinerer",
+   "merkmale": [
+    "a.zerkleinerer"
+   ]
+  },
+  {
+   "id": "tauchbad",
+   "name": "Reinigungsbecken",
+   "merkmale": [
+    "a.tauchbad"
+   ]
+  }
+ ],
+ "umgebung": [
+  {
+   "id": "aussen",
+   "name": "Außengelände",
+   "merkmale": [
+    "u.aussen"
+   ]
+  },
+  {
+   "id": "betriebsfremde",
+   "name": "Betriebsfremde Personen",
+   "merkmale": [
+    "u.betriebsfremde"
+   ]
+  },
+  {
+   "id": "halle",
+   "name": "Halle mit Arbeitsplätzen in der Nähe",
+   "merkmale": [
+    "u.halle_fussgaenger"
+   ]
+  },
+  {
+   "id": "lager",
+   "name": "Lager",
+   "merkmale": [
+    "u.lager"
+   ]
+  },
+  {
+   "id": "gefahrbereich",
+   "name": "Gefahrbereich einer Anlage",
+   "merkmale": [
+    "u.gefahrbereich"
+   ]
+  },
+  {
+   "id": "silo",
+   "name": "Silo oder Behälter",
+   "merkmale": [
+    "u.silo"
+   ]
+  },
+  {
+   "id": "fremdfirma",
+   "name": "Fremdfirma im Betrieb",
+   "merkmale": [
+    "u.fremdfirma"
+   ]
+  }
+ ]
+}

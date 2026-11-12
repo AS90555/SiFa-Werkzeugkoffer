@@ -1,0 +1,936 @@
+{
+ "id": "fensterwerk",
+ "name": "Fensterwerk, Holz-Aluminium-Fenster (Pilot)",
+ "hinweis": "Aus Andres Schilderung. Angaben mit Annahme sind in 'annahmen' genannt.",
+ "angaben": {},
+ "annahmen": [
+  "Hartholz (Eiche) laut Andre in der gesamten Vorfertigung, Stationen 4 bis 14. Für Silo und Zerkleinerer (28, 29) ebenfalls gesetzt, weil dort Mischstaub ankommt. Ab Station 15 nein.",
+  "Lacke wasserbasiert, daher entzuendbar=nein an Station 15, bis das Datenblatt vorliegt",
+  "Kein Einstieg eigener Beschäftigter ins Silo; im Betrieb noch zu prüfen",
+  "Silikonspray ist dem Kantelzuschnitt zugeordnet, wie im ersten Prototyp aufgenommen"
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Anlieferung",
+   "umgebung": [
+    "aussen",
+    "betriebsfremde"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantelpaket"
+     ],
+     "vorgang": "bewegen",
+     "ausfuehrung": "seitenstapler_elektro"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Wareneingang und Holzlager"
+  },
+  {
+   "nr": 2,
+   "name": "Holzlager",
+   "umgebung": [
+    "lager"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantelpaket"
+     ],
+     "vorgang": "lagern_gestapelt",
+     "ausfuehrung": "seitenstapler_elektro"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Wareneingang und Holzlager"
+  },
+  {
+   "nr": 3,
+   "name": "Bereitstellen am Zuschnitt",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantelpaket"
+     ],
+     "vorgang": "bewegen",
+     "ausfuehrung": "seitenstapler_elektro"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Wareneingang und Holzlager"
+  },
+  {
+   "nr": 4,
+   "name": "Kantelzuschnitt",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantel"
+     ],
+     "vorgang": "heben",
+     "ausfuehrung": "vakuumheber"
+    },
+    {
+     "material": [
+      "kantel"
+     ],
+     "vorgang": "saegen",
+     "ausfuehrung": "vollautomat"
+    },
+    {
+     "material": [
+      "spruehdose"
+     ],
+     "vorgang": "spruehen",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 5,
+   "name": "Abnehmen und Einsortieren",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantel"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 6,
+   "name": "Transport der Fachwagen",
+   "umgebung": [
+    "aussen",
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "wagen_gefuellt"
+     ],
+     "vorgang": "bewegen",
+     "ausfuehrung": "gabelstapler_elektro"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 7,
+   "name": "Profilieren in der CX-Anlage",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantel"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel"
+     ],
+     "vorgang": "hobeln_fraesen_bohren",
+     "ausfuehrung": "vollautomat"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "angaben": {
+      "last_kg": 14,
+      "griffe_h": 180
+     }
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "lagern_stehend",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 8,
+   "name": "Rüsten, Reinigen, Warten an den Anlagen",
+   "umgebung": [
+    "halle",
+    "gefahrbereich"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "anlage",
+      "holzstaub"
+     ],
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "anlage",
+      "impraegnierung"
+     ],
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 9,
+   "name": "Einzelstab-Arbeitsplatz",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "fraesen",
+     "ausfuehrung": "handmaschine"
+    },
+    {
+     "material": [
+      "kantel_profiliert",
+      "spachtel"
+     ],
+     "vorgang": "spachteln",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "schleifen_hand",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "schleifen",
+     "ausfuehrung": "stationaer_handvorschub"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "fraesen",
+     "ausfuehrung": "stationaer_handvorschub"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "lagern_stehend",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 10,
+   "name": "Schleifen, Imprägnieren, Trocknen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "schleifen",
+     "ausfuehrung": "vollautomat"
+    },
+    {
+     "material": [
+      "kantel_profiliert",
+      "impraegnierung"
+     ],
+     "vorgang": "impraegnieren",
+     "ausfuehrung": "vollautomat"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "trocknen_ir",
+     "ausfuehrung": "vollautomat"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "lagern_stehend",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 11,
+   "name": "Eckverbindung",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "kantel_profiliert",
+      "leim"
+     ],
+     "vorgang": "leimen",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "kantel_profiliert"
+     ],
+     "vorgang": "pressen_verschrauben",
+     "ausfuehrung": "automat_lichtschranke"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 12,
+   "name": "Verbreiterungen anbringen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "rahmen"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "rahmen",
+      "leim"
+     ],
+     "vorgang": "leimen",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "rahmen"
+     ],
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 13,
+   "name": "Zwischenlagern",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "rahmen"
+     ],
+     "vorgang": "lagern_stehend",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 14,
+   "name": "Aufhängen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "rahmen"
+     ],
+     "vorgang": "eintreiben",
+     "ausfuehrung": "druckluft_klammergeraet"
+    },
+    {
+     "material": [
+      "rahmen"
+     ],
+     "vorgang": "haengend_foerdern",
+     "ausfuehrung": "haengefoerderer"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Vorfertigung"
+  },
+  {
+   "nr": 15,
+   "name": "Lackieren",
+   "umgebung": [
+    "halle"
+   ],
+   "angaben": {
+    "entzuendbar": false,
+    "hartholz": false
+   },
+   "schritte": [
+    {
+     "material": [
+      "rahmen"
+     ],
+     "vorgang": "haengend_foerdern",
+     "ausfuehrung": "haengefoerderer"
+    },
+    {
+     "material": [
+      "rahmen",
+      "lack"
+     ],
+     "vorgang": "lackieren",
+     "ausfuehrung": "vollautomat"
+    }
+   ],
+   "bereich": "Oberfläche"
+  },
+  {
+   "nr": 16,
+   "name": "Zwischenschliff",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "element_lackiert"
+     ],
+     "vorgang": "schleifen_hand",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Oberfläche"
+  },
+  {
+   "nr": 17,
+   "name": "Rüsten, Reinigen, Warten der Lackieranlage",
+   "umgebung": [
+    "halle",
+    "gefahrbereich"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "anlage",
+      "lackreste"
+     ],
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Oberfläche"
+  },
+  {
+   "nr": 18,
+   "name": "Abhängen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "element_lackiert"
+     ],
+     "vorgang": "haengend_foerdern",
+     "ausfuehrung": "haengefoerderer"
+    },
+    {
+     "material": [
+      "element_lackiert"
+     ],
+     "vorgang": "senken",
+     "ausfuehrung": "hubsenkstation"
+    },
+    {
+     "material": [
+      "element_lackiert"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "element_lackiert"
+     ],
+     "vorgang": "lagern_stehend",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Oberfläche"
+  },
+  {
+   "nr": 19,
+   "name": "Dichtung einziehen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "element_lackiert"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "dichtung"
+     ],
+     "vorgang": "schneiden",
+     "ausfuehrung": "dichtungsschere"
+    },
+    {
+     "material": [
+      "dichtung",
+      "sekundenkleber"
+     ],
+     "vorgang": "kleben",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 20,
+   "name": "Beschlag setzen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "element_lackiert",
+      "beschlag"
+     ],
+     "vorgang": "einsetzen",
+     "ausfuehrung": "halbautomat"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 21,
+   "name": "Klebeband in den Glasfalz",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "element_lackiert",
+      "klebeband"
+     ],
+     "vorgang": "einsetzen",
+     "ausfuehrung": "vollautomat"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 22,
+   "name": "Glas einsetzen und verkleben",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "element_lackiert",
+      "isolierglas",
+      "kleber_2k"
+     ],
+     "vorgang": "kleben",
+     "ausfuehrung": "vollautomat"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 23,
+   "name": "Glas anliefern und lagern",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "glaspaket"
+     ],
+     "vorgang": "bewegen",
+     "ausfuehrung": "mitgaenger_elektro"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 24,
+   "name": "Glaspuffer speisen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "glaspaket"
+     ],
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "isolierglas"
+     ],
+     "vorgang": "heben",
+     "ausfuehrung": "vakuumheber"
+    },
+    {
+     "material": [
+      "isolierglas",
+      "glasreiniger"
+     ],
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 25,
+   "name": "Aluschale aufklipsen",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "aluprofil",
+      "element_lackiert"
+     ],
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Endfertigung"
+  },
+  {
+   "nr": 26,
+   "name": "Aluminium anliefern und kommissionieren",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "aluprofil"
+     ],
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Aluminium"
+  },
+  {
+   "nr": 27,
+   "name": "Aluminium zuschneiden und Rahmen bilden",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "aluprofil"
+     ],
+     "vorgang": "saegen_metall",
+     "ausfuehrung": "vollautomat"
+    },
+    {
+     "material": [
+      "aluprofil"
+     ],
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Aluminium"
+  },
+  {
+   "nr": 28,
+   "name": "Absaugung und Silo",
+   "umgebung": [
+    "silo",
+    "fremdfirma"
+   ],
+   "angaben": {
+    "einstieg": false,
+    "hartholz": true
+   },
+   "schritte": [
+    {
+     "material": [
+      "holzstaub"
+     ],
+     "vorgang": "staub_foerdern",
+     "ausfuehrung": "absauganlage"
+    }
+   ],
+   "bereich": "Nebenanlagen"
+  },
+  {
+   "nr": 29,
+   "name": "Restholz zerkleinern",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "restholz"
+     ],
+     "vorgang": "zerkleinern",
+     "ausfuehrung": "zerkleinerer"
+    }
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "bereich": "Nebenanlagen"
+  },
+  {
+   "nr": 30,
+   "name": "Werkzeugraum",
+   "umgebung": [
+    "halle"
+   ],
+   "schritte": [
+    {
+     "material": [
+      "schneidwerkzeug"
+     ],
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand"
+    },
+    {
+     "material": [
+      "schneidwerkzeug",
+      "werkzeugreiniger"
+     ],
+     "vorgang": "tauchreinigen",
+     "ausfuehrung": "tauchbad"
+    }
+   ],
+   "angaben": {
+    "hartholz": false
+   },
+   "bereich": "Nebenanlagen"
+  }
+ ],
+ "stoffe": [
+  {
+   "id": "induline-sw900",
+   "name": "Remmers Induline SW-900 VP 21308",
+   "material": "impraegnierung",
+   "sdb": {
+    "version": "6",
+    "datum": "2020-03-12",
+    "datei": "sdb/Remmers_Induline-SW-900_2020-03-12.pdf"
+   },
+   "h": [
+    "H360D",
+    "H412"
+   ],
+   "euh": [
+    "EUH208"
+   ],
+   "hinweis": "Repr. 1B durch Propiconazol; enthält IPBC"
+  },
+  {
+   "id": "propellerleim",
+   "name": "Rhenocoll Propellerleim 3W, 4B plus",
+   "material": "leim",
+   "sdb": {
+    "version": "4.0",
+    "datum": "2019-07-15",
+    "datei": "sdb/Rhenocoll_Propellerleim-3W-4B-plus_2019-07-15.pdf"
+   },
+   "h": [],
+   "euh": [],
+   "hinweis": "Nicht als gefährlich eingestuft; PVAc-Dispersion"
+  },
+  {
+   "id": "cosmo-ca500",
+   "name": "Cosmo CA-500 Cyanacrylat-Klebstoff",
+   "material": "sekundenkleber",
+   "sdb": {
+    "version": "0010",
+    "datum": "2019-05-08",
+    "datei": "sdb/Cosmo_CA-500_2019-05-08.pdf"
+   },
+   "h": [
+    "H315",
+    "H319",
+    "H335"
+   ],
+   "euh": [
+    "EUH202"
+   ]
+  },
+  {
+   "id": "silikonspray",
+   "name": "Silikonspray 500 ml, Art. 6530 1500",
+   "material": "spruehdose",
+   "sdb": {
+    "version": "0010",
+    "datum": "2019-02-22",
+    "datei": "sdb/Silikonspray_6530-1500_2019-02-22.pdf"
+   },
+   "h": [
+    "H222",
+    "H229",
+    "H304",
+    "H315",
+    "H336",
+    "H411"
+   ],
+   "euh": []
+  }
+ ],
+ "betrieb": {}
+}

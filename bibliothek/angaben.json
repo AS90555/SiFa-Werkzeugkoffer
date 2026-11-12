@@ -1,0 +1,86 @@
+[
+ {
+  "id": "hartholz",
+  "typ": "ja_nein",
+  "frage": "Wird an dieser Station Hartholz wie Eiche oder Buche bearbeitet?"
+ },
+ {
+  "id": "last_kg",
+  "typ": "zahl",
+  "frage": "Wie schwer ist die Last je Griff in kg?"
+ },
+ {
+  "id": "griffe_h",
+  "typ": "zahl",
+  "frage": "Wie viele Griffe je Stunde?"
+ },
+ {
+  "id": "sdb",
+  "typ": "ja_nein",
+  "frage": "Liegt das aktuelle Sicherheitsdatenblatt vor?",
+  "aus_stoff": true
+ },
+ {
+  "id": "h360",
+  "typ": "ja_nein",
+  "frage": "Weist das Sicherheitsdatenblatt H360 oder H361 aus?",
+  "aus_stoff": true
+ },
+ {
+  "id": "entzuendbar",
+  "typ": "ja_nein",
+  "frage": "Ist der Stoff laut Sicherheitsdatenblatt entzündbar?",
+  "aus_stoff": true
+ },
+ {
+  "id": "isocyanat",
+  "typ": "ja_nein",
+  "frage": "Enthält der Klebstoff Isocyanate?"
+ },
+ {
+  "id": "einstieg",
+  "typ": "ja_nein",
+  "frage": "Steigen Personen in das Silo oder den Behälter ein?"
+ },
+ {
+  "id": "laerm_db",
+  "typ": "zahl",
+  "frage": "Wie hoch ist der Tages-Lärmexpositionspegel in dB(A)?"
+ },
+ {
+  "id": "eingestuft",
+  "typ": "ja_nein",
+  "frage": "Ist der Stoff laut Sicherheitsdatenblatt als gefährlich eingestuft?",
+  "aus_stoff": true
+ },
+ {
+  "id": "sensibilisierend",
+  "typ": "ja_nein",
+  "frage": "Kann der Stoff laut Sicherheitsdatenblatt Allergien auslösen (H317, H334, EUH208)?",
+  "aus_stoff": true
+ },
+ {
+  "id": "beschaeftigte",
+  "typ": "zahl",
+  "ebene": "betrieb",
+  "frage": "Wie viele Beschäftigte hat der Betrieb?"
+ },
+ {
+  "id": "jugendliche",
+  "typ": "ja_nein",
+  "ebene": "betrieb",
+  "frage": "Arbeiten im Betrieb Jugendliche unter 18 Jahren, zum Beispiel Auszubildende?"
+ },
+ {
+  "id": "frauen",
+  "typ": "ja_nein",
+  "ebene": "betrieb",
+  "frage": "Sind Frauen beschäftigt oder können Frauen an den Arbeitsplätzen eingesetzt werden?"
+ },
+ {
+  "id": "fremdfirmen",
+  "typ": "ja_nein",
+  "ebene": "betrieb",
+  "frage": "Arbeiten Fremdfirmen oder Leiharbeitnehmer im Betrieb?"
+ }
+]
