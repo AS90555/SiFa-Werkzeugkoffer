@@ -1,0 +1,75 @@
+{"paket":"P1","pruefer":"A","eintraege":[
+ {"id":"R78","aussagen":[
+  {"id":"R78-M1","urteil":"gedeckt","belege":[
+   {"datei":"Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt","stelle":"Anwendungsbereich der LMM-MA","zitat":"Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten"},
+   {"datei":"Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt","stelle":"Handlungsanleitung, Hinweis Achtung (Zielstellung)","zitat":"Dieses Verfahren dient der orientierenden Beurteilung der Arbeitsbedingungen bei manuellen Arbeitsprozessen."}],
+   "bemerkung":"Die Leitmerkmalmethode ist eine Empfehlung der BAuA, keine Pflicht."},
+  {"id":"R78-M2","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in ArbSchG.txt (Wechsel, Rotation: keine Treffer), LMM-Manuelle-Arbeit.txt (nur die Bewertungsstufe Belastungswechsel, keine Maßnahme) und DGUV-Regel-109-606 (Abschnitt 3.4.5 Heben und Tragen: Arbeitsplatzrotation bei körperlich belastenden Tätigkeiten, Abschnitt psychische Belastung: Job-Rotation). Beide Stellen gelten für andere Fälle (Heben/Tragen bzw. psychische Belastung), nicht für gleichförmige Hand-Arm-Arbeit.","vorschlag":"Entweder gilt_wenn auf Heben/Tragen beschränken und DGUV 109-606 Abschnitt 3.4.5 als Beleg nehmen, oder eine Quelle suchen, die Arbeitsplatzwechsel bei gleichförmiger Handarbeit nennt."}]},
+ {"id":"R16","aussagen":[
+  {"id":"R16-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Abschnitt Plattenkreissägemaschinen, Maßnahmen Betrieb","zitat":"Schalten Sie bei Reinigungs- und Wartungsarbeiten immer die gesamte Maschine am Hauptschalter aus und sichern Sie sie gegen Wiedereinschalten."}],
+   "bemerkung":"In BetrSichV und TRBS 1112 steht der Wortlaut nicht; die Stelle stammt aus der DGUV Regel 109-606 und steht dort bei einer bestimmten Maschinengruppe."},
+  {"id":"R16-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 10 Abs. 2 Satz 2","zitat":"Instandhaltungsmaßnahmen dürfen nur von fachkundigen, beauftragten und unterwiesenen Beschäftigten oder"}],
+   "bemerkung":"Der Satz geht weiter: oder von geeigneten Auftragnehmern mit vergleichbarer Qualifikation."},
+  {"id":"R16-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 10 Abs. 3 Nr. 8","zitat":"sichere Arbeitsverfahren für solche Arbeitsbedingungen festzulegen, die vom Normalzustand abweichen"},
+   {"datei":"TRBS/TRBS-1112.txt","stelle":"Abschnitt 4.4 Abs. 1 Nr. 8","zitat":"sichere Arbeitsverfahren für solche Arbeitsbedingungen festzulegen, die vom Normalzustand abweichen"}]}]},
+ {"id":"R26","aussagen":[
+  {"id":"R26-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Abschnitt 3.4.5, Verringerung der körperlichen Belastungen","zitat":"Überprüfen Sie deshalb für belastende Tätigkeiten zum Beispiel den Einsatz: • einer geeigneten Hebeeinrichtung, • von Wendeeinrichtungen für Werkstücke, • von höhenverstellbaren und verfahrbaren Montagetischen,"}]},
+  {"id":"R26-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/LasthandhabV.txt","stelle":"§ 2 Abs. 1","zitat":"geeignete organisatorische Maßnahmen zu treffen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, einzusetzen, um manuelle Handhabungen von Lasten"}]}]},
+ {"id":"R100","aussagen":[
+  {"id":"R100-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"Anhang Nr. 6.1 Abs. 8 Satz 2","zitat":"Durch die Gestaltung des Bildschirmarbeitsplatzes sowie der Auslegung und der Anordnung der Beleuchtung sind störende Blendungen, Reflexionen oder Spiegelungen auf dem Bildschirm und den sonstigen Arbeitsmitteln zu vermeiden."}],
+   "bemerkung":"Wörtlich verlangt für Bildschirmarbeitsplätze. Für sonstige Arbeitsplätze sagt ASR A3.4 Abschnitt 6.3 Abs. 1 nur, störende Blendung sei zu minimieren, und Blendung mit Unfallgefahr müsse vermieden werden."}]},
+ {"id":"R103","aussagen":[
+  {"id":"R103-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"§ 4 Abs. 4 Satz 1","zitat":"Der Arbeitgeber hat dafür zu sorgen, dass Verkehrswege, Fluchtwege und Notausgänge ständig freigehalten werden, damit sie jederzeit benutzbar sind."},
+   {"datei":"Gesetze-Verordnungen/ArbStaettV.txt","stelle":"Anhang Nr. 3.1 Abs. 1","zitat":"Die freie unverstellte Fläche am Arbeitsplatz muss so bemessen sein, dass sich die Beschäftigten bei ihrer Tätigkeit ungehindert bewegen können."}],
+   "bemerkung":"Verkehrswege: ausdrücklich freihalten. Bewegungsfläche: verlangt wird eine freie, unverstellte Fläche; das Wort freihalten steht dort nicht, die Sache ist dieselbe."}]},
+ {"id":"R106","aussagen":[
+  {"id":"R106-M1","urteil":"gedeckt","belege":[
+   {"datei":"ASR/ASR-A2-1.txt","stelle":"Abschnitt 5.2 Abs. 1","zitat":"Bodenöffnungen müssen gesichert sein: durch feste oder abnehmbare, gegen unbeabsichtigtes Ausheben gesicherte Umwehrungen oder durch Abdeckungen."}]},
+  {"id":"R106-M2","urteil":"gedeckt","belege":[
+   {"datei":"ASR/ASR-A2-1.txt","stelle":"Abschnitt 5.2 Abs. 2","zitat":"Sie müssen sicher zu handhaben und gegen unbeabsichtigtes Bewegen (Auf- und Zuklappen, Verschieben) zu sichern sind."}]}]},
+ {"id":"R95","aussagen":[
+  {"id":"R95-M1","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-401.txt","stelle":"Abschnitt 5.6 Abs. 1","zitat":"Bei Feuchtarbeit hat der Arbeitgeber durch organisatorische Maßnahmen sicherzustellen, dass unvermeidbare Feuchtarbeit soweit wie möglich auf mehrere Beschäftigte verteilt wird, um für den Einzelnen die Exposition zu verringern"}],
+   "bemerkung":"Verteilen auf mehrere Beschäftigte steht wörtlich da; Begrenzen entspricht dem Zusatz soweit wie möglich und dem Ziel, die Exposition zu verringern."},
+  {"id":"R95-M2","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-401.txt","stelle":"Abschnitt 6 Abs. 2 Satz 1","zitat":"In Abhängigkeit vom Ergebnis der Gefährdungsbeurteilung ist nach TRGS 500 Abschnitt 6.4 ein Hautschutzplan für die Hautmittel zu erstellen."},
+   {"datei":"TRGS/TRGS-401.txt","stelle":"Abschnitt 2 Abs. 6 (Begriffe)","zitat":"Unter dem Begriff „Hautmittel“ werden Hautschutz-, Hautreinigungs- und Hautpflegemittel für den beruflichen Einsatz zusammengefasst"}]},
+  {"id":"R95-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbMedVV.txt","stelle":"Anhang Teil 1 Abs. 1 Nr. 2 Buchstabe a (Pflichtvorsorge)","zitat":"Feuchtarbeit von regelmäßig vier Stunden oder mehr je Tag"},
+   {"datei":"Gesetze-Verordnungen/ArbMedVV.txt","stelle":"Anhang Teil 1 Abs. 2 Nr. 2 Buchstabe e (Angebotsvorsorge)","zitat":"Feuchtarbeit von regelmäßig mehr als zwei Stunden je Tag"}],
+   "bemerkung":"Ab vier Stunden Pflichtvorsorge, bei mehr als zwei Stunden Angebotsvorsorge. Beide Schwellen stimmen."}]},
+ {"id":"R98","aussagen":[
+  {"id":"R98-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt","stelle":"§ 3 Abs. 1 Satz 1","zitat":"Der Unternehmer hat dafür zu sorgen, dass elektrische Anlagen und Betriebsmittel nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft den elektrotechnischen Regeln entsprechend errichtet, geändert und instandgehalten werden."}],
+   "bemerkung":"Die Vorschrift nennt Errichten, Ändern und Instandhalten; Hochvolt-Fahrzeuge werden dort nicht ausdrücklich genannt."},
+  {"id":"R98-M2","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt","stelle":"§ 6 Abs. 2","zitat":"Vor Beginn der Arbeiten an aktiven Teilen elektrischer Anlagen und Betriebsmittel muss der spannungsfreie Zustand hergestellt und für die Dauer der Arbeiten sichergestellt werden."}],
+   "bemerkung":"Ausnahmen regelt § 8."}]},
+ {"id":"R71","aussagen":[
+  {"id":"R71-M1","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in ASR A3.5, ASR A3.6, ASR A1.7 und im ganzen Textordner nach Torschleier, Luftschleier, schnell schließend, Zugluft, Tor. Nur Heizung ist belegt (ASR A3.5 Abschnitt 4.2 Abs. 2: arbeitsplatzbezogene technische Maßnahmen, z. B. Wärmestrahlungsheizung, Heizmatten). Torschleier und schnell schließende Tore stehen nirgends; ASR A4.2 Abschnitt 4.2 Abs. 2 nennt nur einen Windfang für Pausenräume.","vorschlag":"Aussage teilen: Wärmestrahlungsheizung oder Heizmatten am Arbeitsplatz (ASR A3.5 Abschnitt 4.2 Abs. 2); Torschleier und schnell schließende Tore ohne Beleg lassen oder streichen."},
+  {"id":"R71-M2","urteil":"gedeckt","belege":[
+   {"datei":"ASR/ASR-A3-5.txt","stelle":"Abschnitt 4.2 Abs. 2","zitat":"organisatorische Maßnahmen (z. B. Aufwärmzeiten) oder personenbezogene Maßnahmen (z. B. geeignete Kleidung)"}],
+   "bemerkung":"Gilt, wenn die Mindestlufttemperatur trotz technischer Möglichkeiten nicht erreicht wird; genannt ist geeignete Kleidung, nicht ausdrücklich wärmende Arbeitskleidung."}]},
+ {"id":"R04","aussagen":[
+  {"id":"R04-M1","urteil":"gedeckt","belege":[
+   {"datei":"ASR/ASR-A1-8.txt","stelle":"Abschnitt 4 Abs. 5","zitat":"Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."},
+   {"datei":"ASR/ASR-A3-4.txt","stelle":"Abschnitt 7.1 Abs. 1","zitat":"Beim Einrichten und Betreiben von Arbeitsstätten im Freien müssen die Mindestwerte der Beleuchtungsstärken im Anhang 4 eingehalten werden."}],
+   "bemerkung":"Das Wort befestigt steht nicht im Text; ebene, trittsichere Oberfläche an Verkehrswegen (auch im Freien, siehe Abs. 8) ist sachlich dasselbe. Beleuchtung im Freien steht in ASR A3.4, nicht in ASR A1.8. Die Stellenangabe der Nummer 4 Abs. 5 in A1.8 ist aus der Textdatei geschlossen und sollte beim Zusammenführen gegengeprüft werden."},
+  {"id":"R04-M2","urteil":"gedeckt","belege":[
+   {"datei":"ASR/ASR-A1-8.txt","stelle":"Abschnitt Gefährdungen auf Verkehrswegen (Benutzen von Verkehrswegen) Abs. 1","zitat":"Für die Sicherheit auf Verkehrswegen sind geeignete Schutzmaßnahmen (z. B. innerbetriebliche Verkehrsregeln, geeignete Warnkleidung, farbliche Markierungen, Reinigungsverfahren, Winterdienst, Überdachung) im Rahmen der Gefährdungsbeurteilung festzulegen und umzusetzen."}]}]},
+ {"id":"P07","aussagen":[
+  {"id":"P07","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/JArbSchG.txt","stelle":"§ 28a Satz 1","zitat":"Vor Beginn der Beschäftigung Jugendlicher und bei wesentlicher Änderung der Arbeitsbedingungen hat der Arbeitgeber die mit der Beschäftigung verbundenen Gefährdungen Jugendlicher zu beurteilen."},
+   {"datei":"Gesetze-Verordnungen/JArbSchG.txt","stelle":"§ 29 Abs. 1 Satz 1","zitat":"Der Arbeitgeber hat die Jugendlichen vor Beginn der Beschäftigung und bei wesentlicher Änderung der Arbeitsbedingungen über die Unfall- und Gesundheitsgefahren, denen sie bei der Beschäftigung ausgesetzt sind"},
+   {"datei":"Gesetze-Verordnungen/JArbSchG.txt","stelle":"§ 29 Abs. 2","zitat":"Die Unterweisungen sind in angemessenen Zeitabständen, mindestens aber halbjährlich, zu wiederholen."}]}]},
+ {"id":"P10","aussagen":[
+  {"id":"P10","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 6 Abs. 12 Satz 1","zitat":"Der Arbeitgeber hat ein Verzeichnis der im Betrieb verwendeten Gefahrstoffe zu führen."}]}]}
+]}
