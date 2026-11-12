@@ -1,0 +1,17 @@
+{"id":"R005-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Schnittverletzung und Rückschlag bei Motorsäge und Freischneider; Schutz und beide Hände am Gerät passen."},
+  {"nr":2,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Mann steht zwei Meter hoch auf der Leiter; Leiter nur für kurze Arbeiten und Absturzsicherung passen."},
+  {"nr":3,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Geräte, Gehörschutz und Vorsorge passen; die Vibrationen werden vom System nicht gesondert genannt, der Lärm genügt als Kern."},
+  {"nr":4,"urteil":"rueckfrage","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Benzindämpfe aus dem Kanister stehen nur als Rückfrage in der Liste."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Hitze bei 30 Grad; Trinkpausen und Aufenthalt begrenzen passen."},
+  {"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schaufeln und Führen der Geräte über Kopf; Leitmerkmalmethode und Tätigkeitswechsel passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Atemwegserkrankung durch Holzstaub","urteil":"unbegruendet","grund":"Das Protokoll nennt keinen Staub, nur Heckenschnitt."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: Motorsäge wird abgewischt und die Kette geschärft, also Arbeiten am Gerät."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"unbegruendet","grund":"Keine brennbare Staubschicht im Protokoll."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"unbegruendet","grund":"Kein Hautkontakt mit Chemikalien beschrieben; Benzin wird bei abgestelltem Motor getankt."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"berechtigt","grund":"Protokoll: Mann mit Freischneider auf der Leiter, Passanten am Gehweg, \"eine Absperrung ist nicht vorhanden\"."},
+  {"gefaehrdung":"Belastung und Unfallgefahr durch Witterung im Freien","urteil":"berechtigt","grund":"Protokoll: Arbeit im Freien bei Hitze und Sonne, etwa 30 Grad."}
+ ]}

@@ -1,0 +1,14 @@
+{"id":"R005-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verbrennung an heißen Flächen","grund":"Verbrennung am Salzbad mit rund 800 Grad; hitzebeständige Handschuhe und Schutzkleidung passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Ölbrand beim Abschrecken wird weder unter Gefährdungen noch unter Rückfragen genannt."},
+  {"nr":3,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Öldämpfe unter der nur halb schließenden Haube; Erfassen an der Entstehungsstelle passt."},
+  {"nr":4,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Korb am Kran in Ketten; Anschlagmittel prüfen und Hebezeug prüfen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Ölnasser Boden und Schrott; Verunreinigungen beseitigen und Verkehrswege freihalten passen."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Sommerhitze am Platz; Abschirmung, Lüftung und Trinkpausen passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"unbegruendet","grund":"Das Protokoll beschreibt Kranhub, nur das Schieben des Korbs von Hand; Heben oder Tragen schwerer Lasten steht nicht darin."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: Salzwechsel alle zwei Monate mit dem Schlosser aus der Instandhaltung und wöchentliche Prüfung."},
+  {"gefaehrdung":"Belastung durch verbrauchte oder stickige Luft","urteil":"berechtigt","grund":"Protokoll: \"im Sommer ... sehr heiß und stickig\"."}
+ ]}

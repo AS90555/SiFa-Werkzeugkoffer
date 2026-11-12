@@ -1,0 +1,13 @@
+{"id":"R005-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Hand unter der Pressplatte; wirksame Schutzeinrichtung und Zweihandschaltung passen."},
+  {"nr":2,"urteil":"getroffen","system":"Person wird von Fahrzeug angefahren oder überrollt","grund":"Rückwärts fahrendes Abrollfahrzeug bei Kunden auf dem Hof; Fahr- und Gehwege trennen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schwere Teile von Hand über die Kante heben; Hebehilfe und Leitmerkmalmethode passen."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Unbeschrifteter Lösemittelbehälter wird weder als Gefährdung noch als Rückfrage genannt."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Wasserstoff beim Batterieladen (Brand, Explosion) wird nicht genannt."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Rutschiger Hof im Winter; rutschhemmender Boden und Schuhe passen."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Schnittverletzungen an Glasscherben werden nicht genannt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"unbegruendet","grund":"Das Protokoll erwähnt keinen Lärm."}
+ ]}

@@ -1,0 +1,16 @@
+{"id":"R005-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"rueckfrage","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Entzündung der Lösemitteldämpfe an den Heizstrahlern steht nur als Rückfrage in der Liste."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Unerreichbarer Feuerlöscher ist etwas anderes als Stolpern; die Brandrückfrage ist schon Wahrheit 1 zugeordnet."},
+  {"nr":3,"urteil":"getroffen","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Lacknebel und Härterdämpfe, Allergien; Einstufung, Hautkontakt vermeiden und Handschuhe passen."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Absaugung; Lärm verringern und Gehörschutz passen."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Stehen und Vorbeugen (Zwangshaltung); Tätigkeitswechsel und höhenverstellbare Tische passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"unbegruendet","grund":"Es wird nur gereinigt, keine Wartung oder Störungsbeseitigung beschrieben."},
+  {"gefaehrdung":"Verbrennung an heißen Flächen","urteil":"berechtigt","grund":"Protokoll: Heizstrahler \"bis zu 60 Grad\" neben der Kabine."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"berechtigt","grund":"Protokoll: Härter angerührt, Verdünnung im offenen Eimer, Reinigung mit Tuch und Verdünnung."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"unbegruendet","grund":"Das Gestell wird von Hand gedreht, ein Quetschen oder Absetzen schwerer Teile steht nicht im Protokoll."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"unbegruendet","grund":"Hohe Raumtemperatur wird nicht beschrieben, nur Heizstrahler im Trockner."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: \"der Weg ist mit Kartons zugestellt\"."}
+ ]}

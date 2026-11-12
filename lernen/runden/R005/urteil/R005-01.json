@@ -1,0 +1,13 @@
+{"id":"R005-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Spritzer auf Haut und Augen beim Umfüllen aus der Kanne sind gemeint; Handschuhe und Schutzbrille passen zur Ursache."},
+  {"nr":2,"urteil":"rueckfrage","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Das Einatmen von Lösemitteldämpfen bei schwachem Abzug steht nur als Rückfrage in der Liste."},
+  {"nr":3,"urteil":"rueckfrage","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Die Entzündung von Lösemitteldämpfen steht nur als Rückfrage in der Liste."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste meint Schnittverletzungen durch Glasbruch."},
+  {"nr":5,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Flackernde Beleuchtung über dem Abzug; Leuchten instand setzen passt zur Ursache."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Zwangshaltung durch den nicht höhenverstellbaren Stuhl wird vom System nicht genannt, die Rückfrage zu Hand-Arm-Beschwerden meint etwas anderes."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: \"Rüsten und Wartung des Abzugs macht die Haustechnik\"."},
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"berechtigt","grund":"Protokoll: das Ultraschallbad \"brummt laut\", Anlass zur Lärmprüfung, wenn auch schwach."}
+ ]}

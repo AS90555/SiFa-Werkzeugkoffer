@@ -1,0 +1,11 @@
+{"id":"R005-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Berühren spannungsführender Teile bei fehlenden Abdeckungen; Spannungsfreiheit und Elektrofachkraft passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Der einzige passende Eintrag (Störlichtbogen) ist schon Wahrheit 1 zugeordnet und darf nur einer Wahrheit dienen."},
+  {"nr":3,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Dunkle Lampe über dem Tisch; angemessene Beleuchtung passt zur Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schränke von gut 40 kg, zehn bis zwölf am Tag; Hebehilfe und Leitmerkmalmethode passen."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Kabelrollen und Kisten im engen Bereich; Verkehrswege und Bewegungsflächen freihalten passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: \"Die Anlage selbst wird vom Elektriker der Firma gewartet\", Rüsten durch die Monteure."}
+ ]}

@@ -1,0 +1,12 @@
+{"id":"R005-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Wegrutschen und Quetschen durch die Trage meint das System nicht; Stolpern, Rutschen, Stürzen betrifft den Fall der Person und wird hier nicht zugeordnet."},
+  {"nr":2,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Rückenbelastung beim Tragen der rund 250 kg; mechanische Ausrüstung und Leitmerkmalmethode passen."},
+  {"nr":3,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Treppenhauslicht geht nach dreißig Sekunden aus; Beleuchtung angemessen ausstatten passt zur Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Infektion durch Krankheitserreger bei Kontakt mit Menschen, Tieren, Abwasser oder Abfall","grund":"Erregerübertragung durch Blut und Körperflüssigkeiten; Waschgelegenheit und Schutzausrüstung passen."},
+  {"nr":5,"urteil":"getroffen","system":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","grund":"Zeitdruck bei acht bis zehn Einsätzen; Arbeitsabläufe gestalten passt zur Ursache."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","urteil":"berechtigt","grund":"Protokoll: \"Flasche mit Flächendesinfektionsmittel\" zum Abwischen und Reinigen."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: \"Die Stufen sind ausgetreten, das Geländer wackelt\"."}
+ ]}

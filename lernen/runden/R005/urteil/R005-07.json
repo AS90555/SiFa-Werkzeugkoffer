@@ -1,0 +1,15 @@
+{"id":"R005-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Laugenstaub in Augen und Atemwegen; Absaugung, Schutzbrille und Handschuhe passen."},
+  {"nr":2,"urteil":"rueckfrage","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Verwechslung wegen fehlender Etiketten wird vom System nur als Rückfrage zum Gefahrstoff gestellt; der Verätzungseintrag ist schon vergeben."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Keime und Schimmel durch Mikroorganismen kommen in der Liste nicht vor."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Verbrühung durch heißes Wasser oder Dampf kommt in der Liste nicht vor."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Pumpen; Lärm verringern und Gehörschutz passen."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Belastung durch feuchte Wärme wird nicht genannt."},
+  {"nr":7,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Ständig nasser Boden; Verunreinigungen beseitigen und rutschhemmender Boden passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: Wartung der Pumpen durch die externe Firma alle vier Wochen."},
+  {"gefaehrdung":"Unfall durch fehlende Abstimmung mit Fremden","urteil":"berechtigt","grund":"Protokoll: externe Firma wartet die Pumpen im laufenden Betrieb."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"unbegruendet","grund":"Kanister stehen im Regal, ein Herabfallen oder eine Regalschwäche wird nicht beschrieben."}
+ ]}

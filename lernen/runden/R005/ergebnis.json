@@ -1,0 +1,153 @@
+{
+ "runde": "R005",
+ "blind": true,
+ "regeln": 108,
+ "quote": 64,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 61,
+  "schritte": 39,
+  "maengel": 35
+ },
+ "faelle": [
+  {
+   "id": "R005-01",
+   "arbeitsplatz": "Probenvorbereitung im Abzug",
+   "branche": "Labor, Qualitätssicherung Chemie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-02",
+   "arbeitsplatz": "Rettungswagen, Patiententransport über Treppen",
+   "branche": "Gesundheit, Rettungsdienst",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-03",
+   "arbeitsplatz": "Salzbad und Abschrecken",
+   "branche": "Metall, Härterei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-04",
+   "arbeitsplatz": "Hecken schneiden, Motorsäge, Freischneider",
+   "branche": "Garten- und Landschaftsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-05",
+   "arbeitsplatz": "Verdrahten und Prüfen unter Spannung",
+   "branche": "Elektro, Schaltschrankbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-06",
+   "arbeitsplatz": "Annahme, Container, Presscontainer",
+   "branche": "Entsorgung, Wertstoffhof",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-07",
+   "arbeitsplatz": "Reinigung von Tanks und Leitungen",
+   "branche": "Lebensmittel, Molkerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R005-08",
+   "arbeitsplatz": "Einzelteilbeschichtung an der Spritzanlage",
+   "branche": "Holz, Fensterbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 4,
+   "verfehlt": 3
+  },
+  "2": {
+   "getroffen": 1,
+   "verfehlt": 1
+  },
+  "3": {
+   "getroffen": 4,
+   "verfehlt": 3
+  },
+  "4": {
+   "getroffen": 1,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 0,
+   "verfehlt": 6
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 4,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 64,
+  "getroffen": 30,
+  "rueckfrage": 5,
+  "verfehlt": 12,
+  "unbegruendet": 0,
+  "zBerechtigt": 15,
+  "zUnbegruendet": 9
+ }
+}
