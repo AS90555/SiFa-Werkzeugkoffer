@@ -134,12 +134,17 @@
    {
     "id": "R04-M1",
     "art": "T",
-    "text": "Befestigte Wege und Beleuchtung"
+    "text": "Verkehrswege mit ebener und trittsicherer Oberfläche"
    },
    {
     "id": "R04-M2",
     "art": "O",
     "text": "Winterdienst und Verkehrsregelung"
+   },
+   {
+    "id": "R04-M3",
+    "art": "T",
+    "text": "Verkehrswege im Freien für die Dauer der Benutzung beleuchten"
    }
   ],
   "quellen": [
@@ -410,7 +415,12 @@
    {
     "id": "R11-M2",
     "art": "O",
-    "text": "Ab 85 dB(A): Lärmbereich kennzeichnen, Tragepflicht, Pflichtvorsorge"
+    "text": "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge"
+   },
+   {
+    "id": "R11-M3",
+    "art": "O",
+    "text": "Über 85 dB(A): Lärmbereich kennzeichnen"
    }
   ],
   "quellen": [
@@ -441,36 +451,54 @@
    {
     "id": "R12-M1",
     "art": "O",
-    "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    "text": "Belastung mit der Leitmerkmalmethode bewerten",
+    "beleg": {
+     "quelle": "bauau-lmm",
+     "stelle": "Handlungsanleitung LMM-HHT, Abschnitt Vorgehen (Achtung)"
+    }
    },
    {
     "id": "R12-M2",
     "art": "T",
-    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 2 Abs. 1"
+    }
    },
    {
     "id": "R12-M3",
     "art": "O",
-    "text": "Tätigkeitswechsel"
+    "text": "Tätigkeitswechsel",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "lasthandhabv",
-    "stelle": "§ 2"
+    "id": "bauau-lmm",
+    "stelle": "Handlungsanleitung LMM-HHT, Abschnitt Vorgehen (Achtung); Hinweis „Achtung“ am Ende der Zielstellung, Satz 1"
    },
    {
-    "id": "bauau-lmm",
-    "stelle": "Heben, Halten, Tragen"
+    "id": "lasthandhabv",
+    "stelle": "§ 2 Abs. 1"
    },
    {
     "id": "dguv-r109-606",
-    "stelle": null
+    "stelle": "Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen; Abschnitt 3.4.5, Organisatorische Maßnahmen"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "63161f320a47f296"
+  }
  },
  {
   "id": "R13",
@@ -520,7 +548,7 @@
    {
     "id": "R14-M1",
     "art": "T",
-    "text": "Standsichere Wagen mit Feststellbremse"
+    "text": "Wagen ausreichend standsicher"
    },
    {
     "id": "R14-M2",
@@ -592,7 +620,7 @@
    {
     "id": "R16-M3",
     "art": "O",
-    "text": "Sichere Arbeitsverfahren für Rüsten, Störungsbeseitigung und Instandhaltung festlegen"
+    "text": "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
    }
   ],
   "quellen": [
@@ -1008,27 +1036,41 @@
    {
     "id": "R26-M1",
     "art": "T",
-    "text": "Einsatz höhenverstellbarer Montagetische prüfen"
+    "text": "Einsatz höhenverstellbarer Montagetische prüfen",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.4.5, Verringerung der körperlichen Belastungen"
+    }
    },
    {
     "id": "R26-M2",
     "art": "O",
-    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 2 Abs. 1"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "lasthandhabv",
-    "stelle": "§ 2"
+    "id": "dguv-r109-606",
+    "stelle": "Abschnitt 3.4.5, Verringerung der körperlichen Belastungen"
    },
    {
-    "id": "dguv-r109-606",
-    "stelle": null
+    "id": "lasthandhabv",
+    "stelle": "§ 2 Abs. 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "277a754e9ae43dba"
+  }
  },
  {
   "id": "R27",
@@ -1614,7 +1656,7 @@
    {
     "id": "R42-M2",
     "art": "T",
-    "text": "Kanten entgraten oder abrunden"
+    "text": "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden"
    }
   ],
   "quellen": [
@@ -1888,7 +1930,7 @@
    {
     "id": "R50-M3",
     "art": "O",
-    "text": "Schwangere dürfen dem Stoff nicht ausgesetzt sein"
+    "text": "Schwangere dürfen dem Stoff nicht in einem Maß ausgesetzt sein, das eine unverantwortbare Gefährdung darstellt"
    }
   ],
   "quellen": [
@@ -2571,7 +2613,7 @@
    {
     "id": "R71-M1",
     "art": "T",
-    "text": "Heizung, Torschleier oder schnell schließende Tore"
+    "text": "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten"
    },
    {
     "id": "R71-M2",
@@ -2599,7 +2641,7 @@
    {
     "id": "R72-M1",
     "art": "T",
-    "text": "Lärmquelle kapseln oder abschirmen"
+    "text": "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung"
    },
    {
     "id": "R72-M2",
@@ -2737,7 +2779,7 @@
    {
     "id": "R76-M1",
     "art": "O",
-    "text": "Boden sauber und Wege frei halten, Reinigungsplan"
+    "text": "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen"
    },
    {
     "id": "R76-M2",
@@ -2748,11 +2790,25 @@
     "id": "R76-M3",
     "art": "P",
     "text": "Rutschhemmende Sicherheitsschuhe"
+   },
+   {
+    "id": "R76-M4",
+    "art": "O",
+    "text": "Verkehrswege freihalten"
+   },
+   {
+    "id": "R76-M5",
+    "art": "T",
+    "text": "Rutschhemmenden Fußboden vorsehen"
    }
   ],
   "quellen": [
    {
     "id": "asr-a1-5",
+    "stelle": null
+   },
+   {
+    "id": "arbstaettv",
     "stelle": null
    }
   ],
@@ -2770,7 +2826,7 @@
    {
     "id": "R77-M1",
     "art": "O",
-    "text": "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist"
+    "text": "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird"
    },
    {
     "id": "R77-M2",
@@ -2785,7 +2841,7 @@
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "geprueft",
+  "beleg": "offen",
   "freigabe": "entwurf"
  },
  {
@@ -2816,7 +2872,7 @@
    {
     "id": "R78-M2",
     "art": "O",
-    "text": "Wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+    "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
    }
   ],
   "quellen": [
@@ -3147,12 +3203,12 @@
    {
     "id": "R88-M1",
     "art": "O",
-    "text": "Am Arbeitsplatz höchstens den Tages- oder Schichtbedarf bereithalten; größere Mengen nach den Lagerregeln lagern"
+    "text": "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf"
    },
    {
     "id": "R88-M2",
     "art": "T",
-    "text": "Lüftung; beim Umfüllen erden"
+    "text": "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden"
    },
    {
     "id": "R88-M3",
@@ -3327,7 +3383,7 @@
    {
     "id": "R93-M3",
     "art": "P",
-    "text": "Schutzkleidung und persönliche Schutzausrüstung bereitstellen"
+    "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: persönliche Schutzausrüstung bereitstellen"
    },
    {
     "id": "R93-M4",
@@ -3359,7 +3415,7 @@
    {
     "id": "R94-M1",
     "art": "T",
-    "text": "Hilfsmittel zum Bewegen von Personen einsetzen"
+    "text": "Manuelles Bewegen durch organisatorische Maßnahmen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, vermeiden"
    },
    {
     "id": "R94-M2",
@@ -3391,32 +3447,50 @@
    {
     "id": "R95-M1",
     "art": "O",
-    "text": "Feuchtarbeit begrenzen und auf mehrere Beschäftigte verteilen"
+    "text": "Feuchtarbeit begrenzen und auf mehrere Beschäftigte verteilen",
+    "beleg": {
+     "quelle": "trgs-401",
+     "stelle": "Abschnitt 5.6 Abs. 1"
+    }
    },
    {
     "id": "R95-M2",
     "art": "P",
-    "text": "Hautschutzplan mit Schutz, Reinigung und Pflege"
+    "text": "Hautschutzplan mit Schutz, Reinigung und Pflege",
+    "beleg": {
+     "quelle": "trgs-401",
+     "stelle": "Abschnitt 6 Abs. 2 Satz 1"
+    }
    },
    {
     "id": "R95-M3",
     "art": "O",
-    "text": "Vorsorge anbieten bei regelmäßig mehr als zwei Stunden Feuchtarbeit je Tag, Pflicht ab vier Stunden"
+    "text": "Vorsorge anbieten bei regelmäßig mehr als zwei Stunden Feuchtarbeit je Tag, Pflicht ab vier Stunden",
+    "beleg": {
+     "quelle": "arbmedvv",
+     "stelle": "Anhang Teil 1 Abs. 1 Nr. 2 Buchstabe a (Pflichtvorsorge)"
+    }
    }
   ],
   "quellen": [
    {
     "id": "trgs-401",
-    "stelle": null
+    "stelle": "Abschnitt 5.6 Abs. 1; Abschnitt 5.6 Abs. 1 Satz 1; Abschnitt 6 Abs. 2 Satz 1"
    },
    {
     "id": "arbmedvv",
-    "stelle": null
+    "stelle": "Anhang Teil 1 Abs. 1 Nr. 2 Buchstabe a (Pflichtvorsorge); Anhang Teil 1 Abs. 2 Nr. 2 (Angebotsvorsorge, sonstige Tätigkeiten mit Gefahrstoffen)"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "2420037f83e8ce48"
+  }
  },
  {
   "id": "R96",
@@ -3428,23 +3502,37 @@
    {
     "id": "R96-M1",
     "art": "T",
-    "text": "An der Entstehungsstelle erfassen oder wirksam lüften"
+    "text": "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 7 Abs. 4 Satz 4 Nr. 2"
+    }
    },
    {
     "id": "R96-M2",
     "art": "O",
-    "text": "Höhe der Exposition ermitteln"
+    "text": "Höhe der Exposition ermitteln",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 7 Abs. 8 Satz 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": null
+    "stelle": "§ 7 Abs. 4 Satz 4 Nr. 2; § 7 Abs. 4 Nr. 2; § 7 Abs. 8 Satz 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "f459862ae8756925"
+  }
  },
  {
   "id": "R97",
@@ -3489,23 +3577,37 @@
    {
     "id": "R98-M1",
     "art": "O",
-    "text": "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht"
+    "text": "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht",
+    "beleg": {
+     "quelle": "dguv-v3",
+     "stelle": "§ 3 Abs. 1 Satz 1"
+    }
    },
    {
     "id": "R98-M2",
     "art": "T",
-    "text": "Vor Beginn spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen"
+    "text": "Vor Beginn spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen",
+    "beleg": {
+     "quelle": "dguv-v3",
+     "stelle": "§ 6 Abs. 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "dguv-v3",
-    "stelle": null
+    "stelle": "§ 3 Abs. 1 Satz 1; § 6 Abs. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "f29168a08292cb4b"
+  }
  },
  {
   "id": "R99",
@@ -3517,7 +3619,7 @@
    {
     "id": "R99-M1",
     "art": "T",
-    "text": "Beleuchtung an Sehaufgabe und Verkehrswege anpassen"
+    "text": "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten"
    },
    {
     "id": "R99-M2",
@@ -3549,7 +3651,12 @@
    {
     "id": "R100-M1",
     "art": "T",
-    "text": "Blendung und Spiegelungen vermeiden"
+    "text": "Störende Blendung und Reflexionen am Arbeitsplatz minimieren"
+   },
+   {
+    "id": "R100-M2",
+    "art": "T",
+    "text": "Am Bildschirmarbeitsplatz störende Blendungen, Reflexionen und Spiegelungen vermeiden"
    }
   ],
   "quellen": [
@@ -3576,22 +3683,28 @@
    {
     "id": "R101-M1",
     "art": "T",
-    "text": "Ausreichend gesundheitlich zuträgliche Atemluft sicherstellen"
+    "text": "Ausreichend gesundheitlich zuträgliche Atemluft sicherstellen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 3.6 Abs. 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
-   },
-   {
-    "id": "asr-a3-6",
-    "stelle": null
+    "stelle": "Anhang Nr. 3.6 Abs. 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "e68e86e68c2d05fa"
+  }
  },
  {
   "id": "R102",
@@ -3603,7 +3716,7 @@
    {
     "id": "R102-M1",
     "art": "O",
-    "text": "Arbeitsplätze im Freien so einrichten und betreiben, dass Beschäftigte gegen Witterungseinflüsse geschützt sind"
+    "text": "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen"
    }
   ],
   "quellen": [
@@ -3626,22 +3739,28 @@
    {
     "id": "R103-M1",
     "art": "O",
-    "text": "Bewegungsflächen und Verkehrswege freihalten"
+    "text": "Bewegungsflächen und Verkehrswege freihalten",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "§ 4 Abs. 4 Satz 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
-   },
-   {
-    "id": "asr-a1-2",
-    "stelle": null
+    "stelle": "§ 4 Abs. 4 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "d764ff7b5a3cc4b3"
+  }
  },
  {
   "id": "R104",
@@ -3653,22 +3772,28 @@
    {
     "id": "R104-M1",
     "art": "T",
-    "text": "Schalldruckpegel so niedrig halten, wie es nach der Art des Betriebes möglich ist"
+    "text": "Schalldruckpegel so niedrig halten, wie es nach der Art des Betriebes möglich ist",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 3.7 Satz 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
-   },
-   {
-    "id": "asr-a3-7",
-    "stelle": null
+    "stelle": "Anhang Nr. 3.7 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "1f58d2633180793c"
+  }
  },
  {
   "id": "R105",
@@ -3680,7 +3805,7 @@
    {
     "id": "R105-M1",
     "art": "T",
-    "text": "Arbeitsplatz ergonomisch einrichten: Tisch, Stuhl und Bildschirm"
+    "text": "Bildschirmarbeitsplatz nach den Grundsätzen der Ergonomie einrichten"
    },
    {
     "id": "R105-M2",
@@ -3717,26 +3842,36 @@
    {
     "id": "R106-M1",
     "art": "T",
-    "text": "Öffnungen abdecken oder umwehren"
+    "text": "Öffnungen abdecken oder umwehren",
+    "beleg": {
+     "quelle": "asr-a2-1",
+     "stelle": "Abschnitt 5.2 Abs. 1"
+    }
    },
    {
     "id": "R106-M2",
     "art": "T",
-    "text": "Abdeckungen gegen Verschieben sichern"
+    "text": "Abdeckungen gegen Verschieben sichern",
+    "beleg": {
+     "quelle": "asr-a2-1",
+     "stelle": "Abschnitt 5.2 Abs. 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "asr-a2-1",
-    "stelle": null
-   },
-   {
-    "id": "arbstaettv",
-    "stelle": null
+    "stelle": "Abschnitt 5.2 Abs. 1; Abschnitt 5.2 Abs. 2; Abschnitt 5.2 Abs. 2 Satz 2"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "f9c1a33b44cbdd93"
+  }
  }
 ]

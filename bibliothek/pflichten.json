@@ -143,11 +143,17 @@
   "quellen": [
    {
     "id": "jarbschg",
-    "stelle": "§ 28a, § 29"
+    "stelle": "§ 28a Satz 1"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "89ca96a1df640b21"
+  }
  },
  {
   "id": "P08",
@@ -161,12 +167,17 @@
   "quellen": [
    {
     "id": "jarbschg",
-    "stelle": null,
-    "hinweis": "§ 22"
+    "stelle": "§ 22 Abs. 1 Nr. 1 und 2; § 22 Abs. 1 Nr. 3"
    }
   ],
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "e39412289135b215"
+  }
  },
  {
   "id": "P09",
@@ -180,11 +191,17 @@
   "quellen": [
    {
     "id": "muschg",
-    "stelle": "§ 10, § 14"
+    "stelle": "§ 10 Abs. 1 Satz 1 Nr. 1"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "8f0b70bf996732bb"
+  }
  },
  {
   "id": "P10",
@@ -195,11 +212,17 @@
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": "§ 6 Abs. 12"
+    "stelle": "§ 6 Abs. 12 Satz 1"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "73ce212884bd2c97"
+  }
  },
  {
   "id": "P11",
@@ -210,11 +233,17 @@
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": "§ 14"
+    "stelle": "§ 14 Abs. 1 Satz 1"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "e883c8135df232c5"
+  }
  },
  {
   "id": "P12",
@@ -236,11 +265,17 @@
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": "§ 3 Abs. 6, § 14"
+    "stelle": "§ 3 Abs. 6 Satz 1"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "11a507893eafa56b"
+  }
  },
  {
   "id": "P13",
