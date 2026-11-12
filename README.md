@@ -82,3 +82,7 @@ Die Prüfung beim Laden verhindert unter anderem: unbekannte Merkmale, doppelte 
 - Das Regelwerk selbst (PDF) liegt nicht im Repository, sondern im Projektordner `regelwerk/`. `quellen.json` verweist auf die Dateinamen dort.
 - Die Übersetzung vom Protokoll in den Fall macht bisher Claude als Vorschlag; die Auswertung bleibt rein rechnerisch.
 - Läuft mit Node.js ab Version 20, ohne weitere Pakete.
+
+## Wo stehen wir, was kommt als Nächstes?
+
+`LEITSTAND.md` zeigt es, erzeugt von `node lernen/leitstand.js`. Der Ablauf dahinter steht in `docs/05_Lernkreislauf.md`: finden (Runden mit erzeugten Protokollen), belegen (zwei unabhängige Prüfer mit wörtlichem Zitat), freigeben (Andre, über `freigabe/F<Nr>.md`).

@@ -1,0 +1,104 @@
+{
+ "id": "R004-07",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Ab 80 dB(A): Gehörschutz bereitstellen, Vorsorge anbieten",
+    "Ab 85 dB(A): Lärmbereich kennzeichnen, Tragepflicht, Pflichtvorsorge"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Nur Befugte: Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur",
+    "Arbeitsanweisung für den Sonderbetrieb"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Werkstückauflage, Anschlag, Absaugung"
+   ],
+   "entsteht": [
+    "Hand nah am Band"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtung am Werkzeug richtig eingestellt, Vorschubhilfe oder Spannmittel",
+    "Nur für die Bedienart geeignete Werkzeuge; nicht in das laufende Werkzeug greifen",
+    "Schutzhaube und Spaltkeil richtig eingestellt",
+    "Schiebestock oder Schiebeholz bei schmalen Werkstücken"
+   ],
+   "entsteht": [
+    "Hand nah am laufenden Werkzeug",
+    "Hand nah am Sägeblatt, Rückschlag des Werkstücks"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schnittschutzhandschuhe",
+    "Transportwagen und Aufnahmevorrichtung"
+   ],
+   "entsteht": [
+    "Scharfe Messer, schwere Köpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Heizung, Torschleier oder schnell schließende Tore",
+    "Wärmende Arbeitskleidung"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Boden sauber und Wege frei halten, Reinigungsplan",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Weniger gefährliches Verfahren oder Produkt prüfen",
+    "Absaugung oder Lüftung, Augenspülung in der Nähe",
+    "Säurefeste Handschuhe, Schutzbrille oder Gesichtsschutz, Schürze"
+   ],
+   "entsteht": [
+    "Säure oder Lauge auf Haut und Augen, ätzende Dämpfe"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Schädigung des ungeborenen Kindes",
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+  "Brand oder Explosion durch entzündbare Stoffe oder Gase"
+ ]
+}

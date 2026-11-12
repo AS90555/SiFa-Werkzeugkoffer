@@ -1,0 +1,227 @@
+[
+ {
+  "runde": "R001",
+  "art": "lern",
+  "datum": "2026-11-12",
+  "plaetze": 6,
+  "blind": false,
+  "mass": "kennung",
+  "quote": 24,
+  "getroffen": 11,
+  "gewertet": 45,
+  "zusatzBerechtigt": null,
+  "zusatzUnbegruendet": null,
+  "regeln": 77,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 4,
+    "verfehlt": 12
+   },
+   "2": {
+    "getroffen": 0,
+    "verfehlt": 2
+   },
+   "3": {
+    "getroffen": 5,
+    "verfehlt": 6
+   },
+   "5": {
+    "getroffen": 0,
+    "verfehlt": 2
+   },
+   "6": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "7": {
+    "getroffen": 1,
+    "verfehlt": 3
+   },
+   "8": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "9": {
+    "getroffen": 2,
+    "verfehlt": 6
+   }
+  },
+  "geschlossen": true
+ },
+ {
+  "runde": "R002",
+  "art": "pruef",
+  "datum": "2026-11-12",
+  "plaetze": 8,
+  "blind": false,
+  "mass": "kennung",
+  "quote": 43,
+  "getroffen": 24,
+  "gewertet": 56,
+  "zusatzBerechtigt": null,
+  "zusatzUnbegruendet": null,
+  "regeln": 89,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 14,
+    "verfehlt": 9
+   },
+   "3": {
+    "getroffen": 2,
+    "verfehlt": 4
+   },
+   "4": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "5": {
+    "getroffen": 0,
+    "verfehlt": 2
+   },
+   "6": {
+    "getroffen": 0,
+    "verfehlt": 3
+   },
+   "7": {
+    "getroffen": 4,
+    "verfehlt": 1
+   },
+   "8": {
+    "getroffen": 2,
+    "verfehlt": 0
+   },
+   "9": {
+    "getroffen": 6,
+    "verfehlt": 4
+   },
+   "10": {
+    "getroffen": 0,
+    "verfehlt": 2
+   },
+   "11": {
+    "getroffen": 1,
+    "verfehlt": 1
+   }
+  },
+  "geschlossen": true
+ },
+ {
+  "runde": "R003",
+  "art": "pruef",
+  "datum": "2026-11-12",
+  "plaetze": 8,
+  "blind": false,
+  "mass": "schiedsrichter",
+  "quote": 76,
+  "getroffen": 35,
+  "gewertet": 46,
+  "zusatzBerechtigt": 16,
+  "zusatzUnbegruendet": 17,
+  "regeln": 89,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 11,
+    "verfehlt": 5
+   },
+   "2": {
+    "getroffen": 1,
+    "verfehlt": 0
+   },
+   "3": {
+    "getroffen": 5,
+    "verfehlt": 4
+   },
+   "4": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "5": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "6": {
+    "getroffen": 2,
+    "verfehlt": 0
+   },
+   "7": {
+    "getroffen": 3,
+    "verfehlt": 0
+   },
+   "8": {
+    "getroffen": 2,
+    "verfehlt": 0
+   },
+   "9": {
+    "getroffen": 5,
+    "verfehlt": 0
+   },
+   "10": {
+    "getroffen": 4,
+    "verfehlt": 0
+   },
+   "11": {
+    "getroffen": 1,
+    "verfehlt": 1
+   }
+  },
+  "geschlossen": true
+ },
+ {
+  "runde": "R004",
+  "art": "pruef",
+  "datum": "2026-11-12",
+  "plaetze": 8,
+  "blind": true,
+  "mass": "schiedsrichter",
+  "quote": 59,
+  "getroffen": 26,
+  "gewertet": 44,
+  "wahrheitUnbegruendet": 0,
+  "zusatzBerechtigt": 16,
+  "zusatzUnbegruendet": 3,
+  "regeln": 94,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 11,
+    "verfehlt": 3
+   },
+   "2": {
+    "getroffen": 3,
+    "verfehlt": 0
+   },
+   "3": {
+    "getroffen": 1,
+    "verfehlt": 3
+   },
+   "4": {
+    "getroffen": 0,
+    "verfehlt": 4
+   },
+   "5": {
+    "getroffen": 0,
+    "verfehlt": 2
+   },
+   "6": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "7": {
+    "getroffen": 4,
+    "verfehlt": 0
+   },
+   "8": {
+    "getroffen": 2,
+    "verfehlt": 4
+   },
+   "9": {
+    "getroffen": 3,
+    "verfehlt": 1
+   },
+   "10": {
+    "getroffen": 2,
+    "verfehlt": 0
+   }
+  },
+  "geschlossen": false
+ }
+]

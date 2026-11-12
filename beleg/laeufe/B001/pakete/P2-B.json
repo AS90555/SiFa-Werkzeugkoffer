@@ -1,0 +1,403 @@
+{
+ "lauf": "B001",
+ "paket": "P2",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R12",
+   "fingerabdruck": "32ffa7f376631644",
+   "name": "Last von Hand, wiederholt",
+   "gilt_wenn": "Last von Hand, wiederholt",
+   "entsteht": "Körperliche Belastung",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R12-M1",
+     "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    },
+    {
+     "id": "R12-M2",
+     "text": "Hebehilfe, günstige Greifhöhe"
+    },
+    {
+     "id": "R12-M3",
+     "text": "Tätigkeitswechsel"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ]
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R54",
+   "fingerabdruck": "42a1c8b476095275",
+   "name": "Sensibilisierender Stoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND „Kann der Stoff laut Sicherheitsdatenblatt Allergien auslösen (H317, H334, EUH208)“: ja",
+   "entsteht": "Stoff kann Allergien auslösen",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R54-M1",
+     "text": "Hautkontakt technisch vermeiden"
+    },
+    {
+     "id": "R54-M2",
+     "text": "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    },
+    {
+     "id": "trgs-401",
+     "titel": "TRGS 401 Gefährdung durch Hautkontakt",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-401.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R18",
+   "fingerabdruck": "3d887ecef292963b",
+   "name": "Abgelagerter Holzstaub",
+   "gilt_wenn": "((Abtragender Vorgang, erzeugt Staub oder Späne) UND Werkstoff Holz) oder Holzstaub und Späne als Stoff",
+   "entsteht": "Brennbare Staubschicht",
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R18-M1",
+     "text": "Reinigungsplan"
+    },
+    {
+     "id": "R18-M2",
+     "text": "Zündquellen vermeiden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R11",
+   "fingerabdruck": "b26a81a0bb95ec5c",
+   "name": "Lärm bei lauten Vorgängen",
+   "gilt_wenn": "Lärmintensiver Vorgang",
+   "entsteht": "Lärm",
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R11-M1",
+     "text": "Ab 80 dB(A): Gehörschutz bereitstellen, Vorsorge anbieten"
+    },
+    {
+     "id": "R11-M2",
+     "text": "Ab 85 dB(A): Lärmbereich kennzeichnen, Tragepflicht, Pflichtvorsorge"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ]
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R26",
+   "fingerabdruck": "075a1c95c2beb1bb",
+   "name": "Sperrige Teile von Hand",
+   "gilt_wenn": "Von Hand, Körperkraft UND Sperriges Teil",
+   "entsteht": "Last, Zwangshaltung",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R26-M1",
+     "text": "Höhenverstellbarer Tisch"
+    },
+    {
+     "id": "R26-M2",
+     "text": "Ab Grenzgewicht zu zweit oder mit Hebehilfe"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R09",
+   "fingerabdruck": "cab834960bdcdbd5",
+   "name": "Holzstaub bei abtragender Bearbeitung",
+   "gilt_wenn": "(Abtragender Vorgang, erzeugt Staub oder Späne) UND Werkstoff Holz",
+   "entsteht": "Holzstaub",
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R09-M1",
+     "text": "Absaugung an der Entstehungsstelle"
+    },
+    {
+     "id": "R09-M2",
+     "text": "Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-553",
+     "titel": "TRGS 553 Holzstaub",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-553.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R42",
+   "fingerabdruck": "18ce1e810175cffe",
+   "name": "Scharfkantige Teile von Hand",
+   "gilt_wenn": "Scharfe Kanten, Grate, Späne UND Von Hand, Körperkraft",
+   "entsteht": "Scharfe Kanten, Grate, Späne",
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R42-M1",
+     "text": "Schnittfeste Handschuhe"
+    },
+    {
+     "id": "R42-M2",
+     "text": "Entgraten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R13",
+   "fingerabdruck": "dd4905895afa0ed3",
+   "name": "Holz von Hand",
+   "gilt_wenn": "Von Hand, Körperkraft UND Splitter und raue Kanten",
+   "entsteht": "Splitter, Kanten",
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R13-M1",
+     "text": "Geeignete Handschuhe, nicht an drehenden Werkzeugen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R03",
+   "fingerabdruck": "0bd52031ce380b2a",
+   "name": "Flurförderzeug mit Langgut oder Paket",
+   "gilt_wenn": "(Flurförderzeug mit Fahrersitz oder Fahrerstand) UND (Langes Stückgut oder Gebündeltes, schweres Paket)",
+   "entsteht": "Last ragt über, kann rutschen",
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R03-M1",
+     "text": "Last sichern, abgesenkt fahren"
+    },
+    {
+     "id": "R03-M2",
+     "text": "Tragfähigkeit des Staplers passt zum schwersten Paket"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v68",
+     "titel": "DGUV Vorschrift 68 Flurförderzeuge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P02",
+   "fingerabdruck": "9152c94b77b1da87",
+   "name": "Unterweisung",
+   "gilt_wenn": "immer",
+   "aussagen": [
+    {
+     "id": "P02",
+     "text": "Beschäftigte bei Einstellung, bei Veränderungen und regelmäßig unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    },
+    {
+     "id": "dguv-v1",
+     "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P04",
+   "fingerabdruck": "831fc63a797ac549",
+   "name": "Erste Hilfe",
+   "gilt_wenn": "immer",
+   "aussagen": [
+    {
+     "id": "P04",
+     "text": "Ersthelfer ausbilden und benennen, Erste-Hilfe-Material bereitstellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    },
+    {
+     "id": "dguv-v1",
+     "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P06",
+   "fingerabdruck": "871c195cc0b8f0d1",
+   "name": "Sicherheitsbeauftragte",
+   "gilt_wenn": "„Wie viele Beschäftigte hat der Betrieb“: ab 21",
+   "aussagen": [
+    {
+     "id": "P06",
+     "text": "Sicherheitsbeauftragte bestellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v1",
+     "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

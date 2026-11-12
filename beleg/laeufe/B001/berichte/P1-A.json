@@ -1,0 +1,88 @@
+{"paket":"P1","pruefer":"A","eintraege":[
+ {"id":"R78","aussagen":[
+  {"id":"R78-M1","urteil":"gedeckt","belege":[
+   {"datei":"Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt","stelle":"Anwendungsbereich der LMM-MA","zitat":"Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen"}],
+   "bemerkung":"Die Leitmerkmalmethode ist eine Methode der BAuA, keine Pflicht; als Bewertungsverfahren für diesen Fall passt sie genau."},
+  {"id":"R78-M2","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Kapitel 3.4.5 Heben und Tragen, Abschnitt Organisatorische Maßnahmen","zitat":"Reichen technische Maßnahmen zur Verringerung der körperlichen Belastungen nicht aus, müssen organisatorische Maßnahmen für körperlich belastende Tätigkeiten ergriffen werden, z. B. durch einen wechselnden Einsatz der Mitarbeiterinnen und Mitarbeiter (Arbeitsplatzrotation)."},
+   {"datei":"Leitmerkmalmethoden/Einstiegsscreening.txt","stelle":"Fußnote zu erholungswirksamen Unterbrechungen","zitat":"Je höher die körperliche Belastung und die dadurch verursachte Beanspruchung und Ermüdung ist, desto häufiger, kürzer nach der Belastung (zeitnah) und länger sind Unterbrechungen notwendig, um erholungswirksam zu sein."}],
+   "bemerkung":"ArbSchG und LMM-MA nennen Tätigkeitswechsel und Pausen nicht als Maßnahme (LMM-MA bewertet nur den Belastungswechsel als Merkmal). Gefunden wurden beide Teile in anderen Quellen: Wechsel in der DGUV Regel 109-606 (allgemein für körperlich belastende Tätigkeiten, nicht nur für gleichförmige Handarbeit), Pausen im Einstiegsscreening (allgemein für körperliche Belastung).",
+   "vorschlag":"Quelle für die Maßnahme auf DGUV Regel 109-606 (Arbeitsplatzrotation) und Einstiegsscreening (erholungswirksame Unterbrechungen) setzen."}]},
+ {"id":"R50","aussagen":[
+  {"id":"R50-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 7 Abs. 3 Satz 1","zitat":"Der Arbeitgeber hat auf der Grundlage des Ergebnisses der Substitutionsprüfung nach § 6 Absatz 1 Satz 2 Nummer 4 vorrangig eine Substitution durchzuführen."}],
+   "bemerkung":"Die behauptete Stelle § 10 (nur Kategorie 1A/1B) ist nicht die passende; die Substitutionsprüfung steht in § 6 Abs. 1 Satz 2 Nr. 4 und § 7 Abs. 3 und gilt für alle Gefahrstoffe."},
+  {"id":"R50-M2","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in GefStoffV (§ 7 Abs. 4, § 8, § 9, § 10) und MuSchG (Haut) nach einem Gebot, Hautkontakt auszuschließen. GefStoffV § 10 gilt nur für Kategorie 1A/1B, nicht für H361 (Kategorie 2), und verlangt Substitution, geschlossenes System oder Minimierung der Exposition, nicht Ausschluss von Hautkontakt. § 9 Abs. 1 Nr. 2 und Abs. 4 verlangen bei haut- oder augenschädigenden Stoffen zusätzliche Maßnahmen und PSA, wenn trotz aller technischen und organisatorischen Maßnahmen Hautkontakt besteht. Die TRGS 401 verlangt, bestimmte Stoffe bei fehlenden Angaben wie hautresorptive zu behandeln. Ein ausdrückliches Ausschlussgebot steht nirgends.",
+   "vorschlag":"Hautkontakt durch technische und organisatorische Maßnahmen vermeiden, bei verbleibender Gefährdung Schutzhandschuhe und weitere PSA bereitstellen (GefStoffV § 9 Abs. 1 Nr. 2, Abs. 4)."},
+  {"id":"R50-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/MuSchG.txt","stelle":"§ 11 Abs. 1 Satz 1 und Satz 2 Nr. 1 Buchstabe a","zitat":"Der Arbeitgeber darf eine schwangere Frau keine Tätigkeiten ausüben lassen und sie keinen Arbeitsbedingungen aussetzen, bei denen sie in einem Maß Gefahrstoffen ausgesetzt ist oder sein kann, dass dies für sie oder für ihr Kind eine unverantwortbare Gefährdung darstellt."}],
+   "bemerkung":"Reproduktionstoxische Stoffe der Kategorie 1A, 1B und 2 (H360, H361) nennt Nr. 1 Buchstabe a als Regelfall einer unverantwortbaren Gefährdung. Nach Satz 3 gilt sie als ausgeschlossen, wenn die arbeitsplatzbezogenen Vorgaben eingehalten werden und der Stoff als sicher bewertet ist. Die Aussage ist daher etwas schärfer als der Text."}]},
+ {"id":"R16","aussagen":[
+  {"id":"R16-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Kapitel 2 Maßnahmen bei Reinigungs- und Wartungsarbeiten (Holzbearbeitung)","zitat":"Schalten Sie bei Reinigungs- und Wartungsarbeiten immer die gesamte Maschine am Hauptschalter aus und sichern Sie sie gegen Wiedereinschalten."}],
+   "bemerkung":"BetrSichV § 8 und § 10 Abs. 3 Nr. 6 und 7 sowie TRBS 1112 sprechen von gefährlichen Energien, Energiefreimachen und Absicherung, nennen aber nicht wörtlich Abschalten und Sichern gegen Wiedereinschalten. Wörtlich steht es in der DGUV Regel 109-606 (und ähnlich in 109-607, Metallbau). Die Regel ist branchenbezogen (Holzbearbeitung)."},
+  {"id":"R16-M2","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in BetrSichV § 10, § 11, § 12 und TRBS 1112 (Abschnitte 3 bis 5) nach der Aufteilung Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur. Der Text verlangt nur: Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte (§ 10 Abs. 2); Rüst-, Einrichtungs- und Erprobungsarbeiten nur durch fachkundige Personen (§ 11 Abs. 4); besonders gefährliche Arbeitsmittel nur durch Beauftragte (§ 12 Abs. 3). Eine Aufteilung nach Bediener und Instandhaltung steht nicht darin.",
+   "vorschlag":"Instandhaltungs- und Rüstarbeiten nur durch fachkundige, beauftragte und unterwiesene Beschäftigte (BetrSichV § 10 Abs. 2, § 11 Abs. 4)."},
+  {"id":"R16-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/BetrSichV.txt","stelle":"§ 10 Abs. 3 Satz 2 Nr. 8","zitat":"sichere Arbeitsverfahren für solche Arbeitsbedingungen festzulegen, die vom Normalzustand abweichen"}],
+   "bemerkung":"Der Text verlangt sichere Arbeitsverfahren für vom Normalzustand abweichende Bedingungen, nicht ausdrücklich eine schriftliche Arbeitsanweisung. Sachlich deckt es die Aussage. Die behauptete Stelle ist § 10 Abs. 3, nicht § 11."}]},
+ {"id":"R88","aussagen":[
+  {"id":"R88-M1","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-510.txt","stelle":"Abschnitt 1 Abs. 2 Nr. 2","zitat":"das Bereithalten von Gefahrstoffen in größeren Mengen, als für den Produktions- und Arbeitsgang angemessen; von einer angemessenen Menge kann ausgegangen werden, wenn der Tages-/Schichtbedarf nicht überschritten wird"},
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"Anhang I Nr. 1.5 Abs. 2","zitat":"In Arbeitsräumen dürfen Gefahrstoffe nur gelagert werden, wenn die Lagerung mit dem Schutz der Beschäftigten vereinbar ist und in besonderen Einrichtungen erfolgt, die dem Stand der Technik entsprechen."}],
+   "bemerkung":"Der Text sagt nicht wörtlich nur Tagesbedarf am Arbeitsplatz; Mengen über dem Tages- oder Schichtbedarf fallen unter die Lagerregeln der TRGS 510 und in Arbeitsräumen nur in besondere Einrichtungen (zum Beispiel Sicherheitsschrank). Das deckt die Aussage in der Sache."},
+  {"id":"R88-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 7 Abs. 4 Satz 3 Nr. 2","zitat":"Anwendung kollektiver Schutzmaßnahmen technischer Art an der Gefahrenquelle, wie angemessene Be- und Entlüftung, und Anwendung geeigneter organisatorischer Maßnahmen"},
+   {"datei":"TRGS/TRGS-500.txt","stelle":"Abschnitt 6.1 Abs. 15","zitat":"Bei entzündbaren Flüssigkeiten sind die Behälter zu erden."}],
+   "bemerkung":"Lüftung steht in der GefStoffV allgemein als technische Schutzmaßnahme, das Erden beim Umfüllen entzündbarer Flüssigkeiten in der TRGS 500 (zusätzlich dort: Ableitfähigkeit bei Gebinden über 5 Liter, TRGS 727). Die Stellenangabe 6.1 Abs. 15 zur TRGS 500 ist aus dem Textverlauf geschlossen, die Absatznummer (15) steht im Text."},
+  {"id":"R88-M3","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 12 Abs. 2 Nr. 2","zitat":"Zündquellen oder Bedingungen, die Brände oder Explosionen auslösen können, sind zu vermeiden"},
+   {"datei":"TRGS/TRGS-510.txt","stelle":"Abschnitt 3 Abs. 7","zitat":"Kann die Bildung explosionsfähiger Atmosphären mit brennbaren Gasen, Dämpfen, Nebeln oder Stäuben nicht ausgeschlossen werden, so sind in der Gefährdungsbeurteilung explosionsgefährdete Bereiche festzulegen und die erforderlichen Schutzmaßnahmen zu ermitteln"}]}]},
+ {"id":"R22","aussagen":[
+  {"id":"R22-M1","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 6 Abs. 1 Satz 2 Nr. 2","zitat":"Informationen des Lieferanten zum Gesundheitsschutz und zur Sicherheit insbesondere im Sicherheitsdatenblatt, einschließlich der Angaben zu Zulassungspflicht und zu Herstellungs- und Verwendungsbeschränkungen"},
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 7 Abs. 4 Satz 3","zitat":"Diesen Geboten hat der Arbeitgeber durch die Festlegung und Anwendung geeigneter Schutzmaßnahmen Rechnung zu tragen."}],
+   "bemerkung":"Die Einstufung selbst nennt § 6 Abs. 1 Nr. 1 (gefährliche Eigenschaften der Stoffe) und Nr. 2 (Sicherheitsdatenblatt); die Festlegung der Maßnahmen folgt aus § 7 Abs. 4."},
+  {"id":"R22-M2","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 6 Abs. 12 Satz 1","zitat":"Der Arbeitgeber hat ein Verzeichnis der im Betrieb verwendeten Gefahrstoffe zu führen."}]}]},
+ {"id":"R82","aussagen":[
+  {"id":"R82-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt","stelle":"Kapitel 3.4.5 Heben und Tragen, Abschnitt Persönliche Schutzausrüstung","zitat":"Zur Vermeidung von Fußverletzungen müssen bei der Handhabung von schwereren Werkstücken Sicherheitsschuhe getragen werden."}],
+   "bemerkung":"Die PSA-BV nennt keine bestimmte Schutzausrüstung, nur die allgemeinen Anforderungen an Auswahl und Bereitstellung (§ 2). Sicherheitsschuhe für schwerere Werkstücke stehen wörtlich in der DGUV Regel 109-606. Die Gefährdung dort ist Fußverletzung, in der Regel Gefährdung ist Quetschen und Scheren: passt sinngemäß."},
+  {"id":"R82-M2","urteil":"nicht-gedeckt","belege":[],"bemerkung":"Gesucht in PSA-BV, LasthandhabV (§ 2, Anhang), DGUV Regel 109-606 und 109-607, DGUV Vorschrift 68 und im ganzen Textordner nach Absetzen, Unterlage, Unterlegen, Finger und Last. Eine Vorgabe, Teile auf Unterlagen abzusetzen und die Finger nicht unter die Last zu bringen, steht nirgends. Die LasthandhabV verlangt nur allgemein geeignete Maßnahmen gegen Gefährdung bei der manuellen Handhabung von Lasten.",
+   "vorschlag":"Nur als Maßnahme ohne Beleg führen, oder an LasthandhabV § 2 Abs. 2 anbinden (geeignete Maßnahmen, damit die Gefährdung möglichst gering ist)."}]},
+ {"id":"R10","aussagen":[
+  {"id":"R10-M1","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-553.txt","stelle":"Abschnitt 6 Abs. 3 Nr. 1 Buchstabe a","zitat":"bei Tätigkeiten mit Exposition gegenüber Hartholzstaub, wenn der Arbeitsplatzgrenzwert (AGW) für Hartholzstaub von 2 mg/m³ nicht eingehalten wird"},
+   {"datei":"TRGS/TRGS-553.txt","stelle":"Abschnitt 6 Abs. 3 Nr. 2 Buchstabe a","zitat":"bei Tätigkeiten mit Hartholzstaub, wenn eine Exposition nicht ausgeschlossen werden kann und der Arbeitsplatzgrenzwert (AGW) für Hartholzstaub von 2 mg/m³ eingehalten wird"},
+   {"datei":"TRGS/TRGS-553.txt","stelle":"Abschnitt 6 Abs. 3 Nr. 2 Buchstabe e","zitat":"nach Beendigung der Tätigkeiten mit Exposition gegenüber Hartholzstäuben"}],
+   "bemerkung":"Rechtsgrundlage: ArbMedVV Anhang Teil 1 Abs. 1 Nr. 1 (Hartholzstaub), Abs. 2 Nr. 1 und Abs. 3. Die Angebotsvorsorge gilt nur, wenn eine Exposition nicht ausgeschlossen werden kann."},
+  {"id":"R10-M2","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-553.txt","stelle":"Abschnitt 3 Abs. 8","zitat":"hat der Arbeitgeber nach § 14 Absatz 3 GefStoffV ein Verzeichnis zu führen und dieses 40 Jahre lang nach Ende der Exposition aufzubewahren"},
+   {"datei":"Gesetze-Verordnungen/GefStoffV.txt","stelle":"§ 10a Abs. 2 Nr. 1","zitat":"bei Tätigkeiten mit krebserzeugenden oder keimzellmutagenen Gefahrstoffen der Kategorie 1A oder 1B 40 Jahre oder"}],
+   "bemerkung":"Das Verzeichnis ist nur für Beschäftigte zu führen, bei denen die Gefährdungsbeurteilung eine Gefährdung ergibt (§ 10a Abs. 1). Die TRGS 553 verweist noch auf § 14 Abs. 3 GefStoffV; in der vorliegenden Fassung der Verordnung steht die Regel in § 10a."}]},
+ {"id":"R01","aussagen":[
+  {"id":"R01-M1","urteil":"gedeckt","belege":[
+   {"datei":"DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt","stelle":"§ 7 Abs. 1 Satz 1 (Einleitung)","zitat":"Der Unternehmer darf mit dem selbstständigen Steuern von Flurförderzeugen mit Fahrersitz oder Fahrerstand Personen nur beauftragen, die"},
+   {"datei":"DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt","stelle":"§ 7 Abs. 1 Nr. 1 bis 3 und Satz 2","zitat":"1. mindestens 18 Jahre alt sind, 2. für diese Tätigkeit geeignet und ausgebildet sind und 3. ihre Befähigung nachgewiesen haben. Der Auftrag muss schriftlich erteilt werden."}],
+   "bemerkung":"Zusätzlich verlangt der Text den Nachweis der Befähigung."}]},
+ {"id":"R17","aussagen":[
+  {"id":"R17-M1","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-553.txt","stelle":"Abschnitt 4.4 Abs. 2 Satz 2","zitat":"Abblasen und trockenes Kehren von Holzstaub und -spänen sind nicht zulässig."}]},
+  {"id":"R17-M2","urteil":"gedeckt","belege":[
+   {"datei":"TRGS/TRGS-553.txt","stelle":"Abschnitt 4.4 Abs. 2 Satz 3","zitat":"Staubarme Aufsaugverfahren mit geprüften Entstaubern (H3) oder Industriestaubsaugern der Klasse M sind anzuwenden."}],
+   "bemerkung":"Der Text nennt Entstauber H3 oder Industriestaubsauger der Klasse M; Staubklasse M ist die Untergrenze. Abschnitt 4.4 Abs. 7 nennt ebenfalls Staubklasse M."}]},
+ {"id":"P01","aussagen":[
+  {"id":"P01","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ArbSchG.txt","stelle":"§ 5 Abs. 1","zitat":"Der Arbeitgeber hat durch eine Beurteilung der für die Beschäftigten mit ihrer Arbeit verbundenen Gefährdung zu ermitteln, welche Maßnahmen des Arbeitsschutzes erforderlich sind."},
+   {"datei":"Gesetze-Verordnungen/ArbSchG.txt","stelle":"§ 6 Abs. 1 Satz 1","zitat":"Der Arbeitgeber muß über die je nach Art der Tätigkeiten und der Zahl der Beschäftigten erforderlichen Unterlagen verfügen, aus denen das Ergebnis der Gefährdungsbeurteilung, die von ihm festgelegten Maßnahmen des Arbeitsschutzes und das Ergebnis ihrer Überprüfung ersichtlich sind."}]}]},
+ {"id":"P03","aussagen":[
+  {"id":"P03","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ASiG.txt","stelle":"§ 2 Abs. 1 Satz 1","zitat":"Der Arbeitgeber hat Betriebsärzte schriftlich zu bestellen und ihnen die in § 3 genannten Aufgaben zu übertragen, soweit dies erforderlich ist im Hinblick auf"},
+   {"datei":"Gesetze-Verordnungen/ASiG.txt","stelle":"§ 5 Abs. 1 Satz 1","zitat":"Der Arbeitgeber hat Fachkräfte für Arbeitssicherheit (Sicherheitsingenieure, -techniker, -meister) schriftlich zu bestellen und ihnen die in § 6 genannten Aufgaben zu übertragen, soweit dies erforderlich ist im Hinblick auf"}],
+   "bemerkung":"Die Bestellung gilt nur, soweit sie nach Betriebsart, Zahl der Beschäftigten und Zusammensetzung der Belegschaft erforderlich ist, und muss schriftlich erfolgen. Das Wort immer im gilt_wenn ist daher etwas schärfer als der Text."}]},
+ {"id":"P05","aussagen":[
+  {"id":"P05","urteil":"gedeckt","belege":[
+   {"datei":"Gesetze-Verordnungen/ASiG.txt","stelle":"§ 11 Satz 1","zitat":"hat der Arbeitgeber in Betrieben mit mehr als zwanzig Beschäftigten einen Arbeitsschutzausschuß zu bilden"}],
+   "bemerkung":"Mehr als zwanzig Beschäftigte entspricht ab 21. Teilzeitbeschäftigte zählen mit 0,5 (bis 20 Wochenstunden) und 0,75 (bis 30 Wochenstunden)."}]}
+]}

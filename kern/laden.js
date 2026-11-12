@@ -10,6 +10,33 @@ const ART = ['S', 'T', 'O', 'P'];
 const TYPEN = ['material', 'vorgang', 'ausfuehrung', 'umgebung'];
 const PRAEFIX = { material: 'm.', vorgang: 'v.', ausfuehrung: 'a.', umgebung: 'u.' };
 
+// Fingerabdruck: ändert sich, sobald sich fachlich etwas an Regel oder Pflicht ändert. Fundstellen zählen nicht mit.
+function fingerabdruck(e) {
+  const kern = e.massnahmen
+    ? { wenn: e.wenn, entsteht: e.entsteht, gefaehrdung: e.gefaehrdung, verbindlichkeit: e.verbindlichkeit, massnahmen: e.massnahmen.map(m => [m.id, m.art, m.text, m.grundlage || '']) }
+    : { wenn: e.wenn, pflicht: e.pflicht };
+  const s = JSON.stringify(kern); let a = 0x811c9dc5, b = 0x1b873593;
+  for (let i = 0; i < s.length; i++) { const c = s.charCodeAt(i); a = Math.imul(a ^ c, 0x01000193); b = Math.imul(b ^ c, 0x85ebca6b) ^ (b >>> 13); }
+  return (a >>> 0).toString(16).padStart(8, '0') + (b >>> 0).toString(16).padStart(8, '0');
+}
+
+// Beleg und Freigabe gelten nur für genau den Stand, der geprüft wurde.
+function pruefeStand(e, p, f, quellen) {
+  if (e.belegstand) {
+    if (e.beleg !== 'geprueft') f.push(`${p}: Belegstand vorhanden, aber Beleg nicht geprüft`);
+    else if (e.belegstand.fingerabdruck !== fingerabdruck(e)) f.push(`${p}: nach der Beleg-Prüfung geändert. Beleg zurücksetzen mit: node beleg/stand.js --bereinigen`);
+  }
+  if (e.freigabe === 'geprueft') {
+    if (!e.freigegeben || !e.freigegeben.von) f.push(`${p}: freigegeben, aber ohne Angabe, wer freigegeben hat`);
+    else if (e.freigegeben.fingerabdruck !== fingerabdruck(e)) f.push(`${p}: nach der Freigabe geändert. Freigabe zurücksetzen mit: node beleg/stand.js --bereinigen`);
+    if (!e.belegstand || e.belegstand.pruefungen < 2) f.push(`${p}: freigegeben ohne doppelt geprüften Beleg`);
+  }
+  for (const m of e.massnahmen || []) {
+    if (m.grundlage !== undefined && m.grundlage !== 'erfahrung') f.push(`${p}: Maßnahme ${m.id} hat unbekannte Grundlage ${m.grundlage}`);
+    if (m.beleg && !quellen.has(m.beleg.quelle)) f.push(`${p}: Maßnahme ${m.id} verweist auf unbekannte Quelle ${m.beleg.quelle}`);
+  }
+}
+
 function lies(ordner, name) {
   return JSON.parse(fs.readFileSync(path.join(ordner, name + '.json'), 'utf8'));
 }
@@ -86,6 +113,7 @@ function pruefe(b) {
     if (r.beleg === 'ohne-beleg' && (r.quellen || []).length > 0) f.push(`${p}: als ohne-beleg markiert, hat aber Quellen`);
     if (r.beleg === 'geprueft' && (r.quellen || []).some(q => !q.stelle)) f.push(`${p}: Beleg geprüft, aber eine Fundstelle fehlt`);
     if (r.freigabe === 'geprueft' && r.beleg !== 'geprueft') f.push(`${p}: freigegeben ohne geprüften Beleg`);
+    pruefeStand(r, p, f, quellen);
     const sammel = { merkmale: new Set(), angaben: new Set() };
     atome(r.wenn, `${p}.wenn`, f, sammel);
     for (const m of sammel.merkmale) { if (!merkmale.has(m)) f.push(`${p}: unbekanntes Merkmal ${m}`); verwendet.add(m); }
@@ -101,6 +129,8 @@ function pruefe(b) {
     for (const q of x.quellen || []) if (!quellen.has(q.id)) f.push(`${p}: unbekannte Quelle ${q.id}`);
     if (!(x.quellen || []).length) f.push(`${p}: ohne Quelle`);
     if (x.beleg === 'geprueft' && (x.quellen || []).some(q => !q.stelle)) f.push(`${p}: Beleg geprüft, aber eine Fundstelle fehlt`);
+    if (x.freigabe === 'geprueft' && x.beleg !== 'geprueft') f.push(`${p}: freigegeben ohne geprüften Beleg`);
+    pruefeStand(x, p, f, quellen);
     const sammel = { merkmale: new Set(), angaben: new Set() };
     atome(x.wenn, `${p}.wenn`, f, sammel);
     for (const m of sammel.merkmale) { if (!merkmale.has(m)) f.push(`${p}: unbekanntes Merkmal ${m}`); verwendet.add(m); }
@@ -188,4 +218,4 @@ function pruefeFall(b, fall) {
   if (f.length) { const e = new Error('Fall fehlerhaft:\n- ' + f.join('\n- ')); e.fehler = f; throw e; }
 }
 
-module.exports = { ladeBibliothek, pruefe, pruefeFall, TYPEN };
+module.exports = { ladeBibliothek, pruefe, pruefeFall, fingerabdruck, TYPEN };

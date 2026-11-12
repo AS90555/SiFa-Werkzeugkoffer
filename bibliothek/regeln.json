@@ -1,96 +1,3310 @@
 [
-{"id": "R01", "name": "Flurförderzeug im Verkehrsraum", "wenn": "a.flurfoerderzeug", "entsteht": "Fahrzeug im Verkehrsraum", "gefaehrdung": "g-anfahren", "massnahmen": [{"id": "R01-M1", "art": "O", "text": "Nur Fahrer einsetzen, die mindestens 18 Jahre alt, geeignet, ausgebildet und schriftlich beauftragt sind"}], "quellen": [{"id": "dguv-v68", "stelle": "§ 7 Abs. 1"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R02", "name": "Seitenstapler", "wenn": "a.seitenstapler", "entsteht": "Besondere Fahrweise", "gefaehrdung": "g-fahrzeug-kippt", "massnahmen": [{"id": "R02-M1", "art": "O", "text": "Zusatzqualifizierung für den Seitenstapler"}], "quellen": [{"id": "dguv-g308-001", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R03", "name": "Flurförderzeug mit Langgut oder Paket", "wenn": {"alle": ["a.flurfoerderzeug", {"eine": ["m.langgut", "m.paket"]}]}, "entsteht": "Last ragt über, kann rutschen", "gefaehrdung": "g-last-faellt", "massnahmen": [{"id": "R03-M1", "art": "O", "text": "Last sichern, abgesenkt fahren"}, {"id": "R03-M2", "art": "T", "text": "Tragfähigkeit des Staplers passt zum schwersten Paket"}], "quellen": [{"id": "dguv-v68", "stelle": null, "hinweis": "§ 11, § 13; Wortlaut noch gegenlesen"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R04", "name": "Fahrzeug im Außengelände oder am Gefälle", "wenn": {"alle": [{"eine": ["a.flurfoerderzeug", "a.handhubwagen", "a.mitgaenger"]}, {"eine": ["u.aussen", "u.gefaelle"]}]}, "entsteht": "Nässe, Eis, Unebenheit, Mischverkehr", "gefaehrdung": "g-fahrzeug-kippt", "massnahmen": [{"id": "R04-M1", "art": "T", "text": "Befestigte Wege und Beleuchtung"}, {"id": "R04-M2", "art": "O", "text": "Winterdienst und Verkehrsregelung"}], "quellen": [{"id": "asr-a1-8", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R05", "name": "Abladen mit betriebsfremden Personen", "wenn": {"alle": ["v.last_bewegen", "u.betriebsfremde"]}, "entsteht": "Fremder im Gefahrbereich", "gefaehrdung": "g-abstimmung", "massnahmen": [{"id": "R05-M1", "art": "O", "text": "Fester Warteplatz für den Lkw-Fahrer, Einweisung, Abstimmung"}], "quellen": [{"id": "arbschg", "stelle": "§ 8"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R06", "name": "Pakete im Stapel", "wenn": {"alle": ["v.lagern_gestapelt", "m.paket"]}, "entsteht": "Stapel kann kippen", "gefaehrdung": "g-stapel-kippt", "massnahmen": [{"id": "R06-M1", "art": "O", "text": "Stapelhöhe begrenzen"}, {"id": "R06-M2", "art": "T", "text": "Unterleghölzer und ebener, tragfähiger Boden"}], "quellen": [{"id": "dguv-r108-007", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R07", "name": "Vakuumheber", "wenn": "a.vakuumheber", "entsteht": "Last hängt am Unterdruck", "gefaehrdung": "g-schwebende-last", "massnahmen": [{"id": "R07-M1", "art": "T", "text": "Warneinrichtung bei Unterdruckabfall funktionsfähig"}, {"id": "R07-M2", "art": "O", "text": "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich"}, {"id": "R07-M3", "art": "O", "text": "Niemand unter der Last"}], "quellen": [{"id": "betrsichv", "stelle": "§ 14, § 3 Abs. 6"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R08", "name": "Trennen oder Abtragen in vollautomatischer Anlage", "wenn": {"alle": [{"eine": ["v.trennen", "v.abtragend"]}, "a.vollautomat"]}, "entsteht": "Werkzeuge hinter Schutzeinrichtung", "gefaehrdung": "g-werkzeug", "massnahmen": [{"id": "R08-M1", "art": "T", "text": "Schutzeinrichtungen wirksam, nichts überbrückt"}, {"id": "R08-M2", "art": "O", "text": "Schutzeinrichtungen regelmäßig prüfen"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}, {"id": "trbs-2111", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R09", "name": "Holzstaub bei abtragender Bearbeitung", "wenn": {"alle": ["v.abtragend", "m.holz"]}, "entsteht": "Holzstaub", "gefaehrdung": "g-holzstaub", "braucht": ["hartholz"], "massnahmen": [{"id": "R09-M1", "art": "T", "text": "Absaugung an der Entstehungsstelle"}, {"id": "R09-M2", "art": "O", "text": "Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub"}], "quellen": [{"id": "trgs-553", "stelle": "Abschnitt 2 Abs. 3, Abschnitt 4.3, Abschnitt 6 Abs. 3"}], "verbindlichkeit": "vermutungswirkung", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R10", "name": "Hartholzstaub", "wenn": {"alle": ["v.abtragend", "m.holz", {"angabe": "hartholz", "ist": true}]}, "entsteht": "Krebserzeugender Staub", "gefaehrdung": "g-hartholzstaub", "massnahmen": [{"id": "R10-M1", "art": "O", "text": "Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge"}, {"id": "R10-M2", "art": "O", "text": "Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren"}], "quellen": [{"id": "trgs-553", "stelle": "Abschnitt 3 Abs. 8, Abschnitt 6 Abs. 3"}, {"id": "gefstoffv", "stelle": "§ 10a"}, {"id": "arbmedvv", "stelle": "Anhang Teil 1"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R11", "name": "Lärm bei lauten Vorgängen", "wenn": "v.laut", "entsteht": "Lärm", "gefaehrdung": "g-laerm", "braucht": ["laerm_db"], "massnahmen": [{"id": "R11-M1", "art": "P", "text": "Ab 80 dB(A): Gehörschutz bereitstellen, Vorsorge anbieten"}, {"id": "R11-M2", "art": "O", "text": "Ab 85 dB(A): Lärmbereich kennzeichnen, Tragepflicht, Pflichtvorsorge"}], "quellen": [{"id": "laermvibv", "stelle": "§§ 6, 7, 8"}, {"id": "arbmedvv", "stelle": "Anhang Teil 3"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R12", "name": "Last von Hand, wiederholt", "wenn": "v.hand_wiederholt", "entsteht": "Körperliche Belastung", "gefaehrdung": "g-heben-tragen", "braucht": ["last_kg", "griffe_tag"], "massnahmen": [{"id": "R12-M1", "art": "O", "text": "Belastung mit der Leitmerkmalmethode bewerten"}, {"id": "R12-M2", "art": "T", "text": "Hebehilfe, günstige Greifhöhe"}, {"id": "R12-M3", "art": "O", "text": "Tätigkeitswechsel"}], "quellen": [{"id": "lasthandhabv", "stelle": "§ 2"}, {"id": "bauau-lmm", "stelle": "Heben, Halten, Tragen"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R13", "name": "Holz von Hand", "wenn": {"alle": ["a.von_hand", "m.splitternd"]}, "entsteht": "Splitter, Kanten", "gefaehrdung": "g-splitter", "massnahmen": [{"id": "R13-M1", "art": "P", "text": "Geeignete Handschuhe, nicht an drehenden Werkzeugen"}], "quellen": [{"id": "psa-bv", "stelle": "§ 2"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R14", "name": "Stehend lagern im Wagen", "wenn": "v.lagern_stehend", "entsteht": "Hoher Schwerpunkt", "gefaehrdung": "g-stapel-kippt", "massnahmen": [{"id": "R14-M1", "art": "T", "text": "Standsichere Wagen mit Feststellbremse"}, {"id": "R14-M2", "art": "O", "text": "Beladeregel"}], "quellen": [{"id": "betrsichv", "stelle": "§ 5"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R15", "name": "Wagen auf der Gabel", "wenn": {"alle": ["a.flurfoerderzeug", "m.ladungstraeger_hoch"]}, "entsteht": "Wagen liegt auf der Gabel", "gefaehrdung": "g-last-faellt", "massnahmen": [{"id": "R15-M1", "art": "T", "text": "Wagen mit Aufnahmetaschen oder Sicherung"}], "quellen": [{"id": "dguv-v68", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R16", "name": "Sonderbetrieb an der Anlage", "wenn": {"alle": ["v.sonderbetrieb", "m.anlage"]}, "entsteht": "Schutz aufgehoben, gespeicherte Energie", "gefaehrdung": "g-anlauf", "massnahmen": [{"id": "R16-M1", "art": "T", "text": "Abschalten und gegen Wiedereinschalten sichern"}, {"id": "R16-M2", "art": "O", "text": "Nur Befugte: Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur"}, {"id": "R16-M3", "art": "O", "text": "Arbeitsanweisung für den Sonderbetrieb"}], "quellen": [{"id": "betrsichv", "stelle": "§ 10 Instandhaltung, § 11 besondere Betriebszustände"}, {"id": "trbs-1112", "stelle": "Abschnitte 4 und 5"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R17", "name": "Reinigen bei Holzstaub", "wenn": {"alle": ["v.reinigen", "m.holzstaub"]}, "entsteht": "Aufgewirbelter Staub", "gefaehrdung": "g-holzstaub", "massnahmen": [{"id": "R17-M1", "art": "O", "text": "Abblasen und trockenes Kehren sind nicht zulässig"}, {"id": "R17-M2", "art": "T", "text": "Aufsaugen mit Sauger mindestens Staubklasse M"}], "quellen": [{"id": "trgs-553", "stelle": "Abschnitt 4.4"}], "verbindlichkeit": "vermutungswirkung", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R18", "name": "Abgelagerter Holzstaub", "wenn": {"eine": [{"alle": ["v.abtragend", "m.holz"]}, "m.holzstaub"]}, "entsteht": "Brennbare Staubschicht", "gefaehrdung": "g-brand-ex-staub", "massnahmen": [{"id": "R18-M1", "art": "O", "text": "Reinigungsplan"}, {"id": "R18-M2", "art": "T", "text": "Zündquellen vermeiden"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 12"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R19", "name": "Handgeführte Maschine mit drehendem Werkzeug", "wenn": {"alle": ["v.schnell_drehend", "a.handmaschine"]}, "entsteht": "Offenes Werkzeug, Rückschlag", "gefaehrdung": "g-werkzeug", "massnahmen": [{"id": "R19-M1", "art": "T", "text": "Schutzhaube, Werkstück fixiert"}, {"id": "R19-M2", "art": "O", "text": "Beide Hände an der Maschine"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}, {"id": "hersteller", "stelle": "Betriebsanleitung"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R20", "name": "Schleifen mit Handvorschub", "wenn": {"alle": ["v.schleifen", "a.stationaer_handvorschub"]}, "entsteht": "Hand nah am Band", "gefaehrdung": "g-einzug", "massnahmen": [{"id": "R20-M1", "art": "T", "text": "Werkstückauflage, Anschlag, Absaugung"}], "quellen": [{"id": "dguv-r100-500", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R21", "name": "Trennendes Werkzeug mit Handvorschub oder Handbedienung", "wenn": {"alle": ["v.trennen", "v.schnell_drehend", "a.stationaer_handvorschub"]}, "entsteht": "Hand nah am laufenden Werkzeug", "gefaehrdung": "g-werkzeug", "massnahmen": [{"id": "R21-M1", "art": "T", "text": "Schutzeinrichtung am Werkzeug richtig eingestellt, Vorschubhilfe oder Spannmittel"}, {"id": "R21-M2", "art": "T", "text": "Nur für die Bedienart geeignete Werkzeuge; nicht in das laufende Werkzeug greifen"}], "quellen": [{"id": "dguv-r100-500", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R22", "name": "Gefahrstoff wird aufgetragen", "wenn": {"alle": ["v.stoff_auftragen", "m.gefahrstoff", {"nicht": {"angabe": "eingestuft", "ist": false}}]}, "entsteht": "Abhängig von der Einstufung", "gefaehrdung": "g-gefahrstoff", "braucht": ["sdb"], "massnahmen": [{"id": "R22-M1", "art": "O", "text": "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen"}, {"id": "R22-M2", "art": "O", "text": "Stoff ins Gefahrstoffverzeichnis aufnehmen"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 6"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R23", "name": "Imprägnieranlage", "wenn": {"eine": [{"alle": ["v.impraegnieren", "a.vollautomat"]}, {"alle": ["v.sonderbetrieb", "m.impraegnierung"]}]}, "entsteht": "Kontakt beim Nachfüllen und Reinigen", "gefaehrdung": "g-gefahrstoff", "massnahmen": [{"id": "R23-M1", "art": "T", "text": "Geschlossenes System, Absaugung"}, {"id": "R23-M2", "art": "P", "text": "Handschuhe nach Sicherheitsdatenblatt beim Nachfüllen und Reinigen"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 7"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R24", "name": "Infrarot-Trocknung", "wenn": "v.trocknen_ir", "entsteht": "Heiße Flächen, Wärmestau", "gefaehrdung": "g-verbrennung", "massnahmen": [{"id": "R24-M1", "art": "T", "text": "Abschaltung bei Bandstillstand, Temperaturüberwachung"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}, {"id": "hersteller", "stelle": "Betriebsanleitung"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R25", "name": "Presse mit Lichtschranke", "wenn": {"alle": ["v.pressen", "a.automat_lichtschranke"]}, "entsteht": "Schließbewegung bei regelmäßigem Zugang", "gefaehrdung": "g-quetschen", "massnahmen": [{"id": "R25-M1", "art": "O", "text": "Tägliche Funktionsprobe der Lichtschranke"}, {"id": "R25-M2", "art": "O", "text": "Wiederkehrende Prüfung"}, {"id": "R25-M3", "art": "T", "text": "Umgehen nicht möglich"}], "quellen": [{"id": "betrsichv", "stelle": "§ 14"}, {"id": "trbs-2111", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R26", "name": "Sperrige Teile von Hand", "wenn": {"alle": ["a.von_hand", "m.sperrig"]}, "entsteht": "Last, Zwangshaltung", "gefaehrdung": "g-heben-tragen", "braucht": ["last_kg"], "massnahmen": [{"id": "R26-M1", "art": "T", "text": "Höhenverstellbarer Tisch"}, {"id": "R26-M2", "art": "O", "text": "Ab Grenzgewicht zu zweit oder mit Hebehilfe"}], "quellen": [{"id": "lasthandhabv", "stelle": "§ 2"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R27", "name": "Verschrauben mit Handmaschine", "wenn": {"alle": ["v.verschrauben", "a.handmaschine"]}, "entsteht": "Gleichförmige Bewegung, Drehmoment", "gefaehrdung": "g-repetitiv", "massnahmen": [{"id": "R27-M1", "art": "O", "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse"}, {"id": "R27-M2", "art": "T", "text": "Schrauber mit Abschaltkupplung"}], "quellen": [{"id": "arbschg", "stelle": "§ 5"}, {"id": "bauau-lmm", "stelle": "Manuelle Arbeitsprozesse"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R28", "name": "Druckluft-Eintreibgerät", "wenn": {"alle": ["v.eintreiben", "a.druckluftgeraet"]}, "entsteht": "Klammer mit hoher Energie", "gefaehrdung": "g-geschoss", "massnahmen": [{"id": "R28-M1", "art": "T", "text": "Auslösesicherung"}, {"id": "R28-M2", "art": "P", "text": "Schutzbrille"}, {"id": "R28-M3", "art": "O", "text": "Freie Hand aus der Schusslinie"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}, {"id": "hersteller", "stelle": "Betriebsanleitung"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R29", "name": "Hängeförderer", "wenn": "a.haengefoerderer", "entsteht": "Schwebende, fahrende Last", "gefaehrdung": "g-schwebende-last", "massnahmen": [{"id": "R29-M1", "art": "O", "text": "Aufhängepunkte nach Gewicht festlegen"}, {"id": "R29-M2", "art": "T", "text": "Bereich unter dem Förderer sichern"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}, {"id": "asr-a2-1", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R30", "name": "Lackieranlage", "wenn": {"alle": ["v.beschichten", "a.vollautomat"]}, "entsteht": "Lacknebel, Dämpfe", "gefaehrdung": "g-gefahrstoff", "braucht": ["sdb"], "massnahmen": [{"id": "R30-M1", "art": "T", "text": "Absaugung der Lacknebel"}, {"id": "R30-M2", "art": "O", "text": "Einstufung nach Sicherheitsdatenblatt"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 6, § 7"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R30b", "name": "Entzündbarer Lack oder Reiniger", "wenn": {"alle": ["v.beschichten", {"angabe": "entzuendbar", "ist": true}]}, "entsteht": "Explosionsfähige Atmosphäre", "gefaehrdung": "g-brand-ex-stoff", "massnahmen": [{"id": "R30b-M1", "art": "O", "text": "Explosionsschutz prüfen und im Explosionsschutzdokument ausweisen"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 6 Abs. 9, § 12"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R31", "name": "Sonderbetrieb an der Lackieranlage", "wenn": {"alle": ["v.sonderbetrieb", "m.lackreste"]}, "entsteht": "Lackreste, Reiniger", "gefaehrdung": "g-gefahrstoff", "braucht": ["sdb"], "massnahmen": [{"id": "R31-M1", "art": "O", "text": "Arbeitsanweisung Reinigung"}, {"id": "R31-M2", "art": "P", "text": "Schutzausrüstung nach Sicherheitsdatenblatt"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 7"}, {"id": "betrsichv", "stelle": "§ 11"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R32", "name": "Schleifen beschichteter Flächen", "wenn": {"alle": ["v.schleifen", "m.beschichtet"]}, "entsteht": "Lackstaub", "gefaehrdung": "g-gefahrstoff", "braucht": ["sdb"], "massnahmen": [{"id": "R32-M1", "art": "T", "text": "Abgesaugter Bereich"}, {"id": "R32-M2", "art": "O", "text": "Bewertung nach Sicherheitsdatenblatt des Lacks"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 7"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R33", "name": "Hub-Senk-Station", "wenn": "a.hubsenkstation", "entsteht": "Senkbewegung mit Last", "gefaehrdung": "g-quetschen", "massnahmen": [{"id": "R33-M1", "art": "T", "text": "Quetschstellen gesichert"}, {"id": "R33-M2", "art": "O", "text": "Bedienung mit Sicht auf die Last"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}, {"id": "trbs-2111", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R34", "name": "Handwerkzeug mit Klinge", "wenn": "a.handwerkzeug_klinge", "entsteht": "Offene Klinge", "gefaehrdung": "g-schnitt", "massnahmen": [{"id": "R34-M1", "art": "T", "text": "Werkzeug mit Abdeckung der Klinge"}], "quellen": [{"id": "betrsichv", "stelle": "§ 5"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R35", "name": "Sekundenkleber", "wenn": "m.klebstoff_sekunden", "entsteht": "Sofort haftender Klebstoff, reizende Dämpfe", "gefaehrdung": "g-haut-augen", "massnahmen": [{"id": "R35-M1", "art": "O", "text": "Kleine Gebinde"}, {"id": "R35-M2", "art": "P", "text": "Schutzbrille"}, {"id": "R35-M3", "art": "T", "text": "Lüftung"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 7"}, {"id": "sdb", "stelle": "Abschnitte 2 und 8"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R36", "name": "Halbautomat mit Einlegen von Hand", "wenn": "a.halbautomat_einlegen", "entsteht": "Arbeitstakt bei Hand im Bereich", "gefaehrdung": "g-quetschen", "massnahmen": [{"id": "R36-M1", "art": "T", "text": "Auslösung nur bei freiem Bereich"}, {"id": "R36-M2", "art": "O", "text": "Schutzeinrichtung geprüft"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R37", "name": "2-Komponenten-Klebstoff", "wenn": "m.klebstoff_2k", "entsteht": "Kontakt beim Gebindewechsel und Reinigen", "gefaehrdung": "g-gefahrstoff", "braucht": ["sdb", "isocyanat"], "massnahmen": [{"id": "R37-M1", "art": "O", "text": "Einstufung nach Sicherheitsdatenblatt"}, {"id": "R37-M2", "art": "P", "text": "Handschuhe beim Gebindewechsel"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 6, § 7"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R37b", "name": "Klebstoff mit Isocyanaten", "wenn": {"alle": ["m.klebstoff_2k", {"angabe": "isocyanat", "ist": true}]}, "entsteht": "Atemwegs- und Hautsensibilisierung", "gefaehrdung": "g-gefahrstoff", "massnahmen": [{"id": "R37b-M1", "art": "O", "text": "Vorgeschriebene Schulung für Tätigkeiten mit Diisocyanaten"}], "quellen": [{"id": "sdb", "stelle": "Abschnitt 2, Hinweis auf Schulungspflicht"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R38", "name": "Flachglas", "wenn": {"alle": ["m.glas", {"eine": ["a.von_hand", "a.vakuumheber", "a.mitgaenger"]}]}, "entsteht": "Scharfe Kanten, Bruch", "gefaehrdung": "g-schnitt", "massnahmen": [{"id": "R38-M1", "art": "P", "text": "Schnittschutzhandschuhe und Unterarmschutz"}], "quellen": [{"id": "psa-bv", "stelle": "§ 2"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R39", "name": "Glas stehend im Paket", "wenn": "m.glaspaket_stehend", "entsteht": "Hohes Gewicht, kippgefährdet", "gefaehrdung": "g-stapel-kippt", "massnahmen": [{"id": "R39-M1", "art": "T", "text": "Sicherung am Gestell"}, {"id": "R39-M2", "art": "O", "text": "Entnahmeregel, niemand in Kipprichtung"}], "quellen": [{"id": "dguv-r108-007", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R40", "name": "Mitgänger-Flurförderzeug", "wenn": "a.mitgaenger", "entsteht": "Gerät folgt dem Bediener", "gefaehrdung": "g-anfahren", "massnahmen": [{"id": "R40-M1", "art": "P", "text": "Sicherheitsschuhe"}, {"id": "R40-M2", "art": "O", "text": "Unterweisung und Beauftragung"}], "quellen": [{"id": "dguv-v68", "stelle": null, "hinweis": "noch zuordnen"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R41", "name": "Reinigen mit Reiniger von Hand", "wenn": {"alle": ["v.reinigen", "m.reiniger", "a.von_hand"]}, "entsteht": "Dämpfe, Hautkontakt", "gefaehrdung": "g-gefahrstoff", "braucht": ["sdb", "entzuendbar"], "massnahmen": [{"id": "R41-M1", "art": "O", "text": "Einstufung nach Sicherheitsdatenblatt, Maßnahmen danach"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 6"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R42", "name": "Scharfkantige Teile von Hand", "wenn": {"alle": ["m.scharfkantig", "a.von_hand"]}, "entsteht": "Scharfe Kanten, Grate, Späne", "gefaehrdung": "g-schnitt", "massnahmen": [{"id": "R42-M1", "art": "P", "text": "Schnittfeste Handschuhe"}, {"id": "R42-M2", "art": "T", "text": "Entgraten"}], "quellen": [{"id": "psa-bv", "stelle": "§ 2"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R43", "name": "Sägen von Aluminium", "wenn": {"alle": ["v.saegen", "m.alu"]}, "entsteht": "Sehr hoher Lärm", "gefaehrdung": "g-laerm", "braucht": ["laerm_db"], "massnahmen": [{"id": "R43-M1", "art": "T", "text": "Kapselung der Säge"}, {"id": "R43-M2", "art": "P", "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"}], "quellen": [{"id": "laermvibv", "stelle": "§§ 6, 7, 8"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R44", "name": "Aluminiumspäne und -staub", "wenn": {"alle": ["v.abtragend", "m.alu"]}, "entsteht": "Brennbarer Metallstaub", "gefaehrdung": "g-brand-ex-staub", "massnahmen": [{"id": "R44-M1", "art": "T", "text": "Getrennt von Holzstaub erfassen und sammeln"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 12"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R45", "name": "Holzstaub in Filter und Silo", "wenn": "a.absauganlage_silo", "entsteht": "Explosionsfähige Atmosphäre", "gefaehrdung": "g-brand-ex-staub", "massnahmen": [{"id": "R45-M1", "art": "O", "text": "Explosionsschutzdokument"}, {"id": "R45-M2", "art": "T", "text": "Funkenlöschung und Druckentlastung"}, {"id": "R45-M3", "art": "O", "text": "Prüfung der Anlage"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 6 Abs. 9"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R46", "name": "Einstieg in Silo oder Behälter", "wenn": {"alle": ["u.silo", {"angabe": "einstieg", "ist": true}]}, "entsteht": "Enger Raum, Schüttgut", "gefaehrdung": "g-enger-raum", "massnahmen": [{"id": "R46-M1", "art": "O", "text": "Nur mit Erlaubnisschein"}, {"id": "R46-M2", "art": "O", "text": "Sicherungsposten"}], "quellen": [{"id": "dguv-r113-004", "stelle": "Abschnitt 2.10 Sicherungsposten; Mustererlaubnisschein im Anhang"}], "verbindlichkeit": "empfehlung", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R47", "name": "Zerkleinerer", "wenn": "a.zerkleinerer", "entsteht": "Einzugswerk", "gefaehrdung": "g-einzug", "massnahmen": [{"id": "R47-M1", "art": "T", "text": "Zuführen mit Hilfsmittel, Not-Halt"}, {"id": "R47-M2", "art": "O", "text": "Störung nur an der gesicherten Maschine beheben"}], "quellen": [{"id": "betrsichv", "stelle": "§ 6"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R48", "name": "Schneidwerkzeuge handhaben", "wenn": "m.schneidwerkzeug", "entsteht": "Scharfe Messer, schwere Köpfe", "gefaehrdung": "g-schnitt", "massnahmen": [{"id": "R48-M1", "art": "P", "text": "Schnittschutzhandschuhe"}, {"id": "R48-M2", "art": "T", "text": "Transportwagen und Aufnahmevorrichtung"}], "quellen": [{"id": "betrsichv", "stelle": "§ 5"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R49", "name": "Reinigen im Tauchbad", "wenn": "a.tauchbad", "entsteht": "Meist alkalischer Reiniger", "gefaehrdung": "g-haut-augen", "braucht": ["sdb"], "massnahmen": [{"id": "R49-M1", "art": "O", "text": "Einstufung nach Sicherheitsdatenblatt"}, {"id": "R49-M2", "art": "P", "text": "Schutzbrille und Handschuhe"}, {"id": "R49-M3", "art": "T", "text": "Augenspülung in der Nähe"}], "quellen": [{"id": "gefstoffv", "stelle": "§ 7"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R50", "name": "Fruchtschädigender Stoff", "wenn": {"alle": ["m.gefahrstoff", {"angabe": "h360", "ist": true}]}, "entsteht": "Fruchtschädigender Stoff", "gefaehrdung": "g-fruchtschaedigend", "massnahmen": [{"id": "R50-M1", "art": "S", "text": "Ersatzstoff prüfen"}, {"id": "R50-M2", "art": "T", "text": "Hautkontakt ausschließen"}, {"id": "R50-M3", "art": "O", "text": "Schwangere dürfen dem Stoff nicht ausgesetzt sein"}], "quellen": [{"id": "muschg", "stelle": "§ 11 Abs. 1 Nr. 1"}, {"id": "gefstoffv", "stelle": "§ 10"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R51", "name": "Batterie laden", "wenn": "a.batterie", "entsteht": "Wasserstoff beim Laden", "gefaehrdung": "g-brand-ex-stoff", "massnahmen": [{"id": "R51-M1", "art": "T", "text": "Belüfteter Ladeplatz ohne Zündquellen"}], "quellen": [], "verbindlichkeit": "pflicht", "beleg": "ohne-beleg", "freigabe": "entwurf"},
-{"id": "R52", "name": "Fremdfirma im Betrieb", "wenn": "u.fremdfirma", "entsteht": "Fremde Beschäftigte in unbekannter Umgebung", "gefaehrdung": "g-abstimmung", "massnahmen": [{"id": "R52-M1", "art": "O", "text": "Einweisung und Abstimmung der Arbeiten"}, {"id": "R52-M2", "art": "O", "text": "Bei besonderen Gefahren aufsichtführende Person und Erlaubnisschein"}], "quellen": [{"id": "arbschg", "stelle": "§ 8"}, {"id": "dguv-v1", "stelle": "§ 6"}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R53", "name": "Flurförderzeug und Fußgänger in der Halle", "wenn": {"alle": ["a.flurfoerderzeug", "u.halle_fussgaenger"]}, "entsteht": "Fahrzeug und Fußgänger im selben Verkehrsraum", "gefaehrdung": "g-anfahren", "massnahmen": [{"id": "R53-M1", "art": "T", "text": "Fahr- und Gehwege trennen und kennzeichnen"}], "quellen": [{"id": "asr-a1-8", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R54", "name": "Sensibilisierender Stoff", "wenn": {"alle": ["m.gefahrstoff", {"angabe": "sensibilisierend", "ist": true}]}, "entsteht": "Stoff kann Allergien auslösen", "gefaehrdung": "g-gefahrstoff", "massnahmen": [{"id": "R54-M1", "art": "T", "text": "Hautkontakt technisch vermeiden"}, {"id": "R54-M2", "art": "P", "text": "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts"}], "quellen": [{"id": "gefstoffv", "stelle": null, "hinweis": "§ 7, § 8 noch gegenlesen"}, {"id": "trgs-401", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R55", "name": "Entzündbare Sprühdose", "wenn": {"alle": ["m.aerosol", {"angabe": "entzuendbar", "ist": true}]}, "entsteht": "Entzündbares Aerosol, Druckbehälter", "gefaehrdung": "g-brand-ex-stoff", "massnahmen": [{"id": "R55-M1", "art": "O", "text": "Nicht in der Nähe von Zündquellen und heißen Flächen sprühen"}, {"id": "R55-M2", "art": "O", "text": "Nur Tagesbedarf am Arbeitsplatz, Vorrat geschützt vor Wärme lagern"}, {"id": "R55-M3", "art": "T", "text": "Für Lüftung sorgen"}], "quellen": [{"id": "sdb", "stelle": "Abschnitte 2 und 7"}, {"id": "trgs-510", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R56", "name": "Sägen mit Handvorschub", "wenn": {"alle": ["v.saegen", "a.stationaer_handvorschub"]}, "entsteht": "Hand nah am Sägeblatt, Rückschlag des Werkstücks", "gefaehrdung": "g-werkzeug", "massnahmen": [{"id": "R56-M1", "art": "T", "text": "Schutzhaube und Spaltkeil richtig eingestellt"}, {"id": "R56-M2", "art": "O", "text": "Schiebestock oder Schiebeholz bei schmalen Werkstücken"}], "quellen": [{"id": "dguv-r109-606", "stelle": null}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R57", "name": "Schweißrauch", "wenn": "v.schweissen", "entsteht": "Schweißrauch und Gase", "gefaehrdung": "g-schweissrauch", "massnahmen": [{"id": "R57-M1", "art": "S", "text": "Emissionsarmes Verfahren und Zusatzwerkstoff wählen"}, {"id": "R57-M2", "art": "T", "text": "Absaugung an der Entstehungsstelle, nachgeführt"}, {"id": "R57-M3", "art": "P", "text": "Atemschutz, wenn die Absaugung nicht ausreicht"}], "quellen": [{"id": "trgs-528", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R58", "name": "Optische Strahlung beim Schweißen", "wenn": "v.schweissen", "entsteht": "Ultraviolette und sichtbare Strahlung des Lichtbogens", "gefaehrdung": "g-strahlung", "massnahmen": [{"id": "R58-M1", "art": "T", "text": "Schweißplatz zu Nachbarplätzen abschirmen"}, {"id": "R58-M2", "art": "P", "text": "Schweißerschutzschild und bedeckende Kleidung"}], "quellen": [{"id": "ostrv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R59", "name": "Heiße Werkstücke", "wenn": {"eine": ["v.heiss", "m.heiss"]}, "entsteht": "Heiße Teile und Spritzer", "gefaehrdung": "g-verbrennung", "massnahmen": [{"id": "R59-M1", "art": "O", "text": "Fester, gekennzeichneter Ablageplatz für heiße Teile"}, {"id": "R59-M2", "art": "P", "text": "Hitzebeständige Handschuhe und Schutzkleidung"}], "quellen": [{"id": "psa-bv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R60", "name": "Funkenflug", "wenn": "v.funken", "entsteht": "Funken und glühende Partikel", "gefaehrdung": "g-brand-ex-stoff", "massnahmen": [{"id": "R60-M1", "art": "O", "text": "Brennbare Stoffe aus dem Funkenbereich entfernen"}, {"id": "R60-M2", "art": "T", "text": "Feuerlöscher griffbereit"}, {"id": "R60-M3", "art": "O", "text": "Außerhalb fester Schweißplätze nur mit Erlaubnis"}], "quellen": [{"id": "trgs-800", "stelle": null}, {"id": "dguv-r100-500", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R61", "name": "Druckgasflasche", "wenn": "m.druckgas", "entsteht": "Hoher Druck, schwere Flasche", "gefaehrdung": "g-druckgas", "massnahmen": [{"id": "R61-M1", "art": "T", "text": "Flasche gegen Umfallen sichern"}, {"id": "R61-M2", "art": "O", "text": "Transport nur mit Ventilschutz"}], "quellen": [{"id": "trgs-745", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R62", "name": "Kühlschmierstoff", "wenn": "m.kss", "entsteht": "Hautkontakt, Nebel und Dämpfe", "gefaehrdung": "g-kss", "massnahmen": [{"id": "R62-M1", "art": "T", "text": "Kapselung und Absaugung der Maschine"}, {"id": "R62-M2", "art": "O", "text": "Hautschutzplan"}, {"id": "R62-M3", "art": "P", "text": "Hautkontakt vermeiden, geeignete Handschuhe außerhalb drehender Teile"}], "quellen": [{"id": "gefstoffv", "stelle": null}, {"id": "trgs-401", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf", "braucht": ["sdb"]},
-{"id": "R63", "name": "Keime im wassergemischten Kühlschmierstoff", "wenn": {"alle": ["m.kss", {"angabe": "kss_wassergemischt", "ist": true}]}, "entsteht": "Bakterien und Pilze in der Emulsion", "gefaehrdung": "g-bio", "massnahmen": [{"id": "R63-M1", "art": "O", "text": "Kühlschmierstoff regelmäßig prüfen und pflegen"}, {"id": "R63-M2", "art": "O", "text": "Wechsel und Reinigung nach Plan"}], "quellen": [{"id": "trgs-611", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R64", "name": "Rutschiger Boden durch Kühlschmierstoff", "wenn": "m.kss", "entsteht": "Öl und Emulsion auf dem Boden", "gefaehrdung": "g-sturz", "massnahmen": [{"id": "R64-M1", "art": "T", "text": "Auffangwannen, Spritzschutz"}, {"id": "R64-M2", "art": "O", "text": "Boden sauber halten"}, {"id": "R64-M3", "art": "P", "text": "Rutschhemmende Schuhe"}], "quellen": [{"id": "asr-a1-5", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R65", "name": "Kran oder Hebezeug", "wenn": "a.hebezeug", "entsteht": "Schwebende Last", "gefaehrdung": "g-schwebende-last", "massnahmen": [{"id": "R65-M1", "art": "O", "text": "Niemand unter der schwebenden Last"}, {"id": "R65-M2", "art": "O", "text": "Anschlagmittel vor Gebrauch prüfen"}, {"id": "R65-M3", "art": "O", "text": "Wiederkehrende Prüfung des Hebezeugs"}], "quellen": [{"id": "betrsichv", "stelle": null}, {"id": "dguv-v52", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R66", "name": "Förderband oder Rollenbahn", "wenn": "a.stetigfoerderer", "entsteht": "Einzugsstellen an Rollen und Bändern", "gefaehrdung": "g-einzug", "massnahmen": [{"id": "R66-M1", "art": "T", "text": "Einzugs- und Umlenkstellen verkleidet"}, {"id": "R66-M2", "art": "O", "text": "Reinigen und Entstören nur im Stillstand"}], "quellen": [{"id": "betrsichv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R67", "name": "Fahrverkehr im Arbeitsbereich", "wenn": "u.fahrverkehr", "entsteht": "Fahrzeuge kreuzen den Arbeitsplatz", "gefaehrdung": "g-anfahren", "massnahmen": [{"id": "R67-M1", "art": "T", "text": "Fahr- und Gehwege trennen und kennzeichnen"}, {"id": "R67-M2", "art": "T", "text": "Sicht schaffen, Spiegel an unübersichtlichen Stellen"}], "quellen": [{"id": "asr-a1-8", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R68", "name": "Handhubwagen", "wenn": "a.handhubwagen", "entsteht": "Schwere Last auf kleinen Rollen", "gefaehrdung": "g-anfahren", "massnahmen": [{"id": "R68-M1", "art": "P", "text": "Sicherheitsschuhe"}, {"id": "R68-M2", "art": "O", "text": "Ziehen statt schieben nur mit Sicht, Last niedrig"}], "quellen": [{"id": "psa-bv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R69", "name": "Hoher Stapel wird bewegt", "wenn": {"alle": ["m.stapel_hoch", "v.last_bewegen"]}, "entsteht": "Ladung kann verrutschen", "gefaehrdung": "g-stapel-kippt", "massnahmen": [{"id": "R69-M1", "art": "O", "text": "Stapelhöhe begrenzen"}, {"id": "R69-M2", "art": "T", "text": "Ladung sichern, zum Beispiel mit Folie oder Band"}], "quellen": [{"id": "dguv-r108-007", "stelle": null}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R70", "name": "Arbeiten an elektrischen Anlagen", "wenn": "v.elektro", "entsteht": "Spannung führende Teile", "gefaehrdung": "g-elektrisch", "massnahmen": [{"id": "R70-M1", "art": "O", "text": "Nur Elektrofachkräfte"}, {"id": "R70-M2", "art": "O", "text": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen"}], "quellen": [{"id": "dguv-v3", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R71", "name": "Kälte und Zugluft", "wenn": "u.kalt", "entsteht": "Niedrige Temperatur, Zugluft", "gefaehrdung": "g-klima", "massnahmen": [{"id": "R71-M1", "art": "T", "text": "Heizung, Torschleier oder schnell schließende Tore"}, {"id": "R71-M2", "art": "P", "text": "Wärmende Arbeitskleidung"}], "quellen": [{"id": "asr-a3-5", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R72", "name": "Lärm aus der Umgebung", "wenn": "u.laerm", "entsteht": "Lärm von Nachbarplätzen und Aggregaten", "gefaehrdung": "g-laerm", "massnahmen": [{"id": "R72-M1", "art": "T", "text": "Lärmquelle kapseln oder abschirmen"}, {"id": "R72-M2", "art": "P", "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"}], "quellen": [{"id": "laermvibv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf", "braucht": ["laerm_db"]},
-{"id": "R73", "name": "Lösemittel von Hand", "wenn": {"alle": ["m.loesemittel", "a.von_hand"]}, "entsteht": "Hautkontakt und Dämpfe", "gefaehrdung": "g-haut-augen", "massnahmen": [{"id": "R73-M1", "art": "T", "text": "Geschlossene Waschgeräte statt offener Wanne"}, {"id": "R73-M2", "art": "P", "text": "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"}], "quellen": [{"id": "gefstoffv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf", "braucht": ["sdb"]},
-{"id": "R74", "name": "Metall trennen mit Handmaschine", "wenn": {"alle": ["m.metall", "v.trennen", "a.handmaschine"]}, "entsteht": "Funken, Splitter, berstende Scheibe", "gefaehrdung": "g-geschoss", "massnahmen": [{"id": "R74-M1", "art": "T", "text": "Schutzhaube richtig eingestellt"}, {"id": "R74-M2", "art": "P", "text": "Schutzbrille, bei Trennscheiben Gesichtsschutz"}], "quellen": [{"id": "betrsichv", "stelle": null}, {"id": "hersteller", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R75", "name": "Lagern im Regal", "wenn": "v.lagern_regal", "entsteht": "Teile können herabfallen", "gefaehrdung": "g-last-faellt", "massnahmen": [{"id": "R75-M1", "art": "O", "text": "Schwere Teile unten lagern"}, {"id": "R75-M2", "art": "T", "text": "Sicherung gegen Durchschieben und Herabfallen"}, {"id": "R75-M3", "art": "O", "text": "Regale regelmäßig prüfen"}], "quellen": [{"id": "dguv-r108-007", "stelle": null}], "verbindlichkeit": "empfehlung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R76", "name": "Verschmutzter oder unebener Boden", "wenn": "u.boden", "entsteht": "Späne, Öl, Pulver, Kabel, Kanten am Boden", "gefaehrdung": "g-sturz", "massnahmen": [{"id": "R76-M1", "art": "O", "text": "Boden sauber und Wege frei halten, Reinigungsplan"}, {"id": "R76-M2", "art": "T", "text": "Stolperstellen beseitigen oder kennzeichnen"}, {"id": "R76-M3", "art": "P", "text": "Rutschhemmende Sicherheitsschuhe"}], "quellen": [{"id": "asr-a1-5", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R77", "name": "Zeitdruck", "wenn": "u.zeitdruck", "entsteht": "Arbeiten in Hektik", "gefaehrdung": "g-psychisch", "massnahmen": [{"id": "R77-M1", "art": "O", "text": "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist"}, {"id": "R77-M2", "art": "O", "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen"}], "quellen": [{"id": "arbschg", "stelle": "§ 5 Abs. 3 Nr. 6"}], "verbindlichkeit": "pflicht", "beleg": "geprueft", "freigabe": "entwurf"},
-{"id": "R78", "name": "Gleichförmige Handarbeit", "wenn": {"alle": [{"eine": ["a.von_hand", "a.handmaschine"]}, {"angabe": "gleichfoermig", "ist": true}]}, "entsteht": "Immer gleiche Bewegung in hoher Zahl", "gefaehrdung": "g-repetitiv", "massnahmen": [{"id": "R78-M1", "art": "O", "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"}, {"id": "R78-M2", "art": "O", "text": "Tätigkeitswechsel und Pausen"}], "quellen": [{"id": "arbschg", "stelle": null}, {"id": "bauau-lmm", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R79", "name": "Presse, Abkantpresse, Stanze", "wenn": "a.presse", "entsteht": "Schließbewegung mit hoher Kraft", "gefaehrdung": "g-quetschen", "massnahmen": [{"id": "R79-M1", "art": "T", "text": "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung"}, {"id": "R79-M2", "art": "O", "text": "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken"}, {"id": "R79-M3", "art": "O", "text": "Wiederkehrende Prüfung"}], "quellen": [{"id": "betrsichv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R80", "name": "Vorschubwalzen mit Anlegen von Hand", "wenn": "a.einzugswalzen", "entsteht": "Einzugsstelle an den Walzen", "gefaehrdung": "g-einzug", "massnahmen": [{"id": "R80-M1", "art": "T", "text": "Einzugsstelle so weit wie möglich verdeckt"}, {"id": "R80-M2", "art": "O", "text": "Werkstück mit Abstand anlegen, nicht nachgreifen"}], "quellen": [{"id": "betrsichv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R81", "name": "Bohr-, Dreh- oder Fräsmaschine mit Handbedienung: Erfasstwerden", "wenn": {"alle": ["v.schnell_drehend", "a.stationaer_handvorschub", "m.metall"]}, "entsteht": "Drehende Spindel, Bohrer oder Welle", "gefaehrdung": "g-einzug", "massnahmen": [{"id": "R81-M1", "art": "O", "text": "Keine Handschuhe, eng anliegende Kleidung, kein Schmuck"}, {"id": "R81-M2", "art": "T", "text": "Werkstück spannen statt von Hand halten"}], "quellen": [{"id": "betrsichv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R82", "name": "Sperrige Teile absetzen", "wenn": {"alle": ["a.von_hand", "m.sperrig"]}, "entsteht": "Schweres Teil wird von Hand abgesetzt", "gefaehrdung": "g-quetschen", "massnahmen": [{"id": "R82-M1", "art": "P", "text": "Sicherheitsschuhe"}, {"id": "R82-M2", "art": "O", "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"}], "quellen": [{"id": "psa-bv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R83", "name": "Staub beim Schleifen und Trennen von Metall", "wenn": {"alle": ["v.abtragend", "m.metall"]}, "entsteht": "Metall- und Schleifstaub", "gefaehrdung": "g-staub", "massnahmen": [{"id": "R83-M1", "art": "T", "text": "Absaugung an der Entstehungsstelle"}, {"id": "R83-M2", "art": "O", "text": "Staub aufsaugen, nicht abblasen"}], "quellen": [{"id": "gefstoffv", "stelle": null}, {"id": "trgs-900", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R84", "name": "Staubendes Pulver", "wenn": "m.staub", "entsteht": "Feiner Staub beim Einfüllen und Reinigen", "gefaehrdung": "g-staub", "massnahmen": [{"id": "R84-M1", "art": "T", "text": "Staubarm einfüllen, Absaugung"}, {"id": "R84-M2", "art": "P", "text": "Atemschutz, wenn Staub nicht vermieden werden kann"}], "quellen": [{"id": "gefstoffv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf", "braucht": ["sdb"]},
-{"id": "R85", "name": "Brennbares Pulver", "wenn": "m.staub", "entsteht": "Aufgewirbelter, brennbarer Staub", "gefaehrdung": "g-brand-ex-staub", "massnahmen": [{"id": "R85-M1", "art": "O", "text": "Ablagerungen regelmäßig entfernen"}, {"id": "R85-M2", "art": "O", "text": "Explosionsschutz prüfen und dokumentieren"}, {"id": "R85-M3", "art": "T", "text": "Zündquellen vermeiden"}], "quellen": [{"id": "gefstoffv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf", "braucht": ["sdb"]},
-{"id": "R86", "name": "Abblasen mit Druckluft", "wenn": "v.abblasen", "entsteht": "Aufgewirbelter Staub, wegfliegende Teile", "gefaehrdung": "g-staub", "massnahmen": [{"id": "R86-M1", "art": "S", "text": "Saugen statt Abblasen"}, {"id": "R86-M2", "art": "P", "text": "Schutzbrille"}], "quellen": [{"id": "gefstoffv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R87", "name": "Hitze am Arbeitsplatz", "wenn": "u.hitze", "entsteht": "Wärmestrahlung, hohe Raumtemperatur", "gefaehrdung": "g-klima", "massnahmen": [{"id": "R87-M1", "art": "T", "text": "Abschirmung der Wärmequelle, Lüftung"}, {"id": "R87-M2", "art": "O", "text": "Trinkpausen, Aufenthalt begrenzen"}], "quellen": [{"id": "asr-a3-5", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R88", "name": "Entzündbarer Gefahrstoff", "wenn": {"alle": ["m.gefahrstoff", {"angabe": "entzuendbar", "ist": true}]}, "entsteht": "Entzündbare Flüssigkeit, Dämpfe", "gefaehrdung": "g-brand-ex-stoff", "massnahmen": [{"id": "R88-M1", "art": "O", "text": "Nur Tagesbedarf am Arbeitsplatz, Vorrat im Sicherheitsschrank oder Lager"}, {"id": "R88-M2", "art": "T", "text": "Lüftung, beim Umfüllen erden"}, {"id": "R88-M3", "art": "O", "text": "Zündquellen fernhalten, Explosionsschutz prüfen"}], "quellen": [{"id": "gefstoffv", "stelle": null}, {"id": "trgs-510", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R89", "name": "Ätzender Stoff", "wenn": "m.aetzend", "entsteht": "Säure oder Lauge auf Haut und Augen, ätzende Dämpfe", "gefaehrdung": "g-haut-augen", "massnahmen": [{"id": "R89-M1", "art": "S", "text": "Weniger gefährliches Verfahren oder Produkt prüfen"}, {"id": "R89-M2", "art": "T", "text": "Absaugung oder Lüftung, Augenspülung in der Nähe"}, {"id": "R89-M3", "art": "P", "text": "Säurefeste Handschuhe, Schutzbrille oder Gesichtsschutz, Schürze"}], "quellen": [{"id": "gefstoffv", "stelle": null}], "verbindlichkeit": "pflicht", "beleg": "offen", "freigabe": "entwurf", "braucht": ["sdb"]},
-{"id": "R90", "name": "Arbeiten in der Höhe", "wenn": "v.hoehe", "entsteht": "Arbeitsplatz über dem Boden", "gefaehrdung": "g-absturz", "massnahmen": [{"id": "R90-M1", "art": "T", "text": "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter"}, {"id": "R90-M2", "art": "T", "text": "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt"}, {"id": "R90-M3", "art": "O", "text": "Unterweisung und Beauftragung der Bediener"}], "quellen": [{"id": "trbs-2121", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R91", "name": "Herabfallende Teile bei Arbeiten in der Höhe", "wenn": "v.hoehe", "entsteht": "Werkzeug und Bauteile über Personen", "gefaehrdung": "g-last-faellt", "massnahmen": [{"id": "R91-M1", "art": "O", "text": "Bereich darunter absperren"}, {"id": "R91-M2", "art": "T", "text": "Werkzeug sichern"}], "quellen": [{"id": "trbs-2121", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"},
-{"id": "R92", "name": "Leiter", "wenn": {"eine": ["a.leiter"]}, "entsteht": "Stand auf schmaler Stufe oder Sprosse", "gefaehrdung": "g-absturz", "massnahmen": [{"id": "R92-M1", "art": "O", "text": "Leiter nur für kurze, leichte Arbeiten; Standhöhe und Dauer begrenzen"}, {"id": "R92-M2", "art": "O", "text": "Leitern regelmäßig prüfen"}], "quellen": [{"id": "trbs-2121-2", "stelle": null}], "verbindlichkeit": "vermutungswirkung", "beleg": "offen", "freigabe": "entwurf"}
+ {
+  "id": "R01",
+  "name": "Flurförderzeug im Verkehrsraum",
+  "wenn": "a.flurfoerderzeug",
+  "entsteht": "Fahrzeug im Verkehrsraum",
+  "gefaehrdung": "g-anfahren",
+  "massnahmen": [
+   {
+    "id": "R01-M1",
+    "art": "O",
+    "text": "Nur Fahrer einsetzen, die mindestens 18 Jahre alt, geeignet, ausgebildet und schriftlich beauftragt sind",
+    "beleg": {
+     "quelle": "dguv-v68",
+     "stelle": "§ 7 Abs. 1 Satz 1 (Einleitung)"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v68",
+    "stelle": "§ 7 Abs. 1 Satz 1 (Einleitung); § 7 Abs. 1 Satz 1 Nr. 1 und 2"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "bd96cc51e7b93077"
+  }
+ },
+ {
+  "id": "R02",
+  "name": "Seitenstapler",
+  "wenn": "a.seitenstapler",
+  "entsteht": "Besondere Fahrweise",
+  "gefaehrdung": "g-fahrzeug-kippt",
+  "massnahmen": [
+   {
+    "id": "R02-M1",
+    "art": "O",
+    "text": "Zusatzqualifizierung für den Seitenstapler"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-g308-001",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R03",
+  "name": "Flurförderzeug mit Langgut oder Paket",
+  "wenn": {
+   "alle": [
+    "a.flurfoerderzeug",
+    {
+     "eine": [
+      "m.langgut",
+      "m.paket"
+     ]
+    }
+   ]
+  },
+  "entsteht": "Last ragt über, kann rutschen",
+  "gefaehrdung": "g-last-faellt",
+  "massnahmen": [
+   {
+    "id": "R03-M1",
+    "art": "O",
+    "text": "Last sichern, abgesenkt fahren",
+    "beleg": {
+     "quelle": "dguv-v68",
+     "stelle": "§ 11 Abs. 2"
+    }
+   },
+   {
+    "id": "R03-M2",
+    "art": "T",
+    "text": "Tragfähigkeit des Staplers passt zum schwersten Paket",
+    "beleg": {
+     "quelle": "dguv-v68",
+     "stelle": "§ 11 Abs. 1"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v68",
+    "stelle": "§ 11 Abs. 2; § 11 Abs. 1"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "0bd52031ce380b2a"
+  }
+ },
+ {
+  "id": "R04",
+  "name": "Fahrzeug im Außengelände oder am Gefälle",
+  "wenn": {
+   "alle": [
+    {
+     "eine": [
+      "a.flurfoerderzeug",
+      "a.handhubwagen",
+      "a.mitgaenger"
+     ]
+    },
+    {
+     "eine": [
+      "u.aussen",
+      "u.gefaelle"
+     ]
+    }
+   ]
+  },
+  "entsteht": "Nässe, Eis, Unebenheit, Mischverkehr",
+  "gefaehrdung": "g-fahrzeug-kippt",
+  "massnahmen": [
+   {
+    "id": "R04-M1",
+    "art": "T",
+    "text": "Befestigte Wege und Beleuchtung"
+   },
+   {
+    "id": "R04-M2",
+    "art": "O",
+    "text": "Winterdienst und Verkehrsregelung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a1-8",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R05",
+  "name": "Abladen mit betriebsfremden Personen",
+  "wenn": {
+   "alle": [
+    "v.last_bewegen",
+    "u.betriebsfremde"
+   ]
+  },
+  "entsteht": "Fremder im Gefahrbereich",
+  "gefaehrdung": "g-abstimmung",
+  "massnahmen": [
+   {
+    "id": "R05-M1",
+    "art": "O",
+    "text": "Fester Warteplatz für den Lkw-Fahrer, Einweisung, Abstimmung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": "§ 8"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R06",
+  "name": "Pakete im Stapel",
+  "wenn": {
+   "alle": [
+    "v.lagern_gestapelt",
+    "m.paket"
+   ]
+  },
+  "entsteht": "Stapel kann kippen",
+  "gefaehrdung": "g-stapel-kippt",
+  "massnahmen": [
+   {
+    "id": "R06-M1",
+    "art": "O",
+    "text": "Stapelhöhe begrenzen"
+   },
+   {
+    "id": "R06-M2",
+    "art": "T",
+    "text": "Unterleghölzer und ebener, tragfähiger Boden"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r108-007",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R07",
+  "name": "Vakuumheber",
+  "wenn": "a.vakuumheber",
+  "entsteht": "Last hängt am Unterdruck",
+  "gefaehrdung": "g-schwebende-last",
+  "massnahmen": [
+   {
+    "id": "R07-M1",
+    "art": "T",
+    "text": "Warneinrichtung bei Unterdruckabfall funktionsfähig"
+   },
+   {
+    "id": "R07-M2",
+    "art": "O",
+    "text": "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich"
+   },
+   {
+    "id": "R07-M3",
+    "art": "O",
+    "text": "Niemand unter der Last"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 14, § 3 Abs. 6"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R08",
+  "name": "Trennen oder Abtragen in vollautomatischer Anlage",
+  "wenn": {
+   "alle": [
+    {
+     "eine": [
+      "v.trennen",
+      "v.abtragend"
+     ]
+    },
+    "a.vollautomat"
+   ]
+  },
+  "entsteht": "Werkzeuge hinter Schutzeinrichtung",
+  "gefaehrdung": "g-werkzeug",
+  "massnahmen": [
+   {
+    "id": "R08-M1",
+    "art": "T",
+    "text": "Schutzeinrichtungen wirksam, nichts überbrückt"
+   },
+   {
+    "id": "R08-M2",
+    "art": "O",
+    "text": "Schutzeinrichtungen regelmäßig prüfen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   },
+   {
+    "id": "trbs-2111",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R09",
+  "name": "Holzstaub bei abtragender Bearbeitung",
+  "wenn": {
+   "alle": [
+    "v.abtragend",
+    "m.holz"
+   ]
+  },
+  "entsteht": "Holzstaub",
+  "gefaehrdung": "g-holzstaub",
+  "braucht": [
+   "hartholz"
+  ],
+  "massnahmen": [
+   {
+    "id": "R09-M1",
+    "art": "T",
+    "text": "Absaugung an der Entstehungsstelle",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 4.3 Abs. 2 Satz 1"
+    }
+   },
+   {
+    "id": "R09-M2",
+    "art": "O",
+    "text": "Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 2 Abs. 3 Satz 3"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-553",
+    "stelle": "Abschnitt 4.3 Abs. 2 Satz 1; Abschnitt 4.3 Abs. 2; Abschnitt 2 Abs. 3 Satz 3"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "cab834960bdcdbd5"
+  }
+ },
+ {
+  "id": "R10",
+  "name": "Hartholzstaub",
+  "wenn": {
+   "alle": [
+    "v.abtragend",
+    "m.holz",
+    {
+     "angabe": "hartholz",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Krebserzeugender Staub",
+  "gefaehrdung": "g-hartholzstaub",
+  "massnahmen": [
+   {
+    "id": "R10-M1",
+    "art": "O",
+    "text": "Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 6 Abs. 3 Nr. 1 Buchstabe a"
+    }
+   },
+   {
+    "id": "R10-M2",
+    "art": "O",
+    "text": "Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 3 Abs. 8"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-553",
+    "stelle": "Abschnitt 6 Abs. 3 Nr. 1 Buchstabe a; Abschnitt 6 Abs. 3 Nr. 1 Buchst. a; Abschnitt 3 Abs. 8; Abschnitt 3 Abs. 8 Satz 1"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "460c695b0d755690"
+  }
+ },
+ {
+  "id": "R11",
+  "name": "Lärm bei lauten Vorgängen",
+  "wenn": "v.laut",
+  "entsteht": "Lärm",
+  "gefaehrdung": "g-laerm",
+  "braucht": [
+   "laerm_db"
+  ],
+  "massnahmen": [
+   {
+    "id": "R11-M1",
+    "art": "P",
+    "text": "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten"
+   },
+   {
+    "id": "R11-M2",
+    "art": "O",
+    "text": "Ab 85 dB(A): Lärmbereich kennzeichnen, Tragepflicht, Pflichtvorsorge"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "laermvibv",
+    "stelle": "§§ 6, 7, 8"
+   },
+   {
+    "id": "arbmedvv",
+    "stelle": "Anhang Teil 3"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R12",
+  "name": "Last von Hand, wiederholt",
+  "wenn": "v.hand_wiederholt",
+  "entsteht": "Körperliche Belastung",
+  "gefaehrdung": "g-heben-tragen",
+  "braucht": [
+   "last_kg",
+   "griffe_tag"
+  ],
+  "massnahmen": [
+   {
+    "id": "R12-M1",
+    "art": "O",
+    "text": "Belastung mit der Leitmerkmalmethode bewerten"
+   },
+   {
+    "id": "R12-M2",
+    "art": "T",
+    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+   },
+   {
+    "id": "R12-M3",
+    "art": "O",
+    "text": "Tätigkeitswechsel"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": "§ 2"
+   },
+   {
+    "id": "bauau-lmm",
+    "stelle": "Heben, Halten, Tragen"
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R13",
+  "name": "Holz von Hand",
+  "wenn": {
+   "alle": [
+    "a.von_hand",
+    "m.splitternd"
+   ]
+  },
+  "entsteht": "Splitter, Kanten",
+  "gefaehrdung": "g-splitter",
+  "massnahmen": [
+   {
+    "id": "R13-M1",
+    "art": "P",
+    "text": "Geeignete Handschuhe, nicht an drehenden Werkzeugen",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.1.14 (Mehrblattkreissägemaschinen), Beste Praxis"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r109-606",
+    "stelle": "Abschnitt 3.1.14 (Mehrblattkreissägemaschinen), Beste Praxis; Abschnitt 3.1.14 (Mehrblattkreissägemaschinen), Hinweis zu Handschuhen"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "cb25fe7a63e6057b"
+  }
+ },
+ {
+  "id": "R14",
+  "name": "Stehend lagern im Wagen",
+  "wenn": "v.lagern_stehend",
+  "entsteht": "Hoher Schwerpunkt",
+  "gefaehrdung": "g-stapel-kippt",
+  "massnahmen": [
+   {
+    "id": "R14-M1",
+    "art": "T",
+    "text": "Standsichere Wagen mit Feststellbremse"
+   },
+   {
+    "id": "R14-M2",
+    "art": "O",
+    "text": "Beladeregel"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 5"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R15",
+  "name": "Wagen auf der Gabel",
+  "wenn": {
+   "alle": [
+    "a.flurfoerderzeug",
+    "m.ladungstraeger_hoch"
+   ]
+  },
+  "entsteht": "Wagen liegt auf der Gabel",
+  "gefaehrdung": "g-last-faellt",
+  "massnahmen": [
+   {
+    "id": "R15-M1",
+    "art": "T",
+    "text": "Wagen mit Aufnahmetaschen oder Sicherung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v68",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R16",
+  "name": "Sonderbetrieb an der Anlage",
+  "wenn": {
+   "alle": [
+    "v.sonderbetrieb",
+    "m.anlage"
+   ]
+  },
+  "entsteht": "Schutz aufgehoben, gespeicherte Energie",
+  "gefaehrdung": "g-anlauf",
+  "massnahmen": [
+   {
+    "id": "R16-M1",
+    "art": "T",
+    "text": "Abschalten und gegen Wiedereinschalten sichern"
+   },
+   {
+    "id": "R16-M2",
+    "art": "O",
+    "text": "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte"
+   },
+   {
+    "id": "R16-M3",
+    "art": "O",
+    "text": "Sichere Arbeitsverfahren für Rüsten, Störungsbeseitigung und Instandhaltung festlegen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 10 Instandhaltung, § 11 besondere Betriebszustände"
+   },
+   {
+    "id": "trbs-1112",
+    "stelle": "Abschnitte 4 und 5"
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r109-607",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R17",
+  "name": "Reinigen bei Holzstaub",
+  "wenn": {
+   "alle": [
+    "v.reinigen",
+    "m.holzstaub"
+   ]
+  },
+  "entsteht": "Aufgewirbelter Staub",
+  "gefaehrdung": "g-holzstaub",
+  "massnahmen": [
+   {
+    "id": "R17-M1",
+    "art": "O",
+    "text": "Abblasen und trockenes Kehren sind nicht zulässig",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 4.4 Abs. 2 Satz 2"
+    }
+   },
+   {
+    "id": "R17-M2",
+    "art": "T",
+    "text": "Aufsaugen mit Sauger mindestens Staubklasse M",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 4.4 Abs. 2 Satz 3"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-553",
+    "stelle": "Abschnitt 4.4 Abs. 2 Satz 2; Abschnitt 4.4 Abs. 2 Satz 3"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "aa482d18ceabd2a2"
+  }
+ },
+ {
+  "id": "R18",
+  "name": "Abgelagerter Holzstaub",
+  "wenn": {
+   "eine": [
+    {
+     "alle": [
+      "v.abtragend",
+      "m.holz"
+     ]
+    },
+    "m.holzstaub"
+   ]
+  },
+  "entsteht": "Brennbare Staubschicht",
+  "gefaehrdung": "g-brand-ex-staub",
+  "massnahmen": [
+   {
+    "id": "R18-M1",
+    "art": "O",
+    "text": "Reinigungsplan",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 6"
+    }
+   },
+   {
+    "id": "R18-M2",
+    "art": "T",
+    "text": "Zündquellen vermeiden",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 12 Abs. 2 Nr. 2"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "Anhang I Nr. 2.3 Abs. 6; § 12 Abs. 2 Nr. 2"
+   },
+   {
+    "id": "trgs-553",
+    "stelle": "Abschnitt 4.4 Abs. 2 Satz 1"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "3d887ecef292963b"
+  }
+ },
+ {
+  "id": "R19",
+  "name": "Handgeführte Maschine mit drehendem Werkzeug",
+  "wenn": {
+   "alle": [
+    "v.schnell_drehend",
+    "a.handmaschine"
+   ]
+  },
+  "entsteht": "Offenes Werkzeug, Rückschlag",
+  "gefaehrdung": "g-werkzeug",
+  "massnahmen": [
+   {
+    "id": "R19-M1",
+    "art": "T",
+    "text": "Schutzhaube, Werkstück fixiert"
+   },
+   {
+    "id": "R19-M2",
+    "art": "O",
+    "text": "Beide Hände an der Maschine"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   },
+   {
+    "id": "hersteller",
+    "stelle": "Betriebsanleitung"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R20",
+  "name": "Schleifen mit Handvorschub",
+  "wenn": {
+   "alle": [
+    "v.schleifen",
+    "a.stationaer_handvorschub"
+   ]
+  },
+  "entsteht": "Hand nah am Band",
+  "gefaehrdung": "g-einzug",
+  "massnahmen": [
+   {
+    "id": "R20-M1",
+    "art": "T",
+    "text": "Werkstückauflage, Anschlag, Absaugung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r100-500",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R21",
+  "name": "Trennendes Werkzeug mit Handvorschub oder Handbedienung",
+  "wenn": {
+   "alle": [
+    "v.trennen",
+    "v.schnell_drehend",
+    "a.stationaer_handvorschub"
+   ]
+  },
+  "entsteht": "Hand nah am laufenden Werkzeug",
+  "gefaehrdung": "g-werkzeug",
+  "massnahmen": [
+   {
+    "id": "R21-M1",
+    "art": "T",
+    "text": "Schutzeinrichtung am Werkzeug richtig eingestellt, Vorschubhilfe oder Spannmittel"
+   },
+   {
+    "id": "R21-M2",
+    "art": "T",
+    "text": "Nur für die Bedienart geeignete Werkzeuge; nicht in das laufende Werkzeug greifen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r100-500",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R22",
+  "name": "Gefahrstoff wird aufgetragen",
+  "wenn": {
+   "alle": [
+    "v.stoff_auftragen",
+    "m.gefahrstoff",
+    {
+     "nicht": {
+      "angabe": "eingestuft",
+      "ist": false
+     }
+    }
+   ]
+  },
+  "entsteht": "Abhängig von der Einstufung",
+  "gefaehrdung": "g-gefahrstoff",
+  "braucht": [
+   "sdb"
+  ],
+  "massnahmen": [
+   {
+    "id": "R22-M1",
+    "art": "O",
+    "text": "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 1 Satz 2 Nr. 2"
+    }
+   },
+   {
+    "id": "R22-M2",
+    "art": "O",
+    "text": "Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 12 Satz 1"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 6 Abs. 1 Satz 2 Nr. 2; § 6 Abs. 12 Satz 1"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "df10b376ab0095c7"
+  }
+ },
+ {
+  "id": "R23",
+  "name": "Imprägnieranlage",
+  "wenn": {
+   "eine": [
+    {
+     "alle": [
+      "v.impraegnieren",
+      "a.vollautomat"
+     ]
+    },
+    {
+     "alle": [
+      "v.sonderbetrieb",
+      "m.impraegnierung"
+     ]
+    }
+   ]
+  },
+  "entsteht": "Kontakt beim Nachfüllen und Reinigen",
+  "gefaehrdung": "g-gefahrstoff",
+  "massnahmen": [
+   {
+    "id": "R23-M1",
+    "art": "T",
+    "text": "Geschlossenes System, Absaugung"
+   },
+   {
+    "id": "R23-M2",
+    "art": "P",
+    "text": "Handschuhe nach Sicherheitsdatenblatt beim Nachfüllen und Reinigen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 7"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R24",
+  "name": "Infrarot-Trocknung",
+  "wenn": "v.trocknen_ir",
+  "entsteht": "Heiße Flächen, Wärmestau",
+  "gefaehrdung": "g-verbrennung",
+  "massnahmen": [
+   {
+    "id": "R24-M1",
+    "art": "T",
+    "text": "Abschaltung bei Bandstillstand, Temperaturüberwachung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   },
+   {
+    "id": "hersteller",
+    "stelle": "Betriebsanleitung"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R25",
+  "name": "Presse mit Lichtschranke",
+  "wenn": {
+   "alle": [
+    "v.pressen",
+    "a.automat_lichtschranke"
+   ]
+  },
+  "entsteht": "Schließbewegung bei regelmäßigem Zugang",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R25-M1",
+    "art": "O",
+    "text": "Tägliche Funktionsprobe der Lichtschranke"
+   },
+   {
+    "id": "R25-M2",
+    "art": "O",
+    "text": "Wiederkehrende Prüfung"
+   },
+   {
+    "id": "R25-M3",
+    "art": "T",
+    "text": "Umgehen nicht möglich"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 14"
+   },
+   {
+    "id": "trbs-2111",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R26",
+  "name": "Sperrige Teile von Hand",
+  "wenn": {
+   "alle": [
+    "a.von_hand",
+    "m.sperrig"
+   ]
+  },
+  "entsteht": "Last, Zwangshaltung",
+  "gefaehrdung": "g-heben-tragen",
+  "braucht": [
+   "last_kg"
+  ],
+  "massnahmen": [
+   {
+    "id": "R26-M1",
+    "art": "T",
+    "text": "Einsatz höhenverstellbarer Montagetische prüfen"
+   },
+   {
+    "id": "R26-M2",
+    "art": "O",
+    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": "§ 2"
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R27",
+  "name": "Verschrauben mit Handmaschine",
+  "wenn": {
+   "alle": [
+    "v.verschrauben",
+    "a.handmaschine"
+   ]
+  },
+  "entsteht": "Gleichförmige Bewegung, Drehmoment",
+  "gefaehrdung": "g-repetitiv",
+  "massnahmen": [
+   {
+    "id": "R27-M1",
+    "art": "O",
+    "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse"
+   },
+   {
+    "id": "R27-M2",
+    "art": "T",
+    "text": "Schrauber mit Abschaltkupplung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": "§ 5"
+   },
+   {
+    "id": "bauau-lmm",
+    "stelle": "Manuelle Arbeitsprozesse"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R28",
+  "name": "Druckluft-Eintreibgerät",
+  "wenn": {
+   "alle": [
+    "v.eintreiben",
+    "a.druckluftgeraet"
+   ]
+  },
+  "entsteht": "Klammer mit hoher Energie",
+  "gefaehrdung": "g-geschoss",
+  "massnahmen": [
+   {
+    "id": "R28-M1",
+    "art": "T",
+    "text": "Auslösesicherung"
+   },
+   {
+    "id": "R28-M2",
+    "art": "P",
+    "text": "Schutzbrille"
+   },
+   {
+    "id": "R28-M3",
+    "art": "O",
+    "text": "Freie Hand aus der Schusslinie"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   },
+   {
+    "id": "hersteller",
+    "stelle": "Betriebsanleitung"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R29",
+  "name": "Hängeförderer",
+  "wenn": "a.haengefoerderer",
+  "entsteht": "Schwebende, fahrende Last",
+  "gefaehrdung": "g-schwebende-last",
+  "massnahmen": [
+   {
+    "id": "R29-M1",
+    "art": "O",
+    "text": "Aufhängepunkte nach Gewicht festlegen"
+   },
+   {
+    "id": "R29-M2",
+    "art": "T",
+    "text": "Bereich unter dem Förderer sichern"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   },
+   {
+    "id": "asr-a2-1",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R30",
+  "name": "Lackieranlage",
+  "wenn": {
+   "alle": [
+    "v.beschichten",
+    "a.vollautomat"
+   ]
+  },
+  "entsteht": "Lacknebel, Dämpfe",
+  "gefaehrdung": "g-gefahrstoff",
+  "braucht": [
+   "sdb"
+  ],
+  "massnahmen": [
+   {
+    "id": "R30-M1",
+    "art": "T",
+    "text": "Absaugung der Lacknebel"
+   },
+   {
+    "id": "R30-M2",
+    "art": "O",
+    "text": "Einstufung nach Sicherheitsdatenblatt"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 6, § 7"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R30b",
+  "name": "Entzündbarer Lack oder Reiniger",
+  "wenn": {
+   "alle": [
+    "v.beschichten",
+    {
+     "angabe": "entzuendbar",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Explosionsfähige Atmosphäre",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R30b-M1",
+    "art": "O",
+    "text": "Explosionsschutz prüfen und im Explosionsschutzdokument ausweisen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 6 Abs. 9, § 12"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R31",
+  "name": "Sonderbetrieb an der Lackieranlage",
+  "wenn": {
+   "alle": [
+    "v.sonderbetrieb",
+    "m.lackreste"
+   ]
+  },
+  "entsteht": "Lackreste, Reiniger",
+  "gefaehrdung": "g-gefahrstoff",
+  "braucht": [
+   "sdb"
+  ],
+  "massnahmen": [
+   {
+    "id": "R31-M1",
+    "art": "O",
+    "text": "Arbeitsanweisung Reinigung"
+   },
+   {
+    "id": "R31-M2",
+    "art": "P",
+    "text": "Schutzausrüstung nach Sicherheitsdatenblatt"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 7"
+   },
+   {
+    "id": "betrsichv",
+    "stelle": "§ 11"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R32",
+  "name": "Schleifen beschichteter Flächen",
+  "wenn": {
+   "alle": [
+    "v.schleifen",
+    "m.beschichtet"
+   ]
+  },
+  "entsteht": "Lackstaub",
+  "gefaehrdung": "g-gefahrstoff",
+  "braucht": [
+   "sdb"
+  ],
+  "massnahmen": [
+   {
+    "id": "R32-M1",
+    "art": "T",
+    "text": "Abgesaugter Bereich"
+   },
+   {
+    "id": "R32-M2",
+    "art": "O",
+    "text": "Bewertung nach Sicherheitsdatenblatt des Lacks"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 7"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R33",
+  "name": "Hub-Senk-Station",
+  "wenn": "a.hubsenkstation",
+  "entsteht": "Senkbewegung mit Last",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R33-M1",
+    "art": "T",
+    "text": "Quetschstellen gesichert"
+   },
+   {
+    "id": "R33-M2",
+    "art": "O",
+    "text": "Bedienung mit Sicht auf die Last"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   },
+   {
+    "id": "trbs-2111",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R34",
+  "name": "Handwerkzeug mit Klinge",
+  "wenn": "a.handwerkzeug_klinge",
+  "entsteht": "Offene Klinge",
+  "gefaehrdung": "g-schnitt",
+  "massnahmen": [
+   {
+    "id": "R34-M1",
+    "art": "T",
+    "text": "Werkzeug mit Abdeckung der Klinge"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 5"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R35",
+  "name": "Sekundenkleber",
+  "wenn": "m.klebstoff_sekunden",
+  "entsteht": "Sofort haftender Klebstoff, reizende Dämpfe",
+  "gefaehrdung": "g-haut-augen",
+  "massnahmen": [
+   {
+    "id": "R35-M1",
+    "art": "O",
+    "text": "Kleine Gebinde"
+   },
+   {
+    "id": "R35-M2",
+    "art": "P",
+    "text": "Schutzbrille"
+   },
+   {
+    "id": "R35-M3",
+    "art": "T",
+    "text": "Lüftung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 7"
+   },
+   {
+    "id": "sdb",
+    "stelle": "Abschnitte 2 und 8"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R36",
+  "name": "Halbautomat mit Einlegen von Hand",
+  "wenn": "a.halbautomat_einlegen",
+  "entsteht": "Arbeitstakt bei Hand im Bereich",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R36-M1",
+    "art": "T",
+    "text": "Auslösung nur bei freiem Bereich"
+   },
+   {
+    "id": "R36-M2",
+    "art": "O",
+    "text": "Schutzeinrichtung geprüft"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R37",
+  "name": "2-Komponenten-Klebstoff",
+  "wenn": "m.klebstoff_2k",
+  "entsteht": "Kontakt beim Gebindewechsel und Reinigen",
+  "gefaehrdung": "g-gefahrstoff",
+  "braucht": [
+   "sdb",
+   "isocyanat"
+  ],
+  "massnahmen": [
+   {
+    "id": "R37-M1",
+    "art": "O",
+    "text": "Einstufung nach Sicherheitsdatenblatt"
+   },
+   {
+    "id": "R37-M2",
+    "art": "P",
+    "text": "Handschuhe beim Gebindewechsel"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 6, § 7"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R37b",
+  "name": "Klebstoff mit Isocyanaten",
+  "wenn": {
+   "alle": [
+    "m.klebstoff_2k",
+    {
+     "angabe": "isocyanat",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Atemwegs- und Hautsensibilisierung",
+  "gefaehrdung": "g-gefahrstoff",
+  "massnahmen": [
+   {
+    "id": "R37b-M1",
+    "art": "O",
+    "text": "Vorgeschriebene Schulung für Tätigkeiten mit Diisocyanaten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "sdb",
+    "stelle": "Abschnitt 2, Hinweis auf Schulungspflicht"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R38",
+  "name": "Flachglas",
+  "wenn": {
+   "alle": [
+    "m.glas",
+    {
+     "eine": [
+      "a.von_hand",
+      "a.vakuumheber",
+      "a.mitgaenger"
+     ]
+    }
+   ]
+  },
+  "entsteht": "Scharfe Kanten, Bruch",
+  "gefaehrdung": "g-schnitt",
+  "massnahmen": [
+   {
+    "id": "R38-M1",
+    "art": "P",
+    "text": "Schnittschutzhandschuhe und Unterarmschutz"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": "§ 2"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R39",
+  "name": "Glas stehend im Paket",
+  "wenn": "m.glaspaket_stehend",
+  "entsteht": "Hohes Gewicht, kippgefährdet",
+  "gefaehrdung": "g-stapel-kippt",
+  "massnahmen": [
+   {
+    "id": "R39-M1",
+    "art": "T",
+    "text": "Sicherung am Gestell"
+   },
+   {
+    "id": "R39-M2",
+    "art": "O",
+    "text": "Entnahmeregel, niemand in Kipprichtung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r108-007",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R40",
+  "name": "Mitgänger-Flurförderzeug",
+  "wenn": "a.mitgaenger",
+  "entsteht": "Gerät folgt dem Bediener",
+  "gefaehrdung": "g-anfahren",
+  "massnahmen": [
+   {
+    "id": "R40-M1",
+    "art": "P",
+    "text": "Sicherheitsschuhe"
+   },
+   {
+    "id": "R40-M2",
+    "art": "O",
+    "text": "Unterweisung und Beauftragung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v68",
+    "stelle": null,
+    "hinweis": "noch zuordnen"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R41",
+  "name": "Reinigen mit Reiniger von Hand",
+  "wenn": {
+   "alle": [
+    "v.reinigen",
+    "m.reiniger",
+    "a.von_hand"
+   ]
+  },
+  "entsteht": "Dämpfe, Hautkontakt",
+  "gefaehrdung": "g-gefahrstoff",
+  "braucht": [
+   "sdb",
+   "entzuendbar"
+  ],
+  "massnahmen": [
+   {
+    "id": "R41-M1",
+    "art": "O",
+    "text": "Einstufung nach Sicherheitsdatenblatt, Maßnahmen danach"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 6"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R42",
+  "name": "Scharfkantige Teile von Hand",
+  "wenn": {
+   "alle": [
+    "m.scharfkantig",
+    "a.von_hand"
+   ]
+  },
+  "entsteht": "Scharfe Kanten, Grate, Späne",
+  "gefaehrdung": "g-schnitt",
+  "massnahmen": [
+   {
+    "id": "R42-M1",
+    "art": "P",
+    "text": "Schnittfeste Handschuhe"
+   },
+   {
+    "id": "R42-M2",
+    "art": "T",
+    "text": "Kanten entgraten oder abrunden"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": "§ 2"
+   },
+   {
+    "id": "trbs-2111",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r109-607",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R43",
+  "name": "Sägen von Aluminium",
+  "wenn": {
+   "alle": [
+    "v.saegen",
+    "m.alu"
+   ]
+  },
+  "entsteht": "Sehr hoher Lärm",
+  "gefaehrdung": "g-laerm",
+  "braucht": [
+   "laerm_db"
+  ],
+  "massnahmen": [
+   {
+    "id": "R43-M1",
+    "art": "T",
+    "text": "Kapselung der Säge"
+   },
+   {
+    "id": "R43-M2",
+    "art": "P",
+    "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "laermvibv",
+    "stelle": "§§ 6, 7, 8"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R44",
+  "name": "Aluminiumspäne und -staub",
+  "wenn": {
+   "alle": [
+    "v.abtragend",
+    "m.alu"
+   ]
+  },
+  "entsteht": "Brennbarer Metallstaub",
+  "gefaehrdung": "g-brand-ex-staub",
+  "massnahmen": [
+   {
+    "id": "R44-M1",
+    "art": "T",
+    "text": "Getrennt von Holzstaub erfassen und sammeln"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 12"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R45",
+  "name": "Holzstaub in Filter und Silo",
+  "wenn": "a.absauganlage_silo",
+  "entsteht": "Explosionsfähige Atmosphäre",
+  "gefaehrdung": "g-brand-ex-staub",
+  "massnahmen": [
+   {
+    "id": "R45-M1",
+    "art": "O",
+    "text": "Explosionsschutzdokument"
+   },
+   {
+    "id": "R45-M2",
+    "art": "T",
+    "text": "Funkenlöschung und Druckentlastung"
+   },
+   {
+    "id": "R45-M3",
+    "art": "O",
+    "text": "Prüfung der Anlage"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 6 Abs. 9"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R46",
+  "name": "Einstieg in Silo oder Behälter",
+  "wenn": {
+   "alle": [
+    "u.silo",
+    {
+     "angabe": "einstieg",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Enger Raum, Schüttgut",
+  "gefaehrdung": "g-enger-raum",
+  "massnahmen": [
+   {
+    "id": "R46-M1",
+    "art": "O",
+    "text": "Nur mit Erlaubnisschein"
+   },
+   {
+    "id": "R46-M2",
+    "art": "O",
+    "text": "Sicherungsposten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r113-004",
+    "stelle": "Abschnitt 2.10 Sicherungsposten; Mustererlaubnisschein im Anhang"
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R47",
+  "name": "Zerkleinerer",
+  "wenn": "a.zerkleinerer",
+  "entsteht": "Einzugswerk",
+  "gefaehrdung": "g-einzug",
+  "massnahmen": [
+   {
+    "id": "R47-M1",
+    "art": "T",
+    "text": "Zuführen mit Hilfsmittel, Not-Halt"
+   },
+   {
+    "id": "R47-M2",
+    "art": "O",
+    "text": "Störung nur an der gesicherten Maschine beheben"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 6"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R48",
+  "name": "Schneidwerkzeuge handhaben",
+  "wenn": "m.schneidwerkzeug",
+  "entsteht": "Scharfe Messer, schwere Köpfe",
+  "gefaehrdung": "g-schnitt",
+  "massnahmen": [
+   {
+    "id": "R48-M1",
+    "art": "P",
+    "text": "Schnittschutzhandschuhe"
+   },
+   {
+    "id": "R48-M2",
+    "art": "T",
+    "text": "Transportwagen und Aufnahmevorrichtung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": "§ 5"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R49",
+  "name": "Reinigen im Tauchbad",
+  "wenn": "a.tauchbad",
+  "entsteht": "Meist alkalischer Reiniger",
+  "gefaehrdung": "g-haut-augen",
+  "braucht": [
+   "sdb"
+  ],
+  "massnahmen": [
+   {
+    "id": "R49-M1",
+    "art": "O",
+    "text": "Einstufung nach Sicherheitsdatenblatt"
+   },
+   {
+    "id": "R49-M2",
+    "art": "P",
+    "text": "Schutzbrille und Handschuhe"
+   },
+   {
+    "id": "R49-M3",
+    "art": "T",
+    "text": "Augenspülung in der Nähe"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 7"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R50",
+  "name": "Fruchtschädigender Stoff",
+  "wenn": {
+   "alle": [
+    "m.gefahrstoff",
+    {
+     "angabe": "h360",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Fruchtschädigender Stoff",
+  "gefaehrdung": "g-fruchtschaedigend",
+  "massnahmen": [
+   {
+    "id": "R50-M1",
+    "art": "S",
+    "text": "Ersatzstoff prüfen"
+   },
+   {
+    "id": "R50-M2",
+    "art": "T",
+    "text": "Gefährdung ausschließen; wo das nicht geht, auf ein Minimum verringern"
+   },
+   {
+    "id": "R50-M3",
+    "art": "O",
+    "text": "Schwangere dürfen dem Stoff nicht ausgesetzt sein"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "muschg",
+    "stelle": "§ 11 Abs. 1 Nr. 1"
+   },
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 10"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R51",
+  "name": "Batterie laden",
+  "wenn": "a.batterie",
+  "entsteht": "Wasserstoff beim Laden",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R51-M1",
+    "art": "T",
+    "text": "Belüfteter Ladeplatz ohne Zündquellen"
+   }
+  ],
+  "quellen": [],
+  "verbindlichkeit": "pflicht",
+  "beleg": "ohne-beleg",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R52",
+  "name": "Fremdfirma im Betrieb",
+  "wenn": "u.fremdfirma",
+  "entsteht": "Fremde Beschäftigte in unbekannter Umgebung",
+  "gefaehrdung": "g-abstimmung",
+  "massnahmen": [
+   {
+    "id": "R52-M1",
+    "art": "O",
+    "text": "Einweisung und Abstimmung der Arbeiten"
+   },
+   {
+    "id": "R52-M2",
+    "art": "O",
+    "text": "Bei besonderen Gefahren aufsichtführende Person und Erlaubnisschein"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": "§ 8"
+   },
+   {
+    "id": "dguv-v1",
+    "stelle": "§ 6"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R53",
+  "name": "Flurförderzeug und Fußgänger in der Halle",
+  "wenn": {
+   "alle": [
+    "a.flurfoerderzeug",
+    "u.halle_fussgaenger"
+   ]
+  },
+  "entsteht": "Fahrzeug und Fußgänger im selben Verkehrsraum",
+  "gefaehrdung": "g-anfahren",
+  "massnahmen": [
+   {
+    "id": "R53-M1",
+    "art": "T",
+    "text": "Fahr- und Gehwege trennen und kennzeichnen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a1-8",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R54",
+  "name": "Sensibilisierender Stoff",
+  "wenn": {
+   "alle": [
+    "m.gefahrstoff",
+    {
+     "angabe": "sensibilisierend",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Stoff kann Allergien auslösen",
+  "gefaehrdung": "g-gefahrstoff",
+  "massnahmen": [
+   {
+    "id": "R54-M1",
+    "art": "T",
+    "text": "Hautkontakt technisch vermeiden",
+    "beleg": {
+     "quelle": "trgs-401",
+     "stelle": "Abschnitt 5.1 Abs. 6"
+    }
+   },
+   {
+    "id": "R54-M2",
+    "art": "P",
+    "text": "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts",
+    "beleg": {
+     "quelle": "trgs-401",
+     "stelle": "Abschnitt 5.5.2 Abs. 3 Nr. 2"
+    }
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-401",
+    "stelle": "Abschnitt 5.1 Abs. 6; Abschnitt 5.5.2 Abs. 3 Nr. 2"
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B001",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "6801ffcfbe4d9cc3"
+  }
+ },
+ {
+  "id": "R55",
+  "name": "Entzündbare Sprühdose",
+  "wenn": {
+   "alle": [
+    "m.aerosol",
+    {
+     "angabe": "entzuendbar",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Entzündbares Aerosol, Druckbehälter",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R55-M1",
+    "art": "O",
+    "text": "Nicht in der Nähe von Zündquellen und heißen Flächen sprühen"
+   },
+   {
+    "id": "R55-M2",
+    "art": "O",
+    "text": "Nur Tagesbedarf am Arbeitsplatz, Vorrat geschützt vor Wärme lagern"
+   },
+   {
+    "id": "R55-M3",
+    "art": "T",
+    "text": "Für Lüftung sorgen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "sdb",
+    "stelle": "Abschnitte 2 und 7"
+   },
+   {
+    "id": "trgs-510",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R56",
+  "name": "Sägen mit Handvorschub",
+  "wenn": {
+   "alle": [
+    "v.saegen",
+    "a.stationaer_handvorschub"
+   ]
+  },
+  "entsteht": "Hand nah am Sägeblatt, Rückschlag des Werkstücks",
+  "gefaehrdung": "g-werkzeug",
+  "massnahmen": [
+   {
+    "id": "R56-M1",
+    "art": "T",
+    "text": "Schutzhaube und Spaltkeil richtig eingestellt"
+   },
+   {
+    "id": "R56-M2",
+    "art": "O",
+    "text": "Schiebestock oder Schiebeholz bei schmalen Werkstücken"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R57",
+  "name": "Schweißrauch",
+  "wenn": "v.schweissen",
+  "entsteht": "Schweißrauch und Gase",
+  "gefaehrdung": "g-schweissrauch",
+  "massnahmen": [
+   {
+    "id": "R57-M1",
+    "art": "S",
+    "text": "Emissionsarmes Verfahren und Zusatzwerkstoff wählen"
+   },
+   {
+    "id": "R57-M2",
+    "art": "T",
+    "text": "Absaugung an der Entstehungsstelle, nachgeführt"
+   },
+   {
+    "id": "R57-M3",
+    "art": "P",
+    "text": "Atemschutz, wenn die Absaugung nicht ausreicht"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-528",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R58",
+  "name": "Optische Strahlung beim Schweißen",
+  "wenn": "v.schweissen",
+  "entsteht": "Ultraviolette und sichtbare Strahlung des Lichtbogens",
+  "gefaehrdung": "g-strahlung",
+  "massnahmen": [
+   {
+    "id": "R58-M1",
+    "art": "T",
+    "text": "Schweißplatz zu Nachbarplätzen abschirmen"
+   },
+   {
+    "id": "R58-M2",
+    "art": "P",
+    "text": "Schweißerschutzschild und bedeckende Kleidung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "ostrv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R59",
+  "name": "Heiße Werkstücke",
+  "wenn": {
+   "eine": [
+    "v.heiss",
+    "m.heiss"
+   ]
+  },
+  "entsteht": "Heiße Teile und Spritzer",
+  "gefaehrdung": "g-verbrennung",
+  "massnahmen": [
+   {
+    "id": "R59-M1",
+    "art": "O",
+    "text": "Fester, gekennzeichneter Ablageplatz für heiße Teile"
+   },
+   {
+    "id": "R59-M2",
+    "art": "P",
+    "text": "Hitzebeständige Handschuhe und Schutzkleidung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R60",
+  "name": "Funkenflug",
+  "wenn": "v.funken",
+  "entsteht": "Funken und glühende Partikel",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R60-M1",
+    "art": "O",
+    "text": "Brennbare Stoffe aus dem Funkenbereich entfernen"
+   },
+   {
+    "id": "R60-M2",
+    "art": "T",
+    "text": "Feuerlöscher griffbereit"
+   },
+   {
+    "id": "R60-M3",
+    "art": "O",
+    "text": "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-800",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r100-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R61",
+  "name": "Druckgasflasche",
+  "wenn": "m.druckgas",
+  "entsteht": "Hoher Druck, schwere Flasche",
+  "gefaehrdung": "g-druckgas",
+  "massnahmen": [
+   {
+    "id": "R61-M1",
+    "art": "T",
+    "text": "Flasche gegen Umfallen sichern"
+   },
+   {
+    "id": "R61-M2",
+    "art": "O",
+    "text": "Transport nur mit Ventilschutz"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-745",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R62",
+  "name": "Kühlschmierstoff",
+  "wenn": "m.kss",
+  "entsteht": "Hautkontakt, Nebel und Dämpfe",
+  "gefaehrdung": "g-kss",
+  "massnahmen": [
+   {
+    "id": "R62-M1",
+    "art": "T",
+    "text": "Kapselung und Absaugung der Maschine"
+   },
+   {
+    "id": "R62-M2",
+    "art": "O",
+    "text": "Hautschutzplan"
+   },
+   {
+    "id": "R62-M3",
+    "art": "P",
+    "text": "Hautkontakt vermeiden, geeignete Handschuhe außerhalb drehender Teile"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "trgs-401",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf",
+  "braucht": [
+   "sdb"
+  ]
+ },
+ {
+  "id": "R63",
+  "name": "Keime im wassergemischten Kühlschmierstoff",
+  "wenn": {
+   "alle": [
+    "m.kss",
+    {
+     "angabe": "kss_wassergemischt",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Bakterien und Pilze in der Emulsion",
+  "gefaehrdung": "g-bio",
+  "massnahmen": [
+   {
+    "id": "R63-M1",
+    "art": "O",
+    "text": "Kühlschmierstoff regelmäßig prüfen und pflegen"
+   },
+   {
+    "id": "R63-M2",
+    "art": "O",
+    "text": "Wechsel und Reinigung nach Plan"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-611",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R64",
+  "name": "Rutschiger Boden durch Kühlschmierstoff",
+  "wenn": "m.kss",
+  "entsteht": "Öl und Emulsion auf dem Boden",
+  "gefaehrdung": "g-sturz",
+  "massnahmen": [
+   {
+    "id": "R64-M1",
+    "art": "T",
+    "text": "Auffangwannen, Spritzschutz"
+   },
+   {
+    "id": "R64-M2",
+    "art": "O",
+    "text": "Boden sauber halten"
+   },
+   {
+    "id": "R64-M3",
+    "art": "P",
+    "text": "Rutschhemmende Schuhe"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a1-5",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R65",
+  "name": "Kran oder Hebezeug",
+  "wenn": "a.hebezeug",
+  "entsteht": "Schwebende Last",
+  "gefaehrdung": "g-schwebende-last",
+  "massnahmen": [
+   {
+    "id": "R65-M1",
+    "art": "O",
+    "text": "Niemand unter der schwebenden Last"
+   },
+   {
+    "id": "R65-M2",
+    "art": "O",
+    "text": "Anschlagmittel vor Gebrauch prüfen"
+   },
+   {
+    "id": "R65-M3",
+    "art": "O",
+    "text": "Wiederkehrende Prüfung des Hebezeugs"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-v52",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R66",
+  "name": "Förderband oder Rollenbahn",
+  "wenn": "a.stetigfoerderer",
+  "entsteht": "Einzugsstellen an Rollen und Bändern",
+  "gefaehrdung": "g-einzug",
+  "massnahmen": [
+   {
+    "id": "R66-M1",
+    "art": "T",
+    "text": "Einzugs- und Umlenkstellen verkleidet"
+   },
+   {
+    "id": "R66-M2",
+    "art": "O",
+    "text": "Reinigen und Entstören nur im Stillstand"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R67",
+  "name": "Fahrverkehr im Arbeitsbereich",
+  "wenn": "u.fahrverkehr",
+  "entsteht": "Fahrzeuge kreuzen den Arbeitsplatz",
+  "gefaehrdung": "g-anfahren",
+  "massnahmen": [
+   {
+    "id": "R67-M1",
+    "art": "T",
+    "text": "Fahr- und Gehwege trennen und kennzeichnen"
+   },
+   {
+    "id": "R67-M2",
+    "art": "T",
+    "text": "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a1-8",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R68",
+  "name": "Handhubwagen",
+  "wenn": "a.handhubwagen",
+  "entsteht": "Schwere Last auf kleinen Rollen",
+  "gefaehrdung": "g-anfahren",
+  "massnahmen": [
+   {
+    "id": "R68-M1",
+    "art": "P",
+    "text": "Sicherheitsschuhe"
+   },
+   {
+    "id": "R68-M2",
+    "art": "O",
+    "text": "Ziehen statt schieben nur mit Sicht, Last niedrig"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R69",
+  "name": "Hoher Stapel wird bewegt",
+  "wenn": {
+   "alle": [
+    "m.stapel_hoch",
+    "v.last_bewegen"
+   ]
+  },
+  "entsteht": "Ladung kann verrutschen",
+  "gefaehrdung": "g-stapel-kippt",
+  "massnahmen": [
+   {
+    "id": "R69-M1",
+    "art": "O",
+    "text": "Stapelhöhe begrenzen"
+   },
+   {
+    "id": "R69-M2",
+    "art": "T",
+    "text": "Ladung sichern, zum Beispiel mit Folie oder Band"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r108-007",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R70",
+  "name": "Arbeiten an elektrischen Anlagen",
+  "wenn": "v.elektro",
+  "entsteht": "Spannung führende Teile",
+  "gefaehrdung": "g-elektrisch",
+  "massnahmen": [
+   {
+    "id": "R70-M1",
+    "art": "O",
+    "text": "Nur Elektrofachkräfte"
+   },
+   {
+    "id": "R70-M2",
+    "art": "O",
+    "text": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v3",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R71",
+  "name": "Kälte und Zugluft",
+  "wenn": "u.kalt",
+  "entsteht": "Niedrige Temperatur, Zugluft",
+  "gefaehrdung": "g-klima",
+  "massnahmen": [
+   {
+    "id": "R71-M1",
+    "art": "T",
+    "text": "Heizung, Torschleier oder schnell schließende Tore"
+   },
+   {
+    "id": "R71-M2",
+    "art": "P",
+    "text": "Wärmende Arbeitskleidung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a3-5",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R72",
+  "name": "Lärm aus der Umgebung",
+  "wenn": "u.laerm",
+  "entsteht": "Lärm von Nachbarplätzen und Aggregaten",
+  "gefaehrdung": "g-laerm",
+  "massnahmen": [
+   {
+    "id": "R72-M1",
+    "art": "T",
+    "text": "Lärmquelle kapseln oder abschirmen"
+   },
+   {
+    "id": "R72-M2",
+    "art": "P",
+    "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "laermvibv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf",
+  "braucht": [
+   "laerm_db"
+  ]
+ },
+ {
+  "id": "R73",
+  "name": "Lösemittel von Hand",
+  "wenn": {
+   "alle": [
+    "m.loesemittel",
+    "a.von_hand"
+   ]
+  },
+  "entsteht": "Hautkontakt und Dämpfe",
+  "gefaehrdung": "g-haut-augen",
+  "massnahmen": [
+   {
+    "id": "R73-M1",
+    "art": "T",
+    "text": "Geschlossene Waschgeräte statt offener Wanne"
+   },
+   {
+    "id": "R73-M2",
+    "art": "P",
+    "text": "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf",
+  "braucht": [
+   "sdb"
+  ]
+ },
+ {
+  "id": "R74",
+  "name": "Metall trennen mit Handmaschine",
+  "wenn": {
+   "alle": [
+    "m.metall",
+    "v.trennen",
+    "a.handmaschine"
+   ]
+  },
+  "entsteht": "Funken, Splitter, berstende Scheibe",
+  "gefaehrdung": "g-geschoss",
+  "massnahmen": [
+   {
+    "id": "R74-M1",
+    "art": "T",
+    "text": "Schutzhaube richtig eingestellt"
+   },
+   {
+    "id": "R74-M2",
+    "art": "P",
+    "text": "Schutzbrille, bei Trennscheiben Gesichtsschutz"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "hersteller",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R75",
+  "name": "Lagern im Regal",
+  "wenn": "v.lagern_regal",
+  "entsteht": "Teile können herabfallen",
+  "gefaehrdung": "g-last-faellt",
+  "massnahmen": [
+   {
+    "id": "R75-M1",
+    "art": "O",
+    "text": "Schwere Teile unten lagern"
+   },
+   {
+    "id": "R75-M2",
+    "art": "T",
+    "text": "Sicherung gegen Durchschieben und Herabfallen"
+   },
+   {
+    "id": "R75-M3",
+    "art": "O",
+    "text": "Regale regelmäßig prüfen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r108-007",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R76",
+  "name": "Verschmutzter oder unebener Boden",
+  "wenn": "u.boden",
+  "entsteht": "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+  "gefaehrdung": "g-sturz",
+  "massnahmen": [
+   {
+    "id": "R76-M1",
+    "art": "O",
+    "text": "Boden sauber und Wege frei halten, Reinigungsplan"
+   },
+   {
+    "id": "R76-M2",
+    "art": "T",
+    "text": "Stolperstellen beseitigen oder kennzeichnen"
+   },
+   {
+    "id": "R76-M3",
+    "art": "P",
+    "text": "Rutschhemmende Sicherheitsschuhe"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a1-5",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R77",
+  "name": "Zeitdruck",
+  "wenn": "u.zeitdruck",
+  "entsteht": "Arbeiten in Hektik",
+  "gefaehrdung": "g-psychisch",
+  "massnahmen": [
+   {
+    "id": "R77-M1",
+    "art": "O",
+    "text": "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist"
+   },
+   {
+    "id": "R77-M2",
+    "art": "O",
+    "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": "§ 5 Abs. 3 Nr. 6"
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "geprueft",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R78",
+  "name": "Gleichförmige Handarbeit",
+  "wenn": {
+   "alle": [
+    {
+     "eine": [
+      "a.von_hand",
+      "a.handmaschine"
+     ]
+    },
+    {
+     "angabe": "gleichfoermig",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Immer gleiche Bewegung in hoher Zahl",
+  "gefaehrdung": "g-repetitiv",
+  "massnahmen": [
+   {
+    "id": "R78-M1",
+    "art": "O",
+    "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"
+   },
+   {
+    "id": "R78-M2",
+    "art": "O",
+    "text": "Wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": null
+   },
+   {
+    "id": "bauau-lmm",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R79",
+  "name": "Presse, Abkantpresse, Stanze",
+  "wenn": "a.presse",
+  "entsteht": "Schließbewegung mit hoher Kraft",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R79-M1",
+    "art": "T",
+    "text": "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung"
+   },
+   {
+    "id": "R79-M2",
+    "art": "O",
+    "text": "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken"
+   },
+   {
+    "id": "R79-M3",
+    "art": "O",
+    "text": "Wiederkehrende Prüfung"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R80",
+  "name": "Vorschubwalzen mit Anlegen von Hand",
+  "wenn": "a.einzugswalzen",
+  "entsteht": "Einzugsstelle an den Walzen",
+  "gefaehrdung": "g-einzug",
+  "massnahmen": [
+   {
+    "id": "R80-M1",
+    "art": "T",
+    "text": "Einzugsstelle so weit wie möglich verdeckt"
+   },
+   {
+    "id": "R80-M2",
+    "art": "O",
+    "text": "Werkstück mit Abstand anlegen, nicht nachgreifen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R81",
+  "name": "Bohr-, Dreh- oder Fräsmaschine mit Handbedienung: Erfasstwerden",
+  "wenn": {
+   "alle": [
+    "v.schnell_drehend",
+    "a.stationaer_handvorschub",
+    "m.metall"
+   ]
+  },
+  "entsteht": "Drehende Spindel, Bohrer oder Welle",
+  "gefaehrdung": "g-einzug",
+  "massnahmen": [
+   {
+    "id": "R81-M1",
+    "art": "O",
+    "text": "Keine Handschuhe, eng anliegende Kleidung, kein Schmuck"
+   },
+   {
+    "id": "R81-M2",
+    "art": "T",
+    "text": "Werkstück spannen statt von Hand halten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R82",
+  "name": "Sperrige Teile absetzen",
+  "wenn": {
+   "alle": [
+    "a.von_hand",
+    "m.sperrig"
+   ]
+  },
+  "entsteht": "Schweres Teil wird von Hand abgesetzt",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R82-M1",
+    "art": "P",
+    "text": "Sicherheitsschuhe"
+   },
+   {
+    "id": "R82-M2",
+    "art": "O",
+    "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R83",
+  "name": "Staub beim Schleifen und Trennen von Metall",
+  "wenn": {
+   "alle": [
+    "v.abtragend",
+    "m.metall"
+   ]
+  },
+  "entsteht": "Metall- und Schleifstaub",
+  "gefaehrdung": "g-staub",
+  "massnahmen": [
+   {
+    "id": "R83-M1",
+    "art": "T",
+    "text": "Absaugung an der Entstehungsstelle"
+   },
+   {
+    "id": "R83-M2",
+    "art": "O",
+    "text": "Staub aufsaugen, nicht abblasen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "trgs-900",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R84",
+  "name": "Staubendes Pulver",
+  "wenn": "m.staub",
+  "entsteht": "Feiner Staub beim Einfüllen und Reinigen",
+  "gefaehrdung": "g-staub",
+  "massnahmen": [
+   {
+    "id": "R84-M1",
+    "art": "T",
+    "text": "Staubarm einfüllen, Absaugung"
+   },
+   {
+    "id": "R84-M2",
+    "art": "P",
+    "text": "Atemschutz, wenn Staub nicht vermieden werden kann"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf",
+  "braucht": [
+   "sdb"
+  ]
+ },
+ {
+  "id": "R85",
+  "name": "Brennbares Pulver",
+  "wenn": "m.staub",
+  "entsteht": "Aufgewirbelter, brennbarer Staub",
+  "gefaehrdung": "g-brand-ex-staub",
+  "massnahmen": [
+   {
+    "id": "R85-M1",
+    "art": "O",
+    "text": "Ablagerungen regelmäßig entfernen"
+   },
+   {
+    "id": "R85-M2",
+    "art": "O",
+    "text": "Explosionsschutz prüfen und dokumentieren"
+   },
+   {
+    "id": "R85-M3",
+    "art": "T",
+    "text": "Zündquellen vermeiden"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf",
+  "braucht": [
+   "sdb"
+  ]
+ },
+ {
+  "id": "R86",
+  "name": "Abblasen mit Druckluft",
+  "wenn": "v.abblasen",
+  "entsteht": "Aufgewirbelter Staub, wegfliegende Teile",
+  "gefaehrdung": "g-staub",
+  "massnahmen": [
+   {
+    "id": "R86-M1",
+    "art": "S",
+    "text": "Saugen statt Abblasen"
+   },
+   {
+    "id": "R86-M2",
+    "art": "P",
+    "text": "Schutzbrille"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R87",
+  "name": "Hitze am Arbeitsplatz",
+  "wenn": "u.hitze",
+  "entsteht": "Wärmestrahlung, hohe Raumtemperatur",
+  "gefaehrdung": "g-klima",
+  "massnahmen": [
+   {
+    "id": "R87-M1",
+    "art": "T",
+    "text": "Abschirmung der Wärmequelle, Lüftung"
+   },
+   {
+    "id": "R87-M2",
+    "art": "O",
+    "text": "Trinkpausen, Aufenthalt begrenzen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a3-5",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R88",
+  "name": "Entzündbarer Gefahrstoff",
+  "wenn": {
+   "alle": [
+    "m.gefahrstoff",
+    {
+     "angabe": "entzuendbar",
+     "ist": true
+    }
+   ]
+  },
+  "entsteht": "Entzündbare Flüssigkeit, Dämpfe",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R88-M1",
+    "art": "O",
+    "text": "Am Arbeitsplatz höchstens den Tages- oder Schichtbedarf bereithalten; größere Mengen nach den Lagerregeln lagern"
+   },
+   {
+    "id": "R88-M2",
+    "art": "T",
+    "text": "Lüftung; beim Umfüllen erden"
+   },
+   {
+    "id": "R88-M3",
+    "art": "O",
+    "text": "Zündquellen fernhalten, Explosionsschutz prüfen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "trgs-510",
+    "stelle": null
+   },
+   {
+    "id": "trgs-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R89",
+  "name": "Ätzender Stoff",
+  "wenn": "m.aetzend",
+  "entsteht": "Säure oder Lauge auf Haut und Augen, ätzende Dämpfe",
+  "gefaehrdung": "g-haut-augen",
+  "massnahmen": [
+   {
+    "id": "R89-M1",
+    "art": "S",
+    "text": "Weniger gefährliches Verfahren oder Produkt prüfen"
+   },
+   {
+    "id": "R89-M2",
+    "art": "T",
+    "text": "Absaugung oder Lüftung, Augenspülung in der Nähe"
+   },
+   {
+    "id": "R89-M3",
+    "art": "P",
+    "text": "Säurefeste Handschuhe, Schutzbrille oder Gesichtsschutz, Schürze"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf",
+  "braucht": [
+   "sdb"
+  ]
+ },
+ {
+  "id": "R90",
+  "name": "Arbeiten in der Höhe",
+  "wenn": "v.hoehe",
+  "entsteht": "Arbeitsplatz über dem Boden",
+  "gefaehrdung": "g-absturz",
+  "massnahmen": [
+   {
+    "id": "R90-M1",
+    "art": "T",
+    "text": "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter"
+   },
+   {
+    "id": "R90-M2",
+    "art": "T",
+    "text": "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt"
+   },
+   {
+    "id": "R90-M3",
+    "art": "O",
+    "text": "Unterweisung und Beauftragung der Bediener"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trbs-2121",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R91",
+  "name": "Herabfallende Teile bei Arbeiten in der Höhe",
+  "wenn": "v.hoehe",
+  "entsteht": "Werkzeug und Bauteile über Personen",
+  "gefaehrdung": "g-last-faellt",
+  "massnahmen": [
+   {
+    "id": "R91-M1",
+    "art": "O",
+    "text": "Bereich darunter absperren"
+   },
+   {
+    "id": "R91-M2",
+    "art": "T",
+    "text": "Werkzeug sichern"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trbs-2121",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R92",
+  "name": "Leiter",
+  "wenn": {
+   "eine": [
+    "a.leiter"
+   ]
+  },
+  "entsteht": "Stand auf schmaler Stufe oder Sprosse",
+  "gefaehrdung": "g-absturz",
+  "massnahmen": [
+   {
+    "id": "R92-M1",
+    "art": "O",
+    "text": "Leiter nur für kurze, leichte Arbeiten; Standhöhe und Dauer begrenzen"
+   },
+   {
+    "id": "R92-M2",
+    "art": "O",
+    "text": "Leitern regelmäßig prüfen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trbs-2121-2",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ }
 ]

@@ -1,0 +1,149 @@
+{
+ "runde": "R004",
+ "blind": true,
+ "regeln": 94,
+ "quote": 59,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 75,
+  "schritte": 30,
+  "maengel": 31
+ },
+ "faelle": [
+  {
+   "id": "R004-01",
+   "arbeitsplatz": "Rechenhaus und Schächte",
+   "branche": "Abwasser, Kläranlage",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-02",
+   "arbeitsplatz": "Steildach, Montage der Photovoltaik-Module",
+   "branche": "Energie, Photovoltaik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-03",
+   "arbeitsplatz": "Grundpflege und Umlagern von Bewohnern",
+   "branche": "Gesundheit, Pflegeheim",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-04",
+   "arbeitsplatz": "Tiegelofen und Abguss von Aluminium",
+   "branche": "Metall, Gießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-05",
+   "arbeitsplatz": "Arbeiten am Hochvoltsystem",
+   "branche": "Kfz, Werkstatt für Elektrofahrzeuge",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-06",
+   "arbeitsplatz": "Telefonarbeitsplatz im Schichtdienst",
+   "branche": "Büro, Callcenter",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-07",
+   "arbeitsplatz": "Zerlegung mit Messer und Bandsäge im Kühlraum",
+   "branche": "Lebensmittel, Fleischerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R004-08",
+   "arbeitsplatz": "Bühnenaufbau mit Traversen und Beschallung in einer Halle",
+   "branche": "Veranstaltungstechnik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 11,
+   "verfehlt": 3
+  },
+  "2": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 1,
+   "verfehlt": 3
+  },
+  "4": {
+   "getroffen": 0,
+   "verfehlt": 4
+  },
+  "5": {
+   "getroffen": 0,
+   "verfehlt": 2
+  },
+  "6": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 2,
+   "verfehlt": 4
+  },
+  "9": {
+   "getroffen": 3,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 2,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 59,
+  "getroffen": 26,
+  "rueckfrage": 0,
+  "verfehlt": 18,
+  "unbegruendet": 0,
+  "zBerechtigt": 16,
+  "zUnbegruendet": 3
+ }
+}

@@ -1,0 +1,9 @@
+{"id":"R004-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","grund":"Angezeigte Gesprächszeit und verschobene Pausen; Maßnahmen zu Arbeitsmenge und Abläufen passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Gebeugtes Sitzen am zu niedrigen Tisch: keine Gefährdung zu Sitzen oder Bildschirmarbeitsplatz; Hand-Arm steht nur als Rückfrage mit anderer Ursache."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Blendung und Spiegelungen: nichts in der Systemliste meint Beleuchtung oder Blendung."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Stimmengewirr und Telefone; Ursache 'Lärm von Nachbarplätzen' und Maßnahme Lärmquelle abschirmen passen."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Keimübertragung über das Headset: keine Hygiene- oder Biostoff-Gefährdung in der Liste."}
+ ],
+ "zusaetzlich":[]}

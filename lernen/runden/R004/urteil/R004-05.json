@@ -1,0 +1,14 @@
+{"id":"R004-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Hochvolt-Freischaltung mit ungeprüften Handschuhen; Maßnahmen Elektrofachkräfte, Freischalten, Spannungsfreiheit feststellen passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Brand durch beschädigtes Ladegerät: die Rückfrage meint entzündbare Stoffe oder Gase, nicht einen Kurzschluss durch defektes Gerät; im Zweifel verfehlt."},
+  {"nr":3,"urteil":"getroffen","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Bremsreiniger-Dämpfe; Maßnahmen Einstufung nach Sicherheitsdatenblatt, Handschuhe passen."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Batterie rutscht und quetscht: keine Gefährdung zu Quetschen oder Last in der Liste."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Kabel quer über dem Boden; Maßnahme Stolperstellen beseitigen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"unbegruendet","grund":"Das Protokoll nennt keinen Lärm."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Protokoll: 'die Luft ist kalt, weil das Tor offen steht'."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"berechtigt","grund":"Protokoll: Bremsreiniger und 'ein Kanister Kühlmittel offen'."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Protokoll: 'Gereinigt wird mit Pressluft' (Abblasen wirbelt Staub auf)."}
+ ]}

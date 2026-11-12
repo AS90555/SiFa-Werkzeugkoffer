@@ -1,0 +1,126 @@
+{
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Lauge",
+   "material": "beize_saeure",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Zerlegetisch im Kühlraum",
+   "bereich": "Zerlegung",
+   "personen": 2,
+   "umgebung": [
+    "kalt",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "saegen",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": []
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "anlage",
+      "beize_saeure"
+     ]
+    },
+    {
+     "vorgang": "schleifen",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "schneidwerkzeug"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Zwei Personen zerlegen Schweinehälften, Schinken und Schulter",
+   "fehlt": "Material Fleisch, Knochen, Schlachtteile"
+  },
+  {
+   "text": "Ein Teil wird mit dem Messer von Hand ausgelöst",
+   "fehlt": "Ausführung Handmesser (Dichtungsschere ist die einzige Klingen-Ausführung, passt nicht); Material Fleisch"
+  },
+  {
+   "text": "Die Bandsäge steht an der Wand, ein Mitarbeiter schiebt das Stück mit beiden Händen gegen das Sägeblatt",
+   "fehlt": "Bandsäge für Fleisch und Knochen; Vorgang Sägen und stationär mit Handvorschub nur sinngemäß, Material Fleisch fehlt"
+  },
+  {
+   "text": "Das Sägeblatt läuft laut und schleudert Knochenstaub, man muss schreien",
+   "fehlt": "Knochenstaub und biologisches Material, Lärm bei Fleischverarbeitung"
+  },
+  {
+   "text": "Gereinigt wird mit Hochdruckreiniger und Lauge, danach läuft Wasser über den Boden",
+   "fehlt": "Ausführung Hochdruckreiniger (als handgeführte Maschine geraten); Nässe und Hygiene"
+  },
+  {
+   "text": "Die Luft ist kalt und feucht, die Hände werden nach einer Stunde klamm",
+   "fehlt": "Kühlraum und Feuchtarbeit; Umgebung kalt nur ungefähr, Nässe fehlt"
+  },
+  {
+   "text": "Den Tisch richtet der Meister am Morgen",
+   "fehlt": "Rüsten eines Tisches ohne Maschine; Schritt weggelassen"
+  },
+  {
+   "text": "Schärfen macht er an der Schleifmaschine neben der Tür",
+   "fehlt": "Material Messer: Fräsköpfe und Messer nur ungefähr passend; Schärfen kein eigener Vorgang"
+  },
+  {
+   "text": "Der Boden ist feucht, unter dem Tisch liegen Fleischreste und Fett",
+   "fehlt": "Rutschgefahr; Umgebung boden nur ungefähr passend"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "der Schutz am Blatt ist hochgeschoben, weil er sonst hängen bleibt"
+  },
+  {
+   "text": "Die Messer liegen im Wasserbecken, teilweise stumpf, der Griff ist fettig"
+  },
+  {
+   "text": "Die Schutzhandschuhe aus Metallgewebe liegen auf dem Regal, nur einer trägt sie"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Ein Teil wird mit dem Messer von Hand ausgelöst",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "schiebt das Stück mit beiden Händen gegen das Sägeblatt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird mit Hochdruckreiniger und Lauge",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Schärfen macht er an der Schleifmaschine",
+   "sicher": false
+  }
+ ],
+ "id": "R004-07",
+ "name": "R004-07"
+}

@@ -1,0 +1,38 @@
+{"id":"R004-02","name":"R004-02","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Montage auf dem Steildach","bereich":"Dach und Gerüst","personen":3,"umgebung":["aussen","boden"],"angaben":{"last_kg":24},
+"schritte":[
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"hoehenarbeit","ausfuehrung":"leiter","material":[]},
+{"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+{"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"handmaschine","material":[]},
+{"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]}
+]}],
+"wuensche":[
+{"text":"Module, je rund 24 kg und knapp 1,70 m lang","fehlt":"Material Photovoltaikmodul (Glas, sperrig)"},
+{"text":"ein Teil geht über die Leiter hoch, der Rest über den Aufzug am Gerüst","fehlt":"Ausführung Schrägaufzug oder Materiallift am Gerüst; Vorgang Heben gilt nur für Kran, Hebezeug, Vakuumheber"},
+{"text":"Steildach, Neigung rund 35 Grad, alte Ziegel","fehlt":"Umgebung oder Vorgang Dacharbeit mit Absturzgefahr; Dachneigung, Dachfang, Anschlagpunkt"},
+{"text":"Dachhaken mit Bohrmaschine in die Sparren, meist über Kopf","fehlt":"Material Sparren und Dachhaken; Zwangshaltung über Kopf; Schritt als Höhenarbeit auf dem Dach (Ausführung Dach fehlt)"},
+{"text":"schraubt die Schienen mit einem Akkuschrauber fest","fehlt":"Material Montageschiene"},
+{"text":"Module mit Klemmen auf die Schienen gesetzt","fehlt":"Material Modul und Klemmen"},
+{"text":"Gleichstromleitungen führen Strom, sobald ein Modul Licht bekommt, Abschaltung erst am Schluss","fehlt":"Elektroarbeiten unter Spannung, Gleichstrom, nicht abschaltbare Spannungsquelle; Ausführung und Qualifikation (Elektrofachkraft)"},
+{"text":"Kabel laufen über die Ziegel zum Wechselrichter im Keller","fehlt":"Vorgang Leitungen verlegen"},
+{"text":"Sonne, Regen und Wind, Module schlagen auf dem Gerüst","fehlt":"Umgebung Witterung, Nässe, Wind"},
+{"text":"Gerüst und Aufzug, einer steht unten","fehlt":"Umgebung Gerüst; Absturz von Gegenständen auf Personen unten"},
+{"text":"Aufräumen am Ende jeder Woche, Verpackungsreste in der Dachrinne","fehlt":"Vorgang Abfall und Ordnung; Verpackung als Material"}
+],
+"maengel":[
+{"text":"Die Ziegel sind an den Rändern teilweise gebrochen und rutschen, wenn man draufsteigt."},
+{"text":"Die Leiter steht an der Traufe und ist nicht über die Dachkante hinaus befestigt."},
+{"text":"Ein Sicherungsseil haben wir mitgebracht, aber es ist nicht am Dachfang eingehängt."},
+{"text":"Die Gleichstromleitungen führen Strom, sobald ein Modul Licht bekommt, ... Abgeschaltet wird meist erst am Schluss."},
+{"text":"Verpackungsreste liegen bis dahin in der Dachrinne."}
+],
+"zuordnung":[
+{"schritt":1,"stelle":"Sie werden einzeln von der Palette genommen","sicher":true},
+{"schritt":2,"stelle":"ein Teil geht über die Leiter hoch","sicher":false},
+{"schritt":3,"stelle":"schraubt man die Schienen mit einem Akkuschrauber fest","sicher":true},
+{"schritt":4,"stelle":"die Dachhaken setzt man mit einer Bohrmaschine in die Sparren","sicher":true},
+{"schritt":5,"stelle":"werden die Module mit Klemmen auf die Schienen gesetzt","sicher":true},
+{"schritt":6,"stelle":"die Stränge mit Steckern direkt auf dem Dach verbunden","sicher":false}
+]}

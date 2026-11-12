@@ -1,0 +1,122 @@
+{
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Rechenhaus und Schächte",
+   "bereich": "Rechenhaus und Schächte",
+   "personen": 2,
+   "umgebung": [
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "leiter",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Rechen hält grobe Stoffe zurück; Rechengut wird mit einem Kratzer von den Stäben gehoben (Rechen bedienen)",
+   "fehlt": "Vorgang und Ausführung für Kläranlagentechnik (Rechen, Kratzer); Schritt weggelassen"
+  },
+  {
+   "text": "Den Container füllt man von Hand nach; Rechengut aus Lumpen, Papier, Holz",
+   "fehlt": "Material Rechengut/Abwasserabfall (biologisch verunreinigt); Schritt ohne Material"
+  },
+  {
+   "text": "Es riecht stark nach Faulgas und Abwasser, man hält die Luft an",
+   "fehlt": "Faulgase, Gefahrstoff Gas und biologische Arbeitsstoffe im Abwasser als Umgebung oder Stoff"
+  },
+  {
+   "text": "Geländer an der Schachtöffnung lose, Schachtdeckel nicht verriegelt",
+   "fehlt": "Absturz, Schacht, enge Räume und Absturzsicherung als Umgebung oder Vorgang"
+  },
+  {
+   "text": "Beleuchtung schwach, eine Lampe ausgefallen",
+   "fehlt": "Umgebung Beleuchtung"
+  },
+  {
+   "text": "Boden nass und mit Schlammschicht überzogen",
+   "fehlt": "Rutschgefahr nasser Boden; Umgebung boden nur ungefähr passend"
+  },
+  {
+   "text": "Schlauch des Hochdruckreinigers liegt quer über dem Gehweg",
+   "fehlt": "Ausführung Hochdruckreiniger (hier als handgeführte Maschine geraten); Stolperstelle liegt als Mangel vor"
+  },
+  {
+   "text": "Wartung des Kratzers durch den Betriebselektriker mit einer Leiter am Rechen",
+   "fehlt": "Ob elektrische Arbeiten gemeint sind, ist offen; als Sonderbetrieb mit Leiter gesetzt"
+  },
+  {
+   "text": "Schichtbetrieb, eine Person macht den Rundgang über die Schächte",
+   "fehlt": "Alleinarbeit und Schichtbetrieb"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Das Geländer an der Schachtöffnung ist auf einer Seite lose"
+  },
+  {
+   "text": "der Deckel eines Schachts liegt nur auf, er ist nicht verriegelt"
+  },
+  {
+   "text": "Die Beleuchtung im Rechenhaus ist schwach, eine Lampe ist ausgefallen"
+  },
+  {
+   "text": "der Schlauch liegt dabei quer über dem Gehweg"
+  },
+  {
+   "text": "eine Atemschutzmaske sehe ich nicht"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Den Container füllt man von Hand nach",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Gereinigt wird der Rechen mit einem Hochdruckreiniger",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gewartet wird der Kratzer durch den Betriebselektriker, der dafür eine Leiter an den Rechen stellt",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "die andere macht den Rundgang über die Schächte",
+   "sicher": false
+  }
+ ],
+ "id": "R004-01",
+ "name": "R004-01"
+}

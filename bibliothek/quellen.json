@@ -144,14 +144,16 @@
   "titel": "Betriebsanleitung des Herstellers",
   "stufe": "empfehlung",
   "stand": "je Maschine",
-  "datei": null
+  "datei": null,
+  "verweis": true
  },
  {
   "id": "sdb",
   "titel": "Sicherheitsdatenblatt des Stoffs",
   "stufe": "empfehlung",
   "stand": "je Stoff",
-  "datei": null
+  "datei": null,
+  "verweis": true
  },
  {
   "id": "trgs-401",
@@ -299,5 +301,19 @@
   "stufe": "vermutungswirkung",
   "stand": "siehe Datei",
   "datei": "TRBS/TRBS-2121-Teil-2.pdf"
+ },
+ {
+  "id": "dguv-r109-607",
+  "titel": "DGUV Regel 109-607 Branche Metallbau",
+  "stufe": "empfehlung",
+  "stand": "siehe Datei",
+  "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.pdf"
+ },
+ {
+  "id": "trgs-500",
+  "titel": "TRGS 500 Schutzmaßnahmen",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRGS/TRGS-500.pdf"
  }
 ]

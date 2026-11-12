@@ -1,0 +1,24 @@
+{"id":"R004-06","name":"R004-06","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Telefonplätze im Großraum","bereich":"Callcenter","personen":12,"umgebung":["laerm_umgebung","zeitdruck"],"angaben":{},
+"schritte":[
+{"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}
+]}],
+"wuensche":[
+{"text":"Die Mitarbeiter nehmen Anrufe über ein Headset an, der Rechner zeigt Kundendaten und eine Eingabemaske","fehlt":"Vorgang Bildschirmarbeit und Telefonieren im Sitzen; Stimmbelastung"},
+{"text":"die Tische sind zu niedrig eingestellt, viele sitzen gebeugt über der Tastatur","fehlt":"Vorgang oder Angabe Sitzen, Zwangshaltung, Ergonomie des Bildschirmarbeitsplatzes"},
+{"text":"Die Monitore stehen vor einem Fenster, ... man sieht Spiegelungen","fehlt":"Umgebung Beleuchtung, Blendung, Spiegelung"},
+{"text":"Die Schicht geht im Wechsel von sechs bis vierzehn Uhr und von vierzehn bis zweiundzwanzig Uhr","fehlt":"Angabe Schichtarbeit, Arbeitszeit"},
+{"text":"Die Pausen sind fest vorgegeben, eine davon wird oft verschoben","fehlt":"Angabe Pausenregelung"},
+{"text":"Für jeden Anruf läuft im Rechner eine Zeit, die dem Teamleiter angezeigt wird","fehlt":"Psychische Belastung, Leistungsüberwachung; Zeitdruck nur teilweise abgedeckt"},
+{"text":"Headset wandert zwischen den Schichten von einem Platz zum nächsten","fehlt":"Hygiene bei gemeinsam genutzten Geräten"},
+{"text":"Großraum mit etwa vierzig Arbeitsplätzen, Gemurmel und Klingeln","fehlt":"Lärm im Büro (niedriger Pegel, aber störend); Umgebung Großraumbüro"}
+],
+"maengel":[
+{"text":"Die Stühle sind höhenverstellbar, aber die Tische sind zu niedrig eingestellt, viele sitzen gebeugt über der Tastatur."},
+{"text":"Die Jalousie ist halb unten und man sieht Spiegelungen."},
+{"text":"eine davon wird oft verschoben, wenn die Warteschlange lang ist"},
+{"text":"die Headsets wischt jeder selbst mit einem Tuch ab, wenn er daran denkt"}
+],
+"zuordnung":[
+{"schritt":1,"stelle":"die Headsets wischt jeder selbst mit einem Tuch ab","sicher":true}
+]}

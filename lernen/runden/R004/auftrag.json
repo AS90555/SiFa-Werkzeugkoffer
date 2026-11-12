@@ -1,0 +1,55 @@
+{
+ "runde": "R004",
+ "art": "pruef",
+ "blind": true,
+ "auftraege": [
+  {
+   "kennung": "R004-01",
+   "auftrag": "a075",
+   "branche": "Abwasser, Kläranlage",
+   "bereich": "Rechenhaus und Schächte"
+  },
+  {
+   "kennung": "R004-02",
+   "auftrag": "a068",
+   "branche": "Energie, Photovoltaik",
+   "bereich": "Module auf dem Dach montieren und anschließen"
+  },
+  {
+   "kennung": "R004-03",
+   "auftrag": "a049",
+   "branche": "Gesundheit, Pflegeheim",
+   "bereich": "Grundpflege und Umlagern von Bewohnern"
+  },
+  {
+   "kennung": "R004-04",
+   "auftrag": "a027",
+   "branche": "Metall, Gießerei",
+   "bereich": "Schmelzofen und Abguss von Aluminium"
+  },
+  {
+   "kennung": "R004-05",
+   "auftrag": "a061",
+   "branche": "Kfz, Werkstatt für Elektrofahrzeuge",
+   "bereich": "Arbeiten am Hochvoltsystem"
+  },
+  {
+   "kennung": "R004-06",
+   "auftrag": "a056",
+   "branche": "Büro, Callcenter",
+   "bereich": "Telefonarbeitsplatz im Schichtdienst"
+  },
+  {
+   "kennung": "R004-07",
+   "auftrag": "a045",
+   "branche": "Lebensmittel, Fleischerei",
+   "bereich": "Zerlegung mit Messer und Bandsäge im Kühlraum"
+  },
+  {
+   "kennung": "R004-08",
+   "auftrag": "a079",
+   "branche": "Veranstaltungstechnik",
+   "bereich": "Bühnenaufbau, Traversen, Beschallung"
+  }
+ ]
+}

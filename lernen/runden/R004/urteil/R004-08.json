@@ -1,0 +1,14 @@
+{"id":"R004-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Kettenzüge an unbekannt befestigtem Träger; Maßnahmen Niemand unter der Last und Prüfung des Hebezeugs passen."},
+  {"nr":2,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Kabel im Wasser an Verteilern; Maßnahmen Elektrofachkräfte und Freischalten passen zur Gefahr."},
+  {"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Kabel quer über dem Boden; Maßnahme Stolperstellen beseitigen passt."},
+  {"nr":4,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Schräg stehende Leiter an der Bühnenkante; Leiter-Maßnahmen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"70-kg-Boxen von Hand heben; Hebehilfe passt."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Beschallung; Gehörschutz nach 80/85 dB(A) passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Person wird von Fahrzeug angefahren oder überrollt","urteil":"berechtigt","grund":"Protokoll: Boxen 'werden mit einem Hubwagen herangefahren'."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Protokoll: Hallentor offen, 'draußen regnet' (Zugluft, Nässe)."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"berechtigt","grund":"Protokoll: Boxen werden 'von Hand auf die Traverse gehoben', Traversen hochgezogen, Personen darunter."}
+ ]}

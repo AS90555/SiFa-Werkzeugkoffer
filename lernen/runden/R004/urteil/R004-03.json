@@ -1,0 +1,10 @@
+{"id":"R004-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Umlagern eines 95-kg-Bewohners; Hebehilfe passt zum nicht genutzten Lifter."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Kontakt mit Krankheitserregern bei fehlender Schutzausrüstung: keine Biostoff-Gefährdung in der Liste."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Hautaustrocknung durch Desinfektion: nur eine Rückfrage zu Hand-Arm-Beschwerden, die eine andere Ursache meint."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Enge und Stühle im Weg: keine Gefährdung zu Stolpern oder Anstoßen in der Liste."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Hitze und schlechte Luft im Zimmer: keine Gefährdung zu Klima oder Hitze in der Liste."},
+  {"nr":6,"urteil":"getroffen","system":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","grund":"Personalmangel und kurzfristige Dienstplanung; Maßnahme Arbeitsmenge und Abläufe planen passt."}
+ ],
+ "zusaetzlich":[]}

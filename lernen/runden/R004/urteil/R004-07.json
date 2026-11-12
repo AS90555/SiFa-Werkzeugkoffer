@@ -1,0 +1,14 @@
+{"id":"R004-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Abrutschende stumpfe Messer; Maßnahme Schnittschutzhandschuhe passt zu den ungetragenen Metallgewebe-Handschuhen."},
+  {"nr":2,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Bandsäge mit hochgeschobenem Schutz; Maßnahme Schutzeinrichtung richtig eingestellt passt."},
+  {"nr":3,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Lauter Betrieb der Säge; Maßnahme Gehörschutz ab 80 und 85 dB(A) passt."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Keime und Knochenstaub in Augen, Mund, Wunden: keine Biostoff-Gefährdung in der Liste."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Feuchter, fettiger Boden; Maßnahmen Boden sauber halten und rutschhemmende Schuhe passen."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Kalte, feuchte Luft im Kühlraum; Maßnahme wärmende Arbeitskleidung passt zu klammen Händen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: 'der Schutz am Blatt ist hochgeschoben'; Reinigung und Schärfen an Maschinen."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"berechtigt","grund":"Protokoll: Mitarbeiter 'schiebt das Stück mit beiden Händen gegen das Sägeblatt' (Hand nah am Band)."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"berechtigt","grund":"Protokoll: 'Gereinigt wird mit Hochdruckreiniger und Lauge'."}
+ ]}

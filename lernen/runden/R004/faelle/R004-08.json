@@ -1,0 +1,36 @@
+{"id":"R004-08","name":"R004-08","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Bühnen- und Traversenaufbau","bereich":"Mehrzweckhalle","personen":6,"umgebung":["laerm_umgebung","boden","kalt"],"angaben":{"last_kg":70},
+"schritte":[
+{"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
+{"vorgang":"bewegen","ausfuehrung":"handhubwagen","material":[]},
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"hoehenarbeit","ausfuehrung":"leiter","material":[]},
+{"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]}
+]}],
+"wuensche":[
+{"text":"Traversen am Boden aus Aluminiumsegmenten gesteckt und mit Bolzen gesichert","fehlt":"Material Traverse (Aluminium, nicht scharfkantig wie Profil)"},
+{"text":"mit Kettenzügen an der Hallendecke hochgezogen, Befestigung am Stahlträger unbekannt","fehlt":"Material Last über Personen; Angabe Tragfähigkeit und Anschlagpunkt; Aufhängung unter Last"},
+{"text":"Lautsprecherboxen wiegen rund siebzig Kilo, sie werden mit einem Hubwagen herangefahren","fehlt":"Material Lautsprecherbox; Antrieb des Hubwagens nicht genannt, Handhubwagen daher nur Annahme"},
+{"text":"dann von Hand auf die Traverse gehoben","fehlt":"Material Box 70 kg; Heben von Hand weit über dem Grenzwert ohne Hilfsmittel; Angabe griffe_h nicht genannt"},
+{"text":"Eine Leiter steht schräg an der Bühnenkante","fehlt":"Tätigkeit auf der Leiter nicht genannt; Schritt daher nur Annahme"},
+{"text":"Der Strom kommt über Verteiler, deren Kabel quer über den Hallenboden liegen","fehlt":"Verlegen und Betrieb mobiler Stromverteilung; Nässe; Ausführung Veranstaltungstechnik"},
+{"text":"das Hallentor für die Anlieferung offen steht und es draußen regnet","fehlt":"Umgebung Nässe, Regen eindringend; Anlieferverkehr am Tor"},
+{"text":"Wenn die Anlage läuft, muss man schreien","fehlt":"Angabe Lärmpegel laerm_db nicht genannt"},
+{"text":"vier Techniker und zwei Helfer für die schweren Teile","fehlt":"Fachkenntnis, Unterweisung, Zusammenarbeit mehrerer Gewerke"},
+{"text":"Aufgeräumt werden die Kabel am Ende der Schicht, die Traversen stellt der Techniker selbst ein","fehlt":"Vorgang Aufräumen und Kabel verlegen; Einstellen der Traverse unter Last"}
+],
+"maengel":[
+{"text":"Die Kettenzüge hängen an einem Stahlträger, dessen Befestigung hier niemand genau kennt."},
+{"text":"deren Kabel quer über den Hallenboden liegen. Ein Teil davon liegt im Wasser"},
+{"text":"Vor der Bühne ist der Boden nicht eben, die Holzplatten liegen nicht bündig."},
+{"text":"Eine Leiter steht schräg an der Bühnenkante und wird von einem Helfer mit dem Fuß gehalten."}
+],
+"zuordnung":[
+{"schritt":1,"stelle":"Die Traversen werden am Boden aus Aluminiumsegmenten gesteckt und mit Bolzen gesichert","sicher":true},
+{"schritt":2,"stelle":"danach mit Kettenzügen an der Hallendecke hochgezogen","sicher":true},
+{"schritt":3,"stelle":"sie werden mit einem Hubwagen herangefahren","sicher":false},
+{"schritt":4,"stelle":"dann von Hand auf die Traverse gehoben","sicher":true},
+{"schritt":5,"stelle":"Eine Leiter steht schräg an der Bühnenkante","sicher":false},
+{"schritt":6,"stelle":"Der Strom kommt über Verteiler, deren Kabel quer über den Hallenboden liegen","sicher":false}
+]}

@@ -1,0 +1,13 @@
+{"id":"R004-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Einbruch durch nicht verriegelten Schachtdeckel meint keine Gefährdung der Liste; die Maßnahmen von Stolpern/Rutschen oder Absturz (Leiter) passen nicht zur Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Nasser, schlammiger Boden; Maßnahmen Boden sauber halten und rutschhemmende Schuhe passen."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Faulgase beim Öffnen des Containers: nichts in der Systemliste meint Gase oder Atemgifte."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Keime aus Abwasser und Rechengut (Biostoffe): keine passende Gefährdung in der Liste."},
+  {"nr":5,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Leiter am Rechen für die Wartung; Maßnahmen zu Leitern (Standhöhe begrenzen, prüfen) passen."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Schwache Beleuchtung wird vom System nicht erkannt; keine Gefährdung oder Maßnahme dazu."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Protokoll: 'Den Container füllt man von Hand nach' (Rechengut von Hand bewegen)."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: 'Gewartet wird der Kratzer durch den Betriebselektriker' und der Rechen wird gereinigt."}
+ ]}

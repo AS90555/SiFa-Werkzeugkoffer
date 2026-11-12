@@ -1,0 +1,81 @@
+{
+ "paket": "F001",
+ "status": "offen",
+ "eintraege": [
+  {
+   "id": "R01",
+   "art": "regel",
+   "fingerabdruck": "bd96cc51e7b93077"
+  },
+  {
+   "id": "R03",
+   "art": "regel",
+   "fingerabdruck": "0bd52031ce380b2a"
+  },
+  {
+   "id": "R09",
+   "art": "regel",
+   "fingerabdruck": "cab834960bdcdbd5"
+  },
+  {
+   "id": "R10",
+   "art": "regel",
+   "fingerabdruck": "460c695b0d755690"
+  },
+  {
+   "id": "R13",
+   "art": "regel",
+   "fingerabdruck": "cb25fe7a63e6057b"
+  },
+  {
+   "id": "R17",
+   "art": "regel",
+   "fingerabdruck": "aa482d18ceabd2a2"
+  },
+  {
+   "id": "R18",
+   "art": "regel",
+   "fingerabdruck": "3d887ecef292963b"
+  },
+  {
+   "id": "R22",
+   "art": "regel",
+   "fingerabdruck": "df10b376ab0095c7"
+  },
+  {
+   "id": "R54",
+   "art": "regel",
+   "fingerabdruck": "6801ffcfbe4d9cc3"
+  },
+  {
+   "id": "P01",
+   "art": "pflicht",
+   "fingerabdruck": "385dac106d216556"
+  },
+  {
+   "id": "P02",
+   "art": "pflicht",
+   "fingerabdruck": "9152c94b77b1da87"
+  },
+  {
+   "id": "P03",
+   "art": "pflicht",
+   "fingerabdruck": "bd911aff0f251777"
+  },
+  {
+   "id": "P04",
+   "art": "pflicht",
+   "fingerabdruck": "831fc63a797ac549"
+  },
+  {
+   "id": "P05",
+   "art": "pflicht",
+   "fingerabdruck": "fc7328341050149d"
+  },
+  {
+   "id": "P06",
+   "art": "pflicht",
+   "fingerabdruck": "871c195cc0b8f0d1"
+  }
+ ]
+}

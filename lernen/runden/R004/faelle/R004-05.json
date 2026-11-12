@@ -1,0 +1,128 @@
+{
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Bremsreiniger",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Montagegrube Hochvolt",
+   "bereich": "Hochvoltsysteme",
+   "personen": 2,
+   "umgebung": [
+    "kalt",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "elektroarbeiten",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "elektrische_anlage"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "handmaschine",
+     "material": []
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Batterie wird mit dem Hubwagen unterfahren",
+   "fehlt": "Antrieb des Hubwagens nicht genannt; Schritt weggelassen. Material Hochvoltbatterie fehlt"
+  },
+  {
+   "text": "Die Schrauben löst man mit dem Drehmomentschlüssel",
+   "fehlt": "Material Hochvoltbatterie; Schritt ohne Material"
+  },
+  {
+   "text": "Die Spannungsfreischaltung macht der Mechatroniker mit Werkzeug aus dem Koffer",
+   "fehlt": "Hochvolt, Spannungsfreischaltung, Elektrofachkraft für Hochvoltsysteme; als allgemeine Elektroarbeit gesetzt"
+  },
+  {
+   "text": "Ein Kleinwagen steht auf der Hebebühne",
+   "fehlt": "Hebebühne für Fahrzeuge, Absturz und Quetschen"
+  },
+  {
+   "text": "Gereinigt wird mit Pressluft",
+   "fehlt": "Ausführung Druckluftpistole (als handgeführte Maschine geraten); Material fehlt"
+  },
+  {
+   "text": "Ein Kanister Kühlmittel steht offen",
+   "fehlt": "Material Kühlmittel und Frostschutz, Gefahrstoff"
+  },
+  {
+   "text": "Gerüstet werden die Werkzeuge vom Meister am Morgen",
+   "fehlt": "Rüsten von Werkzeug ohne Maschine; Schritt weggelassen"
+  },
+  {
+   "text": "Dazu gelegentlich ein Auszubildender",
+   "fehlt": "Alter nicht genannt, Angabe jugendliche offen gelassen"
+  },
+  {
+   "text": "Das Messgerät steht auf einem Rollwagen, das Kabel liegt quer über dem Boden",
+   "fehlt": "Umgebung Boden gesetzt, Kabelführung am Boden"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Isolierhandschuhe liegen im Schrank nebenan, sie sind nicht immer geprüft"
+  },
+  {
+   "text": "das Kabel liegt quer über dem Boden"
+  },
+  {
+   "text": "zu einem Ladegerät an der Wand, das Gehäuse hat einen Riss"
+  },
+  {
+   "text": "Neben der Grube steht ein Kanister Kühlmittel offen"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "die Schrauben löst man mit dem Drehmomentschlüssel",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Spannungsfreischaltung macht der Mechatroniker mit Werkzeug aus dem Koffer",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird mit Pressluft",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "einem Lappen mit Bremsreiniger",
+   "sicher": true
+  }
+ ],
+ "id": "R004-05",
+ "name": "R004-05"
+}

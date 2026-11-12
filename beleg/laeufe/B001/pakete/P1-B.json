@@ -1,0 +1,419 @@
+{
+ "lauf": "B001",
+ "paket": "P1",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R78",
+   "fingerabdruck": "1a5083d5f06d3e3f",
+   "name": "Gleichförmige Handarbeit",
+   "gilt_wenn": "(Von Hand, Körperkraft oder Handgeführte Maschine) UND „Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht“: ja",
+   "entsteht": "Immer gleiche Bewegung in hoher Zahl",
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R78-M1",
+     "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"
+    },
+    {
+     "id": "R78-M2",
+     "text": "Tätigkeitswechsel und Pausen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R50",
+   "fingerabdruck": "1f400b6496847122",
+   "name": "Fruchtschädigender Stoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND („Weist das Sicherheitsdatenblatt H360 oder H361 aus“: ja)",
+   "entsteht": "Fruchtschädigender Stoff",
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R50-M1",
+     "text": "Ersatzstoff prüfen"
+    },
+    {
+     "id": "R50-M2",
+     "text": "Hautkontakt ausschließen"
+    },
+    {
+     "id": "R50-M3",
+     "text": "Schwangere dürfen dem Stoff nicht ausgesetzt sein"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "muschg",
+     "titel": "Mutterschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/MuSchG.txt"
+     ]
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R16",
+   "fingerabdruck": "66a959b9140ca20a",
+   "name": "Sonderbetrieb an der Anlage",
+   "gilt_wenn": "Rüsten, Reinigen, Instandhalten, Störung beheben UND (Maschine oder Anlage als Arbeitsgegenstand)",
+   "entsteht": "Schutz aufgehoben, gespeicherte Energie",
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R16-M1",
+     "text": "Abschalten und gegen Wiedereinschalten sichern"
+    },
+    {
+     "id": "R16-M2",
+     "text": "Nur Befugte: Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur"
+    },
+    {
+     "id": "R16-M3",
+     "text": "Arbeitsanweisung für den Sonderbetrieb"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    },
+    {
+     "id": "trbs-1112",
+     "titel": "TRBS 1112 Instandhaltung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-1112.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R88",
+   "fingerabdruck": "0ef4d8dd2a861765",
+   "name": "Entzündbarer Gefahrstoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND „Ist der Stoff laut Sicherheitsdatenblatt entzündbar“: ja",
+   "entsteht": "Entzündbare Flüssigkeit, Dämpfe",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R88-M1",
+     "text": "Nur Tagesbedarf am Arbeitsplatz, Vorrat im Sicherheitsschrank oder Lager"
+    },
+    {
+     "id": "R88-M2",
+     "text": "Lüftung, beim Umfüllen erden"
+    },
+    {
+     "id": "R88-M3",
+     "text": "Zündquellen fernhalten, Explosionsschutz prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    },
+    {
+     "id": "trgs-510",
+     "titel": "TRGS 510 Lagerung von Gefahrstoffen in ortsbeweglichen Behältern",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-510.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R22",
+   "fingerabdruck": "df10b376ab0095c7",
+   "name": "Gefahrstoff wird aufgetragen",
+   "gilt_wenn": "Stoff wird aufgetragen UND Gefahrstoff nach Sicherheitsdatenblatt UND nicht („Ist der Stoff laut Sicherheitsdatenblatt als gefährlich eingestuft“: nein)",
+   "entsteht": "Abhängig von der Einstufung",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R22-M1",
+     "text": "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen"
+    },
+    {
+     "id": "R22-M2",
+     "text": "Stoff ins Gefahrstoffverzeichnis aufnehmen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R82",
+   "fingerabdruck": "e6ddc2655a133588",
+   "name": "Sperrige Teile absetzen",
+   "gilt_wenn": "Von Hand, Körperkraft UND Sperriges Teil",
+   "entsteht": "Schweres Teil wird von Hand abgesetzt",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R82-M1",
+     "text": "Sicherheitsschuhe"
+    },
+    {
+     "id": "R82-M2",
+     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R10",
+   "fingerabdruck": "bcea1eee37e99b37",
+   "name": "Hartholzstaub",
+   "gilt_wenn": "(Abtragender Vorgang, erzeugt Staub oder Späne) UND Werkstoff Holz UND („Wird an dieser Station Hartholz wie Eiche oder Buche bearbeitet“: ja)",
+   "entsteht": "Krebserzeugender Staub",
+   "gefaehrdung": "Krebs der Nase durch Hartholzstaub",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R10-M1",
+     "text": "Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge"
+    },
+    {
+     "id": "R10-M2",
+     "text": "Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-553",
+     "titel": "TRGS 553 Holzstaub",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-553.txt"
+     ]
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R01",
+   "fingerabdruck": "bd96cc51e7b93077",
+   "name": "Flurförderzeug im Verkehrsraum",
+   "gilt_wenn": "Flurförderzeug mit Fahrersitz oder Fahrerstand",
+   "entsteht": "Fahrzeug im Verkehrsraum",
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R01-M1",
+     "text": "Nur Fahrer einsetzen, die mindestens 18 Jahre alt, geeignet, ausgebildet und schriftlich beauftragt sind"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v68",
+     "titel": "DGUV Vorschrift 68 Flurförderzeuge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R17",
+   "fingerabdruck": "aa482d18ceabd2a2",
+   "name": "Reinigen bei Holzstaub",
+   "gilt_wenn": "Reinigen UND Holzstaub und Späne als Stoff",
+   "entsteht": "Aufgewirbelter Staub",
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R17-M1",
+     "text": "Abblasen und trockenes Kehren sind nicht zulässig"
+    },
+    {
+     "id": "R17-M2",
+     "text": "Aufsaugen mit Sauger mindestens Staubklasse M"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-553",
+     "titel": "TRGS 553 Holzstaub",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-553.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P01",
+   "fingerabdruck": "385dac106d216556",
+   "name": "Gefährdungsbeurteilung",
+   "gilt_wenn": "immer",
+   "aussagen": [
+    {
+     "id": "P01",
+     "text": "Arbeitsbedingungen beurteilen und Maßnahmen festlegen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P03",
+   "fingerabdruck": "bd911aff0f251777",
+   "name": "Betriebsarzt und Fachkraft für Arbeitssicherheit",
+   "gilt_wenn": "immer",
+   "aussagen": [
+    {
+     "id": "P03",
+     "text": "Betriebsarzt und Fachkraft für Arbeitssicherheit bestellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asig",
+     "titel": "Arbeitssicherheitsgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ASiG.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P05",
+   "fingerabdruck": "fc7328341050149d",
+   "name": "Arbeitsschutzausschuss",
+   "gilt_wenn": "„Wie viele Beschäftigte hat der Betrieb“: ab 21",
+   "aussagen": [
+    {
+     "id": "P05",
+     "text": "Arbeitsschutzausschuss bilden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asig",
+     "titel": "Arbeitssicherheitsgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ASiG.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

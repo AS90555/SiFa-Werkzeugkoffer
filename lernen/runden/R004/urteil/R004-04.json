@@ -1,0 +1,13 @@
+{"id":"R004-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Wasser in heißer Pfanne (Dampfexplosion): keine Gefährdung zu Schmelze oder Spritzern in der Liste."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Verbrennung durch verschüttetes Metall: keine Gefährdung zu Hitze-Kontakt oder Verbrennung in der Liste."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Rauch und Dämpfe beim Abschöpfen der Schlacke: keine Gefahrstoff-Gefährdung in der Liste."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Lauter Gasbrenner; Maßnahmen Lärmquelle kapseln und Gehörschutz passen."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Hitze und schlechte Luft am Ofen; Maßnahmen Abschirmung der Wärmequelle und Lüftung passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Protokoll: Barren von etwa zehn Kilo werden 'von Hand in den Tiegel eingelegt'."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Protokoll: 'Die Gießer rüsten die Formen selbst' und reinigen die Pfanne am Schichtende."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: 'der Boden davor ist feucht vom Kühlen'."}
+ ]}

@@ -1,0 +1,85 @@
+{
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Doppelzimmer Pflegestation",
+   "bereich": "Grundpflege",
+   "personen": 2,
+   "umgebung": [
+    "zeitdruck"
+   ],
+   "angaben": {
+    "last_kg": 95
+   },
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Ein Mann im Pflegebett, etwa 95 Kilogramm, wird mit dem Drehlaken umgelagert",
+   "fehlt": "Material Person/Patient; Last 95 kg als Angabe eingetragen, Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "Ein Lifter steht im Flur, wird aber selten genutzt",
+   "fehlt": "Ausführung Patientenlifter oder Hebehilfe in der Pflege"
+  },
+  {
+   "text": "Das Bett steht auf niedriger Höhe, wir heben aus dem Rücken",
+   "fehlt": "Körperhaltung und Bettenhöhe"
+  },
+  {
+   "text": "Der Boden im Zimmer ist eng, Stühle stehen im Weg",
+   "fehlt": "Umgebung Enge und Bewegungsfläche"
+  },
+  {
+   "text": "Gewaschen wird mit Waschlappen und Seife, Hautcreme, Hände desinfizieren",
+   "fehlt": "Vorgang Waschen und Pflegen, Feuchtarbeit und Hautschutz, Desinfektion; Schritt weggelassen"
+  },
+  {
+   "text": "Duschen kann man am Flur, die Wäsche sammelt sich in einem Korb",
+   "fehlt": "Vorgang Duschen und Wäschehandhabung, mögliche biologische Arbeitsstoffe; Schritt weggelassen"
+  },
+  {
+   "text": "Das Zimmer ist warm, das Fenster lässt sich nicht öffnen, die Luft steht",
+   "fehlt": "Umgebung Raumklima und Lüftung (Hitze nur als Wärmestrahlung vorhanden)"
+  },
+  {
+   "text": "Zwei Pflegekräfte für zwölf Bewohner, Dienstplanung kurzfristig umgestellt, Unruhe",
+   "fehlt": "Personalmangel und psychische Belastung; Umgebung zeitdruck nur ungefähr"
+  },
+  {
+   "text": "Handschuhe im Spender, Schürzen fehlen manchmal",
+   "fehlt": "Persönliche Schutzausrüstung und Infektionsschutz"
+  },
+  {
+   "text": "Seife, Hautcreme, Händedesinfektionsmittel (genannte Stoffe)",
+   "fehlt": "Materialien für Pflegestoffe und Desinfektion; als Stoff nicht eintragbar"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Schürzen fehlen manchmal"
+  },
+  {
+   "text": "Ein Lifter steht im Flur, wird aber selten genutzt"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Zum Umlagern ziehen wir ihn mit dem Drehlaken im Bett",
+   "sicher": true
+  }
+ ],
+ "id": "R004-03",
+ "name": "R004-03"
+}

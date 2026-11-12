@@ -1,0 +1,31 @@
+{"id":"R004-04","name":"R004-04","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Tiegelofen Aluminium","bereich":"Gießerei","personen":3,"umgebung":["hitze","laerm_umgebung","boden"],"angaben":{"last_kg":10},
+"schritte":[
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+]}],
+"wuensche":[
+{"text":"Schmelze hat rund 720 Grad, Tiegelofen mit Gas beheizt","fehlt":"Material flüssiges Metall, Schmelze; Vorgang Schmelzen; Umgebung gasbeheizte Anlage"},
+{"text":"Barren ... von Hand in den Tiegel eingelegt","fehlt":"Material Barren in heiße Schmelze; Einlegen in Schmelze (Spritzer, Feuchtigkeit); Barren als metallwerkstueck nur näherungsweise"},
+{"text":"Abgegossen wird mit einer Pfanne an einer Kette, die der Gießer von Hand zur Kokille führt","fehlt":"Vorgang Gießen; Material flüssiges Metall; Ausführung Gießpfanne an Kette"},
+{"text":"Beim Abschöpfen der Schlacke raucht es aus der offenen Tonne","fehlt":"Vorgang Schlacke abschöpfen; Material Schlacke; Rauch und Dämpfe (Gefahrstoff nicht benannt)"},
+{"text":"Die Halle hat kein Fenster zum Öffnen","fehlt":"Umgebung fehlende Lüftung"},
+{"text":"Der Brenner läuft den ganzen Schichtbetrieb durch und ist so laut, dass man sich nur anschreien kann","fehlt":"Lärm der eigenen Anlage; Angabe laerm_db nicht genannt, daher offen"},
+{"text":"Die Gießer rüsten die Formen selbst","fehlt":"Material Kokille, Form (heiß, schwer)"},
+{"text":"reinigt der Gießer die Pfanne mit Wasser und einem Lappen","fehlt":"Reinigen einer heißen Gießpfanne, Wasser auf heißem Metall; Material Gießpfanne"},
+{"text":"Schlackentonne wird einmal die Woche von der Entsorgung abgeholt","fehlt":"Vorgang Abfall und Entsorgung"}
+],
+"maengel":[
+{"text":"Der Pfannengriff sitzt locker und die Pfanne ist an einer Stelle eingedrückt."},
+{"text":"Vor dem Abguss steht die Kokille etwas schräg, und der Boden davor ist feucht vom Kühlen."},
+{"text":"Beim Abschöpfen der Schlacke raucht es aus der offenen Tonne neben dem Ofen."},
+{"text":"Die Halle hat kein Fenster zum Öffnen."}
+],
+"zuordnung":[
+{"schritt":1,"stelle":"jeder wiegt etwa zehn Kilo, und sie werden von Hand in den Tiegel eingelegt","sicher":false},
+{"schritt":2,"stelle":"Abgegossen wird mit einer Pfanne an einer Kette, die der Gießer von Hand zur Kokille führt","sicher":false},
+{"schritt":3,"stelle":"Die Gießer rüsten die Formen selbst","sicher":true},
+{"schritt":4,"stelle":"am Ende jeder Schicht reinigt der Gießer die Pfanne mit Wasser und einem Lappen","sicher":false}
+]}

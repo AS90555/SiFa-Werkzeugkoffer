@@ -1,64 +1,78 @@
-# Der Lernkreislauf
+# Der Kreislauf: finden, belegen, freigeben
 
-Stand: 12.11.2026. Wie das System mit erzeugten Protokollen wächst und wie das gesteuert wird. Gehört zu Meilenstein 1 und 2 der Roadmap.
+Stand: 12.11.2026. Wie das System von selbst besser wird und trotzdem nur gilt, was im Regelwerk steht und Andre freigegeben hat. Gehört zu Meilenstein 1 und 2 der Roadmap. Den aktuellen Stand zeigt immer `LEITSTAND.md`.
 
-## Die Idee
+## Drei Schleifen
 
-Agenten erfinden Arbeitsplätze, sprechen sie als Rundgangsprotokoll ein und halten verdeckt fest, welche Gefährdungen dort bestehen. Ein zweiter Agent übersetzt nur das Protokoll. Der Kern rechnet. Ein Programm vergleicht das Ergebnis mit der verdeckten Wahrheit. Aus den Abweichungen entstehen Vorschläge für die Bibliothek.
-
-## Die Rollen
-
-| Rolle | Wer | Sieht | Liefert |
+| Schleife | Frage | Wer arbeitet | Ergebnis |
 | --- | --- | --- | --- |
-| Planer | Claude als Leitung | Abdeckung der bisherigen Runden | Aufträge: Kennung, Branche, Bereich. Keine Inhalte. |
-| Sprecher | kleiner, günstiger Agent | Auftrag, Liste der Gefährdungen und Faktoren | Protokoll und verdeckte Wahrheit |
-| Übersetzer | Agent | nur das Protokoll, Stammdaten, Wörterbuch | Fall und Wünsche |
-| Kern | Programm | Fall, Bibliothek | Gefährdungen und Maßnahmen |
-| Auswerter | Programm `lernen/auswerten.js` | Fall, Ergebnis, Wahrheit | Bericht mit Trefferquote und Lücken |
-| Schiedsrichter | Agent | Protokoll, Wahrheit, Liste des Systems | Urteil nach Bedeutung: getroffen, Rückfrage, verfehlt; Zusatzfunde berechtigt oder unbegründet |
-| Lücken-Schließer | Claude, später eigener Agent | Bericht | Vorschläge: Wörterbuch, Stammdaten, Regeln im Entwurf |
-| Beleg-Prüfer und Gegenprüfer | Agenten | Regelvorschlag, Regelwerkstext | Prüfberichte |
-| Freigabe | Andre | Regel, Berichte | Freigabe oder Ablehnung |
+| **Finden** (Runden) | Erkennt das System, was an einem fremden Arbeitsplatz gefährlich ist? | Sprecher, Übersetzer, Kern, Schiedsrichter | Trefferquote und Liste der Lücken |
+| **Belegen** (Beleg-Läufe) | Steht jede Maßnahme wirklich im Regelwerk? | Prüfer und Gegenprüfer, Zitat-Kontrolle durch das Programm | Regel doppelt belegt oder zurück an die Werkbank |
+| **Freigeben** (Pakete) | Würde ich das einem Kunden so sagen? | Andre | Regel gilt |
 
-Der Sprecher kennt die Regeln nicht. Der Übersetzer kennt weder die Wahrheit noch die Regeln. Die Leitung liest die Wahrheit erst, wenn die Übersetzung fertig ist.
+**Die Grenze:** Das System lernt von selbst, was ihm fehlt. Es entscheidet nicht von selbst, was gilt. Eine Regel gilt erst, wenn zwei unabhängige Prüfer sie mit wörtlichem Zitat belegt haben und Andre sie freigegeben hat. Wird sie danach geändert, verfallen Beleg und Freigabe von selbst (Fingerabdruck).
 
-## Zwei Arten von Runden
+## Der Leitstand
 
-- **Lernrunde:** Nach der Auswertung werden die Lücken geschlossen. Die Protokolle werden danach feste Testfälle.
-- **Prüfrunde:** Neue Protokolle, an denen vorher nichts nachgebessert wurde. Nur ihre Trefferquote zählt als Messwert. Auf jede Lernrunde folgt eine Prüfrunde.
+`node lernen/leitstand.js` liest den ganzen Stand und schreibt `LEITSTAND.md`: was als Nächstes fällig ist, was auf Andre wartet, Kennzahlen, Runden, Beleg-Läufe. Jede Arbeitssitzung beginnt dort. So muss niemand im Kopf behalten, wo wir stehen.
 
-So wird nicht gemessen, wie gut das System Bekanntes wiedergibt, sondern wie gut es Neues trifft.
+Reihenfolge, nach der der Leitstand entscheidet:
 
-## Was die Bibliothek aus einer Runde lernen darf
+1. Bibliothek fehlerhaft: reparieren.
+2. Angefangenes zu Ende bringen: offener Beleg-Lauf, offene Runde, offene Lücken.
+3. Stopp-Regel Belege: Sind weniger als ein Viertel der Regeln doppelt belegt, kommt ein Beleg-Lauf vor der nächsten Lernrunde.
+4. Stopp-Regel Quote: Fällt die Quote einer Prüfrunde gegenüber der letzten vergleichbaren, wird erst die Ursache gesucht.
+5. Reife Regeln als Freigabe-Paket an Andre.
+6. Sonst: neue Prüfrunde.
 
-| Art der Lücke | Wer schließt sie | Braucht Freigabe |
+## Schleife Finden
+
+| Schritt | Befehl oder Agent | Wer sieht was |
 | --- | --- | --- |
-| Wort fehlt im Wörterbuch | Lücken-Schließer | nein |
-| Stammdatum fehlt (Material, Vorgang, Ausführung, Umgebung) | Lücken-Schließer | nein, aber im Lernbuch vermerkt |
-| Regel löst nicht aus, obwohl sie passt | Lücken-Schließer ändert die Bedingung | ja, Regel fällt auf Entwurf zurück |
-| Gefährdung oder Regel fehlt ganz | Lücken-Schließer schlägt vor, mit offenem Beleg | ja, nach Beleg-Prüfung |
+| Runde anlegen | `node lernen/runde.js neu pruef` | Das Programm wählt acht Aufträge aus `lernen/abdeckung.json`: schwache und selten geprüfte Faktoren zuerst, Branchen gemischt. Es schreibt fertige Aufträge nach `lernen/runden/<Runde>/auftraege/`. |
+| Sprecher (2 Läufe, kleinstes Modell) | Auftrag `sprecher-1.md`, `sprecher-2.md` | Kennt nur Branche, Bereich und die elf Faktoren. Kennt die Bibliothek nicht. Schreibt Protokoll und verdeckte Wahrheit in eigenen Worten. |
+| Übersetzer (2 Läufe) | Auftrag `uebersetzer-1.md`, `uebersetzer-2.md` | Kennt nur Protokoll, Stammdaten, Wörterbuch. Kennt weder Wahrheit noch Regeln. |
+| Rechnen | `node lernen/runde.js system <Runde>` | Programm, ohne KI. |
+| Schiedsrichter (1 Lauf) | Auftrag `schiedsrichter.md` | Vergleicht nach Bedeutung: getroffen, Rückfrage, verfehlt, unbegründet; Zusatzfunde berechtigt oder nicht. |
+| Auswerten | `node lernen/runde.js auswerten <Runde>` | Bericht, Verlauf, Faktor-Statistik. |
+| Lücken schließen | Leitung | Wörterbuch, dann Stammdaten, dann Regeln als Entwurf mit offenem Beleg. Danach `node lernen/runde.js geschlossen <Runde>`. |
 
-**Die Grenze:** Das System lernt von selbst, was ihm fehlt. Es entscheidet nicht von selbst, was gilt. Eine Regel wird nur durch den Beleg am Regelwerk und Andres Freigabe gültig.
+Nach jeder Stufe: `node lernen/runde.js pruefen <Runde>`. Das Programm prüft Wortzahl, Form, ob jeder Anlass wörtlich im Protokoll steht, ob jeder Fall gültig ist und ob das Urteil vollständig ist. Agenten prüfen ihre Arbeit damit selbst.
+
+**Lernrunde und Prüfrunde:** In einer Lernrunde werden die Lücken geschlossen. Als Messwert zählt nur eine Prüfrunde mit neuen Protokollen, an denen vorher nichts nachgebessert wurde.
+
+**Vergleichbarkeit:** Bis R003 kannte der Sprecher die Gefährdungsliste der Bibliothek, die Quoten waren deshalb zu hoch. Seit R004 ist er blind. R004 ist der neue Ausgangswert.
+
+## Schleife Belegen
+
+| Schritt | Befehl oder Agent |
+| --- | --- |
+| Lauf zusammenstellen | `node beleg/vorbereiten.js`: die meistgenutzten, noch nicht doppelt belegten Regeln und Pflichten, in Paketen mit Aufträgen. |
+| Prüfer (A) | bekommt die bisher behauptete Fundstelle als Hinweis. |
+| Gegenprüfer (B) | bekommt keine Fundstelle, kennt den Bericht von A nicht, sucht Gründe dagegen. |
+| Selbstkontrolle | `node beleg/pruefe-bericht.js <Bericht>`: Jedes Zitat muss wörtlich im Text stehen. |
+| Zusammenführen | `node beleg/zusammenfuehren.js <Lauf>`, ansehen, dann mit `--uebernehmen`. |
+
+Eine Aussage gilt als belegt, wenn A und B unabhängig ein Zitat liefern, das wörtlich im abgelegten Regelwerkstext steht. Eine Regel wird nur dann `geprueft`, wenn alle ihre Maßnahmen so belegt sind. Findet ein Prüfer einen Widerspruch zum Text, ist die Regel strittig und geht zurück an die Werkbank. Früher nur einfach geprüfte Regeln, die die Gegenprüfung nicht bestehen, fallen auf `offen` zurück.
+
+Maßnahmen ohne Fundstelle werden gestrichen, umformuliert oder von Andre als Erfahrungswissen gekennzeichnet (`grundlage: erfahrung`). Sie erscheinen dann offen als Empfehlung der Fachkraft, nicht als Vorschrift.
+
+Die Regelwerkstexte liegen außerhalb des Repositorys (Umgebungsvariable `REGELWERK_TEXT`, sonst der Nachbarordner `regelwerk-text`). Sie entstehen aus den PDF-Dateien im Regelwerk-Ordner auf Andres Rechner.
+
+## Schleife Freigeben
+
+`node freigabe/paket.js` schreibt `freigabe/F<Nr>.md`: je Regel die Bedingung in Worten, die Gefährdung, jede Maßnahme mit beiden Zitaten. Andre antwortet im Gespräch. Erst dann trägt `node freigabe/setzen.js F<Nr> --von Andre` die Freigabe ein. Niemand sonst setzt eine Freigabe.
 
 ## Bekannte Schwächen und Gegenmittel
 
 | Schwäche | Gegenmittel |
 | --- | --- |
-| Die Wahrheit stammt selbst von einer KI und kann falsch oder unvollständig sein. | Sie dient nur zum Finden von Lücken. Gültig wird eine Regel durch das Regelwerk. Andre sieht je Runde eine Stichprobe der Wahrheiten durch. |
-| Sprecher und Bibliothek haben dieselben blinden Flecken. | Andres eigene Protokolle bleiben der Maßstab. Etwa jedes fünfte Protokoll kommt von ihm. |
-| Der Sprecher sah bis Runde R003 die Gefährdungsliste der Bibliothek und wählte bevorzugt daraus. Je größer die Liste, desto leichter der Treffer. | Ab Runde R004 sieht der Sprecher nur noch die elf Faktoren und beschreibt Gefährdungen frei. Den Vergleich macht der Schiedsrichter. Die Quoten bis R003 sind deshalb eher zu hoch. |
-| Protokolle beschreiben auch Mängel (fehlendes Schloss, lockerer Stecker). Das ist Ist-Zustand, keine Gefährdung aus der Tätigkeit. | Das System muss die Gefährdung finden; der Mangel gehört in die Bewertung „Maßnahme fehlt“. Der Übersetzer soll Mängel künftig getrennt notieren. |
-| Überanpassung an erzeugte Protokolle. | Prüfrunden ohne Nachbesserung; Regressionstests; echte Protokolle als Gegenprobe. |
+| Die Wahrheit stammt von einer KI und kann falsch sein. | Sie dient nur zum Finden von Lücken. Der Schiedsrichter darf sie als unbegründet verwerfen. Gültig wird eine Regel durch Regelwerk und Freigabe. |
+| Sprecher und Bibliothek haben dieselben blinden Flecken. | Blinder Sprecher; Andres eigene Protokolle bleiben der Maßstab. |
+| Zwei Prüfer derselben Bauart können denselben Fehler machen. | Der zweite sucht ohne Fundstelle und mit Gegenauftrag; das Programm prüft jedes Zitat wörtlich; am Ende entscheidet Andre. |
+| Überanpassung an erzeugte Protokolle. | Prüfrunden ohne Nachbesserung, eingefrorene Testfälle, echte Protokolle als Gegenprobe. |
+| Agenten tun mehr als verlangt. | Aufträge nennen erlaubte Werkzeuge und Dateien; die Programme prüfen das Ergebnis, nicht der Agent. |
 
-## Steuerung
+## Kosten
 
-- **Abdeckungsplan:** Die Leitung wählt Aufträge so, dass Branchen, Vorgänge, Stoffarten und alle elf Gefährdungsfaktoren abgedeckt werden. Schwerpunkt jeder Runde sind die schwächsten Faktoren der letzten.
-- **Rundengröße:** sechs bis zehn Arbeitsplätze.
-- **Ablage:** `lernen/runden/<Nummer>/` mit `protokolle/`, `wahrheit/`, `faelle/`, `bericht.md`, `ergebnis.json`.
-- **Lernbuch:** je Runde Trefferquote, Art der Runde, wichtigste Lücken, Änderungen.
-- **Kosten:** Jeder Agentenlauf hat einen festen Grundverbrauch. Deshalb erzeugt ein Sprecher künftig mehrere Arbeitsplätze in einem Lauf und ein Übersetzer bearbeitet mehrere Protokolle.
-- **Stopp-Regel:** Sinkt die Trefferquote einer Prüfrunde gegenüber der letzten, wird nicht weiter gefüttert, sondern erst die Ursache gesucht.
-
-## Stand
-
-Runden R001 bis R003 sind ausgewertet, siehe die Berichte unter `lernen/runden/` und das Lernbuch.
+Eine Prüfrunde braucht fünf Agentenläufe (zwei kleine Sprecher, zwei Übersetzer, ein Schiedsrichter), ein Beleg-Lauf mit zwei Paketen vier. Rechnen, Prüfen, Auswählen und Zusammenführen macht das Programm ohne KI.

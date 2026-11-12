@@ -1,0 +1,14 @@
+{"id":"R004-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Absturz vom Steildach; Maßnahmen Absturzsicherung und Gerüst vor Leiter passen zum nicht eingehängten Sicherungsseil."},
+  {"nr":2,"urteil":"getroffen","system":"Last fällt, rutscht oder trifft Personen","grund":"Herabfallende Module über Personen am Gerüst; Maßnahme 'Bereich darunter absperren' passt."},
+  {"nr":3,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Gleichstromleitungen unter Spannung; Maßnahmen Elektrofachkräfte und Freischalten, Spannungsfreiheit feststellen passen zur Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"24-kg-Module tragen; Hebehilfe und Tätigkeitswechsel passen."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Nasse, heiße Dachfläche, Wind und Hitze: keine Gefährdung zu Witterung oder Hitze; die Maßnahmen von Stolpern/Rutschen (Boden sauber, Wege frei) passen nicht sicher zur Ursache."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"unbegruendet","grund":"Das Protokoll nennt keinen Lärm."},
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Protokoll: 'die Dachhaken setzt man mit einer Bohrmaschine in die Sparren', Bohrmaschine über Kopf."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Akkuschrauber wird genannt, aber keine gleichförmige Dauerbewegung in hoher Zahl beschrieben."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: 'Die Kabel laufen über die Ziegel', 'Verpackungsreste liegen ... in der Dachrinne', Ziegel rutschen."}
+ ]}
