@@ -1,12 +1,11 @@
 # Leitstand
 
-Stand nach R004 und Beleg-Lauf B001. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R004 und Beleg-Lauf B002. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Regelwerk nachladen (6 Dokumente fehlen):** ohne sie bleiben die zugehörigen Regeln ungeprüft. Liste in `beleg/laeufe/B001/fehlende-quellen.md`.
-2. **Lücken aus R004 schließen:** Bericht `lernen/runden/R004/bericht.md`. Reihenfolge: Wörterbuch, Stammdaten, Regeln (als Entwurf mit offenem Beleg). Danach `node lernen/runde.js geschlossen R004`.
-3. **Beleg-Lauf starten** (Stopp-Regel: erst 10 % der Regeln sind doppelt belegt, Ziel mindestens 25 % vor der nächsten Lernrunde): `node beleg/vorbereiten.js`.
+1. **Beleg-Lauf B002 fertig prüfen:** 0 von 6 Berichten liegen vor. Aufträge unter `beleg/laeufe/B002/auftraege/`.
+2. **Neue Prüfrunde:** `node lernen/runde.js neu pruef`.
 
 ## Wartet auf Andre
 
@@ -21,12 +20,12 @@ Stand nach R004 und Beleg-Lauf B001. Diese Datei schreibt `node lernen/leitstand
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 94 |
+| Regeln | 108 |
 | Organisationspflichten | 20 |
-| Gefährdungen | 36 |
-| Stammdaten | 138 |
-| Wörterbuch | 73 |
-| Regeln doppelt belegt | 9 von 94 (10 %) |
+| Gefährdungen | 46 |
+| Stammdaten | 162 |
+| Wörterbuch | 93 |
+| Regeln doppelt belegt | 9 von 108 (8 %) |
 | Regeln nur einfach geprüft | 8 |
 | Pflichten doppelt belegt | 6 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
@@ -39,10 +38,11 @@ Stand nach R004 und Beleg-Lauf B001. Diese Datei schreibt `node lernen/leitstand
 | R001 | Lernrunde | 6 | Kennung | 24 % | 11 von 45 |  |  | ja |
 | R002 | Prüfrunde | 8 | Kennung | 43 % | 24 von 56 |  |  | ja |
 | R003 | Prüfrunde | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 | 17 | ja |
-| R004 | Prüfrunde | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | nein |
+| R004 | Prüfrunde | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | ja |
 
 ## Beleg-Läufe
 
 | Lauf | Einträge | geprüft | teilweise oder offen | strittig | verworfene Zitate | Stand |
 | --- | --- | --- | --- | --- | --- | --- |
 | B001 | 24 | 15 | 7 | 2 | 0 | übernommen |
+| B002 |  |  |  |  |  | läuft |

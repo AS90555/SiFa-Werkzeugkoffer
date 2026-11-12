@@ -113,24 +113,24 @@
  },
  {
   "id": "dguv-r108-007",
-  "titel": "DGUV Regel 108-007 Lagereinrichtungen und -geräte",
+  "titel": "DGUV Information 208-061 Lagereinrichtungen und Ladungsträger (Nachfolger der DGUV Regel 108-007)",
   "stufe": "empfehlung",
-  "stand": "nicht abgelegt",
-  "datei": null
+  "stand": "November 2023, aktualisierte Fassung Juli 2024",
+  "datei": "DGUV/DGUV-Information-208-061_Lagereinrichtungen-und-Ladungstraeger.pdf"
  },
  {
   "id": "dguv-r100-500",
   "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
   "stufe": "empfehlung",
-  "stand": "nicht abgelegt",
-  "datei": null
+  "stand": "April 2008, aktualisierte Fassung November 2024",
+  "datei": "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.pdf"
  },
  {
   "id": "dguv-g308-001",
-  "titel": "DGUV Grundsatz 308-001 Ausbildung und Beauftragung der Fahrer von Flurförderzeugen",
+  "titel": "DGUV Grundsatz 308-001 Qualifizierung und Beauftragung der Fahrerinnen und Fahrer von Flurförderzeugen",
   "stufe": "empfehlung",
-  "stand": "nicht abgelegt",
-  "datei": null
+  "stand": "siehe Datei",
+  "datei": "DGUV/DGUV-Grundsatz-308-001_Qualifizierung-Fahrer-Flurfoerderzeuge.pdf"
  },
  {
   "id": "bauau-lmm",
@@ -264,22 +264,22 @@
   "id": "dguv-v3",
   "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
   "stufe": "pflicht",
-  "stand": "nicht abgelegt",
-  "datei": null
+  "stand": "siehe Datei",
+  "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.pdf"
  },
  {
   "id": "dguv-v52",
   "titel": "DGUV Vorschrift 52 Krane",
   "stufe": "pflicht",
-  "stand": "nicht abgelegt",
-  "datei": null
+  "stand": "vom 1. Dezember 1974, siehe Datei",
+  "datei": "DGUV/DGUV-Vorschrift-52_Krane.pdf"
  },
  {
   "id": "ostrv",
   "titel": "Arbeitsschutzverordnung zu künstlicher optischer Strahlung",
   "stufe": "pflicht",
-  "stand": "nicht abgelegt",
-  "datei": null
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/OStrV.pdf"
  },
  {
   "id": "trgs-900",
@@ -315,5 +315,54 @@
   "stufe": "vermutungswirkung",
   "stand": "siehe Datei",
   "datei": "TRGS/TRGS-500.pdf"
+ },
+ {
+  "id": "biostoffv",
+  "titel": "Biostoffverordnung",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/BioStoffV.pdf"
+ },
+ {
+  "id": "arbstaettv",
+  "titel": "Arbeitsstättenverordnung",
+  "stufe": "pflicht",
+  "stand": "Abruf 12.11.2026",
+  "datei": "Gesetze-Verordnungen/ArbStaettV.pdf"
+ },
+ {
+  "id": "asr-a3-4",
+  "titel": "ASR A3.4 Beleuchtung und Sichtverbindung",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A3-4.pdf"
+ },
+ {
+  "id": "asr-a3-6",
+  "titel": "ASR A3.6 Lüftung",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A3-6.pdf"
+ },
+ {
+  "id": "asr-a3-7",
+  "titel": "ASR A3.7 Lärm",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A3-7.pdf"
+ },
+ {
+  "id": "asr-a1-2",
+  "titel": "ASR A1.2 Raumabmessungen und Bewegungsflächen",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A1-2.pdf"
+ },
+ {
+  "id": "asr-a2-2",
+  "titel": "ASR A2.2 Maßnahmen gegen Brände",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "ASR/ASR-A2-2.pdf"
  }
 ]

@@ -3306,5 +3306,437 @@
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R93",
+  "name": "Biologische Arbeitsstoffe",
+  "wenn": "m.biostoff",
+  "entsteht": "Kontakt mit Krankheitserregern",
+  "gefaehrdung": "g-infektion",
+  "massnahmen": [
+   {
+    "id": "R93-M1",
+    "art": "T",
+    "text": "Waschgelegenheit bereitstellen"
+   },
+   {
+    "id": "R93-M2",
+    "art": "O",
+    "text": "Am Arbeitsplatz nicht essen und trinken"
+   },
+   {
+    "id": "R93-M3",
+    "art": "P",
+    "text": "Schutzkleidung und persönliche Schutzausrüstung bereitstellen"
+   },
+   {
+    "id": "R93-M4",
+    "art": "O",
+    "text": "Arbeitsmedizinische Vorsorge prüfen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "biostoffv",
+    "stelle": null
+   },
+   {
+    "id": "arbmedvv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R94",
+  "name": "Personen bewegen",
+  "wenn": "m.person",
+  "entsteht": "Heben und Umlagern von Personen",
+  "gefaehrdung": "g-heben-tragen",
+  "massnahmen": [
+   {
+    "id": "R94-M1",
+    "art": "T",
+    "text": "Hilfsmittel zum Bewegen von Personen einsetzen"
+   },
+   {
+    "id": "R94-M2",
+    "art": "O",
+    "text": "Belastung mit der Leitmerkmalmethode bewerten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": null
+   },
+   {
+    "id": "bauau-lmm",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R95",
+  "name": "Feuchtarbeit",
+  "wenn": "v.feuchtarbeit",
+  "entsteht": "Nasse Hände, häufiges Waschen und Desinfizieren",
+  "gefaehrdung": "g-feuchtarbeit",
+  "massnahmen": [
+   {
+    "id": "R95-M1",
+    "art": "O",
+    "text": "Feuchtarbeit begrenzen und auf mehrere Beschäftigte verteilen"
+   },
+   {
+    "id": "R95-M2",
+    "art": "P",
+    "text": "Hautschutzplan mit Schutz, Reinigung und Pflege"
+   },
+   {
+    "id": "R95-M3",
+    "art": "O",
+    "text": "Vorsorge anbieten bei regelmäßig mehr als zwei Stunden Feuchtarbeit je Tag, Pflicht ab vier Stunden"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-401",
+    "stelle": null
+   },
+   {
+    "id": "arbmedvv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R96",
+  "name": "Gase, Rauche und Dämpfe aus dem Verfahren",
+  "wenn": "m.freigesetzt",
+  "entsteht": "Gefahrstoff entsteht bei der Tätigkeit",
+  "gefaehrdung": "g-freigesetzt",
+  "massnahmen": [
+   {
+    "id": "R96-M1",
+    "art": "T",
+    "text": "An der Entstehungsstelle erfassen oder wirksam lüften"
+   },
+   {
+    "id": "R96-M2",
+    "art": "O",
+    "text": "Höhe der Exposition ermitteln"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R97",
+  "name": "Flüssiges Metall und Schlacke",
+  "wenn": "m.schmelze",
+  "entsteht": "Schmelze spritzt, läuft aus oder wird durch Feuchtigkeit ausgeworfen",
+  "gefaehrdung": "g-schmelze",
+  "massnahmen": [
+   {
+    "id": "R97-M1",
+    "art": "O",
+    "text": "Werkzeuge, Pfannen und Einsatzmaterial nur trocken mit der Schmelze in Berührung bringen"
+   },
+   {
+    "id": "R97-M2",
+    "art": "P",
+    "text": "Hitzeschutzkleidung und Gesichtsschutz"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": null,
+    "hinweis": "Branchenregel Gießerei fehlt im Regelwerk"
+   },
+   {
+    "id": "psa-bv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R98",
+  "name": "Arbeiten am Hochvolt-System",
+  "wenn": "m.hochvolt",
+  "entsteht": "Hohe Gleichspannung, auch bei abgestelltem Fahrzeug",
+  "gefaehrdung": "g-elektrisch",
+  "massnahmen": [
+   {
+    "id": "R98-M1",
+    "art": "O",
+    "text": "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht"
+   },
+   {
+    "id": "R98-M2",
+    "art": "T",
+    "text": "Vor Beginn spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v3",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R99",
+  "name": "Unzureichende Beleuchtung",
+  "wenn": "u.beleuchtung",
+  "entsteht": "Gefahrstellen und Arbeitsaufgabe schlecht zu sehen",
+  "gefaehrdung": "g-beleuchtung",
+  "massnahmen": [
+   {
+    "id": "R99-M1",
+    "art": "T",
+    "text": "Beleuchtung an Sehaufgabe und Verkehrswege anpassen"
+   },
+   {
+    "id": "R99-M2",
+    "art": "O",
+    "text": "Ausgefallene Leuchten umgehend instand setzen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a3-4",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R100",
+  "name": "Blendung und Spiegelungen",
+  "wenn": "u.blendung",
+  "entsteht": "Störende Blendung am Arbeitsplatz oder Bildschirm",
+  "gefaehrdung": "g-blendung",
+  "massnahmen": [
+   {
+    "id": "R100-M1",
+    "art": "T",
+    "text": "Blendung und Spiegelungen vermeiden"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a3-4",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R101",
+  "name": "Fehlende Lüftung",
+  "wenn": "u.lueftung",
+  "entsteht": "Verbrauchte, stickige Luft",
+  "gefaehrdung": "g-raumluft",
+  "massnahmen": [
+   {
+    "id": "R101-M1",
+    "art": "T",
+    "text": "Ausreichend gesundheitlich zuträgliche Atemluft sicherstellen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a3-6",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R102",
+  "name": "Arbeit im Freien bei Witterung",
+  "wenn": "u.witterung",
+  "entsteht": "Nässe, Wind, Sonne, Glätte",
+  "gefaehrdung": "g-witterung",
+  "massnahmen": [
+   {
+    "id": "R102-M1",
+    "art": "O",
+    "text": "Arbeitsplätze im Freien so einrichten und betreiben, dass Beschäftigte gegen Witterungseinflüsse geschützt sind"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R103",
+  "name": "Beengte Bewegungsfläche",
+  "wenn": "u.eng",
+  "entsteht": "Anstoßen und Stolpern an verstellten Flächen",
+  "gefaehrdung": "g-sturz",
+  "massnahmen": [
+   {
+    "id": "R103-M1",
+    "art": "O",
+    "text": "Bewegungsflächen und Verkehrswege freihalten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a1-2",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R104",
+  "name": "Störender Lärm",
+  "wenn": "u.laerm_stoerend",
+  "entsteht": "Geräusche stören Konzentration und Verständigung",
+  "gefaehrdung": "g-stoerlaerm",
+  "massnahmen": [
+   {
+    "id": "R104-M1",
+    "art": "T",
+    "text": "Schalldruckpegel so niedrig halten, wie es nach der Art des Betriebes möglich ist"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a3-7",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R105",
+  "name": "Bildschirmarbeit",
+  "wenn": "v.bildschirm",
+  "entsteht": "Langes Sitzen, einseitige Haltung, Sehanforderung",
+  "gefaehrdung": "g-bildschirm",
+  "massnahmen": [
+   {
+    "id": "R105-M1",
+    "art": "T",
+    "text": "Arbeitsplatz ergonomisch einrichten: Tisch, Stuhl und Bildschirm"
+   },
+   {
+    "id": "R105-M2",
+    "art": "O",
+    "text": "Bildschirmarbeit durch andere Tätigkeiten oder Erholungszeiten unterbrechen"
+   },
+   {
+    "id": "R105-M3",
+    "art": "O",
+    "text": "Vorsorge für Tätigkeiten an Bildschirmgeräten anbieten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "arbmedvv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R106",
+  "name": "Bodenöffnung, Schacht, Grube",
+  "wenn": "u.oeffnung",
+  "entsteht": "Offene oder ungesicherte Öffnung im Boden",
+  "gefaehrdung": "g-absturz",
+  "massnahmen": [
+   {
+    "id": "R106-M1",
+    "art": "T",
+    "text": "Öffnungen abdecken oder umwehren"
+   },
+   {
+    "id": "R106-M2",
+    "art": "T",
+    "text": "Abdeckungen gegen Verschieben sichern"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a2-1",
+    "stelle": null
+   },
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

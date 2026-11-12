@@ -1,0 +1,472 @@
+{
+ "lauf": "B002",
+ "paket": "P1",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R78",
+   "fingerabdruck": "9671067f8b82ea9b",
+   "name": "Gleichförmige Handarbeit",
+   "gilt_wenn": "(Von Hand, Körperkraft oder Handgeführte Maschine) UND „Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht“: ja",
+   "entsteht": "Immer gleiche Bewegung in hoher Zahl",
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R78-M1",
+     "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"
+    },
+    {
+     "id": "R78-M2",
+     "text": "Wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R16",
+   "fingerabdruck": "78d8c0e0b9637685",
+   "name": "Sonderbetrieb an der Anlage",
+   "gilt_wenn": "Rüsten, Reinigen, Instandhalten, Störung beheben UND (Maschine oder Anlage als Arbeitsgegenstand)",
+   "entsteht": "Schutz aufgehoben, gespeicherte Energie",
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R16-M1",
+     "text": "Abschalten und gegen Wiedereinschalten sichern"
+    },
+    {
+     "id": "R16-M2",
+     "text": "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte"
+    },
+    {
+     "id": "R16-M3",
+     "text": "Sichere Arbeitsverfahren für Rüsten, Störungsbeseitigung und Instandhaltung festlegen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 10 Instandhaltung, § 11 besondere Betriebszustände"
+    },
+    {
+     "id": "trbs-1112",
+     "titel": "TRBS 1112 Instandhaltung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-1112.txt"
+     ],
+     "behauptete_stelle": "Abschnitte 4 und 5"
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-607",
+     "titel": "DGUV Regel 109-607 Branche Metallbau",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R26",
+   "fingerabdruck": "277a754e9ae43dba",
+   "name": "Sperrige Teile von Hand",
+   "gilt_wenn": "Von Hand, Körperkraft UND Sperriges Teil",
+   "entsteht": "Last, Zwangshaltung",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R26-M1",
+     "text": "Einsatz höhenverstellbarer Montagetische prüfen"
+    },
+    {
+     "id": "R26-M2",
+     "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ],
+     "behauptete_stelle": "§ 2"
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R100",
+   "fingerabdruck": "86a9ebde6cac895b",
+   "name": "Blendung und Spiegelungen",
+   "gilt_wenn": "Blendung oder Spiegelungen",
+   "entsteht": "Störende Blendung am Arbeitsplatz oder Bildschirm",
+   "gefaehrdung": "Augenbeschwerden durch Blendung und Spiegelungen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R100-M1",
+     "text": "Blendung und Spiegelungen vermeiden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "asr-a3-4",
+     "titel": "ASR A3.4 Beleuchtung und Sichtverbindung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-4.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R103",
+   "fingerabdruck": "d764ff7b5a3cc4b3",
+   "name": "Beengte Bewegungsfläche",
+   "gilt_wenn": "Beengte oder verstellte Bewegungsfläche",
+   "entsteht": "Anstoßen und Stolpern an verstellten Flächen",
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R103-M1",
+     "text": "Bewegungsflächen und Verkehrswege freihalten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "asr-a1-2",
+     "titel": "ASR A1.2 Raumabmessungen und Bewegungsflächen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-2.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R106",
+   "fingerabdruck": "f9c1a33b44cbdd93",
+   "name": "Bodenöffnung, Schacht, Grube",
+   "gilt_wenn": "Bodenöffnung, Schacht oder Grube",
+   "entsteht": "Offene oder ungesicherte Öffnung im Boden",
+   "gefaehrdung": "Absturz aus der Höhe",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R106-M1",
+     "text": "Öffnungen abdecken oder umwehren"
+    },
+    {
+     "id": "R106-M2",
+     "text": "Abdeckungen gegen Verschieben sichern"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a2-1",
+     "titel": "ASR A2.1 Schutz vor Absturz und herabfallenden Gegenständen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A2-1.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R95",
+   "fingerabdruck": "2420037f83e8ce48",
+   "name": "Feuchtarbeit",
+   "gilt_wenn": "Feuchtarbeit: nasse Hände, häufiges Waschen oder Desinfizieren",
+   "entsteht": "Nasse Hände, häufiges Waschen und Desinfizieren",
+   "gefaehrdung": "Hauterkrankung durch Feuchtarbeit",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R95-M1",
+     "text": "Feuchtarbeit begrenzen und auf mehrere Beschäftigte verteilen"
+    },
+    {
+     "id": "R95-M2",
+     "text": "Hautschutzplan mit Schutz, Reinigung und Pflege"
+    },
+    {
+     "id": "R95-M3",
+     "text": "Vorsorge anbieten bei regelmäßig mehr als zwei Stunden Feuchtarbeit je Tag, Pflicht ab vier Stunden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-401",
+     "titel": "TRGS 401 Gefährdung durch Hautkontakt",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-401.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R98",
+   "fingerabdruck": "f29168a08292cb4b",
+   "name": "Arbeiten am Hochvolt-System",
+   "gilt_wenn": "Hochvolt-Batterie oder Hochvolt-System",
+   "entsteht": "Hohe Gleichspannung, auch bei abgestelltem Fahrzeug",
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R98-M1",
+     "text": "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht"
+    },
+    {
+     "id": "R98-M2",
+     "text": "Vor Beginn spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v3",
+     "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R71",
+   "fingerabdruck": "d8f5c1bf1d45998e",
+   "name": "Kälte und Zugluft",
+   "gilt_wenn": "Kälte, Zugluft, offenes Tor",
+   "entsteht": "Niedrige Temperatur, Zugluft",
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R71-M1",
+     "text": "Heizung, Torschleier oder schnell schließende Tore"
+    },
+    {
+     "id": "R71-M2",
+     "text": "Wärmende Arbeitskleidung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a3-5",
+     "titel": "ASR A3.5 Raumtemperatur",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-5.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R04",
+   "fingerabdruck": "c7df89f473eb270e",
+   "name": "Fahrzeug im Außengelände oder am Gefälle",
+   "gilt_wenn": "(Flurförderzeug mit Fahrersitz oder Fahrerstand oder Handhubwagen ohne Antrieb oder Mitgänger-Flurförderzeug) UND (Außengelände oder Gefälle, Rampe)",
+   "entsteht": "Nässe, Eis, Unebenheit, Mischverkehr",
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R04-M1",
+     "text": "Befestigte Wege und Beleuchtung"
+    },
+    {
+     "id": "R04-M2",
+     "text": "Winterdienst und Verkehrsregelung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P07",
+   "fingerabdruck": "89ca96a1df640b21",
+   "name": "Jugendliche: Beurteilung und Unterweisung",
+   "gilt_wenn": "„Arbeiten im Betrieb Jugendliche unter 18 Jahren, zum Beispiel Auszubildende“: ja",
+   "aussagen": [
+    {
+     "id": "P07",
+     "text": "Arbeitsbedingungen für Jugendliche vor Beginn beurteilen; Unterweisung vor Beginn und mindestens halbjährlich"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "jarbschg",
+     "titel": "Jugendarbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/JArbSchG.txt"
+     ],
+     "behauptete_stelle": "§ 28a, § 29"
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P10",
+   "fingerabdruck": "73ce212884bd2c97",
+   "name": "Gefahrstoffverzeichnis",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt",
+   "aussagen": [
+    {
+     "id": "P10",
+     "text": "Verzeichnis der verwendeten Gefahrstoffe führen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 6 Abs. 12"
+    }
+   ]
+  }
+ ]
+}

@@ -327,6 +327,87 @@
     "m.gefahrstoff",
     "m.aetzend"
    ]
+  },
+  {
+   "id": "abwasser",
+   "name": "Abwasser, Klärschlamm, Rechengut",
+   "merkmale": [
+    "m.biostoff"
+   ]
+  },
+  {
+   "id": "pflegeperson",
+   "name": "Person in Pflege oder Behandlung",
+   "merkmale": [
+    "m.biostoff",
+    "m.person"
+   ]
+  },
+  {
+   "id": "rohfleisch",
+   "name": "Rohes Fleisch, Knochen, Schlachtkörper",
+   "merkmale": [
+    "m.biostoff"
+   ]
+  },
+  {
+   "id": "abfall_schmutzwaesche",
+   "name": "Abfall, Schmutzwäsche, verunreinigtes Material",
+   "merkmale": [
+    "m.biostoff"
+   ]
+  },
+  {
+   "id": "faulgas",
+   "name": "Faulgas, Kanalgas, Schwefelwasserstoff",
+   "merkmale": [
+    "m.freigesetzt"
+   ]
+  },
+  {
+   "id": "prozessrauch",
+   "name": "Rauch und Dämpfe aus Schmelze, Schlacke oder erhitztem Material",
+   "merkmale": [
+    "m.freigesetzt"
+   ]
+  },
+  {
+   "id": "metallschmelze",
+   "name": "Flüssiges Metall, Schlacke",
+   "merkmale": [
+    "m.heiss",
+    "m.schmelze"
+   ]
+  },
+  {
+   "id": "hochvoltbatterie",
+   "name": "Hochvolt-Batterie, Hochvolt-System",
+   "merkmale": [
+    "m.hochvolt"
+   ]
+  },
+  {
+   "id": "desinfektionsmittel",
+   "name": "Hände- oder Flächendesinfektionsmittel",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.reiniger"
+   ]
+  },
+  {
+   "id": "pv_modul",
+   "name": "Photovoltaik-Modul",
+   "merkmale": [
+    "m.glas",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "schweres_geraet",
+   "name": "Schweres Gerät oder Bauteil (Lautsprecherbox, Batterie, Motor)",
+   "merkmale": [
+    "m.sperrig"
+   ]
   }
  ],
  "vorgang": [
@@ -723,6 +804,34 @@
    "merkmale": [
     "v.stoff_auftragen"
    ]
+  },
+  {
+   "id": "pflegen",
+   "name": "Pflegen, Umlagern und Bewegen von Personen",
+   "merkmale": [
+    "v.hand_wiederholt"
+   ]
+  },
+  {
+   "id": "waschen_desinfizieren",
+   "name": "Waschen, Händedesinfektion, Arbeiten mit nassen Händen",
+   "merkmale": [
+    "v.feuchtarbeit"
+   ]
+  },
+  {
+   "id": "bildschirmarbeit",
+   "name": "Bildschirm- und Telefonarbeit im Sitzen",
+   "merkmale": [
+    "v.bildschirm"
+   ]
+  },
+  {
+   "id": "giessen",
+   "name": "Schmelzen, Gießen, Schlacke abschöpfen",
+   "merkmale": [
+    "v.heiss"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -918,6 +1027,20 @@
    "merkmale": [
     "a.hubarbeitsbuehne"
    ]
+  },
+  {
+   "id": "messer",
+   "name": "Messer, Handklinge",
+   "merkmale": [
+    "a.handwerkzeug_klinge"
+   ]
+  },
+  {
+   "id": "hochdruckreiniger",
+   "name": "Hochdruckreiniger",
+   "merkmale": [
+    "a.handmaschine"
+   ]
   }
  ],
  "umgebung": [
@@ -1022,6 +1145,55 @@
    "name": "Gefälle, Rampe",
    "merkmale": [
     "u.gefaelle"
+   ]
+  },
+  {
+   "id": "dunkel",
+   "name": "Schwache oder ausgefallene Beleuchtung",
+   "merkmale": [
+    "u.beleuchtung"
+   ]
+  },
+  {
+   "id": "blendung",
+   "name": "Blendung, Spiegelungen",
+   "merkmale": [
+    "u.blendung"
+   ]
+  },
+  {
+   "id": "stickig",
+   "name": "Stickige Luft, Raum lässt sich nicht lüften",
+   "merkmale": [
+    "u.lueftung"
+   ]
+  },
+  {
+   "id": "witterung",
+   "name": "Im Freien bei Regen, Wind oder Sonne",
+   "merkmale": [
+    "u.witterung"
+   ]
+  },
+  {
+   "id": "eng",
+   "name": "Enge, verstellte Bewegungsfläche",
+   "merkmale": [
+    "u.eng"
+   ]
+  },
+  {
+   "id": "stoerlaerm",
+   "name": "Störende Geräusche: Stimmengewirr, Klingeln, Großraum",
+   "merkmale": [
+    "u.laerm_stoerend"
+   ]
+  },
+  {
+   "id": "bodenoeffnung",
+   "name": "Bodenöffnung, Schacht, Grube",
+   "merkmale": [
+    "u.oeffnung"
    ]
   }
  ]

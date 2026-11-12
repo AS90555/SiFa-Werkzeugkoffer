@@ -1,0 +1,438 @@
+{
+ "lauf": "B002",
+ "paket": "P2",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R12",
+   "fingerabdruck": "63161f320a47f296",
+   "name": "Last von Hand, wiederholt",
+   "gilt_wenn": "Last von Hand, wiederholt",
+   "entsteht": "Körperliche Belastung",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R12-M1",
+     "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    },
+    {
+     "id": "R12-M2",
+     "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+    },
+    {
+     "id": "R12-M3",
+     "text": "Tätigkeitswechsel"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ]
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ]
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R11",
+   "fingerabdruck": "4ecda6a02384008b",
+   "name": "Lärm bei lauten Vorgängen",
+   "gilt_wenn": "Lärmintensiver Vorgang",
+   "entsteht": "Lärm",
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R11-M1",
+     "text": "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten"
+    },
+    {
+     "id": "R11-M2",
+     "text": "Ab 85 dB(A): Lärmbereich kennzeichnen, Tragepflicht, Pflichtvorsorge"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ]
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R82",
+   "fingerabdruck": "e6ddc2655a133588",
+   "name": "Sperrige Teile absetzen",
+   "gilt_wenn": "Von Hand, Körperkraft UND Sperriges Teil",
+   "entsteht": "Schweres Teil wird von Hand abgesetzt",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R82-M1",
+     "text": "Sicherheitsschuhe"
+    },
+    {
+     "id": "R82-M2",
+     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R101",
+   "fingerabdruck": "e68e86e68c2d05fa",
+   "name": "Fehlende Lüftung",
+   "gilt_wenn": "Stickige Luft, keine wirksame Lüftung",
+   "entsteht": "Verbrauchte, stickige Luft",
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R101-M1",
+     "text": "Ausreichend gesundheitlich zuträgliche Atemluft sicherstellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    },
+    {
+     "id": "asr-a3-6",
+     "titel": "ASR A3.6 Lüftung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-6.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R104",
+   "fingerabdruck": "1f58d2633180793c",
+   "name": "Störender Lärm",
+   "gilt_wenn": "Störgeräusche unterhalb der Gehörgefährdung (Stimmen, Klingeln)",
+   "entsteht": "Geräusche stören Konzentration und Verständigung",
+   "gefaehrdung": "Störender Lärm beeinträchtigt Konzentration und Verständigung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R104-M1",
+     "text": "Schalldruckpegel so niedrig halten, wie es nach der Art des Betriebes möglich ist"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    },
+    {
+     "id": "asr-a3-7",
+     "titel": "ASR A3.7 Lärm",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-7.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R93",
+   "fingerabdruck": "d933cf8dc2f222d8",
+   "name": "Biologische Arbeitsstoffe",
+   "gilt_wenn": "Kann Krankheitserreger enthalten (Abwasser, Körperflüssigkeiten, rohes Fleisch, Abfall)",
+   "entsteht": "Kontakt mit Krankheitserregern",
+   "gefaehrdung": "Infektion durch Krankheitserreger bei Kontakt mit Menschen, Tieren, Abwasser oder Abfall",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R93-M1",
+     "text": "Waschgelegenheit bereitstellen"
+    },
+    {
+     "id": "R93-M2",
+     "text": "Am Arbeitsplatz nicht essen und trinken"
+    },
+    {
+     "id": "R93-M3",
+     "text": "Schutzkleidung und persönliche Schutzausrüstung bereitstellen"
+    },
+    {
+     "id": "R93-M4",
+     "text": "Arbeitsmedizinische Vorsorge prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "biostoffv",
+     "titel": "Biostoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BioStoffV.txt"
+     ]
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R96",
+   "fingerabdruck": "f459862ae8756925",
+   "name": "Gase, Rauche und Dämpfe aus dem Verfahren",
+   "gilt_wenn": "Bei der Tätigkeit entstehender Gefahrstoff: Gas, Rauch, Dampf",
+   "entsteht": "Gefahrstoff entsteht bei der Tätigkeit",
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R96-M1",
+     "text": "An der Entstehungsstelle erfassen oder wirksam lüften"
+    },
+    {
+     "id": "R96-M2",
+     "text": "Höhe der Exposition ermitteln"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R99",
+   "fingerabdruck": "f3d3b08a88b78191",
+   "name": "Unzureichende Beleuchtung",
+   "gilt_wenn": "Schwache oder ausgefallene Beleuchtung",
+   "entsteht": "Gefahrstellen und Arbeitsaufgabe schlecht zu sehen",
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R99-M1",
+     "text": "Beleuchtung an Sehaufgabe und Verkehrswege anpassen"
+    },
+    {
+     "id": "R99-M2",
+     "text": "Ausgefallene Leuchten umgehend instand setzen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    },
+    {
+     "id": "asr-a3-4",
+     "titel": "ASR A3.4 Beleuchtung und Sichtverbindung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-4.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R21",
+   "fingerabdruck": "f320167ce597fd00",
+   "name": "Trennendes Werkzeug mit Handvorschub oder Handbedienung",
+   "gilt_wenn": "Trennender Vorgang UND Schnell drehendes Werkzeug UND Stationäre Maschine, Werkstück von Hand geführt",
+   "entsteht": "Hand nah am laufenden Werkzeug",
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R21-M1",
+     "text": "Schutzeinrichtung am Werkzeug richtig eingestellt, Vorschubhilfe oder Spannmittel"
+    },
+    {
+     "id": "R21-M2",
+     "text": "Nur für die Bedienart geeignete Werkzeuge; nicht in das laufende Werkzeug greifen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R14",
+   "fingerabdruck": "a3f4b4f04f1b171b",
+   "name": "Stehend lagern im Wagen",
+   "gilt_wenn": "Lagern stehend im Wagen",
+   "entsteht": "Hoher Schwerpunkt",
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R14-M1",
+     "text": "Standsichere Wagen mit Feststellbremse"
+    },
+    {
+     "id": "R14-M2",
+     "text": "Beladeregel"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P08",
+   "fingerabdruck": "e39412289135b215",
+   "name": "Jugendliche: gefährliche Arbeiten",
+   "gilt_wenn": "„Arbeiten im Betrieb Jugendliche unter 18 Jahren, zum Beispiel Auszubildende“: ja",
+   "aussagen": [
+    {
+     "id": "P08",
+     "text": "Beschäftigungsverbote und -beschränkungen für gefährliche Arbeiten beachten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "jarbschg",
+     "titel": "Jugendarbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/JArbSchG.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P11",
+   "fingerabdruck": "e883c8135df232c5",
+   "name": "Betriebsanweisung und Unterweisung Gefahrstoffe",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt",
+   "aussagen": [
+    {
+     "id": "P11",
+     "text": "Schriftliche Betriebsanweisungen bereitstellen und anhand dieser unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

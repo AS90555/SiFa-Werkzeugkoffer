@@ -1,0 +1,466 @@
+{
+ "lauf": "B002",
+ "paket": "P3",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R50",
+   "fingerabdruck": "0e0d65c9f493f489",
+   "name": "Fruchtschädigender Stoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND („Weist das Sicherheitsdatenblatt H360 oder H361 aus“: ja)",
+   "entsteht": "Fruchtschädigender Stoff",
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R50-M1",
+     "text": "Ersatzstoff prüfen"
+    },
+    {
+     "id": "R50-M2",
+     "text": "Gefährdung ausschließen; wo das nicht geht, auf ein Minimum verringern"
+    },
+    {
+     "id": "R50-M3",
+     "text": "Schwangere dürfen dem Stoff nicht ausgesetzt sein"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "muschg",
+     "titel": "Mutterschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/MuSchG.txt"
+     ],
+     "behauptete_stelle": "§ 11 Abs. 1 Nr. 1"
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 10"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R88",
+   "fingerabdruck": "ae9b18a36494182b",
+   "name": "Entzündbarer Gefahrstoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND „Ist der Stoff laut Sicherheitsdatenblatt entzündbar“: ja",
+   "entsteht": "Entzündbare Flüssigkeit, Dämpfe",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R88-M1",
+     "text": "Am Arbeitsplatz höchstens den Tages- oder Schichtbedarf bereithalten; größere Mengen nach den Lagerregeln lagern"
+    },
+    {
+     "id": "R88-M2",
+     "text": "Lüftung; beim Umfüllen erden"
+    },
+    {
+     "id": "R88-M3",
+     "text": "Zündquellen fernhalten, Explosionsschutz prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trgs-510",
+     "titel": "TRGS 510 Lagerung von Gefahrstoffen in ortsbeweglichen Behältern",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-510.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trgs-500",
+     "titel": "TRGS 500 Schutzmaßnahmen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-500.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R42",
+   "fingerabdruck": "d87744d79989e961",
+   "name": "Scharfkantige Teile von Hand",
+   "gilt_wenn": "Scharfe Kanten, Grate, Späne UND Von Hand, Körperkraft",
+   "entsteht": "Scharfe Kanten, Grate, Späne",
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R42-M1",
+     "text": "Schnittfeste Handschuhe"
+    },
+    {
+     "id": "R42-M2",
+     "text": "Kanten entgraten oder abrunden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": "§ 2"
+    },
+    {
+     "id": "trbs-2111",
+     "titel": "TRBS 2111 Mechanische Gefährdungen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2111.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-607",
+     "titel": "DGUV Regel 109-607 Branche Metallbau",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R102",
+   "fingerabdruck": "628a8856a873b495",
+   "name": "Arbeit im Freien bei Witterung",
+   "gilt_wenn": "Arbeit im Freien bei Nässe, Wind oder Sonne",
+   "entsteht": "Nässe, Wind, Sonne, Glätte",
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R102-M1",
+     "text": "Arbeitsplätze im Freien so einrichten und betreiben, dass Beschäftigte gegen Witterungseinflüsse geschützt sind"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R105",
+   "fingerabdruck": "04d6cb244a6d0c10",
+   "name": "Bildschirmarbeit",
+   "gilt_wenn": "Arbeit am Bildschirm im Sitzen",
+   "entsteht": "Langes Sitzen, einseitige Haltung, Sehanforderung",
+   "gefaehrdung": "Beschwerden durch Bildschirmarbeit und langes Sitzen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R105-M1",
+     "text": "Arbeitsplatz ergonomisch einrichten: Tisch, Stuhl und Bildschirm"
+    },
+    {
+     "id": "R105-M2",
+     "text": "Bildschirmarbeit durch andere Tätigkeiten oder Erholungszeiten unterbrechen"
+    },
+    {
+     "id": "R105-M3",
+     "text": "Vorsorge für Tätigkeiten an Bildschirmgeräten anbieten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R94",
+   "fingerabdruck": "2b2dae146d55947e",
+   "name": "Personen bewegen",
+   "gilt_wenn": "Person, die bewegt oder gepflegt wird",
+   "entsteht": "Heben und Umlagern von Personen",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R94-M1",
+     "text": "Hilfsmittel zum Bewegen von Personen einsetzen"
+    },
+    {
+     "id": "R94-M2",
+     "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R97",
+   "fingerabdruck": "b75236fc92729e94",
+   "name": "Flüssiges Metall und Schlacke",
+   "gilt_wenn": "Flüssiges Metall oder Schlacke",
+   "entsteht": "Schmelze spritzt, läuft aus oder wird durch Feuchtigkeit ausgeworfen",
+   "gefaehrdung": "Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R97-M1",
+     "text": "Werkzeuge, Pfannen und Einsatzmaterial nur trocken mit der Schmelze in Berührung bringen"
+    },
+    {
+     "id": "R97-M2",
+     "text": "Hitzeschutzkleidung und Gesichtsschutz"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R76",
+   "fingerabdruck": "2cc1304319010df9",
+   "name": "Verschmutzter oder unebener Boden",
+   "gilt_wenn": "Verschmutzter oder unebener Boden",
+   "entsteht": "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R76-M1",
+     "text": "Boden sauber und Wege frei halten, Reinigungsplan"
+    },
+    {
+     "id": "R76-M2",
+     "text": "Stolperstellen beseitigen oder kennzeichnen"
+    },
+    {
+     "id": "R76-M3",
+     "text": "Rutschhemmende Sicherheitsschuhe"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-5",
+     "titel": "ASR A1.5 Fußböden",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-5.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R77",
+   "fingerabdruck": "0fdcee6f036ce459",
+   "name": "Zeitdruck",
+   "gilt_wenn": "Zeitdruck, Hektik",
+   "entsteht": "Arbeiten in Hektik",
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R77-M1",
+     "text": "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist"
+    },
+    {
+     "id": "R77-M2",
+     "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": "§ 5 Abs. 3 Nr. 6"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R72",
+   "fingerabdruck": "d88a8026794ff663",
+   "name": "Lärm aus der Umgebung",
+   "gilt_wenn": "Lärm aus der Umgebung",
+   "entsteht": "Lärm von Nachbarplätzen und Aggregaten",
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R72-M1",
+     "text": "Lärmquelle kapseln oder abschirmen"
+    },
+    {
+     "id": "R72-M2",
+     "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P09",
+   "fingerabdruck": "8f0b70bf996732bb",
+   "name": "Mutterschutz: Beurteilung",
+   "gilt_wenn": "„Sind Frauen beschäftigt oder können Frauen an den Arbeitsplätzen eingesetzt werden“: ja",
+   "aussagen": [
+    {
+     "id": "P09",
+     "text": "Für jede Tätigkeit beurteilen, ob Gefährdungen für Schwangere und Stillende bestehen, unabhängig davon, ob gerade jemand schwanger ist"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "muschg",
+     "titel": "Mutterschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/MuSchG.txt"
+     ],
+     "behauptete_stelle": "§ 10, § 14"
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P12",
+   "fingerabdruck": "11a507893eafa56b",
+   "name": "Prüfung von Arbeitsmitteln",
+   "gilt_wenn": "Vakuumheber oder Flurförderzeug mit Fahrersitz oder Fahrerstand oder Mitgänger-Flurförderzeug oder Hängeförderer mit Traversen oder Hub-Senk-Station oder Automat mit Lichtschranke, Zugang zwischen den Takten oder Vollautomatische Anlage, kein Zugriff im Normalbetrieb oder Absauganlage mit Filter und Silo",
+   "aussagen": [
+    {
+     "id": "P12",
+     "text": "Art, Umfang und Fristen der Prüfungen festlegen und prüfen lassen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 3 Abs. 6, § 14"
+    }
+   ]
+  }
+ ]
+}

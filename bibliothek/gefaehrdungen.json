@@ -178,5 +178,55 @@
   "id": "g-absturz",
   "faktor": 1,
   "name": "Absturz aus der Höhe"
+ },
+ {
+  "id": "g-infektion",
+  "faktor": 4,
+  "name": "Infektion durch Krankheitserreger bei Kontakt mit Menschen, Tieren, Abwasser oder Abfall"
+ },
+ {
+  "id": "g-beleuchtung",
+  "faktor": 8,
+  "name": "Unfall oder Fehlgriff durch unzureichende Beleuchtung"
+ },
+ {
+  "id": "g-blendung",
+  "faktor": 8,
+  "name": "Augenbeschwerden durch Blendung und Spiegelungen"
+ },
+ {
+  "id": "g-raumluft",
+  "faktor": 8,
+  "name": "Belastung durch verbrauchte oder stickige Luft"
+ },
+ {
+  "id": "g-witterung",
+  "faktor": 8,
+  "name": "Belastung und Unfallgefahr durch Witterung im Freien"
+ },
+ {
+  "id": "g-stoerlaerm",
+  "faktor": 7,
+  "name": "Störender Lärm beeinträchtigt Konzentration und Verständigung"
+ },
+ {
+  "id": "g-bildschirm",
+  "faktor": 9,
+  "name": "Beschwerden durch Bildschirmarbeit und langes Sitzen"
+ },
+ {
+  "id": "g-feuchtarbeit",
+  "faktor": 3,
+  "name": "Hauterkrankung durch Feuchtarbeit"
+ },
+ {
+  "id": "g-freigesetzt",
+  "faktor": 3,
+  "name": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren"
+ },
+ {
+  "id": "g-schmelze",
+  "faktor": 6,
+  "name": "Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit"
  }
 ]

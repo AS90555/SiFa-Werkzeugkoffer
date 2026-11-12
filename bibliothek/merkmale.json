@@ -97,5 +97,19 @@
  "m.aetzend": "Ätzender Stoff, Säure oder Lauge",
  "v.hoehe": "Arbeiten in der Höhe",
  "a.leiter": "Leiter oder Tritt",
- "a.hubarbeitsbuehne": "Hubarbeitsbühne, Arbeitsbühne"
+ "a.hubarbeitsbuehne": "Hubarbeitsbühne, Arbeitsbühne",
+ "m.biostoff": "Kann Krankheitserreger enthalten (Abwasser, Körperflüssigkeiten, rohes Fleisch, Abfall)",
+ "m.person": "Person, die bewegt oder gepflegt wird",
+ "m.freigesetzt": "Bei der Tätigkeit entstehender Gefahrstoff: Gas, Rauch, Dampf",
+ "m.schmelze": "Flüssiges Metall oder Schlacke",
+ "m.hochvolt": "Hochvolt-Batterie oder Hochvolt-System",
+ "v.feuchtarbeit": "Feuchtarbeit: nasse Hände, häufiges Waschen oder Desinfizieren",
+ "v.bildschirm": "Arbeit am Bildschirm im Sitzen",
+ "u.beleuchtung": "Schwache oder ausgefallene Beleuchtung",
+ "u.blendung": "Blendung oder Spiegelungen",
+ "u.lueftung": "Stickige Luft, keine wirksame Lüftung",
+ "u.witterung": "Arbeit im Freien bei Nässe, Wind oder Sonne",
+ "u.eng": "Beengte oder verstellte Bewegungsfläche",
+ "u.laerm_stoerend": "Störgeräusche unterhalb der Gehörgefährdung (Stimmen, Klingeln)",
+ "u.oeffnung": "Bodenöffnung, Schacht oder Grube"
 }

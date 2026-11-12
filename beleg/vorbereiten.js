@@ -2,12 +2,13 @@
 'use strict';
 // Stellt einen Beleg-Lauf zusammen: wählt die meistgenutzten, noch nicht doppelt geprüften Regeln und Pflichten,
 // teilt sie in Pakete und schreibt die Aufträge für Prüfer (A) und Gegenprüfer (B).
-// Aufruf: node beleg/vorbereiten.js [--regeln 18] [--pflichten 6] [--pakete 2]
+// Aufruf: node beleg/vorbereiten.js [--regeln 18] [--pflichten 6] [--pakete 2] [--zuerst R93,R94]
 const fs = require('fs'); const path = require('path');
 const { ladeBibliothek, fingerabdruck } = require('../kern/laden'); const { auswerten } = require('../kern/auswerten'); const { klartext } = require('../kern/klartext');
 const { ORT, WURZEL, textDateien } = require('./text');
 const arg = (n, d) => { const i = process.argv.indexOf('--' + n); return i > 0 ? Number(process.argv[i + 1]) : d; };
 const nRegeln = arg('regeln', 18), nPflichten = arg('pflichten', 6), nPakete = arg('pakete', 2);
+const zi = process.argv.indexOf('--zuerst'); const zuerst = zi > 0 ? process.argv[zi + 1].split(',') : []; const vor = x => (zuerst.includes(x.e.id) ? 1 : 0); // --zuerst R93,R94: diese Regeln auf jeden Fall aufnehmen
 const b = ladeBibliothek(path.join(WURZEL, 'bibliothek')); const lies = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const Q = new Map(b.quellen.map(q => [q.id, q])); const G = new Map(b.gefaehrdungen.map(g => [g.id, g]));
 
@@ -31,7 +32,7 @@ function eintrag(art, e) {
     aussagen, quellen: mitText.map(q => ({ id: q.id, titel: q.q.titel, stufe: q.q.stufe, textdateien: q.texte, behauptete_stelle: q.stelle || null })) };
 }
 const regeln = b.regeln.filter(r => !doppelt(r) && r.beleg !== 'ohne-beleg').map(r => ({ e: eintrag('regel', r), n: nutzung[r.id] || 0 })).filter(x => x.e)
-  .sort((x, y) => y.n - x.n || x.e.id.localeCompare(y.e.id)).slice(0, nRegeln).map(x => x.e);
+  .sort((x, y) => vor(y) - vor(x) || y.n - x.n || x.e.id.localeCompare(y.e.id)).slice(0, nRegeln).map(x => x.e);
 const pflichten = b.pflichten.filter(p => !doppelt(p)).map(p => eintrag('pflicht', p)).filter(Boolean).slice(0, nPflichten);
 const alle = [...regeln, ...pflichten];
 if (!alle.length) { console.log('Nichts zu prüfen: alle prüfbaren Einträge sind doppelt geprüft.'); process.exit(0); }
