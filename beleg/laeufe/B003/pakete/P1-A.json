@@ -1,0 +1,487 @@
+{
+ "lauf": "B003",
+ "paket": "P1",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R78",
+   "fingerabdruck": "3fc24f186cd7415e",
+   "name": "Gleichförmige Handarbeit",
+   "gilt_wenn": "(Von Hand, Körperkraft oder Handgeführte Maschine) UND „Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht“: ja",
+   "entsteht": "Immer gleiche Bewegung in hoher Zahl",
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R78-M1",
+     "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"
+    },
+    {
+     "id": "R78-M2",
+     "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R11",
+   "fingerabdruck": "897897e6899aca7e",
+   "name": "Lärm bei lauten Vorgängen",
+   "gilt_wenn": "Lärmintensiver Vorgang",
+   "entsteht": "Lärm",
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R11-M1",
+     "text": "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten"
+    },
+    {
+     "id": "R11-M2",
+     "text": "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge"
+    },
+    {
+     "id": "R11-M3",
+     "text": "Über 85 dB(A): Lärmbereich kennzeichnen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ],
+     "behauptete_stelle": "§§ 6, 7, 8"
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ],
+     "behauptete_stelle": "Anhang Teil 3"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R42",
+   "fingerabdruck": "270d05361caa4881",
+   "name": "Scharfkantige Teile von Hand",
+   "gilt_wenn": "Scharfe Kanten, Grate, Späne UND Von Hand, Körperkraft",
+   "entsteht": "Scharfe Kanten, Grate, Späne",
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R42-M1",
+     "text": "Schnittfeste Handschuhe"
+    },
+    {
+     "id": "R42-M2",
+     "text": "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": "§ 2"
+    },
+    {
+     "id": "trbs-2111",
+     "titel": "TRBS 2111 Mechanische Gefährdungen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2111.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-607",
+     "titel": "DGUV Regel 109-607 Branche Metallbau",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R77",
+   "fingerabdruck": "e9046af045499d90",
+   "name": "Zeitdruck",
+   "gilt_wenn": "Zeitdruck, Hektik",
+   "entsteht": "Arbeiten in Hektik",
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R77-M1",
+     "text": "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird"
+    },
+    {
+     "id": "R77-M2",
+     "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": "§ 5 Abs. 3 Nr. 6"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R72",
+   "fingerabdruck": "4a4c192c8ec3fb48",
+   "name": "Lärm aus der Umgebung",
+   "gilt_wenn": "Lärm aus der Umgebung",
+   "entsteht": "Lärm von Nachbarplätzen und Aggregaten",
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R72-M1",
+     "text": "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung"
+    },
+    {
+     "id": "R72-M2",
+     "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R105",
+   "fingerabdruck": "e9140e2f6f506038",
+   "name": "Bildschirmarbeit",
+   "gilt_wenn": "Arbeit am Bildschirm im Sitzen",
+   "entsteht": "Langes Sitzen, einseitige Haltung, Sehanforderung",
+   "gefaehrdung": "Beschwerden durch Bildschirmarbeit und langes Sitzen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R105-M1",
+     "text": "Bildschirmarbeitsplatz nach den Grundsätzen der Ergonomie einrichten"
+    },
+    {
+     "id": "R105-M2",
+     "text": "Bildschirmarbeit durch andere Tätigkeiten oder Erholungszeiten unterbrechen"
+    },
+    {
+     "id": "R105-M3",
+     "text": "Vorsorge für Tätigkeiten an Bildschirmgeräten anbieten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R99",
+   "fingerabdruck": "cbb57f40697678de",
+   "name": "Unzureichende Beleuchtung",
+   "gilt_wenn": "Schwache oder ausgefallene Beleuchtung",
+   "entsteht": "Gefahrstellen und Arbeitsaufgabe schlecht zu sehen",
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R99-M1",
+     "text": "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten"
+    },
+    {
+     "id": "R99-M2",
+     "text": "Ausgefallene Leuchten umgehend instand setzen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "asr-a3-4",
+     "titel": "ASR A3.4 Beleuchtung und Sichtverbindung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-4.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R27",
+   "fingerabdruck": "d43a00528ce0e1de",
+   "name": "Verschrauben mit Handmaschine",
+   "gilt_wenn": "Verschrauben UND Handgeführte Maschine",
+   "entsteht": "Gleichförmige Bewegung, Drehmoment",
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R27-M1",
+     "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse"
+    },
+    {
+     "id": "R27-M2",
+     "text": "Schrauber mit Abschaltkupplung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": "§ 5"
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": "Manuelle Arbeitsprozesse"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R65",
+   "fingerabdruck": "db7fc3e95e6577af",
+   "name": "Kran oder Hebezeug",
+   "gilt_wenn": "Kran, Kettenzug, Hebezeug",
+   "entsteht": "Schwebende Last",
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R65-M1",
+     "text": "Niemand unter der schwebenden Last"
+    },
+    {
+     "id": "R65-M2",
+     "text": "Anschlagmittel vor Gebrauch prüfen"
+    },
+    {
+     "id": "R65-M3",
+     "text": "Wiederkehrende Prüfung des Hebezeugs"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-v52",
+     "titel": "DGUV Vorschrift 52 Krane",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-52_Krane.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R02",
+   "fingerabdruck": "34b933ef5399c351",
+   "name": "Seitenstapler",
+   "gilt_wenn": "Seitenstapler",
+   "entsteht": "Besondere Fahrweise",
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R02-M1",
+     "text": "Zusatzqualifizierung für den Seitenstapler"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-g308-001",
+     "titel": "DGUV Grundsatz 308-001 Qualifizierung und Beauftragung der Fahrerinnen und Fahrer von Flurförderzeugen",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Grundsatz-308-001_Qualifizierung-Fahrer-Flurfoerderzeuge.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P13",
+   "fingerabdruck": "637b8407aa61c381",
+   "name": "Beauftragung der Staplerfahrer",
+   "gilt_wenn": "Flurförderzeug mit Fahrersitz oder Fahrerstand",
+   "aussagen": [
+    {
+     "id": "P13",
+     "text": "Fahrer von Flurförderzeugen schriftlich beauftragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v68",
+     "titel": "DGUV Vorschrift 68 Flurförderzeuge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt"
+     ],
+     "behauptete_stelle": "§ 7 Abs. 1"
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P16",
+   "fingerabdruck": "cbc6ee03827114f4",
+   "name": "Explosionsschutzdokument",
+   "gilt_wenn": "Absauganlage mit Filter und Silo",
+   "aussagen": [
+    {
+     "id": "P16",
+     "text": "Explosionsgefährdungen ermitteln und im Explosionsschutzdokument ausweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 6 Abs. 9"
+    }
+   ]
+  }
+ ]
+}

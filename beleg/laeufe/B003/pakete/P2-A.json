@@ -1,0 +1,454 @@
+{
+ "lauf": "B003",
+ "paket": "P2",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R50",
+   "fingerabdruck": "c6c7807403d5c5ca",
+   "name": "Fruchtschädigender Stoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND („Weist das Sicherheitsdatenblatt H360 oder H361 aus“: ja)",
+   "entsteht": "Fruchtschädigender Stoff",
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R50-M1",
+     "text": "Ersatzstoff prüfen"
+    },
+    {
+     "id": "R50-M2",
+     "text": "Gefährdung ausschließen; wo das nicht geht, auf ein Minimum verringern"
+    },
+    {
+     "id": "R50-M3",
+     "text": "Schwangere dürfen dem Stoff nicht in einem Maß ausgesetzt sein, das eine unverantwortbare Gefährdung darstellt"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "muschg",
+     "titel": "Mutterschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/MuSchG.txt"
+     ],
+     "behauptete_stelle": "§ 11 Abs. 1 Nr. 1"
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 10"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R88",
+   "fingerabdruck": "3cddb236368e6f1c",
+   "name": "Entzündbarer Gefahrstoff",
+   "gilt_wenn": "Gefahrstoff nach Sicherheitsdatenblatt UND „Ist der Stoff laut Sicherheitsdatenblatt entzündbar“: ja",
+   "entsteht": "Entzündbare Flüssigkeit, Dämpfe",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R88-M1",
+     "text": "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf"
+    },
+    {
+     "id": "R88-M2",
+     "text": "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden"
+    },
+    {
+     "id": "R88-M3",
+     "text": "Zündquellen fernhalten, Explosionsschutz prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trgs-510",
+     "titel": "TRGS 510 Lagerung von Gefahrstoffen in ortsbeweglichen Behältern",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-510.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trgs-500",
+     "titel": "TRGS 500 Schutzmaßnahmen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-500.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R71",
+   "fingerabdruck": "1a6d211178916c0d",
+   "name": "Kälte und Zugluft",
+   "gilt_wenn": "Kälte, Zugluft, offenes Tor",
+   "entsteht": "Niedrige Temperatur, Zugluft",
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R71-M1",
+     "text": "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten"
+    },
+    {
+     "id": "R71-M2",
+     "text": "Wärmende Arbeitskleidung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a3-5",
+     "titel": "ASR A3.5 Raumtemperatur",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-5.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R04",
+   "fingerabdruck": "c9c10d18c7aecb01",
+   "name": "Fahrzeug im Außengelände oder am Gefälle",
+   "gilt_wenn": "(Flurförderzeug mit Fahrersitz oder Fahrerstand oder Handhubwagen ohne Antrieb oder Mitgänger-Flurförderzeug) UND (Außengelände oder Gefälle, Rampe)",
+   "entsteht": "Nässe, Eis, Unebenheit, Mischverkehr",
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R04-M1",
+     "text": "Verkehrswege mit ebener und trittsicherer Oberfläche"
+    },
+    {
+     "id": "R04-M2",
+     "text": "Winterdienst und Verkehrsregelung"
+    },
+    {
+     "id": "R04-M3",
+     "text": "Verkehrswege im Freien für die Dauer der Benutzung beleuchten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R100",
+   "fingerabdruck": "1746f396512e80c6",
+   "name": "Blendung und Spiegelungen",
+   "gilt_wenn": "Blendung oder Spiegelungen",
+   "entsteht": "Störende Blendung am Arbeitsplatz oder Bildschirm",
+   "gefaehrdung": "Augenbeschwerden durch Blendung und Spiegelungen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R100-M1",
+     "text": "Störende Blendung und Reflexionen am Arbeitsplatz minimieren"
+    },
+    {
+     "id": "R100-M2",
+     "text": "Am Bildschirmarbeitsplatz störende Blendungen, Reflexionen und Spiegelungen vermeiden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "asr-a3-4",
+     "titel": "ASR A3.4 Beleuchtung und Sichtverbindung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-4.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R93",
+   "fingerabdruck": "be34b39de4dad0ac",
+   "name": "Biologische Arbeitsstoffe",
+   "gilt_wenn": "Kann Krankheitserreger enthalten (Abwasser, Körperflüssigkeiten, rohes Fleisch, Abfall)",
+   "entsteht": "Kontakt mit Krankheitserregern",
+   "gefaehrdung": "Infektion durch Krankheitserreger bei Kontakt mit Menschen, Tieren, Abwasser oder Abfall",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R93-M1",
+     "text": "Waschgelegenheit bereitstellen"
+    },
+    {
+     "id": "R93-M2",
+     "text": "Am Arbeitsplatz nicht essen und trinken"
+    },
+    {
+     "id": "R93-M3",
+     "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: persönliche Schutzausrüstung bereitstellen"
+    },
+    {
+     "id": "R93-M4",
+     "text": "Arbeitsmedizinische Vorsorge prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "biostoffv",
+     "titel": "Biostoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BioStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R82",
+   "fingerabdruck": "e6ddc2655a133588",
+   "name": "Sperrige Teile absetzen",
+   "gilt_wenn": "Von Hand, Körperkraft UND Sperriges Teil",
+   "entsteht": "Schweres Teil wird von Hand abgesetzt",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R82-M1",
+     "text": "Sicherheitsschuhe"
+    },
+    {
+     "id": "R82-M2",
+     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R29",
+   "fingerabdruck": "0c4cc17b8b27c935",
+   "name": "Hängeförderer",
+   "gilt_wenn": "Hängeförderer mit Traversen",
+   "entsteht": "Schwebende, fahrende Last",
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R29-M1",
+     "text": "Aufhängepunkte nach Gewicht festlegen"
+    },
+    {
+     "id": "R29-M2",
+     "text": "Bereich unter dem Förderer sichern"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 6"
+    },
+    {
+     "id": "asr-a2-1",
+     "titel": "ASR A2.1 Schutz vor Absturz und herabfallenden Gegenständen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A2-1.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R70",
+   "fingerabdruck": "dfb58b3992515174",
+   "name": "Arbeiten an elektrischen Anlagen",
+   "gilt_wenn": "Arbeiten an elektrischen Anlagen",
+   "entsteht": "Spannung führende Teile",
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R70-M1",
+     "text": "Nur Elektrofachkräfte"
+    },
+    {
+     "id": "R70-M2",
+     "text": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v3",
+     "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R05",
+   "fingerabdruck": "52f2f872544149c8",
+   "name": "Abladen mit betriebsfremden Personen",
+   "gilt_wenn": "Last wird bewegt, abgeladen, abgesetzt UND Betriebsfremde Personen anwesend",
+   "entsteht": "Fremder im Gefahrbereich",
+   "gefaehrdung": "Unfall durch fehlende Abstimmung mit Fremden",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R05-M1",
+     "text": "Fester Warteplatz für den Lkw-Fahrer, Einweisung, Abstimmung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": "§ 8"
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P14",
+   "fingerabdruck": "ae6c7365c2443fe9",
+   "name": "Unterweisung Lärm",
+   "gilt_wenn": "Lärmintensiver Vorgang",
+   "aussagen": [
+    {
+     "id": "P14",
+     "text": "Bei Erreichen der unteren Auslösewerte über Lärm unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P17",
+   "fingerabdruck": "49468491a65fd14d",
+   "name": "Abstimmung mit Fremdfirmen",
+   "gilt_wenn": "„Arbeiten Fremdfirmen oder Leiharbeitnehmer im Betrieb“: ja oder Fremdfirma arbeitet im Betrieb oder Betriebsfremde Personen anwesend",
+   "aussagen": [
+    {
+     "id": "P17",
+     "text": "Arbeiten abstimmen, Fremde einweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-v1",
+     "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}

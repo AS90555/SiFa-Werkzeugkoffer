@@ -1,0 +1,450 @@
+{
+ "lauf": "B003",
+ "paket": "P3",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R16",
+   "fingerabdruck": "48fdfebae118ca48",
+   "name": "Sonderbetrieb an der Anlage",
+   "gilt_wenn": "Rüsten, Reinigen, Instandhalten, Störung beheben UND (Maschine oder Anlage als Arbeitsgegenstand)",
+   "entsteht": "Schutz aufgehoben, gespeicherte Energie",
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R16-M1",
+     "text": "Abschalten und gegen Wiedereinschalten sichern"
+    },
+    {
+     "id": "R16-M2",
+     "text": "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte"
+    },
+    {
+     "id": "R16-M3",
+     "text": "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    },
+    {
+     "id": "trbs-1112",
+     "titel": "TRBS 1112 Instandhaltung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-1112.txt"
+     ]
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ]
+    },
+    {
+     "id": "dguv-r109-607",
+     "titel": "DGUV Regel 109-607 Branche Metallbau",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R76",
+   "fingerabdruck": "1ad3cadcaf6d84c6",
+   "name": "Verschmutzter oder unebener Boden",
+   "gilt_wenn": "Verschmutzter oder unebener Boden",
+   "entsteht": "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R76-M1",
+     "text": "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen"
+    },
+    {
+     "id": "R76-M2",
+     "text": "Stolperstellen beseitigen oder kennzeichnen"
+    },
+    {
+     "id": "R76-M3",
+     "text": "Rutschhemmende Sicherheitsschuhe"
+    },
+    {
+     "id": "R76-M4",
+     "text": "Verkehrswege freihalten"
+    },
+    {
+     "id": "R76-M5",
+     "text": "Rutschhemmenden Fußboden vorsehen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-5",
+     "titel": "ASR A1.5 Fußböden",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-5.txt"
+     ]
+    },
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R21",
+   "fingerabdruck": "16d28d92b5eb3fdb",
+   "name": "Trennendes Werkzeug mit Handvorschub oder Handbedienung",
+   "gilt_wenn": "Trennender Vorgang UND Schnell drehendes Werkzeug UND Stationäre Maschine, Werkstück von Hand geführt",
+   "entsteht": "Hand nah am laufenden Werkzeug",
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R21-M1",
+     "text": "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen"
+    },
+    {
+     "id": "R21-M2",
+     "text": "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden"
+    },
+    {
+     "id": "R21-M3",
+     "text": "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ]
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R14",
+   "fingerabdruck": "ce9c35a4d33da8f2",
+   "name": "Stehend lagern im Wagen",
+   "gilt_wenn": "Lagern stehend im Wagen",
+   "entsteht": "Hoher Schwerpunkt",
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R14-M1",
+     "text": "Wagen ausreichend standsicher"
+    },
+    {
+     "id": "R14-M2",
+     "text": "Beladeregel"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R102",
+   "fingerabdruck": "66368d655665e7a2",
+   "name": "Arbeit im Freien bei Witterung",
+   "gilt_wenn": "Arbeit im Freien bei Nässe, Wind oder Sonne",
+   "entsteht": "Nässe, Wind, Sonne, Glätte",
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R102-M1",
+     "text": "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R94",
+   "fingerabdruck": "7b50aee30b734edf",
+   "name": "Personen bewegen",
+   "gilt_wenn": "Person, die bewegt oder gepflegt wird",
+   "entsteht": "Heben und Umlagern von Personen",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R94-M1",
+     "text": "Manuelles Bewegen durch organisatorische Maßnahmen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, vermeiden"
+    },
+    {
+     "id": "R94-M2",
+     "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ]
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R08",
+   "fingerabdruck": "bce7834f3e078f1f",
+   "name": "Trennen oder Abtragen in vollautomatischer Anlage",
+   "gilt_wenn": "(Trennender Vorgang oder Abtragender Vorgang, erzeugt Staub oder Späne) UND Vollautomatische Anlage, kein Zugriff im Normalbetrieb",
+   "entsteht": "Werkzeuge hinter Schutzeinrichtung",
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R08-M1",
+     "text": "Schutzeinrichtungen wirksam, nichts überbrückt"
+    },
+    {
+     "id": "R08-M2",
+     "text": "Schutzeinrichtungen regelmäßig prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    },
+    {
+     "id": "trbs-2111",
+     "titel": "TRBS 2111 Mechanische Gefährdungen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2111.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R38",
+   "fingerabdruck": "46628d628d7e737f",
+   "name": "Flachglas",
+   "gilt_wenn": "Flachglas, Isolierglas UND (Von Hand, Körperkraft oder Vakuumheber oder Mitgänger-Flurförderzeug)",
+   "entsteht": "Scharfe Kanten, Bruch",
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R38-M1",
+     "text": "Schnittschutzhandschuhe und Unterarmschutz"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R83",
+   "fingerabdruck": "1c2a36a3cb0def99",
+   "name": "Staub beim Schleifen und Trennen von Metall",
+   "gilt_wenn": "(Abtragender Vorgang, erzeugt Staub oder Späne) UND Werkstoff Metall",
+   "entsteht": "Metall- und Schleifstaub",
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R83-M1",
+     "text": "Absaugung an der Entstehungsstelle"
+    },
+    {
+     "id": "R83-M2",
+     "text": "Staub aufsaugen, nicht abblasen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    },
+    {
+     "id": "trgs-900",
+     "titel": "TRGS 900 Arbeitsplatzgrenzwerte",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-900.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R07",
+   "fingerabdruck": "b7ec1b104601d373",
+   "name": "Vakuumheber",
+   "gilt_wenn": "Vakuumheber",
+   "entsteht": "Last hängt am Unterdruck",
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R07-M1",
+     "text": "Warneinrichtung bei Unterdruckabfall funktionsfähig"
+    },
+    {
+     "id": "R07-M2",
+     "text": "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich"
+    },
+    {
+     "id": "R07-M3",
+     "text": "Niemand unter der Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P15",
+   "fingerabdruck": "68dfb01e513f2765",
+   "name": "Arbeitsmedizinische Vorsorge",
+   "gilt_wenn": "Lärmintensiver Vorgang oder Abtragender Vorgang, erzeugt Staub oder Späne oder Gefahrstoff nach Sicherheitsdatenblatt",
+   "aussagen": [
+    {
+     "id": "P15",
+     "text": "Pflicht- und Angebotsvorsorge nach der Gefährdungsbeurteilung organisieren"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbmedvv",
+     "titel": "Verordnung zur arbeitsmedizinischen Vorsorge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbMedVV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P18",
+   "fingerabdruck": "0d061ac8ef9578a6",
+   "name": "Psychische Belastung beurteilen",
+   "gilt_wenn": "immer",
+   "aussagen": [
+    {
+     "id": "P18",
+     "text": "Psychische Belastungen bei der Arbeit in die Gefährdungsbeurteilung einbeziehen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

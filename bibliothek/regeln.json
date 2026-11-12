@@ -830,12 +830,17 @@
    {
     "id": "R21-M1",
     "art": "T",
-    "text": "Schutzeinrichtung am Werkzeug richtig eingestellt, Vorschubhilfe oder Spannmittel"
+    "text": "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen"
    },
    {
     "id": "R21-M2",
     "art": "T",
-    "text": "Nur für die Bedienart geeignete Werkzeuge; nicht in das laufende Werkzeug greifen"
+    "text": "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden"
+   },
+   {
+    "id": "R21-M3",
+    "art": "T",
+    "text": "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz"
    }
   ],
   "quellen": [
@@ -843,6 +848,10 @@
     "id": "dguv-r100-500",
     "stelle": null,
     "hinweis": "noch zuordnen"
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": null
    }
   ],
   "verbindlichkeit": "empfehlung",
