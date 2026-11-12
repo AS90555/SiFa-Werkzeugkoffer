@@ -1,0 +1,28 @@
+{"id":"R002-B5","name":"R002-B5","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Pulverbeschichtung Kabine zwei","bereich":"Oberfläche","personen":2,"umgebung":["laerm_umgebung"],"angaben":{},
+"schritte":[
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stahlprofil"]},
+{"vorgang":"haengend_foerdern","ausfuehrung":"haengefoerderer","material":["stahlprofil"]},
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stahlprofil"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+"wuensche":[
+{"text":"Das Gewicht liegt meist zwischen fünf und dreißig Kilogramm, die großen Gestelle sind schwerer; mehrere hundert Mal am Tag","fehlt":"Keine einzelne Zahl für Last je Griff und Griffe je Stunde genannt, daher keine Angabe eingetragen"},
+{"text":"Die Pulverpistole wird von Hand geführt, das Steuergerät steht auf einem Rollwagen","fehlt":"Vorgang Pulverbeschichten und Material Pulver fehlen; Schritt weggelassen"},
+{"text":"Das Pulver kommt in Säcken, die Person öffnet sie über dem Ansaugtrichter, dabei steigt feiner Staub auf","fehlt":"Material Pulver (Pulverlack) und Vorgang Sack entleeren fehlen; Schritt weggelassen"},
+{"text":"Die Absaugung läuft, die Filter sind hinten aber nur schwer zu erreichen","fehlt":"Absaugung für Pulver; Wörterbuch ordnet Holzstaub zu, passt nicht zu Pulver; Schritt weggelassen"},
+{"text":"Am Ende fährt das fertige Teil durch einen Einbrennofen mit etwa zweihundert Grad","fehlt":"Vorgang Einbrennen und Umgebung Hitze fehlen"},
+{"text":"Am Ofenausgang wird das Teil mit bloßen Händen oder mit Handschuhen abgenommen","fehlt":"Heißes Material (Hitze, Verbrennung) in den Stammdaten nicht vorhanden"},
+{"text":"Eingehängt wird am laufenden Förderer, die Kette läuft durch die Kabine und wird von einem Motor angetrieben","fehlt":"Rundbahn (Kettenförderer) nicht eindeutig als Hängeförderer mit Traversen in den Stammdaten; Einhängen am laufenden Förderer als Einzugsgefahr nicht abbildbar"},
+{"text":"Gerüstet und gereinigt wird am Schichtende mit Druckluft und Besen, aber nicht jeden Tag","fehlt":"Reinigen mit Druckluft (Staubaufwirbelung) nicht abbildbar"},
+{"text":"Im Hintergrund hört man die Absaugung deutlich, Gespräche sind nur auf kurze Distanz möglich","fehlt":"Lärmpegel nicht gemessen, laerm_db fehlt; Umgebung Lärm nur sinngemäß gewählt"},
+{"text":"Die Teile kommen als Stahlprofile aus der Schweißerei auf einem Wagen","fehlt":"Material ist als Stahlprofil angenommen, Gestelle und Bauart nicht genauer bekannt"}],
+"maengel":[
+{"text":"Die Filter sind hinten aber nur schwer zu erreichen"},
+{"text":"Auf dem Boden liegt an mehreren Stellen Pulver, die Platten sind dort leicht glatt"},
+{"text":"Handschuhe, die schon Löcher haben"},
+{"text":"Am Ofenausgang wird das Teil mit bloßen Händen abgenommen"}],
+"zuordnung":[
+{"schritt":1,"stelle":"Jedes Teil wird von Hand an einen Haken der Rundbahn gehängt","sicher":true},
+{"schritt":2,"stelle":"Eingehängt wird am laufenden Förderer, die Kette läuft durch die Kabine","sicher":false},
+{"schritt":3,"stelle":"Am Ofenausgang wird das Teil ... abgenommen","sicher":true},
+{"schritt":4,"stelle":"Gerüstet und gereinigt wird am Schichtende mit Druckluft und Besen","sicher":false}]}

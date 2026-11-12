@@ -1,0 +1,105 @@
+{
+ "id": "R002-B3",
+ "name": "R002-B3",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Hydraulische Abkantpresse",
+   "bereich": "Blechbearbeitung",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {
+    "last_kg": 15
+   },
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand"
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "das Blech wird von Hand von der Seite eingelegt, und die Presse wird ausgelöst",
+   "fehlt": "Vorgang Biegen, Abkanten fehlt; Schritt Biegen weggelassen"
+  },
+  {
+   "text": "Es sind rund dreihundert Biegungen pro Schicht",
+   "fehlt": "Angabe je Schicht, nicht je Stunde oder Tag; Schichtlänge unbekannt, nicht eingetragen"
+  },
+  {
+   "text": "Beim Biegen ist der Bereich zwischen Oberwerkzeug und Unterwerkzeug eng",
+   "fehlt": "Quetsch- und Scherstelle ist keine Angabe der Stammdaten"
+  },
+  {
+   "text": "Die Kanten der Bleche sind scharf, man greift sie oft ohne Handschuhe an",
+   "fehlt": "Persönliche Schutzausrüstung nicht abbildbar"
+  },
+  {
+   "text": "ein Anlernling steht daneben und schaut zu",
+   "fehlt": "Alter unbekannt (Jugendschutz), Person ohne Tätigkeit nicht als Personenzahl gerechnet"
+  },
+  {
+   "text": "Die Presse ist so laut, dass man sich nur mit Zeichen verständigt",
+   "fehlt": "Lärmpegel in dB(A) nicht genannt"
+  },
+  {
+   "text": "Gereinigt wird die Presse nicht, am Ende wird nur der trockene Betonboden gefegt",
+   "fehlt": "Vorgang Bodenreinigung ohne Maschine; ohne Material eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Das Lichtgitter ist an einer Seite mit Klebeband überbrückt, weil es bei jedem Biegen auslöst"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Kranführer hängt sie an einer Kette ein und fährt sie über die Presse",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Das Blech wird dann von Hand von der Seite eingelegt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gerüstet wird am Morgen von der Einrichterin, sie tauscht das Biegewerkzeug mit dem Kran",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "am Ende wird nur der trockene Betonboden gefegt",
+   "sicher": false
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "id": "R002-B1",
+ "name": "R002-B1",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Holzleim",
+   "material": "leim",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Bankraum Möbelmontage",
+   "bereich": "Montagebereich Tischlerei",
+   "personen": 2,
+   "umgebung": [
+    "kalt"
+   ],
+   "angaben": {
+    "last_kg": 40
+   },
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "leimen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "leim"
+     ],
+     "stoffe": [
+      "s1"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "die Rückwand wird von Hand mit Nägeln festgeschlagen",
+   "fehlt": "Vorgang Nageln von Hand fehlt (Eintreiben gibt es nur mit Druckluft-Klammergerät)"
+  },
+  {
+   "text": "Am Ende der Schicht wird gekehrt. Dafür nimmt man den Besen, dabei wirbelt der Staub hoch",
+   "fehlt": "Vorgang Kehren des Arbeitsplatzes (nicht Maschinenreinigung); als Sonderbetrieb mit Holzstaub nur behelfsmäßig abgebildet"
+  },
+  {
+   "text": "Eingerichtet wird der Platz vom Vorarbeiter am Morgen, er stellt die Höhe der Bank ein und legt die Zwingen bereit",
+   "fehlt": "Vorgang Arbeitsplatz einrichten ohne Maschine"
+  },
+  {
+   "text": "Beim Absetzen muss man die Finger zwischen der Seite und der Bankkante halten",
+   "fehlt": "Quetschstelle beim Absetzen ist keine Angabe der Stammdaten"
+  },
+  {
+   "text": "Der Leim verklebt schnell Hände und Unterarme",
+   "fehlt": "Hautkontakt mit Leim; kein Sicherheitsdatenblatt genannt"
+  },
+  {
+   "text": "Pro Woche entstehen so etwa dreißig Schränke",
+   "fehlt": "Griffe je Stunde oder je Tag nicht genannt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "neben der Bank liegen oft Späne und Leimreste (Boden)"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Einer nimmt eine Seite herunter, die etwa vierzig Kilo wiegt, und legt sie auf die Bank",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Dann werden Böden und Trennwände eingesetzt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Holzleim kommt aus Flaschen ... wird mit dem Pinsel aufgetragen",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Verschraubt wird mit dem Akkuschrauber",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Am Ende der Schicht wird gekehrt ... Späne kommen in eine Tonne",
+   "sicher": false
+  }
+ ]
+}

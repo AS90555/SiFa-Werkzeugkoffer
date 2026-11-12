@@ -1,0 +1,22 @@
+{"id":"R002-B6","name":"R002-B6","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Langgutlager","bereich":"Lager","personen":4,"umgebung":["lager","fahrverkehr"],"angaben":{},
+"schritte":[
+{"vorgang":"lagern_regal","ausfuehrung":"gabelstapler","material":["stahlprofil"]},
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stahlprofil"]},
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}]}],
+"wuensche":[
+{"text":"ein Bund wiegt manchmal über hundert Kilo","fehlt":"Keine genaue Zahl für Last je Griff, Griffe je Stunde unbekannt; Angabe nicht eingetragen"},
+{"text":"Platten liegen auf Holzpaletten, sie sind etwa zwei Meter lang und zwanzig Millimeter stark, die holt eine Person von Hand vom Boden","fehlt":"Werkstoff der Platten unklar (Metall oder Holzwerkstoff), daher kein Material; auch Heben vom Boden (Zwangshaltung) nicht abbildbar"},
+{"text":"Die Aufträge müssen bis zur Mittagszeit raus, und wer hinterherhinkt, lagert schneller ein, als es sicher wäre","fehlt":"Zeitdruck als Belastung nicht in den Stammdaten"},
+{"text":"Die Beleuchtung in den Gassen ist vorhanden, an zwei Stellen aber schwach","fehlt":"Umgebung Beleuchtung fehlt"},
+{"text":"Die Gassen sind schmal. Der Stapler fährt rückwärts ... die Kollegen laufen dazwischen, oft ohne Blickkontakt","fehlt":"Umgebung Fahrverkehr gewählt; schmale Gassen und fehlender Blickkontakt (Sicht) nicht abbildbar"},
+{"text":"Gereinigt wird am Schichtende, der Boden ist dann mit Spänen bedeckt","fehlt":"Vorgang Boden kehren im Lager fehlt (Sonderbetrieb gilt nur für Maschinen); Schritt weggelassen"},
+{"text":"Eingelagert wird mit dem Stapler oder von Hand","fehlt":"Antrieb des Staplers nicht genannt, daher Gabelstapler mit unbekanntem Antrieb"},
+{"text":"Rohre und Profile bis etwa drei Meter Länge in Kragarmregalen","fehlt":"Langgut mit Kragarmregal (Regalsicherheit) in Stammdaten nur als Regal allgemein"}],
+"maengel":[
+{"text":"An einem Ständer ist ein Blech verbogen, das stammt von einem früheren Anstoß"},
+{"text":"An einer Traverse zeigt sich eine Delle, die niemand gemeldet hat"}],
+"zuordnung":[
+{"schritt":1,"stelle":"Eingelagert wird mit dem Stapler ... Rohre und Profile","sicher":false},
+{"schritt":2,"stelle":"Eingelagert wird mit dem Stapler oder von Hand, ein Bund wiegt manchmal über hundert Kilo","sicher":true},
+{"schritt":3,"stelle":"die holt eine Person von Hand vom Boden","sicher":false}]}

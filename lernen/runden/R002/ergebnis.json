@@ -1,0 +1,138 @@
+{
+ "runde": "R002",
+ "regeln": 77,
+ "quote": 43,
+ "summe": {
+  "getroffen": 24,
+  "nachfrage": 2,
+  "uebersehen": 24,
+  "ohneEintrag": 6,
+  "zusaetzlich": 18,
+  "wuensche": 60,
+  "schritte": 31
+ },
+ "faelle": [
+  {
+   "id": "R002-B1",
+   "arbeitsplatz": "Tischlerei, Bankraum Montage von Möbeln",
+   "branche": "Holz",
+   "getroffen": 3,
+   "nachfrage": 0,
+   "uebersehen": 3,
+   "ohneEintrag": 0,
+   "zusaetzlich": 2
+  },
+  {
+   "id": "R002-B2",
+   "arbeitsplatz": "Möbelfertigung, Kantenanleimmaschine",
+   "branche": "Holz",
+   "getroffen": 2,
+   "nachfrage": 1,
+   "uebersehen": 3,
+   "ohneEintrag": 0,
+   "zusaetzlich": 4
+  },
+  {
+   "id": "R002-B3",
+   "arbeitsplatz": "Blechbearbeitung, hydraulische Abkantpresse",
+   "branche": "Metall",
+   "getroffen": 3,
+   "nachfrage": 0,
+   "uebersehen": 4,
+   "ohneEintrag": 0,
+   "zusaetzlich": 1
+  },
+  {
+   "id": "R002-B4",
+   "arbeitsplatz": "Schlosserei, Schleifplatz für Schweißteile",
+   "branche": "Metall",
+   "getroffen": 3,
+   "nachfrage": 0,
+   "uebersehen": 2,
+   "ohneEintrag": 2,
+   "zusaetzlich": 3
+  },
+  {
+   "id": "R002-B5",
+   "arbeitsplatz": "Pulverbeschichtung in Kabine zwei, Oberfläche",
+   "branche": "Metall, Metallbau",
+   "getroffen": 2,
+   "nachfrage": 0,
+   "uebersehen": 5,
+   "ohneEintrag": 1,
+   "zusaetzlich": 3
+  },
+  {
+   "id": "R002-B6",
+   "arbeitsplatz": "Langgutlager mit Kragarmregalen, Ein- und Auslagern per Gabelstapler und von Hand",
+   "branche": "Metall, mittlerer Betrieb",
+   "getroffen": 3,
+   "nachfrage": 0,
+   "uebersehen": 2,
+   "ohneEintrag": 2,
+   "zusaetzlich": 1
+  },
+  {
+   "id": "R002-B7",
+   "arbeitsplatz": "Sägen und Bohren von Stahl an Bandsäge und Säulenbohrmaschine",
+   "branche": "Metall, Maschinenbau",
+   "getroffen": 4,
+   "nachfrage": 1,
+   "uebersehen": 2,
+   "ohneEintrag": 0,
+   "zusaetzlich": 2
+  },
+  {
+   "id": "R002-B8",
+   "arbeitsplatz": "Wareneingang: Abladen vom Lkw, Transport auf Hof und in die Halle",
+   "branche": "Holz, Fensterbau",
+   "getroffen": 4,
+   "nachfrage": 0,
+   "uebersehen": 3,
+   "ohneEintrag": 1,
+   "zusaetzlich": 2
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 9,
+   "verfehlt": 14
+  },
+  "3": {
+   "getroffen": 2,
+   "verfehlt": 4
+  },
+  "4": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 0,
+   "verfehlt": 2
+  },
+  "6": {
+   "getroffen": 0,
+   "verfehlt": 3
+  },
+  "7": {
+   "getroffen": 4,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 6,
+   "verfehlt": 4
+  },
+  "10": {
+   "getroffen": 0,
+   "verfehlt": 2
+  },
+  "11": {
+   "getroffen": 1,
+   "verfehlt": 1
+  }
+ }
+}

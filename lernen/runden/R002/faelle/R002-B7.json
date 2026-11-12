@@ -1,0 +1,26 @@
+{"id":"R002-B7","name":"R002-B7","betrieb":{},"angaben":{},
+"stoffe":[{"id":"s1","name":"Kühlschmierstoff","material":"kuehlschmierstoff","sdb":null,"h":[]}],
+"stationen":[{"nr":1,"name":"Sägen und Bohren","bereich":"mechanische Fertigung","personen":2,"umgebung":["werkstatt"],"angaben":{},
+"schritte":[
+{"vorgang":"saegen_metall","ausfuehrung":"halbautomat","material":["stahlprofil"]},
+{"vorgang":"zerspanen_metall","ausfuehrung":"stationaer_handvorschub","material":["metallwerkstueck","metallspaene","kuehlschmierstoff"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","metallspaene"]}]}],
+"wuensche":[
+{"text":"man legt das Material in den Schraubstock und drückt einen Hebel. Die Säge läuft dann selbständig durch und schaltet nach dem Schnitt ab","fehlt":"Bauart Bandsäge mit Schraubstock und Hebel nicht genau in den Ausführungen; Halbautomat mit Einlegen von Hand gewählt"},
+{"text":"Platten aus Stahl bis zwanzig Millimeter","fehlt":"Passendes Material für Stahlplatte fehlt; Metallwerkstück gewählt"},
+{"text":"Die Späne sind lang und kringelig und hängen gern im Bohrer fest","fehlt":"Fließspäne, Wickelgefahr und Entfernen von Spänen von Hand nicht abbildbar"},
+{"text":"Die Brühe steht in einem offenen Becken","fehlt":"Angabe wassergemischt (kss_wassergemischt) nicht ausdrücklich genannt, nicht eingetragen"},
+{"text":"An den Schnittkanten bleibt ein scharfer Grat","fehlt":"Vorgang Entgraten fehlt; Grat nur über scharfkantig im Material"},
+{"text":"Der Lärm der Säge ist laut","fehlt":"Lärmpegel laerm_db nicht genannt, nicht eingetragen"},
+{"text":"Eine Person arbeitet allein an der Bohrmaschine, eine zweite steht daneben und misst","fehlt":"Messen/Prüfen als eigener Schritt nicht klar zuordenbar; Bandsäge und Bohrmaschine als eine Station mit zwei Personen erfasst"},
+{"text":"Gereinigt wird am Ende, Späne mit dem Besen","fehlt":"Reinigen des Arbeitsplatzes von Spänen: Zuordnung zu Sonderbetrieb nur sinngemäß"}],
+"maengel":[
+{"text":"Gerüstet wird an der Bandsäge mit dem Blatt von Hand, dabei ist die Maschine nicht abgeschaltet, nur der Hauptschalter steht auf Ein"},
+{"text":"Die Brühe steht in einem offenen Becken und wurde seit Wochen nicht gewechselt"},
+{"text":"Die Handschuhe sind aus Baumwolle und hängen lose an den Handgelenken"}],
+"zuordnung":[
+{"schritt":1,"stelle":"An der Bandsäge wird Vierkantstahl und Rohr ... geschnitten","sicher":true},
+{"schritt":2,"stelle":"An der Säulenbohrmaschine wird von Hand gebohrt ... Kühlschmierstoff kommt aus einer Düse","sicher":true},
+{"schritt":3,"stelle":"Gerüstet wird an der Bandsäge mit dem Blatt von Hand","sicher":true},
+{"schritt":4,"stelle":"Gereinigt wird am Ende, Späne mit dem Besen","sicher":false}]}

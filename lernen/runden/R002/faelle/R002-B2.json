@@ -1,0 +1,125 @@
+{
+ "id": "R002-B2",
+ "name": "R002-B2",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Schmelzkleber (Granulat)",
+   "material": "leim",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Kantenanleimmaschine",
+   "bereich": "Möbelfertigung",
+   "personen": 2,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {
+    "last_kg": 20,
+    "griffe_tag": 100
+   },
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "kleben",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "plattenware",
+      "leim"
+     ],
+     "stoffe": [
+      "s1"
+     ]
+    },
+    {
+     "vorgang": "fraesen",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Reinigungsmittel aus einem Kanister, auf dem vorne ein Warnsymbol klebt",
+   "fehlt": "Stoff unbekannt; kein passendes Gefahrstoff-Material (Reiniger für Maschinen), daher kein Stoff eingetragen"
+  },
+  {
+   "text": "der Kleber ist heiß, und die Leimwalze hat rund zweihundert Grad",
+   "fehlt": "Heiße Oberflächen und Schmelzkleber sind in den Stammdaten nicht abgebildet; Schmelzkleber nur behelfsmäßig als Leim"
+  },
+  {
+   "text": "Beim Anlegen greift man bis dicht an die Walzen heran",
+   "fehlt": "Eingriffstelle an Walzen ist keine Angabe der Stammdaten"
+  },
+  {
+   "text": "Die Maschine läuft laut, man muss lauter sprechen",
+   "fehlt": "Lärmpegel in dB(A) nicht genannt"
+  },
+  {
+   "text": "Vorne läuft das Kantenband von einer Rolle",
+   "fehlt": "Material Kantenband fehlt"
+  },
+  {
+   "text": "Das geschieht, während die Maschine noch warm ist",
+   "fehlt": "Reinigen im warmen Zustand; Stoffe und Zustand der Maschine nicht abbildbar"
+  }
+ ],
+ "maengel": [],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Einer legt die Platten ... auf, der andere nimmt sie am Ausgang ab. ... rund zwanzig Kilo",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Kantenband ... wird mit Schmelzkleber angedrückt ... greift man bis dicht an die Walzen heran",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "schneiden zwei Fräsaggregate die überstehende Kante ab",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gerüstet wird am Schichtbeginn vom Maschinenführer, er stellt Breite und Temperatur ein",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird die Leimwalze mit einem Lappen und einem Reinigungsmittel",
+   "sicher": true
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{"id":"R002-B8","name":"R002-B8","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Hof und Hallentor","bereich":"Wareneingang","personen":3,"umgebung":["aussen","betriebsfremde","kalt"],"angaben":{},
+"schritte":[
+{"vorgang":"heben","ausfuehrung":"hebezeug","material":["rahmen","isolierglas"]},
+{"vorgang":"bewegen","ausfuehrung":"mitgaenger_elektro","material":["rahmen","isolierglas"]}]}],
+"wuensche":[
+{"text":"pro Flügel bis zu fünfzig Kilo, Glasscheiben in Kisten bis zu sechzig Kilo","fehlt":"Höchstwerte, keine Last je Griff von Hand; Angabe nicht eingetragen"},
+{"text":"Mit dem Hubwagen werden die Paletten durch das Hallentor in die Halle gefahren","fehlt":"Antrieb des Hubwagens nicht genannt; Handhubwagen ohne Antrieb nicht ausgeschlossen, Mitgänger elektrisch nur angenommen"},
+{"text":"Der Lkw fährt rückwärts an die Rampe ... Ladekran des Lasters, Hydraulik mit Haken","fehlt":"Ladekran des Lieferfahrzeugs (fremdes Hebezeug) und Rückwärtsfahren des Lkw nicht abbildbar"},
+{"text":"Die Last wird am Haken angeschlagen, der Fahrer steuert vom Führerhaus aus, der Helfer steht unten","fehlt":"Anschlagen und Steuern ohne Sichtkontakt als eigener Vorgang fehlt; Aufenthalt unter schwebender Last nicht abbildbar"},
+{"text":"Der Hof hat ein leichtes Gefälle zum Tor hin, und an der Kante liegen Steine","fehlt":"Umgebung Gefälle und Untergrund fehlen"},
+{"text":"Abgeladen wird in Hektik, weil der Lkw nicht warten kann","fehlt":"Zeitdruck als Belastung nicht in den Stammdaten"},
+{"text":"Nach dem Abladen wird der Hof mit dem Besen gekehrt, wenn es Zeit gibt","fehlt":"Vorgang Kehren im Freien fehlt (Sonderbetrieb gilt nur für Maschinen); Schritt weggelassen"},
+{"text":"Fensterrahmen aus Holz und Kunststoff kommen auf einem Gestell","fehlt":"Gestell mit Rahmen und Glas in Kisten nur als Rahmen und Isolierglas eingetragen"}],
+"maengel":[
+{"text":"Die Warnweste liegt nur über den Schultern"},
+{"text":"An der Kante liegen Steine"}],
+"zuordnung":[
+{"schritt":1,"stelle":"abgeladen mit dem Ladekran des Lasters, das ist eine Hydraulik mit Haken","sicher":false},
+{"schritt":2,"stelle":"Mit dem Hubwagen werden die Paletten durch das Hallentor in die Halle gefahren","sicher":false}]}
