@@ -2,6 +2,10 @@
 
 Sprache: Deutsch, klar, ohne Fachjargon aus der Softwareentwicklung. Andre ist Fachkraft für Arbeitssicherheit, kein Programmierer.
 
+## Zuerst lesen
+
+`docs/01_Zielbild.md`, `docs/02_Lastenheft.md`, `docs/03_Pflichtenheft.md`, `docs/04_Roadmap.md`. Jede Arbeit gehört zu einem Meilenstein der Roadmap. Ändert sich ein Stand im Lastenheft oder Pflichtenheft, die Spalte „Stand“ dort nachführen.
+
 ## Grundsätze
 
 - Die Bibliothek (`bibliothek/`) ist reine Daten. Fachliche Inhalte nie in den Programmcode schreiben.

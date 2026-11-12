@@ -4,6 +4,13 @@ Arbeitswerkzeug für die Fachkraft für Arbeitssicherheit: Aus einem diktierten 
 
 Stand: 12.11.2026, Version 0.3. Alle Regeln und Pflichten stehen fachlich im Entwurf.
 
+## Grundlagen
+
+- [Zielbild](docs/01_Zielbild.md): wofür das Werkzeug da ist
+- [Lastenheft](docs/02_Lastenheft.md): was es können muss
+- [Pflichtenheft](docs/03_Pflichtenheft.md): wie es gebaut wird
+- [Roadmap](docs/04_Roadmap.md): Meilensteine und ihre Abnahme
+
 ## Der Arbeitskreis
 
 1. Rundgang diktieren, Text als Markdown in `protokolle/` ablegen. Das Protokoll wird nie verändert.
