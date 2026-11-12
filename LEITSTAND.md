@@ -1,15 +1,16 @@
 # Leitstand
 
-Stand nach R004 und Beleg-Lauf B002. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R004 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Beleg-Lauf starten** (Stopp-Regel: erst 17 % der Regeln sind doppelt belegt, Ziel mindestens 25 % vor der nächsten Lernrunde): `node beleg/vorbereiten.js`.
+1. **Neue Prüfrunde:** `node lernen/runde.js neu pruef`.
 
 ## Wartet auf Andre
 
 - **Freigabe-Paket F001:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F001.md`.
 - **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
+- **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
 - **Eigenes Protokoll:** Noch kein echtes Rundgangsprotokoll von dir. Erzeugte Protokolle finden Lücken, dein Protokoll ist der Maßstab.
 
 ## Hinweise
@@ -25,9 +26,9 @@ Stand nach R004 und Beleg-Lauf B002. Diese Datei schreibt `node lernen/leitstand
 | Gefährdungen | 46 |
 | Stammdaten | 162 |
 | Wörterbuch | 93 |
-| Regeln doppelt belegt | 18 von 108 (17 %) |
-| Regeln nur einfach geprüft | 7 |
-| Pflichten doppelt belegt | 12 von 20 |
+| Regeln doppelt belegt | 33 von 108 (31 %) |
+| Regeln nur einfach geprüft | 6 |
+| Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
 | Freie Aufträge im Abdeckungsplan | 57 von 87 |
 
@@ -46,3 +47,4 @@ Stand nach R004 und Beleg-Lauf B002. Diese Datei schreibt `node lernen/leitstand
 | --- | --- | --- | --- | --- | --- | --- |
 | B001 | 24 | 15 | 7 | 2 | 0 | übernommen |
 | B002 | 36 | 15 | 19 | 2 | 0 | übernommen |
+| B003 | 36 | 21 | 14 | 1 | 0 | übernommen |

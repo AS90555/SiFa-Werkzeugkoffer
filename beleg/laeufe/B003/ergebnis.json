@@ -1,0 +1,2510 @@
+{
+ "lauf": "B003",
+ "datum": "2026-11-12",
+ "uebernommen": true,
+ "zaehler": {
+  "geprueft": 21,
+  "teilweise": 12,
+  "offen": 2,
+  "strittig": 1,
+  "veraltet": 0,
+  "neue-quelle": 0,
+  "bericht-fehlt": 0
+ },
+ "aussagen": {
+  "alle": 76,
+  "doppelt": 59
+ },
+ "zitateVerworfen": 0,
+ "eintraege": [
+  {
+   "id": "R78",
+   "art": "regel",
+   "name": "Gleichförmige Handarbeit",
+   "aussagen": [
+    {
+     "id": "R78-M1",
+     "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+        "stelle": "LMM-MA, Anwendungsbereich",
+        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen, meist stationär im Sitzen oder Stehen."
+       }
+      ],
+      "bemerkung": "Die Leitmerkmalmethode manuelle Arbeitsprozesse ist laut Anwendungsbereich genau für gleichförmige, sich wiederholende Bewegungen vorgesehen. Sie ist eine Empfehlung der BAuA, keine Rechtspflicht; ArbSchG § 5 verlangt nur die Beurteilung, nicht die Methode."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+        "stelle": "Anwendungsbereich der LMM-MA, Absatz 1",
+        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen"
+       }
+      ],
+      "bemerkung": "Die Methode ist für genau diese Belastungsart (gleichförmig wiederholte Hand-Arm-Bewegungen) vorgesehen; es ist eine Empfehlung der BAuA, keine Rechtspflicht."
+     }
+    },
+    {
+     "id": "R78-M2",
+     "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ArbSchG, den Leitmerkmalmethoden (LMM-MA, LMM-MA-E, Hinweise) und DGUV Regel 109-606 nach Arbeitsplatzwechsel, Rotation, wechselndem Einsatz, Tätigkeitswechsel. Der Satz mit dem wechselnden Einsatz (Arbeitsplatzrotation, wenn technische Maßnahmen nicht ausreichen) steht in DGUV Regel 109-606 nur im Abschnitt 3.4.5 Heben und Tragen und gilt dort für körperlich belastende Tätigkeiten beim Transport, nicht für gleichförmige Handarbeit. Die Job-Rotation in 109-606 (Abschnitt psychische Belastung) steht ohne die Bedingung technische Maßnahmen reichen nicht aus. Die LMM-MA nennt nur Gestaltungsmaßnahmen allgemein, keinen Arbeitsplatzwechsel."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ArbSchG, LMM-Texten und DGUV Regel 109-606 nach Arbeitsplatzwechsel, Rotation, wechselndem Einsatz, gleichförmig. Die einzige passende Formulierung steht in DGUV Regel 109-606 (Abschnitt 3.4.5, Transport von Platten): Reichen technische Maßnahmen zur Verringerung der körperlichen Belastungen nicht aus, wechselnder Einsatz (Arbeitsplatzrotation). Sie gilt dort für Heben und Tragen von Lasten, nicht für gleichförmige Handarbeit mit Hand-Arm-Beschwerden. Die LMM-MA nennt keine Arbeitsplatzwechsel-Maßnahme."
+     }
+    }
+   ],
+   "hinweise": [
+    "Vorschlag A: R78-M2 nur mit Quelle und Anwendungsfall belegen, in dem der Text steht: Arbeitsplatzrotation bei körperlich belastenden Tätigkeiten laut DGUV Regel 109-606 Abschnitt 3.4.5 (Heben und Tragen). Für gleichförmige Handarbeit eine andere Quelle suchen oder die Maßnahme allgemeiner fassen: Gestaltungsmaßnahmen nach Bewertung mit der LMM-MA ab Risikobereich 3.",
+    "Vorschlag B: R78-M2 streichen oder auf den Fall Heben und Tragen von Lasten beschränken. Für gleichförmige Handarbeit nur belegbar als allgemeine Arbeitsgestaltung nach ArbSchG § 4 Nr. 1, ohne Nennung des Arbeitsplatzwechsels."
+   ],
+   "status": "teilweise"
+  },
+  {
+   "id": "R11",
+   "art": "regel",
+   "name": "Lärm bei lauten Vorgängen",
+   "aussagen": [
+    {
+     "id": "R11-M1",
+     "text": "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 1",
+        "zitat": "Werden die unteren Auslösewerte nach § 6 Satz 1 Nr. 2 trotz Durchführung der Maßnahmen nach § 7 Abs. 1 nicht eingehalten, hat der Arbeitgeber den Beschäftigten einen geeigneten persönlichen Gehörschutz zur Verfügung zu stellen"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 3 Abs. 2 Nr. 1",
+        "zitat": "Tätigkeiten mit Lärmexposition, wenn die unteren Auslösewerte von Lex,8h = 80 dB(A) beziehungsweise LpC,peak = 135 dB(C) überschritten werden."
+       }
+      ],
+      "bemerkung": "Beide Teile belegt: Gehörschutz bereitstellen (LärmVibrationsArbSchV § 8 Abs. 1, untere Auslösewerte 80 dB(A) nach § 6 Satz 1 Nr. 2) und Angebotsvorsorge (ArbMedVV)."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 1",
+        "zitat": "Werden die unteren Auslösewerte nach § 6 Satz 1 Nr. 2 trotz Durchführung der Maßnahmen nach § 7 Abs. 1 nicht eingehalten, hat der Arbeitgeber den Beschäftigten einen geeigneten persönlichen Gehörschutz zur Verfügung zu stellen"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 3 Abs. 2 Nr. 1 (Angebotsvorsorge)",
+        "zitat": "Tätigkeiten mit Lärmexposition, wenn die unteren Auslösewerte von Lex,8h = 80 dB(A) beziehungsweise LpC,peak = 135 dB(C) überschritten werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R11-M2",
+     "text": "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 3",
+        "zitat": "Erreicht oder überschreitet die Lärmexposition am Arbeitsplatz einen der oberen Auslösewerte nach § 6 Satz 1 Nr. 1, hat der Arbeitgeber dafür Sorge zu tragen, dass die Beschäftigten den persönlichen Gehörschutz bestimmungsgemäß verwenden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 3 Abs. 1 Nr. 3",
+        "zitat": "Tätigkeiten mit Lärmexposition, wenn die oberen Auslösewerte von Lex,8h = 85 dB(A) beziehungsweise LpC,peak = 137 dB(C) erreicht oder überschritten werden."
+       }
+      ],
+      "bemerkung": "Obere Auslösewerte 85 dB(A) nach § 6 Satz 1 Nr. 1. Beide Teile belegt: Gehörschutz muss verwendet werden und Pflichtvorsorge."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 3",
+        "zitat": "Erreicht oder überschreitet die Lärmexposition am Arbeitsplatz einen der oberen Auslösewerte nach § 6 Satz 1 Nr. 1, hat der Arbeitgeber dafür Sorge zu tragen, dass die Beschäftigten den persönlichen Gehörschutz bestimmungsgemäß verwenden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 3 Abs. 1 Nr. 3 (Pflichtvorsorge)",
+        "zitat": "Tätigkeiten mit Lärmexposition, wenn die oberen Auslösewerte von Lex,8h = 85 dB(A) beziehungsweise LpC,peak = 137 dB(C) erreicht oder überschritten werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R11-M3",
+     "text": "Über 85 dB(A): Lärmbereich kennzeichnen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 7 Abs. 4 Satz 1",
+        "zitat": "Der Arbeitgeber hat Arbeitsbereiche, in denen einer der oberen Auslösewerte für Lärm (LEX,8h, LpC,peak) überschritten werden kann, als Lärmbereiche zu kennzeichnen und, falls technisch möglich, abzugrenzen."
+       }
+      ],
+      "bemerkung": "Obere Auslösewerte entsprechen 85 dB(A) (§ 6 Satz 1 Nr. 1)."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 7 Abs. 4 Satz 1",
+        "zitat": "Der Arbeitgeber hat Arbeitsbereiche, in denen einer der oberen Auslösewerte für Lärm (LEX,8h, LpC,peak) überschritten werden kann, als Lärmbereiche zu kennzeichnen und, falls technisch möglich, abzugrenzen."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R42",
+   "art": "regel",
+   "name": "Scharfkantige Teile von Hand",
+   "aussagen": [
+    {
+     "id": "R42-M1",
+     "text": "Schnittfeste Handschuhe",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
+        "stelle": "Kapitel Betrieb allgemein, 2. Aufzählungspunkt (Seite 72)",
+        "zitat": "Stellen Sie den Beschäftigten geeignete Hilfsmittel, zum Beispiel Handfeger, Spänehaken mit Handschutz und Schutzausrüstung, zum Beispiel schnittfeste Handschuhe, zur Verfügung."
+       }
+      ],
+      "bemerkung": "PSA-BV § 2 gibt nur allgemein vor, geeignete PSA bereitzustellen, nennt aber keine Schnittschutzhandschuhe. Die konkrete Maßnahme steht in der Branchenregel Metallbau (Empfehlung)."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
+        "stelle": "Abschnitt Persönliche Schutzausrüstung, Absatz 2",
+        "zitat": "Während der Arbeit mit scharfkantigen Werkstücken sind Schnittschutzhandschuhe zu verwenden."
+       }
+      ],
+      "bemerkung": "Quelle ist eine Empfehlung der Branchenregel Metallbau; PSA-BV und TRBS 2111 nennen Schnittschutzhandschuhe nur allgemein bzw. als Beispiel."
+     }
+    },
+    {
+     "id": "R42-M2",
+     "text": "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "TRBS/TRBS-2111.txt",
+        "stelle": "Abschnitt 5.2.3 Abs. 2",
+        "zitat": "Konstruktive Maßnahmen zur sicheren Gestaltung von Oberflächen sind z. B.: – Glätten von Oberflächen, – ausreichende Dimensionierung von Biegeradien, – Entgraten oder Abrunden von Kanten,"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "TRBS/TRBS-2111.txt",
+        "stelle": "Abschnitt 5.2.3 Abs. 2",
+        "zitat": "Konstruktive Maßnahmen zur sicheren Gestaltung von Oberflächen sind z. B.: – Glätten von Oberflächen, – ausreichende Dimensionierung von Biegeradien, – Entgraten oder Abrunden von Kanten,"
+       }
+      ],
+      "bemerkung": "Der Text nennt Entgraten und Abrunden als Beispiele; die Aussage ist ebenfalls als Beispiel formuliert (zum Beispiel)."
+     }
+    }
+   ],
+   "hinweise": [
+    "Verbindlichkeit von „pflicht“ auf „vermutungswirkung“ gesenkt: Die Belege stammen aus keiner höher eingestuften Quelle."
+   ],
+   "status": "geprueft"
+  },
+  {
+   "id": "R77",
+   "art": "regel",
+   "name": "Zeitdruck",
+   "aussagen": [
+    {
+     "id": "R77-M1",
+     "text": "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 4 Nr. 1",
+        "zitat": "Die Arbeit ist so zu gestalten, daß eine Gefährdung für das Leben sowie die physische und die psychische Gesundheit möglichst vermieden und die verbleibende Gefährdung möglichst gering gehalten wird;"
+       }
+      ],
+      "bemerkung": "Die Fundstelle ist § 4 Nr. 1, nicht § 5 Abs. 3 Nr. 6. Der Satz ist allgemein und deckt die ebenso allgemein formulierte Aussage."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 4 Nr. 1",
+        "zitat": "Die Arbeit ist so zu gestalten, daß eine Gefährdung für das Leben sowie die physische und die psychische Gesundheit möglichst vermieden und die verbleibende Gefährdung möglichst gering gehalten wird;"
+       }
+      ],
+      "bemerkung": "Arbeitsabläufe werden in § 4 Nr. 1 nicht ausdrücklich genannt, sind aber Teil der Arbeitsgestaltung (siehe § 5 Abs. 3 Nr. 4)."
+     }
+    },
+    {
+     "id": "R77-M2",
+     "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 5 Abs. 1",
+        "zitat": "Der Arbeitgeber hat durch eine Beurteilung der für die Beschäftigten mit ihrer Arbeit verbundenen Gefährdung zu ermitteln, welche Maßnahmen des Arbeitsschutzes erforderlich sind."
+       },
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt Gefährdungsbeurteilung psychischer Belastung, Absatz vor Maßnahmen (Seite 130)",
+        "zitat": "Psychische Belastung kann im Rahmen der Gefährdungsbeurteilung, anhand von Analyseworkshops, Beobachtungsinterviews oder Beschäftigtenbefragungen, erfasst und beurteilt werden."
+       }
+      ],
+      "bemerkung": "ArbSchG § 5 Abs. 1 verlangt die Beurteilung, § 5 Abs. 3 Nr. 6 nennt psychische Belastungen bei der Arbeit ausdrücklich als mögliche Gefährdung (dieser Satz ist für ein Zitat zu kurz und durch die Nummerierung getrennt). Dass psychische Belastung in der Gefährdungsbeurteilung erfasst wird, steht ausdrücklich in der DGUV Regel 109-606 (Empfehlung). Zeitdruck ist nirgends namentlich genannt."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 5 Abs. 1 und Abs. 3 Nr. 6",
+        "zitat": "Der Arbeitgeber hat durch eine Beurteilung der für die Beschäftigten mit ihrer Arbeit verbundenen Gefährdung zu ermitteln, welche Maßnahmen des Arbeitsschutzes erforderlich sind."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 5 Abs. 3 Nr. 6",
+        "zitat": "Eine Gefährdung kann sich insbesondere ergeben durch 1. die Gestaltung und die Einrichtung der Arbeitsstätte und des Arbeitsplatzes, 2. physikalische, chemische und biologische Einwirkungen,"
+       }
+      ],
+      "bemerkung": "Nr. 6 'psychische Belastungen bei der Arbeit' steht in derselben Aufzählung; das Zitat reicht bis zur Aufzählung, die Nr. 6 selbst ist wegen der Länge nicht mitzitiert."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R72",
+   "art": "regel",
+   "name": "Lärm aus der Umgebung",
+   "aussagen": [
+    {
+     "id": "R72-M1",
+     "text": "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 7 Abs. 1 Nr. 1",
+        "zitat": "Die Lärmemission muss am Entstehungsort verhindert oder so weit wie möglich verringert werden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 7 Abs. 2 Nr. 4",
+        "zitat": "technische Maßnahmen zur Luftschallminderung, beispielsweise durch Abschirmungen oder Kapselungen, und zur Körperschallminderung"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 7 Abs. 1 Nr. 1 Satz 1",
+        "zitat": "Die Lärmemission muss am Entstehungsort verhindert oder so weit wie möglich verringert werden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 7 Abs. 2 Nr. 4",
+        "zitat": "technische Maßnahmen zur Luftschallminderung, beispielsweise durch Abschirmungen oder Kapselungen,"
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R72-M2",
+     "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 1",
+        "zitat": "Werden die unteren Auslösewerte nach § 6 Satz 1 Nr. 2 trotz Durchführung der Maßnahmen nach § 7 Abs. 1 nicht eingehalten, hat der Arbeitgeber den Beschäftigten einen geeigneten persönlichen Gehörschutz zur Verfügung zu stellen"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 3",
+        "zitat": "Erreicht oder überschreitet die Lärmexposition am Arbeitsplatz einen der oberen Auslösewerte nach § 6 Satz 1 Nr. 1, hat der Arbeitgeber dafür Sorge zu tragen, dass die Beschäftigten den persönlichen Gehörschutz bestimmungsgemäß verwenden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 6 Satz 1 Nr. 1 und 2",
+        "zitat": "Obere Auslösewerte: L (tief) EX,8h = 85 dB(A) beziehungsweise L (tief) pC,peak = 137 dB(C),"
+       }
+      ],
+      "bemerkung": "Stufe 80 dB(A) (untere Auslösewerte, Gehörschutz bereitstellen) und Stufe 85 dB(A) (obere Auslösewerte, Gehörschutz verwenden) sind beide geregelt."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 1 (untere Auslösewerte 80 dB(A))",
+        "zitat": "Werden die unteren Auslösewerte nach § 6 Satz 1 Nr. 2 trotz Durchführung der Maßnahmen nach § 7 Abs. 1 nicht eingehalten, hat der Arbeitgeber den Beschäftigten einen geeigneten persönlichen Gehörschutz zur Verfügung zu stellen"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 8 Abs. 3 (obere Auslösewerte 85 dB(A))",
+        "zitat": "Erreicht oder überschreitet die Lärmexposition am Arbeitsplatz einen der oberen Auslösewerte nach § 6 Satz 1 Nr. 1, hat der Arbeitgeber dafür Sorge zu tragen, dass die Beschäftigten den persönlichen Gehörschutz bestimmungsgemäß verwenden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 6 Satz 1 Nr. 1 und 2",
+        "zitat": "Obere Auslösewerte: L (tief) EX,8h = 85 dB(A) beziehungsweise L (tief) pC,peak = 137 dB(C),"
+       }
+      ],
+      "bemerkung": "Die Stufen 80 und 85 dB(A) stimmen mit den Auslösewerten in § 6 überein."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R105",
+   "art": "regel",
+   "name": "Bildschirmarbeit",
+   "aussagen": [
+    {
+     "id": "R105-M1",
+     "text": "Bildschirmarbeitsplatz nach den Grundsätzen der Ergonomie einrichten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 6.1 Abs. 1 Satz 2",
+        "zitat": "Die Grundsätze der Ergonomie sind auf die Bildschirmarbeitsplätze und die erforderlichen Arbeitsmittel sowie die für die Informationsverarbeitung durch die Beschäftigten erforderlichen Bildschirmgeräte entsprechend anzuwenden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 6.1 Abs. 1 Satz 2",
+        "zitat": "Die Grundsätze der Ergonomie sind auf die Bildschirmarbeitsplätze und die erforderlichen Arbeitsmittel sowie die für die Informationsverarbeitung durch die Beschäftigten erforderlichen Bildschirmgeräte entsprechend anzuwenden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R105-M2",
+     "text": "Bildschirmarbeit durch andere Tätigkeiten oder Erholungszeiten unterbrechen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 6.1 Abs. 2",
+        "zitat": "Der Arbeitgeber hat dafür zu sorgen, dass die Tätigkeiten der Beschäftigten an Bildschirmgeräten insbesondere durch andere Tätigkeiten oder regelmäßige Erholungszeiten unterbrochen werden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 6.1 Abs. 2",
+        "zitat": "Der Arbeitgeber hat dafür zu sorgen, dass die Tätigkeiten der Beschäftigten an Bildschirmgeräten insbesondere durch andere Tätigkeiten oder regelmäßige Erholungszeiten unterbrochen werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R105-M3",
+     "text": "Vorsorge für Tätigkeiten an Bildschirmgeräten anbieten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 4 Abs. 2 Nr. 1",
+        "zitat": "Tätigkeiten an Bildschirmgeräten Die Angebotsvorsorge enthält das Angebot auf eine angemessene Untersuchung der Augen und des Sehvermögens."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 4 (Sonstige Tätigkeiten) Abs. 2 Nr. 1, Tätigkeiten an Bildschirmgeräten (Angebotsvorsorge)",
+        "zitat": "Die Angebotsvorsorge enthält das Angebot auf eine angemessene Untersuchung der Augen und des Sehvermögens."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R99",
+   "art": "regel",
+   "name": "Unzureichende Beleuchtung",
+   "aussagen": [
+    {
+     "id": "R99-M1",
+     "text": "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 3.4 Abs. 5",
+        "zitat": "Arbeitsstätten müssen mit Einrichtungen ausgestattet sein, die eine angemessene künstliche Beleuchtung ermöglichen, so dass die Sicherheit und der Schutz der Gesundheit der Beschäftigten gewährleistet sind."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 3.4 Abs. 5",
+        "zitat": "Arbeitsstätten müssen mit Einrichtungen ausgestattet sein, die eine angemessene künstliche Beleuchtung ermöglichen, so dass die Sicherheit und der Schutz der Gesundheit der Beschäftigten gewährleistet sind."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R99-M2",
+     "text": "Ausgefallene Leuchten umgehend instand setzen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "§ 4 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat die Arbeitsstätte instand zu halten und dafür zu sorgen, dass festgestellte Mängel unverzüglich beseitigt werden."
+       },
+       {
+        "datei": "ASR/ASR-A3-4.txt",
+        "stelle": "Abschnitt 9.1 Abs. 1 Satz 1",
+        "zitat": "Beleuchtungsanlagen sind so einzurichten und zu betreiben, dass sie die Sicherheit und die Gesundheit der Beschäftigten nicht gefährden."
+       }
+      ],
+      "bemerkung": "ASR A3.4 Abschnitt 9.1 Abs. 1 nennt im Anschluss Ausfall von Leuchtmitteln ausdrücklich als Mangel, der unverzüglich zu beseitigen ist. Unverzüglich entspricht umgehend."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "§ 4 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat die Arbeitsstätte instand zu halten und dafür zu sorgen, dass festgestellte Mängel unverzüglich beseitigt werden."
+       },
+       {
+        "datei": "ASR/ASR-A3-4.txt",
+        "stelle": "Abschnitt 9.1 Abs. 1",
+        "zitat": "Beleuchtungsanlagen sind so einzurichten und zu betreiben, dass sie die Sicherheit und die Gesundheit der Beschäftigten nicht gefährden."
+       }
+      ],
+      "bemerkung": "ASR A3.4 Abschnitt 9.1 Abs. 1 nennt 'Ausfall von Leuchtmitteln' ausdrücklich als Mangel, der unverzüglich zu beseitigen ist. 'Umgehend' entspricht 'unverzüglich'."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R27",
+   "art": "regel",
+   "name": "Verschrauben mit Handmaschine",
+   "aussagen": [
+    {
+     "id": "R27-M1",
+     "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+        "stelle": "LMM-MA, Anwendungsbereich",
+        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen, meist stationär im Sitzen oder Stehen."
+       }
+      ],
+      "bemerkung": "Die LMM-MA nennt handgeführte Maschinen und Montagetätigkeiten ausdrücklich. Verschrauben ist nicht wörtlich genannt, fällt aber als Montage- und Fügetätigkeit darunter. Empfehlung der BAuA; ArbSchG § 5 verlangt nur die Beurteilung."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+        "stelle": "Anwendungsbereich der LMM-MA, Absatz 1",
+        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen"
+       }
+      ],
+      "bemerkung": "Die Methode erfasst handgeführte Maschinen und nennt Schrauben anziehen und lösen als Beispiel für Kraftaufwendungen; es ist eine Empfehlung der BAuA."
+     }
+    },
+    {
+     "id": "R27-M2",
+     "text": "Schrauber mit Abschaltkupplung",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht im ganzen Textordner nach Abschaltkupplung, Kupplung, Schrauber, Drehmomentabschaltung, Drehmomentbegrenzung, Rückstellmoment, Drehmomentstütze. Treffer nur zu Schlagschraubern und Drehschraubern in der TRLV Vibration (Vibrationsminderung, nicht Abschaltkupplung), zu Rutschkupplungen bei Kranen und Pressen und zu Akku-Schraubern als Betriebsmittel. Keine Aussage zu Schraubern mit Abschaltkupplung."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht im gesamten Textordner nach Abschaltkupplung, Kupplung, abschaltend, Schrauber, Drehmomentbegrenzung. Treffer nur ohne Bezug: Rutschkupplung am Winkelschleifer (DGUV Regel 109-607) und TRLV-Vibration (Drehschrauber statt Schlagschrauber als Vibrationsminderung). Eine Forderung nach Schraubern mit Abschaltkupplung steht nirgends."
+     }
+    }
+   ],
+   "hinweise": [
+    "Vorschlag A: R27-M2 entweder streichen oder mit einer Quelle belegen, die Schrauber mit Abschaltkupplung verlangt. Im vorliegenden Regelwerkstext steht dazu nichts.",
+    "Vorschlag B: R27-M2 streichen oder so umformulieren, dass es nur durch einen Beleg gedeckt wird, den es im Textordner gibt (zum Beispiel Drehschrauber anstelle von Schlagschraubern, TRLV Vibration Teil 1)."
+   ],
+   "status": "teilweise"
+  },
+  {
+   "id": "R65",
+   "art": "regel",
+   "name": "Kran oder Hebezeug",
+   "aussagen": [
+    {
+     "id": "R65-M1",
+     "text": "Niemand unter der schwebenden Last",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Nr. 2.5 Buchst. a",
+        "zitat": "Beschäftigte nicht durch hängende Lasten gefährdet werden, insbesondere hängende Lasten nicht über ungeschützte Bereiche, an denen sich für gewöhnlich Beschäftigte aufhalten, bewegt werden"
+       }
+      ],
+      "bemerkung": "Der Text verbietet die Gefährdung durch hängende Lasten und das Bewegen über ungeschützte Bereiche, in denen sich Beschäftigte aufhalten. Das deckt Niemand unter der schwebenden Last in der Sache."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Abschnitt 2 Nr. 2.5 Buchstabe a",
+        "zitat": "Beschäftigte nicht durch hängende Lasten gefährdet werden, insbesondere hängende Lasten nicht über ungeschützte Bereiche, an denen sich für gewöhnlich Beschäftigte aufhalten, bewegt werden,"
+       }
+      ],
+      "bemerkung": "Der Text verlangt, dass Beschäftigte nicht durch hängende Lasten gefährdet werden; wer unter einer hängenden Last steht, ist gefährdet. Wörtlich 'niemand unter der Last' steht dort nicht."
+     }
+    },
+    {
+     "id": "R65-M2",
+     "text": "Anschlagmittel vor Gebrauch prüfen",
+     "status": "einfach",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in BetrSichV und DGUV Vorschrift 52 nach Anschlagmittel, Prüfung vor Gebrauch, vor jeder Verwendung, Sichtprüfung, Arbeitsbeginn; dazu im Textordner nach Anschlagmittel (DGUV Regel 100-500, TRBS 1116, TRBS 2111, TRBS 2121-4). BetrSichV Anhang 1 Nr. 2.5 und 2.6 regeln Auswahl, Befestigung und Aufbewahrung der Anschlagmittel, aber keine Prüfung vor Gebrauch. DGUV V 52 § 30 Abs. 1 verlangt nur vom Kranführer bei Arbeitsbeginn die Prüfung von Bremsen und Notendhalteinrichtungen und die Beobachtung des Krans auf augenfällige Mängel, nicht der Anschlagmittel."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 4 Abs. 5 Satz 3",
+        "zitat": "Der Arbeitgeber hat weiterhin dafür zu sorgen, dass Arbeitsmittel vor ihrer jeweiligen Verwendung auf offensichtliche Mängel, die die sichere Verwendung beeinträchtigen können, kontrolliert werden"
+       }
+      ],
+      "bemerkung": "Gefordert ist die Kontrolle auf offensichtliche Mängel vor jeder Verwendung; Anschlagmittel sind Arbeitsmittel."
+     }
+    },
+    {
+     "id": "R65-M3",
+     "text": "Wiederkehrende Prüfung des Hebezeugs",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Vorschrift-52_Krane.txt",
+        "stelle": "§ 26 Abs. 1",
+        "zitat": "Der Unternehmer hat dafür zu sorgen, dass Krane entsprechend den Einsatzbedingungen und den betrieblichen Verhältnissen nach Bedarf, jährlich jedoch mindestens einmal, durch einen Sachkundigen geprüft werden."
+       }
+      ],
+      "bemerkung": "Gilt für Krane, das sind nach § 2 Hebezeuge, die Lasten mit einem Tragmittel heben und zusätzlich bewegen. Ein einzelner Kettenzug ohne Fahrwerk ist damit nicht ausdrücklich erfasst."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 14 Abs. 2 Satz 1",
+        "zitat": "Arbeitsmittel, die Schäden verursachenden Einflüssen ausgesetzt sind, die zu Gefährdungen der Beschäftigten führen können, hat der Arbeitgeber wiederkehrend von einer zur Prüfung befähigten Person prüfen zu lassen."
+       },
+       {
+        "datei": "DGUV/DGUV-Vorschrift-52_Krane.txt",
+        "stelle": "§ 26 Abs. 1",
+        "zitat": "Der Unternehmer hat dafür zu sorgen, dass Krane entsprechend den Einsatzbedingungen und den betrieblichen Verhältnissen nach Bedarf, jährlich jedoch mindestens einmal, durch einen Sachkundigen geprüft werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [
+    "Vorschlag A: R65-M2 streichen oder durch eine Quelle ersetzen, die die Prüfung der Anschlagmittel vor Gebrauch verlangt; im Textordner nur gefunden: Anschlagmittel sind passend auszuwählen und so aufzubewahren, dass sie nicht beschädigt werden (BetrSichV Anhang 1 Nr. 2.5 f und 2.6)."
+   ],
+   "status": "teilweise"
+  },
+  {
+   "id": "R02",
+   "art": "regel",
+   "name": "Seitenstapler",
+   "aussagen": [
+    {
+     "id": "R02-M1",
+     "text": "Zusatzqualifizierung für den Seitenstapler",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Grundsatz-308-001_Qualifizierung-Fahrer-Flurfoerderzeuge.txt",
+        "stelle": "Abschnitt 3.3 Zusatzqualifizierung (Stufe 2)",
+        "zitat": "Daher müssen Bedienpersonen, sofern sie im Betrieb andere Flurförderzeuge fahren, an einer zusätzlichen Qualifizierungsmaßnahme (Stufe 2) teilnehmen."
+       }
+      ],
+      "bemerkung": "Der folgende Satz nennt Seitenstapler ausdrücklich als Beispiel für Flurförderzeuge, bei denen die Zusatzqualifizierung nötig ist."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Grundsatz-308-001_Qualifizierung-Fahrer-Flurfoerderzeuge.txt",
+        "stelle": "Abschnitt 3.3 Zusatzqualifizierung (Stufe 2), Absatz 1",
+        "zitat": "Daher müssen Bedienpersonen, sofern sie im Betrieb andere Flurförderzeuge fahren, an einer zusätzlichen Qualifizierungsmaßnahme (Stufe 2) teilnehmen. Dies gilt z. B. bei Schubmaststaplern, Seitenstaplern,"
+       }
+      ],
+      "bemerkung": "Der Grundsatz verlangt die Zusatzqualifizierung ausdrücklich auch für Seitenstapler."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "P13",
+   "art": "pflicht",
+   "name": "Beauftragung der Staplerfahrer",
+   "aussagen": [
+    {
+     "id": "P13",
+     "text": "Fahrer von Flurförderzeugen schriftlich beauftragen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt",
+        "stelle": "§ 7 Abs. 1 letzter Satz",
+        "zitat": "Der Auftrag muss schriftlich erteilt werden."
+       }
+      ],
+      "bemerkung": "Der Auftrag bezieht sich nach § 7 Abs. 1 auf das selbstständige Steuern von Flurförderzeugen mit Fahrersitz oder Fahrerstand."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt",
+        "stelle": "§ 7 Abs. 1 Satz 3",
+        "zitat": "Der Auftrag muss schriftlich erteilt werden."
+       },
+       {
+        "datei": "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt",
+        "stelle": "§ 7 Abs. 1 Satz 1",
+        "zitat": "Der Unternehmer darf mit dem selbstständigen Steuern von Flurförderzeugen mit Fahrersitz oder Fahrerstand Personen nur beauftragen, die"
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "P16",
+   "art": "pflicht",
+   "name": "Explosionsschutzdokument",
+   "aussagen": [
+    {
+     "id": "P16",
+     "text": "Explosionsgefährdungen ermitteln und im Explosionsschutzdokument ausweisen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 6 Abs. 9 Satz 1",
+        "zitat": "Bei der Dokumentation nach Absatz 8 hat der Arbeitgeber in Abhängigkeit der Feststellungen nach Absatz 4 die Gefährdungen durch gefährliche explosionsfähige Gemische besonders auszuweisen (Explosionsschutzdokument)."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 6 Abs. 9 Satz 2 Nr. 1",
+        "zitat": "dass die Explosionsgefährdungen ermittelt und einer Bewertung unterzogen worden sind,"
+       }
+      ],
+      "bemerkung": "Die Pflicht hängt von den Feststellungen nach § 6 Abs. 4 ab, also davon, dass gefährliche explosionsfähige Gemische auftreten können."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 6 Abs. 9 Satz 1",
+        "zitat": "hat der Arbeitgeber in Abhängigkeit der Feststellungen nach Absatz 4 die Gefährdungen durch gefährliche explosionsfähige Gemische besonders auszuweisen (Explosionsschutzdokument)."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 6 Abs. 9 Satz 2 Nr. 1",
+        "zitat": "dass die Explosionsgefährdungen ermittelt und einer Bewertung unterzogen worden sind,"
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R50",
+   "art": "regel",
+   "name": "Fruchtschädigender Stoff",
+   "aussagen": [
+    {
+     "id": "R50-M1",
+     "text": "Ersatzstoff prüfen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 7 Abs. 3 Satz 1",
+        "zitat": "Der Arbeitgeber hat auf der Grundlage des Ergebnisses der Substitutionsprüfung nach § 6 Absatz 1 Satz 2 Nummer 4 vorrangig eine Substitution durchzuführen."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 7 Abs. 3 Satz 1",
+        "zitat": "Der Arbeitgeber hat auf der Grundlage des Ergebnisses der Substitutionsprüfung nach § 6 Absatz 1 Satz 2 Nummer 4 vorrangig eine Substitution durchzuführen."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R50-M2",
+     "text": "Gefährdung ausschließen; wo das nicht geht, auf ein Minimum verringern",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 7 Abs. 4 Satz 1 und 2",
+        "zitat": "Der Arbeitgeber hat Gefährdungen der Gesundheit und der Sicherheit der Beschäftigten bei Tätigkeiten mit Gefahrstoffen auszuschließen. Ist dies nicht möglich, hat er sie auf ein Minimum zu reduzieren."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 7 Abs. 4 Satz 1 und 2",
+        "zitat": "Der Arbeitgeber hat Gefährdungen der Gesundheit und der Sicherheit der Beschäftigten bei Tätigkeiten mit Gefahrstoffen auszuschließen. Ist dies nicht möglich, hat er sie auf ein Minimum zu reduzieren."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R50-M3",
+     "text": "Schwangere dürfen dem Stoff nicht in einem Maß ausgesetzt sein, das eine unverantwortbare Gefährdung darstellt",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/MuSchG.txt",
+        "stelle": "§ 11 Abs. 1 Satz 1 und Satz 2 Nr. 1 Buchstabe a (reproduktionstoxisch Kategorie 1A, 1B oder 2, das sind H360 und H361)",
+        "zitat": "Der Arbeitgeber darf eine schwangere Frau keine Tätigkeiten ausüben lassen und sie keinen Arbeitsbedingungen aussetzen, bei denen sie in einem Maß Gefahrstoffen ausgesetzt ist oder sein kann, dass dies für sie oder für ihr Kind eine unverantwortbare Gefährdung darstellt."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/MuSchG.txt",
+        "stelle": "§ 11 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber darf eine schwangere Frau keine Tätigkeiten ausüben lassen und sie keinen Arbeitsbedingungen aussetzen, bei denen sie in einem Maß Gefahrstoffen ausgesetzt ist oder sein kann, dass dies für sie oder für ihr Kind eine unverantwortbare Gefährdung darstellt."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/MuSchG.txt",
+        "stelle": "§ 11 Abs. 1 Satz 2 Nr. 1 Buchstabe a (H360 und H361 entsprechen Kategorie 1A, 1B und 2)",
+        "zitat": "als reproduktionstoxisch nach der Kategorie 1A, 1B oder 2 oder nach der Zusatzkategorie für Wirkungen auf oder über die Laktation,"
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R88",
+   "art": "regel",
+   "name": "Entzündbarer Gefahrstoff",
+   "aussagen": [
+    {
+     "id": "R88-M1",
+     "text": "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "TRGS/TRGS-510.txt",
+        "stelle": "Abschnitt 1 Abs. 2 Nr. 2",
+        "zitat": "von einer angemessenen Menge kann ausgegangen werden, wenn der Tages-/Schichtbedarf nicht überschritten wird, oder wenn er nur überschritten wird, weil die nächstgrößere handelsübliche Gebindegröße verwendet wird."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 8 Abs. 1 Nr. 6",
+        "zitat": "Begrenzung der am Arbeitsplatz vorhandenen Gefahrstoffe auf die Menge, die für den Fortgang der Tätigkeiten erforderlich ist,"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "TRGS/TRGS-500.txt",
+        "stelle": "Abschnitt 6.3 Abs. 1 Satz 1",
+        "zitat": "An Arbeitsplätzen sind nur die für den Fortgang der Arbeit benötigten Gefahrstoffe in der erforderlichen Menge – im Normalfall der Bedarf einer Arbeitsschicht – vorzuhalten."
+       },
+       {
+        "datei": "TRGS/TRGS-510.txt",
+        "stelle": "Abschnitt 1 Abs. 2 Nr. 2",
+        "zitat": "von einer angemessenen Menge kann ausgegangen werden, wenn der Tages-/Schichtbedarf nicht überschritten wird, oder wenn er nur überschritten wird, weil die nächstgrößere handelsübliche Gebindegröße verwendet wird."
+       }
+      ],
+      "bemerkung": "TRGS 500 verlangt die erforderliche Menge, im Normalfall der Schichtbedarf; TRGS 510 nennt Tages-/Schichtbedarf als angemessen. Die TRGS 500 erlaubt im Rahmen der Gefährdungsbeurteilung auch größere Mengen, wenn häufiges Umfüllen gefährlicher wäre."
+     }
+    },
+    {
+     "id": "R88-M2",
+     "text": "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "TRGS/TRGS-500.txt",
+        "stelle": "Abschnitt 6.2 Abs. 15 Satz 3",
+        "zitat": "Bei entzündbaren Flüssigkeiten sind die Behälter zu erden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "TRGS/TRGS-500.txt",
+        "stelle": "Abschnitt 6.2 Abs. 15 Satz 3",
+        "zitat": "Bei entzündbaren Flüssigkeiten sind die Behälter zu erden."
+       }
+      ],
+      "bemerkung": "Der Absatz steht im Zusammenhang mit dem Ab- und Umfüllen von Gefahrstoffen."
+     }
+    },
+    {
+     "id": "R88-M3",
+     "text": "Zündquellen fernhalten, Explosionsschutz prüfen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 12 Abs. 2 Nr. 2",
+        "zitat": "Zündquellen oder Bedingungen, die Brände oder Explosionen auslösen können, sind zu vermeiden,"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 6 Abs. 4 Satz 1",
+        "zitat": "Der Arbeitgeber hat festzustellen, ob die verwendeten Stoffe, Gemische und Erzeugnisse bei Tätigkeiten, auch unter Berücksichtigung verwendeter Arbeitsmittel, Verfahren und der Arbeitsumgebung sowie ihrer möglichen Wechselwirkungen, zu Brand- oder Explosionsgefährdungen führen können."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 12 Abs. 2 Nr. 2",
+        "zitat": "Zündquellen oder Bedingungen, die Brände oder Explosionen auslösen können, sind zu vermeiden,"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "§ 6 Abs. 4 Satz 1",
+        "zitat": "Der Arbeitgeber hat festzustellen, ob die verwendeten Stoffe, Gemische und Erzeugnisse bei Tätigkeiten, auch unter Berücksichtigung verwendeter Arbeitsmittel, Verfahren und der Arbeitsumgebung sowie ihrer möglichen Wechselwirkungen, zu Brand- oder Explosionsgefährdungen führen können."
+       }
+      ],
+      "bemerkung": "Die Rangfolge in § 12 Abs. 2 nennt zuerst das Vermeiden gefährlicher Mengen oder Konzentrationen, dann das Vermeiden von Zündquellen."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R71",
+   "art": "regel",
+   "name": "Kälte und Zugluft",
+   "aussagen": [
+    {
+     "id": "R71-M1",
+     "text": "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A3-5.txt",
+        "stelle": "Abschnitt 4.2 Abs. 2, 1. Spiegelstrich",
+        "zitat": "arbeitsplatzbezogene technische Maßnahmen (z. B. Wärmestrahlungsheizung, Heizmatten),"
+       }
+      ],
+      "bemerkung": "Die ASR verlangt dies, wenn die Mindestwerte der Tabelle 1 auch bei Ausschöpfung der technischen Möglichkeiten nicht erreicht werden."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A3-5.txt",
+        "stelle": "Abschnitt 4.2 Abs. 2, erster Spiegelstrich",
+        "zitat": "arbeitsplatzbezogene technische Maßnahmen (z. B. Wärmestrahlungsheizung, Heizmatten)"
+       },
+       {
+        "datei": "ASR/ASR-A3-5.txt",
+        "stelle": "Abschnitt 4.2 Abs. 2 Einleitung",
+        "zitat": "Werden die Mindestwerte nach Tabelle 1 in Arbeitsräumen auch bei Ausschöpfung der technischen Möglichkeiten nicht erreicht, ist der Schutz gegen zu niedrige Temperaturen in folgender Rangfolge durch zusätzliche"
+       }
+      ],
+      "bemerkung": "Die ASR gilt für Arbeitsräume ohne besondere raumklimatische Anforderungen. Zugluft behandelt sie nicht (Abschnitt 4.1 Abs. 7 verweist auf die ASR A3.6)."
+     }
+    },
+    {
+     "id": "R71-M2",
+     "text": "Wärmende Arbeitskleidung",
+     "status": "einfach",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A3-5.txt",
+        "stelle": "Abschnitt 4.2 Abs. 2, 3. Spiegelstrich",
+        "zitat": "personenbezogene Maßnahmen (z. B. geeignete Kleidung) sicher zu stellen."
+       }
+      ],
+      "bemerkung": "Der Text sagt geeignete Kleidung als letzte Stufe der Rangfolge, nach technischen und organisatorischen Maßnahmen."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ASR A3.5 (Abschnitt 4.2 Abs. 2). Dort steht nur als letzte Stufe der Rangfolge nach den technischen und organisatorischen Maßnahmen: personenbezogene Maßnahmen (z. B. geeignete Kleidung), also als Beispiel und nachrangig. Die Aussage nennt wärmende Arbeitskleidung ohne Beispielform und ohne Rangfolge."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R04",
+   "art": "regel",
+   "name": "Fahrzeug im Außengelände oder am Gefälle",
+   "aussagen": [
+    {
+     "id": "R04-M1",
+     "text": "Verkehrswege mit ebener und trittsicherer Oberfläche",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-8.txt",
+        "stelle": "Abschnitt 4.1 Abs. 5 Satz 1",
+        "zitat": "Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-8.txt",
+        "stelle": "Abschnitt 4.1 Abs. 5 Satz 1",
+        "zitat": "Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R04-M2",
+     "text": "Winterdienst und Verkehrsregelung",
+     "status": "einfach",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-8.txt",
+        "stelle": "Abschnitt 5 Abs. 1 Satz 2",
+        "zitat": "Für die Sicherheit auf Verkehrswegen sind geeignete Schutzmaßnahmen (z. B. innerbetriebliche Verkehrsregeln, geeignete Warnkleidung, farbliche Markierungen, Reinigungsverfahren, Winterdienst, Überdachung) im Rahmen der Gefährdungsbeurteilung festzulegen und umzusetzen."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ASR A1.8 Abschnitt 4.1 Abs. 8 und Abschnitt 5 Abs. 1. Winterdienst und innerbetriebliche Verkehrsregeln stehen dort nur als Beispiele in der Klammer („z. B.“) für Schutzmaßnahmen, die im Rahmen der Gefährdungsbeurteilung festzulegen sind. Die Aussage ist ohne Beispielform formuliert."
+     }
+    },
+    {
+     "id": "R04-M3",
+     "text": "Verkehrswege im Freien für die Dauer der Benutzung beleuchten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-8.txt",
+        "stelle": "Abschnitt 5 Abs. 4",
+        "zitat": "Verkehrswege im Freien und in Gebäuden sind für die Dauer der Benutzung so zu beleuchten (siehe ASR A3.4 „Beleuchtung“), dass eine sichere Benutzung gewährleistet wird."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-8.txt",
+        "stelle": "Abschnitt 5 Abs. 4",
+        "zitat": "Verkehrswege im Freien und in Gebäuden sind für die Dauer der Benutzung so zu beleuchten"
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R100",
+   "art": "regel",
+   "name": "Blendung und Spiegelungen",
+   "aussagen": [
+    {
+     "id": "R100-M1",
+     "text": "Störende Blendung und Reflexionen am Arbeitsplatz minimieren",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A3-4.txt",
+        "stelle": "Abschnitt 6.3 Abs. 1 Satz 1",
+        "zitat": "Störende Blendung oder Reflexionen sind zu minimieren."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A3-4.txt",
+        "stelle": "Abschnitt 6.3 Abs. 1 Satz 1",
+        "zitat": "Störende Blendung oder Reflexionen sind zu minimieren."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R100-M2",
+     "text": "Am Bildschirmarbeitsplatz störende Blendungen, Reflexionen und Spiegelungen vermeiden",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 6.1 Abs. 8 Satz 2",
+        "zitat": "Durch die Gestaltung des Bildschirmarbeitsplatzes sowie der Auslegung und der Anordnung der Beleuchtung sind störende Blendungen, Reflexionen oder Spiegelungen auf dem Bildschirm und den sonstigen Arbeitsmitteln zu vermeiden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 6.1 Abs. 8 Satz 2",
+        "zitat": "Durch die Gestaltung des Bildschirmarbeitsplatzes sowie der Auslegung und der Anordnung der Beleuchtung sind störende Blendungen, Reflexionen oder Spiegelungen auf dem Bildschirm und den sonstigen Arbeitsmitteln zu vermeiden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R93",
+   "art": "regel",
+   "name": "Biologische Arbeitsstoffe",
+   "aussagen": [
+    {
+     "id": "R93-M1",
+     "text": "Waschgelegenheit bereitstellen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BioStoffV.txt",
+        "stelle": "§ 9 Abs. 1 Satz 2 Nr. 3",
+        "zitat": "Waschgelegenheiten zur Verfügung stehen, 4. vom Arbeitsplatz getrennte Umkleidemöglichkeiten vorhanden sind,"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BioStoffV.txt",
+        "stelle": "§ 9 Abs. 1 Satz 2 Nr. 3, wörtlich in § 20 Abs. 1 Nr. 8",
+        "zitat": "entgegen § 9 Absatz 1 Satz 2 Nummer 3 nicht dafür sorgt, dass eine Waschgelegenheit zur Verfügung steht,"
+       }
+      ],
+      "bemerkung": "§ 9 Abs. 1 Satz 2 Nr. 3 lautet nur „Waschgelegenheiten zur Verfügung stehen“ (4 Wörter, zu kurz als Zitat); deshalb der volle Satz aus der Bußgeldvorschrift, die auf diese Pflicht verweist."
+     }
+    },
+    {
+     "id": "R93-M2",
+     "text": "Am Arbeitsplatz nicht essen und trinken",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BioStoffV.txt",
+        "stelle": "§ 9 Abs. 3 Satz 2 Nr. 7",
+        "zitat": "sicherzustellen, dass die Beschäftigten in Arbeitsbereichen, in denen Biostoffe auftreten können, keine Nahrungs- und Genussmittel zu sich nehmen;"
+       }
+      ],
+      "bemerkung": "Der Text gilt für Arbeitsbereiche mit Biostoffen und nennt Nahrungs- und Genussmittel, das schließt Essen und Trinken ein. Absatz 3 greift, wenn nicht nur Biostoffe der Risikogruppe 1 ohne sensibilisierende oder toxische Wirkung vorkommen."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BioStoffV.txt",
+        "stelle": "§ 9 Abs. 3 Satz 2 Nr. 7",
+        "zitat": "sicherzustellen, dass die Beschäftigten in Arbeitsbereichen, in denen Biostoffe auftreten können, keine Nahrungs- und Genussmittel zu sich nehmen"
+       }
+      ],
+      "bemerkung": "Abs. 3 gilt, wenn nicht ausschließlich Tätigkeiten mit Biostoffen der Risikogruppe 1 ohne sensibilisierende und toxische Wirkung ausgeübt werden; der Text verlangt dafür gesonderte Bereiche."
+     }
+    },
+    {
+     "id": "R93-M3",
+     "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: persönliche Schutzausrüstung bereitstellen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BioStoffV.txt",
+        "stelle": "§ 8 Abs. 4 Nr. 4",
+        "zitat": "zusätzlich persönliche Schutzausrüstung zur Verfügung zu stellen, wenn die Maßnahmen nach den Nummern 1 bis 3 nicht ausreichen, um die Gefährdung auszuschließen oder ausreichend zu verringern;"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BioStoffV.txt",
+        "stelle": "§ 8 Abs. 4 Nr. 4",
+        "zitat": "zusätzlich persönliche Schutzausrüstung zur Verfügung zu stellen, wenn die Maßnahmen nach den Nummern 1 bis 3 nicht ausreichen, um die Gefährdung auszuschließen oder ausreichend zu verringern"
+       }
+      ],
+      "bemerkung": "Die Nummern 1 bis 3 umfassen auch Ersatz und Gestaltung der Verfahren, nicht nur technische und organisatorische Maßnahmen."
+     }
+    },
+    {
+     "id": "R93-M4",
+     "text": "Arbeitsmedizinische Vorsorge prüfen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 3 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat auf der Grundlage der Gefährdungsbeurteilung für eine angemessene arbeitsmedizinische Vorsorge zu sorgen."
+       }
+      ],
+      "bemerkung": "Allgemeine Pflicht, die zur allgemein gehaltenen Aussage passt. Welche Vorsorge bei Biostoffen Pflicht oder Angebot ist, regelt der Anhang Teil 2 der Verordnung."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 3 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat auf der Grundlage der Gefährdungsbeurteilung für eine angemessene arbeitsmedizinische Vorsorge zu sorgen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "Anhang Teil 2 Abs. 2 (Tätigkeiten mit biologischen Arbeitsstoffen)",
+        "zitat": "Hat der Arbeitgeber keine Pflichtvorsorge nach Absatz 1 zu veranlassen, muss er den Beschäftigten Angebotsvorsorge anbieten bei"
+       }
+      ],
+      "bemerkung": "Ob Pflicht- oder Angebotsvorsorge nötig ist, hängt von Risikogruppe bzw. Schutzstufe und Tätigkeit ab; „prüfen“ trifft das, der Text verlangt je nach Ergebnis mehr."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R82",
+   "art": "regel",
+   "name": "Sperrige Teile absetzen",
+   "aussagen": [
+    {
+     "id": "R82-M1",
+     "text": "Sicherheitsschuhe",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt 2.2.2, Persönliche Schutzausrüstung",
+        "zitat": "Bei Tätigkeiten in der Werkstatt und auf Baustellen müssen grundsätzlich Sicherheitsschuhe getragen werden."
+       }
+      ],
+      "bemerkung": "Gilt allgemein für Werkstatt und Baustelle, also auch für das Absetzen von Hand. Abschnitt 3.4.5 verlangt Sicherheitsschuhe ausdrücklich bei schwereren Werkstücken. Die PSA-BV nennt keine Sicherheitsschuhe."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt 3.4.5, Persönliche Schutzausrüstung",
+        "zitat": "Zur Vermeidung von Fußverletzungen müssen bei der Handhabung von schwereren Werkstücken Sicherheitsschuhe getragen werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R82-M2",
+     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in PSA-BV und DGUV Regel 109-606 (Finger, Quetsch, unterleg, absetz, ablegen, abstell) und im ganzen Textordner (Finger nicht unter die Last, Unterlagen absetzen, unterlegen). Weder das Absetzen auf Unterlagen noch die Anweisung, die Finger nicht unter die Last zu bringen, steht dort. Beide Teile fehlen."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in DGUV Regel 109-606 (absetzen, ablegen, abstellen, unterlegen, Finger, Quetschen) und PSA-BV sowie im ganzen Textordner nach „nicht unter die Last“, „Unterlage“, „absetzen“. Nichts zum Absetzen auf Unterlagen oder zur Fingerstellung beim Absetzen einer Last gefunden. Beide Teile fehlen."
+     }
+    }
+   ],
+   "hinweise": [
+    "Vorschlag A: R82-M2 in zwei Aussagen teilen und beide ohne Beleg lassen, bis eine passende Quelle vorliegt."
+   ],
+   "status": "teilweise"
+  },
+  {
+   "id": "R29",
+   "art": "regel",
+   "name": "Hängeförderer",
+   "aussagen": [
+    {
+     "id": "R29-M1",
+     "text": "Aufhängepunkte nach Gewicht festlegen",
+     "status": "einfach",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Abschnitt 2 Nr. 2.1 Abs. 1",
+        "zitat": "Auch sind Belastungen der Aufhängepunkte oder der Verankerungspunkte an den tragenden Teilen zu berücksichtigen."
+       }
+      ],
+      "bemerkung": "Der Text verlangt, die Belastung der Aufhängepunkte zu berücksichtigen, nicht wörtlich sie nach Gewicht festzulegen. Sachlich dasselbe, die Fundstelle ist Anhang 1 und nicht § 6."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in BetrSichV, ASR A2.1 und im ganzen Textordner nach Hängeförderer, Traverse, Aufhängepunkt. Nächste Stelle: BetrSichV Anhang 1 Nr. 2.1 Satz 4, dort heißt es nur, die Belastungen der Aufhängepunkte oder Verankerungspunkte an den tragenden Teilen seien zu berücksichtigen. Von Festlegen nach Gewicht steht dort nichts."
+     }
+    },
+    {
+     "id": "R29-M2",
+     "text": "Bereich unter dem Förderer sichern",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Abschnitt 2 Nr. 2.6 Buchstabe a",
+        "zitat": "Beschäftigte nicht durch hängende Lasten gefährdet werden, insbesondere hängende Lasten nicht über ungeschützte Bereiche, an denen sich für gewöhnlich Beschäftigte aufhalten, bewegt werden,"
+       }
+      ],
+      "bemerkung": "Der Text verlangt, hängende Lasten nicht über ungeschützte Bereiche zu bewegen, in denen sich Beschäftigte aufhalten. Das deckt das Sichern des Bereichs unter dem Förderer. Hängeförderer sind nicht ausdrücklich genannt, die Regel gilt für Arbeitsmittel zum Heben von Lasten."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A2-1.txt",
+        "stelle": "Abschnitt 4.4 Nr. 3",
+        "zitat": "Lassen sich Bereiche aus betriebstechnischen Gründen nicht durch Maßnahmen nach Nr. 1 und 2 sichern, muss eine zeitlich-organisatorische Trennung in Verbindung mit einer Absperrung und Kennzeichnung des Gefahrenbereiches oder einer Überwachung (z. B. Warnposten) des Gefahrenbereiches erfolgen."
+       },
+       {
+        "datei": "ASR/ASR-A2-1.txt",
+        "stelle": "Abschnitt 4.4 Absatz 1",
+        "zitat": "Bauliche und technische Maßnahmen haben Vorrang vor organisatorischen und individuellen Schutzmaßnahmen."
+       }
+      ],
+      "bemerkung": "Die ASR nennt Hängeförderer nicht ausdrücklich; sie regelt allgemein den Schutz vor herabfallenden Gegenständen mit Rangfolge (zuerst baulich und technisch, dann Absperren und Überwachen)."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R70",
+   "art": "regel",
+   "name": "Arbeiten an elektrischen Anlagen",
+   "aussagen": [
+    {
+     "id": "R70-M1",
+     "text": "Nur Elektrofachkräfte",
+     "status": "strittig",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt",
+        "stelle": "§ 3 Abs. 1 Satz 1",
+        "zitat": "Der Unternehmer hat dafür zu sorgen, dass elektrische Anlagen und Betriebsmittel nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft den elektrotechnischen Regeln entsprechend errichtet, geändert und instandgehalten werden."
+       }
+      ],
+      "bemerkung": "Der Text erlaubt auch Arbeit unter Leitung und Aufsicht einer Elektrofachkraft."
+     },
+     "B": {
+      "urteil": "widerspruch",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt",
+        "stelle": "§ 3 Abs. 1 Satz 1",
+        "zitat": "Der Unternehmer hat dafür zu sorgen, dass elektrische Anlagen und Betriebsmittel nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft den elektrotechnischen Regeln entsprechend errichtet, geändert und instandgehalten werden."
+       },
+       {
+        "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt",
+        "stelle": "§ 8 Nr. 2, zweiter Spiegelstrich",
+        "zitat": "der Unternehmer mit diesen Arbeiten nur Personen beauftragt, die für diese Arbeiten an unter Spannung stehenden aktiven Teilen fachlich geeignet sind"
+       }
+      ],
+      "bemerkung": "Der Text lässt Arbeiten auch unter Leitung und Aufsicht einer Elektrofachkraft zu, nicht nur durch Elektrofachkräfte selbst. Er regelt außerdem nur Errichten, Ändern und Instandhalten; für Arbeiten unter Spannung nach § 8 genügt fachliche Eignung der beauftragten Personen."
+     }
+    },
+    {
+     "id": "R70-M2",
+     "text": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in DGUV Vorschrift 3 (spannungsfrei, freischalt, Wiedereinschalten, feststell) und im ganzen Textordner (Spannungsfreiheit, gegen Wiedereinschalten, Sicherheitsregeln). § 6 Abs. 2 verlangt nur, dass der spannungsfreie Zustand hergestellt und für die Dauer der Arbeiten sichergestellt wird. Das Feststellen der Spannungsfreiheit steht nicht ausdrücklich im Text, ebenso wenig die drei Schritte als Folge."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in DGUV Vorschrift 3 (spannungsfrei, Wiedereinschalten, feststellen) und im ganzen Textordner. § 6 Abs. 2 verlangt nur: vor Beginn der Arbeiten an aktiven Teilen den spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen. Das Feststellen der Spannungsfreiheit als eigener Schritt und die Reihenfolge Freischalten, gegen Wiedereinschalten sichern stehen dort nicht; gedeckt wäre nur der erste und der zweite Teil sinngemäß, der dritte Teil fehlt."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "strittig"
+  },
+  {
+   "id": "R05",
+   "art": "regel",
+   "name": "Abladen mit betriebsfremden Personen",
+   "aussagen": [
+    {
+     "id": "R05-M1",
+     "text": "Fester Warteplatz für den Lkw-Fahrer, Einweisung, Abstimmung",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ArbSchG § 8 und im ganzen Textordner (Warteplatz, Wartebereich, Lkw-Fahrer). Abstimmung und Unterrichtung über Gefahren stehen in § 8 Abs. 1 Satz 2, die Pflicht, sich zu vergewissern, dass Fremde Anweisungen erhalten haben, in § 8 Abs. 2. Ein fester Warteplatz für den Lkw-Fahrer steht nirgends. Damit fehlt ein Teil."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ArbSchG (§ 8 Zusammenarbeit mehrerer Arbeitgeber) und im ganzen Textordner nach Warteplatz, Wartebereich, Lkw-Fahrer, Aufenthalt Fahrer. Abstimmung und Anweisungen für Beschäftigte anderer Arbeitgeber stehen in § 8 Abs. 1 und 2 ArbSchG, ein fester Warteplatz für Lkw-Fahrer steht nirgends. Der Teil Warteplatz fehlt."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "offen"
+  },
+  {
+   "id": "P14",
+   "art": "pflicht",
+   "name": "Unterweisung Lärm",
+   "aussagen": [
+    {
+     "id": "P14",
+     "text": "Bei Erreichen der unteren Auslösewerte über Lärm unterweisen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 11 Abs. 1 Satz 1",
+        "zitat": "stellt der Arbeitgeber sicher, dass die betroffenen Beschäftigten eine Unterweisung erhalten, die auf den Ergebnissen der Gefährdungsbeurteilung beruht und die Aufschluss über die mit der Exposition verbundenen Gesundheitsgefährdungen gibt."
+       }
+      ],
+      "bemerkung": "Voraussetzung im Text: Die unteren Auslösewerte nach § 6 Satz 1 Nr. 2 können erreicht oder überschritten werden."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 11 Abs. 1 Satz 1",
+        "zitat": "Können bei Exposition durch Lärm die unteren Auslösewerte nach § 6 Satz 1 Nr. 2"
+       },
+       {
+        "datei": "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt",
+        "stelle": "§ 11 Abs. 1 Satz 1",
+        "zitat": "stellt der Arbeitgeber sicher, dass die betroffenen Beschäftigten eine Unterweisung erhalten, die auf den Ergebnissen der Gefährdungsbeurteilung beruht und die Aufschluss über die mit der Exposition verbundenen Gesundheitsgefährdungen gibt."
+       }
+      ],
+      "bemerkung": "Die Unterweisung ist vor Aufnahme der Beschäftigung und danach in regelmäßigen Abständen zu machen (§ 11 Abs. 1 Satz 2)."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "P17",
+   "art": "pflicht",
+   "name": "Abstimmung mit Fremdfirmen",
+   "aussagen": [
+    {
+     "id": "P17",
+     "text": "Arbeiten abstimmen, Fremde einweisen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 8 Abs. 1 Satz 2",
+        "zitat": "haben die Arbeitgeber je nach Art der Tätigkeiten insbesondere sich gegenseitig und ihre Beschäftigten über die mit den Arbeiten verbundenen Gefahren für Sicherheit und Gesundheit der Beschäftigten zu unterrichten und Maßnahmen zur Verhütung dieser Gefahren abzustimmen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 8 Abs. 2",
+        "zitat": "Der Arbeitgeber muß sich je nach Art der Tätigkeit vergewissern, daß die Beschäftigten anderer Arbeitgeber, die in seinem Betrieb tätig werden, hinsichtlich der Gefahren für ihre Sicherheit und Gesundheit während ihrer Tätigkeit in seinem Betrieb angemessene Anweisungen erhalten haben."
+       }
+      ],
+      "bemerkung": "Abstimmen steht in Abs. 1, Unterrichten über Gefahren und sich Vergewissern über Anweisungen für Fremde in Abs. 1 und 2. Gleichlautend DGUV Vorschrift 1 § 6."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 8 Abs. 1 Satz 2",
+        "zitat": "Soweit dies für die Sicherheit und den Gesundheitsschutz der Beschäftigten bei der Arbeit erforderlich ist, haben die Arbeitgeber je nach Art der Tätigkeiten insbesondere sich gegenseitig und ihre Beschäftigten über die mit den Arbeiten verbundenen Gefahren für Sicherheit und Gesundheit der Beschäftigten zu unterrichten und Maßnahmen zur Verhütung dieser Gefahren abzustimmen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 8 Abs. 2",
+        "zitat": "Der Arbeitgeber muß sich je nach Art der Tätigkeit vergewissern, daß die Beschäftigten anderer Arbeitgeber, die in seinem Betrieb tätig werden, hinsichtlich der Gefahren für ihre Sicherheit und Gesundheit während ihrer Tätigkeit in seinem Betrieb angemessene Anweisungen erhalten haben."
+       }
+      ],
+      "bemerkung": "Der Text verlangt Unterrichten, Abstimmen der Schutzmaßnahmen und Vergewissern, dass angemessene Anweisungen erteilt wurden; „einweisen“ ist sinngemäß. Gilt für Beschäftigte anderer Arbeitgeber, die am selben Arbeitsplatz oder im Betrieb tätig werden."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R16",
+   "art": "regel",
+   "name": "Sonderbetrieb an der Anlage",
+   "aussagen": [
+    {
+     "id": "R16-M1",
+     "text": "Abschalten und gegen Wiedereinschalten sichern",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt 3.1, Maßnahmen Plattenaufteilsäge (Reinigungs- und Wartungsarbeiten)",
+        "zitat": "Schalten Sie bei Reinigungs- und Wartungsarbeiten immer die gesamte Maschine am Hauptschalter aus und sichern Sie sie gegen Wiedereinschalten."
+       },
+       {
+        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
+        "stelle": "Abschnitt 3.2.1, Instandhaltung, Rüstarbeiten",
+        "zitat": "Ausgeschaltete Maschinen sind gegen unbeabsichtigtes Einschalten zu sichern, zum Beispiel mit einem Vorhängeschloss beziehungsweise bei Handmaschinen durch Ziehen des Netzsteckers."
+       }
+      ],
+      "bemerkung": "In BetrSichV und TRBS 1112 gibt es dazu keinen wörtlichen Satz (dort nur Energien beseitigen, Sicherungsmaßnahmen festlegen). Belegt nur durch die beiden DGUV-Regeln, Stufe Empfehlung."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Kapitel 2.1 'Was für alle gilt', Absatz nach 'Maschinen abschalten'",
+        "zitat": "Achten Sie darauf, dass Rüsttätigkeiten oder Instandhaltungsarbeiten nur bei abgeschalteten Maschinen vorgenommen werden, die dabei gegen unbeabsichtigtes Einschalten gesichert sind, zum Beispiel mit einem Vorhängeschloss"
+       },
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt Plattenaufteilsägen, Maßnahmen (Reinigung und Wartung)",
+        "zitat": "Schalten Sie bei Reinigungs- und Wartungsarbeiten immer die gesamte Maschine am Hauptschalter aus und sichern Sie sie gegen Wiedereinschalten."
+       }
+      ],
+      "bemerkung": "Gedeckt nur über DGUV Regel 109-606 (Empfehlung). BetrSichV und TRBS 1112 nennen das Abschalten und Sichern gegen Wiedereinschalten nicht wörtlich, nur allgemein § 10 Abs. 3 Nr. 6 (Gefährdungen durch gefährliche Energien vermeiden)."
+     }
+    },
+    {
+     "id": "R16-M2",
+     "text": "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 10 Abs. 2 Satz 2",
+        "zitat": "Instandhaltungsmaßnahmen dürfen nur von fachkundigen, beauftragten und unterwiesenen Beschäftigten oder von sonstigen für die Durchführung der Instandhaltungsarbeiten geeigneten Auftragnehmern mit vergleichbarer Qualifikation durchgeführt werden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 10 Abs. 2 Satz 2",
+        "zitat": "Instandhaltungsmaßnahmen dürfen nur von fachkundigen, beauftragten und unterwiesenen Beschäftigten oder von sonstigen für die Durchführung der Instandhaltungsarbeiten geeigneten Auftragnehmern mit vergleichbarer Qualifikation durchgeführt werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R16-M3",
+     "text": "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 10 Abs. 3 Satz 2 Nr. 8",
+        "zitat": "sichere Arbeitsverfahren für solche Arbeitsbedingungen festzulegen, die vom Normalzustand abweichen,"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 10 Abs. 3 Nr. 8",
+        "zitat": "sichere Arbeitsverfahren für solche Arbeitsbedingungen festzulegen, die vom Normalzustand abweichen,"
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R76",
+   "art": "regel",
+   "name": "Verschmutzter oder unebener Boden",
+   "aussagen": [
+    {
+     "id": "R76-M1",
+     "text": "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 8 Reinigung, Abs. 1 Satz 2",
+        "zitat": "Verunreinigungen und Ablagerungen, die zu Gefährdungen führen können, sind unverzüglich zu beseitigen."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 8 Abs. 1 Satz 2",
+        "zitat": "Verunreinigungen und Ablagerungen, die zu Gefährdungen führen können, sind unverzüglich zu beseitigen."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R76-M2",
+     "text": "Stolperstellen beseitigen oder kennzeichnen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 1.5 Abs. 2 Satz 1",
+        "zitat": "Die Fußböden der Räume dürfen keine Unebenheiten, Löcher, Stolperstellen oder gefährlichen Schrägen aufweisen."
+       },
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 4 Abs. 13 Satz 1",
+        "zitat": "Fußbodenstellen, an denen sich die Gefahr des Stolperns oder Ausrutschens technisch nicht vermeiden lässt,"
+       },
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 4 Abs. 13 Satz 3 und 4",
+        "zitat": "Hierzu haben sich Warnaufsteller bewährt. Erforderlichenfalls ist der betreffende Bereich zusätzlich abzusperren."
+       }
+      ],
+      "bemerkung": "Beseitigen: ArbStaettV Anhang 1.5 Abs. 2 und ASR A1.5 Abschnitt 4 Abs. 3. Kennzeichnen nicht vermeidbarer Stellen: ASR A1.5 Abschnitt 4 Abs. 13 und Abschnitt 5 Abs. 4 (nach ASR A1.3 zu kennzeichnen, bei Bedarf absperren)."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 4 Abs. 2 Satz 2",
+        "zitat": "Festgestellte Mängel müssen unverzüglich beseitigt werden."
+       },
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 4 Abs. 13 Satz 1",
+        "zitat": "Fußbodenstellen, an denen sich die Gefahr des Stolperns oder Ausrutschens technisch nicht vermeiden lässt, z. B. wenn die erforderliche Rutschhemmung kurzzeitig herabgesetzt ist und sich die Ursachen hierfür nicht unverzüglich beseitigen lassen, wie nach einer Feuchtreinigung, sind entsprechend der ASR A1.3 „Sicherheits- und Gesundheitsschutzkennzeichnung“ zu kennzeichnen."
+       }
+      ],
+      "bemerkung": "Beseitigen hat Vorrang, Kennzeichnen gilt für technisch nicht vermeidbare Stolperstellen (ASR A1.5 Abschnitt 5 Abs. 4). Die Aussage ist nur als Reihenfolge 'beseitigen, sonst kennzeichnen' gedeckt, nicht als frei wählbares 'oder'."
+     }
+    },
+    {
+     "id": "R76-M3",
+     "text": "Rutschhemmende Sicherheitsschuhe",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ASR A1.5 und ArbStaettV nach Sicherheitsschuh, Schuhwerk, Fußschutz, persönliche Schutzausrüstung, rutschhemmend; dort steht nichts (ASR A1.5 nennt Schuhwerk nur bei der Prüfung der Rutschhemmung des Bodens). Im ganzen Textordner nur: ASR A5-1 (Arbeitsplätze im Freien bei Eis und Schnee: Schuhwerk mit rutschhemmender Sohle) und DGUV Regel 109-607 (Sicherheitsschuhe nur bei verschütteter Erodierflüssigkeit). Beides gilt nicht allgemein für verschmutzte oder unebene Böden in der Werkstatt."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in ASR A1.5 und ArbStaettV nach Sicherheitsschuhe, Schuhwerk, Fußschutz, rutschhemmende Sohle, sowie im ganzen Textordner. ASR A1.5 Abschnitt 3 sagt nur, bei der Auswahl der Bewertungsgruppe sei zu berücksichtigen, welches Schuhwerk getragen wird; eine Pflicht oder Empfehlung für rutschhemmende Sicherheitsschuhe steht dort nicht. Passende Stelle nur in DGUV Regel 109-607 (Erodierflüssigkeit), also anderer Fall."
+     }
+    },
+    {
+     "id": "R76-M4",
+     "text": "Verkehrswege freihalten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "§ 4 Abs. 4 Satz 1",
+        "zitat": "Der Arbeitgeber hat dafür zu sorgen, dass Verkehrswege, Fluchtwege und Notausgänge ständig freigehalten werden, damit sie jederzeit benutzbar sind."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "§ 4 Abs. 4 Satz 1",
+        "zitat": "Der Arbeitgeber hat dafür zu sorgen, dass Verkehrswege, Fluchtwege und Notausgänge ständig freigehalten werden, damit sie jederzeit benutzbar sind."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R76-M5",
+     "text": "Rutschhemmenden Fußboden vorsehen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 1.5 Abs. 2 Satz 2",
+        "zitat": "Sie müssen gegen Verrutschen gesichert, tragfähig, trittsicher und rutschhemmend sein."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 1.5 Abs. 2 Satz 2",
+        "zitat": "Sie müssen gegen Verrutschen gesichert, tragfähig, trittsicher und rutschhemmend sein."
+       },
+       {
+        "datei": "ASR/ASR-A1-5.txt",
+        "stelle": "Abschnitt 4 Abs. 3 Satz 2",
+        "zitat": "Sie müssen gegen Verrutschen bzw. Kippen (z. B. bei Abdeckungen) gesichert, tragfähig, trittsicher und rutschhemmend sein."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R21",
+   "art": "regel",
+   "name": "Trennendes Werkzeug mit Handvorschub oder Handbedienung",
+   "aussagen": [
+    {
+     "id": "R21-M1",
+     "text": "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen",
+     "status": "einfach",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt",
+        "stelle": "Abschnitt 3.9.3 (Kreissägemaschinen)",
+        "zitat": "Eine nicht am Spaltkeil befestigte Schutzhaube muss so eingestellt werden, dass der"
+       },
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt 3.1.1, Betrieb, Benutzungsregeln",
+        "zitat": "Schutzhaube immer auf Werkstückhöhe einstellen. Werkstücke mit gleichmäßiger Geschwindigkeit und konstantem Andruck vorschieben."
+       }
+      ],
+      "bemerkung": "Belegt für die Schutzhaube der Kreissäge (Handvorschub); die Aussage ist allgemeiner formuliert. Das Benutzen und Einstellen der Schutzeinrichtung auf das Werkstück steht dort so."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in DGUV Regel 100-500 und 109-606 nach Schutzeinrichtungen benutzen und einstellen. Gefunden nur Einzelfälle für die Kreissäge: 100-500 Nr. 3.9.3 (nicht am Spaltkeil befestigte Schutzhaube so einstellen, dass der Zahnkranz bis auf den erforderlichen Teil verdeckt ist) und 606 Kap. 3.1.1 (Schutzhaube auf Werkstückhöhe einstellen). Ein allgemeiner Satz für alle Maschinen mit Handvorschub steht nicht im Text, und 'Schutzeinrichtungen benutzen' wird für diese Maschinen nicht als eigene Anforderung genannt."
+     }
+    },
+    {
+     "id": "R21-M2",
+     "text": "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt 2.2.1, Absatz Werkzeuge",
+        "zitat": "Sorgen Sie dafür, dass für Arbeiten mit Handvorschub auch nur hierfür geeignete Werkzeuge verwendet werden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Kapitel 2.1, Abschnitt 'Werkzeuge'",
+        "zitat": "Sorgen Sie dafür, dass für Arbeiten mit Handvorschub auch nur hierfür geeignete Werkzeuge verwendet werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R21-M3",
+     "text": "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Abschnitt 3.1.1, Maßnahmen, Betrieb",
+        "zitat": "Geeignete Hilfsmittel, wie Schiebestock, Schiebeholz oder die Sägehilfe"
+       }
+      ],
+      "bemerkung": "Im Text mit dem Zusatz nach Möglichkeit einsetzen. DGUV Regel 100-500 Abschnitt 3.9.7 macht den Schiebestock bei weniger als 120 mm Abstand zwischen Parallelanschlag und Sägeblatt zur Pflicht."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt",
+        "stelle": "Nr. 3.9.7 (Kreissägemaschinen)",
+        "zitat": "Zum Zuführen der Werkstücke ist ein Schiebestock zu benutzen, wenn der Abstand zwischen Parallelanschlag und Sägeblatt weniger als 120 mm beträgt."
+       },
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Kapitel 3.1.1, Maßnahmen",
+        "zitat": "Geeignete Hilfsmittel, wie Schiebestock, Schiebeholz oder die Sägehilfe „Fritz und Franz“, nach Möglichkeit einsetzen"
+       }
+      ],
+      "bemerkung": "Verpflichtend ist der Schiebestock nur bei Kreissägen mit Abstand unter 120 mm; sonst 'nach Möglichkeit'. Als Empfehlung mit 'zum Beispiel' ist die Aussage gedeckt."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R14",
+   "art": "regel",
+   "name": "Stehend lagern im Wagen",
+   "aussagen": [
+    {
+     "id": "R14-M1",
+     "text": "Wagen ausreichend standsicher",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 6 Abs. 1 Satz 2 Nr. 1 (nicht § 5)",
+        "zitat": "Arbeitsmittel ausreichend standsicher sein und, falls erforderlich, gegen unbeabsichtigte Positions- und Lageänderungen stabilisiert werden,"
+       }
+      ],
+      "bemerkung": "Die behauptete Fundstelle § 5 stimmt nicht, richtig ist § 6 Abs. 1."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 9 Abs. 1 Satz 2 Nr. 1",
+        "zitat": "Arbeitsmittel ausreichend standsicher sein und, falls erforderlich, gegen unbeabsichtigte Positions- und Lageänderungen stabilisiert werden,"
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R14-M2",
+     "text": "Beladeregel",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Die Aussage Beladeregel nennt keinen Inhalt und lässt sich nicht prüfen. Gesucht in BetrSichV (§ 5, § 6, Anhang 1) nach Beladung, Ladung, Be- und Entladung, Kippen: nur allgemein, dass mobile Arbeitsmittel bei Be- und Entladung gegen unbeabsichtigte Bewegung zu sichern sind. Eine Beladeregel für Wagen steht dort nicht."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in BetrSichV nach Beladen, Beladung, Beladeregel, Schwerpunkt, Kippen, stehend. Eine Beladeregel für Wagen steht dort nicht; der Treffer zum Schwerpunkt (§ 3 Abs. 2) betrifft Gefährdungsbeurteilung, die Kipp-Stellen (Anhang 1 Nr. 2.1) nur Hebezeuge und Flurförderzeuge. Auch DGUV Information 208-061 (Lagereinrichtungen und Ladungsträger) enthält keine Beladeregel für stehend gelagerte Wagen. Zudem ist 'Beladeregel' keine prüfbare Aussage."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R102",
+   "art": "regel",
+   "name": "Arbeit im Freien bei Witterung",
+   "aussagen": [
+    {
+     "id": "R102-M1",
+     "text": "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 5.1 Satz 2",
+        "zitat": "Dazu gehört, dass diese Arbeitsplätze gegen Witterungseinflüsse geschützt sind oder den Beschäftigten geeignete persönliche Schutzausrüstungen zur Verfügung gestellt werden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbStaettV.txt",
+        "stelle": "Anhang Nr. 5.1 Satz 2",
+        "zitat": "Dazu gehört, dass diese Arbeitsplätze gegen Witterungseinflüsse geschützt sind oder den Beschäftigten geeignete persönliche Schutzausrüstungen zur Verfügung gestellt werden."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R94",
+   "art": "regel",
+   "name": "Personen bewegen",
+   "aussagen": [
+    {
+     "id": "R94-M1",
+     "text": "Manuelles Bewegen durch organisatorische Maßnahmen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, vermeiden",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LasthandhabV.txt",
+        "stelle": "§ 2 Abs. 1",
+        "zitat": "geeignete organisatorische Maßnahmen zu treffen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, einzusetzen, um manuelle Handhabungen von Lasten, die für die Beschäftigten eine Gefährdung für Sicherheit und Gesundheit, insbesondere der Lendenwirbelsäule mit sich bringen, zu vermeiden."
+       }
+      ],
+      "bemerkung": "Dass Personen als Lasten gelten, sagt die BAuA-Leitmerkmalmethode Heben-Halten-Tragen (Lasten können Gegenstände, Personen oder Tiere sein); die Verordnung selbst sagt es nicht ausdrücklich."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/LasthandhabV.txt",
+        "stelle": "§ 2 Abs. 1",
+        "zitat": "Der Arbeitgeber hat unter Zugrundelegung des Anhangs geeignete organisatorische Maßnahmen zu treffen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, einzusetzen, um manuelle Handhabungen von Lasten, die für die Beschäftigten eine Gefährdung für Sicherheit und Gesundheit, insbesondere der Lendenwirbelsäule mit sich bringen, zu vermeiden."
+       },
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+        "stelle": "Anwendungsbereich, 2. Spiegelstrich",
+        "zitat": "Lasten können Gegenstände, Personen oder Tiere sein."
+       }
+      ],
+      "bemerkung": "Die Verordnung nennt Personen nicht ausdrücklich als Last; dass Personen als Lasten gelten, steht in der BAuA-Leitmerkmalmethode."
+     }
+    },
+    {
+     "id": "R94-M2",
+     "text": "Belastung mit der Leitmerkmalmethode bewerten",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+        "stelle": "Abschnitt Anwendungshinweise, Pflegetätigkeiten",
+        "zitat": "Pflegetätigkeiten, die über die in dieser Leitmerkmalmethode beschriebenen Definitionen von manuellem Heben, Halten und/oder Tragen hinausgehen, wie z.B. Patiententransfer, sind mit der Leitmerkmalmethode"
+       }
+      ],
+      "bemerkung": "Der Text nennt für Patiententransfer die Leitmerkmalmethode Ganzkörperkräfte (LMM-GK), für das Heben und Umlagern im Sinne von Heben, Halten, Tragen die LMM-HHT. Die Methode ist eine Empfehlung der BAuA, keine Pflicht der Verordnung."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+        "stelle": "Abgrenzung zu anderen Leitmerkmalmethoden",
+        "zitat": "Pflegetätigkeiten, die über die in dieser Leitmerkmalmethode beschriebenen Definitionen von manuellem Heben, Halten und/oder Tragen hinausgehen, wie z.B. Patiententransfer, sind mit der Leitmerkmalmethode „Ganzkörperkräfte“ (LMM-GK) zu beurteilen."
+       },
+       {
+        "datei": "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+        "stelle": "Anwendungsbereich, 1. Spiegelstrich",
+        "zitat": "Aufbringen von erheblichen Kräften beim Bearbeiten großer Werkstücke, bei der Maschinenbedienung, beim Positionieren von Arbeitsgegenständen, beim manuellen Bewegen von Personen oder bei der Benutzung von Werkzeugen"
+       }
+      ],
+      "bemerkung": "Gedeckt als Empfehlung der BAuA-Methoden, nicht als gesetzliche Pflicht. Je nach Tätigkeit LMM Heben-Halten-Tragen oder Ganzkörperkräfte."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R08",
+   "art": "regel",
+   "name": "Trennen oder Abtragen in vollautomatischer Anlage",
+   "aussagen": [
+    {
+     "id": "R08-M1",
+     "text": "Schutzeinrichtungen wirksam, nichts überbrückt",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 6 Abs. 2 Satz 1",
+        "zitat": "dass vorhandene Schutzeinrichtungen und zur Verfügung gestellte persönliche Schutzausrüstungen verwendet werden, dass erforderliche Schutz- oder Sicherheitseinrichtungen funktionsfähig sind und nicht auf einfache Weise manipuliert oder umgangen werden."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "§ 6 Abs. 2 Satz 1",
+        "zitat": "Der Arbeitgeber hat dafür zu sorgen, dass vorhandene Schutzeinrichtungen und zur Verfügung gestellte persönliche Schutzausrüstungen verwendet werden, dass erforderliche Schutz- oder Sicherheitseinrichtungen funktionsfähig sind und nicht auf einfache Weise manipuliert oder umgangen werden."
+       },
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Kapitel 3.1.11 CNC-Bearbeitungszentren, Maßnahmen",
+        "zitat": "Achten Sie darauf, dass Schutzeinrichtungen nicht manipuliert oder umgangen werden."
+       }
+      ],
+      "bemerkung": "Die Verordnung sagt 'nicht auf einfache Weise manipuliert oder umgangen'; 'wirksam' entspricht 'funktionsfähig'. Die zweite Stelle ist die schärfere Fassung für CNC-Anlagen."
+     }
+    },
+    {
+     "id": "R08-M2",
+     "text": "Schutzeinrichtungen regelmäßig prüfen",
+     "status": "einfach",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in BetrSichV (§ 6, § 10, § 14, § 3 Abs. 6) und TRBS 2111 nach Schutzeinrichtung zusammen mit prüfen, regelmäßig, Funktionskontrolle: Keine Stelle verlangt die regelmäßige Prüfung von Schutzeinrichtungen. § 14 Abs. 2 regelt wiederkehrende Prüfung von Arbeitsmitteln mit Schäden verursachenden Einflüssen, TRBS 2111 nennt nur allgemein Sicht- und Funktionskontrolle des Arbeitsmittels vor Schichtbeginn."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+        "stelle": "Kapitel 3.1.11 CNC-Bearbeitungszentren, Maßnahmen",
+        "zitat": "Kontrollieren Sie regelmäßig die ordnungsgemäße Funktion und Anordnung der Schutzeinrichtungen."
+       }
+      ],
+      "bemerkung": "Nur über DGUV Regel 109-606 (Empfehlung) gedeckt, nicht über die im Paket genannten BetrSichV und TRBS 2111. Die BetrSichV verlangt in § 14 Abs. 2 wiederkehrende Prüfung von Arbeitsmitteln nach selbst ermittelten Fristen (§ 3 Abs. 6), nennt aber Schutzeinrichtungen dort nicht eigens; TRBS 2111 nennt keine Prüfung der Schutzeinrichtungen."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "teilweise"
+  },
+  {
+   "id": "R38",
+   "art": "regel",
+   "name": "Flachglas",
+   "aussagen": [
+    {
+     "id": "R38-M1",
+     "text": "Schnittschutzhandschuhe und Unterarmschutz",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "PSA-BV § 2 sagt nur allgemein, welche persönliche Schutzausrüstung bereitzustellen ist (geeignet, Schutz gegen die Gefährdung); Schnittschutzhandschuhe oder Unterarmschutz stehen dort nicht. Im ganzen Textordner gesucht nach Schnittschutz, Unterarm, Armschutz, Ärmelschutz, Flachglas, Isolierglas: Flachglas kommt nur in einer Tabelle von ASR A1.5 vor, Schnittschutzhandschuhe nur bei Motorkettensäge (TRBS 2111), Metallbau-Handhabung (DGUV Regel 109-607) und Glasbruch im Labor (TRGS 520). Unterarmschutz bei Glas steht nirgends."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in PSA-BV (Schnitt, Hand, Arm) und im ganzen Textordner nach Schnittschutzhandschuh, schnittfest, Unterarm, Armschutz, Flachglas, Isolierglas. Die PSA-BV regelt nur allgemein Bereitstellung und Benutzung von PSA, keine bestimmte Ausrüstung. Schnittschutzhandschuhe stehen in DGUV 109-606/-607 und TRBS 2111 nur für andere Tätigkeiten (Messerwechsel, Metallbau, Motorkettensäge). Unterarmschutz steht nirgends; zu Flachglas gibt es keine Fundstelle. Beide Teile der Aussage fehlen."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "offen"
+  },
+  {
+   "id": "R83",
+   "art": "regel",
+   "name": "Staub beim Schleifen und Trennen von Metall",
+   "aussagen": [
+    {
+     "id": "R83-M1",
+     "text": "Absaugung an der Entstehungsstelle",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 5 Satz 1",
+        "zitat": "Stäube sind an der Austritts- oder Entstehungsstelle möglichst vollständig zu erfassen und gefahrlos zu entsorgen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 3 Satz 2",
+        "zitat": "Staub emittierende Anlagen, Maschinen und Geräte müssen mit einer wirksamen Absaugung versehen sein, soweit dies nach dem Stand der Technik möglich ist"
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 5 Satz 1",
+        "zitat": "Stäube sind an der Austritts- oder Entstehungsstelle möglichst vollständig zu erfassen und gefahrlos zu entsorgen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 3 Satz 2",
+        "zitat": "Staub emittierende Anlagen, Maschinen und Geräte müssen mit einer wirksamen Absaugung versehen sein, soweit dies nach dem Stand der Technik möglich ist und die Staubfreisetzung nicht durch andere Maßnahmen verhindert wird."
+       }
+      ],
+      "bemerkung": ""
+     }
+    },
+    {
+     "id": "R83-M2",
+     "text": "Staub aufsaugen, nicht abblasen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 6 Satz 2",
+        "zitat": "Ist dies nicht möglich, so sind die Staubablagerungen durch Feucht- oder Nassverfahren nach dem Stand der Technik oder durch saugende Verfahren unter Verwendung geeigneter Staubsauger oder Entstauber zu beseitigen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 6 Satz 3",
+        "zitat": "Abblasen von Staubablagerungen mit Druckluft ist grundsätzlich nicht zulässig."
+       }
+      ],
+      "bemerkung": "Der Text lässt neben dem Saugen auch Feucht- oder Nassverfahren zu."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 6",
+        "zitat": "Ist dies nicht möglich, so sind die Staubablagerungen durch Feucht- oder Nassverfahren nach dem Stand der Technik oder durch saugende Verfahren unter Verwendung geeigneter Staubsauger oder Entstauber zu beseitigen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+        "stelle": "Anhang I Nr. 2.3 Abs. 6 Satz 3",
+        "zitat": "Das Reinigen des Arbeitsbereichs durch Kehren ohne Staub bindende Maßnahmen oder Abblasen von Staubablagerungen mit Druckluft ist grundsätzlich nicht zulässig."
+       }
+      ],
+      "bemerkung": "Saugen ist nur eines von mehreren zulässigen Verfahren (auch Feucht- oder Nassverfahren); Abblasen ist grundsätzlich unzulässig."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "R07",
+   "art": "regel",
+   "name": "Vakuumheber",
+   "aussagen": [
+    {
+     "id": "R07-M1",
+     "text": "Warneinrichtung bei Unterdruckabfall funktionsfähig",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in BetrSichV (Anhang 1 Nr. 2, § 11), DGUV Regel 109-606, 109-607 und DGUV Vorschrift 52 nach Vakuum, Unterdruck, Saug, Warneinrichtung: Keine Stelle verlangt eine Warneinrichtung bei Unterdruckabfall. BetrSichV Anhang 1 Nr. 2.3.4 verlangt Warneinrichtungen nur für Hebemittel, deren Befehlseinrichtung nicht in der Nähe der Last liegt; DGUV Vorschrift 52 verlangt eine Warneinrichtung nur für Krane."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Gesucht in BetrSichV und im ganzen Textordner nach Vakuum, Unterdruck, Unterdruckabfall, Warneinrichtung. Vakuumheber kommen nur als Beispiel für Lastaufnahmemittel in DGUV 109-607 (Kran) und als Bild in 109-606 vor; eine Warneinrichtung bei Unterdruckabfall wird nirgends verlangt. Die Norm für Vakuumheber steht nicht im Textordner."
+     }
+    },
+    {
+     "id": "R07-M2",
+     "text": "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich",
+     "status": "keiner",
+     "A": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Teilweise belegt: wiederkehrende Prüfung und Fristfestlegung durch den Arbeitgeber stehen so in BetrSichV § 14 Abs. 2 und § 3 Abs. 6. Es fehlt der Teil üblicher Richtwert jährlich: Gesucht in BetrSichV und DGUV Regel 109-606, 109-607, 100-500, Vorschrift 52 nach jährlich und mindestens einmal bei Vakuumheber oder Lastaufnahmemittel, nichts gefunden (DGUV Regel 109-607 sagt nur, die Prüfungen müssten dokumentiert sein)."
+     },
+     "B": {
+      "urteil": "nicht-gedeckt",
+      "belege": [],
+      "bemerkung": "Nur ein Teil gedeckt: wiederkehrende Prüfung und Fristfestlegung durch den Arbeitgeber (§ 3 Abs. 6, § 14 Abs. 2). Der 'übliche Richtwert jährlich' steht für Vakuumheber nirgends im Text; die Jahresfristen in der BetrSichV betreffen andere Anlagen. In DGUV 109-607 stehen für Lastaufnahmemittel wiederkehrende Prüfungen ohne Frist."
+     }
+    },
+    {
+     "id": "R07-M3",
+     "text": "Niemand unter der Last",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Abschnitt 2 Nr. 2.5 Buchstabe g",
+        "zitat": "Lasten nicht mit kraftschlüssig wirkenden Lastaufnahmemitteln über ungeschützte Beschäftigte geführt werden."
+       }
+      ],
+      "bemerkung": "Der Vakuumheber hält die Last durch Saugkraft und ist ein kraftschlüssig wirkendes Lastaufnahmemittel; das nennt der Text nicht ausdrücklich beim Namen. Die Verwendung ist in § 14 und § 3 Abs. 6 nicht geregelt, die behauptete Fundstelle trifft nur für M2 zu."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Abschnitt 2 (Heben von Lasten), Aufzählung 'Der Arbeitgeber hat dafür zu sorgen, dass', Buchstabe g",
+        "zitat": "Lasten nicht mit kraftschlüssig wirkenden Lastaufnahmemitteln über ungeschützte Beschäftigte geführt werden."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+        "stelle": "Anhang 1 Abschnitt 2 (Heben von Lasten), Aufzählung 'Der Arbeitgeber hat dafür zu sorgen, dass', Buchstabe a",
+        "zitat": "Beschäftigte nicht durch hängende Lasten gefährdet werden, insbesondere hängende Lasten nicht über ungeschützte Bereiche, an denen sich für gewöhnlich Beschäftigte aufhalten, bewegt werden,"
+       }
+      ],
+      "bemerkung": "Vakuumheber wirken kraftschlüssig; das Verbot gilt für das Führen der Last über ungeschützte Beschäftigte."
+     }
+    }
+   ],
+   "hinweise": [
+    "War bisher einfach geprüft und ist in der Gegenprüfung nicht bestätigt worden: zurück auf offen."
+   ],
+   "status": "teilweise"
+  },
+  {
+   "id": "P15",
+   "art": "pflicht",
+   "name": "Arbeitsmedizinische Vorsorge",
+   "aussagen": [
+    {
+     "id": "P15",
+     "text": "Pflicht- und Angebotsvorsorge nach der Gefährdungsbeurteilung organisieren",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 3 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat auf der Grundlage der Gefährdungsbeurteilung für eine angemessene arbeitsmedizinische Vorsorge zu sorgen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 4 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat nach Maßgabe des Anhangs Pflichtvorsorge für die Beschäftigten zu veranlassen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 5 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat den Beschäftigten Angebotsvorsorge nach Maßgabe des Anhangs anzubieten."
+       }
+      ],
+      "bemerkung": "Ob Pflicht- oder Angebotsvorsorge fällig ist, bestimmt der Anhang je Anlass (zum Beispiel Lärm, Hartholzstaub, Gefahrstoffe)."
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 3 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat auf der Grundlage der Gefährdungsbeurteilung für eine angemessene arbeitsmedizinische Vorsorge zu sorgen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 4 Abs. 1",
+        "zitat": "Der Arbeitgeber hat nach Maßgabe des Anhangs Pflichtvorsorge für die Beschäftigten zu veranlassen."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbMedVV.txt",
+        "stelle": "§ 5 Abs. 1 Satz 1",
+        "zitat": "Der Arbeitgeber hat den Beschäftigten Angebotsvorsorge nach Maßgabe des Anhangs anzubieten."
+       }
+      ],
+      "bemerkung": "Ob Pflicht- oder Angebotsvorsorge fällig ist, legt der Anhang der ArbMedVV je nach Tätigkeit fest (Lärm, Stäube, Gefahrstoffe sind dort genannt)."
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  },
+  {
+   "id": "P18",
+   "art": "pflicht",
+   "name": "Psychische Belastung beurteilen",
+   "aussagen": [
+    {
+     "id": "P18",
+     "text": "Psychische Belastungen bei der Arbeit in die Gefährdungsbeurteilung einbeziehen",
+     "status": "doppelt",
+     "A": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 5 Abs. 3 Nr. 6",
+        "zitat": "unzureichende Qualifikation und Unterweisung der Beschäftigten, 6. psychische Belastungen bei der Arbeit."
+       }
+      ],
+      "bemerkung": ""
+     },
+     "B": {
+      "urteil": "gedeckt",
+      "belege": [
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 5 Abs. 3 Nr. 5 und 6",
+        "zitat": "unzureichende Qualifikation und Unterweisung der Beschäftigten, 6. psychische Belastungen bei der Arbeit."
+       },
+       {
+        "datei": "Gesetze-Verordnungen/ArbSchG.txt",
+        "stelle": "§ 5 Abs. 1",
+        "zitat": "Der Arbeitgeber hat durch eine Beurteilung der für die Beschäftigten mit ihrer Arbeit verbundenen Gefährdung zu ermitteln, welche Maßnahmen des Arbeitsschutzes erforderlich sind."
+       }
+      ],
+      "bemerkung": ""
+     }
+    }
+   ],
+   "hinweise": [],
+   "status": "geprueft"
+  }
+ ]
+}

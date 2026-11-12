@@ -286,11 +286,17 @@
   "quellen": [
    {
     "id": "dguv-v68",
-    "stelle": "§ 7 Abs. 1"
+    "stelle": "§ 7 Abs. 1 letzter Satz; § 7 Abs. 1 Satz 3"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "637b8407aa61c381"
+  }
  },
  {
   "id": "P14",
@@ -301,12 +307,17 @@
   "quellen": [
    {
     "id": "laermvibv",
-    "stelle": null,
-    "hinweis": "§ 11"
+    "stelle": "§ 11 Abs. 1 Satz 1"
    }
   ],
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "ae6c7365c2443fe9"
+  }
  },
  {
   "id": "P15",
@@ -323,12 +334,17 @@
   "quellen": [
    {
     "id": "arbmedvv",
-    "stelle": null,
-    "hinweis": "Anhang"
+    "stelle": "§ 3 Abs. 1 Satz 1"
    }
   ],
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "68dfb01e513f2765"
+  }
  },
  {
   "id": "P16",
@@ -339,11 +355,17 @@
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": "§ 6 Abs. 9"
+    "stelle": "§ 6 Abs. 9 Satz 1"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "cbc6ee03827114f4"
+  }
  },
  {
   "id": "P17",
@@ -363,17 +385,17 @@
   "quellen": [
    {
     "id": "arbschg",
-    "stelle": null,
-    "hinweis": "§ 8"
-   },
-   {
-    "id": "dguv-v1",
-    "stelle": null,
-    "hinweis": "§ 6"
+    "stelle": "§ 8 Abs. 1 Satz 2"
    }
   ],
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "49468491a65fd14d"
+  }
  },
  {
   "id": "P18",
@@ -384,11 +406,17 @@
   "quellen": [
    {
     "id": "arbschg",
-    "stelle": "§ 5 Abs. 3 Nr. 6"
+    "stelle": "§ 5 Abs. 3 Nr. 6; § 5 Abs. 3 Nr. 5 und 6"
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "0d061ac8ef9578a6"
+  }
  },
  {
   "id": "P19",

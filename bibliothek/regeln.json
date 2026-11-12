@@ -42,19 +42,28 @@
    {
     "id": "R02-M1",
     "art": "O",
-    "text": "Zusatzqualifizierung für den Seitenstapler"
+    "text": "Zusatzqualifizierung für den Seitenstapler",
+    "beleg": {
+     "quelle": "dguv-g308-001",
+     "stelle": "Abschnitt 3.3 Zusatzqualifizierung (Stufe 2)"
+    }
    }
   ],
   "quellen": [
    {
     "id": "dguv-g308-001",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "Abschnitt 3.3 Zusatzqualifizierung (Stufe 2); Abschnitt 3.3 Zusatzqualifizierung (Stufe 2), Absatz 1"
    }
   ],
   "verbindlichkeit": "empfehlung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "34b933ef5399c351"
+  }
  },
  {
   "id": "R03",
@@ -139,7 +148,7 @@
    {
     "id": "R04-M2",
     "art": "O",
-    "text": "Winterdienst und Verkehrsregelung"
+    "text": "Verkehrswege im Freien sicher benutzbar halten, zum Beispiel durch Winterdienst"
    },
    {
     "id": "R04-M3",
@@ -235,7 +244,7 @@
    {
     "id": "R07-M2",
     "art": "O",
-    "text": "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich"
+    "text": "Wiederkehrende Prüfung; die Frist legt der Arbeitgeber fest"
    },
    {
     "id": "R07-M3",
@@ -250,7 +259,7 @@
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "geprueft",
+  "beleg": "offen",
   "freigabe": "entwurf"
  },
  {
@@ -410,32 +419,46 @@
    {
     "id": "R11-M1",
     "art": "P",
-    "text": "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten"
+    "text": "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "beleg": {
+     "quelle": "laermvibv",
+     "stelle": "§ 8 Abs. 1"
+    }
    },
    {
     "id": "R11-M2",
     "art": "O",
-    "text": "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge"
+    "text": "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "beleg": {
+     "quelle": "laermvibv",
+     "stelle": "§ 8 Abs. 3"
+    }
    },
    {
     "id": "R11-M3",
     "art": "O",
-    "text": "Über 85 dB(A): Lärmbereich kennzeichnen"
+    "text": "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "beleg": {
+     "quelle": "laermvibv",
+     "stelle": "§ 7 Abs. 4 Satz 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "laermvibv",
-    "stelle": "§§ 6, 7, 8"
-   },
-   {
-    "id": "arbmedvv",
-    "stelle": "Anhang Teil 3"
+    "stelle": "§ 8 Abs. 1; § 8 Abs. 3; § 7 Abs. 4 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "897897e6899aca7e"
+  }
  },
  {
   "id": "R12",
@@ -610,40 +633,50 @@
    {
     "id": "R16-M1",
     "art": "T",
-    "text": "Abschalten und gegen Wiedereinschalten sichern"
+    "text": "Abschalten und gegen Wiedereinschalten sichern",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.1, Maßnahmen Plattenaufteilsäge (Reinigungs- und Wartungsarbeiten)"
+    }
    },
    {
     "id": "R16-M2",
     "art": "O",
-    "text": "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte"
+    "text": "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 10 Abs. 2 Satz 2"
+    }
    },
    {
     "id": "R16-M3",
     "art": "O",
-    "text": "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+    "text": "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 10 Abs. 3 Satz 2 Nr. 8"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "betrsichv",
-    "stelle": "§ 10 Instandhaltung, § 11 besondere Betriebszustände"
-   },
-   {
-    "id": "trbs-1112",
-    "stelle": "Abschnitte 4 und 5"
-   },
-   {
     "id": "dguv-r109-606",
-    "stelle": null
+    "stelle": "Abschnitt 3.1, Maßnahmen Plattenaufteilsäge (Reinigungs- und Wartungsarbeiten); Kapitel 2.1 'Was für alle gilt', Absatz nach 'Maschinen abschalten'"
    },
    {
-    "id": "dguv-r109-607",
-    "stelle": null
+    "id": "betrsichv",
+    "stelle": "§ 10 Abs. 2 Satz 2; § 10 Abs. 3 Satz 2 Nr. 8; § 10 Abs. 3 Nr. 8"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "48fdfebae118ca48"
+  }
  },
  {
   "id": "R17",
@@ -1660,31 +1693,41 @@
    {
     "id": "R42-M1",
     "art": "P",
-    "text": "Schnittfeste Handschuhe"
+    "text": "Schnittfeste Handschuhe",
+    "beleg": {
+     "quelle": "dguv-r109-607",
+     "stelle": "Kapitel Betrieb allgemein, 2. Aufzählungspunkt (Seite 72)"
+    }
    },
    {
     "id": "R42-M2",
     "art": "T",
-    "text": "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden"
+    "text": "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden",
+    "beleg": {
+     "quelle": "trbs-2111",
+     "stelle": "Abschnitt 5.2.3 Abs. 2"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "psa-bv",
-    "stelle": "§ 2"
+    "id": "dguv-r109-607",
+    "stelle": "Kapitel Betrieb allgemein, 2. Aufzählungspunkt (Seite 72); Abschnitt Persönliche Schutzausrüstung, Absatz 2"
    },
    {
     "id": "trbs-2111",
-    "stelle": null
-   },
-   {
-    "id": "dguv-r109-607",
-    "stelle": null
+    "stelle": "Abschnitt 5.2.3 Abs. 2"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "3e240c5b697fed6f"
+  }
  },
  {
   "id": "R43",
@@ -1929,32 +1972,50 @@
    {
     "id": "R50-M1",
     "art": "S",
-    "text": "Ersatzstoff prüfen"
+    "text": "Ersatzstoff prüfen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 7 Abs. 3 Satz 1"
+    }
    },
    {
     "id": "R50-M2",
     "art": "T",
-    "text": "Gefährdung ausschließen; wo das nicht geht, auf ein Minimum verringern"
+    "text": "Gefährdung ausschließen; wo das nicht geht, auf ein Minimum verringern",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 7 Abs. 4 Satz 1 und 2"
+    }
    },
    {
     "id": "R50-M3",
     "art": "O",
-    "text": "Schwangere dürfen dem Stoff nicht in einem Maß ausgesetzt sein, das eine unverantwortbare Gefährdung darstellt"
+    "text": "Schwangere dürfen dem Stoff nicht in einem Maß ausgesetzt sein, das eine unverantwortbare Gefährdung darstellt",
+    "beleg": {
+     "quelle": "muschg",
+     "stelle": "§ 11 Abs. 1 Satz 1 und Satz 2 Nr. 1 Buchstabe a (reproduktionstoxisch Kategorie 1A, 1B oder 2, das sind H360 und H361)"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "muschg",
-    "stelle": "§ 11 Abs. 1 Nr. 1"
+    "id": "gefstoffv",
+    "stelle": "§ 7 Abs. 3 Satz 1; § 7 Abs. 4 Satz 1 und 2"
    },
    {
-    "id": "gefstoffv",
-    "stelle": "§ 10"
+    "id": "muschg",
+    "stelle": "§ 11 Abs. 1 Satz 1 und Satz 2 Nr. 1 Buchstabe a (reproduktionstoxisch Kategorie 1A, 1B oder 2, das sind H360 und H361); § 11 Abs. 1 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "c6c7807403d5c5ca"
+  }
  },
  {
   "id": "R51",
@@ -2594,12 +2655,12 @@
    {
     "id": "R70-M1",
     "art": "O",
-    "text": "Nur Elektrofachkräfte"
+    "text": "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht"
    },
    {
     "id": "R70-M2",
     "art": "O",
-    "text": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen"
+    "text": "Vor Beginn der Arbeiten an aktiven Teilen spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen"
    }
   ],
   "quellen": [
@@ -2627,7 +2688,7 @@
    {
     "id": "R71-M2",
     "art": "P",
-    "text": "Wärmende Arbeitskleidung"
+    "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
    }
   ],
   "quellen": [
@@ -2650,26 +2711,40 @@
    {
     "id": "R72-M1",
     "art": "T",
-    "text": "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung"
+    "text": "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "beleg": {
+     "quelle": "laermvibv",
+     "stelle": "§ 7 Abs. 1 Nr. 1"
+    }
    },
    {
     "id": "R72-M2",
     "art": "P",
-    "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+    "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)",
+    "beleg": {
+     "quelle": "laermvibv",
+     "stelle": "§ 8 Abs. 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "laermvibv",
-    "stelle": null
+    "stelle": "§ 7 Abs. 1 Nr. 1; § 7 Abs. 1 Nr. 1 Satz 1; § 8 Abs. 1; § 8 Abs. 1 (untere Auslösewerte 80 dB(A))"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
+  "beleg": "geprueft",
   "freigabe": "entwurf",
   "braucht": [
    "laerm_db"
-  ]
+  ],
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "4a4c192c8ec3fb48"
+  }
  },
  {
   "id": "R73",
@@ -2835,23 +2910,37 @@
    {
     "id": "R77-M1",
     "art": "O",
-    "text": "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird"
+    "text": "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird",
+    "beleg": {
+     "quelle": "arbschg",
+     "stelle": "§ 4 Nr. 1"
+    }
    },
    {
     "id": "R77-M2",
     "art": "O",
-    "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+    "text": "Psychische Belastung in der Gefährdungsbeurteilung erfassen",
+    "beleg": {
+     "quelle": "arbschg",
+     "stelle": "§ 5 Abs. 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbschg",
-    "stelle": "§ 5 Abs. 3 Nr. 6"
+    "stelle": "§ 4 Nr. 1; § 5 Abs. 1; § 5 Abs. 1 und Abs. 3 Nr. 6"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "e9046af045499d90"
+  }
  },
  {
   "id": "R78",
@@ -3049,27 +3138,37 @@
    {
     "id": "R83-M1",
     "art": "T",
-    "text": "Absaugung an der Entstehungsstelle"
+    "text": "Absaugung an der Entstehungsstelle",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 5 Satz 1"
+    }
    },
    {
     "id": "R83-M2",
     "art": "O",
-    "text": "Staub aufsaugen, nicht abblasen"
+    "text": "Staub aufsaugen, nicht abblasen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 6 Satz 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": null
-   },
-   {
-    "id": "trgs-900",
-    "stelle": null
+    "stelle": "Anhang I Nr. 2.3 Abs. 5 Satz 1; Anhang I Nr. 2.3 Abs. 6 Satz 2; Anhang I Nr. 2.3 Abs. 6"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "1c2a36a3cb0def99"
+  }
  },
  {
   "id": "R84",
@@ -3212,36 +3311,54 @@
    {
     "id": "R88-M1",
     "art": "O",
-    "text": "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf"
+    "text": "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+    "beleg": {
+     "quelle": "trgs-510",
+     "stelle": "Abschnitt 1 Abs. 2 Nr. 2"
+    }
    },
    {
     "id": "R88-M2",
     "art": "T",
-    "text": "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden"
+    "text": "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+    "beleg": {
+     "quelle": "trgs-500",
+     "stelle": "Abschnitt 6.2 Abs. 15 Satz 3"
+    }
    },
    {
     "id": "R88-M3",
     "art": "O",
-    "text": "Zündquellen fernhalten, Explosionsschutz prüfen"
+    "text": "Zündquellen fernhalten, Explosionsschutz prüfen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 12 Abs. 2 Nr. 2"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "gefstoffv",
-    "stelle": null
-   },
-   {
     "id": "trgs-510",
-    "stelle": null
+    "stelle": "Abschnitt 1 Abs. 2 Nr. 2"
    },
    {
     "id": "trgs-500",
-    "stelle": null
+    "stelle": "Abschnitt 6.3 Abs. 1 Satz 1; Abschnitt 6.2 Abs. 15 Satz 3"
+   },
+   {
+    "id": "gefstoffv",
+    "stelle": "§ 12 Abs. 2 Nr. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "3cddb236368e6f1c"
+  }
  },
  {
   "id": "R89",
@@ -3382,37 +3499,59 @@
    {
     "id": "R93-M1",
     "art": "T",
-    "text": "Waschgelegenheit bereitstellen"
+    "text": "Waschgelegenheit bereitstellen",
+    "beleg": {
+     "quelle": "biostoffv",
+     "stelle": "§ 9 Abs. 1 Satz 2 Nr. 3"
+    }
    },
    {
     "id": "R93-M2",
     "art": "O",
-    "text": "Am Arbeitsplatz nicht essen und trinken"
+    "text": "Am Arbeitsplatz nicht essen und trinken",
+    "beleg": {
+     "quelle": "biostoffv",
+     "stelle": "§ 9 Abs. 3 Satz 2 Nr. 7"
+    }
    },
    {
     "id": "R93-M3",
     "art": "P",
-    "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: persönliche Schutzausrüstung bereitstellen"
+    "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: persönliche Schutzausrüstung bereitstellen",
+    "beleg": {
+     "quelle": "biostoffv",
+     "stelle": "§ 8 Abs. 4 Nr. 4"
+    }
    },
    {
     "id": "R93-M4",
     "art": "O",
-    "text": "Arbeitsmedizinische Vorsorge prüfen"
+    "text": "Arbeitsmedizinische Vorsorge prüfen",
+    "beleg": {
+     "quelle": "arbmedvv",
+     "stelle": "§ 3 Abs. 1 Satz 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "biostoffv",
-    "stelle": null
+    "stelle": "§ 9 Abs. 1 Satz 2 Nr. 3; § 9 Abs. 1 Satz 2 Nr. 3, wörtlich in § 20 Abs. 1 Nr. 8; § 9 Abs. 3 Satz 2 Nr. 7; § 8 Abs. 4 Nr. 4"
    },
    {
     "id": "arbmedvv",
-    "stelle": null
+    "stelle": "§ 3 Abs. 1 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "be34b39de4dad0ac"
+  }
  },
  {
   "id": "R94",
@@ -3424,27 +3563,41 @@
    {
     "id": "R94-M1",
     "art": "T",
-    "text": "Manuelles Bewegen durch organisatorische Maßnahmen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, vermeiden"
+    "text": "Manuelles Bewegen durch organisatorische Maßnahmen oder geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen, vermeiden",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 2 Abs. 1"
+    }
    },
    {
     "id": "R94-M2",
     "art": "O",
-    "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    "text": "Belastung mit der Leitmerkmalmethode bewerten",
+    "beleg": {
+     "quelle": "bauau-lmm",
+     "stelle": "Abschnitt Anwendungshinweise, Pflegetätigkeiten"
+    }
    }
   ],
   "quellen": [
    {
     "id": "lasthandhabv",
-    "stelle": null
+    "stelle": "§ 2 Abs. 1"
    },
    {
     "id": "bauau-lmm",
-    "stelle": null
+    "stelle": "Abschnitt Anwendungshinweise, Pflegetätigkeiten; Abgrenzung zu anderen Leitmerkmalmethoden"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "7b50aee30b734edf"
+  }
  },
  {
   "id": "R95",
@@ -3628,27 +3781,37 @@
    {
     "id": "R99-M1",
     "art": "T",
-    "text": "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten"
+    "text": "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 3.4 Abs. 5"
+    }
    },
    {
     "id": "R99-M2",
     "art": "O",
-    "text": "Ausgefallene Leuchten umgehend instand setzen"
+    "text": "Ausgefallene Leuchten umgehend instand setzen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "§ 4 Abs. 1 Satz 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
-   },
-   {
-    "id": "asr-a3-4",
-    "stelle": null
+    "stelle": "Anhang Nr. 3.4 Abs. 5; § 4 Abs. 1 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "cbb57f40697678de"
+  }
  },
  {
   "id": "R100",
@@ -3660,27 +3823,41 @@
    {
     "id": "R100-M1",
     "art": "T",
-    "text": "Störende Blendung und Reflexionen am Arbeitsplatz minimieren"
+    "text": "Störende Blendung und Reflexionen am Arbeitsplatz minimieren",
+    "beleg": {
+     "quelle": "asr-a3-4",
+     "stelle": "Abschnitt 6.3 Abs. 1 Satz 1"
+    }
    },
    {
     "id": "R100-M2",
     "art": "T",
-    "text": "Am Bildschirmarbeitsplatz störende Blendungen, Reflexionen und Spiegelungen vermeiden"
+    "text": "Am Bildschirmarbeitsplatz störende Blendungen, Reflexionen und Spiegelungen vermeiden",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 6.1 Abs. 8 Satz 2"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "arbstaettv",
-    "stelle": null
+    "id": "asr-a3-4",
+    "stelle": "Abschnitt 6.3 Abs. 1 Satz 1"
    },
    {
-    "id": "asr-a3-4",
-    "stelle": null
+    "id": "arbstaettv",
+    "stelle": "Anhang Nr. 6.1 Abs. 8 Satz 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "1746f396512e80c6"
+  }
  },
  {
   "id": "R101",
@@ -3725,18 +3902,28 @@
    {
     "id": "R102-M1",
     "art": "O",
-    "text": "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen"
+    "text": "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 5.1 Satz 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
+    "stelle": "Anhang Nr. 5.1 Satz 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "66368d655665e7a2"
+  }
  },
  {
   "id": "R103",
@@ -3814,32 +4001,50 @@
    {
     "id": "R105-M1",
     "art": "T",
-    "text": "Bildschirmarbeitsplatz nach den Grundsätzen der Ergonomie einrichten"
+    "text": "Bildschirmarbeitsplatz nach den Grundsätzen der Ergonomie einrichten",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 6.1 Abs. 1 Satz 2"
+    }
    },
    {
     "id": "R105-M2",
     "art": "O",
-    "text": "Bildschirmarbeit durch andere Tätigkeiten oder Erholungszeiten unterbrechen"
+    "text": "Bildschirmarbeit durch andere Tätigkeiten oder Erholungszeiten unterbrechen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 6.1 Abs. 2"
+    }
    },
    {
     "id": "R105-M3",
     "art": "O",
-    "text": "Vorsorge für Tätigkeiten an Bildschirmgeräten anbieten"
+    "text": "Vorsorge für Tätigkeiten an Bildschirmgeräten anbieten",
+    "beleg": {
+     "quelle": "arbmedvv",
+     "stelle": "Anhang Teil 4 Abs. 2 Nr. 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
+    "stelle": "Anhang Nr. 6.1 Abs. 1 Satz 2; Anhang Nr. 6.1 Abs. 2"
    },
    {
     "id": "arbmedvv",
-    "stelle": null
+    "stelle": "Anhang Teil 4 Abs. 2 Nr. 1; Anhang Teil 4 (Sonstige Tätigkeiten) Abs. 2 Nr. 1, Tätigkeiten an Bildschirmgeräten (Angebotsvorsorge)"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-12",
+   "pruefungen": 2,
+   "fingerabdruck": "e9140e2f6f506038"
+  }
  },
  {
   "id": "R106",
