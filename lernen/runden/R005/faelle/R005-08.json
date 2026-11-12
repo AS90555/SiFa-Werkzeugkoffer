@@ -1,0 +1,39 @@
+{"id":"R005-08","name":"R005-08","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Lack, Zweikomponenten","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Härter","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Verdünnung","material":"loesemittel","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Spritzkabine","bereich":"Holzwerkstatt, Lackieren","personen":1,"umgebung":["laerm_umgebung","hitze","eng"],"angaben":{},
+  "schritte":[
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["rahmen","lack"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["rahmen"]},
+   {"vorgang":"trocknen_ir","ausfuehrung":"von_hand","material":["element_lackiert"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","loesemittel"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","loesemittel"]}
+  ]}],
+ "wuensche":[
+  {"text":"Die Heizstrahler des Trockners werden von der Person eingeschaltet und werden bis zu 60 Grad heiß.","fehlt":"Ausführung Infrarot-Trockner, Heizstrahler; von_hand nur als Näherung"},
+  {"text":"Die Person steht den ganzen Tag, beugt sich über die Teile, um Ecken zu lackieren. Die Schicht dauert acht Stunden.","fehlt":"Angabe Zwangshaltung, Stehen, gebeugte Haltung"},
+  {"text":"Eine Person arbeitet allein an der Spritzpistole.","fehlt":"Umgebung oder Angabe Alleinarbeit"},
+  {"text":"Das Werkstück hängt an einem Gestell, das die Person von Hand um 180 Grad dreht.","fehlt":"Gewicht nicht genannt, daher keine Angabe zur Last"},
+  {"text":"Die Absaugung im Dach ist laut, man verständigt sich mit Handzeichen.","fehlt":"Lärmpegel nicht genannt; Lärm der Absaugung als Lärm aus der Umgebung eingetragen"},
+  {"text":"Die Luft in der Kabine riecht stark nach Lösemittel.","fehlt":"Angabe Lösemitteldämpfe, Explosionsschutzbereich der Spritzkabine"},
+  {"text":"Die Lackdosen stehen im Regal neben dem Trockner.","fehlt":"Vorgang Lagern von Gefahrstoffen, Lagerung neben Wärmequelle"}
+ ],
+ "maengel":[
+  {"text":"Ein Feuerlöscher hängt weit hinten an der Wand, der Weg ist mit Kartons zugestellt."},
+  {"text":"Der Filter in der Absaugung ist verschmutzt, Staub hängt am Gitter."},
+  {"text":"Die Verdünnung steht zum Ausspülen der Pistole in einem offenen Eimer neben der Kabine."},
+  {"text":"Die Lackdosen stehen im Regal neben dem Trockner."},
+  {"text":"Die Luft in der Kabine riecht stark nach Lösemittel."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Härter wird vor Ort angerührt.","sicher":true},
+  {"schritt":2,"stelle":"Spritzpistole, handgeführt, mit Druckluft; Rahmenteile aus Holz lackiert","sicher":true},
+  {"schritt":3,"stelle":"Das Werkstück hängt an einem Gestell, das die Person von Hand um 180 Grad dreht","sicher":true},
+  {"schritt":4,"stelle":"Der Trockner wird von der Person eingeschaltet, die Heizstrahler werden bis zu 60 Grad","sicher":false},
+  {"schritt":5,"stelle":"Die Verdünnung steht zum Ausspülen der Pistole in einem offenen Eimer","sicher":false},
+  {"schritt":6,"stelle":"Gereinigt wird die Kabine einmal die Woche mit einem Tuch und Verdünnung.","sicher":true}
+ ]}

@@ -1,0 +1,25 @@
+{"id":"R005-02","name":"R005-02","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Flächendesinfektionsmittel","material":"desinfektionsmittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Rettungswagen, Einsatz im Mehrfamilienhaus","bereich":"Rettungsdienst","personen":2,"umgebung":["zeitdruck","boden","dunkel"],"angaben":{},
+  "schritte":[
+   {"vorgang":"pflegen","ausfuehrung":"von_hand","material":["pflegeperson"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["desinfektionsmittel"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Zum Hinabtragen wird ein Gerät mit Kettenlaufwerk unter die Trage geschoben, das die Last über die Stufen zieht. Trage mit Patient rund 250 Kilogramm, Treppenhaus dritter Stock ohne Aufzug.","fehlt":"Ausführung Treppensteiger oder Raupenträger sowie Vorgang Tragen von Personen über Treppen; Schritt weggelassen, 250 kg nicht als Griff-Last eingetragen, weil die Last mit Gerät und nicht von Hand bewegt wird"},
+  {"text":"Der Rettungssanitäter geht rückwärts voran, der Notfallsanitäter sichert die Trage von oben.","fehlt":"Vorgang für gemeinsames Führen und Sichern einer Last auf der Treppe"},
+  {"text":"Die Trage lässt sich elektrisch in der Höhe verstellen.","fehlt":"Ausführung elektrische Fahrtrage"},
+  {"text":"Der Wagen steht halb auf dem Gehweg, die Warnblinkanlage läuft.","fehlt":"Umgebung Straßenverkehr und Aufenthalt auf der Fahrbahn oder am Gehweg"},
+  {"text":"Am Ende der Schicht wird der Innenraum gereinigt.","fehlt":"Angabe des Reinigungsmittels; Material offen gelassen"}
+ ],
+ "maengel":[
+  {"text":"Die Stufen sind ausgetreten, das Geländer wackelt."},
+  {"text":"Das Licht im Treppenhaus geht nach dreißig Sekunden aus, der Taster ist am Eingang."},
+  {"text":"Etwa acht bis zehn Einsätze pro Schicht, oft mit Zeitdruck."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Patient wird auf der Trage liegend gesichert.","sicher":false},
+  {"schritt":2,"stelle":"Nach dem Einsatz wird die Trage mit Tüchern abgewischt, dafür steht eine Flasche mit Flächendesinfektionsmittel im Schrank.","sicher":true},
+  {"schritt":3,"stelle":"Am Ende der Schicht wird der Innenraum gereinigt.","sicher":false}
+ ]}

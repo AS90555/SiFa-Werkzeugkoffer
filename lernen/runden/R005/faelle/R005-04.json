@@ -1,0 +1,36 @@
+{"id":"R005-04","name":"R005-04","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Benzin im Kanister","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Heckenschnitt auf Grundstück","bereich":"Garten- und Landschaftsarbeiten","personen":2,"umgebung":["aussen","witterung","hitze","betriebsfremde"],"angaben":{},
+  "schritte":[
+   {"vorgang":"schneiden","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"saegen","ausfuehrung":"handmaschine","material":["restholz"]},
+   {"vorgang":"hoehenarbeit","ausfuehrung":"leiter","material":[]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["restholz"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["loesemittel"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Eine Hecke wird mit dem Freischneider mit Metall-Schneidmesser geschnitten.","fehlt":"Ausführung Freischneider, Heckenschere mit Motor; Material Grünschnitt, Hecke. Schritt mit Vorgang Schneiden und Ausführung handgeführte Maschine nur als Näherung"},
+  {"text":"Die Äste werden auf den Boden geworfen und in einen Anhänger geschaufelt.","fehlt":"Material Grünschnitt, Äste; Vorgang Schaufeln. Näherung: Restholz und Handhaben"},
+  {"text":"Das Benzin wird in einem Kanister mitgeführt. Getankt wird am Ende der Arbeit, bei abgestelltem Motor.","fehlt":"Material Kraftstoff, Benzin; Näherung Verdünnung und Lösemittel; Vorgang Betanken"},
+  {"text":"Der Freischneider hängt an einem Tragegurt über der Schulter, wird über Kopfhöhe gehalten.","fehlt":"Angabe Zwangshaltung, Arbeit über Kopf mit schwerem Gerät"},
+  {"text":"Die Geräte laufen laut, man muss schreien, um sich zu verständigen.","fehlt":"Angabe Lärmpegel; keine Zahl genannt"},
+  {"text":"Die Kette wird in der Werkstatt geschärft.","fehlt":"Vorgang Schärfen oder Werkzeug instandhalten; Näherung Sonderbetrieb"}
+ ],
+ "maengel":[
+  {"text":"Eine Schutzbrille hängt am Haken am Transporter, sie wird nicht getragen."},
+  {"text":"Die Männer tragen Schnittschutzhosen, einer hat Turnschuhe an."},
+  {"text":"Oben auf der Leiter steht der Mann zwei Meter über Boden und hält den Freischneider über Kopfhöhe."},
+  {"text":"Das Benzin wird in einem Kanister mitgeführt, der neben dem Transporter in der Sonne steht."},
+  {"text":"Die Hecke grenzt an einen Gehweg, Passanten gehen vorbei, eine Absperrung ist nicht vorhanden."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"einer führt den Freischneider mit einem Schneidmesser aus Metall","sicher":false},
+  {"schritt":2,"stelle":"der andere schneidet die dicken Äste mit der Motorsäge, deren Kette sich schnell dreht","sicher":true},
+  {"schritt":3,"stelle":"Oben auf der Leiter steht der Mann zwei Meter über Boden","sicher":true},
+  {"schritt":4,"stelle":"Die Äste werden auf den Boden geworfen und dann in einen Anhänger geschaufelt.","sicher":false},
+  {"schritt":5,"stelle":"Getankt wird am Ende der Arbeit, bei abgestelltem Motor.","sicher":false},
+  {"schritt":6,"stelle":"Am Ende des Tages wird die Motorsäge mit einem Lappen abgewischt","sicher":true},
+  {"schritt":7,"stelle":"die Kette wird in der Werkstatt geschärft","sicher":false}
+ ]}

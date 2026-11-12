@@ -1,0 +1,32 @@
+{"id":"R005-01","name":"R005-01","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Lösemittel (Kanne)","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Abzug mit Analysenwaage","bereich":"Probenvorbereitung (Labor Qualitätssicherung)","personen":2,"umgebung":["laerm_umgebung","dunkel"],"angaben":{},
+  "schritte":[
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["loesemittel"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Rückstellproben aus Gebinden nehmen, abwiegen, in Messkolben überführen","fehlt":"Material Probe oder Rückstellprobe fehlt; Vorgang Probenahme und Wägen im Labor fehlt (hier nur als Anmischen, Umfüllen, Abmessen erfasst)"},
+  {"text":"Die Proben werden dann im Ultraschallbad homogenisiert","fehlt":"Vorgang und Ausführung für Ultraschallbad bzw. Homogenisieren fehlen; Schritt weggelassen"},
+  {"text":"Zum Schluss wird mit einem Spritzenfilter filtriert, die Filter landen im Abfalleimer","fehlt":"Vorgang Filtrieren im Labor fehlt; Material Spritzenfilter und Laborabfall fehlt; Schritt weggelassen"},
+  {"text":"Gereinigt wird die Glasware von der Kollegin selbst im Spülraum nebenan","fehlt":"Material Glasware oder Laborgeräte fehlt; Spülraum ist ein anderer Ort"},
+  {"text":"Das Gerät zieht aber nur schwach, am Ende der Woche riecht es im Raum deutlich","fehlt":"Umgebung für unzureichende Absaugung oder Raumluftbelastung durch Lösemitteldämpfe fehlt (stickig passt nicht sicher, Lüftbarkeit nicht genannt)"},
+  {"text":"Die Frontscheibe steht etwa zwanzig Zentimeter offen","fehlt":"Kein Merkmal für Abzug oder Laborabzug in den Stammdaten"},
+  {"text":"der Stuhl ist nicht höhenverstellbar","fehlt":"Vorgang oder Umgebung für Sitzarbeitsplatz im Labor und Ergonomie fehlt (Bildschirmarbeit passt nicht)"},
+  {"text":"die Pipetten stecken offen in einem Becherglas; Das Lösemittel kommt aus einer Kanne, die man von Hand umfüllt, der Deckel steht daneben","fehlt":"Material Glaspipette oder Glas, Bruch- und Schnittgefahr fehlt"},
+  {"text":"Rüsten und Wartung des Abzugs macht die Haustechnik","fehlt":"Fremde Zuständigkeit an diesem Platz; Ausführung für Wartung einer Lüftungsanlage fehlt, als Sonderbetrieb von Hand mit Anlage angenommen"}
+ ],
+ "maengel":[
+  {"text":"Die Frontscheibe steht etwa zwanzig Zentimeter offen, das Gerät zieht aber nur schwach"},
+  {"text":"am Ende der Woche riecht es im Raum deutlich"},
+  {"text":"die Pipetten stecken offen in einem Becherglas auf dem Tisch"},
+  {"text":"Kanne, die man von Hand umfüllt, der Deckel steht daneben"},
+  {"text":"Die Beleuchtung über dem Abzug flackert seit einiger Zeit"},
+  {"text":"der Stuhl ist nicht höhenverstellbar"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Dafür wird das Lösemittel mit einer Glaspipette zugegeben; Kanne, die man von Hand umfüllt","sicher":true},
+  {"schritt":2,"stelle":"Gereinigt wird die Glasware von der Kollegin selbst im Spülraum nebenan","sicher":false},
+  {"schritt":3,"stelle":"Rüsten und Wartung des Abzugs macht die Haustechnik","sicher":false}
+ ]}

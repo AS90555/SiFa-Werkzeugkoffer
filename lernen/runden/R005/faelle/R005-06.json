@@ -1,0 +1,30 @@
+{"id":"R005-06","name":"R005-06","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Lösemittel in Flasche ohne Etikett","material":"loesemittel","sdb":null,"h":[]},
+  {"id":"s2","name":"Säure aus der Batterieladung (Geruch)","material":"beize_saeure","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Annahmestelle Presscontainer","bereich":"Wertstoffhof","personen":2,"umgebung":["aussen","betriebsfremde","fahrverkehr","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"umformen","ausfuehrung":"presse","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Schwere Teile wie Matratzen werden von Hand über die Kante gehoben und hineingeworfen.","fehlt":"Material Sperrmüll, Matratze, Elektroschrott; Gewicht nicht genannt, daher keine Angabe zur Last"},
+  {"text":"Die Mitarbeiter schieben den Sperrmüll mit der Hand in den Einfüllschacht nach. Hydraulische Presse mit Pressplatte bis zur Endlage.","fehlt":"Ausführung Presscontainer und Vorgang Nachschieben in den Einfüllschacht; Material Sperrmüll. Näherung Umformen mit Presse"},
+  {"text":"Ein Abrollfahrzeug fährt rückwärts an den Presscontainer, der Container wird wöchentlich getauscht.","fehlt":"Vorgang Container wechseln, Rückwärtsfahren; als Umgebung Fahrverkehr eingetragen"},
+  {"text":"Am Schalter sitzt eine Person im Kassenhäuschen, eine zweite Person weist die Kunden ein.","fehlt":"Vorgang Kassieren, Einweisen von Kunden"},
+  {"text":"Die Batterien der Hubstapler werden am Ladeplatz neben der Halle geladen, es riecht nach Säure.","fehlt":"Vorgang Batterie laden; Material Ladegas, Wasserstoff, Batteriesäure"},
+  {"text":"Streusalz liegt im Kübel.","fehlt":"Stoff Streusalz; kein Material dafür, nicht als Stoff eingetragen"},
+  {"text":"Autoglas wird zusammen mit Holz angenommen. Glasscherben im Schotter.","fehlt":"Material Glasbruch, Scherben"},
+  {"text":"Der Hof ist im Winter rutschig.","fehlt":"keine eigene Umgebung Winterglätte; als Boden eingetragen"}
+ ],
+ "maengel":[
+  {"text":"Unter dem Tisch im Kassenhäuschen steht eine Flasche mit Lösemittel, sie hat kein Etikett mehr."},
+  {"text":"Wenn der Container voll ist, fährt ein Abrollfahrzeug rückwärts an den Presscontainer heran, während Kunden auf dem Hof stehen."},
+  {"text":"Glasscherben liegen im Schotter am Rand."},
+  {"text":"Der Hof ist im Winter rutschig."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Schwere Teile wie Matratzen werden von Hand über die Kante gehoben und hineingeworfen.","sicher":true},
+  {"schritt":2,"stelle":"Die Mitarbeiter schieben den Sperrmüll mit der Hand in den Einfüllschacht nach.","sicher":false}
+ ]}
