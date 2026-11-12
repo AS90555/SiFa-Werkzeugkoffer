@@ -1,0 +1,149 @@
+{
+ "id": "R005-03",
+ "name": "R005-03",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Salzbad und Abschreckbecken",
+   "bereich": "Härterei, Salzbad und Abschrecken",
+   "personen": 2,
+   "umgebung": [
+    "hitze",
+    "stickig",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "heisses_werkstueck",
+      "prozessrauch"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Danach ... eine Viertelstunde eingetaucht (Salzbad auf knapp achthundert Grad)",
+   "fehlt": "Vorgang Härten, Wärmebehandeln im Salzbad fehlt; Schritt weggelassen"
+  },
+  {
+   "text": "Das Öl dampft, der Dampf zieht nach oben unter eine Haube, die nur halb schließt",
+   "fehlt": "Material Öldampf aus Abschrecköl ist als Rauch aus erhitztem Material (prozessrauch) angenommen, unsicher"
+  },
+  {
+   "text": "das mit Öl gefüllt ist (Abschreckbecken)",
+   "fehlt": "Stoff Abschrecköl kann nicht eingetragen werden, kein passendes Material (Kühlschmierstoff wäre gebogen); nicht unter stoffe geführt"
+  },
+  {
+   "text": "Das Salzbad ... Salz wird alle zwei Monate gewechselt",
+   "fehlt": "Stoff Härtesalz kann nicht eingetragen werden, kein passendes Material (Beize, Säure, Lauge wäre gebogen); nicht unter stoffe geführt"
+  },
+  {
+   "text": "Die Werkstücke, meist Bolzen und Ringe, je etwa zwei bis fünf Kilo",
+   "fehlt": "Lastgewicht je Griff und Griffe je Stunde nicht genannt (Korbgewicht fehlt), Angabe offen gelassen"
+  },
+  {
+   "text": "Die Zange hängt an einem Haken neben dem Ofen",
+   "fehlt": "Kein Schritt für Zange; Einsatz der Zange wird nicht beschrieben"
+  },
+  {
+   "text": "Das Salz wird alle zwei Monate gewechselt, dabei hilft der Schlosser aus der Instandhaltung; Gereinigt wird der Ofen vom Bediener selbst, mit einer Schaufel",
+   "fehlt": "Material Salz und Schlacke beim Reinigen des Salzbads; Ausführung von Hand mit Schaufel angenommen"
+  },
+  {
+   "text": "Die Anlage wird im Wochenrhythmus geprüft",
+   "fehlt": "Wer prüft und wie nicht genannt; Ausführung von Hand und Material offen"
+  },
+  {
+   "text": "offener Ofen aus Stahl, auf knapp achthundert Grad gehalten",
+   "fehlt": "Umgebung oder Merkmal für Verbrennungsgefahr durch offenes Bad fehlt"
+  },
+  {
+   "text": "nachts einer",
+   "fehlt": "Alleinarbeit in der Nachtschicht fehlt als Umgebung oder Angabe"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Das Öl dampft, der Dampf zieht nach oben unter eine Haube, die nur halb schließt"
+  },
+  {
+   "text": "Die Zange hängt an einem Haken neben dem Ofen, manchmal wird sie schon mal nicht zurückgehängt"
+  },
+  {
+   "text": "Der Boden ist an der Abschreckseite nass und fleckig von Öl, und es liegt Schrott herum"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "werden mit einem Kran an Ketten in einem Korb eingehängt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Der Korb wird von Hand an den Ofen geschoben",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Danach hebt der Kran den Korb heraus und setzt ihn in das Abschreckbecken",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die Anlage wird im Wochenrhythmus geprüft",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "das Salz wird alle zwei Monate gewechselt, dabei hilft der Schlosser",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "Gereinigt wird der Ofen vom Bediener selbst, mit einer Schaufel",
+   "sicher": true
+  }
+ ]
+}

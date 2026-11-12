@@ -1,0 +1,33 @@
+{"id":"R005-05","name":"R005-05","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Montagetisch mit offenem Schaltschrank und Prüfwagen","bereich":"Schaltschrankbau, Verdrahten und Prüfen","personen":2,"umgebung":["dunkel","eng","boden"],"angaben":{"last_kg":40,"griffe_tag":12},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Die Verdrahtung wird mit Adern von Hand gezogen, mit einer Crimpzange abgequetscht und mit einem Schraubendreher festgeschraubt","fehlt":"Kein eigener Vorgang Verdrahten; als Montieren von Hand erfasst, nicht sicher (Elektroarbeiten wäre auch möglich)"},
+  {"text":"Am Ende des Tages sind es teils zehn bis zwölf Schränke, die gewogen und auf einen Wagen geschoben werden","fehlt":"Angabe Griffe je Tag ist eine Spanne (10 bis 12), 12 eingetragen; Gewicht gut vierzig Kilo als 40 eingetragen; Gewogen unklar, Wiegen als Vorgang fehlt"},
+  {"text":"ein Schrank wiegt gut vierzig Kilo","fehlt":"Material Schaltschrank als Last (elektrische_anlage nur als Notlösung); Schieben auf Wagen ist kein eigener Vorgang"},
+  {"text":"Geprüft wird unter Spannung, das heißt die Schränke werden an die Anlage angeschlossen, wenn sie noch nicht fertig verkleidet sind","fehlt":"Angabe oder Merkmal für Arbeiten unter Spannung und Prüfen unter Spannung fehlt"},
+  {"text":"Die Anlage selbst wird vom Elektriker der Firma gewartet, der kommt einmal im Monat","fehlt":"Wartung durch Elektriker mit Spannung: Ausführung als Sonderbetrieb von Hand angenommen, keine Angabe zu Freischalten"},
+  {"text":"Eine Lampe hängt über dem Tisch, sie ist recht dunkel, deshalb holt man sich eine Stirnlampe","fehlt":"Keine Angabe zu Stirnlampe oder Ersatzbeleuchtung"},
+  {"text":"Schaltschrank auf zwei Böcken","fehlt":"Arbeitshöhe und Standsicherheit des Schranks auf Böcken fehlt als Merkmal"}
+ ],
+ "maengel":[
+  {"text":"Geprüft wird unter Spannung ... wenn sie noch nicht fertig verkleidet sind"},
+  {"text":"Die Abdeckungen liegen oft auf dem Boden, und die Frontplatten werden nur lose eingesetzt"},
+  {"text":"Eine Lampe hängt über dem Tisch, sie ist recht dunkel"},
+  {"text":"Kabelrollen und Kisten stehen davor"},
+  {"text":"Werkzeug liegt zum Teil lose herum"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Verdrahtung wird mit Adern von Hand gezogen, mit einer Crimpzange abgequetscht und mit einem Schraubendreher festgeschraubt","sicher":false},
+  {"schritt":2,"stelle":"Geprüft wird unter Spannung ... der Prüfer misst mit einem Multimeter zwischen den Klemmen","sicher":true},
+  {"schritt":3,"stelle":"zehn bis zwölf Schränke, die gewogen und auf einen Wagen geschoben werden, ein Schrank wiegt gut vierzig Kilo","sicher":false},
+  {"schritt":4,"stelle":"Gerüstet und gereinigt wird von den Monteuren selbst","sicher":true},
+  {"schritt":5,"stelle":"Die Anlage selbst wird vom Elektriker der Firma gewartet","sicher":false}
+ ]}

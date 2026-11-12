@@ -1,0 +1,41 @@
+{"id":"R005-07","name":"R005-07","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Lauge","material":"beize_saeure","sdb":null,"h":[]},
+  {"id":"s2","name":"Säure","material":"beize_saeure","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Reinigungsstation mit Gerüst, Pumpen und Kesseln","bereich":"Reinigung von Tanks und Leitungen","personen":1,"umgebung":["boden","laerm_umgebung","fremdfirma"],"angaben":{},
+  "schritte":[
+   {"vorgang":"entleeren","ausfuehrung":"von_hand","material":["beize_saeure"]},
+   {"vorgang":"lagern_regal","ausfuehrung":"von_hand","material":["beize_saeure"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"beizen","ausfuehrung":"von_hand","material":["beize_saeure"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"pruefen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"erst Vorspülen mit Wasser, dann Lauge, dann Zwischenspülung, dann Säure, dann Endspülung","fehlt":"Ausführung für Reinigung über Pumpen und Ventile (Umlaufreinigung) fehlt; von Hand angenommen. Spülen mit Wasser als eigener Schritt weggelassen, kein Material Wasser"},
+  {"text":"es dampft sofort, wenn das heiße Wasser läuft","fehlt":"Material Wasserdampf und heißes Wasser fehlt (prozessrauch passt nicht)"},
+  {"text":"Im Raum ist es feucht und warm","fehlt":"Umgebung feuchtwarmes Raumklima, Nässe und Dampf fehlt (stickig und hitze nicht sicher passend); nicht eingetragen"},
+  {"text":"Die Pumpen laufen laut, darüber hinweg muss man sich anschreien","fehlt":"Lärm von der eigenen Anlage am Platz; als laerm_umgebung eingetragen, unsicher, Lärmpegel nicht genannt"},
+  {"text":"Die Chemikalien kommen aus Kanistern, die im Regal stehen","fehlt":"Umfüllen aus Kanistern in die Kessel wird nicht ausdrücklich beschrieben; Lagern im Regal als Notlösung"},
+  {"text":"Die Schläuche werden per Hand auf die Anschlüsse am Tank gesteckt","fehlt":"Kein Vorgang für Schläuche anschließen; als Rüsten (Sonderbetrieb) angenommen, unsicher"},
+  {"text":"geprüft werden die Ventile vom Schichtleiter","fehlt":"Material Ventile, Armaturen fehlt; Prüfung durch eine andere Person"},
+  {"text":"Hier arbeitet eine Person im Schichtbetrieb, nach dem Melken und der Produktion, am Wochenende zwei","fehlt":"Personenzahl wechselt; eine Person eingetragen"},
+  {"text":"Kessel mit Lauge und ein zweiter mit Säure","fehlt":"Material Lauge und Säure sind nur gemeinsam unter beize_saeure erfasst"}
+ ],
+ "maengel":[
+  {"text":"die Etiketten sind teilweise abgeschmiert"},
+  {"text":"die Anschlüsse sind manchmal undicht und tropfen auf den Boden"},
+  {"text":"Der Boden ist ständig nass, es gibt Abläufe, die oft verstopft sind"},
+  {"text":"Die Lauge wird von Hand aus einem Sack in den Kessel gegeben, dabei staubt es"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Lauge wird von Hand aus einem Sack in den Kessel gegeben, dabei staubt es","sicher":true},
+  {"schritt":2,"stelle":"Die Chemikalien kommen aus Kanistern, die im Regal stehen","sicher":false},
+  {"schritt":3,"stelle":"Die Schläuche werden per Hand auf die Anschlüsse am Tank gesteckt","sicher":false},
+  {"schritt":4,"stelle":"dann Lauge, dann Zwischenspülung, dann Säure","sicher":false},
+  {"schritt":5,"stelle":"Gereinigt wird die Station selbst","sicher":true},
+  {"schritt":6,"stelle":"geprüft werden die Ventile vom Schichtleiter","sicher":false},
+  {"schritt":7,"stelle":"Die Wartung der Pumpen erfolgt durch die externe Firma","sicher":true}
+ ]}
