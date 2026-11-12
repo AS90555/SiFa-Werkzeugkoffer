@@ -59,11 +59,11 @@
    "bemerkung":"Gilt, wenn die Mindestlufttemperatur trotz technischer Möglichkeiten nicht erreicht wird; genannt ist geeignete Kleidung, nicht ausdrücklich wärmende Arbeitskleidung."}]},
  {"id":"R04","aussagen":[
   {"id":"R04-M1","urteil":"gedeckt","belege":[
-   {"datei":"ASR/ASR-A1-8.txt","stelle":"Abschnitt 4 Abs. 5","zitat":"Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."},
+   {"datei":"ASR/ASR-A1-8.txt","stelle":"Abschnitt 4.1 Abs. 5","zitat":"Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."},
    {"datei":"ASR/ASR-A3-4.txt","stelle":"Abschnitt 7.1 Abs. 1","zitat":"Beim Einrichten und Betreiben von Arbeitsstätten im Freien müssen die Mindestwerte der Beleuchtungsstärken im Anhang 4 eingehalten werden."}],
-   "bemerkung":"Das Wort befestigt steht nicht im Text; ebene, trittsichere Oberfläche an Verkehrswegen (auch im Freien, siehe Abs. 8) ist sachlich dasselbe. Beleuchtung im Freien steht in ASR A3.4, nicht in ASR A1.8. Die Stellenangabe der Nummer 4 Abs. 5 in A1.8 ist aus der Textdatei geschlossen und sollte beim Zusammenführen gegengeprüft werden."},
+   "bemerkung":"Das Wort befestigt steht nicht im Text; ebene, trittsichere Oberfläche an Verkehrswegen (auch im Freien, siehe Abs. 8) ist sachlich dasselbe. Beleuchtung im Freien steht in ASR A3.4, nicht in ASR A1.8."},
   {"id":"R04-M2","urteil":"gedeckt","belege":[
-   {"datei":"ASR/ASR-A1-8.txt","stelle":"Abschnitt Gefährdungen auf Verkehrswegen (Benutzen von Verkehrswegen) Abs. 1","zitat":"Für die Sicherheit auf Verkehrswegen sind geeignete Schutzmaßnahmen (z. B. innerbetriebliche Verkehrsregeln, geeignete Warnkleidung, farbliche Markierungen, Reinigungsverfahren, Winterdienst, Überdachung) im Rahmen der Gefährdungsbeurteilung festzulegen und umzusetzen."}]}]},
+   {"datei":"ASR/ASR-A1-8.txt","stelle":"Abschnitt 5 (Betreiben von Verkehrswegen) Abs. 1","zitat":"Für die Sicherheit auf Verkehrswegen sind geeignete Schutzmaßnahmen (z. B. innerbetriebliche Verkehrsregeln, geeignete Warnkleidung, farbliche Markierungen, Reinigungsverfahren, Winterdienst, Überdachung) im Rahmen der Gefährdungsbeurteilung festzulegen und umzusetzen."}]}]},
  {"id":"P07","aussagen":[
   {"id":"P07","urteil":"gedeckt","belege":[
    {"datei":"Gesetze-Verordnungen/JArbSchG.txt","stelle":"§ 28a Satz 1","zitat":"Vor Beginn der Beschäftigung Jugendlicher und bei wesentlicher Änderung der Arbeitsbedingungen hat der Arbeitgeber die mit der Beschäftigung verbundenen Gefährdungen Jugendlicher zu beurteilen."},
