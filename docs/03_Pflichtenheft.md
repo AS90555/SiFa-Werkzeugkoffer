@@ -196,13 +196,37 @@ Was die Agenten leisten können: prüfen, ob etwas im Text steht, und zwar volls
 - Versionsverwaltung mit Git; privates Repository auf GitHub für das Produkt.
 - Kein Microsoft Office.
 
-## 9 Offene Entscheidungen
+## 9 Entscheidungen zum Betrieb
 
-| Nr. | Frage | Bis wann nötig |
-| --- | --- | --- |
-| E1 | Wo liegen echte Kundendaten: nur lokal, in einem zweiten privaten Repository oder verschlüsselt? | vor dem ersten echten Kunden |
-| E2 | Wie wird der KI-Einsatz dem Kunden gegenüber geregelt (Vertrag, Auftragsverarbeitung)? | vor dem ersten echten Kunden |
-| E3 | Wie arbeiten Handy und Laptop mit demselben Stand? | vor der Generalprobe |
-| E4 | Womit wird im Betrieb diktiert und wie kommt der Text ins System? | vor der Generalprobe |
-| E5 | Wie laufen die Agenten: von Hand angestoßen in Claude oder als feste, wiederholbare Abläufe? | zu Meilenstein 2 |
-| E6 | Wie weit werden Betriebsanweisungen aus Bausteinen erzeugt, wie weit von Hand ergänzt? | zu Meilenstein 4 |
+Stand 12.11.2026.
+
+| Nr. | Frage | Entscheidung | Status |
+| --- | --- | --- | --- |
+| E1 | Wo liegen echte Kundendaten? | Zurückgestellt, bis der erste echte Kunde ansteht. Dann wird der übliche Standard ermittelt (Ablageort, Verschlüsselung, Aufbewahrung). Bis dahin gibt es nur Beispiele aus dem Kopf. | zurückgestellt |
+| E2 | Wie wird der KI-Einsatz gegenüber dem Kunden geregelt? | Die KI erfährt nichts über den Kunden. Protokolle beschreiben nur Arbeitsplätze, ohne Firmenname, Ort und Personennamen. Der Bezug zwischen Fall und Kunde liegt allein bei Andre. Ob darüber hinaus eine vertragliche Regelung nötig ist, wird mit E1 geklärt. | entschieden, rechtliche Prüfung offen |
+| E3 | Wie arbeiten Handy und Laptop mit demselben Stand? | Vorerst über diesen Weg: Andre spricht am Handy in die Claude-App, die Sitzung läuft auf dem Laptop, dort und im Repository liegt alles. Ein eigener Abgleich wird erst gebaut, wenn die Oberfläche am Handy vor Ort gebraucht wird. | entschieden für jetzt |
+| E4 | Womit wird diktiert? | Vorerst mit dem Handy in der Claude-App. Ein eigenes Diktiergerät mit automatischer Verschriftung wird später geprüft. Das System nimmt in jedem Fall Text entgegen, das Gerät ist austauschbar. | entschieden für jetzt |
+| E5 | Wie laufen die Agenten? | Als feste, schriftlich beschriebene Abläufe im Repository, ausgeführt von Claude und von Hand angestoßen. Siehe 9.1. | entschieden |
+| E6 | Wie entstehen Betriebsanweisungen? | Durch einen festen Ablauf aus Bausteinen, ohne frei formulierende KI. Siehe 9.2. | entschieden im Grundsatz, Feinplanung zu M4 |
+
+### 9.1 Betriebsweise der Agenten (E5)
+
+- Jeder Agent ist eine Datei in `agenten/`: Aufgabe, Eingaben, Arbeitsschritte, Form des Berichts, was er nicht darf.
+- Ausgeführt wird er von Claude, hier im Chat oder mit Claude Code auf dem Laptop. Es gibt vorerst keinen eigenen Dienst und keine laufenden Kosten.
+- Jeder Lauf legt einen Bericht in `pruefberichte/` ab: Regel, Fundstelle, wörtliche Textstelle, Urteil, Datum, Stand des Regelwerks. Der Kern prüft die Form der Berichte.
+- Der Gegenprüfer läuft in einem frischen Durchgang ohne Zugriff auf den ersten Bericht.
+- „Beleg geprüft“ setzt der Kern nur, wenn zwei übereinstimmende Berichte vorliegen. Die Freigabe setzt Andre.
+- Ein eigener, selbstständig laufender Dienst wird erst gebaut, wenn die Menge es verlangt. Die Beschreibungen in `agenten/` bleiben dann dieselben.
+
+Begründung: gleiche Qualität wie ein fest eingebauter Dienst, aber sofort nutzbar, nachvollziehbar und ohne Infrastruktur. Was sich bewährt, lässt sich später automatisieren, ohne die Abläufe neu zu erfinden.
+
+### 9.2 Betriebsanweisungen aus Bausteinen (E6)
+
+- Die Gliederung gibt das Regelwerk vor: für Gefahrstoffe TRGS 555 Abschnitt 3.2, für Arbeitsmittel BetrSichV § 12 Abs. 2 und die DGUV Information 211-010 (noch zu beschaffen).
+- Jede Maßnahme der Bibliothek bekommt die Angabe, in welchen Abschnitt der Betriebsanweisung sie gehört (Schutzmaßnahmen und Verhaltensregeln, Verhalten bei Störungen, Erste Hilfe, Instandhaltung und Entsorgung).
+- Für einen fertig aufgenommenen Arbeitsplatz setzt der Erzeuger die Betriebsanweisung zusammen: aus den ausgelösten Regeln, aus den Daten der Stoffe (Gefahren aus den H-Sätzen, Schutzausrüstung, Erste Hilfe, Entsorgung aus dem Sicherheitsdatenblatt) und aus den Angaben zum Arbeitsplatz.
+- Was sich nicht aus Daten füllen lässt, erscheint als sichtbare Lücke „zu ergänzen“, nicht als erfundener Text.
+- KI liest höchstens das Sicherheitsdatenblatt aus. Den Text der Betriebsanweisung formuliert sie nicht.
+- Andre ergänzt betriebliche Besonderheiten von Hand. Die Ergänzungen bleiben bei einer Neuerzeugung erhalten.
+
+Vorteil dieses Wegs: Ändert sich eine Regel oder ein Datenblatt, lassen sich alle betroffenen Betriebsanweisungen neu erzeugen und die Änderungen benennen.

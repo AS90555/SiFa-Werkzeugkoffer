@@ -80,7 +80,7 @@ Das, was der Unternehmer in der Hand hält.
 
 Ein fremder Betrieb vom ersten Rundgang bis zur Übergabe aller Dokumente, mit gemessener Zeit.
 
-**Abnahme:** Betrieb mit bis zu 20 Arbeitsplätzen in zwei Rundgängen aufgenommen; alle Dokumente aus M3 bis M6 liegen vor; Andre würde sie so einem Kunden übergeben. Offene Punkte aus dem Pflichtenheft E1 bis E4 sind entschieden.
+**Abnahme:** Betrieb mit bis zu 20 Arbeitsplätzen in zwei Rundgängen aufgenommen; alle Dokumente aus M3 bis M6 liegen vor; Andre würde sie so einem Kunden übergeben. Die zurückgestellten Punkte E1 und E2 aus dem Pflichtenheft sind vor dem ersten echten Kunden geklärt.
 
 ### M9 Produktreife — offen
 

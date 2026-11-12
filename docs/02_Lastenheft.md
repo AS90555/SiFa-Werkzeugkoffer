@@ -96,7 +96,7 @@ Stand: 12.11.2026. Was der SiFa-Werkzeugkoffer aus Sicht der Sifa können muss. 
 | --- | --- | --- | --- |
 | H1 | Kundendaten getrennt vom Produkt ablegen | Muss | offen |
 | H2 | Personenbezogene Daten schützen: Unterweisungsnachweise und Vorsorgekartei enthalten Namen | Muss | offen |
-| H3 | Protokolle für die KI ohne Personennamen; Kunde ist über den KI-Einsatz informiert | Muss | offen |
+| H3 | Die KI erfährt nichts über den Kunden: Protokolle ohne Firmenname, Ort und Personennamen; der Bezug zum Kunden liegt allein bei der Sifa | Muss | als Arbeitsregel festgelegt, technische Prüfung offen |
 | H4 | Sicherung außerhalb des Laptops | Muss | erfüllt für das Produkt, offen für Kundendaten |
 | H5 | Läuft ohne Internet beim Rundgang | Soll | erfüllt für die Oberfläche |
 | H6 | Umzug auf einen Server oder in eine App ohne Neubau von Bibliothek und Kern | Soll | erfüllt als Bauweise |

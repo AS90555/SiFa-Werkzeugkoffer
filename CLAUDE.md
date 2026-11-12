@@ -15,6 +15,7 @@ Sprache: Deutsch, klar, ohne Fachjargon aus der Softwareentwicklung. Andre ist F
 - `freigabe: geprueft` setzt nur Andre.
 - Protokolle in `protokolle/` nie verändern.
 - Keine Unterlagen von Andres Arbeitgeber verwenden.
+- Protokolle und Fälle enthalten keinen Firmennamen, keinen Ort und keine Personennamen. Taucht so etwas in einem Diktat auf, vor dem Ablegen durch eine neutrale Bezeichnung ersetzen und Andre darauf hinweisen.
 - Kein Microsoft Office. Dokumente als Markdown, HTML oder Claude Docs.
 
 ## Nach jeder Änderung
