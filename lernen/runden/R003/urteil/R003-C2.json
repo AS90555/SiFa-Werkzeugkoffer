@@ -1,0 +1,63 @@
+{
+ "id": "R003-C2",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Haut-/Augenkontakt mit Leim wird nur über den allgemeinen Gefahrstoffeintrag erfasst, der der Gefahrstoff-Wahrheit (Nr. 2) zugeordnet ist; keine eigene Gefährdung."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Warnzeichen am Eimer; Einstufung nach Sicherheitsdatenblatt, Handschuhe, Hautkontakt vermeiden passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen und Scheren nennt nur Sicherheitsschuhe und Absetzen, nichts zum überbrückten Zweihandschalter."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung an heißen Flächen",
+   "grund": "Heiße Platten ohne Handschuh; hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Stapel über 40 kg; Zweierhub und Hebehilfe passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Leimreste und Furnierschnitzel am Boden; Boden sauber halten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Reinigen an der Presse und Pressblechwechsel durch den Schichtleiter."
+  },
+  {
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "urteil": "unbegruendet",
+   "grund": "Keine Angabe zu Schwangeren oder fruchtschädigendem Stoff."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Bewegung."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "berechtigt",
+   "grund": "Hydraulisch schließende Presse, Stapel von Hand ein- und herausgenommen."
+  }
+ ]
+}

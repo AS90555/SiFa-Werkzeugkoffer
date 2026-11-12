@@ -1,0 +1,110 @@
+{
+ "id": "R003-C1",
+ "name": "R003-C1",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Plattenaufteilsäge mit Auslauftisch",
+   "bereich": "Plattenzuschnitt",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "zeitdruck"
+   ],
+   "angaben": {
+    "last_kg": 30,
+    "griffe_tag": 80
+   },
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "saegen",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Bediener holt eine Platte mit dem Hubwagen vom Stapel",
+   "fehlt": "Antrieb des Hubwagens nicht genannt (Handhubwagen oder elektrisch); Schritt weggelassen"
+  },
+  {
+   "text": "Platten knapp dreißig Kilogramm schwer",
+   "fehlt": "genaues Gewicht; 30 kg als obere Grenze eingetragen, bitte klären"
+  },
+  {
+   "text": "ungefähr achtzig Platten pro Schicht",
+   "fehlt": "Griffe je Stunde unbekannt; 80 je Schicht als Griffe je Tag eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Schutzhaube über dem Sägeblatt hängt auf einer Seite hoch, der Bediener hat sie mit einem Stück Draht festgebunden."
+  },
+  {
+   "text": "der Stutzen am Maschinenkopf ist halb zu, und auf dem Schiebetisch und dem Boden liegt feiner Staub"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "legt sie auf den Schiebetisch",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "schiebt sie durch und zieht die Zuschnitte heraus; Formatkreissäge mit Schiebetisch",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "nimmt die fertigen Teile am Auslauf ab und stapelt sie auf Paletten",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Das Sägeblatt wechselt der Schichtleiter",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "die Säge reinigt der Bediener am Ende der Schicht mit Besen und Staubsauger",
+   "sicher": true
+  }
+ ]
+}

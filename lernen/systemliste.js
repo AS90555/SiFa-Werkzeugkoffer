@@ -12,6 +12,6 @@ for (const d of fs.readdirSync(path.join(ordner, 'faelle')).filter(x => x.endsWi
   for (const s of e.stationen) for (const t of s.treffer) { const r = R.get(t.regel); const g = G.get(r.gefaehrdung);
     const x = liste.get(g.id) || { gefaehrdung: g.name, status: 'offen', massnahmen: [], entsteht: [] };
     if (t.status === 'trifft zu') x.status = 'trifft zu'; x.entsteht.push(r.entsteht); x.massnahmen.push(...r.massnahmen.map(m => m.text)); liste.set(g.id, x); }
-  fs.writeFileSync(path.join(ordner, 'system', d), JSON.stringify({ id: fall.id, gefaehrdungen: [...liste.values()] }, null, 1));
+  fs.writeFileSync(path.join(ordner, 'system', d), JSON.stringify({ id: fall.id, gefaehrdungen: [...liste.values()].filter(x => x.status === 'trifft zu'), rueckfragen: [...liste.values()].filter(x => x.status !== 'trifft zu').map(x => x.gefaehrdung) }, null, 1));
 }
 console.log('Systemlisten geschrieben');

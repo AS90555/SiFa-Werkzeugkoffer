@@ -1,0 +1,151 @@
+{
+ "runde": "R003",
+ "regeln": 89,
+ "quote": 74,
+ "summe": {
+  "getroffen": 34,
+  "nachfrage": 2,
+  "uebersehen": 9,
+  "ohneEintrag": 1,
+  "zusaetzlich": 22,
+  "wuensche": 47,
+  "schritte": 38
+ },
+ "faelle": [
+  {
+   "id": "R003-C1",
+   "arbeitsplatz": "Plattenzuschnitt an der Plattenaufteilsäge",
+   "branche": "Holz, Möbelfertigung",
+   "getroffen": 5,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 5
+  },
+  {
+   "id": "R003-C2",
+   "arbeitsplatz": "Verleimen und Pressen an der Furnierpresse",
+   "branche": "Holz, Tischlerei",
+   "getroffen": 5,
+   "nachfrage": 0,
+   "uebersehen": 1,
+   "ohneEintrag": 0,
+   "zusaetzlich": 1
+  },
+  {
+   "id": "R003-C3",
+   "arbeitsplatz": "Endmontage und Verglasung von Hand",
+   "branche": "Fensterbau",
+   "getroffen": 5,
+   "nachfrage": 0,
+   "uebersehen": 2,
+   "ohneEintrag": 0,
+   "zusaetzlich": 4
+  },
+  {
+   "id": "R003-C4",
+   "arbeitsplatz": "Schweißen und Beizen der Nähte an der Schweißkabine",
+   "branche": "Metall, Edelstahlverarbeitung",
+   "getroffen": 4,
+   "nachfrage": 0,
+   "uebersehen": 2,
+   "ohneEintrag": 0,
+   "zusaetzlich": 2
+  },
+  {
+   "id": "R003-C5",
+   "arbeitsplatz": "Konventionelle Konsolfräsmaschine mit Kühlschmierstoff",
+   "branche": "Metall, Maschinenbau",
+   "getroffen": 4,
+   "nachfrage": 1,
+   "uebersehen": 1,
+   "ohneEintrag": 0,
+   "zusaetzlich": 5
+  },
+  {
+   "id": "R003-C6",
+   "arbeitsplatz": "Instandhaltung: Austausch von Hallenleuchten aus der Arbeitsbühne",
+   "branche": "Metall, mittlerer Betrieb",
+   "getroffen": 2,
+   "nachfrage": 0,
+   "uebersehen": 2,
+   "ohneEintrag": 1,
+   "zusaetzlich": 2
+  },
+  {
+   "id": "R003-C7",
+   "arbeitsplatz": "Lackraum mit Gefahrstofflager: Umfüllen von Lack und Verdünnung",
+   "branche": "Holz",
+   "getroffen": 3,
+   "nachfrage": 1,
+   "uebersehen": 1,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R003-C8",
+   "arbeitsplatz": "Versand: Beladen eines Lkw an der Rampe mit dem Dieselstapler",
+   "branche": "Holz, mittlerer Betrieb",
+   "getroffen": 6,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 3
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 11,
+   "verfehlt": 5
+  },
+  "2": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 5,
+   "verfehlt": 4
+  },
+  "4": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 1,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 76,
+  "getroffen": 35,
+  "rueckfrage": 2,
+  "verfehlt": 9,
+  "unbegruendet": 0,
+  "zBerechtigt": 16,
+  "zUnbegruendet": 17
+ }
+}

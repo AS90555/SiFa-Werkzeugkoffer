@@ -1,0 +1,88 @@
+{
+ "id": "R003-C4",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Nur Befugte: Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur",
+    "Arbeitsanweisung für den Sonderbetrieb"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Emissionsarmes Verfahren und Zusatzwerkstoff wählen",
+    "Absaugung an der Entstehungsstelle, nachgeführt",
+    "Atemschutz, wenn die Absaugung nicht ausreicht"
+   ],
+   "entsteht": [
+    "Schweißrauch und Gase"
+   ]
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schweißplatz zu Nachbarplätzen abschirmen",
+    "Schweißerschutzschild und bedeckende Kleidung"
+   ],
+   "entsteht": [
+    "Ultraviolette und sichtbare Strahlung des Lichtbogens"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung an heißen Flächen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "Feuerlöscher griffbereit",
+    "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+   ],
+   "entsteht": [
+    "Funken und glühende Partikel"
+   ]
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Flasche gegen Umfallen sichern",
+    "Transport nur mit Ventilschutz"
+   ],
+   "entsteht": [
+    "Hoher Druck, schwere Flasche"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "offen",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Tätigkeitswechsel und Pausen",
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Tätigkeitswechsel und Pausen"
+   ],
+   "entsteht": [
+    "Immer gleiche Bewegung in hoher Zahl",
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  }
+ ]
+}

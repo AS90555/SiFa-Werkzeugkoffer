@@ -173,5 +173,10 @@
   "id": "g-psychisch",
   "faktor": 10,
   "name": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge"
+ },
+ {
+  "id": "g-absturz",
+  "faktor": 1,
+  "name": "Absturz aus der Höhe"
  }
 ]

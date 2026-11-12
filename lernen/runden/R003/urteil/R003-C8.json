@@ -1,0 +1,63 @@
+{
+ "id": "R003-C8",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Rampe nicht abgesperrt; Fahr- und Gehwege trennen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Fahrzeug kippt oder wird falsch bedient",
+   "grund": "Schräge, nasse Brücke; befestigte Wege und Verkehrsregelung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stapel, Wagen oder Paket kippt",
+   "grund": "Schief gestapelt bis drei Lagen; Stapelhöhe begrenzen, Ladung sichern passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Unfall durch fehlende Abstimmung mit Fremden",
+   "grund": "Lkw-Fahrer neben der Ladefläche; Warteplatz und Einweisung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kalte Luft durch Rolltor; Torschleier passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Enger Zeitplan; Planungsmaßnahme passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Paletten werden mit dem Stapler bewegt, kein Handhebeanlass."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Gabel wird vom Fahrer gereinigt, Stapler abgestellt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Brücke ist an den Rändern rutschig."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Bewegung."
+  }
+ ]
+}

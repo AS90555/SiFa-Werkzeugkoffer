@@ -1,0 +1,72 @@
+{
+ "id": "R003-C1",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Hochgebundene Schutzhaube; Maßnahme Schutzhaube richtig eingestellt passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Stutzen halb zu; Maßnahme Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Dauerlärm; Gehörschutzstufen passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Fast 30 kg Platten; Hebehilfe und Bewertung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Druck vom Meister bei Auftragsliste; Planungsmaßnahme passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Krebs der Nase durch Hartholzstaub",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hartholz genannt, nur beschichtete Spanplatten."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Sägeblattwechsel und Reinigung der Säge am Schichtende."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "berechtigt",
+   "grund": "Feiner Staub auf Schiebetisch und Boden, Reinigung mit Besen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Feiner Staub liegt auf dem Boden."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Handarbeit in hoher Zahl."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "unbegruendet",
+   "grund": "Kein Einzug an der Formatkreissäge beschrieben."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Quetschanlass im Protokoll."
+  }
+ ]
+}

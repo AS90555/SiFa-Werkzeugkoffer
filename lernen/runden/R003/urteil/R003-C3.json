@@ -1,0 +1,64 @@
+{
+ "id": "R003-C3",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Scheibe vom Saugheber gerutscht; Warneinrichtung und Niemand unter der Last passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "50 bis 80 kg; zu zweit oder Hebehilfe passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Der Eintrag Schnitt- und Stichverletzung ist dem Cuttermesser (Nr. 4) zugeordnet; keine eigene Gefährdung für Glaskanten."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Offenes Cuttermesser; Werkzeug mit Abdeckung der Klinge passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "grund": "Vier Glasleisten je Fenster mit Akkuschrauber; Schrauber mit Abschaltkupplung passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Vorgegebener Takt; Planungsmaßnahme passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Tor offen, es zieht; Torschleier und Kleidung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Rüsten macht der Vorarbeiter."
+  },
+  {
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "urteil": "berechtigt",
+   "grund": "Scheiben werden aus dem Gestell geholt."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "berechtigt",
+   "grund": "Scheibe von 50 bis 80 kg wird von Hand in den Flügel eingesetzt."
+  }
+ ]
+}

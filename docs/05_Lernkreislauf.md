@@ -15,6 +15,7 @@ Agenten erfinden Arbeitsplätze, sprechen sie als Rundgangsprotokoll ein und hal
 | Übersetzer | Agent | nur das Protokoll, Stammdaten, Wörterbuch | Fall und Wünsche |
 | Kern | Programm | Fall, Bibliothek | Gefährdungen und Maßnahmen |
 | Auswerter | Programm `lernen/auswerten.js` | Fall, Ergebnis, Wahrheit | Bericht mit Trefferquote und Lücken |
+| Schiedsrichter | Agent | Protokoll, Wahrheit, Liste des Systems | Urteil nach Bedeutung: getroffen, Rückfrage, verfehlt; Zusatzfunde berechtigt oder unbegründet |
 | Lücken-Schließer | Claude, später eigener Agent | Bericht | Vorschläge: Wörterbuch, Stammdaten, Regeln im Entwurf |
 | Beleg-Prüfer und Gegenprüfer | Agenten | Regelvorschlag, Regelwerkstext | Prüfberichte |
 | Freigabe | Andre | Regel, Berichte | Freigabe oder Ablehnung |
@@ -45,7 +46,7 @@ So wird nicht gemessen, wie gut das System Bekanntes wiedergibt, sondern wie gut
 | --- | --- |
 | Die Wahrheit stammt selbst von einer KI und kann falsch oder unvollständig sein. | Sie dient nur zum Finden von Lücken. Gültig wird eine Regel durch das Regelwerk. Andre sieht je Runde eine Stichprobe der Wahrheiten durch. |
 | Sprecher und Bibliothek haben dieselben blinden Flecken. | Andres eigene Protokolle bleiben der Maßstab. Etwa jedes fünfte Protokoll kommt von ihm. |
-| Der Sprecher biegt Gefährdungen auf vorhandene Kennungen. | Auftrag verbietet es; der Auswerter zählt, wie oft „ohne Eintrag“ vorkommt. Bei null wird die Wahrheit geprüft. |
+| Der Sprecher sah bis Runde R003 die Gefährdungsliste der Bibliothek und wählte bevorzugt daraus. Je größer die Liste, desto leichter der Treffer. | Ab Runde R004 sieht der Sprecher nur noch die elf Faktoren und beschreibt Gefährdungen frei. Den Vergleich macht der Schiedsrichter. Die Quoten bis R003 sind deshalb eher zu hoch. |
 | Protokolle beschreiben auch Mängel (fehlendes Schloss, lockerer Stecker). Das ist Ist-Zustand, keine Gefährdung aus der Tätigkeit. | Das System muss die Gefährdung finden; der Mangel gehört in die Bewertung „Maßnahme fehlt“. Der Übersetzer soll Mängel künftig getrennt notieren. |
 | Überanpassung an erzeugte Protokolle. | Prüfrunden ohne Nachbesserung; Regressionstests; echte Protokolle als Gegenprobe. |
 
@@ -60,4 +61,4 @@ So wird nicht gemessen, wie gut das System Bekanntes wiedergibt, sondern wie gut
 
 ## Stand
 
-Runde R001 (Lernrunde, sechs Arbeitsplätze) ist ausgewertet, siehe `lernen/runden/R001/bericht.md` und Lernbuch.
+Runden R001 bis R003 sind ausgewertet, siehe die Berichte unter `lernen/runden/` und das Lernbuch.

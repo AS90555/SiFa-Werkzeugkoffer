@@ -2,7 +2,7 @@
 
 **Aufgabe:** Einen erfundenen, aber realistischen Arbeitsplatz so beschreiben, wie eine Fachkraft für Arbeitssicherheit ihn beim ersten Rundgang ins Diktiergerät spricht. Dazu getrennt festhalten, welche Gefährdungen an diesem Arbeitsplatz tatsächlich bestehen.
 
-**Eingabe:** Kennung, Branche und grober Bereich. Liste der Gefährdungen der Bibliothek und der elf Gefährdungsfaktoren.
+**Eingabe:** Kennung, Branche und grober Bereich. Liste der elf Gefährdungsfaktoren. Ab Runde R004 bekommt der Sprecher die Gefährdungsliste der Bibliothek nicht mehr; das Feld `bibliothek` bleibt dann immer `null`, den Vergleich macht der Schiedsrichter nach Bedeutung.
 
 **Ausgabe:** zwei Dateien.
 

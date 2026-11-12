@@ -1,0 +1,141 @@
+{
+ "id": "R003-C3",
+ "name": "R003-C3",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Verglasungsstation",
+   "bereich": "Endmontage",
+   "personen": 2,
+   "umgebung": [
+    "kalt",
+    "zeitdruck"
+   ],
+   "angaben": {
+    "last_kg": 80,
+    "griffe_tag": 60
+   },
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "vakuumheber",
+     "material": [
+      "glaspaket"
+     ]
+    },
+    {
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "isolierglas",
+      "rahmen"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "rahmen"
+     ]
+    },
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "dichtungsschere",
+     "material": [
+      "dichtung"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Dichtband wird mit einem Cuttermesser von der Rolle geschnitten",
+   "fehlt": "Ausführung Cuttermesser (nur Dichtungsschere vorhanden) und Material Dichtband (nur Dichtungsprofil); Zuordnung unsicher"
+  },
+  {
+   "text": "Ein Stück wiegt zwischen fünfzig und achtzig Kilogramm",
+   "fehlt": "genaues Gewicht; obere Grenze 80 kg eingetragen"
+  },
+  {
+   "text": "Pro Schicht werden etwa sechzig Fenster verglast",
+   "fehlt": "Griffe je Stunde unbekannt; 60 je Schicht als Griffe je Tag eingetragen"
+  },
+  {
+   "text": "das Einsetzen in den Flügel geht dann von Hand",
+   "fehlt": "Schwere Last von Hand einsetzen: Vorgang Einsetzen nennt keine Last; Gewicht nur als Angabe"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Vor zwei Wochen ist eine Scheibe vom Saugheber gerutscht, zum Glück stand niemand darunter."
+  },
+  {
+   "text": "Die Kanten der Scheiben sind scharf und nicht entgratet"
+  },
+  {
+   "text": "das Messer liegt offen auf dem Tisch"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Saugheber holt die Scheibe aus dem Gestell",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "eine setzt die Scheibe in den Flügel ein; Einsetzen in den Flügel geht von Hand",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "schraubt die Glasleisten fest; Akkuschrauber",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Das Dichtband wird mit einem Cuttermesser von der Rolle geschnitten",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "Rüsten macht der Vorarbeiter",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "die Saugheber prüft ein Techniker",
+   "sicher": true
+  },
+  {
+   "schritt": 7,
+   "stelle": "den Platz reinigt jeder selbst",
+   "sicher": true
+  }
+ ]
+}

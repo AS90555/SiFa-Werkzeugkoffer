@@ -1,0 +1,47 @@
+{
+ "id": "R003-C6",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Absturzgefährdung in der Systemliste."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Gefährdung zu herabfallenden Gegenständen in der Systemliste."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Leuchte unter Spannung; Freischalten und Sichern passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Fahrer sieht die Bühne nicht; Sicht schaffen und Wege trennen passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Auftrag bis Schichtende; Planungsmaßnahme passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Vier-Kilo-Leuchte ergibt keinen Belastungsanlass."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Bewegung."
+  }
+ ]
+}

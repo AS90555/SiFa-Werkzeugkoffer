@@ -1,0 +1,37 @@
+{"id":"R003-C5","name":"R003-C5","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Kühlschmierstoff","material":"kuehlschmierstoff","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Konventionelle Konsolfräsmaschine","bereich":"Zerspanung","personen":1,"umgebung":["boden","laerm_umgebung"],"angaben":{"last_kg":30},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+   {"vorgang":"verschrauben","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+   {"vorgang":"zerspanen_metall","ausfuehrung":"stationaer_handvorschub","material":["metallwerkstueck","kuehlschmierstoff"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallspaene"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Ein Auszubildender kommt nur zum Wechseln der Werkstücke dazu","fehlt":"Alter des Auszubildenden unbekannt; Angabe Jugendliche im Betrieb offen"},
+  {"text":"Der Kühlschmierstoff steht in einem offenen Behälter, angesetzt einmal im Monat, trüb und säuerlich riechend","fehlt":"Ob wassergemischt, ist nicht ausdrücklich genannt; Zustand/Keimbelastung des Kühlschmierstoffs und Behälter nicht in den Stammdaten"},
+  {"text":"Das Licht über der Maschine ist schwach","fehlt":"Umgebung Beleuchtung fehlt"},
+  {"text":"Werkstück mit Spannpratzen festgeschraubt","fehlt":"Vorgang Spannen von Werkstücken fehlt; nächstliegend Verschrauben"},
+  {"text":"Die Späne greift man mit bloßen Händen aus der Wanne","fehlt":"Vorgang Späne entfernen von Hand fehlt; Material Metallspäne vorhanden, Vorgang nur als Handhaben gewählt"},
+  {"text":"Die Halle ist laut, man muss nah heranbeugen, um sich zu verständigen","fehlt":"Lärmpegel in dB(A) nicht genannt; Lärm der Maschine selbst oder von nebenan unklar"},
+  {"text":"Gewicht etwa dreißig Kilo, mit Kran gehoben","fehlt":"Gewichtsangabe gilt nur für den Kranvorgang, nicht für Handlast; Angabe je Station nicht schrittgenau"},
+  {"text":"Werkstück etwa vierzig mal zwanzig Zentimeter, Aluminiumblock","fehlt":"Material Aluminium-Rohling fehlt; Metallwerkstück gewählt"}
+ ],
+ "maengel":[
+  {"text":"der Behälter ist schon ziemlich trüb und riecht säuerlich"},
+  {"text":"Der Kühlschmierstoff steht in einem offenen Behälter unter dem Tisch"},
+  {"text":"greift man sie mit bloßen Händen aus der Wanne"},
+  {"text":"Das Licht über der Maschine ist schwach"},
+  {"text":"der Boden an der Stelle ist oft ölig"},
+  {"text":"Gereinigt wird ... mit Lappen und Druckluft"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Er wird mit einem Kran auf den Tisch gehoben","sicher":true},
+  {"schritt":2,"stelle":"dann mit Spannpratzen festgeschraubt","sicher":false},
+  {"schritt":3,"stelle":"Beim Fräsen läuft Kühlschmierstoff aus einer verstellbaren Düse auf die Schneide","sicher":true},
+  {"schritt":4,"stelle":"greift man sie mit bloßen Händen aus der Wanne","sicher":false},
+  {"schritt":5,"stelle":"Gereinigt wird die Maschine am Schichtende vom Bediener selbst, mit Lappen","sicher":true},
+  {"schritt":6,"stelle":"mit Lappen und Druckluft","sicher":true}
+ ]}

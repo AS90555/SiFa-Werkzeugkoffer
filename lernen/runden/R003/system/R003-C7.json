@@ -1,0 +1,77 @@
+{
+ "id": "R003-C7",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe, günstige Greifhöhe",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "status": "offen",
+   "massnahmen": [
+    "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen",
+    "Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Hautkontakt technisch vermeiden",
+    "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts"
+   ],
+   "entsteht": [
+    "Abhängig von der Einstufung",
+    "Stoff kann Allergien auslösen"
+   ]
+  },
+  {
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "status": "offen",
+   "massnahmen": [
+    "Ersatzstoff prüfen",
+    "Hautkontakt ausschließen",
+    "Schwangere dürfen dem Stoff nicht ausgesetzt sein"
+   ],
+   "entsteht": [
+    "Fruchtschädigender Stoff"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Geschlossene Waschgeräte statt offener Wanne",
+    "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"
+   ],
+   "entsteht": [
+    "Hautkontakt und Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Boden sauber und Wege frei halten, Reinigungsplan",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "offen",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Tätigkeitswechsel und Pausen"
+   ],
+   "entsteht": [
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  }
+ ]
+}

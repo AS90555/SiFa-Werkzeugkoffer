@@ -1,0 +1,83 @@
+{
+ "id": "R003-C5",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Einzug von Hand oder Arm meint eine andere Gefahr (Einzug); Maßnahmen betreffen nicht die Nähe zur laufenden Spindel beim Beugen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Späne mit bloßen Händen; Schnittfeste Handschuhe passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "grund": "Kühlschmierstoff auf die Schneide; Hautschutz und Absaugung passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "rueckfrage",
+   "system": "Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff",
+   "grund": "Passende Gefährdung nur mit Status offen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Halle; Gehörschutzstufen passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öliger Boden; Auffangwannen und rutschhemmende Schuhe passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Aluminiumblock rund 30 kg wird gehoben und gespannt."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Reinigung der Maschine am Schichtende, Werkstückwechsel."
+  },
+  {
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "urteil": "unbegruendet",
+   "grund": "Keine Angabe zu Schwangeren."
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "urteil": "berechtigt",
+   "grund": "Kühlschmierstoff ist ein Gefahrstoff, Einstufung offen."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Block wird mit dem Kran auf den Tisch gehoben."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Bewegung in hoher Zahl."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "berechtigt",
+   "grund": "Drehende Spindel, Greifen mit bloßen Händen am Tisch."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Reinigung mit Druckluft wirbelt Späne und Staub auf."
+  }
+ ]
+}

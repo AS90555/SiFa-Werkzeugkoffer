@@ -93,5 +93,9 @@
  "u.boden": "Verschmutzter oder unebener Boden",
  "u.zeitdruck": "Zeitdruck, Hektik",
  "u.hitze": "Hitze, Wärmestrahlung",
- "u.gefaelle": "Gefälle, Rampe"
+ "u.gefaelle": "Gefälle, Rampe",
+ "m.aetzend": "Ätzender Stoff, Säure oder Lauge",
+ "v.hoehe": "Arbeiten in der Höhe",
+ "a.leiter": "Leiter oder Tritt",
+ "a.hubarbeitsbuehne": "Hubarbeitsbühne, Arbeitsbühne"
 }

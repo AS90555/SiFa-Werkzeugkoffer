@@ -1,0 +1,131 @@
+{
+ "id": "R003-C4",
+ "name": "R003-C4",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Schweißkabine mit Absaugtisch",
+   "bereich": "Schweißen und Nachbehandlung der Nähte",
+   "personen": 1,
+   "umgebung": [
+    "halle"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "schweissen",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "stahlprofil",
+      "metallwerkstueck",
+      "druckgasflasche"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Beizbecken",
+   "bereich": "Schweißen und Nachbehandlung der Nähte",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Beizpaste ist eine säurehaltige Paste aus der Tube, sie wird mit dem Pinsel auf die Naht aufgetragen",
+   "fehlt": "Vorgang Beizen und Material Beizpaste (Säure) fehlen; Schritt weggelassen, Stoff nicht eingetragen, da kein passendes Gefahrstoff-Material"
+  },
+  {
+   "text": "Nach dem Schweißen liegt das Teil auf dem Tisch, und die Naht ist noch heiß und blau angelaufen",
+   "fehlt": "kein Schritt dafür genannt; heißes Werkstück nicht zugeordnet"
+  },
+  {
+   "text": "Die Dämpfe der Paste riechen stechend, und die Lüftung an dieser Stelle ist schwach",
+   "fehlt": "Umgebung schwache Lüftung gibt es nicht"
+  },
+  {
+   "text": "nur mit Wasser nachgespült; Beizpaste füllt der Schichtleiter nach",
+   "fehlt": "Material Beizpaste; Schritte 1 und 2 der Station 2 ohne Material, Zuordnung unsicher"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Flasche steht an der Wand, ist aber nur mit einer Kette gesichert"
+  },
+  {
+   "text": "die Kabine hat keinen Vorhang, und die Nachbarn an den Tischen sehen die Lichtblitze"
+  },
+  {
+   "text": "Die Absaugung über dem Tisch läuft, sie ist aber an der Seite nicht dicht, und man riecht den Rauch."
+  },
+  {
+   "text": "Beim Spülen spritzt es manchmal in die Hände und ans Gesicht, weil der Schlauch am Waschbecken nicht richtig sitzt."
+  },
+  {
+   "text": "Die Dämpfe der Paste riechen stechend, und die Lüftung an dieser Stelle ist schwach."
+  }
+ ],
+ "zuordnung": [
+  {
+   "station": 1,
+   "schritt": 1,
+   "stelle": "Geschweißt wird von Hand mit einem WIG-Brenner ... Argon",
+   "sicher": true
+  },
+  {
+   "station": 1,
+   "schritt": 2,
+   "stelle": "Die Wolframelektrode wechselt der Schweißer selbst",
+   "sicher": true
+  },
+  {
+   "station": 2,
+   "schritt": 1,
+   "stelle": "mit Wasser nachgespült",
+   "sicher": false
+  },
+  {
+   "station": 2,
+   "schritt": 2,
+   "stelle": "die Beizpaste füllt der Schichtleiter nach",
+   "sicher": false
+  },
+  {
+   "station": 2,
+   "schritt": 3,
+   "stelle": "Gereinigt wird das Becken am Ende der Schicht ... mit Wasser und Bürste",
+   "sicher": true
+  }
+ ]
+}

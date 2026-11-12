@@ -1,0 +1,61 @@
+{
+ "id": "R003-C6",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe, günstige Greifhöhe",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   ],
+   "entsteht": [
+    "Fahrzeuge kreuzen den Arbeitsplatz"
+   ]
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Nur Elektrofachkräfte",
+    "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen"
+   ],
+   "entsteht": [
+    "Spannung führende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist",
+    "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+   ],
+   "entsteht": [
+    "Arbeiten in Hektik"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "offen",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Tätigkeitswechsel und Pausen"
+   ],
+   "entsteht": [
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  }
+ ]
+}

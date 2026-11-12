@@ -285,5 +285,19 @@
   "stufe": "vermutungswirkung",
   "stand": "Fassung 05.06.2026",
   "datei": "TRGS/TRGS-900.pdf"
+ },
+ {
+  "id": "trbs-2121",
+  "titel": "TRBS 2121 Gefährdung von Beschäftigten durch Absturz",
+  "stufe": "vermutungswirkung",
+  "stand": "Ausgabe Juli 2018",
+  "datei": "TRBS/TRBS-2121.pdf"
+ },
+ {
+  "id": "trbs-2121-2",
+  "titel": "TRBS 2121 Teil 2 Gefährdung bei der Verwendung von Leitern",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRBS/TRBS-2121-Teil-2.pdf"
  }
 ]

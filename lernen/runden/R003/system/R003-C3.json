@@ -1,0 +1,110 @@
+{
+ "id": "R003-C3",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Warneinrichtung bei Unterdruckabfall funktionsfähig",
+    "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich",
+    "Niemand unter der Last"
+   ],
+   "entsteht": [
+    "Last hängt am Unterdruck"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Nur Befugte: Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur",
+    "Arbeitsanweisung für den Sonderbetrieb"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Höhenverstellbarer Tisch",
+    "Ab Grenzgewicht zu zweit oder mit Hebehilfe"
+   ],
+   "entsteht": [
+    "Last, Zwangshaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
+    "Schrauber mit Abschaltkupplung",
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Tätigkeitswechsel und Pausen"
+   ],
+   "entsteht": [
+    "Gleichförmige Bewegung, Drehmoment",
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Werkzeug mit Abdeckung der Klinge",
+    "Schnittschutzhandschuhe und Unterarmschutz"
+   ],
+   "entsteht": [
+    "Offene Klinge",
+    "Scharfe Kanten, Bruch"
+   ]
+  },
+  {
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherung am Gestell",
+    "Entnahmeregel, niemand in Kipprichtung"
+   ],
+   "entsteht": [
+    "Hohes Gewicht, kippgefährdet"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Heizung, Torschleier oder schnell schließende Tore",
+    "Wärmende Arbeitskleidung"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist",
+    "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+   ],
+   "entsteht": [
+    "Arbeiten in Hektik"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsschuhe",
+    "Auf Unterlagen absetzen, Finger nicht unter die Last"
+   ],
+   "entsteht": [
+    "Schweres Teil wird von Hand abgesetzt"
+   ]
+  }
+ ]
+}

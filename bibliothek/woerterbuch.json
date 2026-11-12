@@ -66,5 +66,10 @@
 {"worte": ["zeitdruck", "hektik", "unter druck", "muss schnell gehen", "termindruck"], "umgebung": ["zeitdruck"]},
 {"worte": ["hitze", "warm am ofen", "strahlungswärme"], "umgebung": ["hitze"]},
 {"worte": ["gefälle", "rampe", "abschüssig"], "umgebung": ["gefaelle"]},
-{"worte": ["immer dieselbe bewegung", "hundert mal", "dreihundert mal", "mehrere hundert mal", "im takt"], "angabe": {"gleichfoermig": true}}
+{"worte": ["immer dieselbe bewegung", "hundert mal", "dreihundert mal", "mehrere hundert mal", "im takt"], "angabe": {"gleichfoermig": true}},
+{"worte": ["beizpaste", "beize für edelstahl", "säure", "lauge", "flusssäure", "salpetersäure"], "material": ["beize_saeure"]},
+{"worte": ["beizen", "ätzen"], "vorgang": "beizen"},
+{"worte": ["leiter", "stehleiter", "anlegeleiter", "tritt"], "ausfuehrung": "leiter"},
+{"worte": ["hubarbeitsbühne", "arbeitsbühne", "scherenbühne", "steiger", "arbeitskorb"], "ausfuehrung": "hubarbeitsbuehne"},
+{"worte": ["in der höhe", "an der decke", "auf dem dach", "hallenleuchte", "über kopf"], "vorgang": "hoehenarbeit"}
 ]

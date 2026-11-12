@@ -1,0 +1,58 @@
+{
+ "id": "R003-C4",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Absaugung seitlich undicht; Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Lichtblitze bei Nachbarn; Abschirmung passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung an heißen Flächen",
+   "grund": "Naht heiß; Ablageplatz und Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Gefahrstoffeintrag für Beizpastendämpfe in der Systemliste."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Gefährdung für Verätzung von Haut und Augen durch Beizpaste in der Systemliste."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "grund": "Flasche nur mit Kette gesichert; Sicherung gegen Umfallen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Elektrodenwechsel und Nachfüllen der Paste sind kein Maschinenanlauf."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "unbegruendet",
+   "grund": "Keine brennbaren Stoffe im Protokoll, Schutzgas ist Argon."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Bewegung in hoher Zahl."
+  }
+ ]
+}

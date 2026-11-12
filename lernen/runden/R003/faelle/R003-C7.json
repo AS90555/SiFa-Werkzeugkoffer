@@ -1,0 +1,34 @@
+{"id":"R003-C7","name":"R003-C7","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Zweikomponentenlack","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Nitroverdünnung","material":"loesemittel","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Umfüllplatz im Lackraum","bereich":"Lackraum, Ende der Spritzerei","personen":1,"umgebung":["boden"],"angaben":{"last_kg":25},
+  "schritte":[
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack","loesemittel"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Umfüllen mit Handpumpe und Trichter","fehlt":"Ausführung Handpumpe/Trichter fehlt; von Hand gewählt"},
+  {"text":"Gebinde mit 20 Litern werden von Hand gekippt","fehlt":"Material Gebinde mit Flüssigkeit fehlt"},
+  {"text":"Volle Gebinde wiegen bis zu fünfundzwanzig Kilo und werden von Hand auf die Palette gehoben","fehlt":"Material Gebinde fehlt; Griffe je Stunde nicht genannt"},
+  {"text":"Zweikomponentenlack","fehlt":"Härter/Isocyanat-Gehalt nicht genannt; Angabe isocyanat offen"},
+  {"text":"Warnsymbole Flamme und Ausrufezeichen auf den Etiketten","fehlt":"Sicherheitsdatenblatt und H-Sätze liegen nicht vor; Entzündbarkeit nicht formal bestätigt"},
+  {"text":"Beim Umfüllen riecht es stark, dünner Dunst über dem Trichter","fehlt":"Umgebung Dämpfe/Dunst und explosionsfähige Atmosphäre nicht in den Stammdaten"},
+  {"text":"Der Raum wird am Ende der Schicht von der Person selbst gereinigt","fehlt":"Art der Reinigung nicht genannt; als Schritt weggelassen"},
+  {"text":"Die Lagerordnung führt der Meister","fehlt":"Organisation/Verantwortung nicht in den Stammdaten"},
+  {"text":"Die Schutzbrille wird nicht getragen","fehlt":"Persönliche Schutzausrüstung nicht in den Stammdaten"}
+ ],
+ "maengel":[
+  {"text":"Ein Gebinde steht offen auf dem Boden"},
+  {"text":"der Boden ist ölig, und an einer Stelle hat jemand etwas verschüttet"},
+  {"text":"am Umfüllplatz gibt es keine Absaugung"},
+  {"text":"Die Schutzbrille hängt am Haken, sie wird nicht getragen"},
+  {"text":"Die Gebinde stehen auf einer Palette am Boden und werden von Hand gekippt"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Lack und Verdünnung ... umfüllt ... mit einer Handpumpe und einem Trichter","sicher":true},
+  {"schritt":2,"stelle":"werden von Hand gekippt","sicher":true},
+  {"schritt":3,"stelle":"Volle Gebinde wiegen bis zu fünfundzwanzig Kilo und werden von Hand auf die Palette gehoben","sicher":true}
+ ]}

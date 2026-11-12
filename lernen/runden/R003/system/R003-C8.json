@@ -1,0 +1,119 @@
+{
+ "id": "R003-C8",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Nur Fahrer einsetzen, die mindestens 18 Jahre alt, geeignet, ausgebildet und schriftlich beauftragt sind",
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   ],
+   "entsteht": [
+    "Fahrzeug im Verkehrsraum",
+    "Fahrzeuge kreuzen den Arbeitsplatz"
+   ]
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Befestigte Wege und Beleuchtung",
+    "Winterdienst und Verkehrsregelung"
+   ],
+   "entsteht": [
+    "Nässe, Eis, Unebenheit, Mischverkehr"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch fehlende Abstimmung mit Fremden",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester Warteplatz für den Lkw-Fahrer, Einweisung, Abstimmung"
+   ],
+   "entsteht": [
+    "Fremder im Gefahrbereich"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe, günstige Greifhöhe",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Nur Befugte: Bediener für Rüsten und Reinigen, Instandhaltung für Wartung und Reparatur",
+    "Arbeitsanweisung für den Sonderbetrieb"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Stapelhöhe begrenzen",
+    "Ladung sichern, zum Beispiel mit Folie oder Band"
+   ],
+   "entsteht": [
+    "Ladung kann verrutschen"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Heizung, Torschleier oder schnell schließende Tore",
+    "Wärmende Arbeitskleidung"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Boden sauber und Wege frei halten, Reinigungsplan",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmenge, Termine und Abläufe so planen, dass sicheres Arbeiten möglich ist",
+    "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+   ],
+   "entsteht": [
+    "Arbeiten in Hektik"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "offen",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Tätigkeitswechsel und Pausen"
+   ],
+   "entsteht": [
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  }
+ ]
+}

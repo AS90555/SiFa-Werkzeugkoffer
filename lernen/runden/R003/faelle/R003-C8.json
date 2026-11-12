@@ -1,0 +1,31 @@
+{"id":"R003-C8","name":"R003-C8","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Laderampe mit Lkw","bereich":"Versand","personen":2,"umgebung":["betriebsfremde","aussen","kalt","gefaelle","zeitdruck","fahrverkehr","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"bewegen","ausfuehrung":"gabelstapler","material":["palette_gestapelt"]},
+   {"vorgang":"lagern_gestapelt","ausfuehrung":"gabelstapler","material":["palette_gestapelt"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Dieselstapler mit zwei Tonnen Tragkraft","fehlt":"Ausführung Gabelstapler mit Dieselantrieb fehlt; Antrieb unbekannt gewählt, Abgase nicht abbildbar"},
+  {"text":"Metallbrücke zwischen Rampe und Ladefläche wird von Hand verschoben","fehlt":"Material Ladebrücke fehlt; Gewicht nicht genannt"},
+  {"text":"Paletten sind Holzkisten mit Bauteilen, etwa eins zwanzig breit","fehlt":"Material Holzkiste/Palette mit Bauteilen fehlt; Gewicht nicht genannt"},
+  {"text":"Ein Kollege gibt vom Rampenende aus Zeichen","fehlt":"Vorgang Einweisen fehlt; als Schritt weggelassen"},
+  {"text":"Der Lkw steht rückwärts an der Laderampe","fehlt":"Lkw sichern/Rampenspalt nicht in den Stammdaten"},
+  {"text":"Die Gabel wird am Ende jeder Schicht vom Fahrer selbst gereinigt","fehlt":"Reinigen eines Flurförderzeugs nicht als eigener Vorgang; Sonderbetrieb gewählt"},
+  {"text":"Der Lkw-Fahrer steht oft neben der Ladefläche","fehlt":"Fremdfahrer im Arbeitsbereich und Aufenthalt neben der Ladefläche nicht abbildbar"},
+  {"text":"Die Paletten werden manchmal etwas schief gestapelt, weil der Platz eng ist","fehlt":"Platzmangel/Enge nicht in den Umgebungen"}
+ ],
+ "maengel":[
+  {"text":"werden ... bis zu drei Lagen hoch gestapelt, manchmal etwas schief"},
+  {"text":"Der Stapler fährt über die Brücke, sie hat eine Schräge und ist an den Rändern rutschig, wenn es regnet"},
+  {"text":"Die Rampe ist nicht abgesperrt, Leute aus dem Büro gehen gelegentlich über den Hof"},
+  {"text":"Im Winter kommt kalte Luft durch das offene Rolltor, und es zieht über den Boden"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Staplerfahrer holt die Paletten aus dem Lager; Der Stapler fährt über die Brücke","sicher":true},
+  {"schritt":2,"stelle":"auf der Ladefläche bis zu drei Lagen hoch gestapelt","sicher":false},
+  {"schritt":3,"stelle":"eine Metallbrücke, die man von Hand verschiebt","sicher":false},
+  {"schritt":4,"stelle":"Die Gabel wird am Ende jeder Schicht vom Fahrer selbst gereinigt","sicher":false}
+ ]}

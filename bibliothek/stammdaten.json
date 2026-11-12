@@ -319,6 +319,14 @@
    "id": "kantenmaterial",
    "name": "Kantenband, Furnier",
    "merkmale": []
+  },
+  {
+   "id": "beize_saeure",
+   "name": "Beizpaste, Säure, Lauge, ätzender Reiniger",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.aetzend"
+   ]
   }
  ],
  "vorgang": [
@@ -701,6 +709,20 @@
    "merkmale": [
     "v.heben"
    ]
+  },
+  {
+   "id": "hoehenarbeit",
+   "name": "Arbeiten in der Höhe, über Kopf an Decke, Dach oder Tor",
+   "merkmale": [
+    "v.hoehe"
+   ]
+  },
+  {
+   "id": "beizen",
+   "name": "Beizen, Ätzen, chemisch Reinigen",
+   "merkmale": [
+    "v.stoff_auftragen"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -881,6 +903,20 @@
    "name": "Ladekran am Fahrzeug",
    "merkmale": [
     "a.hebezeug"
+   ]
+  },
+  {
+   "id": "leiter",
+   "name": "Leiter oder Tritt",
+   "merkmale": [
+    "a.leiter"
+   ]
+  },
+  {
+   "id": "hubarbeitsbuehne",
+   "name": "Hubarbeitsbühne, Arbeitsbühne am Stapler",
+   "merkmale": [
+    "a.hubarbeitsbuehne"
    ]
   }
  ],

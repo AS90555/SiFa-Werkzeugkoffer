@@ -1,0 +1,47 @@
+{
+ "id": "R003-C7",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "rueckfrage",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Passende Gefährdung nur mit Status offen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Schutzbrille nicht getragen; Handschuhe und Schutzbrille passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Brand-/Explosionsgefährdung in der Systemliste."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öliger Boden, verschüttet; Boden sauber halten passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Gebinde bis 25 kg von Hand; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schädigung des ungeborenen Kindes",
+   "urteil": "unbegruendet",
+   "grund": "Keine Angabe zu Schwangeren."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf gleichförmige Bewegung."
+  }
+ ]
+}

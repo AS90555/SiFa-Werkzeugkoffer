@@ -1,0 +1,30 @@
+{"id":"R003-C6","name":"R003-C6","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Austausch von Hallenleuchten unter dem Dach","bereich":"Instandhaltung","personen":2,"umgebung":["fahrverkehr","zeitdruck","halle"],"angaben":{"last_kg":4},
+  "schritte":[
+   {"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"verschrauben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Leuchten gut acht Meter hoch, Person auf fahrbarer Arbeitsbühne (Scherenlift)","fehlt":"Vorgang Arbeiten in der Höhe und Ausführung Arbeitsbühne fehlen"},
+  {"text":"Die Bühne wird am Ende in die Ecke gefahren","fehlt":"Vorgang Fahren/Bedienen einer Arbeitsbühne fehlt"},
+  {"text":"Die alte Leuchte wird von Hand abgeschraubt","fehlt":"Material Leuchte/Beleuchtungskörper fehlt"},
+  {"text":"Die andere hält unten die Ersatzteile bereit; Leuchte wiegt etwa vier Kilo","fehlt":"Material Ersatzteile/Leuchte fehlt; Griffe je Stunde nicht genannt"},
+  {"text":"Aufgeräumt wird am Ende vom Instandhalter selbst","fehlt":"Vorgang Aufräumen ohne Maschine fehlt; als Schritt weggelassen"},
+  {"text":"Die Leuchte hängt noch unter Spannung, niemand hat die Sicherung abgeschaltet","fehlt":"Schritt Freischalten nicht beschrieben; Elektroarbeit unter Spannung nicht als eigene Angabe vorgesehen"},
+  {"text":"Der Fahrer bedient das Hallentor per Taster und sieht die Bühne nicht","fehlt":"Umgebung Sichtbehinderung/Tor nicht in den Stammdaten"}
+ ],
+ "maengel":[
+  {"text":"einen Gurt, der aber nicht eingehängt ist"},
+  {"text":"Die Leuchte hängt noch unter Spannung, die Sicherung ist im Verteiler, aber niemand hat sie abgeschaltet"},
+  {"text":"sie ... fällt beim Lösen oft nach unten, wenn sie nicht gehalten wird"},
+  {"text":"Werkzeug liegt verstreut auf der Plattform, ein Schraubendreher und eine Zange"},
+  {"text":"auf dem Geländer liegt eine Abdeckung"},
+  {"text":"Der Fahrer ... sieht die Bühne nicht"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Leuchte hängt noch unter Spannung","sicher":true},
+  {"schritt":2,"stelle":"Die alte Leuchte wird von Hand abgeschraubt","sicher":true},
+  {"schritt":3,"stelle":"sie wiegt etwa vier Kilo und fällt beim Lösen oft nach unten, wenn sie nicht gehalten wird; die andere hält unten die Ersatzteile bereit","sicher":false}
+ ]}

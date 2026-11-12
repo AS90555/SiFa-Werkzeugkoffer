@@ -1,0 +1,133 @@
+{
+ "id": "R003-C2",
+ "name": "R003-C2",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Zweikomponentenleim",
+   "material": "kleber_2k",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Furnierpresse (Heizpresse)",
+   "bereich": "Verleimen und Pressen",
+   "personen": 2,
+   "umgebung": [
+    "boden"
+   ],
+   "angaben": {
+    "last_kg": 40
+   },
+   "schritte": [
+    {
+     "vorgang": "leimen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kleber_2k"
+     ],
+     "stoffe": [
+      "s1"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware",
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "kleber_2k"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Ein Stapel aus zwölf bis fünfzehn Platten kommt in die Presse; Heizpresse mit zwei beheizten Platten, schließt hydraulisch",
+   "fehlt": "Vorgang Pressen ohne Umformen oder Verschrauben fehlt; Pressvorgang als Schritt weggelassen"
+  },
+  {
+   "text": "Die Platten sind heiß, wenn der Stapel rauskommt (rund neunzig Grad)",
+   "fehlt": "Material heißes Werkstück gilt laut Name für Schweißen oder Ofen; Zuordnung unsicher"
+  },
+  {
+   "text": "der Stapel wiegt gut vierzig Kilogramm",
+   "fehlt": "genaues Gewicht; 40 kg eingetragen"
+  },
+  {
+   "text": "Auf dem Eimer steht das Warnzeichen mit dem Ausrufezeichen",
+   "fehlt": "Sicherheitsdatenblatt und H-Sätze unbekannt, nicht ob Isocyanat"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Handschuhe sind schon halb durchgeweicht, man zieht sie trotzdem an."
+  },
+  {
+   "text": "Der Leim sitzt beim Arbeiten auf den Händen und manchmal im Gesicht, wenn er spritzt."
+  },
+  {
+   "text": "der Bediener nimmt sie ohne Handschuh von der Oberfläche"
+  },
+  {
+   "text": "Die Presse schließt nur, wenn beide Hände am Startknopf sind, aber der eine Knopf ist mit einem Gummiband überbrückt"
+  },
+  {
+   "text": "Auf dem Boden vor der Presse liegen Leimreste und Furnierschnitzel, das ist rutschig."
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "mit einem Zweikomponentenleim eingestrichen ... mit der Rolle aufträgt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "eine legt die Stapel ein",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "die andere nimmt sie am Ende heraus und trägt sie weg; Platten sind heiß",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt wird am Ende der Schicht ... mit Spachtel und Lappen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "er stellt die Presse ein und wechselt die Pressbleche",
+   "sicher": true
+  }
+ ]
+}
