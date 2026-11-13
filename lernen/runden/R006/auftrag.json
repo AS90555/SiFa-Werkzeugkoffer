@@ -1,0 +1,55 @@
+{
+ "runde": "R006",
+ "art": "pruef",
+ "blind": true,
+ "auftraege": [
+  {
+   "kennung": "R006-01",
+   "auftrag": "a085",
+   "branche": "Schule, Chemiesammlung",
+   "bereich": "Vorbereitung von Schülerversuchen"
+  },
+  {
+   "kennung": "R006-02",
+   "auftrag": "a053",
+   "branche": "Gesundheit, Wäscherei eines Krankenhauses",
+   "bereich": "Sortieren der Schmutzwäsche, Mangel"
+  },
+  {
+   "kennung": "R006-03",
+   "auftrag": "a031",
+   "branche": "Metall, Werkzeugbau",
+   "bereich": "Flachschleifmaschine und Erodieren"
+  },
+  {
+   "kennung": "R006-04",
+   "auftrag": "a078",
+   "branche": "Hotel, Housekeeping",
+   "bereich": "Zimmerreinigung und Wäschewagen"
+  },
+  {
+   "kennung": "R006-05",
+   "auftrag": "a046",
+   "branche": "Lebensmittel, Großküche",
+   "bereich": "Kochkessel, Fritteuse, Spülstraße"
+  },
+  {
+   "kennung": "R006-06",
+   "auftrag": "a070",
+   "branche": "Forst",
+   "bereich": "Holzernte mit der Motorsäge"
+  },
+  {
+   "kennung": "R006-07",
+   "auftrag": "a041",
+   "branche": "Logistik, Hochregallager",
+   "bereich": "Schmalgangstapler und Kommissionieren in der Höhe"
+  },
+  {
+   "kennung": "R006-08",
+   "auftrag": "a059",
+   "branche": "Kfz, Karosserie und Lack",
+   "bereich": "Spachteln, Schleifen, Lackierkabine"
+  }
+ ]
+}
