@@ -4,7 +4,8 @@ Stand nach R006 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 ## Als Nächstes fällig
 
-1. **Lücken aus R006 schließen:** Bericht `lernen/runden/R006/bericht.md`. Reihenfolge: Wörterbuch, Stammdaten, Regeln (als Entwurf mit offenem Beleg). Danach `node lernen/runde.js geschlossen R006`.
+1. **Mängel-Schicht bauen**, bevor weiter trainiert wird: Beobachtungen zum Ist-Zustand (defekt, fehlt, verstellt, nicht getragen) werden bisher erfasst, aber nicht ausgewertet. An Andres eigenem Protokoll durchspielen.
+2. **Lernrunde im Feld BGHM** (1. von 2 vor der nächsten Prüfrunde): `node lernen/runde.js neu lern`.
 
 ## Wartet auf Andre
 
@@ -12,10 +13,6 @@ Stand nach R006 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 - **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
 - **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
 - **Eigenes Protokoll:** Noch kein echtes Rundgangsprotokoll von dir. Erzeugte Protokolle finden Lücken, dein Protokoll ist der Maßstab.
-
-## Hinweise
-
-- Stopp-Regel: Die Quote ist von 64 % (R005) auf 60 % (R006) gefallen. Erst die Ursache klären, dann weiter füttern.
 
 ## Kennzahlen
 
@@ -30,18 +27,18 @@ Stand nach R006 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
-| Freie Aufträge im Abdeckungsplan | 41 von 87 |
+| Freie Aufträge im Abdeckungsplan | 121 von 167 |
 
 ## Runden
 
 | Runde | Art | Plätze | Maß | Quote | getroffen | Zusatz berechtigt | Zusatz unbegründet | Lücken bearbeitet |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R001 | Lernrunde | 6 | Kennung | 24 % | 11 von 45 |  |  | ja |
-| R002 | Prüfrunde | 8 | Kennung | 43 % | 24 von 56 |  |  | ja |
-| R003 | Prüfrunde | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 | 17 | ja |
-| R004 | Prüfrunde | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | ja |
-| R005 | Prüfrunde | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 | 9 | ja |
-| R006 | Prüfrunde | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 | 7 | nein |
+| R001 | Lernrunde, holz-metall, nicht blind | 6 | Kennung | 24 % | 11 von 45 |  |  | ja |
+| R002 | Prüfrunde, holz-metall, nicht blind | 8 | Kennung | 43 % | 24 von 56 |  |  | ja |
+| R003 | Prüfrunde, holz-metall, nicht blind | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 | 17 | ja |
+| R004 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | ja |
+| R005 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 | 9 | ja |
+| R006 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 | 7 | ja |
 
 ## Beleg-Läufe
 

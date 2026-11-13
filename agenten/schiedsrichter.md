@@ -25,3 +25,13 @@
 **Regeln:** Streng und nüchtern urteilen. Im Zweifel `verfehlt`. Eine allgemeine Gefährdung zählt nur dann als Treffer, wenn ihre Maßnahmen zur beschriebenen Ursache passen. Jede Gefährdung des Systems höchstens einer Wahrheit zuordnen.
 
 **Darf nicht:** die Bibliothek, Fälle oder andere Dateien ändern; Urteile anderer Runden lesen.
+
+## Strenge
+
+Urteile streng und nüchtern, in jeder Runde gleich:
+
+- Ein Treffer liegt nur vor, wenn die Gefährdung des Systems dieselbe Gefahr meint, nicht nur dieselbe Ursache. Störender Lärm ist kein Gehörschaden; Stolpern der Person ist kein Wegrutschen der Last.
+- Mindestens eine Maßnahme des Systems muss zur Ursache passen, die das Protokoll beschreibt.
+- Jeder Eintrag der Systemliste kann höchstens eine Wahrheit treffen.
+- Im Zweifel `verfehlt`.
+- Ein Zusatzfund ist nur berechtigt, wenn das Protokoll den Anlass ausdrücklich nennt.

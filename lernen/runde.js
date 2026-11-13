@@ -18,7 +18,7 @@ const FAKTOREN = lies(path.join(WURZEL, 'bibliothek', 'faktoren.json')).faktoren
 function waehle(pool, verlauf, anzahl) {
   const st = {}; for (const r of verlauf) for (const [k, v] of Object.entries(r.jeFaktor || {})) { const s = st[k] = st[k] || { g: 0, v: 0 }; s.g += v.getroffen; s.v += v.verfehlt; }
   const w = {}; for (const f of FAKTOREN) { const s = st[f.nr] || { g: 0, v: 0 }; w[f.nr] = (s.v + 2) / (s.g + s.v + 4) + 1 / (1 + (s.g + s.v) / 10); }
-  const frei = pool.filter(a => !a.genutzt); const wahl = [], jeGruppe = {};
+  const frei = pool.filter(a => !a.genutzt && a.feld !== 'ausserhalb'); const wahl = [], jeGruppe = {};
   while (wahl.length < anzahl && frei.length) {
     const max = Math.max(1, Math.ceil(anzahl / 4));
     let kand = frei.filter(a => (jeGruppe[a.gruppe] || 0) < max); if (!kand.length) kand = frei;
@@ -38,8 +38,9 @@ function neu(art, anzahl) {
   const auftraege = wahl.map((a, i) => ({ kennung: `${nr}-${String(i + 1).padStart(2, '0')}`, auftrag: a.id, branche: a.branche, bereich: a.bereich }));
   for (const a of wahl) a.genutzt = nr;
   schreib(ABDECKUNG, '{\n "hinweis": ' + JSON.stringify(abd.hinweis) + ',\n "auftraege": [\n' + abd.auftraege.map(p => '  ' + JSON.stringify(p)).join(',\n') + '\n ]\n}\n');
-  schreib(path.join(o, 'auftrag.json'), { runde: nr, art, blind: true, auftraege });
-  const haelften = [auftraege.filter((_, i) => i % 2 === 0), auftraege.filter((_, i) => i % 2 === 1)];
+  schreib(path.join(o, 'auftrag.json'), { runde: nr, art, blind: true, feld: 'bghm', auftraege });
+  const teile = (liste, g) => Array.from({ length: Math.ceil(liste.length / g) }, (_, i) => liste.slice(i * g, i * g + g));
+  const haelften = teile(auftraege, 4); // je Agent höchstens vier Arbeitsplätze
   const pr = k => `cd ${WURZEL} && node lernen/runde.js pruefen ${nr} ${k.map(a => a.kennung).join(' ')}`;
   haelften.forEach((h, i) => {
     schreib(path.join(o, 'auftraege', `sprecher-${i + 1}.md`), [`# Auftrag Sprecher ${i + 1}, Runde ${nr}`, '',
@@ -55,13 +56,13 @@ function neu(art, anzahl) {
       `Prüfe jeden Fall mit \`cd ${WURZEL} && node lernen/pruefe-fall.js <Falldatei>\`, bis „in Ordnung“ erscheint.`, '',
       `Lies nicht: \`${path.join(o, 'wahrheit')}\`, \`regeln.json\`, \`gefaehrdungen.json\`, andere Runden. Benutze nur: Dateien lesen, Dateien schreiben und die hier genannten Befehle. Kein Internet, keine Erinnerungen oder geplanten Aufgaben, keine weiteren Agenten. Antworte am Ende nur mit einer Zeile je Kennung: Zahl der Schritte, Wünsche und Mängel.`, ''].join('\n'));
   });
-  schreib(path.join(o, 'auftraege', 'schiedsrichter.md'), [`# Auftrag Schiedsrichter, Runde ${nr}`, '',
+  teile(auftraege, 8).forEach((auftraege, si) => schreib(path.join(o, 'auftraege', `schiedsrichter-${si + 1}.md`), [`# Auftrag Schiedsrichter ${si + 1}, Runde ${nr}`, '',
     `Lies zuerst deine Arbeitsanweisung vollständig: \`${path.join(WURZEL, 'agenten', 'schiedsrichter.md')}\``, '', 'Beurteile diese Arbeitsplätze, jeden für sich:', '',
     ...auftraege.map(a => `- \`${a.kennung}\`: Protokoll \`${path.join(o, 'protokolle', a.kennung + '.md')}\`, Wahrheit \`${path.join(o, 'wahrheit', a.kennung + '.json')}\`, Systemliste \`${path.join(o, 'system', a.kennung + '.json')}\` → Urteil \`${path.join(o, 'urteil', a.kennung + '.json')}\``), '',
     'Der Sprecher kannte die Liste des Systems nicht und hat die Gefährdungen in eigenen Worten beschrieben. Vergleiche nach Bedeutung.',
     'Jede Gefährdung der Wahrheit bekommt ein Urteil (`nr` zählt ab 1 in der Reihenfolge der Wahrheit). Jeder Eintrag unter `gefaehrdungen` der Systemliste, den du keiner Wahrheit als Treffer zugeordnet hast, kommt unter `zusaetzlich`, mit dem Namen genau wie in der Systemliste.',
-    `Prüfe zum Schluss mit: \`cd ${WURZEL} && node lernen/runde.js pruefen ${nr}\` und bessere nach, bis im Abschnitt Urteil nichts mehr gemeldet wird.`, '',
-    'Ändere nichts außer den Urteilsdateien. Benutze nur: Dateien lesen, Dateien schreiben und die hier genannten Befehle. Kein Internet, keine Erinnerungen oder geplanten Aufgaben, keine weiteren Agenten. Antworte am Ende nur mit einer Zeile je Kennung: getroffen, Rückfrage, verfehlt, unbegründet.', ''].join('\n'));
+    `Prüfe zum Schluss mit: \`cd ${WURZEL} && node lernen/runde.js pruefen ${nr} ${auftraege.map(a => a.kennung).join(' ')}\` und bessere nach, bis im Abschnitt Urteil nichts mehr gemeldet wird.`, '',
+    'Ändere nichts außer den Urteilsdateien. Benutze nur: Dateien lesen, Dateien schreiben und die hier genannten Befehle. Kein Internet, keine Erinnerungen oder geplanten Aufgaben, keine weiteren Agenten. Antworte am Ende nur mit einer Zeile je Kennung: getroffen, Rückfrage, verfehlt, unbegründet.', ''].join('\n')));
   console.log(`${nr} (${art === 'pruef' ? 'Prüfrunde' : 'Lernrunde'}) angelegt mit ${auftraege.length} Arbeitsplätzen:`); for (const a of auftraege) console.log(`  ${a.kennung}  ${a.branche}: ${a.bereich}`);
   console.log(`Aufträge: ${path.join(o, 'auftraege')}`); return nr;
 }
@@ -110,7 +111,7 @@ function system(nr) { console.log(execFileSync('node', [path.join(__dirname, 'sy
 function auswertenRunde(nr) {
   const s = stand(nr); if (s.stufe !== 'auswerten' && s.stufe !== 'luecken' && s.stufe !== 'fertig') throw new Error(`Runde ${nr} ist noch nicht so weit (Stufe ${s.stufe}). Erst: node lernen/runde.js pruefen ${nr}`);
   const { werteRunde } = require('./auswerten'); const { ergebnis: e, kopf } = werteRunde(path.join(RUNDEN, nr)); const u = e.schiedsrichter; const verlauf = lies(VERLAUF);
-  const eintrag = { runde: nr, art: s.art, datum: process.env.HEUTE || new Date().toISOString().slice(0, 10), plaetze: s.anzahl, blind: true, mass: 'schiedsrichter', quote: u.quote, getroffen: u.getroffen, gewertet: u.getroffen + u.rueckfrage + u.verfehlt,
+  const eintrag = { runde: nr, art: s.art, datum: process.env.HEUTE || new Date().toISOString().slice(0, 10), plaetze: s.anzahl, blind: true, feld: lies(path.join(RUNDEN, nr, 'auftrag.json')).feld || 'gemischt', mass: 'schiedsrichter', quote: u.quote, getroffen: u.getroffen, gewertet: u.getroffen + u.rueckfrage + u.verfehlt,
     wahrheitUnbegruendet: u.unbegruendet, zusatzBerechtigt: u.zBerechtigt, zusatzUnbegruendet: u.zUnbegruendet, regeln: e.regeln, jeFaktor: e.jeFaktor, geschlossen: false };
   const i = verlauf.findIndex(v => v.runde === nr); if (i >= 0) { eintrag.geschlossen = verlauf[i].geschlossen; eintrag.datum = verlauf[i].datum; verlauf[i] = eintrag; } else verlauf.push(eintrag);
   schreib(VERLAUF, verlauf); console.log(kopf); console.log(`In den Verlauf eingetragen: ${nr} ${u.quote} % (${u.getroffen} von ${eintrag.gewertet}).`);
@@ -120,7 +121,7 @@ module.exports = { waehle, stand, RUNDEN };
 if (require.main === module) {
   const [, , befehl, a, ...rest] = process.argv;
   try {
-    if (befehl === 'neu') { const i = rest.indexOf('--anzahl'); neu(a, i >= 0 ? Number(rest[i + 1]) : 8); }
+    if (befehl === 'neu') { const i = rest.indexOf('--anzahl'); neu(a, i >= 0 ? Number(rest[i + 1]) : a === 'pruef' ? 16 : 8); } // Prüfrunden brauchen 16 Plätze, sonst schwankt die Quote zu stark
     else if (befehl === 'pruefen') { const s = stand(a, rest); let n = 0;
       for (const [k, v] of Object.entries(s.meldungen)) { if (!v.length) continue; console.log(`\n${k[0].toUpperCase() + k.slice(1)}:`); for (const x of v) { console.log('- ' + x); n++; } }
       console.log(`\nRunde ${a}: Stufe „${s.stufe}“${s.fertig ? `. Fertig: ${Object.entries(s.fertig).map(([k, v]) => `${k} ${v}/${s.anzahl}`).join(', ')}` : ''}`); }

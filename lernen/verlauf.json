@@ -46,7 +46,8 @@
     "verfehlt": 6
    }
   },
-  "geschlossen": true
+  "geschlossen": true,
+  "feld": "holz-metall, nicht blind"
  },
  {
   "runde": "R002",
@@ -103,7 +104,8 @@
     "verfehlt": 1
    }
   },
-  "geschlossen": true
+  "geschlossen": true,
+  "feld": "holz-metall, nicht blind"
  },
  {
   "runde": "R003",
@@ -164,7 +166,8 @@
     "verfehlt": 1
    }
   },
-  "geschlossen": true
+  "geschlossen": true,
+  "feld": "holz-metall, nicht blind"
  },
  {
   "runde": "R004",
@@ -222,7 +225,8 @@
     "verfehlt": 0
    }
   },
-  "geschlossen": true
+  "geschlossen": true,
+  "feld": "gemischt"
  },
  {
   "runde": "R005",
@@ -284,7 +288,8 @@
     "verfehlt": 0
    }
   },
-  "geschlossen": true
+  "geschlossen": true,
+  "feld": "gemischt"
  },
  {
   "runde": "R006",
@@ -346,6 +351,8 @@
     "verfehlt": 1
    }
   },
-  "geschlossen": false
+  "geschlossen": true,
+  "feld": "gemischt",
+  "vermerk": "Lücken nicht bearbeitet: Trainingsfeld auf BGHM umgestellt, Mängel-Schicht folgt"
  }
 ]

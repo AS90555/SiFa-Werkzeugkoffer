@@ -2,6 +2,21 @@
 
 Stand: 12.11.2026. Wie das System von selbst besser wird und trotzdem nur gilt, was im Regelwerk steht und Andre freigegeben hat. Gehört zu Meilenstein 1 und 2 der Roadmap. Den aktuellen Stand zeigt immer `LEITSTAND.md`.
 
+## Was Trainieren bedeutet
+
+Trainiert wird nicht die KI, sondern die Bibliothek: Wörterbuch, Stammdaten und Regeln, die ein festes Programm durchrechnet. Eine Trainingsrunde zeigt dem System Arbeitsplätze, stellt fest, was es übersieht oder ohne Anlass behauptet, und trägt das Fehlende ein. Zwischen den Runden lernt das System nichts von selbst; jede Änderung ist sichtbar und rückgängig zu machen. Belegen und Freigeben sind kein Training: Training macht vollständiger, gültig wird eine Regel durch Regelwerk und Freigabe.
+
+| Festlegung | Inhalt |
+| --- | --- |
+| Feld | Betriebe der BGHM, gegliedert nach den zehn Gefahrtarifstellen (`lernen/abdeckung.json`, `feld: bghm`) |
+| Rhythmus | zwei Lernrunden mit acht Arbeitsplätzen, dann eine Prüfrunde mit sechzehn |
+| Messwert | nur die Prüfrunde; bei sechzehn Plätzen schwankt die Quote noch um etwa zehn Punkte, deshalb zählen zwei Prüfrunden hintereinander |
+| Ziel | zweimal hintereinander mindestens 80 %, dazu sinkende Zahl der Funde ohne Anlass |
+| Gegenprobe | Andres eigene Protokolle |
+| Stopp | fällt die Quote einer Prüfrunde im Feld gegenüber der letzten, erst die Ursache klären |
+
+Die Runden R004 bis R006 lagen bewusst außerhalb des Feldes (Erkundung). Sie werden nicht mit den Runden im Feld verglichen.
+
 ## Drei Schleifen
 
 | Schleife | Frage | Wer arbeitet | Ergebnis |
@@ -33,7 +48,7 @@ Reihenfolge, nach der der Leitstand entscheidet:
 | Sprecher (2 Läufe, kleinstes Modell) | Auftrag `sprecher-1.md`, `sprecher-2.md` | Kennt nur Branche, Bereich und die elf Faktoren. Kennt die Bibliothek nicht. Schreibt Protokoll und verdeckte Wahrheit in eigenen Worten. |
 | Übersetzer (2 Läufe) | Auftrag `uebersetzer-1.md`, `uebersetzer-2.md` | Kennt nur Protokoll, Stammdaten, Wörterbuch. Kennt weder Wahrheit noch Regeln. |
 | Rechnen | `node lernen/runde.js system <Runde>` | Programm, ohne KI. |
-| Schiedsrichter (1 Lauf) | Auftrag `schiedsrichter.md` | Vergleicht nach Bedeutung: getroffen, Rückfrage, verfehlt, unbegründet; Zusatzfunde berechtigt oder nicht. |
+| Schiedsrichter (je acht Plätze ein Lauf) | Auftrag `schiedsrichter-1.md`, bei Prüfrunden auch `schiedsrichter-2.md` | Vergleicht nach Bedeutung: getroffen, Rückfrage, verfehlt, unbegründet; Zusatzfunde berechtigt oder nicht. |
 | Auswerten | `node lernen/runde.js auswerten <Runde>` | Bericht, Verlauf, Faktor-Statistik. |
 | Lücken schließen | Leitung | Wörterbuch, dann Stammdaten, dann Regeln als Entwurf mit offenem Beleg. Danach `node lernen/runde.js geschlossen <Runde>`. |
 
@@ -75,4 +90,4 @@ Die Regelwerkstexte liegen außerhalb des Repositorys (Umgebungsvariable `REGELW
 
 ## Kosten
 
-Eine Prüfrunde braucht fünf Agentenläufe (zwei kleine Sprecher, zwei Übersetzer, ein Schiedsrichter), ein Beleg-Lauf mit zwei Paketen vier. Rechnen, Prüfen, Auswählen und Zusammenführen macht das Programm ohne KI.
+Eine Lernrunde braucht fünf Agentenläufe (zwei kleine Sprecher, zwei Übersetzer, ein Schiedsrichter), eine Prüfrunde mit sechzehn Plätzen zehn, ein Beleg-Lauf mit zwei Paketen vier. Rechnen, Prüfen, Auswählen und Zusammenführen macht das Programm ohne KI.
