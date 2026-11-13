@@ -31,15 +31,15 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 ## Runden
 
-| Runde | Art | Plätze | Maß | Quote | getroffen | Zusatz berechtigt | Zusatz unbegründet | Lücken bearbeitet |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R001 | Lernrunde, holz-metall, nicht blind | 6 | Kennung | 24 % | 11 von 45 |  |  | ja |
-| R002 | Prüfrunde, holz-metall, nicht blind | 8 | Kennung | 43 % | 24 von 56 |  |  | ja |
-| R003 | Prüfrunde, holz-metall, nicht blind | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 | 17 | ja |
-| R004 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | ja |
-| R005 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 | 9 | ja |
-| R006 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 | 7 | ja |
-| R007 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 63 % | 27 von 43 | 19 | 15 | ja |
+| Runde | Art | Plätze | Maß | Quote | getroffen | Zusatz berechtigt | Zusatz typisch | Zusatz unbegründet | Lücken bearbeitet |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R001 | Lernrunde, holz-metall, nicht blind | 6 | Kennung | 24 % | 11 von 45 |  |  |  | ja |
+| R002 | Prüfrunde, holz-metall, nicht blind | 8 | Kennung | 43 % | 24 von 56 |  |  |  | ja |
+| R003 | Prüfrunde, holz-metall, nicht blind | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 |  | 17 | ja |
+| R004 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 |  | 3 | ja |
+| R005 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 |  | 9 | ja |
+| R006 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 |  | 7 | ja |
+| R007 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 63 % | 27 von 43 | 19 |  | 15 | ja |
 
 ## Beleg-Läufe
 

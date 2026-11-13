@@ -94,7 +94,7 @@ function stand(nr, nur) {
       const n = wahr ? wahr.gefaehrdungen.length : 0; const nrn = (u.wahrheit || []).map(x => x.nr);
       for (let i = 1; i <= n; i++) if (!nrn.includes(i)) f.push(`Wahrheit Nr. ${i} hat kein Urteil`);
       for (const x of u.wahrheit || []) if (!['getroffen', 'rueckfrage', 'verfehlt', 'unbegruendet'].includes(x.urteil)) f.push(`Nr. ${x.nr}: unbekanntes Urteil ${x.urteil}`);
-      for (const x of u.zusaetzlich || []) if (!['berechtigt', 'unbegruendet'].includes(x.urteil)) f.push(`Zusatz ${x.gefaehrdung}: unbekanntes Urteil ${x.urteil}`);
+      for (const x of u.zusaetzlich || []) if (!['berechtigt', 'typisch', 'unbegruendet'].includes(x.urteil)) f.push(`Zusatz ${x.gefaehrdung}: unbekanntes Urteil ${x.urteil}`);
       if (sys) { const namen = sys.gefaehrdungen.map(x => x.gefaehrdung); const zugeordnet = new Set((u.wahrheit || []).filter(x => x.urteil === 'getroffen').map(x => x.system)); const zus = new Set((u.zusaetzlich || []).map(x => x.gefaehrdung));
         for (const x of (u.wahrheit || []).filter(y => y.urteil === 'getroffen')) if (!namen.includes(x.system)) f.push(`Nr. ${x.nr}: „${x.system}“ steht nicht unter gefaehrdungen der Systemliste (Name genau übernehmen)`);
         for (const x of namen) if (!zugeordnet.has(x) && !zus.has(x)) f.push(`Systemfund „${x}“ ist weder Treffer noch unter zusaetzlich beurteilt`);
@@ -112,7 +112,7 @@ function auswertenRunde(nr) {
   const s = stand(nr); if (s.stufe !== 'auswerten' && s.stufe !== 'luecken' && s.stufe !== 'fertig') throw new Error(`Runde ${nr} ist noch nicht so weit (Stufe ${s.stufe}). Erst: node lernen/runde.js pruefen ${nr}`);
   const { werteRunde } = require('./auswerten'); const { ergebnis: e, kopf } = werteRunde(path.join(RUNDEN, nr)); const u = e.schiedsrichter; const verlauf = lies(VERLAUF);
   const eintrag = { runde: nr, art: s.art, datum: process.env.HEUTE || new Date().toISOString().slice(0, 10), plaetze: s.anzahl, blind: true, feld: lies(path.join(RUNDEN, nr, 'auftrag.json')).feld || 'gemischt', mass: 'schiedsrichter', quote: u.quote, getroffen: u.getroffen, gewertet: u.getroffen + u.rueckfrage + u.verfehlt,
-    wahrheitUnbegruendet: u.unbegruendet, zusatzBerechtigt: u.zBerechtigt, zusatzUnbegruendet: u.zUnbegruendet, regeln: e.regeln, jeFaktor: e.jeFaktor, geschlossen: false };
+    wahrheitUnbegruendet: u.unbegruendet, zusatzBerechtigt: u.zBerechtigt, zusatzTypisch: u.zTypisch, zusatzUnbegruendet: u.zUnbegruendet, regeln: e.regeln, jeFaktor: e.jeFaktor, geschlossen: false };
   const i = verlauf.findIndex(v => v.runde === nr); if (i >= 0) { eintrag.geschlossen = verlauf[i].geschlossen; eintrag.datum = verlauf[i].datum; verlauf[i] = eintrag; } else verlauf.push(eintrag);
   schreib(VERLAUF, verlauf); console.log(kopf); console.log(`In den Verlauf eingetragen: ${nr} ${u.quote} % (${u.getroffen} von ${eintrag.gewertet}).`);
 }

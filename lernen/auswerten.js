@@ -10,7 +10,7 @@ function werteRunde(ordner) {
   const R = new Map(b.regeln.map(r => [r.id, r])); const G = new Map(b.gefaehrdungen.map(g => [g.id, g])); const F = new Map(b.faktoren.faktoren.map(f => [f.nr, f.name]));
   const zeilen = [], faelle = [], jeFaktor = {}; const W = new Map();
   const summe = { getroffen: 0, nachfrage: 0, uebersehen: 0, ohneEintrag: 0, zusaetzlich: 0, wuensche: 0, schritte: 0, maengel: 0 };
-  const L = { uebersehen: [], ohneEintrag: [], wuensche: [], zusaetzlich: [], verfehlt: [], rueckfrage: [], wUnbegruendet: [], zUnbegruendet: [], zBerechtigt: [] };
+  const L = { uebersehen: [], ohneEintrag: [], wuensche: [], zusaetzlich: [], verfehlt: [], rueckfrage: [], wUnbegruendet: [], zUnbegruendet: [], zBerechtigt: [], zTypisch: [] };
   const fk = n => (jeFaktor[n] = jeFaktor[n] || { getroffen: 0, verfehlt: 0 }); let blind = true;
   for (const datei of fs.readdirSync(path.join(ordner, 'wahrheit')).filter(x => x.endsWith('.json')).sort()) {
     const id = datei.replace('.json', ''); const w = lies(path.join(ordner, 'wahrheit', datei)); W.set(id, w);
@@ -38,14 +38,14 @@ function werteRunde(ordner) {
     faelle.push(z);
   }
   // Urteile des Schiedsrichters
-  const U = { getroffen: 0, rueckfrage: 0, verfehlt: 0, unbegruendet: 0, zBerechtigt: 0, zUnbegruendet: 0 }; let hatUrteil = false; const uz = [];
+  const U = { getroffen: 0, rueckfrage: 0, verfehlt: 0, unbegruendet: 0, zBerechtigt: 0, zTypisch: 0, zUnbegruendet: 0 }; let hatUrteil = false; const uz = [];
   if (fs.existsSync(path.join(ordner, 'urteil'))) for (const d of fs.readdirSync(path.join(ordner, 'urteil')).filter(x => x.endsWith('.json')).sort()) {
     hatUrteil = true; const u = lies(path.join(ordner, 'urteil', d)); const w = W.get(u.id) || { gefaehrdungen: [], arbeitsplatz: '' }; const c = { getroffen: 0, rueckfrage: 0, verfehlt: 0, unbegruendet: 0 };
     for (const x of u.wahrheit || []) { if (c[x.urteil] === undefined) continue; c[x.urteil]++; U[x.urteil]++; const g = w.gefaehrdungen[x.nr - 1] || {};
       if (blind && x.urteil !== 'unbegruendet') fk(g.faktor)[x.urteil === 'getroffen' ? 'getroffen' : 'verfehlt']++;
       const e = { id: u.id, text: g.text, faktor: g.faktor, anlass: g.anlass, grund: x.grund };
       if (x.urteil === 'verfehlt') L.verfehlt.push(e); else if (x.urteil === 'rueckfrage') L.rueckfrage.push({ ...e, system: x.system }); else if (x.urteil === 'unbegruendet') L.wUnbegruendet.push(e); }
-    let zb = 0, zu = 0; for (const x of u.zusaetzlich || []) { if (x.urteil === 'berechtigt') { zb++; U.zBerechtigt++; L.zBerechtigt.push({ id: u.id, ...x }); } else { zu++; U.zUnbegruendet++; L.zUnbegruendet.push({ id: u.id, ...x }); } }
+    let zb = 0, zu = 0; for (const x of u.zusaetzlich || []) { if (x.urteil === 'berechtigt') { zb++; U.zBerechtigt++; L.zBerechtigt.push({ id: u.id, ...x }); } else if (x.urteil === 'typisch') { zb++; U.zTypisch++; L.zTypisch.push({ id: u.id, ...x }); } else { zu++; U.zUnbegruendet++; L.zUnbegruendet.push({ id: u.id, ...x }); } }
     const n = c.getroffen + c.rueckfrage + c.verfehlt;
     uz.push(`| ${u.id} | ${w.arbeitsplatz} | ${c.getroffen} | ${c.rueckfrage} | ${c.verfehlt} | ${c.unbegruendet} | ${zb} | ${zu} | ${n ? Math.round(100 * c.getroffen / n) + ' %' : ''} |`);
   }
@@ -56,12 +56,13 @@ function werteRunde(ordner) {
   if (!blind) out.push(`**Trefferquote nach Kennung ${kquote} %**: ${summe.getroffen} getroffen, ${summe.nachfrage} nur als Rückfrage erkannt, ${summe.uebersehen} übersehen, ${summe.ohneEintrag} ohne Eintrag in der Bibliothek. Zusätzlich vom System: ${summe.zusaetzlich}.`, '',
     '| Kennung | Arbeitsplatz | Übersetzung | getroffen | Rückfrage | übersehen | ohne Eintrag | zusätzlich | Quote |', '| --- | --- | --- | --- | --- | --- | --- | --- | --- |', ...zeilen, '');
   else out.push('Blinde Runde: Der Sprecher kannte die Bibliothek nicht. Es zählt allein das Urteil des Schiedsrichters.', '');
-  if (hatUrteil) out.push('## Urteil des Schiedsrichters', '', `**Trefferquote nach Bedeutung ${uquote} %**: ${U.getroffen} getroffen, ${U.rueckfrage} nur als Rückfrage, ${U.verfehlt} verfehlt. Nicht gezählt: ${U.unbegruendet} unbegründete Wahrheiten. Zusatzfunde des Systems: ${U.zBerechtigt} berechtigt, ${U.zUnbegruendet} unbegründet.`, '',
-    '| Kennung | Arbeitsplatz | getroffen | Rückfrage | verfehlt | Wahrheit unbegründet | Zusatz berechtigt | Zusatz unbegründet | Quote |', '| --- | --- | --- | --- | --- | --- | --- | --- | --- |', ...uz, '');
+  if (hatUrteil) out.push('## Urteil des Schiedsrichters', '', `**Trefferquote nach Bedeutung ${uquote} %**: ${U.getroffen} getroffen, ${U.rueckfrage} nur als Rückfrage, ${U.verfehlt} verfehlt. Nicht gezählt: ${U.unbegruendet} unbegründete Wahrheiten. Zusatzfunde des Systems: ${U.zBerechtigt} berechtigt, ${U.zTypisch} typisch für die Tätigkeit, ${U.zUnbegruendet} unbegründet.`, '',
+    '| Kennung | Arbeitsplatz | getroffen | Rückfrage | verfehlt | Wahrheit unbegründet | Zusatz berechtigt oder typisch | Zusatz unbegründet | Quote |', '| --- | --- | --- | --- | --- | --- | --- | --- | --- |', ...uz, '');
   out.push('## Je Gefährdungsfaktor', '', '| Faktor | getroffen | verfehlt |', '| --- | --- | --- |', ...Object.keys(jeFaktor).filter(k => F.has(Number(k))).sort((a, c) => a - c).map(k => `| ${k} ${F.get(Number(k))} | ${jeFaktor[k].getroffen} | ${jeFaktor[k].verfehlt} |`), '');
   if (hatUrteil) out.push('## Verfehlt', '', ...L.verfehlt.map(x => `- ${x.id} (Faktor ${x.faktor}): ${x.text}. Anlass: „${x.anlass}“. Schiedsrichter: ${x.grund}`), '',
     '## Nur als Rückfrage erkannt', '', ...L.rueckfrage.map(x => `- ${x.id} (Faktor ${x.faktor}): ${x.text} → ${x.system || ''}. ${x.grund}`), '',
     '## Zusatzfunde ohne Anlass im Protokoll', '', ...L.zUnbegruendet.map(x => `- ${x.id}: ${x.gefaehrdung}. ${x.grund}`), '',
+    '## Typische Zusatzfunde: im Protokoll nicht ausgesprochen, gehören aber zur Tätigkeit und sind vor Ort zu prüfen', '', ...L.zTypisch.map(x => `- ${x.id}: ${x.gefaehrdung}. ${x.grund}`), '',
     '## Berechtigte Zusatzfunde', '', ...L.zBerechtigt.map(x => `- ${x.id}: ${x.gefaehrdung}. ${x.grund}`), '',
     '## Wahrheiten, die der Schiedsrichter nicht gelten ließ', '', ...L.wUnbegruendet.map(x => `- ${x.id}: ${x.text}. ${x.grund}`), '');
   if (!blind) out.push('## Übersehen: Gefährdung ist in der Bibliothek, aber keine Regel hat ausgelöst', '', ...L.uebersehen.map(x => `- ${x.id}: ${x.text} (${x.gefaehrdung}). Anlass: „${x.anlass}“`), '',

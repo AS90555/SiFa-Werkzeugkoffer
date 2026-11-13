@@ -34,4 +34,8 @@ Urteile streng und nüchtern, in jeder Runde gleich:
 - Mindestens eine Maßnahme des Systems muss zur Ursache passen, die das Protokoll beschreibt.
 - Jeder Eintrag der Systemliste kann höchstens eine Wahrheit treffen.
 - Im Zweifel `verfehlt`.
-- Ein Zusatzfund ist nur berechtigt, wenn das Protokoll den Anlass ausdrücklich nennt.
+- Zusatzfunde bekommen eines von drei Urteilen:
+  - `berechtigt`: Das Protokoll nennt den Anlass ausdrücklich.
+  - `typisch`: Das Protokoll spricht den Anlass nicht aus, aber die Gefährdung gehört nach fachlicher Erfahrung typischerweise zu der beschriebenen Tätigkeit, Maschine oder dem Material (scharfkantiges Blech und Schnittverletzung, Winkelschleifer und Lärm, Schweißen und Rauch). Eine Fachkraft würde sie an diesem Platz von sich aus prüfen.
+  - `unbegruendet`: Weder genannt noch typisch für das Beschriebene, oder aus einer falschen Zuordnung entstanden (Heckenschnitt als Holzbearbeitung, Kranlast als Heben von Hand).
+- Im Zweifel zwischen `typisch` und `unbegruendet`: `unbegruendet`.

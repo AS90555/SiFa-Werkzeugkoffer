@@ -41,6 +41,8 @@ Zwölf Arten decken alles ab. Das ist eine kleine, feste Liste, kein offenes Fel
 
 **5. Nie raten gilt weiter.** Sagt das Protokoll nur „Schutzbrille hängt im Schrank“, ist das kein Mangel. Erst „wird nicht getragen“ ist einer.
 
+**6. Entschieden am 13.11.2026: Typische Gefährdungen bleiben, als „vor Ort zu prüfen“.** Das System nennt weiter, was zu einer Tätigkeit typisch gehört, auch wenn das Protokoll es nicht ausspricht (scharfkantiges Blech, laute Maschine). Jede Maßnahme trägt deshalb einen Ist-Stand: zu prüfen, erfüllt oder nicht erfüllt. „Zu prüfen“ ist der Ausgangswert. Eine Beobachtung im Protokoll setzt ihn auf erfüllt oder nicht erfüllt. So wird aus der Liste typischer Gefährdungen die Prüfliste für den Rundgang, und aus den Abweichungen die Mängelliste.
+
 ## Was das bringt und was nicht
 
 - Das System nennt, was dir beim Rundgang auffällt, und nicht nur, was die Tätigkeit erwarten lässt.
