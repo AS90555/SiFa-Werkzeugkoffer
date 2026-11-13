@@ -114,5 +114,9 @@
  "u.oeffnung": "Bodenöffnung, Schacht oder Grube",
  "m.entzuendbar_bekannt": "Gilt auch ohne Datenblatt als entzündbar: Benzin, Verdünnung, Lösemittel",
  "u.fluchtweg": "Fluchtweg, Notausgang oder Feuerlöscher verstellt",
- "u.treppe": "Treppe oder Stufen im Arbeitsweg"
+ "u.treppe": "Treppe oder Stufen im Arbeitsweg",
+ "u.alleinarbeit": "Eine Person arbeitet allein, außer Ruf- und Sichtweite",
+ "u.zwangshaltung": "Arbeiten gebückt, kniend, über Kopf oder weit vorgebeugt",
+ "a.hebebuehne": "Fahrzeug-Hebebühne, Arbeiten unter angehobenem Fahrzeug",
+ "v.bohren_stein": "Bohren oder Stemmen in Beton und Stein"
 }

@@ -1,0 +1,17 @@
+{"id":"R007-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Brand oder Staubexplosion","grund":"Feiner Staub auf Bühnen und Ausblasen mit Druckluft, Reinigungsplan und Zündquellen vermeiden passen."},
+  {"nr":2,"urteil":"getroffen","system":"Verbrennung an heißen Flächen","grund":"Presse mit über 200 Grad und heiße Platten, Ablageplatz und Hitzeschutz passen."},
+  {"nr":3,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Griff zwischen die Pressenteile bei nicht stillstehender Presse, wirksame Schutzeinrichtung passt."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"'so laut, dass man sich nur anschreien kann', Gehörschutz und Lärmbereich passen."},
+  {"nr":5,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Stechender Geruch aus frischen Platten, Erfassen an der Entstehungsstelle und Lüften passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Störungsbeseitigung an der Presse, 'solange die Presse noch nicht ganz still steht', und Einrichten durch die Instandhaltung."},
+  {"gefaehrdung":"Atemwegserkrankung durch Holzstaub","urteil":"berechtigt","grund":"'überall feiner Staub' und 'zum Ausblasen des Staubs wird Druckluft benutzt'."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"unbegruendet","grund":"Das Förderband wird nur erwähnt, ein Einzug an Rollen oder Bändern ist nicht beschrieben."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"'Der Stapler steht quer im Gang' und Staub auf Geländern und Bühnen."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"'Am Trockner und am Förderband liegt überall feiner Staub', Ausblasen mit Druckluft."},
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"'die Stapel werden von Hand ausgerichtet'."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"unbegruendet","grund":"Hohe Raumtemperatur oder Wärmestrahlung werden nicht genannt."}
+ ]}

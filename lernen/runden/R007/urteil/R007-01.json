@@ -1,0 +1,16 @@
+{"id":"R007-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Die am Kran hängenden Gestelle bis eine Tonne sind die gemeinte Last, 'Niemand unter der schwebenden Last' und die Prüfung der Anschlagmittel passen zur Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Salzsäure an der Beize, Schutzbrille, Säurehandschuhe und Schürze passen zu Spritzern auf Haut und Augen."},
+  {"nr":3,"urteil":"rueckfrage","system":null,"grund":"Das Einatmen von Säuredämpfen meint den Gefahrstoff über die Atemwege, dazu steht nur die Rückfrage 'Gesundheitsschaden durch Gefahrstoff nach Einstufung'; der Verätzungseintrag ist schon für Nr. 2 vergeben."},
+  {"nr":4,"urteil":"getroffen","system":"Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit","grund":"Zinkkessel mit 450 Grad und Spritzer beim Abkrätzen, Hitzeschutzkleidung und Gesichtsschutz passen."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Nasser Boden und querliegende Schläuche, Maßnahmen zu Verunreinigungen, Stolperstellen und rutschhemmendem Boden passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"unbegruendet","grund":"Die Gestelle werden mit dem Kran bewegt, von Hand gehoben oder getragen wird laut Protokoll nichts."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"unbegruendet","grund":"'Rüsten und Reinigen macht jeder selbst' nennt keinen Sonderbetrieb an einer Maschine mit Anlaufgefahr."},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"unbegruendet","grund":"Das Protokoll nennt keine scharfen Kanten oder Grate."},
+  {"gefaehrdung":"Verbrennung an heißen Flächen","urteil":"berechtigt","grund":"'auf den Abstellplatz gelegt, wo sie abkühlen': die Gestelle sind nach dem Zinkbad heiß."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"'Im Sommer ist die Halle warm und stickig', dazu der 450 Grad heiße Kessel."},
+  {"gefaehrdung":"Belastung durch verbrauchte oder stickige Luft","urteil":"berechtigt","grund":"'Im Sommer ist die Halle warm und stickig.'"}
+ ]}

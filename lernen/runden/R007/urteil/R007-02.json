@@ -1,0 +1,14 @@
+{"id":"R007-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Die 800-Kilogramm-Batterie hängt an Kran und Traverse, Prüfung der Anschlagmittel und des Hebezeugs passt zur Ursache."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Kurzschluss an freigelegten Anschlüssen mit Funken und Verbrennung steht in keinem Eintrag des Systems."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Verätzung durch Batteriesäure auf Haut und Augen ist in der Systemliste nicht enthalten."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Kabelschuhe und Werkzeug am Boden im Gang, Maßnahmen zu Stolperstellen und freien Verkehrswegen passen."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Alleinarbeit ohne Hilfe im Notfall wird vom System nicht erkannt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Person wird von Fahrzeug angefahren oder überrollt","urteil":"unbegruendet","grund":"Der Stapler steht quer im Gang, es ist aber keine Fahrbewegung beschrieben."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Instandhaltung am Stapler und 'Wenn er fertig ist, wird der Stapler wieder angelassen und geprüft'."},
+  {"gefaehrdung":"Brand oder Explosion durch entzündbare Stoffe oder Gase","urteil":"unbegruendet","grund":"Es wird weder geladen noch von Wasserstoff oder Zündquellen gesprochen."},
+  {"gefaehrdung":"Unfall durch fehlende Abstimmung mit Fremden","urteil":"berechtigt","grund":"Arbeit beim Kunden, 'Der Kunde hat keinen festen Platz für Batterien vorgesehen, das ist unklar geregelt'."}
+ ]}

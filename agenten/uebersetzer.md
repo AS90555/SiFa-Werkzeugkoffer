@@ -22,6 +22,8 @@
 
 - Der Vorgang „Heben“ gilt nur für Kran, Hebezeug und Vakuumheber. Heben und Tragen von Hand ist „Heben, Tragen, Handhaben von Hand“.
 - Rüsten, Werkzeugwechsel, Reinigen und Störungsbeseitigung an einer Maschine sind Sonderbetrieb und bekommen das Material „Anlage“.
+- Sonderbetrieb nur als Schritt anlegen, wenn das Protokoll beschreibt, was dabei an der Maschine getan wird. Der bloße Satz „Rüsten und Reinigen macht jeder selbst“ ist kein Schritt.
+- Eine Umgebung nur wählen, wenn das Protokoll sie ausdrücklich nennt. „Das Tor schließt nicht ganz“ ist noch keine Kälte, „der Kompressor läuft“ noch kein Lärm.
 - Zustände der Umgebung gehören zur Umgebung, nicht zu den Mängeln allein: verschmutzter oder unebener Boden, Zeitdruck, Hitze, Kälte, Gefälle, Lärm von nebenan, Fahrverkehr. Ein solcher Zustand kann zugleich als Mangel notiert werden.
 - Die Angabe `gleichfoermig` nur auf wahr setzen, wenn das Protokoll die hohe Zahl oder den Takt ausdrücklich nennt („hunderte Male“, „den ganzen Tag dieselbe Bewegung“, „im Takt“). Dass ein Werkzeug benutzt wird, reicht nicht.
 - Beleuchtung, Blendung, stickige Luft, Witterung, Enge, störende Geräusche und Bodenöffnungen gehören zur Umgebung.

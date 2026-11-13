@@ -438,6 +438,21 @@
    "id": "gruenschnitt",
    "name": "Hecke, Äste, Grünschnitt",
    "merkmale": []
+  },
+  {
+   "id": "saeure_lauge",
+   "name": "Säure, Lauge, Beize, Batteriesäure",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.aetzend"
+   ]
+  },
+  {
+   "id": "abgase",
+   "name": "Abgase von Verbrennungsmotoren",
+   "merkmale": [
+    "m.freigesetzt"
+   ]
   }
  ],
  "vorgang": [
@@ -869,6 +884,14 @@
    "merkmale": [
     "v.laut"
    ]
+  },
+  {
+   "id": "bohren_stein",
+   "name": "Bohren oder Stemmen in Beton und Stein",
+   "merkmale": [
+    "v.laut",
+    "v.bohren_stein"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -1078,6 +1101,13 @@
    "merkmale": [
     "a.handmaschine"
    ]
+  },
+  {
+   "id": "hebebuehne",
+   "name": "Fahrzeug-Hebebühne",
+   "merkmale": [
+    "a.hebebuehne"
+   ]
   }
  ],
  "umgebung": [
@@ -1245,6 +1275,20 @@
    "name": "Treppe, Stufen",
    "merkmale": [
     "u.treppe"
+   ]
+  },
+  {
+   "id": "alleinarbeit",
+   "name": "Alleinarbeit außer Ruf- und Sichtweite",
+   "merkmale": [
+    "u.alleinarbeit"
+   ]
+  },
+  {
+   "id": "zwangshaltung",
+   "name": "Arbeiten gebückt, kniend, über Kopf oder weit vorgebeugt",
+   "merkmale": [
+    "u.zwangshaltung"
    ]
   }
  ]

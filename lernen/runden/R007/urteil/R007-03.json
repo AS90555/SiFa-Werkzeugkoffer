@@ -1,0 +1,13 @@
+{"id":"R007-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Säure und Lauge, fehlender Gesichtsschutz; Gesichtsschutz, Säurehandschuhe und Augenspülung passen."},
+  {"nr":2,"urteil":"rueckfrage","system":null,"grund":"Einatmen der Dämpfe steht nur als Rückfrage 'Gesundheitsschaden durch Gefahrstoff nach Einstufung'; der Verätzungseintrag ist schon für Nr. 1 vergeben."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Verbrühung durch heiße Flüssigkeit ist nicht dieselbe Gefahr wie Verbrennung an heißen Flächen oder Teilen."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Dauernd feuchter Boden, Maßnahmen zu Verunreinigungen beseitigen und rutschhemmendem Boden passen."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Dieselbe Gefahr (Überlastung von Rücken und Schultern beim Einhängen der Gestelle), Bewertung der Belastung und Tätigkeitswechsel passen."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Der verstellte Weg zur Notdusche (verlorene Zeit bei Verätzung) wird von keinem Eintrag gemeint; der Stolpereintrag ist schon vergeben und meint Stolpern."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Verbrennung an heißen Flächen","urteil":"unbegruendet","grund":"Das Protokoll nennt heiße Lauge und Dampf, aber keine heißen Flächen oder Teile."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"'mit einem Hebezug von Becken zu Becken gefahren'."}
+ ]}

@@ -4150,5 +4150,124 @@
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R109",
+  "name": "Alleinarbeit",
+  "wenn": "u.alleinarbeit",
+  "entsteht": "Niemand bemerkt einen Unfall oder kann helfen",
+  "gefaehrdung": "g-alleinarbeit",
+  "massnahmen": [
+   {
+    "id": "R109-M1",
+    "art": "O",
+    "text": "Bei gefährlicher Alleinarbeit für technische oder organisatorische Personenschutzmaßnahmen sorgen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v1",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R110",
+  "name": "Ätzende Stoffe",
+  "wenn": "m.aetzend",
+  "entsteht": "Spritzer oder Kontakt mit Säure oder Lauge",
+  "gefaehrdung": "g-haut-augen",
+  "massnahmen": [
+   {
+    "id": "R110-M1",
+    "art": "P",
+    "text": "Augenschutz und Schutzhandschuhe bereitstellen"
+   },
+   {
+    "id": "R110-M2",
+    "art": "T",
+    "text": "Einrichtung zum Spülen der Augen in der Nähe bereithalten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "trgs-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R111",
+  "name": "Arbeiten unter angehobenem Fahrzeug",
+  "wenn": "a.hebebuehne",
+  "entsteht": "Fahrzeug steht nicht sicher auf der Hebebühne",
+  "gefaehrdung": "g-fahrzeug-kippt",
+  "massnahmen": [
+   {
+    "id": "R111-M1",
+    "art": "O",
+    "text": "Fahrzeug nur an den vorgesehenen Aufnahmepunkten aufnehmen"
+   },
+   {
+    "id": "R111-M2",
+    "art": "O",
+    "text": "Hebebühne regelmäßig prüfen lassen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r109-009",
+    "stelle": null
+   },
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R112",
+  "name": "Zwangshaltung",
+  "wenn": "u.zwangshaltung",
+  "entsteht": "Langes Arbeiten in ungünstiger Körperhaltung",
+  "gefaehrdung": "g-zwangshaltung",
+  "massnahmen": [
+   {
+    "id": "R112-M1",
+    "art": "T",
+    "text": "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden"
+   },
+   {
+    "id": "R112-M2",
+    "art": "O",
+    "text": "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "bauau-lmm",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "empfehlung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

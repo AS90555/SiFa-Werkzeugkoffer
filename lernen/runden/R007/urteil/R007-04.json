@@ -1,0 +1,15 @@
+{"id":"R007-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","grund":"'Jeder Handgriff wiederholt sich den ganzen Schichtverlauf' mit Akkuschrauber, Bewertung manueller Arbeitsprozesse und Arbeitsplatzwechsel passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Zeitdruck und Stress durch den Takt wird von keinem Eintrag gemeint."},
+  {"nr":3,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"'Die Halle ist laut, Gespräche sind kaum möglich', Lärmminderung und Gehörschutz passen."},
+  {"nr":4,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Schwaches Licht, verschmutzte Leuchten; Beleuchtung und Instandsetzung passen."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Stromschlag durch ein ungeschütztes Kabel steht in keinem Eintrag."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Druckluftschlauch quer über dem Gang, Stolperstellen beseitigen und Verkehrswege freihalten passen."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Quetschen oder Stoßen in engen Stationen wird nicht gemeint; der Stolpereintrag meint Stolpern."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"'Die Teile holt man aus Behältern am Rand, ... schwer zu erreichen', Arbeit teilweise über Kopf."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"unbegruendet","grund":"Rüsten und Reinigen werden genannt, aber kein Sonderbetrieb mit Anlaufgefahr."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"'Im Winter zieht es an den Toren, das Band liegt im Durchzug.'"}
+ ]}

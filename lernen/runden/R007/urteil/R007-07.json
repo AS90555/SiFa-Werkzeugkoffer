@@ -1,0 +1,18 @@
+{"id":"R007-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Offener Balkon im obersten Stock ohne Geländer und Gerüst, Absturzsicherung und sicheres Arbeitsmittel passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Kippen oder Abrutschen des Geländerelements beim Tragen: 'Last fällt, rutscht oder trifft Personen' sperrt den Bereich darunter ab und sichert Werkzeug, das passt nicht zur Ursache; der Heben-Eintrag meint Belastung, nicht Quetschen."},
+  {"nr":3,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Funken Richtung Holzfußboden, 'Brennbare Stoffe aus dem Funkenbereich entfernen' und Feuerlöscher passen."},
+  {"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Schweißrauch","grund":"Schweißrauch im Flur ohne Absaugung, Absaugung an der Entstehungsstelle passt."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Lärm und Vibration des Bohrhammers werden von keinem Eintrag gemeint; die Rückfrage betrifft gleichförmige Arbeit."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"'Ein Geländerelement wiegt etwa achtzig Kilogramm und wird von zwei Leuten getragen, die Treppe hinauf.'"},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"unbegruendet","grund":"Das Protokoll nennt keine scharfen Kanten oder Grate."},
+  {"gefaehrdung":"Augen- und Hautschaden durch optische Strahlung","urteil":"berechtigt","grund":"'Die Anschlussplatte am Pfosten wird vor Ort angeschweißt, mit einem Schutzschirm, der sich nicht ganz nach unten bringen lässt.'"},
+  {"gefaehrdung":"Verbrennung an heißen Flächen","urteil":"unbegruendet","grund":"Heiße Teile oder Flächen werden im Protokoll nicht genannt."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"'Die Stufen sind mit Bauschutt und Staub bedeckt, ein Eimer steht mitten auf dem Weg', dazu das Verlängerungskabel."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"unbegruendet","grund":"Es gibt keine Last oder kein Werkzeug über Personen im Protokoll."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"'Der Schweißrauch steht im Flur', keine Absaugung."},
+  {"gefaehrdung":"Belastung durch verbrauchte oder stickige Luft","urteil":"unbegruendet","grund":"Stickige Luft wird nicht genannt, nur Schweißrauch."}
+ ]}

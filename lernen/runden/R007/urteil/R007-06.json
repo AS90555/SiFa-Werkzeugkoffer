@@ -1,0 +1,13 @@
+{"id":"R007-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"rueckfrage","system":null,"grund":"Abgase und Kohlenmonoxid sind Gefahrstoff über die Atemwege; dazu steht nur die Rückfrage 'Gesundheitsschaden durch Gefahrstoff nach Einstufung'."},
+  {"nr":2,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Tropfendes Benzin, Putzlappen, Kompressor; Zündquellen fernhalten passt zur Ursache."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Absturz oder Kippen des Fahrzeugs von der Hebebühne mit Quetschen steht in keinem Eintrag."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Schlauch quer durch den Gang, Stolperstellen beseitigen und Verkehrswege freihalten passen."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Belastung durch tiefes, langes Bücken wird von keinem Eintrag gemeint; die Rückfrage betrifft gleichförmige Hand-Arm-Arbeit."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"unbegruendet","grund":"'Tor, das nicht ganz schließt' nennt weder Kälte noch Zugluft ausdrücklich."},
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"unbegruendet","grund":"Der laufende Kompressor wird ohne Hinweis auf Lärm genannt."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"'Die Lampe über dem Arbeitsplatz ist staubig und gibt nur wenig Licht.'"}
+ ]}

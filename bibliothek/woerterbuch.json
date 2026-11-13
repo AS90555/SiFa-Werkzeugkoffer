@@ -1054,5 +1054,100 @@
    "batterie laden"
   ],
   "hinweis": "Batterieladen: Fahrzeug oder Gerät mit Batterie als Ausführung wählen (seitenstapler_elektro, gabelstapler_elektro, mitgaenger_elektro)"
+ },
+ {
+  "worte": [
+   "beizbecken",
+   "salzsäure",
+   "batteriesäure",
+   "natronlauge",
+   "schwefelsäure"
+  ],
+  "material": [
+   "saeure_lauge"
+  ]
+ },
+ {
+  "worte": [
+   "zinkkessel",
+   "zinkbad",
+   "flüssiges zink"
+  ],
+  "material": [
+   "metallschmelze"
+  ],
+  "vorgang": "giessen"
+ },
+ {
+  "worte": [
+   "dämpfe aus dem becken",
+   "säuredämpfe",
+   "dampf steigt",
+   "nebel über dem bad"
+  ],
+  "material": [
+   "prozessrauch"
+  ]
+ },
+ {
+  "worte": [
+   "abgase",
+   "motor läuft",
+   "im leerlauf",
+   "auspuff"
+  ],
+  "material": [
+   "abgase"
+  ]
+ },
+ {
+  "worte": [
+   "hebebühne",
+   "unter dem fahrzeug",
+   "unter das angehobene fahrzeug"
+  ],
+  "ausfuehrung": "hebebuehne"
+ },
+ {
+  "worte": [
+   "bohrhammer",
+   "stemmen",
+   "dübel setzen",
+   "in beton"
+  ],
+  "vorgang": "bohren_stein",
+  "ausfuehrung": "handmaschine"
+ },
+ {
+  "worte": [
+   "arbeitet allein",
+   "alleinarbeit",
+   "allein in der halle",
+   "niemand in der nähe"
+  ],
+  "umgebung": [
+   "alleinarbeit"
+  ]
+ },
+ {
+  "worte": [
+   "gebückt",
+   "weit vorbeugen",
+   "kniend",
+   "in der hocke"
+  ],
+  "umgebung": [
+   "zwangshaltung"
+  ]
+ },
+ {
+  "worte": [
+   "takt",
+   "taktzeit",
+   "akkord"
+  ],
+  "umgebung": [
+   "zeitdruck"
+  ]
  }
 ]

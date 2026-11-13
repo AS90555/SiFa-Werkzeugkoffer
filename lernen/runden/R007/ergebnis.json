@@ -1,0 +1,149 @@
+{
+ "runde": "R007",
+ "blind": true,
+ "regeln": 110,
+ "quote": 63,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 57,
+  "schritte": 36,
+  "maengel": 48
+ },
+ "faelle": [
+  {
+   "id": "R007-01",
+   "arbeitsplatz": "Beize und Zinkkessel",
+   "branche": "Feuerverzinkerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-02",
+   "arbeitsplatz": "Instandhaltung beim Kunden, Batteriewechsel",
+   "branche": "Staplerservice",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-03",
+   "arbeitsplatz": "Bäderstraße mit Säuren und Laugen",
+   "branche": "Metall, Galvanik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-04",
+   "arbeitsplatz": "Montageband, Schraubstationen im Takt",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-05",
+   "arbeitsplatz": "Inbetriebnahme und Probelauf, Fehlersuche",
+   "branche": "Sondermaschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-06",
+   "arbeitsplatz": "Klimaservice und Arbeiten an der Kraftstoffanlage",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-07",
+   "arbeitsplatz": "Balkon- und Treppenmontage beim Kunden",
+   "branche": "Metallbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R007-08",
+   "arbeitsplatz": "Spänetrocknung und Presse",
+   "branche": "Plattenwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 4,
+   "verfehlt": 3
+  },
+  "2": {
+   "getroffen": 1,
+   "verfehlt": 2
+  },
+  "3": {
+   "getroffen": 4,
+   "verfehlt": 4
+  },
+  "5": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 2,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "11": {
+   "getroffen": 3,
+   "verfehlt": 3
+  }
+ },
+ "schiedsrichter": {
+  "quote": 63,
+  "getroffen": 27,
+  "rueckfrage": 3,
+  "verfehlt": 13,
+  "unbegruendet": 0,
+  "zBerechtigt": 19,
+  "zUnbegruendet": 15
+ }
+}

@@ -354,5 +354,64 @@
   "geschlossen": true,
   "feld": "gemischt",
   "vermerk": "Lücken nicht bearbeitet: Trainingsfeld auf BGHM umgestellt, Mängel-Schicht folgt"
+ },
+ {
+  "runde": "R007",
+  "art": "lern",
+  "datum": "2026-11-13",
+  "plaetze": 8,
+  "blind": true,
+  "feld": "bghm",
+  "mass": "schiedsrichter",
+  "quote": 63,
+  "getroffen": 27,
+  "gewertet": 43,
+  "wahrheitUnbegruendet": 0,
+  "zusatzBerechtigt": 19,
+  "zusatzUnbegruendet": 15,
+  "regeln": 110,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 4,
+    "verfehlt": 3
+   },
+   "2": {
+    "getroffen": 1,
+    "verfehlt": 2
+   },
+   "3": {
+    "getroffen": 4,
+    "verfehlt": 4
+   },
+   "5": {
+    "getroffen": 3,
+    "verfehlt": 0
+   },
+   "6": {
+    "getroffen": 2,
+    "verfehlt": 1
+   },
+   "7": {
+    "getroffen": 3,
+    "verfehlt": 1
+   },
+   "8": {
+    "getroffen": 5,
+    "verfehlt": 0
+   },
+   "9": {
+    "getroffen": 2,
+    "verfehlt": 1
+   },
+   "10": {
+    "getroffen": 0,
+    "verfehlt": 1
+   },
+   "11": {
+    "getroffen": 3,
+    "verfehlt": 3
+   }
+  },
+  "geschlossen": true
  }
 ]

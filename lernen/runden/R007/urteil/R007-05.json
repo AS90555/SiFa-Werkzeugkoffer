@@ -1,0 +1,11 @@
+{"id":"R007-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Stempel mit Verfahrweg und nicht wirksame Schutztür, Schutzeinrichtung wirksam und prüfen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Offener Schaltschrank unter Spannung, Elektrofachkraft und spannungsfreier Zustand passen."},
+  {"nr":3,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"'muss man die Stimme heben', Gehörschutz und Lärmbereich passen."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Hydraulikölpfütze am Boden, Verunreinigungen beseitigen und rutschhemmende Schuhe passen."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Das Stolpern über das Kabel wäre vom selben Eintrag gemeint, der aber schon für Nr. 4 vergeben ist und nur einer Wahrheit zugeordnet werden darf."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"'Bei der Fehlersuche werden Sensoren bei laufender Anlage nachgestellt' und Probelauf ohne Verkleidung."}
+ ]}

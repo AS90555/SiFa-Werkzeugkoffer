@@ -97,7 +97,7 @@
  {
   "id": "g-verbrennung",
   "faktor": 6,
-  "name": "Verbrennung an heißen Flächen"
+  "name": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf"
  },
  {
   "id": "g-laerm",
@@ -233,5 +233,15 @@
   "id": "g-flucht",
   "faktor": 5,
   "name": "Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar"
+ },
+ {
+  "id": "g-alleinarbeit",
+  "faktor": 11,
+  "name": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät"
+ },
+ {
+  "id": "g-zwangshaltung",
+  "faktor": 9,
+  "name": "Muskel-Skelett-Beschwerden durch Zwangshaltung"
  }
 ]
