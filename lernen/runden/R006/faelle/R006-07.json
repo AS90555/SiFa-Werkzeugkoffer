@@ -1,0 +1,31 @@
+{"id":"R006-07","name":"R006-07","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Kommissionieren im Hochregal","bereich":"Hochregallager","personen":2,"umgebung":["lager","eng","dunkel","zeitdruck","boden"],"angaben":{"last_kg":20},
+   "schritte":[
+    {"vorgang":"lagern_regal","ausfuehrung":"gabelstapler","material":["packgut"]},
+    {"vorgang":"hoehenarbeit","ausfuehrung":"hubarbeitsbuehne","material":["packgut"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["packgut"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]},
+  {"nr":2,"name":"Paketablage an der Rampe","bereich":"Hochregallager","personen":1,"umgebung":["lager","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["packgut"]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand","material":["packmittel"]}]}],
+ "wuensche":[
+  {"text":"Schmalgangstapler mit Hubgerüst und Fahrerkorb, auf dem der Kommissionierer steht","fehlt":"Ausführung Schmalgang- oder Hochhub-Kommissionierstapler mit Fahrerkorb fehlt; Gabelstapler nur näherungsweise gewählt"},
+  {"text":"Korb wird auf die gewünschte Höhe gehoben, gut sieben Meter","fehlt":"Vorgang Mitfahren im Hubkorb fehlt; Arbeiten in der Höhe mit Hubarbeitsbühne nur näherungsweise gewählt"},
+  {"text":"Handterminal am Lenker, dort kommt der Auftrag herein","fehlt":"Bedienen eines Terminals während der Fahrt fehlt"},
+  {"text":"Das Terminal zeigt bei jedem Auftrag die Sekunden an, die noch bleiben","fehlt":"Zeitvorgabe je Auftrag; als Umgebung Zeitdruck gewählt"},
+  {"text":"Mann am Boden, der Pakete an die Rampe der Förderbänder stellt","fehlt":"Gewicht der Pakete am Boden ist nicht genannt, daher keine Angabe zur Last"}],
+ "maengel":[
+  {"text":"Der Korb hat ein Geländer, das auf der linken Seite fehlt."},
+  {"text":"Die Leuchten über den Gassen sind teilweise ausgefallen, dadurch wird es oben im Regal dunkel."},
+  {"text":"Gerüstet wird der Stapler am Schichtbeginn mit einer Sichtkontrolle durch den Fahrer."},
+  {"text":"Gereinigt wird der Boden nur einmal wöchentlich, Verpackungsreste liegen oft in den Gassen."}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gefahren wird mit einem Schmalgangstapler ... Kommissionierer ... greift Kartons aus dem Fach","sicher":false},
+  {"schritt":2,"stelle":"dann wird der Korb auf die gewünschte Höhe gehoben, bei Kartons im achten Fach sind das gut sieben Meter","sicher":false},
+  {"schritt":3,"stelle":"greift zwanzig Kilogramm schwere Kartons aus dem Fach und legt sie auf die Palette im Korb","sicher":true},
+  {"schritt":4,"stelle":"Gerüstet wird der Stapler am Schichtbeginn","sicher":true},
+  {"schritt":5,"stelle":"ein Mann am Boden, der Pakete an die Rampe der Förderbänder stellt","sicher":true},
+  {"schritt":6,"stelle":"Gereinigt wird der Boden nur einmal wöchentlich","sicher":true}]}

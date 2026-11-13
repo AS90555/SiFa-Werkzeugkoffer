@@ -1,0 +1,146 @@
+{
+ "id": "R006-05",
+ "name": "R006-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Großküche Betriebsrestaurant",
+   "bereich": "Küche",
+   "personen": 3,
+   "umgebung": [
+    "halle",
+    "boden",
+    "laerm_umgebung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisswasser_dampf"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisswasser_dampf"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "heisswasser_dampf"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisswasser_dampf"
+     ]
+    },
+    {
+     "vorgang": "waschen_desinfizieren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Suppe wird darin gerührt, dabei steigt heißer Dampf auf",
+   "fehlt": "Vorgang Kochen oder Rühren fehlt; Schritt nicht eingetragen"
+  },
+  {
+   "text": "Im Spülbecken wird mit Reiniger und Klarspüler gearbeitet",
+   "fehlt": "Material Spülmittel oder Reiniger für Geschirrspülen fehlt"
+  },
+  {
+   "text": "Spülstraße, Durchlaufspüler mit Schiebebändern, auf denen Körbe mit Tellern kommen",
+   "fehlt": "Schritt Geschirr aufgeben und abnehmen an der Spülstraße nicht eingetragen"
+  },
+  {
+   "text": "Der Dampf steht unter der Decke",
+   "fehlt": "Dampf und Feuchte in der Raumluft als Umgebungszustand fehlt"
+  },
+  {
+   "text": "Die Pommes werden mit einem Drahtkorb eingesetzt und herausgenommen, dabei spritzt das Fett",
+   "fehlt": "Material heißes Fett getrennt von Heißwasser und Dampf fehlt; Zuordnung zu heisswasser_dampf nur näherungsweise"
+  },
+  {
+   "text": "Stoff genannt: Reiniger",
+   "fehlt": "Kein passendes Material in den Stammdaten, daher nicht unter stoffe eingetragen"
+  },
+  {
+   "text": "Stoff genannt: Klarspüler",
+   "fehlt": "Kein passendes Material in den Stammdaten, daher nicht unter stoffe eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "weil die Hydraulik seit Monaten nicht funktioniert"
+  },
+  {
+   "text": "der Deckel wird nur angelehnt"
+  },
+  {
+   "text": "das Altfett wird in einen Eimer abgelassen und durch den Raum getragen"
+  },
+  {
+   "text": "Der Boden ist ständig nass und hat Pfützen unter dem Abtropftisch."
+  },
+  {
+   "text": "die Dosierpumpen hängen an einer Wand direkt über den Körben"
+  },
+  {
+   "text": "Der Lärm der Spülstraße ist so laut, dass man sich nur mit Zeichen verständigt."
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "ein Kippbratkessel mit etwa zweihundert Litern Inhalt, der mit einer Handkurbel gekippt wird",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Pommes werden mit einem Drahtkorb eingesetzt und herausgenommen",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Fettwechsel passiert einmal pro Woche von Hand",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "das Altfett wird in einen Eimer abgelassen und durch den Raum getragen",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "Im Spülbecken wird mit Reiniger und Klarspüler gearbeitet",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Gereinigt werden Kessel und Fritteuse am Schichtende von den Köchen selbst",
+   "sicher": true
+  }
+ ]
+}

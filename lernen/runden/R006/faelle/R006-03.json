@@ -1,0 +1,154 @@
+{
+ "id": "R006-03",
+ "name": "R006-03",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Kühlschmierstoff als Emulsion",
+   "material": "kuehlschmierstoff",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Flachschleifmaschine",
+   "bereich": "Werkzeugbauhalle",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "boden",
+    "dunkel"
+   ],
+   "angaben": {
+    "last_kg": 80,
+    "kss_wassergemischt": true
+   },
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "schleifen",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "metallwerkstueck",
+      "kuehlschmierstoff"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Senkerodiermaschine",
+   "bereich": "Werkzeugbauhalle",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "boden",
+    "dunkel"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallspaene"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Senkerodiermaschine, in der Elektroden mit Funken eine Form in den Stahl brennen",
+   "fehlt": "Vorgang Erodieren fehlt; der eigentliche Arbeitsgang ist nicht eingetragen"
+  },
+  {
+   "text": "Dielektrikum, einer Flüssigkeit auf Ölbasis, die in einer offenen Wanne steht",
+   "fehlt": "Material Dielektrikum oder brennbares Öl fehlt"
+  },
+  {
+   "text": "Am Ende des Tages läuft die Erodierarbeit über Nacht allein weiter",
+   "fehlt": "Unbeaufsichtigter Betrieb ist nicht abbildbar"
+  },
+  {
+   "text": "Am Handrad wird die Zustellung von Hand eingestellt",
+   "fehlt": "Ausführung Flachschleifmaschine mit Handzustellung fehlt; Schleifen mit stationär Handvorschub nur näherungsweise gewählt"
+  },
+  {
+   "text": "Der Nebel vom Kühlschmierstoff hängt in der Luft",
+   "fehlt": "Kühlschmierstoffnebel in der Luft als Umgebungszustand fehlt"
+  },
+  {
+   "text": "Stoff genannt: Dielektrikum auf Ölbasis",
+   "fehlt": "Kein passendes Material in den Stammdaten, daher nicht unter stoffe eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Schutzhaube ist offen, weil sie beim Einrichten im Weg ist."
+  },
+  {
+   "text": "auf dem Boden eine rutschige Lache"
+  },
+  {
+   "text": "Der Nebel vom Kühlschmierstoff hängt in der Luft, ein Absauggerät gibt es nicht."
+  },
+  {
+   "text": "An der Erodiermaschine ist außerdem ein Kabelstrang lose über den Boden gelegt."
+  },
+  {
+   "text": "Das Licht über den Maschinen ist nur schwach."
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "der Block wiegt bis zu achtzig Kilogramm und wird mit dem Kran auf den Tisch gehoben",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Schleifscheibe läuft mit Kühlschmierstoff ... Am Handrad wird die Zustellung von Hand eingestellt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gerüstet und gereinigt wird von den Werkern selbst",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Der Werker wechselt die Elektroden von Hand und stellt die Maschine ein.",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Die Späne werden mit der Druckluftpistole von Maschine und Boden geblasen.",
+   "sicher": true
+  }
+ ]
+}

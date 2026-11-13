@@ -1,0 +1,130 @@
+{
+ "id": "R006-01",
+ "name": "R006-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Salzsäure",
+   "material": "beize_saeure",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s4",
+   "name": "Ethanol",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Vorbereitungsraum Chemiesammlung",
+   "bereich": "Schule, Vorbereitungsraum",
+   "personen": 2,
+   "umgebung": [
+    "stickig"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "beize_saeure"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "beize_saeure"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Salzsäure in Zweieinhalb-Liter-Flaschen, mit beiden Händen anheben",
+   "fehlt": "Gewicht der Flasche ist nicht genannt, daher keine Angabe zur Last"
+  },
+  {
+   "text": "Feste Stoffe wie Kaliumpermanganat wiegen wir auf der Waage im Abzug ab",
+   "fehlt": "Schritt Abwiegen nicht eingetragen; Material oxidierender Feststoff fehlt, ebenso Arbeiten im Abzug"
+  },
+  {
+   "text": "Das Natrium liegt in Petroleum, die Stücke nehmen wir mit der Pinzette heraus und schneiden sie auf Filterpapier",
+   "fehlt": "Schritt nicht eingetragen: Vorgang Schneiden von Hand ohne Material wasserreaktiver Stoff (Natrium)"
+  },
+  {
+   "text": "offene Flasche Ethanol, Gasbrenner etwa einen Meter entfernt",
+   "fehlt": "Zündquelle in der Nähe entzündbarer Stoffe nicht abbildbar; Umgebung Labor fehlt"
+  },
+  {
+   "text": "Glasgeräte stellen wir nach dem Versuch auf den Tisch, bis sie abgekühlt sind",
+   "fehlt": "Material heißes Glas und Vorgang Versuch durchführen fehlen"
+  },
+  {
+   "text": "Zuerst holen wir die Chemikalien aus dem Schrank und stellen die Flaschen auf einen Rollwagen",
+   "fehlt": "Schritt nicht eingetragen: Chemikalienlagerung und Material gemischte Laborchemikalien fehlen"
+  },
+  {
+   "text": "Schutzbrille hängt im Schrank, beim Umfüllen trägt sie niemand",
+   "fehlt": "Persönliche Schutzausrüstung wird nicht abgebildet, als Mangel notiert"
+  },
+  {
+   "text": "Stoff genannt: Kaliumpermanganat",
+   "fehlt": "Kein passendes Material in den Stammdaten, daher nicht unter stoffe eingetragen"
+  },
+  {
+   "text": "Stoff genannt: Natrium in Petroleum",
+   "fehlt": "Kein passendes Material in den Stammdaten, daher nicht unter stoffe eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Dabei sitzt der Trichter nur locker auf, und auf der Tischplatte liegen schon Tropfen."
+  },
+  {
+   "text": "Eine Schutzbrille hängt im Schrank, beim Umfüllen trägt sie niemand."
+  },
+  {
+   "text": "Die Klappe des Abzugs schließt nicht ganz, und die Absaugung läuft nur auf einer Stufe."
+  },
+  {
+   "text": "Daneben steht eine offene Flasche Ethanol, und der Gasbrenner ist nur etwa einen Meter davon entfernt angeschlossen."
+  },
+  {
+   "text": "Die Flaschen stehen dicht gedrängt am Tischrand, teils mit abgeplatzten Kanten."
+  },
+  {
+   "text": "Die Fenster lassen sich nur von Hand öffnen, eine andere Lüftung gibt es nicht."
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Salzsäure steht in Zweieinhalb-Liter-Flaschen, die man mit beiden Händen anheben muss",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "wird am Tisch in kleinere Flaschen umgefüllt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "gereinigt werden die Tische nach dem Unterricht durch die Lehrkraft",
+   "sicher": true
+  }
+ ]
+}
