@@ -323,7 +323,7 @@
   },
   {
    "id": "beize_saeure",
-   "name": "Beizpaste, Säure, Lauge, ätzender Reiniger",
+   "name": "Säure, Lauge, Beize, Batteriesäure, ätzender Reiniger",
    "merkmale": [
     "m.gefahrstoff",
     "m.aetzend"
@@ -438,14 +438,6 @@
    "id": "gruenschnitt",
    "name": "Hecke, Äste, Grünschnitt",
    "merkmale": []
-  },
-  {
-   "id": "saeure_lauge",
-   "name": "Säure, Lauge, Beize, Batteriesäure",
-   "merkmale": [
-    "m.gefahrstoff",
-    "m.aetzend"
-   ]
   },
   {
    "id": "abgase",

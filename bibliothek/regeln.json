@@ -4175,38 +4175,6 @@
   "freigabe": "entwurf"
  },
  {
-  "id": "R110",
-  "name": "Ätzende Stoffe",
-  "wenn": "m.aetzend",
-  "entsteht": "Spritzer oder Kontakt mit Säure oder Lauge",
-  "gefaehrdung": "g-haut-augen",
-  "massnahmen": [
-   {
-    "id": "R110-M1",
-    "art": "P",
-    "text": "Augenschutz und Schutzhandschuhe bereitstellen"
-   },
-   {
-    "id": "R110-M2",
-    "art": "T",
-    "text": "Einrichtung zum Spülen der Augen in der Nähe bereithalten"
-   }
-  ],
-  "quellen": [
-   {
-    "id": "gefstoffv",
-    "stelle": null
-   },
-   {
-    "id": "trgs-500",
-    "stelle": null
-   }
-  ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
- },
- {
   "id": "R111",
   "name": "Arbeiten unter angehobenem Fahrzeug",
   "wenn": "a.hebebuehne",

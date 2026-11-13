@@ -2085,7 +2085,7 @@
   {
    "id": "g-verbrennung",
    "faktor": 6,
-   "name": "Verbrennung an heißen Flächen",
+   "name": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
    "stationen": [
     10
    ],

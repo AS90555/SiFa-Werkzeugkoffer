@@ -18,12 +18,12 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 114 |
+| Regeln | 113 |
 | Organisationspflichten | 20 |
 | Gefährdungen | 49 |
-| Stammdaten | 175 |
+| Stammdaten | 174 |
 | Wörterbuch | 111 |
-| Regeln doppelt belegt | 33 von 114 (29 %) |
+| Regeln doppelt belegt | 33 von 113 (29 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
