@@ -115,6 +115,7 @@
     const f = fall(); const u = erg.u;
     const gef = u.gefaehrdungen.map(g => `<tr><td class="z">${g.faktor}</td><td>${esc(g.name)}</td><td class="z">${g.stationen.join(', ')}</td></tr>`).join('');
     const rf = u.rueckfragen.map(r => `<tr><td>${esc(r.frage)}</td><td class="z">${r.stationen.join(', ')}</td></tr>`).join('');
+    const an = (u.annahmen || []).map(r => `<tr><td>${esc(r.text)}</td><td class="z">${r.stationen.join(', ')}</td></tr>`).join('');
     const liste = []; let mass = 0, bewertet = 0;
     for (const s of f.stationen) for (const x of treffer(erg, s.nr)) { if (x.status !== 'trifft zu') continue; const r = R.get(x.regel);
       for (const m of r.massnahmen) { mass++; const w = (f.pruefung || {})[pk(s.nr, m.id)]; if (w) bewertet++; if (w === 'fehlt') liste.push(`<tr><td class="z">${s.nr}</td><td>${esc(m.text)}<div class="klein leise">${esc(G.get(r.gefaehrdung).name)}</div></td><td><span class="marke ${r.verbindlichkeit === 'pflicht' ? 'pflicht' : ''}">${esc(r.verbindlichkeit)}</span></td></tr>`); } }
@@ -127,6 +128,7 @@
         <div class="tabelle"><table><thead><tr><th>Platz</th><th>Übersehen oder ohne Eintrag</th><th>Zusätzlich vom System</th></tr></thead><tbody>${erg.ab.stationen.map(x => `<tr><td class="z">${x.nr}</td><td>${esc([...x.uebersehen, ...x.ohneEintrag].join('; ') || 'nichts')}</td><td>${esc(x.zusaetzlich.map(g => G.get(g).name).join('; ') || 'nichts')}</td></tr>`).join('')}</tbody></table></div></div>` : ''}
       <div class="blatt"><h2>Gefährdungen im Betrieb</h2><div class="tabelle"><table><thead><tr><th>Faktor</th><th>Gefährdung</th><th>Plätze</th></tr></thead><tbody>${gef || '<tr><td colspan="3" class="leise">Noch keine.</td></tr>'}</tbody></table></div></div>
       <div class="blatt"><h2>Offene Fragen</h2><div class="tabelle"><table><thead><tr><th>Frage</th><th>Plätze</th></tr></thead><tbody>${rf || '<tr><td colspan="2" class="leise">Keine.</td></tr>'}</tbody></table></div></div>
+      ${an ? `<div class="blatt"><h2>Annahmen des Systems</h2><div class="tabelle"><table><thead><tr><th>Annahme</th><th>Plätze</th></tr></thead><tbody>${an}</tbody></table></div></div>` : ''}
       <div class="blatt"><h2>Wünsche an die Bibliothek</h2><div class="tabelle"><table><thead><tr><th>Platz</th><th>Was fehlt</th><th></th></tr></thead><tbody>${wu || '<tr><td colspan="3" class="leise">Keine.</td></tr>'}</tbody></table></div></div>`;
   }
   function sDaten() {

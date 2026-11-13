@@ -262,11 +262,12 @@
   },
   {
    "id": "loesemittel",
-   "name": "Verdünnung, Lösemittel, Kaltreiniger, Entfetter",
+   "name": "Verdünnung, Lösemittel (Nitro, Aceton, Spiritus, Waschbenzin)",
    "merkmale": [
     "m.gefahrstoff",
     "m.loesemittel",
-    "m.reiniger"
+    "m.reiniger",
+    "m.entzuendbar_bekannt"
    ]
   },
   {
@@ -408,6 +409,35 @@
    "merkmale": [
     "m.sperrig"
    ]
+  },
+  {
+   "id": "kaltreiniger",
+   "name": "Kaltreiniger, Entfetter",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.loesemittel",
+    "m.reiniger"
+   ]
+  },
+  {
+   "id": "benzin",
+   "name": "Benzin, Kraftstoff für Motorgeräte",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.entzuendbar_bekannt"
+   ]
+  },
+  {
+   "id": "heisswasser_dampf",
+   "name": "Heißes Wasser, Dampf, heiße Flüssigkeit",
+   "merkmale": [
+    "m.heiss"
+   ]
+  },
+  {
+   "id": "gruenschnitt",
+   "name": "Hecke, Äste, Grünschnitt",
+   "merkmale": []
   }
  ],
  "vorgang": [
@@ -832,6 +862,13 @@
    "merkmale": [
     "v.heiss"
    ]
+  },
+  {
+   "id": "gruenpflege",
+   "name": "Hecken schneiden, Mähen, Freischneiden, Baumpflege",
+   "merkmale": [
+    "v.laut"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -1194,6 +1231,20 @@
    "name": "Bodenöffnung, Schacht, Grube",
    "merkmale": [
     "u.oeffnung"
+   ]
+  },
+  {
+   "id": "fluchtweg_verstellt",
+   "name": "Fluchtweg, Notausgang oder Feuerlöscher verstellt",
+   "merkmale": [
+    "u.fluchtweg"
+   ]
+  },
+  {
+   "id": "treppe",
+   "name": "Treppe, Stufen",
+   "merkmale": [
+    "u.treppe"
    ]
   }
  ]

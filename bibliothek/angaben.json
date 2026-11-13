@@ -30,7 +30,9 @@
   "id": "entzuendbar",
   "typ": "ja_nein",
   "frage": "Ist der Stoff laut Sicherheitsdatenblatt entzündbar?",
-  "aus_stoff": true
+  "aus_stoff": true,
+  "aus_merkmal": "m.entzuendbar_bekannt",
+  "annahme": "Der Stoff gilt ohne Sicherheitsdatenblatt als entzündbar (Benzin, Verdünnung, Lösemittel). Datenblatt anfordern und Einstufung bestätigen."
  },
  {
   "id": "isocyanat",

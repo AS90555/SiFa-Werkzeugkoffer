@@ -25,6 +25,7 @@ z.push('## Gefährdungen im Betrieb', '', '| Faktor | Gefährdung | Stationen | 
 for (const g of u.gefaehrdungen) z.push(`| ${g.faktor} | ${g.name} | ${g.stationen.join(', ')} | ${g.regeln.join(', ')} |`);
 z.push('', '## Offene Angaben', '', '| Frage | Stationen |', '| --- | --- |');
 for (const r of u.rueckfragen) z.push(`| ${r.frage} | ${r.stationen.join(', ')} |`);
+if (u.annahmen.length) { z.push('', '## Annahmen des Systems', '', '| Annahme | Arbeitsplätze |', '| --- | --- |'); for (const a of u.annahmen) z.push(`| ${a.text} | ${a.stationen.join(', ')} |`); }
 const P = new Map(b.pflichten.map(p => [p.id, p])); const pl = pflichten(b, fall);
 z.push('', '## Organisationspflichten des Betriebs', '', '| Pflicht | Was nachzuweisen ist | Quelle | Stand |', '| --- | --- | --- | --- |');
 for (const t of pl) { const p = P.get(t.pflicht);

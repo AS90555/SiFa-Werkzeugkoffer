@@ -358,8 +358,6 @@
   "worte": [
    "verdünnung",
    "lösemittel",
-   "kaltreiniger",
-   "entfetter",
    "bremsenreiniger",
    "nitro",
    "aceton"
@@ -962,5 +960,99 @@
   "material": [
    "pv_modul"
   ]
+ },
+ {
+  "worte": [
+   "kaltreiniger",
+   "entfetter"
+  ],
+  "material": [
+   "kaltreiniger"
+  ]
+ },
+ {
+  "worte": [
+   "benzin",
+   "kraftstoff",
+   "kanister",
+   "zweitaktgemisch"
+  ],
+  "material": [
+   "benzin"
+  ]
+ },
+ {
+  "worte": [
+   "heißes wasser",
+   "dampf",
+   "verbrüh",
+   "heißwasser"
+  ],
+  "material": [
+   "heisswasser_dampf"
+  ]
+ },
+ {
+  "worte": [
+   "hecke",
+   "äste",
+   "grünschnitt",
+   "strauch"
+  ],
+  "material": [
+   "gruenschnitt"
+  ]
+ },
+ {
+  "worte": [
+   "motorsäge",
+   "freischneider",
+   "heckenschere",
+   "rasenmäher"
+  ],
+  "vorgang": "gruenpflege",
+  "ausfuehrung": "handmaschine"
+ },
+ {
+  "worte": [
+   "treppe",
+   "stufen",
+   "geländer",
+   "treppenhaus"
+  ],
+  "umgebung": [
+   "treppe"
+  ]
+ },
+ {
+  "worte": [
+   "feuerlöscher",
+   "notausgang",
+   "fluchtweg",
+   "zugestellt mit"
+  ],
+  "umgebung": [
+   "fluchtweg_verstellt"
+  ],
+  "hinweis": "Nur wählen, wenn Fluchtweg, Notausgang oder Feuerlöscher verstellt oder schwer erreichbar ist"
+ },
+ {
+  "worte": [
+   "feucht und warm",
+   "schwül",
+   "feuchte wärme"
+  ],
+  "umgebung": [
+   "hitze"
+  ]
+ },
+ {
+  "worte": [
+   "ladeplatz",
+   "batterien werden geladen",
+   "ladestation",
+   "batterie laden"
+  ],
+  "hinweis": "Batterieladen: Fahrzeug oder Gerät mit Batterie als Ausführung wählen (seitenstapler_elektro, gabelstapler_elektro, mitgaenger_elektro)"
  }
 ]

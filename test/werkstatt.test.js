@@ -44,3 +44,10 @@ test('Auswahl der Aufträge: fest, gemischt, nur freie', () => {
   const a = waehle(pool, v, 4).map(x => x.id), c = waehle(pool, v, 4).map(x => x.id);
   assert.deepStrictEqual(a, c); assert.ok(!a.includes('a6')); assert.ok(a.includes('a4') && a.includes('a5'));
 });
+test('Eindeutig entzündbarer Stoff ohne Datenblatt: Regel trifft zu und nennt die Annahme; ein Datenblatt geht vor', () => {
+  const { auswerten, uebersicht } = require('../kern/auswerten'); const b = B();
+  const fall = (stoffe) => ({ id: 't', betrieb: {}, stoffe, stationen: [{ nr: 1, name: 'Tanken', bereich: 'x', umgebung: [], personen: 1, schritte: [{ vorgang: b.stammdaten.vorgang[0].id, ausfuehrung: b.stammdaten.ausfuehrung[0].id, material: ['benzin'], ...(stoffe.length ? { stoffe: [stoffe[0].id] } : {}) }] }] });
+  let e; try { e = auswerten(b, fall([])); } catch (x) { assert.fail('Fall ungültig: ' + x.message); }
+  const t = e.stationen[0].treffer.find(x => x.regel === 'R88'); assert.strictEqual(t.status, 'trifft zu'); assert.deepStrictEqual(t.annahmen, ['entzuendbar']);
+  assert.strictEqual(uebersicht(b, e).annahmen[0].id, 'entzuendbar');
+});

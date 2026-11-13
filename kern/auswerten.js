@@ -63,6 +63,9 @@ function auswerten(b, fall) {
         ...(x.material || []).flatMap(m => index.material.get(m).merkmale)]);
       const abgeleitet = ausStoffen(index, fall, x);
       const angaben = { ...(fall.angaben || {}), ...(s.angaben || {}), ...(x.angaben || {}), ...abgeleitet.angaben };
+      // Annahme: Eine kurze Liste eindeutiger Stoffe gilt auch ohne Datenblatt als entzündbar. Ein vorhandenes Datenblatt geht vor.
+      const angenommen = new Set();
+      for (const a of b.angaben) if (a.aus_merkmal && merkmale.has(a.aus_merkmal) && (angaben[a.id] === undefined || angaben[a.id] === null)) { angaben[a.id] = true; angenommen.add(a.id); }
       for (const r of regeln) {
         const fehlt = new Set();
         const w = werte(r.wenn, merkmale, angaben, fehlt);
@@ -71,12 +74,13 @@ function auswerten(b, fall) {
         if (w === true) for (const a of r.braucht || []) if (angaben[a] === undefined || angaben[a] === null) nachfragen.add(a);
         const t = treffer.get(r.id) || { regel: r.id, status: 'offen', schritte: [], fehlt: new Set() };
         if (w === true) t.status = 'trifft zu';
+        if (w === true && angenommen.size) for (const a of angenommen) if (JSON.stringify(r.wenn).includes(`"angabe":"${a}"`)) (t.annahmen = t.annahmen || new Set()).add(a);
         t.schritte.push(i + 1);
         for (const a of nachfragen) t.fehlt.add(a);
         treffer.set(r.id, t);
       }
     });
-    const liste = [...treffer.values()].map(t => ({ ...t, fehlt: [...t.fehlt].sort() }))
+    const liste = [...treffer.values()].map(t => ({ ...t, fehlt: [...t.fehlt].sort(), ...(t.annahmen ? { annahmen: [...t.annahmen].sort() } : {}) }))
       .sort((a, c) => a.regel.localeCompare(c.regel, 'de', { numeric: true }));
     return { nr: s.nr, name: s.name, treffer: liste };
   });
@@ -87,8 +91,9 @@ function auswerten(b, fall) {
 function uebersicht(b, ergebnis) {
   const regel = new Map(b.regeln.map(r => [r.id, r]));
   const gef = new Map();
-  const rueckfragen = new Map();
+  const rueckfragen = new Map(); const annahmen = new Map();
   for (const s of ergebnis.stationen) for (const t of s.treffer) {
+    for (const a of t.annahmen || []) { const m = annahmen.get(a) || new Set(); m.add(s.nr); annahmen.set(a, m); }
     const r = regel.get(t.regel);
     if (t.status === 'trifft zu') {
       const g = gef.get(r.gefaehrdung) || { stationen: new Set(), regeln: new Set() };
@@ -99,7 +104,8 @@ function uebersicht(b, ergebnis) {
   return {
     gefaehrdungen: b.gefaehrdungen.filter(g => gef.has(g.id)).sort((a, c) => a.faktor - c.faktor)
       .map(g => ({ id: g.id, faktor: g.faktor, name: g.name, stationen: [...gef.get(g.id).stationen], regeln: [...gef.get(g.id).regeln] })),
-    rueckfragen: b.angaben.filter(a => rueckfragen.has(a.id)).map(a => ({ id: a.id, frage: a.frage, stationen: [...rueckfragen.get(a.id)] }))
+    rueckfragen: b.angaben.filter(a => rueckfragen.has(a.id)).map(a => ({ id: a.id, frage: a.frage, stationen: [...rueckfragen.get(a.id)] })),
+    annahmen: b.angaben.filter(a => annahmen.has(a.id)).map(a => ({ id: a.id, text: a.annahme || a.frage, stationen: [...annahmen.get(a.id)] }))
   };
 }
 

@@ -4087,5 +4087,69 @@
    "pruefungen": 2,
    "fingerabdruck": "f9c1a33b44cbdd93"
   }
+ },
+ {
+  "id": "R107",
+  "name": "Fluchtweg oder Feuerlöscher verstellt",
+  "wenn": "u.fluchtweg",
+  "entsteht": "Im Brandfall kommt man nicht schnell hinaus oder nicht an das Löschmittel",
+  "gefaehrdung": "g-flucht",
+  "massnahmen": [
+   {
+    "id": "R107-M1",
+    "art": "O",
+    "text": "Fluchtwege und Notausgänge ständig freihalten"
+   },
+   {
+    "id": "R107-M2",
+    "art": "T",
+    "text": "Feuerlöscher gut sichtbar und leicht erreichbar anbringen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a2-2",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R108",
+  "name": "Treppe im Arbeitsweg",
+  "wenn": "u.treppe",
+  "entsteht": "Sturz auf der Treppe, besonders mit Last",
+  "gefaehrdung": "g-sturz",
+  "massnahmen": [
+   {
+    "id": "R108-M1",
+    "art": "T",
+    "text": "Treppen mit Handlauf ausstatten"
+   },
+   {
+    "id": "R108-M2",
+    "art": "O",
+    "text": "Stufen trittsicher und in ordnungsgemäßem Zustand halten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "asr-a1-8",
+    "stelle": null
+   },
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

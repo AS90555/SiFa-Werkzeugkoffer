@@ -228,5 +228,10 @@
   "id": "g-schmelze",
   "faktor": 6,
   "name": "Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit"
+ },
+ {
+  "id": "g-flucht",
+  "faktor": 5,
+  "name": "Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar"
  }
 ]

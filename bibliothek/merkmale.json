@@ -111,5 +111,8 @@
  "u.witterung": "Arbeit im Freien bei Nässe, Wind oder Sonne",
  "u.eng": "Beengte oder verstellte Bewegungsfläche",
  "u.laerm_stoerend": "Störgeräusche unterhalb der Gehörgefährdung (Stimmen, Klingeln)",
- "u.oeffnung": "Bodenöffnung, Schacht oder Grube"
+ "u.oeffnung": "Bodenöffnung, Schacht oder Grube",
+ "m.entzuendbar_bekannt": "Gilt auch ohne Datenblatt als entzündbar: Benzin, Verdünnung, Lösemittel",
+ "u.fluchtweg": "Fluchtweg, Notausgang oder Feuerlöscher verstellt",
+ "u.treppe": "Treppe oder Stufen im Arbeitsweg"
 }

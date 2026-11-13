@@ -4,7 +4,7 @@ Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 ## Als Nächstes fällig
 
-1. **Lücken aus R005 schließen:** Bericht `lernen/runden/R005/bericht.md`. Reihenfolge: Wörterbuch, Stammdaten, Regeln (als Entwurf mit offenem Beleg). Danach `node lernen/runde.js geschlossen R005`.
+1. **Neue Prüfrunde:** `node lernen/runde.js neu pruef`.
 
 ## Wartet auf Andre
 
@@ -17,12 +17,12 @@ Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 108 |
+| Regeln | 110 |
 | Organisationspflichten | 20 |
-| Gefährdungen | 46 |
-| Stammdaten | 162 |
-| Wörterbuch | 93 |
-| Regeln doppelt belegt | 33 von 108 (31 %) |
+| Gefährdungen | 47 |
+| Stammdaten | 169 |
+| Wörterbuch | 102 |
+| Regeln doppelt belegt | 33 von 110 (30 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
@@ -36,7 +36,7 @@ Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R002 | Prüfrunde | 8 | Kennung | 43 % | 24 von 56 |  |  | ja |
 | R003 | Prüfrunde | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 | 17 | ja |
 | R004 | Prüfrunde | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | ja |
-| R005 | Prüfrunde | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 | 9 | nein |
+| R005 | Prüfrunde | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 | 9 | ja |
 
 ## Beleg-Läufe
 
