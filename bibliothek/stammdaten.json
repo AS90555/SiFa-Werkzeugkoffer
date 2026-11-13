@@ -906,35 +906,40 @@
    "id": "handmaschine",
    "name": "Handgeführte Maschine",
    "merkmale": [
-    "a.handmaschine"
+    "a.handmaschine",
+    "a.maschine"
    ]
   },
   {
    "id": "stationaer_handvorschub",
    "name": "Stationäre Maschine, Werkstück von Hand geführt",
    "merkmale": [
-    "a.stationaer_handvorschub"
+    "a.stationaer_handvorschub",
+    "a.maschine"
    ]
   },
   {
    "id": "vollautomat",
    "name": "Vollautomatische Anlage",
    "merkmale": [
-    "a.vollautomat"
+    "a.vollautomat",
+    "a.maschine"
    ]
   },
   {
    "id": "automat_lichtschranke",
    "name": "Automat mit Lichtschranke",
    "merkmale": [
-    "a.automat_lichtschranke"
+    "a.automat_lichtschranke",
+    "a.maschine"
    ]
   },
   {
    "id": "halbautomat",
    "name": "Halbautomat mit Einlegen von Hand",
    "merkmale": [
-    "a.halbautomat_einlegen"
+    "a.halbautomat_einlegen",
+    "a.maschine"
    ]
   },
   {
@@ -1008,7 +1013,8 @@
    "id": "zerkleinerer",
    "name": "Zerkleinerer",
    "merkmale": [
-    "a.zerkleinerer"
+    "a.zerkleinerer",
+    "a.maschine"
    ]
   },
   {
@@ -1057,14 +1063,16 @@
    "id": "presse",
    "name": "Presse, Abkantpresse, Stanze",
    "merkmale": [
-    "a.presse"
+    "a.presse",
+    "a.maschine"
    ]
   },
   {
    "id": "durchlaufmaschine",
    "name": "Durchlaufmaschine mit Vorschubwalzen, Werkstück von Hand angelegt",
    "merkmale": [
-    "a.einzugswalzen"
+    "a.einzugswalzen",
+    "a.maschine"
    ]
   },
   {

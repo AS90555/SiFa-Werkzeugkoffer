@@ -1,32 +1,30 @@
 # Fensterwerk Holz-Aluminium, Vorfertigung: Glasleistensäge
 
-Bibliothek: 113 Regeln, davon 39 mit geprüftem Beleg, 0 fachlich freigegeben.
+Bibliothek: 115 Regeln, davon 39 mit geprüftem Beleg, 0 fachlich freigegeben.
 
 Annahmen in diesem Fall:
 - „Lernumgebung“ im Diktat als Lärmumgebung verstanden: Der Lärm kommt von den Nachbararbeitsplätzen, nicht von der Glasleistensäge selbst.
 - „Bauwerk“ im Diktat als Werk verstanden.
 - Bündeln von Hand; womit gebündelt wird, ist nicht genannt.
-- Holzart der Glasleisten nicht genannt, deshalb bleibt die Angabe Hartholz offen.
+- Antworten von Andre am 13.11.2026: Glasleisten aus Kiefer, Fichte und Eiche; eine Leiste wiegt etwa so viel wie ein Handy (geschätzt, als 0,2 kg eingetragen); acht Stunden, alle zwei Minuten ein Durchgang, das sind 240 Durchgänge mit je Einlegen und Entnehmen, also rund 480 Griffe am Tag; daraus gleichförmige Arbeit abgeleitet; Lärm um 85 dB(A), geschätzt, nicht gemessen.
 
 ## Gefährdungen im Betrieb
 
 | Faktor | Gefährdung | Stationen | Regeln |
 | --- | --- | --- | --- |
 | 1 | Quetschen und Scheren an bewegten Teilen | 1 | R36 |
-| 3 | Atemwegserkrankung durch Holzstaub | 1 | R09 |
+| 1 | Unfall durch falsche Bedienung der Maschine | 1 | R113 |
+| 3 | Atemwegserkrankung durch Holzstaub | 1 | R09, R114 |
+| 3 | Krebs der Nase durch Hartholzstaub | 1 | R10 |
 | 5 | Brand oder Staubexplosion | 1 | R18 |
 | 7 | Gehörschaden durch Lärm | 1 | R11, R72 |
 | 9 | Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen | 1 | R12 |
+| 9 | Hand-Arm-Beschwerden durch gleichförmige Arbeit | 1 | R78 |
 
 ## Offene Angaben
 
 | Frage | Stationen |
 | --- | --- |
-| Wird an dieser Station Hartholz wie Eiche oder Buche bearbeitet? | 1 |
-| Wie schwer ist die Last je Griff in kg? | 1 |
-| Wie hoch ist der Tages-Lärmexpositionspegel in dB(A)? | 1 |
-| Wie viele Hebe- oder Umsetzvorgänge je Arbeitstag? | 1 |
-| Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht? | 1 |
 
 ## Organisationspflichten des Betriebs
 
@@ -55,24 +53,20 @@ Annahmen in diesem Fall:
   - T: Absaugung an der Entstehungsstelle
   - O: Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub
   - Quelle: TRGS 553 Holzstaub, Abschnitt 4.3 Abs. 2 Satz 1; Abschnitt 4.3 Abs. 2; Abschnitt 2 Abs. 3 Satz 3. Beleg: geprueft.
-  - Angabe fehlt: Wird an dieser Station Hartholz wie Eiche oder Buche bearbeitet?
-- **Krebs der Nase durch Hartholzstaub** (R10, vermutungswirkung, offen bis zur Angabe)
+- **Krebs der Nase durch Hartholzstaub** (R10, vermutungswirkung)
   - O: Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge
   - O: Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren
   - Quelle: TRGS 553 Holzstaub, Abschnitt 6 Abs. 3 Nr. 1 Buchstabe a; Abschnitt 6 Abs. 3 Nr. 1 Buchst. a; Abschnitt 3 Abs. 8; Abschnitt 3 Abs. 8 Satz 1. Beleg: geprueft.
-  - Angabe fehlt: Wird an dieser Station Hartholz wie Eiche oder Buche bearbeitet?
 - **Gehörschaden durch Lärm** (R11, pflicht)
   - P: Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten
   - O: Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge
   - O: Über 85 dB(A): Lärmbereich kennzeichnen
   - Quelle: Lärm- und Vibrations-Arbeitsschutzverordnung, § 8 Abs. 1; § 8 Abs. 3; § 7 Abs. 4 Satz 1. Beleg: geprueft.
-  - Angabe fehlt: Wie hoch ist der Tages-Lärmexpositionspegel in dB(A)?
 - **Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen** (R12, pflicht)
   - O: Belastung mit der Leitmerkmalmethode bewerten
   - T: Hebehilfe oder andere mechanische Ausrüstung einsetzen
   - O: Tätigkeitswechsel
   - Quelle: Leitmerkmalmethoden der BAuA, Handlungsanleitung LMM-HHT, Abschnitt Vorgehen (Achtung); Hinweis „Achtung“ am Ende der Zielstellung, Satz 1; Lastenhandhabungsverordnung, § 2 Abs. 1; DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk, Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen; Abschnitt 3.4.5, Organisatorische Maßnahmen. Beleg: geprueft.
-  - Angabe fehlt: Wie viele Hebe- oder Umsetzvorgänge je Arbeitstag? Wie schwer ist die Last je Griff in kg?
 - **Brand oder Staubexplosion** (R18, pflicht)
   - O: Reinigungsplan
   - T: Zündquellen vermeiden
@@ -85,10 +79,17 @@ Annahmen in diesem Fall:
   - T: Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung
   - P: Gehörschutz nach den Stufen 80 und 85 dB(A)
   - Quelle: Lärm- und Vibrations-Arbeitsschutzverordnung, § 7 Abs. 1 Nr. 1; § 7 Abs. 1 Nr. 1 Satz 1; § 8 Abs. 1; § 8 Abs. 1 (untere Auslösewerte 80 dB(A)). Beleg: geprueft.
-  - Angabe fehlt: Wie hoch ist der Tages-Lärmexpositionspegel in dB(A)?
-- **Hand-Arm-Beschwerden durch gleichförmige Arbeit** (R78, pflicht, offen bis zur Angabe)
+- **Hand-Arm-Beschwerden durch gleichförmige Arbeit** (R78, pflicht)
   - O: Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten
   - O: Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)
   - Quelle: Arbeitsschutzgesetz, Fundstelle offen; Leitmerkmalmethoden der BAuA, Fundstelle offen; DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk, Fundstelle offen. Beleg: offen.
-  - Angabe fehlt: Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht?
+- **Unfall durch falsche Bedienung der Maschine** (R113, pflicht)
+  - O: Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen
+  - O: Schriftliche Betriebsanweisung für die Maschine bereitstellen
+  - O: Maschine nur bestimmungsgemäß verwenden
+  - Quelle: Betriebssicherheitsverordnung, Fundstelle offen. Beleg: offen.
+- **Atemwegserkrankung durch Holzstaub** (R114, vermutungswirkung)
+  - T: Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen
+  - O: Maschine nur mit eingeschalteter Absaugung betreiben
+  - Quelle: TRGS 553 Holzstaub, Fundstelle offen; Gefahrstoffverordnung, Fundstelle offen. Beleg: offen.
 

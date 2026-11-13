@@ -4237,5 +4237,75 @@
   "verbindlichkeit": "empfehlung",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R113",
+  "name": "Maschine bedienen",
+  "wenn": "a.maschine",
+  "entsteht": "Bedienfehler, Arbeiten ohne Kenntnis der Maschine",
+  "gefaehrdung": "g-fehlbedienung",
+  "massnahmen": [
+   {
+    "id": "R113-M1",
+    "art": "O",
+    "text": "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen"
+   },
+   {
+    "id": "R113-M2",
+    "art": "O",
+    "text": "Schriftliche Betriebsanweisung für die Maschine bereitstellen"
+   },
+   {
+    "id": "R113-M3",
+    "art": "O",
+    "text": "Maschine nur bestimmungsgemäß verwenden"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R114",
+  "name": "Absaugung für Holzstaub wirksam halten",
+  "wenn": {
+   "alle": [
+    "v.abtragend",
+    "m.holz"
+   ]
+  },
+  "entsteht": "Absaugung fehlt, ist abgeschaltet oder wirkt nicht mehr",
+  "gefaehrdung": "g-holzstaub",
+  "massnahmen": [
+   {
+    "id": "R114-M1",
+    "art": "T",
+    "text": "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen"
+   },
+   {
+    "id": "R114-M2",
+    "art": "O",
+    "text": "Maschine nur mit eingeschalteter Absaugung betreiben"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-553",
+    "stelle": null
+   },
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

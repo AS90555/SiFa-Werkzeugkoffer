@@ -9,7 +9,7 @@
   "„Lernumgebung“ im Diktat als Lärmumgebung verstanden: Der Lärm kommt von den Nachbararbeitsplätzen, nicht von der Glasleistensäge selbst.",
   "„Bauwerk“ im Diktat als Werk verstanden.",
   "Bündeln von Hand; womit gebündelt wird, ist nicht genannt.",
-  "Holzart der Glasleisten nicht genannt, deshalb bleibt die Angabe Hartholz offen."
+  "Antworten von Andre am 13.11.2026: Glasleisten aus Kiefer, Fichte und Eiche; eine Leiste wiegt etwa so viel wie ein Handy (geschätzt, als 0,2 kg eingetragen); acht Stunden, alle zwei Minuten ein Durchgang, das sind 240 Durchgänge mit je Einlegen und Entnehmen, also rund 480 Griffe am Tag; daraus gleichförmige Arbeit abgeleitet; Lärm um 85 dB(A), geschätzt, nicht gemessen."
  ],
  "stationen": [
   {
@@ -43,7 +43,14 @@
       "glasleiste"
      ]
     }
-   ]
+   ],
+   "angaben": {
+    "hartholz": true,
+    "last_kg": 0.2,
+    "griffe_tag": 480,
+    "laerm_db": 85,
+    "gleichfoermig": true
+   }
   }
  ],
  "wuensche": [

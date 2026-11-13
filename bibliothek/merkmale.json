@@ -118,5 +118,6 @@
  "u.alleinarbeit": "Eine Person arbeitet allein, außer Ruf- und Sichtweite",
  "u.zwangshaltung": "Arbeiten gebückt, kniend, über Kopf oder weit vorgebeugt",
  "a.hebebuehne": "Fahrzeug-Hebebühne, Arbeiten unter angehobenem Fahrzeug",
- "v.bohren_stein": "Bohren oder Stemmen in Beton und Stein"
+ "v.bohren_stein": "Bohren oder Stemmen in Beton und Stein",
+ "a.maschine": "Kraftbetriebene Maschine, die bedient wird"
 }

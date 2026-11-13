@@ -12,18 +12,17 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 - **Freigabe-Paket F001:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F001.md`.
 - **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
 - **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
-- **Eigenes Protokoll:** Noch kein echtes Rundgangsprotokoll von dir. Erzeugte Protokolle finden Lücken, dein Protokoll ist der Maßstab.
 
 ## Kennzahlen
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 113 |
+| Regeln | 115 |
 | Organisationspflichten | 20 |
-| Gefährdungen | 49 |
-| Stammdaten | 174 |
-| Wörterbuch | 111 |
-| Regeln doppelt belegt | 33 von 113 (29 %) |
+| Gefährdungen | 50 |
+| Stammdaten | 175 |
+| Wörterbuch | 116 |
+| Regeln doppelt belegt | 33 von 115 (29 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
