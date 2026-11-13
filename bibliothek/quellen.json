@@ -364,5 +364,26 @@
   "stufe": "vermutungswirkung",
   "stand": "siehe Datei",
   "datei": "ASR/ASR-A2-2.pdf"
+ },
+ {
+  "id": "dguv-r109-608",
+  "titel": "DGUV Regel 109-608 Branche Gießereien",
+  "stufe": "empfehlung",
+  "stand": "August 2020",
+  "datei": "DGUV/DGUV-Regel-109-608_Branche-Giessereien.pdf"
+ },
+ {
+  "id": "dguv-r109-602",
+  "titel": "DGUV Regel 109-602 Branche Galvanik",
+  "stufe": "empfehlung",
+  "stand": "Oktober 2017",
+  "datei": "DGUV/DGUV-Regel-109-602_Branche-Galvanik.pdf"
+ },
+ {
+  "id": "dguv-r109-009",
+  "titel": "DGUV Regel 109-009 Fahrzeuginstandhaltung",
+  "stufe": "empfehlung",
+  "stand": "März 2023",
+  "datei": "DGUV/DGUV-Regel-109-009_Fahrzeuginstandhaltung.pdf"
  }
 ]
