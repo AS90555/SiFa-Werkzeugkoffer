@@ -1,0 +1,64 @@
+{
+ "id": "andre-001",
+ "name": "Fensterwerk Holz-Aluminium, Vorfertigung: Glasleistensäge",
+ "hinweis": "Erstes eigenes Protokoll von Andre, diktiert am 13.11.2026, Beispiel aus dem Kopf. Protokoll: protokolle/2026-11-13_fensterwerk_glasleistensaege.md",
+ "betrieb": {},
+ "stoffe": [],
+ "angaben": {},
+ "annahmen": [
+  "„Lernumgebung“ im Diktat als Lärmumgebung verstanden: Der Lärm kommt von den Nachbararbeitsplätzen, nicht von der Glasleistensäge selbst.",
+  "„Bauwerk“ im Diktat als Werk verstanden.",
+  "Bündeln von Hand; womit gebündelt wird, ist nicht genannt.",
+  "Holzart der Glasleisten nicht genannt, deshalb bleibt die Angabe Hartholz offen."
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Glasleistensäge",
+   "bereich": "Vorfertigung, Eckverbindung",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "laerm_umgebung"
+   ],
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "glasleiste"
+     ]
+    },
+    {
+     "vorgang": "saegen",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "glasleiste"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "glasleiste"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "hat eine Zuschnittsliste",
+   "fehlt": "Ablesen von Listen oder Bildschirm an der Maschine lässt sich nicht abbilden"
+  },
+  {
+   "text": "packt sie in einen Wagen",
+   "fehlt": "Wagen als Arbeitsmittel: Wird er von Hand geschoben? Dann fehlt der Schritt Transport"
+  },
+  {
+   "text": "bündelt diese",
+   "fehlt": "Eigener Vorgang Bündeln; Hilfsmittel nicht genannt"
+  }
+ ],
+ "maengel": []
+}

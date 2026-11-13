@@ -445,6 +445,14 @@
    "merkmale": [
     "m.freigesetzt"
    ]
+  },
+  {
+   "id": "glasleiste",
+   "name": "Glasleiste, Holzleiste, Stab",
+   "merkmale": [
+    "m.holz",
+    "m.langgut"
+   ]
   }
  ],
  "vorgang": [
