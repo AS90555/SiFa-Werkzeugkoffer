@@ -1,0 +1,56 @@
+{
+ "runde": "R007",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R007-01",
+   "auftrag": "a135",
+   "branche": "Feuerverzinkerei",
+   "bereich": "Beize und Zinkkessel"
+  },
+  {
+   "kennung": "R007-02",
+   "auftrag": "a156",
+   "branche": "Staplerservice",
+   "bereich": "Instandhaltung beim Kunden, Batteriewechsel"
+  },
+  {
+   "kennung": "R007-03",
+   "auftrag": "a029",
+   "branche": "Metall, Galvanik",
+   "bereich": "Bäderstraße mit Säuren und Laugen"
+  },
+  {
+   "kennung": "R007-04",
+   "auftrag": "a125",
+   "branche": "Fahrzeugbau",
+   "bereich": "Montageband, Schraubstationen im Takt"
+  },
+  {
+   "kennung": "R007-05",
+   "auftrag": "a116",
+   "branche": "Sondermaschinenbau",
+   "bereich": "Inbetriebnahme und Probelauf, Fehlersuche"
+  },
+  {
+   "kennung": "R007-06",
+   "auftrag": "a163",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Klimaservice und Arbeiten an der Kraftstoffanlage"
+  },
+  {
+   "kennung": "R007-07",
+   "auftrag": "a144",
+   "branche": "Metallbau",
+   "bereich": "Balkon- und Treppenmontage beim Kunden"
+  },
+  {
+   "kennung": "R007-08",
+   "auftrag": "a107",
+   "branche": "Plattenwerk",
+   "bereich": "Spänetrocknung und Presse"
+  }
+ ]
+}
