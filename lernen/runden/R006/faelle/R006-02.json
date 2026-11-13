@@ -1,0 +1,30 @@
+{"id":"R006-02","name":"R006-02","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Desinfektionsmittel aus Kanistern","material":"desinfektionsmittel","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Sortierung der Schmutzwäsche","bereich":"Wäscherei, Sortieren","personen":4,"umgebung":["laerm_umgebung"],"angaben":{"last_kg":15},
+   "schritte":[{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["abfall_schmutzwaesche"]}]},
+  {"nr":2,"name":"Mangelraum","bereich":"Wäscherei, Mangel","personen":2,"umgebung":["hitze","gefahrbereich","laerm_umgebung"],"angaben":{},
+   "schritte":[
+    {"vorgang":"sonderbetrieb","ausfuehrung":"durchlaufmaschine","material":["anlage"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","desinfektionsmittel"]}]}
+ ],
+ "wuensche":[
+  {"text":"Säcke wiegen teils zwölf bis fünfzehn Kilo","fehlt":"Angabe last_kg als Zahl eingetragen mit dem Höchstwert 15; Griffe je Stunde nicht genannt"},
+  {"text":"Zwischen den Laken ein Karton mit gebrauchten Spritzen","fehlt":"Material für spitze Gegenstände, Kanülen, Stichverletzungen; Stoffwahl Schmutzwäsche deckt Stiche nicht ab"},
+  {"text":"Walze mit rund 150 Grad, Wäsche wird gemangelt","fehlt":"Vorgang Mangeln, Bügeln, Wäsche durch heiße Walze führen; Material heiße Wäsche"},
+  {"text":"Wenn die Wäsche sich staut, greift man in den Einlauf","fehlt":"Einzugswalzen mit heißer Walze (Einzugs- und Verbrennungsgefahr), die Ausführung deckt nur den Einzug"},
+  {"text":"Waschmittelgeruch liegt im ganzen Raum","fehlt":"Material Waschmittel; Umgebungszustand Raumluft, Geruch"},
+  {"text":"Luft warm und feucht, Lüftung nur auf halber Stufe","fehlt":"Umgebung feucht-warmes Raumklima getrennt von Hitze durch Wärmestrahlung"},
+  {"text":"Wäsche in Wagen, Säcke feucht, ungeschützter Griff, Handschuhe nur halb getragen","fehlt":"Angabe zur Handschuhnutzung, Feuchtarbeit bei der Sortierung (Vorgang Waschen/Feuchtarbeit passt nicht)"},
+  {"text":"Die Waschmaschinen laufen, Verständigung nur mit Mühe","fehlt":"Angabe Lärmpegel dB(A) nicht genannt, daher nicht eingetragen"}],
+ "maengel":[
+  {"text":"Am Einlauf fehlt eine Seite des Schutzgitters"},
+  {"text":"Der Stopp liegt am Boden neben dem Fußpedal"},
+  {"text":"Eine Ablage für spitze Teile gibt es nicht"},
+  {"text":"Handschuhe liegen im Regal, aber viele tragen sie nur halb"},
+  {"text":"Die Lüftung läuft nur auf halber Stufe"},
+  {"text":"Desinfektionsmittel aus Kanistern offen auf dem Boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Kollegen kippen die Säcke von Hand auf das Sortierband und ziehen die Teile heraus","sicher":true},
+  {"schritt":2,"stelle":"Wenn die Wäsche sich staut, bückt man sich nach dem Taster und greift in den Einlauf","sicher":false},
+  {"schritt":3,"stelle":"Gerüstet und gereinigt wird am Schichtende. Dafür steht Desinfektionsmittel aus Kanistern offen auf dem Boden","sicher":true}]}

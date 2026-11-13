@@ -1,0 +1,40 @@
+{"id":"R006-08","name":"R006-08","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Zweikomponentenspachtel","material":"spachtel","sdb":null,"h":[]},
+  {"id":"s2","name":"Lack","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Verdünnung, Lösemittel","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Spachtel- und Schleifplatz","bereich":"Karosserie, Spachteln und Schleifen","personen":3,"umgebung":["laerm_umgebung"],"angaben":{},
+   "schritte":[
+    {"vorgang":"spachteln","ausfuehrung":"von_hand","material":["spachtel"]},
+    {"vorgang":"schleifen","ausfuehrung":"handmaschine","material":["spachtel"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["loesemittel"]}]},
+  {"nr":2,"name":"Lackierkabine","bereich":"Karosserie, Lackierkabine","personen":3,"umgebung":["dunkel","boden","laerm_umgebung"],"angaben":{},
+   "schritte":[{"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["lack"]}]}
+ ],
+ "wuensche":[
+  {"text":"Eine Exzenterschleifmaschine, Staubabsaugung nur schwach","fehlt":"Material Karosserie-Schleifstaub (Spachtel- und Lackstaub); als Spachtelmasse eingetragen"},
+  {"text":"Lackiert wird mit einer Pistole","fehlt":"Ausführung Spritzpistole mit Druckluft; als handgeführte Maschine gewählt (unsicher)"},
+  {"text":"Im Raum neben dem Schleifplatz eine Kiste mit Lösemittel-Kanistern","fehlt":"Vorgang Lagern von Gefahrstoffen im Arbeitsraum, kein Schritt angelegt"},
+  {"text":"Gerüstet wird an der Werkbank","fehlt":"Rüsten an einer Werkbank ohne Maschine nicht als Sonderbetrieb abbildbar"},
+  {"text":"Eine Motorhaube ist schwer, Teile ohne Hilfe angehoben","fehlt":"Material Karosserieteil; Gewicht und Griffe je Stunde nicht genannt"},
+  {"text":"Spachtelmasse Zweikomponenten","fehlt":"Stoff mit Härter: keine Angaben zu Isocyanat oder Peroxid, nur Spachtelmasse"},
+  {"text":"Die Lappen liegen im Mülleimer","fehlt":"Material lösemittelgetränkte Putzlappen, Selbstentzündung; Umgebung Brandlast"},
+  {"text":"Es ist laut, der Kompressor läuft im Nebenraum","fehlt":"Lärmpegel dB(A) nicht genannt, daher nicht eingetragen"}],
+ "maengel":[
+  {"text":"Die Staubabsaugung zieht nur schwach, der Sack ist halb voll"},
+  {"text":"Die Dose liegt offen auf der Werkbank"},
+  {"text":"Die Atemschutzmasken hängen am Haken, man sieht sie fast nur bei der Lackierung"},
+  {"text":"Die Tür steht halb offen, wenn gespritzt wird"},
+  {"text":"Der Druckluftschlauch liegt quer über dem Boden"},
+  {"text":"Die Deckel der Lösemittel-Kanister sind lose"},
+  {"text":"Die Beleuchtung über der Kabine ist schwach, eine Leuchte flackert"},
+  {"text":"Die Lappen liegen im Mülleimer"},
+  {"text":"Die Kollegen heben die Teile ohne Hilfe an"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gespachtelt wird von Hand mit einem Zweikomponentenspachtel","sicher":true},
+  {"schritt":2,"stelle":"Am Schleifplatz läuft eine Exzenterschleifmaschine","sicher":false},
+  {"schritt":3,"stelle":"Die Kollegen heben die Teile ohne Hilfe an, eine Motorhaube ist schwer","sicher":true},
+  {"schritt":4,"stelle":"gereinigt wird mit Verdünnung am Ende des Tages","sicher":true},
+  {"schritt":5,"stelle":"Lackiert wird mit einer Pistole","sicher":false}]}

@@ -1,0 +1,31 @@
+{"id":"R006-06","name":"R006-06","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Benzin für die Kettensäge","material":"benzin","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Holzernte im Hang","bereich":"Wald, Holzernte mit der Motorsäge","personen":2,"umgebung":["aussen","witterung","gefaelle","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"saegen","ausfuehrung":"handmaschine","material":[]},
+    {"vorgang":"saegen","ausfuehrung":"handmaschine","material":[]},
+    {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["benzin"]}]}
+ ],
+ "wuensche":[
+  {"text":"Fichte, teils über vierzig Zentimeter dick, am Hang","fehlt":"Material Rundholz, Stamm, Baum; Fällen als eigener Vorgang"},
+  {"text":"Eine Krone hängt im Nachbarbaum","fehlt":"Umgebung oder Zustand hängender Baum, Gefahrenbereich fallender Teile"},
+  {"text":"Der Stamm wird mit dem Schlepper ausgezogen, das Seil liegt über einem Ast","fehlt":"Vorgang Rücken, Ziehen mit Seilwinde oder Schlepper; Ausführung Schlepper"},
+  {"text":"Gefällt wird von Hand mit einem Keil","fehlt":"Vorgang Keilen, Fällhilfe"},
+  {"text":"Der Funk fehlt, im Revier keinen Empfang; Erste-Hilfe-Kasten im Pickup","fehlt":"Umgebung Alleinarbeit, Notfallkette, Funkloch"},
+  {"text":"Beim Entasten stehen sie auf dem Stamm, das Holz rollt unter den Füßen","fehlt":"Umgebung Stand auf Rundholz, rollendes Holz"},
+  {"text":"Schwertlänge etwa fünfzig Zentimeter","fehlt":"Keine passende Angabe in angaben.json"},
+  {"text":"Die Maschine ist laut","fehlt":"Lärmpegel dB(A) nicht genannt, daher nicht eingetragen"}],
+ "maengel":[
+  {"text":"Einen Fällheber sieht man nicht"},
+  {"text":"Die Handschuhe sind dünn"},
+  {"text":"Die Säge wird ohne Kettenbremse hinter dem Rücken getragen"},
+  {"text":"Der Funk fehlt, es gibt im Revier keinen Empfang"},
+  {"text":"Die Kollegen tanken die Säge am Hang, der Kanister steht im Gras"},
+  {"text":"Gehörschutz am Helm nur halb getragen"},
+  {"text":"Das Seil liegt über einem Ast"},
+  {"text":"Eine Krone hängt im Nachbarbaum, weil der Stamm beim Fallen nicht frei kam"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Fällschnitt wird mit einer Benzinkettensäge gemacht","sicher":true},
+  {"schritt":2,"stelle":"Beim Entasten stehen sie auf dem Stamm und setzen die Säge an der Seite an","sicher":true},
+  {"schritt":3,"stelle":"Die Kollegen tanken die Säge am Hang, der Kanister steht im Gras","sicher":true}]}

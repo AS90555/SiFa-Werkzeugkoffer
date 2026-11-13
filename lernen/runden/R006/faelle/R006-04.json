@@ -1,0 +1,30 @@
+{"id":"R006-04","name":"R006-04","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Säure für Kalk","material":"beize_saeure","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Zimmerreinigung mit Wäschewagen","bereich":"Housekeeping, Zimmerreinigung","personen":8,"umgebung":["eng","zeitdruck","stickig","hitze","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"bewegen","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["beize_saeure"]},
+    {"vorgang":"kehren","ausfuehrung":"handmaschine","material":[]}]}
+ ],
+ "wuensche":[
+  {"text":"Wagen voll beladen bestimmt achtzig bis neunzig Kilo, über Teppich, durch Türen und enge Aufzüge geschoben","fehlt":"Material Wäschewagen, Reinigungswagen; Angabe nur geschätzt, daher kein Gewicht eingetragen"},
+  {"text":"Beim Bettenmachen schwere Matratzenecken anheben, weit über die Matratze beugen","fehlt":"Material Matratze, Bettwäsche; Gewicht und Griffe je Stunde nicht genannt"},
+  {"text":"Reinigungsmittel in Sprühflaschen ohne Beschriftung","fehlt":"Material Haushalts- oder Sanitärreiniger; Stoff unbekannt, deshalb nicht als Stoff eingetragen; Schritt Aufsprühen nicht angelegt"},
+  {"text":"Staubsauger im Zimmer","fehlt":"Vorgang Staubsaugen; als Kehren, Boden reinigen mit handgeführter Maschine gewählt (unsicher)"},
+  {"text":"Gerüstet wird der Wagen im Lager, gereinigt nur bei Bedarf","fehlt":"Sonderbetrieb gilt für Maschinen; Rüsten und Reinigen eines Wagens ohne Anlage nicht abbildbar"},
+  {"text":"Eine Zimmerkraft soll in dreißig Minuten fertig sein","fehlt":"Zeitdruck als Umgebung gewählt, Zeitvorgabe selbst ohne Angabe"},
+  {"text":"Zimmer schlecht gelüftet, Fenster bleiben zu","fehlt":"Umgebung stickige Luft gewählt, obwohl der Raum sich lüften ließe"}],
+ "maengel":[
+  {"text":"Reinigungsmittel stehen in Sprühflaschen ohne Beschriftung auf dem Wagen"},
+  {"text":"Im Bad wird mit Säure für Kalk gearbeitet, Handschuhe trägt kaum jemand"},
+  {"text":"Der Stecker, der beim Anschluss wackelt"},
+  {"text":"Das Kabel liegt quer über dem Teppich"},
+  {"text":"Am Fenster hängt eine Gardine über der Heizung, die Heizung ist auf Maximum"},
+  {"text":"Heben der Matratzenecken ohne Hilfsmittel"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Kolleginnen schieben ihn über Teppich und durch die Zimmertüren","sicher":false},
+  {"schritt":2,"stelle":"Beim Bettenmachen beugen sie sich weit über die Matratze und heben die schweren Matratzenecken an","sicher":true},
+  {"schritt":3,"stelle":"Im Bad wird mit Säure für Kalk gearbeitet","sicher":true},
+  {"schritt":4,"stelle":"Der Staubsauger im Zimmer hängt am Stecker","sicher":false}]}
