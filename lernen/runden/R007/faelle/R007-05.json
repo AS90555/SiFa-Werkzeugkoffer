@@ -1,0 +1,33 @@
+{"id":"R007-05","name":"R007-05","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Inbetriebnahme Sondermaschine, Probelauf Hydraulikpresse","bereich":"Montagehalle, Inbetriebnahme","personen":2,"umgebung":["gefahrbereich","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"umformen","ausfuehrung":"presse","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"eine Presse mit Hydraulik, die Kunststoffteile verdichtet","fehlt":"Material Kunststoffteile; Presse für Kunststoff statt Biegen, Abkanten, Stanzen"},
+  {"text":"Am Boden liegt Hydrauliköl, eine Pfütze unter dem Aggregat","fehlt":"Material Hydrauliköl (Gefahrstoff, Rutschgefahr, Brand); kein Stoff eingetragen, weil Material fehlt"},
+  {"text":"Beim Probelauf muss man die Stimme heben, um sich zu verständigen","fehlt":"Lärm der eigenen Maschine im Probelauf; Umgebung Lärm aus der Umgebung gilt für Nachbarplätze"},
+  {"text":"Eine Leuchtröhre über dem Platz flackert","fehlt":"Umgebung flackernde Beleuchtung (nicht schwach, nicht Blendung)"},
+  {"text":"Die Maschine ist noch nicht verkleidet","fehlt":"Zustand Maschine im Probelauf ohne Schutzeinrichtungen"},
+  {"text":"Die Maschine wird morgens von der Schicht gerüstet","fehlt":"Rüsten durch andere Personen als die am Platz; nicht als Schritt dieser Station aufgenommen"},
+  {"text":"Die Steuerung wird von einem Laptop aus gestartet","fehlt":"Vorgang Steuern, Programmieren, Starten der Anlage"},
+  {"text":"Bei der Fehlersuche werden Sensoren bei laufender Anlage nachgestellt","fehlt":"Ausführung Arbeit an laufender Anlage; Ausführung von Hand als Näherung"}],
+ "maengel":[
+  {"text":"Die Schutztür am Pressenbereich hängt nur am Haken"},
+  {"text":"der Inbetriebnehmer steht direkt neben dem Verfahrweg des Stempels und schaut in den Pressenraum"},
+  {"text":"Die Maschine ist noch nicht verkleidet"},
+  {"text":"das Kabel liegt quer über den Boden"},
+  {"text":"Die Hydraulikleitungen sind nur mit Kabelbindern fixiert"},
+  {"text":"Am Boden liegt Hydrauliköl, eine Pfütze unter dem Aggregat"},
+  {"text":"Werkzeuge liegen verteilt auf dem Maschinengestell, ein Schraubendreher auf der Abdeckung, ein Maulschlüssel auf der Kante"},
+  {"text":"Sensoren bei laufender Anlage nachgestellt"},
+  {"text":"Der Elektriker öffnet den Schaltschrank, der noch unter Spannung steht"},
+  {"text":"Eine Leuchtröhre über dem Platz flackert"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Probelauf, eine Presse mit Hydraulik, die Kunststoffteile verdichtet","sicher":false},
+  {"schritt":2,"stelle":"Bei der Fehlersuche werden Sensoren bei laufender Anlage nachgestellt","sicher":false},
+  {"schritt":3,"stelle":"Der Elektriker öffnet den Schaltschrank, der noch unter Spannung steht, und misst mit dem Multimeter","sicher":true},
+  {"schritt":4,"stelle":"der Inbetriebnehmer reinigt nach Feierabend selbst","sicher":true}]}

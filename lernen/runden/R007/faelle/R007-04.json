@@ -1,0 +1,27 @@
+{"id":"R007-04","name":"R007-04","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Schraubstation im Takt","bereich":"Montagelinie","personen":1,"umgebung":["laerm_umgebung","kalt","dunkel","eng","boden"],"angaben":{"gleichfoermig":true},
+  "schritte":[
+   {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Schrauben in Türverkleidungen und Radhäuser gedreht","fehlt":"Material Fahrzeugteile, Türverkleidung, Radhaus"},
+  {"text":"teilweise über Kopf","fehlt":"Arbeiten über Kopf am Fahrzeug als Angabe; Vorgang Höhenarbeit gilt nur für Decke, Dach oder Tor"},
+  {"text":"Die Teile holt man aus Behältern am Rand, die etwa einen Meter hoch sind und schwer zu erreichen","fehlt":"Gewicht der Teile, Griffe je Stunde, Greifraum und Haltung als Angaben; Material der Teile"},
+  {"text":"Die Fahrzeuge fahren auf dem Band weiter, der Takt liegt bei etwa fünfzig Sekunden","fehlt":"Band mit Fahrzeugen als Ausführung oder Umgebung; Takt ohne ausdrücklichen Zeitdruck, deshalb nicht als Zeitdruck eingetragen"},
+  {"text":"Auf rund dreißig Meter Band stehen zwölf Leute","fehlt":"Station gilt je Arbeitsplatz mit einer Person; zwölf Stationen nebeneinander nicht abbildbar"},
+  {"text":"Rüsten machen die Vorarbeiter","fehlt":"Rüsten durch andere Personen (Vorarbeiter) als eigene Rolle"}
+ ],
+ "maengel":[
+  {"text":"Im Winter zieht es an den Toren, das Band liegt im Durchzug."},
+  {"text":"An manchen Stellen ist das Licht schwach, die Leuchten sind verschmutzt."},
+  {"text":"Ein Druckluftschlauch liegt quer über dem Gang, und ein Kabel hängt ungeschützt über dem Gang."},
+  {"text":"zwischen zwei Mitarbeitern liegt kaum ein Meter Platz"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"werden mit einem Akkuschrauber Schrauben ... gedreht","sicher":true},
+  {"schritt":2,"stelle":"Die Teile holt man aus Behältern am Rand","sicher":true},
+  {"schritt":3,"stelle":"Rüsten machen die Vorarbeiter, gereinigt wird die Station in der Pause von jedem selbst","sicher":true}
+ ]}

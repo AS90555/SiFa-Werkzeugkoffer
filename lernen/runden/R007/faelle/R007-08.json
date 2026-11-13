@@ -1,0 +1,41 @@
+{"id":"R007-08","name":"R007-08","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Spänetrockner und Förderband","bereich":"Plattenwerk, Spänetrocknung","personen":1,"umgebung":["boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"einbrennen","ausfuehrung":"vollautomat","material":["holzstaub"]},
+    {"vorgang":"foerdern","ausfuehrung":"stetigfoerderer","material":["holzstaub"]},
+    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["holzstaub"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]},
+  {"nr":2,"name":"Presse","bereich":"Plattenwerk, Presse","personen":2,"umgebung":["hitze","eng"],"angaben":{},
+   "schritte":[
+    {"vorgang":"umformen","ausfuehrung":"presse","material":["plattenware"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["heisses_werkstueck","plattenware","prozessrauch"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["plattenware"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"Der Ventilator ist so laut, dass man sich nur anschreien kann","fehlt":"Lärm der eigenen Anlage am Trockner; Umgebung Lärm gilt für Nachbarplätze; Tageslärmpegel nicht genannt"},
+  {"text":"Die Späne kommen feucht in eine große Trommel, die von einem Brenner beheizt wird","fehlt":"Vorgang Trocknen von Schüttgut in Trommel mit Brenner; Brand- und Staubexplosionsgefahr; Einbrennen im Ofen als Näherung"},
+  {"text":"feiner Staub auf den Geländern und Bühnen","fehlt":"Staubablagerungen auf Bühnen und Geländern (Staubexplosion, Brand); Zustand der Umgebung nicht erfasst"},
+  {"text":"Aus den frischen Platten zieht ein stechender Geruch","fehlt":"Stoff oder Emission nicht benannt (Formaldehyd, Harz?); als Prozessrauch eingetragen, Stoff offen"},
+  {"text":"dazu kommt in der Nachtschicht nur ein Schichtführer, der zwischendurch über den Hof geht","fehlt":"Alleinarbeit in der Nachtschicht, Nachtarbeit, Gehen über den Hof; kein Vorgang, Schritt weggelassen"},
+  {"text":"Die Maschinen werden von der Instandhaltung eingerichtet","fehlt":"Einrichten durch andere Personen als am Platz; nicht als Schritt aufgenommen"},
+  {"text":"Der Stapler steht quer im Gang","fehlt":"Abgestellter Stapler als Hindernis; Umgebung Enge gewählt, Fahrverkehr nicht ausdrücklich genannt"},
+  {"text":"Die Presse arbeitet mit gut zweihundert Grad","fehlt":"Presse für Holzwerkstoffplatten, Heißpresse; Umformen als Näherung"}],
+ "maengel":[
+  {"text":"Am Trockner und am Förderband liegt überall feiner Staub auf den Geländern und Bühnen"},
+  {"text":"zum Ausblasen des Staubs wird Druckluft benutzt"},
+  {"text":"Wenn eine Platte klemmt, greift der Mitarbeiter mit der Hand zwischen die Teile, um sie herauszuziehen, solange die Presse noch nicht ganz still steht"},
+  {"text":"Der Stapler steht quer im Gang"},
+  {"text":"die Platten kommen heiß aus der Presse und werden auf einen Stapel gelegt"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Späne kommen feucht in eine große Trommel, die von einem Brenner beheizt wird","sicher":false},
+  {"schritt":2,"stelle":"Am Trockner und am Förderband","sicher":false},
+  {"schritt":3,"stelle":"zum Ausblasen des Staubs wird Druckluft benutzt","sicher":true},
+  {"schritt":4,"stelle":"Reinigung macht die Schicht nach Feierabend","sicher":true},
+  {"schritt":5,"stelle":"Die Presse arbeitet mit gut zweihundert Grad","sicher":false},
+  {"schritt":6,"stelle":"die Platten kommen heiß aus der Presse und werden auf einen Stapel gelegt; stechender Geruch","sicher":false},
+  {"schritt":7,"stelle":"Wenn eine Platte klemmt, greift der Mitarbeiter mit der Hand zwischen die Teile","sicher":true},
+  {"schritt":8,"stelle":"die Stapel werden von Hand ausgerichtet","sicher":true},
+  {"schritt":9,"stelle":"Reinigung macht die Schicht nach Feierabend","sicher":true}]}

@@ -1,0 +1,30 @@
+{"id":"R007-07","name":"R007-07","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Geländermontage Balkon und Treppe beim Kunden","bereich":"Baustelle Mehrfamilienhaus, oberstes Stockwerk und Treppenhaus","personen":2,"umgebung":["treppe","boden","stickig"],"angaben":{"last_kg":80},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["stahlprofil"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stahlprofil"]},
+   {"vorgang":"hoehenarbeit","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"schweissen","ausfuehrung":"schweissgeraet","material":["stahlprofil","prozessrauch"]}]}],
+ "wuensche":[
+  {"text":"Der Balkon ist offen, auf der Brüstung fehlt noch das Geländer, und der Monteur lehnt sich darüber","fehlt":"Absturzgefahr an offener Kante im obersten Stock ohne Gerüst; Vorgang Arbeiten in der Höhe gilt nur über Kopf, Decke, Dach, Tor"},
+  {"text":"Ein Geländerelement wiegt etwa achtzig Kilogramm und wird von zwei Leuten getragen","fehlt":"Last je Person bei Tragen zu zweit; 80 kg als Last je Griff eingetragen, Griffe je Stunde nicht genannt"},
+  {"text":"Die Dübel werden mit einem Bohrhammer über Kopf in die Balkondecke gesetzt","fehlt":"Vorgang Bohren in Beton oder Stein; Material Mineralstaub (Quarzstaub); Material Decke"},
+  {"text":"Der Bohrhammer läuft ohne Pause, man hört das im ganzen Treppenhaus","fehlt":"Lärm der eigenen Handmaschine; Lärm von Bohrhammer ohne Vorgang Bohren nicht erfasst"},
+  {"text":"Die Funken fliegen in Richtung des Holzfußbodens der Wohnung","fehlt":"Umgebung brennbarer Untergrund, Brandgefahr bei Schweißarbeiten"},
+  {"text":"Das Verlängerungskabel geht über den Balkon ins Treppenhaus durch die offene Wohnungstür","fehlt":"Verlängerungskabel, Stromversorgung auf der Baustelle"},
+  {"text":"Wir sind heute beim Kunden in einem Mehrfamilienhaus","fehlt":"Umgebung Baustelle bei Kunden, Bewohner als Dritte in der Nähe (nicht ausdrücklich genannt)"},
+  {"text":"Werkzeug holen die Monteure aus dem Transporter, aufgeräumt wird der Rest am Abend in den Transporter","fehlt":"Transport und Verladen am Fahrzeug; Schritt nicht aufgenommen"}],
+ "maengel":[
+  {"text":"Ein Gerüst gibt es nicht"},
+  {"text":"Der Balkon ist offen, auf der Brüstung fehlt noch das Geländer, und der Monteur lehnt sich darüber"},
+  {"text":"Die Stufen sind mit Bauschutt und Staub bedeckt, ein Eimer steht mitten auf dem Weg"},
+  {"text":"Schutzschirm, der sich nicht ganz nach unten bringen lässt"},
+  {"text":"Die Funken fliegen in Richtung des Holzfußbodens der Wohnung, und Absaugung gibt es keine"},
+  {"text":"Der Schweißrauch steht im Flur"},
+  {"text":"Das Verlängerungskabel geht über den Balkon ins Treppenhaus durch die offene Wohnungstür"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"der Monteur lehnt sich darüber, um den Pfosten einzurichten","sicher":false},
+  {"schritt":2,"stelle":"Ein Geländerelement wiegt etwa achtzig Kilogramm und wird von zwei Leuten getragen, die Treppe hinauf","sicher":true},
+  {"schritt":3,"stelle":"Die Dübel werden mit einem Bohrhammer über Kopf in die Balkondecke gesetzt","sicher":false},
+  {"schritt":4,"stelle":"Die Anschlussplatte am Pfosten wird vor Ort angeschweißt ... Der Schweißrauch steht im Flur","sicher":true}]}

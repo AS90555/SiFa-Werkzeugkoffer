@@ -1,0 +1,37 @@
+{"id":"R007-03","name":"R007-03","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Entfetter","material":"kaltreiniger","sdb":null,"h":[]},
+  {"id":"s2","name":"Beize mit Säure","material":"beize_saeure","sdb":null,"h":[]},
+  {"id":"s3","name":"Lauge zum Neutralisieren","material":"beize_saeure","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Bäderstraße","bereich":"Bäderstraße","personen":2,"umgebung":["boden","eng"],"angaben":{},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
+   {"vorgang":"tauchreinigen","ausfuehrung":"tauchbad","material":["kaltreiniger"]},
+   {"vorgang":"beizen","ausfuehrung":"tauchbad","material":["beize_saeure","heisswasser_dampf"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Die Teile hängen an Gestellen","fehlt":"Material der Teile unbekannt (nicht genannt), deshalb bei Handhaben und Heben ohne Material"},
+  {"text":"man muss sich weit vorbeugen, um die Teile einzuhängen","fehlt":"Zwangshaltung, Vorbeugen über Beckenrand als Angabe oder Umgebung"},
+  {"text":"Die Bäder werden einmal die Woche vom Betreiber der Anlage neu angesetzt","fehlt":"Ausführung beim Ansetzen (von Hand, Pumpe) und wer es tut unklar; Schritt weggelassen"},
+  {"text":"Die Lauge ist heiß, das Becken ist ungedeckt, es steigt Dampf hoch.","fehlt":"Dampf aus Becken in der Raumluft als Umgebung; heiße Lauge als Material zusammen mit Säure/Lauge zugeordnet"},
+  {"text":"Eine Notdusche steht am Anfang der Straße, der Weg dorthin ist aber durch Paletten verstellt.","fehlt":"Notdusche und Augenspülung als Umgebung; Fluchtweg_verstellt gilt nur für Fluchtweg, Notausgang, Feuerlöscher"},
+  {"text":"Entfetter, Beize, Spülbecken und Lauge","fehlt":"Vorgang Spülen"},
+  {"text":"Teile ... mit einem Hebezug von Becken zu Becken gefahren","fehlt":"Material der Last; Zuordnung Entfetten, Beizen, Neutralisieren zu den beiden Beschäftigten (Anfang und Ende der Straße) unklar"}
+ ],
+ "maengel":[
+  {"text":"Eine Absaugung läuft über dem ersten Becken, der Rest hängt im Dampf."},
+  {"text":"Das Becken ist ungedeckt."},
+  {"text":"Gesichtsschutz habe ich keinen gesehen."},
+  {"text":"Der Weg dorthin ist aber durch Paletten verstellt."},
+  {"text":"Die Gestelle tropfen beim Umsetzen über die Beckenränder, der Boden ist deshalb immer feucht."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"werden von Hand eingehängt","sicher":true},
+  {"schritt":2,"stelle":"mit einem Hebezug von Becken zu Becken gefahren","sicher":true},
+  {"schritt":3,"stelle":"Es gibt Becken mit Entfetter","sicher":false},
+  {"schritt":4,"stelle":"Beize mit Säure ... Lauge zum Neutralisieren ... heiß ... Dampf","sicher":false},
+  {"schritt":5,"stelle":"gereinigt wird der Boden abends mit Wasser","sicher":true}
+ ]}

@@ -1,0 +1,33 @@
+{"id":"R007-01","name":"R007-01","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Salzsäure in der Beize","material":"beize_saeure","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Beize und Zinkkessel","bereich":"Beize und Zinkkessel","personen":3,"umgebung":["hitze","boden","stickig"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+   {"vorgang":"beizen","ausfuehrung":"tauchbad","material":["beize_saeure"]},
+   {"vorgang":"giessen","ausfuehrung":"von_hand","material":["metallschmelze"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stahlprofil","heisses_werkstueck"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Geländer und Profile ... bis zu einer Tonne","fehlt":"Angabe last_kg gilt je Griff von Hand, nicht für Kranlasten; Kranlast von 1000 kg deshalb nicht eingetragen"},
+  {"text":"ein Becken mit Salzsäure (Beize)","fehlt":"Ausführung Beizbecken; nur Reinigungsbecken (tauchbad) vorhanden, deshalb unsicher"},
+  {"text":"Die Beize wird über einen Behälter mit Pumpe nachgefüllt","fehlt":"Ausführung Pumpe oder Schlauch beim Umfüllen; Schritt weggelassen"},
+  {"text":"danach werden sie abgespült","fehlt":"Vorgang Spülen"},
+  {"text":"Das Zink wird von Hand mit einer Schöpfkelle abgekrätzt, der Mann steht vorne am Kessel","fehlt":"Material Zink, Zinkasche und Dämpfe aus dem Kessel; nur Metallschmelze zugeordnet"},
+  {"text":"Der Schichtleiter wechselt zwischen Kran und Kessel und hat selten Zeit, die Stellen zu kontrollieren","fehlt":"Aufsicht oder Führung als Umgebung oder Mangel; Zeitdruck nicht ausdrücklich genannt"},
+  {"text":"Gestelle mit Zangen und Haken gelöst","fehlt":"Vorgang Gestell lösen und absetzen mit Hilfsmitteln; als Handhaben zugeordnet, unsicher"}
+ ],
+ "maengel":[
+  {"text":"Die Becken sind offen, an der Oberkante gibt es nur eine Absaugung, die nach meiner Einschätzung nicht bis über die Kante reicht."},
+  {"text":"Der Boden ist an einigen Stellen nass und glitschig, und es liegen Schläuche quer."},
+  {"text":"Der Schlauch hängt halb auf dem Boden."},
+  {"text":"die Hitze kommt ungebremst bei ihm an"},
+  {"text":"Der Schichtleiter ... hat selten Zeit, die Stellen zu kontrollieren."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Stahlteile kommen auf Gestellen mit dem Kran an ... per Kran in den Zinkkessel gesetzt","sicher":true},
+  {"schritt":2,"stelle":"Der Kranführer hängt die Gestelle in die Beize, ein Becken mit Salzsäure","sicher":false},
+  {"schritt":3,"stelle":"Das Zink wird von Hand mit einer Schöpfkelle abgekrätzt","sicher":true},
+  {"schritt":4,"stelle":"Die Gestelle werden mit Zangen und Haken gelöst und auf den Abstellplatz gelegt, wo sie abkühlen","sicher":false},
+  {"schritt":5,"stelle":"Rüsten und Reinigen macht jeder selbst","sicher":true}
+ ]}

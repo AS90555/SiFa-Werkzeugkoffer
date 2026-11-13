@@ -1,0 +1,29 @@
+{"id":"R007-02","name":"R007-02","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Säure der Blei-Säure-Batterie","material":"beize_saeure","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Batteriewechsel am Gabelstapler","bereich":"Instandhaltung","personen":1,"umgebung":["fremdfirma","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+   {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"pruefen","ausfuehrung":"gabelstapler_elektro","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Er arbeitet allein, Kollegen sind in der Nachbarhalle.","fehlt":"Umgebung Alleinarbeit"},
+  {"text":"Die Batterie ist ein Blei-Säure-Block ... rund 800 Kilogramm schwer","fehlt":"Angabe last_kg gilt je Griff von Hand; Kranlast nicht eingetragen"},
+  {"text":"Die Anschlüsse sind freigelegt, Kabelschuhe liegen auf dem Boden","fehlt":"Batterieanschlüsse, Kurzschluss- und Wasserstoffgefahr bei Blei-Säure-Batterie als Material; Elektroarbeiten nicht eindeutig genannt, deshalb nicht zugeordnet"},
+  {"text":"Der Stapler steht quer im Gang","fehlt":"Verstellter Gang; Enge nicht ausdrücklich genannt, deshalb nicht als Umgebung eingetragen"},
+  {"text":"Er trägt eine Schutzbrille, Handschuhe hat er nicht an.","fehlt":"Persönliche Schutzausrüstung als Angabe"},
+  {"text":"Die Batterie wird seitlich herausgezogen","fehlt":"Batteriewagen als Ausführung"}
+ ],
+ "maengel":[
+  {"text":"Handschuhe hat er nicht an."},
+  {"text":"Die alte Batterie steht offen im Gang, Säure ist auf dem Boden zu sehen."},
+  {"text":"Kabelschuhe liegen auf dem Boden, Werkzeug liegt zwischen den Teilen."},
+  {"text":"Der Kunde hat keinen festen Platz für Batterien vorgesehen, das ist unklar geregelt."}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Den Wechsel macht er mit dem Hallenkran und einer Traverse","sicher":true},
+  {"schritt":2,"stelle":"dabei hält er sie mit der Hand am Kasten fest","sicher":true},
+  {"schritt":3,"stelle":"der Techniker wechselt gerade eine Traktionsbatterie an einem Gabelstapler (Instandhaltung)","sicher":false},
+  {"schritt":4,"stelle":"wird der Stapler wieder angelassen und geprüft","sicher":false}
+ ]}

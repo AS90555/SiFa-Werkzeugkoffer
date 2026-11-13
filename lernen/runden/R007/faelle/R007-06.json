@@ -1,0 +1,26 @@
+{"id":"R007-06","name":"R007-06","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Benzin","material":"benzin","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Hebebühnenplatz, Klimaservice und Kraftstofffilterwechsel","bereich":"Kfz-Werkstatt","personen":1,"umgebung":["kalt","boden","laerm_umgebung","eng","dunkel"],"angaben":{},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["benzin"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"Er macht den Klimaservice an einem Kombi ... ein Schlauch führt von der Anlage zum Fahrzeug","fehlt":"Vorgang Klimaservice, Kältemittel absaugen und füllen; Material Kältemittel; Ausführung Klimaservicegerät. Schritt weggelassen"},
+  {"text":"Der Motor des Kombis läuft im Leerlauf","fehlt":"Material Abgase bei laufendem Motor in der Werkstatt"},
+  {"text":"Er geht immer wieder unter das angehobene Fahrzeug","fehlt":"Vorgang Arbeiten unter angehobenem Fahrzeug, Hebebühne als Ausführung"},
+  {"text":"Dabei bückt er sich oft tief und lange über den Motorraum","fehlt":"Zwangshaltung, Arbeiten in gebückter Haltung; Angabe dazu fehlt"},
+  {"text":"Beim Filterwechsel wird der Druck nicht abgelassen, ... es tropft Benzin","fehlt":"Vorgang Leitung lösen und Kraftstoffsystem öffnen; Montieren als Näherung"},
+  {"text":"Neben dem Tropfen liegt ein Putzlappen","fehlt":"Zündquelle und Brandlast neben Benzin; Material Putzlappen"},
+  {"text":"Werkzeug holt er selbst","fehlt":"Alleinarbeit (ein Mechaniker allein), kein Merkmal in den Stammdaten"}],
+ "maengel":[
+  {"text":"Beim Filterwechsel wird der Druck nicht abgelassen, der Mechaniker löst die Leitung mit einem Ringschlüssel, und es tropft Benzin auf den Boden"},
+  {"text":"Neben dem Tropfen liegt ein Putzlappen, und der Kompressor im Hintergrund läuft die ganze Zeit"},
+  {"text":"der Schlauch liegt auf dem Boden, quer durch den Gang"},
+  {"text":"Der Motor des Kombis läuft im Leerlauf"},
+  {"text":"Die Werkstatt hat ein großes Tor zur Straße, das nicht ganz schließt"},
+  {"text":"Zwischen Wagen und Regal sind nur etwa achtzig Zentimeter Platz"},
+  {"text":"Die Lampe über dem Arbeitsplatz ist staubig und gibt nur wenig Licht"},
+  {"text":"Er geht immer wieder unter das angehobene Fahrzeug"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"wechselt danach den Kraftstofffilter ... löst die Leitung mit einem Ringschlüssel, und es tropft Benzin","sicher":false},
+  {"schritt":2,"stelle":"aufgeräumt wird am Ende des Tages mit einem Lappen aus dem Eimer","sicher":false}]}
