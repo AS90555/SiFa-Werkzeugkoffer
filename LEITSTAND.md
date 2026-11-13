@@ -1,10 +1,10 @@
 # Leitstand
 
-Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R006 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Neue Prüfrunde:** `node lernen/runde.js neu pruef`.
+1. **Lücken aus R006 schließen:** Bericht `lernen/runden/R006/bericht.md`. Reihenfolge: Wörterbuch, Stammdaten, Regeln (als Entwurf mit offenem Beleg). Danach `node lernen/runde.js geschlossen R006`.
 
 ## Wartet auf Andre
 
@@ -12,6 +12,10 @@ Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 - **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
 - **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
 - **Eigenes Protokoll:** Noch kein echtes Rundgangsprotokoll von dir. Erzeugte Protokolle finden Lücken, dein Protokoll ist der Maßstab.
+
+## Hinweise
+
+- Stopp-Regel: Die Quote ist von 64 % (R005) auf 60 % (R006) gefallen. Erst die Ursache klären, dann weiter füttern.
 
 ## Kennzahlen
 
@@ -26,7 +30,7 @@ Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
-| Freie Aufträge im Abdeckungsplan | 49 von 87 |
+| Freie Aufträge im Abdeckungsplan | 41 von 87 |
 
 ## Runden
 
@@ -37,6 +41,7 @@ Stand nach R005 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R003 | Prüfrunde | 8 | Schiedsrichter | 76 % | 35 von 46 | 16 | 17 | ja |
 | R004 | Prüfrunde | 8 | blind, Schiedsrichter | 59 % | 26 von 44 | 16 | 3 | ja |
 | R005 | Prüfrunde | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 | 9 | ja |
+| R006 | Prüfrunde | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 | 7 | nein |
 
 ## Beleg-Läufe
 

@@ -1,0 +1,47 @@
+{
+ "id": "R006-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Spritzer von Salzsäure auf Haut und Augen; Schutzbrille, Handschuhe und Absaugung passen zur Ursache."
+  },
+  {
+   "nr": 2,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Brand durch Ethanol am Gasbrenner steht nur unter den Rückfragen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Verbrennung an heißen Glasgeräten ist nirgends genannt."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Schnittverletzung durch splitterndes Glas ist nicht genannt."
+  },
+  {
+   "nr": 5,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Stäube und Dämpfe am Abzug nur als Rückfrage zum Gefahrstoff; die genannten Gefährdungen meinen eine andere Gefahr."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Die Zweieinhalb-Liter-Flaschen (rund 3 kg) werden nur mit beiden Händen angehoben; für eine Muskel-Skelett-Gefährdung gibt das Protokoll zu wenig her."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "'Die Fenster lassen sich nur von Hand öffnen, eine andere Lüftung gibt es nicht.'"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "R006-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Fahrerkorb in sieben Metern ohne Geländer; Absturzsicherung passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Zwanzig-Kilo-Kartons; Hebehilfe passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Ausgefallene Leuchten; Leuchten instand setzen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Sekundenanzeige; Arbeitsabläufe gestalten passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Verpackungsreste in den Gassen; Verunreinigungen beseitigen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Mann am Boden arbeitet in Gassen mit Schmalgangstapler."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Wartung oder Sonderbetrieb."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine herabfallende Last."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "R006-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einzug von Hand oder Arm",
+   "grund": "Greifen in den Einlauf der Walze; verdeckte Einzugsstelle und kein Nachgreifen passen zum fehlenden Schutzgitter."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Infektion durch Krankheitserreger bei Kontakt mit Menschen, Tieren, Abwasser oder Abfall",
+   "grund": "Blutkontakt und Spritzen; Waschgelegenheit und PSA passen zur Ursache."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Dämpfe und Hautkontakt von Desinfektionsmittel; Hautkontakt vermeiden und Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Verbrennung an der heißen Walze ist nicht genannt; Hitzebelastung der Raumluft ist eine andere Gefahr."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Warme feuchte Luft bei halber Lüftung; Lüftung und Trinkpausen passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwere nasse Säcke heben; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "berechtigt",
+   "grund": "'so laut, dass man sich nur mit Mühe verständigt'."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "'Wenn die Wäsche sich staut, bückt man sich nach dem Taster und greift in den Einlauf' mit fehlendem Stopp."
+  }
+ ]
+}

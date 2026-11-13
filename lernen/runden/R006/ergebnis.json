@@ -1,0 +1,153 @@
+{
+ "runde": "R006",
+ "blind": true,
+ "regeln": 110,
+ "quote": 60,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 58,
+  "schritte": 35,
+  "maengel": 50
+ },
+ "faelle": [
+  {
+   "id": "R006-01",
+   "arbeitsplatz": "Vorbereitungsraum der Chemiesammlung für Schülerversuche",
+   "branche": "Schule, Chemiesammlung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-02",
+   "arbeitsplatz": "Sortierplatz und Mangelraum der Wäscherei",
+   "branche": "Gesundheit, Wäscherei eines Krankenhauses",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-03",
+   "arbeitsplatz": "Flachschleifmaschine und Senkerodiermaschine in der Werkzeugbauhalle",
+   "branche": "Metall, Werkzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-04",
+   "arbeitsplatz": "Zimmerreinigung und Wäschewagen",
+   "branche": "Hotel, Housekeeping",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-05",
+   "arbeitsplatz": "Kochkessel, Fritteuse und Spülstraße in der Großküche",
+   "branche": "Lebensmittel, Großküche",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-06",
+   "arbeitsplatz": "Holzernte mit der Motorsäge",
+   "branche": "Forst",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-07",
+   "arbeitsplatz": "Schmalgangstapler und Kommissionieren in der Höhe im Hochregallager",
+   "branche": "Logistik, Hochregallager",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R006-08",
+   "arbeitsplatz": "Spachteln, Schleifen, Lackierkabine",
+   "branche": "Kfz, Karosserie und Lack",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 3,
+   "verfehlt": 7
+  },
+  "2": {
+   "getroffen": 0,
+   "verfehlt": 3
+  },
+  "3": {
+   "getroffen": 5,
+   "verfehlt": 2
+  },
+  "4": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "5": {
+   "getroffen": 2,
+   "verfehlt": 3
+  },
+  "6": {
+   "getroffen": 1,
+   "verfehlt": 2
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 4,
+   "verfehlt": 1
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 3,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 60,
+  "getroffen": 29,
+  "rueckfrage": 4,
+  "verfehlt": 15,
+  "unbegruendet": 0,
+  "zBerechtigt": 16,
+  "zUnbegruendet": 7
+ }
+}

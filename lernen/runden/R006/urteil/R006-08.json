@@ -1,0 +1,59 @@
+{
+ "id": "R006-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Schlauch quer über dem Boden; Stolperstellen beseitigen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Stromschlag durch defekte Leuchte ist nicht genannt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Spachtel mit Härter, Hautkontakt und Allergie; Hautkontakt vermeiden und Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Stäube und Lösemitteldämpfe ohne Atemschutz; keine Maßnahme zu Atemschutz oder Absaugung der Gefährdungen zugeordnet."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Lösemittelgetränkte Lappen; Menge begrenzen und Zündquellen fernhalten passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwere Motorhaube ohne Hilfe; Hebehilfe passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm von Schleifer und Kompressor; Lärmminderung und Gehörschutz passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "'Die Beleuchtung über der Kabine ist schwach, es gibt eine Leuchte, die flackert.'"
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Spachtel offen auf der Werkbank und Verdünnung zum Reinigen, Hautkontakt möglich."
+  }
+ ]
+}

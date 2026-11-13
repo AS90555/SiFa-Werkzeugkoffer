@@ -1,0 +1,58 @@
+{
+ "id": "R006-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen zwischen Wagen und Wand ist nirgends genannt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Hauptgefahr ist der Stromschlag am wackelnden Stecker, der nicht genannt ist."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Säurereiniger ohne Handschuhe; säurefeste Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Brand an der Gardine steht nur unter den Rückfragen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwere Matratzenecken; Hebehilfe passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Dreißig Minuten je Zimmer; Arbeitsabläufe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "'das Kabel liegt quer über dem Teppich'."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "'die Heizung ist auf Maximum'."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "'Die Zimmer sind schlecht gelüftet, die Fenster bleiben zu'."
+  }
+ ]
+}

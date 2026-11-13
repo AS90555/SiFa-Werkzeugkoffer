@@ -1,0 +1,59 @@
+{
+ "id": "R006-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Hängender Baum ist nirgends genannt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Rollendes Holz beim Entasten ist nicht genannt; die Maßnahmen zu Stolpern passen nicht zur Ursache."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kontakt mit laufendem Werkzeug meint die Säge, aber die Maßnahmen (Haube, beide Hände) passen nicht zum Tragen ohne Kettenbremse."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Tanken mit Kraftstoff im Gras; Zündquellen fernhalten und Menge passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Motorsäge, Gehörschutz nur halb; Gehörschutzmaßnahmen passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser rutschiger Boden; rutschhemmende Schuhe passen."
+  },
+  {
+   "nr": 7,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Fehlende Funkverbindung ist nicht genannt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "berechtigt",
+   "grund": "'Die Säge wird ohne Kettenbremse hinter dem Rücken getragen', Säge am Stamm angesetzt."
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "urteil": "berechtigt",
+   "grund": "'heute regnet es'."
+  }
+ ]
+}

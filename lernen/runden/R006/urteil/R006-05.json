@@ -1,0 +1,53 @@
+{
+ "id": "R006-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Handkurbel am Kippkessel (Überlaufen, Einklemmen) ist nicht genannt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verbrennung an heißen Flächen",
+   "grund": "Fettspritzer; hitzebeständige Handschuhe und Schutzkleidung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Reiniger und Klarspüler (Haut, Augen) nicht genannt; Feuchtarbeit ist eine andere Gefahr."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwerer Altfetteimer; Hebehilfe passt zur Ursache."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm der Spülstraße; Kapselung und Gehörschutz passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser Boden mit Pfützen; Verunreinigungen beseitigen, rutschhemmende Schuhe passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Wartung oder Sonderbetrieb."
+  },
+  {
+   "gefaehrdung": "Hauterkrankung durch Feuchtarbeit",
+   "urteil": "berechtigt",
+   "grund": "'Im Spülbecken wird mit Reiniger und Klarspüler gearbeitet'."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "R006-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Wegschleudern und Kontakt mit offener Schleifscheibe ist nicht genannt; Einzug und Staub meinen etwas anderes."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "grund": "Nebel ohne Absaugung; Kapselung und Absaugung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Brand durch Dielektrikum steht nur unter den Rückfragen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Stromschlag am Kabelstrang ist nicht genannt; Stolpern wird der Lache zugeordnet."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Rutschige Kühlschmierstofflache; Auffangwannen und Boden sauber halten passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Schwaches Licht; angemessene Beleuchtung passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll erwähnt keinen Lärm."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Einrichten bei offener Haube und Elektrodenwechsel von Hand an der Maschine."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "unbegruendet",
+   "grund": "Kein Band und keine Walze im Protokoll."
+  },
+  {
+   "gefaehrdung": "Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff",
+   "urteil": "berechtigt",
+   "grund": "'milchige Emulsion' als Kühlschmierstoff im Umlauf."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "'wird mit dem Kran auf den Tisch gehoben' (bis 80 kg)."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "'Die Späne werden mit der Druckluftpistole ... geblasen'."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine Kanten oder Grate."
+  }
+ ]
+}
