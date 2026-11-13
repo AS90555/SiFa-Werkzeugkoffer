@@ -1,0 +1,166 @@
+{
+ "id": "R007-08",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen",
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie",
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abblasen und trockenes Kehren sind nicht zulässig",
+    "Aufsaugen mit Sauger mindestens Staubklasse M"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Reinigungsplan",
+    "Zündquellen vermeiden"
+   ],
+   "entsteht": [
+    "Brennbare Staubschicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung an heißen Flächen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung",
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer",
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einzugs- und Umlenkstellen verkleidet",
+    "Reinigen und Entstören nur im Stillstand"
+   ],
+   "entsteht": [
+    "Einzugsstellen an Rollen und Bändern"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Saugen statt Abblasen",
+    "Schutzbrille"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub, wegfliegende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel",
+    "Einsatz höhenverstellbarer Montagetische prüfen",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+   ],
+   "entsteht": [
+    "Körperliche Belastung",
+    "Last, Zwangshaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung",
+    "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken",
+    "Wiederkehrende Prüfung",
+    "Sicherheitsschuhe",
+    "Auf Unterlagen absetzen, Finger nicht unter die Last"
+   ],
+   "entsteht": [
+    "Schließbewegung mit hoher Kraft",
+    "Schweres Teil wird von Hand abgesetzt"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

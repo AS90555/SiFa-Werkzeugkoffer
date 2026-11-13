@@ -1,0 +1,138 @@
+{
+ "id": "R007-07",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schnittfeste Handschuhe",
+    "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden"
+   ],
+   "entsteht": [
+    "Scharfe Kanten, Grate, Späne"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Emissionsarmes Verfahren und Zusatzwerkstoff wählen",
+    "Absaugung an der Entstehungsstelle, nachgeführt",
+    "Atemschutz, wenn die Absaugung nicht ausreicht"
+   ],
+   "entsteht": [
+    "Schweißrauch und Gase"
+   ]
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schweißplatz zu Nachbarplätzen abschirmen",
+    "Schweißerschutzschild und bedeckende Kleidung"
+   ],
+   "entsteht": [
+    "Ultraviolette und sichtbare Strahlung des Lichtbogens"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung an heißen Flächen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "Feuerlöscher griffbereit",
+    "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+   ],
+   "entsteht": [
+    "Funken und glühende Partikel"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Treppen mit Handlauf ausstatten",
+    "Stufen trittsicher und in ordnungsgemäßem Zustand halten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Sturz auf der Treppe, besonders mit Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter",
+    "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt",
+    "Unterweisung und Beauftragung der Bediener"
+   ],
+   "entsteht": [
+    "Arbeitsplatz über dem Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bereich darunter absperren",
+    "Werkzeug sichern"
+   ],
+   "entsteht": [
+    "Werkzeug und Bauteile über Personen"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Ausreichend gesundheitlich zuträgliche Atemluft sicherstellen"
+   ],
+   "entsteht": [
+    "Verbrauchte, stickige Luft"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

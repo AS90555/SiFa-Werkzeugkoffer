@@ -1,0 +1,78 @@
+{
+ "id": "R007-03",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einstufung nach Sicherheitsdatenblatt",
+    "Schutzbrille und Handschuhe",
+    "Augenspülung in der Nähe",
+    "Weniger gefährliches Verfahren oder Produkt prüfen",
+    "Absaugung oder Lüftung, Augenspülung in der Nähe",
+    "Säurefeste Handschuhe, Schutzbrille oder Gesichtsschutz, Schürze"
+   ],
+   "entsteht": [
+    "Meist alkalischer Reiniger",
+    "Säure oder Lauge auf Haut und Augen, ätzende Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung an heißen Flächen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Niemand unter der schwebenden Last",
+    "Anschlagmittel vor Gebrauch prüfen",
+    "Wiederkehrende Prüfung des Hebezeugs"
+   ],
+   "entsteht": [
+    "Schwebende Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Schädigung des ungeborenen Kindes",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+  "Brand oder Explosion durch entzündbare Stoffe oder Gase"
+ ]
+}
