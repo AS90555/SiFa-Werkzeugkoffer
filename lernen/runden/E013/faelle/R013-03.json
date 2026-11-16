@@ -1,0 +1,122 @@
+{
+ "id": "R013-03",
+ "name": "R013-03",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Deckenverkleidung vom Rollgerüst",
+   "bereich": "Innenausbau",
+   "personen": 2,
+   "umgebung": [
+    "kalt",
+    "boden",
+    "zwangshaltung"
+   ],
+   "angaben": {
+    "last_kg": 30
+   },
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "elektro_betriebsmittel"
+     ]
+    },
+    {
+     "vorgang": "saegen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Rollgerüst ist etwa vier Meter hoch, die Plattform hat ein Geländer, aber nur auf einer Seite",
+   "fehlt": "Ausführung Rollgerüst fehlt (nur Leiter und Hubarbeitsbühne vorhanden); Schritt Arbeiten in der Höhe weggelassen"
+  },
+  {
+   "text": "Gipskartonplatten",
+   "fehlt": "Material Gipskartonplatte fehlt (plattenware ist Holzwerkstoff)"
+  },
+  {
+   "text": "Staub entsteht kaum, aber es rieselt überall hin",
+   "fehlt": "Material Gipsstaub fehlt; kein Stoff angelegt"
+  },
+  {
+   "text": "Die Platten wiegen gut dreißig Kilo, den ganzen Tag über den Kopf gedrückt",
+   "fehlt": "Griffe je Stunde nicht genannt; last_kg mit 30 eingetragen (gut dreißig); gleichfoermig nicht ausdrücklich"
+  },
+  {
+   "text": "Am Ende werden die Reste von Hand in die Mulde getragen",
+   "fehlt": "Material Bauschutt/Gipsreste und Gewicht fehlen"
+  },
+  {
+   "text": "Das Rollgerüst baut der Monteur selbst auf",
+   "fehlt": "Vorgang Gerüstauf- und -abbau fehlt in den Stammdaten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Plattform hat ein Geländer, aber nur auf einer Seite",
+   "art": "absturzsicherung",
+   "gegenstand": "Geländer des Rollgerüsts"
+  },
+  {
+   "text": "Die Verlängerungsleitung läuft quer durch den Raum",
+   "art": "elektrik",
+   "gegenstand": "Verlängerungsleitung"
+  },
+  {
+   "text": "Kabel vom Akkuladegerät hängen über den Gang",
+   "art": "elektrik",
+   "gegenstand": "Kabel des Akkuladegeräts"
+  },
+  {
+   "text": "Das Rollgerüst baut der Monteur selbst auf, ohne Kontrolle, er stellt die Rollen einfach fest",
+   "art": "organisation",
+   "gegenstand": "Aufbau und Prüfung des Rollgerüsts"
+  },
+  {
+   "text": "die Schrauben liegen überall auf dem Boden",
+   "art": "weg_boden",
+   "gegenstand": "Boden im Raum"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "einer hält die Platte an die Unterkonstruktion; die werden über den Kopf nach oben gedrückt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "der andere schraubt mit dem Akkuschrauber; Die Verlängerungsleitung läuft quer durch den Raum",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gesägt wird mit der Handsäge",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Am Ende werden die Reste von Hand in die Mulde getragen",
+   "sicher": true
+  }
+ ]
+}

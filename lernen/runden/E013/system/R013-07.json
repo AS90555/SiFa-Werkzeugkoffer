@@ -1,0 +1,159 @@
+{
+ "id": "R013-07",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Nur Fahrer einsetzen, die mindestens 18 Jahre alt, geeignet, ausgebildet und schriftlich beauftragt sind",
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   ],
+   "entsteht": [
+    "Fahrzeug im Verkehrsraum",
+    "Fahrzeug und Fußgänger im selben Verkehrsraum",
+    "Fahrzeuge kreuzen den Arbeitsplatz"
+   ]
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Last sichern, abgesenkt fahren",
+    "Tragfähigkeit des Staplers passt zum schwersten Paket"
+   ],
+   "entsteht": [
+    "Last ragt über, kann rutschen"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Geeignete Handschuhe, nicht an drehenden Werkzeugen"
+   ],
+   "entsteht": [
+    "Splitter, Kanten"
+   ]
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen",
+    "Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Einstufung nach Sicherheitsdatenblatt",
+    "Handschuhe beim Gebindewechsel",
+    "Vorgeschriebene Schulung für Tätigkeiten mit Diisocyanaten",
+    "Hautkontakt technisch vermeiden",
+    "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts"
+   ],
+   "entsteht": [
+    "Abhängig von der Einstufung",
+    "Kontakt beim Gebindewechsel und Reinigen",
+    "Atemwegs- und Hautsensibilisierung",
+    "Stoff kann Allergien auslösen"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung",
+    "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken",
+    "Wiederkehrende Prüfung"
+   ],
+   "entsteht": [
+    "Schließbewegung mit hoher Kraft"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: das Mischen findet ohne Absaugung statt"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: auf dem Boden liegen Späne und Leimreste"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Schädigung des ungeborenen Kindes",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+  "Brand oder Explosion durch entzündbare Stoffe oder Gase"
+ ]
+}

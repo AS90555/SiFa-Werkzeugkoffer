@@ -1,0 +1,181 @@
+{
+ "id": "R013-08",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen",
+    "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden",
+    "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz"
+   ],
+   "entsteht": [
+    "Hand nah am laufenden Werkzeug"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schnittfeste Handschuhe",
+    "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden"
+   ],
+   "entsteht": [
+    "Scharfe Kanten, Grate, Späne"
+   ]
+  },
+  {
+   "gefaehrdung": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Kapselung und Absaugung der Maschine",
+    "Hautschutzplan",
+    "Hautkontakt vermeiden, geeignete Handschuhe außerhalb drehender Teile"
+   ],
+   "entsteht": [
+    "Hautkontakt, Nebel und Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Auffangwannen, Spritzschutz",
+    "Boden sauber halten",
+    "Rutschhemmende Schuhe"
+   ],
+   "entsteht": [
+    "Öl und Emulsion auf dem Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Niemand unter der schwebenden Last",
+    "Anschlagmittel vor Gebrauch prüfen",
+    "Wiederkehrende Prüfung des Hebezeugs"
+   ],
+   "entsteht": [
+    "Schwebende Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   ],
+   "entsteht": [
+    "Fahrzeuge kreuzen den Arbeitsplatz"
+   ]
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Keine Handschuhe, eng anliegende Kleidung, kein Schmuck",
+    "Werkstück spannen statt von Hand halten"
+   ],
+   "entsteht": [
+    "Drehende Spindel, Bohrer oder Welle"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absaugung an der Entstehungsstelle",
+    "Staub aufsaugen, nicht abblasen"
+   ],
+   "entsteht": [
+    "Metall- und Schleifstaub"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten",
+    "Ausgefallene Leuchten umgehend instand setzen"
+   ],
+   "entsteht": [
+    "Gefahrstellen und Arbeitsaufgabe schlecht zu sehen"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Schutz vor dem Futter ist nur ein Bügel aus Blech"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der Schlüssel für das Futter liegt noch im Futter"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Ausgefallene oder unzureichende Beleuchtung instand setzen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: eine davon ist defekt"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Schädigung des ungeborenen Kindes",
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+  "Brand oder Explosion durch entzündbare Stoffe oder Gase"
+ ]
+}

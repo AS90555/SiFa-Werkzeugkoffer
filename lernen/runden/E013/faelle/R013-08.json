@@ -1,0 +1,122 @@
+{
+ "id": "R013-08",
+ "name": "R013-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Kühlschmierstoff",
+   "material": "kuehlschmierstoff",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Leitspindeldrehmaschine",
+   "bereich": "Dreherei",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt",
+    "fahrverkehr",
+    "dunkel"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "zerspanen_metall",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "metallwerkstueck",
+      "kuehlschmierstoff",
+      "metallspaene"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "metallspaene"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "der Dreher spannt sie ein",
+   "fehlt": "Vorgang Einspannen fehlt; Schritt weggelassen"
+  },
+  {
+   "text": "ein Dreher allein",
+   "fehlt": "Alleinarbeit ohne Angabe, ob außer Ruf- und Sichtweite; Umgebung nicht gewählt"
+  },
+  {
+   "text": "Der Span kommt in unordentlichen Knäueln, er schiebt ihn mit einem Haken weg",
+   "fehlt": "Spanentfernung bei laufender Maschine ist kein eigener Vorgang"
+  },
+  {
+   "text": "Den Kühlschmierstoff wechselt der Betrieb einmal im Monat",
+   "fehlt": "Nicht beschrieben, was beim Wechsel getan wird; Häufigkeit ist keine Angabe"
+  },
+  {
+   "text": "Ein Stück wiegt bis 40 Kilo",
+   "fehlt": "Last wird mit Kran bewegt; keine Angabe last_kg eingetragen"
+  },
+  {
+   "text": "die Auffangwanne ist halbvoll",
+   "fehlt": "Füllstand der Auffangwanne ist keine Angabe"
+  },
+  {
+   "text": "Leitspindeldrehmaschine mit Dreibackenfutter und Reitstock",
+   "fehlt": "Ausführung konventionelle Drehmaschine nur näherungsweise als stationär mit Handvorschub"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Schutz vor dem Futter ist nur ein Bügel aus Blech",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Futterschutz der Drehmaschine"
+  },
+  {
+   "text": "der Schlüssel für das Futter liegt noch im Futter",
+   "art": "arbeitsweise",
+   "gegenstand": "Futterschlüssel im Futter"
+  },
+  {
+   "text": "eine davon ist defekt",
+   "art": "beleuchtung",
+   "gegenstand": "Leuchtstoffröhre am Arbeitsplatz"
+  },
+  {
+   "text": "er schiebt ihn mit einem Haken weg, ohne Handschuh"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Welle wird mit dem Kran eingehoben",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "dann dreht die Maschine mit bis zu tausend Umdrehungen. Ein Kühlschmierstoff läuft auf das Werkstück",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird die Maschine am Schichtende, die Späne werden mit der Hand weggeräumt",
+   "sicher": true
+  }
+ ]
+}

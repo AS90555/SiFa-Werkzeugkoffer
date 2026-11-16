@@ -1,0 +1,145 @@
+{
+ "id": "R013-03",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
+    "Schrauber mit Abschaltkupplung",
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+   ],
+   "entsteht": [
+    "Gleichförmige Bewegung, Drehmoment",
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden",
+    "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+   ],
+   "entsteht": [
+    "Langes Arbeiten in ungünstiger Körperhaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Leitungen und Betriebsmittel so verlegen und aufstellen, dass sie nicht beschädigt werden und nicht im Nassen oder im Gehweg liegen",
+    "Betriebsmittel vor dem Gebrauch auf sichtbare Schäden prüfen, beschädigte aus dem Verkehr ziehen und die wiederkehrende Prüfung veranlassen"
+   ],
+   "entsteht": [
+    "Kabel, Strahler oder Verlängerungen liegen am Boden, im Weg oder im Nassen und können beschädigt werden; dann droht ein elektrischer Schlag"
+   ]
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absturzsicherung herstellen; bis dahin den Bereich sperren"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Plattform hat ein Geländer, aber nur auf einer Seite"
+   ]
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen; Schaltschränke und Verteiler geschlossen halten",
+    "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen; Schaltschränke und Verteiler geschlossen halten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Verlängerungsleitung läuft quer durch den Raum",
+    "Mangel vor Ort: Kabel vom Akkuladegerät hängen über den Gang"
+   ]
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fehlende Unterweisung, Prüfung, Betriebsanweisung oder Kennzeichnung nachholen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Das Rollgerüst baut der Monteur selbst auf, ohne Kontrolle, er stellt die Rollen einfach fest"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Schrauben liegen überall auf dem Boden"
+   ]
+  }
+ ],
+ "rueckfragen": []
+}

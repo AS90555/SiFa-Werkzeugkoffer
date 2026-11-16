@@ -1,0 +1,21 @@
+{"id":"R013-15","name":"R013-15","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Hobelmaschine in der Tischlerei","bereich":"Abricht- und Dickenhobel","personen":1,"umgebung":["laerm_umgebung","hitze","dunkel","boden"],"angaben":{"hartholz":true},
+  "schritte":[
+   {"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"stationaer_handvorschub","material":["schnittholz"]},
+   {"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"durchlaufmaschine","material":["schnittholz"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage","schneidwerkzeug"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"ab und zu schiebt der Lehrling Bretter nach","fehlt":"Alter des Lehrlings nicht genannt, Angabe Jugendliche nicht gesetzt"},
+  {"text":"Im Sommer wird es in der Halle sehr warm","fehlt":"Hitze nur im Sommer; als Umgebung Hitze eingetragen"}],
+ "maengel":[
+  {"text":"Die Schutzhaube über der Messerwelle ist nicht mehr ganz dicht","art":"schutzeinrichtung","gegenstand":"Schutzhaube über der Messerwelle"},
+  {"text":"Der Absauganschluss ist nur am Dickenhobel angeschlossen, an der Abrichte nicht","art":"lueftung","gegenstand":"Absaugung an der Abrichte"},
+  {"text":"die Späne fallen zu Boden, wo sie sich um die Füße sammeln","art":"weg_boden","gegenstand":"Späne am Boden"},
+  {"text":"das Licht über der Maschine ist schwach","art":"beleuchtung","gegenstand":"Beleuchtung über der Maschine"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"An der Abrichte schiebt man sie von Hand durch","sicher":true},
+  {"schritt":2,"stelle":"am Dickenhobel zieht der Vorschub automatisch","sicher":true},
+  {"schritt":3,"stelle":"die Messer werden dafür gewechselt, wenn sie stumpf sind","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird mit Druckluft, dabei fliegt der feine Staub durch die Halle","sicher":true}]}

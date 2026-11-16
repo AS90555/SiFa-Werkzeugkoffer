@@ -1,0 +1,105 @@
+{
+ "id": "R013-14",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Niemand unter der schwebenden Last",
+    "Anschlagmittel vor Gebrauch prüfen",
+    "Wiederkehrende Prüfung des Hebezeugs"
+   ],
+   "entsteht": [
+    "Schwebende Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absaugung an der Entstehungsstelle",
+    "Staub aufsaugen, nicht abblasen",
+    "Staubarm einfüllen, Absaugung",
+    "Atemschutz, wenn Staub nicht vermieden werden kann"
+   ],
+   "entsteht": [
+    "Metall- und Schleifstaub",
+    "Feiner Staub beim Einfüllen und Reinigen"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Ablagerungen regelmäßig entfernen",
+    "Explosionsschutz prüfen und dokumentieren",
+    "Zündquellen vermeiden"
+   ],
+   "entsteht": [
+    "Aufgewirbelter, brennbarer Staub"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Absaugung dort ist seit dem Sommer ausgefallen"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel mit Mängeln, die die Sicherheit beeinträchtigen, nicht verwenden und instand setzen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Schläuche zur Düse haben Knicke, und sie müssen laufend ausgetauscht werden"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

@@ -1,0 +1,28 @@
+{"id":"R013-10","name":"R013-10","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Profilieranlage","bereich":"Fensterfertigung, Profilieranlage für Fensterkanteln","personen":1,"umgebung":["hitze"],"angaben":{"last_kg":5},
+   "schritte":[
+    {"vorgang":"fraesen","ausfuehrung":"durchlaufmaschine","material":[]},
+    {"vorgang":"saegen","ausfuehrung":"vollautomat","material":[]},
+    {"vorgang":"staub_foerdern","ausfuehrung":"absauganlage","material":[]},
+    {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage","schneidwerkzeug"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"Die Kanteln sind Kunststoffprofile, Stangen von etwa sechs Metern","fehlt":"Material Kunststoffprofil, langgut"},
+  {"text":"Die Späne fallen in einen Trichter und werden mit einem Schlauch abgesaugt","fehlt":"Material Kunststoffspäne"},
+  {"text":"eine Stange wiegt ungefähr vier bis fünf Kilo","fehlt":"Last mit Bereich angegeben; höchster Wert 5 kg eingetragen, Griffe je Stunde nicht genannt"},
+  {"text":"Die Anlage läuft im Dreischichtbetrieb, nachts ohne Aufsicht","fehlt":"Umgebung oder Angabe für Schichtarbeit und unbeaufsichtigten Betrieb"},
+  {"text":"Einrichten, Messerwechsel und Reinigung macht die Schichtführung","fehlt":"Schritte für Einrichten und Reinigen nicht beschrieben, daher weggelassen"},
+  {"text":"zeitweise kommt jemand zum Abtransport dazu","fehlt":"Wagen mit Kunststoffprofilen als Material"}],
+ "maengel":[
+  {"text":"Die Haube steht offen, weil sie beim Einrichten im Weg ist","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Fräse"},
+  {"text":"Der Hauptschalter ist nicht gesperrt","art":"schutzeinrichtung","gegenstand":"Hauptschalter beim Fräskopfwechsel"},
+  {"text":"Die Anlage läuft nachts ohne Aufsicht"},
+  {"text":"Im Sommer wird es in der Halle heiß, das Dach hat keine Lüftung","art":"lueftung","gegenstand":"Hallendach"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Eine Vorschubwalze zieht die Stangen in die Fräse, dahinter sitzen zwei Fräsköpfe, die die Nuten ausfräsen","sicher":true},
+  {"schritt":2,"stelle":"Am Ende schneidet eine Säge die Profile auf Länge","sicher":false},
+  {"schritt":3,"stelle":"Die Späne fallen in einen Trichter und werden mit einem Schlauch abgesaugt","sicher":false},
+  {"schritt":4,"stelle":"Die Fräsköpfe werden mit der Hand gewechselt, dafür steht die Maschine still","sicher":true},
+  {"schritt":5,"stelle":"Die fertigen Profile werden am Ende von Hand auf den Wagen gehoben","sicher":true}]}

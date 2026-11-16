@@ -1,0 +1,130 @@
+{
+ "id": "R013-06",
+ "name": "R013-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Laserschneidanlage",
+   "bereich": "Blechbearbeitung",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "laerm_umgebung",
+    "funkenflug"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "blech",
+      "prozessrauch",
+      "inertgas",
+      "druckgasflasche"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Teile sind oft scharfkantig, der Grat ist noch dran",
+   "fehlt": "Material oder Merkmal scharfkantige Blechteile"
+  },
+  {
+   "text": "die Hallenbeleuchtung ist grau",
+   "fehlt": "Unklar, ob schwache Beleuchtung gemeint ist; Umgebung dunkel nicht gewählt"
+  },
+  {
+   "text": "Am Panel leuchtet eine Anzeige",
+   "fehlt": "Bedeutung der Anzeige nicht genannt; weder Mangel noch Angabe"
+  },
+  {
+   "text": "nachts ohne Bedienung",
+   "fehlt": "Unbeaufsichtigter Dauerbetrieb ist in den Stammdaten nicht abgebildet"
+  },
+  {
+   "text": "Bedienung am Bedienpanel, Schichtbetrieb",
+   "fehlt": "Schichtarbeit ist keine Umgebung oder Angabe"
+  },
+  {
+   "text": "Der Techniker wechselt sie einmal pro Woche",
+   "fehlt": "Häufigkeit des Düsenwechsels ist keine Angabe"
+  },
+  {
+   "text": "Das Be- und Entladen geschieht mit einem Hallenkran und einer Palettenzange",
+   "fehlt": "Palettenzange als Anschlagmittel nicht in den Stammdaten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "über der Anlage hängt eine Absaugung, deren Schläuche sind lose",
+   "art": "lueftung",
+   "gegenstand": "Absaugung über der Laserschneidanlage"
+  },
+  {
+   "text": "Die Tür der Haube ist offen, wenn Teile herausgenommen werden",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Tür der Haube der Laserschneidanlage"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Das Be- und Entladen geschieht mit einem Hallenkran ... Der Kollege hängt das Blech in den Kran, setzt es auf den Tisch",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "zieht die fertig geschnittenen Teile von Hand heraus",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "eine Frau bedient sie am Bedienpanel ... Beim Schneiden entstehen Rauch und Funken ... Stickstoff kommt aus einer Flasche",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt werden die Düsen am Ende der Schicht mit Druckluft und einem Lappen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "der Techniker wechselt sie einmal pro Woche",
+   "sicher": true
+  }
+ ]
+}

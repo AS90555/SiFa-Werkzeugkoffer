@@ -1,0 +1,27 @@
+{"id":"R013-14","name":"R013-14","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Strahlstand im Strahlbetrieb","bereich":"Freistrahlraum","personen":1,"umgebung":["laerm_umgebung"],"angaben":{},
+  "schritte":[
+   {"vorgang":"strahlen","ausfuehrung":"handmaschine","material":["strahlmittel","stahlprofil"]},
+   {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+   {"vorgang":"entleeren","ausfuehrung":"von_hand","material":["strahlmittel"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","strahlmittel"]}]}],
+ "wuensche":[
+  {"text":"die Düse führt man von Hand; Stahlkorn mit Druckluft durch einen Schlauch","fehlt":"Ausführung Druckluft-Strahlgerät mit Handdüse; handmaschine unsicher"},
+  {"text":"gut eine halbe Tonne schwer","fehlt":"Gewicht nur ungefähr genannt, daher keine Zahl bei Last eingetragen"},
+  {"text":"Das Korn wird unten aufgefangen und über einen Trichter mit Förderschnecke zurück in den Kreislauf gebracht","fehlt":"automatischer Kornkreislauf, kein Schritt angelegt"},
+  {"text":"Gerüstet wird am Morgen vom Strahler selbst","fehlt":"Rüsten nicht beschrieben, daher kein Schritt"},
+  {"text":"Schutzanzug und Helm mit Visier","fehlt":"keine Angabe zu Atemschutz oder Strahlanzug in den Stammdaten nötig; nur zur Kenntnis"},
+  {"text":"Die Luft im Raum wird nur über einen Ventilator zum Dach geschickt","fehlt":"Umgebung stickig nicht ausdrücklich genannt, nicht gewählt"}],
+ "maengel":[
+  {"text":"die Absaugung dort ist seit dem Sommer ausgefallen","art":"lueftung","gegenstand":"Absaugung im Strahlraum"},
+  {"text":"Die Schläuche zur Düse haben Knicke, und sie müssen laufend ausgetauscht werden","art":"arbeitsmittel_defekt","gegenstand":"Strahlschläuche"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gestrahlt wird mit Stahlkorn ... die Düse führt man von Hand","sicher":false},
+  {"schritt":2,"stelle":"der zweite Mann hängt die Last am Haken an","sicher":true},
+  {"schritt":3,"stelle":"Sie kommen mit dem Hallenkran","sicher":true},
+  {"schritt":4,"stelle":"Nachgefüllt wird das Korn aus Säcken, die man aufschneidet und in den Trichter kippt","sicher":true},
+  {"schritt":5,"stelle":"Die Schläuche ... müssen laufend ausgetauscht werden","sicher":false},
+  {"schritt":6,"stelle":"Gereinigt wird am Ende der Schicht mit einem Industriesauger, der die Ecken absaugt","sicher":false}]}

@@ -1,0 +1,126 @@
+{
+ "id": "R013-02",
+ "name": "R013-02",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Schneidflüssigkeit",
+   "material": "kuehlschmierstoff",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Zuschnitt Stahlbau",
+   "bereich": "Stahlbau",
+   "personen": 3,
+   "umgebung": [
+    "laerm_umgebung",
+    "boden",
+    "hitze",
+    "funkenflug"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "saegen_metall",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "stahlprofil",
+      "kuehlschmierstoff"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil",
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Brennschneidanlage läuft mit Acetylen und Sauerstoff",
+   "fehlt": "Ausführung der Brennschneidanlage (maschinell geführt) fehlt in den Stammdaten; Schritt Brennschneiden weggelassen"
+  },
+  {
+   "text": "Beim Brennen fliegen glühende Schlacken durch die Halle",
+   "fehlt": "Material Schlacke/Brennschlacke fehlt; Umgebung Funkenflug gewählt"
+  },
+  {
+   "text": "Gereinigt wird am Wochenende mit Druckluft, das macht der Schlosser",
+   "fehlt": "Was abgeblasen wird (Späne, Schlacke, Staub) nicht genannt; Material fehlt"
+  },
+  {
+   "text": "Das Anlegen der Profile ist Handarbeit",
+   "fehlt": "Gewicht und Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "Acetylen und Sauerstoff, Flaschen an der Wand",
+   "fehlt": "Druckgasflaschen sind kein Gefahrstoff-Stammdatum, deshalb nicht unter stoffe; Brennschneid-Schritt fehlt daher auch ohne Material"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Schutzhaube der Säge ist oben offen, weil sich das Sägeblatt sonst zusetzt",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzhaube der Bandsäge"
+  },
+  {
+   "text": "die Flaschen stehen ungesichert an der Wand, teils ohne Kette",
+   "art": "stoff_lagerung",
+   "gegenstand": "Acetylen- und Sauerstoffflaschen"
+  },
+  {
+   "text": "Beim Brennen fliegen glühende Schlacken durch die Halle, da liegen Holzpaletten direkt darunter",
+   "art": "stoff_lagerung",
+   "gegenstand": "Holzpaletten unter dem Funkenflug"
+  },
+  {
+   "text": "der Boden ist meist nass",
+   "art": "weg_boden",
+   "gegenstand": "Boden im Zuschnitt"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Bandsäge ist vollautomatisch, sie fährt das Material selbst auf Länge; Wegen der Schneidflüssigkeit riecht es nach Öl",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "der Dritte legt das Material auf und nimmt die Stücke ab",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Träger sind teils acht Meter lang und werden von einem Kran auf den Rollenbock gelegt",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt wird am Wochenende mit Druckluft",
+   "sicher": false
+  }
+ ]
+}

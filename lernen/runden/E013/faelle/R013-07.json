@@ -1,0 +1,147 @@
+{
+ "id": "R013-07",
+ "name": "R013-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Zweikomponentenleim aus Pulver und Wasser",
+   "material": "kleber_2k",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Hydraulische Presse für Brettschichtholz",
+   "bereich": "Leimholzfertigung",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "hitze",
+    "boden",
+    "fahrverkehr",
+    "eng"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "schnittholz"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kleber_2k",
+      "daempfe_loesemittel"
+     ]
+    },
+    {
+     "vorgang": "leimen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kleber_2k",
+      "schnittholz"
+     ]
+    },
+    {
+     "vorgang": "bewegen",
+     "ausfuehrung": "gabelstapler",
+     "material": [
+      "schnittholz"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "presse",
+     "material": [
+      "schnittholz"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kleber_2k"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "hydraulische Presse für Brettschichtholz, Pressrahmen aus Stahl, etwa acht Meter lang",
+   "fehlt": "Ausführung Holzpresse (Hydraulik) fehlt; vorhandene Ausführung Presse ist auf Blech ausgelegt, Zuordnung unsicher"
+  },
+  {
+   "text": "die Zylinder stehen seitlich, man muss zwischen Presse und Wand durch",
+   "fehlt": "Quetschstelle an der Presse ist keine Umgebung; nur Enge gewählt"
+  },
+  {
+   "text": "gewartet wird die Presse vom Schlosser",
+   "fehlt": "Nicht beschrieben, was bei der Wartung getan wird; kein Sonderbetrieb-Schritt"
+  },
+  {
+   "text": "ein Paket wiegt mehrere hundert Kilo",
+   "fehlt": "Kein genaues Gewicht; keine Angabe eingetragen"
+  },
+  {
+   "text": "Die Lamellen werden von Hand auf den Tisch gelegt, gewendet",
+   "fehlt": "Gewicht je Lamelle und Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "Der Stapler fährt rückwärts die Paletten heraus",
+   "fehlt": "Antrieb des Staplers unbekannt, Rückwärtsfahrt ist keine Angabe"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "das Mischen findet ohne Absaugung statt",
+   "art": "lueftung",
+   "gegenstand": "Mischplatz für den Zweikomponentenleim"
+  },
+  {
+   "text": "auf dem Boden liegen Späne und Leimreste",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Presse"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Lamellen werden von Hand auf den Tisch gelegt, gewendet",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "angesetzt aus Pulver und Wasser ... Er riecht stark, und das Mischen findet ohne Absaugung statt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "mit einem Leimroller oder einer Rakel bestrichen",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Dann fährt der Hallenstapler das Paket in die Presse",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Die Presse wird hydraulisch zugefahren ... öffnet der Bediener die Presse von Hand",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Gereinigt wird die Rolle am Schichtende mit Wasser",
+   "sicher": true
+  }
+ ]
+}

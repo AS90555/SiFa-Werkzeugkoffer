@@ -1,0 +1,122 @@
+{
+ "id": "R013-10",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtungen wirksam, nichts überbrückt",
+    "Schutzeinrichtungen regelmäßig prüfen"
+   ],
+   "entsteht": [
+    "Werkzeuge hinter Schutzeinrichtung"
+   ]
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Explosionsschutzdokument",
+    "Funkenlöschung und Druckentlastung",
+    "Prüfung der Anlage"
+   ],
+   "entsteht": [
+    "Explosionsfähige Atmosphäre"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schnittschutzhandschuhe",
+    "Transportwagen und Aufnahmevorrichtung"
+   ],
+   "entsteht": [
+    "Scharfe Messer, schwere Köpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einzugsstelle so weit wie möglich verdeckt",
+    "Werkstück mit Abstand anlegen, nicht nachgreifen"
+   ],
+   "entsteht": [
+    "Einzugsstelle an den Walzen"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist",
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Haube steht offen, weil sie beim Einrichten im Weg ist",
+    "Mangel vor Ort: Der Hauptschalter ist nicht gesperrt"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Im Sommer wird es in der Halle heiß, das Dach hat keine Lüftung"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

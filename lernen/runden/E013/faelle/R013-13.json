@@ -1,0 +1,22 @@
+{"id":"R013-13","name":"R013-13","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Nagelplatz im Palettenbau","bereich":"Nagelautomat und Druckluftnagler","personen":2,"umgebung":["kalt","laerm_umgebung","boden"],"angaben":{"hartholz":false},
+  "schritte":[
+   {"vorgang":"maschine_bedienen","ausfuehrung":"halbautomat","material":["schnittholz","kantel"]},
+   {"vorgang":"eintreiben","ausfuehrung":"druckluft_klammergeraet","material":["schnittholz"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["schnittholz"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"Daneben liegt ein Druckluftnagler, den man von Hand führt","fehlt":"Ausführung Druckluft-Nagelgerät; nur Druckluft-Klammergerät vorhanden, Zuordnung unsicher"},
+  {"text":"fertige Paletten wiegen zwischen dreißig und fünfzig Kilo","fehlt":"Last je Griff nicht eindeutig (Helfer hebt Bretter vom Tisch, Palettengewicht ist eine Spanne); keine Zahl eingetragen, keine Griffe je Stunde genannt"},
+  {"text":"Gerüstet wird zu Schichtbeginn vom Bediener selbst","fehlt":"Rüsten nicht beschrieben, daher kein Schritt"},
+  {"text":"Kassetten, die der Bediener von Hand nachfüllt","fehlt":"kein eigener Vorgang für Nachfüllen von Nägeln; zum Bedienen gerechnet"},
+  {"text":"Das Holz ist Fichte","fehlt":"Hartholz auf falsch gesetzt, da Fichte Weichholz ist"}],
+ "maengel":[
+  {"text":"die Abdeckung am Nagelautomaten ist seit einiger Zeit abgenommen, weil sie beim Nachlegen im Weg war","art":"schutzeinrichtung","gegenstand":"Abdeckung am Nagelautomaten"},
+  {"text":"Die Schlauchleitung zum Druckluftnagler liegt quer über den Boden","art":"weg_boden","gegenstand":"Druckluftschlauch am Boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Mit dem Zweihandtaster gibt er den Hub frei, dann schlägt die Maschine die Nägel von oben ein","sicher":true},
+  {"schritt":2,"stelle":"Druckluftnagler, den man von Hand führt, für Reparaturen und Sonderteile","sicher":false},
+  {"schritt":3,"stelle":"Der Helfer hebt die Bretter vom Tisch ab und stapelt sie auf den Wagen","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird am Schichtende, indem man den Holzstaub mit dem Besen zusammenkehrt","sicher":true}]}
