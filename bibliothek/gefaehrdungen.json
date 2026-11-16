@@ -293,5 +293,10 @@
   "id": "g-ziehen-schieben",
   "faktor": 9,
   "name": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten"
+ },
+ {
+  "id": "g-druck",
+  "faktor": 1,
+  "name": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg"
  }
 ]

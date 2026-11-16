@@ -4570,5 +4570,47 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R123",
+  "name": "Arbeiten mit hohem Druck",
+  "wenn": "a.hochdruck",
+  "entsteht": "Hochdruckstrahl, Druckprüfung, Schlauch oder Leitung unter Druck",
+  "gefaehrdung": "g-druck",
+  "massnahmen": [
+   {
+    "id": "R123-M1",
+    "art": "T",
+    "text": "Bei Druckprüfungen Prüfling abschirmen oder aus sicherem Abstand prüfen"
+   },
+   {
+    "id": "R123-M2",
+    "art": "O",
+    "text": "Schläuche und Leitungen vor der Benutzung auf Schäden prüfen, beschädigte sofort tauschen"
+   },
+   {
+    "id": "R123-M3",
+    "art": "O",
+    "text": "Strahl nie auf Personen richten; vor Arbeiten am Gerät Druck ablassen"
+   },
+   {
+    "id": "R123-M4",
+    "art": "O",
+    "text": "Unterweisen: Bei Verdacht auf Einspritzen von Flüssigkeit in die Haut sofort ärztliche Hilfe"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r100-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

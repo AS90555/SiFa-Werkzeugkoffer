@@ -1379,5 +1379,50 @@
    "unterstellbock"
   ],
   "ausfuehrung": "hebebuehne"
+ },
+ {
+  "worte": [
+   "airless",
+   "hochdruckpistole",
+   "druckprüfstand",
+   "abgedrückt",
+   "unter hohem druck gesetzt"
+  ],
+  "ausfuehrung": "hochdruckgeraet"
+ },
+ {
+  "worte": [
+   "druckprüfung",
+   "dichtheitsprüfung",
+   "abdrücken"
+  ],
+  "vorgang": "druckpruefen",
+  "ausfuehrung": "hochdruckgeraet"
+ },
+ {
+  "worte": [
+   "sandstrahlen",
+   "strahlgerät",
+   "abgestrahlt",
+   "strahlkabine"
+  ],
+  "vorgang": "strahlen"
+ },
+ {
+  "worte": [
+   "entgrater",
+   "entgraten",
+   "entgratet"
+  ],
+  "vorgang": "entgraten"
+ },
+ {
+  "worte": [
+   "diesel",
+   "heizöl"
+  ],
+  "material": [
+   "diesel"
+  ]
  }
 ]

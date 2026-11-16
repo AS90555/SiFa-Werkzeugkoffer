@@ -531,6 +531,21 @@
     "m.metall",
     "m.rollend"
    ]
+  },
+  {
+   "id": "diesel",
+   "name": "Diesel, Heizöl",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.oel"
+   ]
+  },
+  {
+   "id": "strahlmittel",
+   "name": "Strahlmittel, Strahlstaub, abgestrahlter Rost und Altanstrich",
+   "merkmale": [
+    "m.staub"
+   ]
   }
  ],
  "vorgang": [
@@ -1028,6 +1043,26 @@
    "merkmale": [
     "v.pressen"
    ]
+  },
+  {
+   "id": "strahlen",
+   "name": "Strahlen mit Strahlmittel, Sandstrahlen",
+   "merkmale": [
+    "v.abtragend",
+    "v.laut"
+   ]
+  },
+  {
+   "id": "entgraten",
+   "name": "Entgraten, Feilen, Bürsten",
+   "merkmale": [
+    "v.abtragend"
+   ]
+  },
+  {
+   "id": "druckpruefen",
+   "name": "Druckprüfung, Abdrücken, Dichtheitsprüfung unter Druck",
+   "merkmale": []
   }
  ],
  "ausfuehrung": [
@@ -1243,7 +1278,8 @@
    "id": "hochdruckreiniger",
    "name": "Hochdruckreiniger",
    "merkmale": [
-    "a.handmaschine"
+    "a.handmaschine",
+    "a.hochdruck"
    ]
   },
   {
@@ -1258,6 +1294,14 @@
    "name": "Schmiedehammer, Lufthammer, Fallhammer",
    "merkmale": [
     "a.hammer",
+    "a.maschine"
+   ]
+  },
+  {
+   "id": "hochdruckgeraet",
+   "name": "Hochdruckgerät: Airless-Spritzgerät, Druckprüfstand, Hydraulik unter Druck",
+   "merkmale": [
+    "a.hochdruck",
     "a.maschine"
    ]
   }
