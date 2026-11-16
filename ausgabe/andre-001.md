@@ -1,6 +1,6 @@
 # Fensterwerk Holz-Aluminium, Vorfertigung: Glasleistensäge
 
-Bibliothek: 115 Regeln, davon 39 mit geprüftem Beleg, 0 fachlich freigegeben.
+Bibliothek: 115 Regeln, davon 38 mit geprüftem Beleg, 0 fachlich freigegeben.
 
 Annahmen in diesem Fall:
 - „Lernumgebung“ im Diktat als Lärmumgebung verstanden: Der Lärm kommt von den Nachbararbeitsplätzen, nicht von der Glasleistensäge selbst.
@@ -18,7 +18,6 @@ Annahmen in diesem Fall:
 | 3 | Krebs der Nase durch Hartholzstaub | 1 | R10 |
 | 5 | Brand oder Staubexplosion | 1 | R18 |
 | 7 | Gehörschaden durch Lärm | 1 | R11, R72 |
-| 9 | Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen | 1 | R12 |
 | 9 | Hand-Arm-Beschwerden durch gleichförmige Arbeit | 1 | R78 |
 
 ## Offene Angaben
@@ -47,49 +46,46 @@ Annahmen in diesem Fall:
 
 ## Je Arbeitsplatz
 
+Hinter jeder Maßnahme steht der Ist-Stand: zu prüfen, erfüllt oder nicht erfüllt.
+
 ### 1 Glasleistensäge (Vorfertigung, Eckverbindung)
 
 - **Atemwegserkrankung durch Holzstaub** (R09, vermutungswirkung)
-  - T: Absaugung an der Entstehungsstelle
-  - O: Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub
+  - T: Absaugung an der Entstehungsstelle [zu prüfen]
+  - O: Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub [zu prüfen]
   - Quelle: TRGS 553 Holzstaub, Abschnitt 4.3 Abs. 2 Satz 1; Abschnitt 4.3 Abs. 2; Abschnitt 2 Abs. 3 Satz 3. Beleg: geprueft.
 - **Krebs der Nase durch Hartholzstaub** (R10, vermutungswirkung)
-  - O: Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge
-  - O: Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren
+  - O: Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge [zu prüfen]
+  - O: Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren [zu prüfen]
   - Quelle: TRGS 553 Holzstaub, Abschnitt 6 Abs. 3 Nr. 1 Buchstabe a; Abschnitt 6 Abs. 3 Nr. 1 Buchst. a; Abschnitt 3 Abs. 8; Abschnitt 3 Abs. 8 Satz 1. Beleg: geprueft.
 - **Gehörschaden durch Lärm** (R11, pflicht)
-  - P: Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten
-  - O: Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge
-  - O: Über 85 dB(A): Lärmbereich kennzeichnen
+  - P: Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten [zu prüfen]
+  - O: Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge [zu prüfen]
+  - O: Über 85 dB(A): Lärmbereich kennzeichnen [zu prüfen]
   - Quelle: Lärm- und Vibrations-Arbeitsschutzverordnung, § 8 Abs. 1; § 8 Abs. 3; § 7 Abs. 4 Satz 1. Beleg: geprueft.
-- **Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen** (R12, pflicht)
-  - O: Belastung mit der Leitmerkmalmethode bewerten
-  - T: Hebehilfe oder andere mechanische Ausrüstung einsetzen
-  - O: Tätigkeitswechsel
-  - Quelle: Leitmerkmalmethoden der BAuA, Handlungsanleitung LMM-HHT, Abschnitt Vorgehen (Achtung); Hinweis „Achtung“ am Ende der Zielstellung, Satz 1; Lastenhandhabungsverordnung, § 2 Abs. 1; DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk, Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen; Abschnitt 3.4.5, Organisatorische Maßnahmen. Beleg: geprueft.
 - **Brand oder Staubexplosion** (R18, pflicht)
-  - O: Reinigungsplan
-  - T: Zündquellen vermeiden
+  - O: Reinigungsplan [zu prüfen]
+  - T: Zündquellen vermeiden [zu prüfen]
   - Quelle: Gefahrstoffverordnung, Anhang I Nr. 2.3 Abs. 6; § 12 Abs. 2 Nr. 2; TRGS 553 Holzstaub, Abschnitt 4.4 Abs. 2 Satz 1. Beleg: geprueft.
 - **Quetschen und Scheren an bewegten Teilen** (R36, pflicht)
-  - T: Auslösung nur bei freiem Bereich
-  - O: Schutzeinrichtung geprüft
+  - T: Auslösung nur bei freiem Bereich [zu prüfen]
+  - O: Schutzeinrichtung geprüft [zu prüfen]
   - Quelle: Betriebssicherheitsverordnung, § 6. Beleg: offen.
 - **Gehörschaden durch Lärm** (R72, pflicht)
-  - T: Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung
-  - P: Gehörschutz nach den Stufen 80 und 85 dB(A)
+  - T: Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung [zu prüfen]
+  - P: Gehörschutz nach den Stufen 80 und 85 dB(A) [zu prüfen]
   - Quelle: Lärm- und Vibrations-Arbeitsschutzverordnung, § 7 Abs. 1 Nr. 1; § 7 Abs. 1 Nr. 1 Satz 1; § 8 Abs. 1; § 8 Abs. 1 (untere Auslösewerte 80 dB(A)). Beleg: geprueft.
 - **Hand-Arm-Beschwerden durch gleichförmige Arbeit** (R78, pflicht)
-  - O: Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten
-  - O: Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)
+  - O: Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten [zu prüfen]
+  - O: Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel) [zu prüfen]
   - Quelle: Arbeitsschutzgesetz, Fundstelle offen; Leitmerkmalmethoden der BAuA, Fundstelle offen; DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk, Fundstelle offen. Beleg: offen.
 - **Unfall durch falsche Bedienung der Maschine** (R113, pflicht)
-  - O: Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen
-  - O: Schriftliche Betriebsanweisung für die Maschine bereitstellen
-  - O: Maschine nur bestimmungsgemäß verwenden
+  - O: Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen [zu prüfen]
+  - O: Schriftliche Betriebsanweisung für die Maschine bereitstellen [zu prüfen]
+  - O: Maschine nur bestimmungsgemäß verwenden [zu prüfen]
   - Quelle: Betriebssicherheitsverordnung, Fundstelle offen. Beleg: offen.
 - **Atemwegserkrankung durch Holzstaub** (R114, vermutungswirkung)
-  - T: Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen
-  - O: Maschine nur mit eingeschalteter Absaugung betreiben
+  - T: Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen [zu prüfen]
+  - O: Maschine nur mit eingeschalteter Absaugung betreiben [zu prüfen]
   - Quelle: TRGS 553 Holzstaub, Fundstelle offen; Gefahrstoffverordnung, Fundstelle offen. Beleg: offen.
 

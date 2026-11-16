@@ -1,6 +1,6 @@
 # Mängel auswerten: Vorschlag zur Entscheidung
 
-Stand: 13.11.2026, Entwurf. Gebaut wird erst, wenn Andre entschieden hat. Gehört zu Meilenstein 1 (Erkennen) und bereitet Meilenstein 3 (Ergebnis für den Kunden) vor.
+Stand: 16.11.2026. **Gebaut am 16.11.2026 mit den unten genannten Voreinstellungen**, nachdem Andre freie Hand gegeben hat. Alles steht als Daten in `bibliothek/maengel.json` und lässt sich ändern. Gehört zu Meilenstein 1 (Erkennen) und bereitet Meilenstein 3 (Ergebnis für den Kunden) vor.
 
 ## Der Befund
 
@@ -61,3 +61,14 @@ Zwölf Arten decken alles ab. Das ist eine kleine, feste Liste, kein offenes Fel
 ## Aufwand
 
 Stammdaten und Kern erweitern, Übersetzer anpassen, zwölf bis zwanzig Regeln als Entwurf, Tests. Danach ein Beleg-Lauf für die neuen Regeln und die drei Skills nachziehen. Erst dann die nächste Lernrunde.
+
+## So gebaut (16.11.2026)
+
+- 15 Mangelarten in `bibliothek/maengel.json`, jede mit Gefährdung, Maßnahme, Quelle und Dringlichkeit. Zu den zwölf Arten aus der Auswertung kamen drei hinzu: Absturzsicherung, verstellte Rettungseinrichtung (Fluchtweg, Feuerlöscher, Notdusche), Notruf und Erste Hilfe.
+- Voreinstellung Dringlichkeit: sofort bei Schutzeinrichtung, Absturzsicherung, Elektrik, verstellter Rettungseinrichtung und gefährlicher Arbeitsweise; einplanen bei Hilfsmitteln und Einrichtung des Platzes; sonst kurzfristig.
+- Voreinstellung Verhalten: Bei Schutzausrüstung, Hilfsmitteln und Arbeitsweise stellt der Bericht zusätzlich eine Frage an die Organisation.
+- Der Bericht hat einen Abschnitt „Mängel vor Ort“, sortiert nach Dringlichkeit. Der Maßnahmenplan mit Wer und Bis wann folgt in Meilenstein 3.
+- Jede Maßnahme zeigt den Ist-Stand. Ausgangswert ist „zu prüfen“.
+- Der Übersetzer ordnet jede Beobachtung einer Mangelart zu oder lässt sie offen. Ein Ansagewort ist nicht nötig.
+- Die Regeln der Mangelarten sind Entwurf mit offenem Beleg und gehen in einen Beleg-Lauf.
+- Noch nicht gebaut: Mängel in der Oberfläche erfassen und anzeigen.

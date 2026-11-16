@@ -1,0 +1,245 @@
+[
+ {
+  "id": "schutzeinrichtung",
+  "name": "Schutzeinrichtung oder Sicherung fehlt, ist defekt, offen oder umgangen",
+  "dringlichkeit": "sofort",
+  "gefaehrdung": "g-schutz-unwirksam",
+  "massnahme": "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist",
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "absturzsicherung",
+  "name": "Absturzsicherung fehlt oder ist schadhaft: Geländer, Abdeckung, Anschlagpunkt, Leiter",
+  "dringlichkeit": "sofort",
+  "gefaehrdung": "g-absturz",
+  "massnahme": "Absturzsicherung herstellen; bis dahin den Bereich sperren",
+  "quellen": [
+   {
+    "id": "asr-a2-1",
+    "stelle": null
+   },
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "elektrik",
+  "name": "Elektrische Leitung oder Betriebsmittel beschädigt, im Weg oder im Nassen",
+  "dringlichkeit": "sofort",
+  "gefaehrdung": "g-elektrisch",
+  "massnahme": "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen",
+  "quellen": [
+   {
+    "id": "dguv-v3",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "rettung_verstellt",
+  "name": "Fluchtweg, Notausgang, Feuerlöscher, Notdusche oder Erste-Hilfe-Einrichtung verstellt oder nicht vorhanden",
+  "dringlichkeit": "sofort",
+  "gefaehrdung": "g-flucht",
+  "massnahme": "Zugang sofort freimachen und ständig freihalten",
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "arbeitsweise",
+  "name": "Gefährliche Arbeitsweise oder Lage",
+  "dringlichkeit": "sofort",
+  "gefaehrdung": "g-arbeitsweise",
+  "massnahme": "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen",
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verhalten": true,
+  "frage": "Gibt es für diese Arbeit eine festgelegte sichere Arbeitsweise, und sind die Beschäftigten darin unterwiesen?",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "stoff_lagerung",
+  "name": "Stoff offen, unbeschriftet, falsch gelagert oder neben einer Zündquelle",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-stoff-unkontrolliert",
+  "massnahme": "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten",
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "weg_boden",
+  "name": "Boden oder Verkehrsweg nass, uneben, verstellt oder verschmutzt",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-sturz",
+  "massnahme": "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen",
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "psa",
+  "name": "Schutzausrüstung fehlt, wird nicht getragen oder ist ungeeignet",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-psa-fehlt",
+  "massnahme": "Geeignete Schutzausrüstung bereitstellen und für die Benutzung sorgen",
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verhalten": true,
+  "frage": "Sind die Beschäftigten zur Schutzausrüstung unterwiesen, und passt die Ausrüstung zur Tätigkeit?",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "arbeitsmittel_defekt",
+  "name": "Arbeitsmittel beschädigt, abgenutzt oder defekt",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-arbeitsmittel-defekt",
+  "massnahme": "Arbeitsmittel mit Mängeln, die die Sicherheit beeinträchtigen, nicht verwenden und instand setzen",
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "lueftung",
+  "name": "Lüftung oder Absaugung fehlt, ist abgeschaltet oder unzureichend",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-freigesetzt",
+  "massnahme": "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen",
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "beleuchtung",
+  "name": "Beleuchtung schwach, ausgefallen oder flackernd",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-beleuchtung",
+  "massnahme": "Ausgefallene oder unzureichende Beleuchtung instand setzen",
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "organisation",
+  "name": "Unterweisung, Prüfung, Betriebsanweisung oder Kennzeichnung fehlt",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-organisation",
+  "massnahme": "Fehlende Unterweisung, Prüfung, Betriebsanweisung oder Kennzeichnung nachholen",
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": null
+   },
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "notfall",
+  "name": "Notruf, Erste Hilfe oder Überwachung bei Alleinarbeit nicht sichergestellt",
+  "dringlichkeit": "kurzfristig",
+  "gefaehrdung": "g-alleinarbeit",
+  "massnahme": "Notruf und Erste Hilfe sicherstellen",
+  "quellen": [
+   {
+    "id": "dguv-v1",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "hilfsmittel",
+  "name": "Hilfsmittel fehlt oder wird nicht benutzt",
+  "dringlichkeit": "einplanen",
+  "gefaehrdung": "g-heben-tragen",
+  "massnahme": "Hilfsmittel bereitstellen und die Benutzung sicherstellen",
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": null
+   }
+  ],
+  "verhalten": true,
+  "frage": "Warum wird das Hilfsmittel nicht benutzt: ungeeignet, zu weit weg, nicht unterwiesen?",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "einrichtung",
+  "name": "Einrichtung des Arbeitsplatzes passt nicht: Höhe, Stuhl, Bildschirm, Greifraum",
+  "dringlichkeit": "einplanen",
+  "gefaehrdung": "g-zwangshaltung",
+  "massnahme": "Arbeitsplatz ergonomisch anpassen",
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ }
+]

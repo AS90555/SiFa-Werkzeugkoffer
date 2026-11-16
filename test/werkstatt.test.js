@@ -51,3 +51,14 @@ test('Eindeutig entzündbarer Stoff ohne Datenblatt: Regel trifft zu und nennt d
   const t = e.stationen[0].treffer.find(x => x.regel === 'R88'); assert.strictEqual(t.status, 'trifft zu'); assert.deepStrictEqual(t.annahmen, ['entzuendbar']);
   assert.strictEqual(uebersicht(b, e).annahmen[0].id, 'entzuendbar');
 });
+test('Mängel: zugeordnete Art bringt Gefährdung, Maßnahme und Dringlichkeit; „betrifft“ setzt den Ist-Stand', () => {
+  const { maengelliste, istStand } = require('../kern/auswerten'); const b = B();
+  const fall = { stationen: [{ nr: 1, maengel: [{ text: 'Haube offen', art: 'schutzeinrichtung' }, { text: 'Boden nass', art: 'weg_boden' }, { text: 'unklar' }, { text: 'Gehörschutz nicht getragen', art: 'psa', betrifft: 'R11-M2' }] }] };
+  const l = maengelliste(b, fall); assert.strictEqual(l[0].dringlichkeit, 'sofort'); assert.strictEqual(l[0].art, 'schutzeinrichtung'); assert.ok(l[0].massnahme && l[0].gefaehrdung);
+  assert.strictEqual(l[l.length - 1].name, 'nicht zugeordnet'); assert.ok(l.find(m => m.art === 'psa').frage);
+  assert.strictEqual(istStand(fall, 1, 'R11-M2'), 'nicht erfüllt'); assert.strictEqual(istStand(fall, 1, 'R11-M1'), 'zu prüfen');
+});
+test('Heben und Tragen: gilt bei unbekanntem Gewicht als typisch, entfällt unter 3 kg', () => {
+  const { werte } = require('../kern/auswerten'); const w = B().regeln.find(r => r.id === 'R12').wenn; const m = new Set(['v.hand_wiederholt']);
+  assert.strictEqual(werte(w, m, {}, new Set()), true); assert.strictEqual(werte(w, m, { last_kg: 0.2 }, new Set()), false); assert.strictEqual(werte(w, m, { last_kg: 12 }, new Set()), true);
+});

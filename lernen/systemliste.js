@@ -2,7 +2,7 @@
 'use strict';
 // Schreibt je Fall einer Runde, was das System gefunden hat: lernen/runden/<Runde>/system/<Kennung>.json
 const fs = require('fs'); const path = require('path');
-const { ladeBibliothek } = require('../kern/laden'); const { auswerten } = require('../kern/auswerten');
+const { ladeBibliothek } = require('../kern/laden'); const { auswerten, maengelliste } = require('../kern/auswerten');
 const b = ladeBibliothek(path.join(__dirname, '..', 'bibliothek')); const ordner = process.argv[2];
 const R = new Map(b.regeln.map(r => [r.id, r])); const G = new Map(b.gefaehrdungen.map(g => [g.id, g]));
 fs.mkdirSync(path.join(ordner, 'system'), { recursive: true });
@@ -12,6 +12,8 @@ for (const d of fs.readdirSync(path.join(ordner, 'faelle')).filter(x => x.endsWi
   for (const s of e.stationen) for (const t of s.treffer) { const r = R.get(t.regel); const g = G.get(r.gefaehrdung);
     const x = liste.get(g.id) || { gefaehrdung: g.name, status: 'offen', massnahmen: [], entsteht: [] };
     if (t.status === 'trifft zu') x.status = 'trifft zu'; x.entsteht.push(r.entsteht); x.massnahmen.push(...r.massnahmen.map(m => m.text)); liste.set(g.id, x); }
+  // Mängel: jede zugeordnete Beobachtung bringt ihre Gefährdung und Maßnahme mit
+  for (const m of maengelliste(b, fall)) { if (!m.art) continue; const x = liste.get('mangel:' + m.gefaehrdung) || { gefaehrdung: m.gefaehrdung, status: 'trifft zu', massnahmen: [], entsteht: [] }; x.entsteht.push('Mangel vor Ort: ' + m.text); x.massnahmen.push(m.massnahme); liste.set('mangel:' + m.gefaehrdung, x); }
   fs.writeFileSync(path.join(ordner, 'system', d), JSON.stringify({ id: fall.id, gefaehrdungen: [...liste.values()].filter(x => x.status === 'trifft zu'), rueckfragen: [...liste.values()].filter(x => x.status !== 'trifft zu').map(x => x.gefaehrdung) }, null, 1));
 }
 console.log('Systemlisten geschrieben');

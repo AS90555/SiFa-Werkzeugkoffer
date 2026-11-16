@@ -8,7 +8,7 @@ function werte(ausdruck, merkmale, angaben, fehlt) {
   if (typeof ausdruck === 'string') return merkmale.has(ausdruck);
   if ('angabe' in ausdruck) {
     const v = angaben[ausdruck.angabe];
-    if (v === undefined || v === null) { fehlt.add(ausdruck.angabe); return null; }
+    if (v === undefined || v === null) { if (ausdruck.unbekannt === true) return true; fehlt.add(ausdruck.angabe); return null; } // unbekannt: true heißt: gilt als typisch, bis die Angabe das Gegenteil sagt
     if ('ist' in ausdruck) return v === ausdruck.ist;
     if ('ab' in ausdruck) return v >= ausdruck.ab;
     return v <= ausdruck.bis;
@@ -148,4 +148,20 @@ function abgleich(b, fall, ergebnis) {
   return { stationen: je, getroffen, uebersehen, ohneEintrag, zusaetzlich, quote: summe ? Math.round(100 * getroffen / summe) : null };
 }
 
-module.exports = { auswerten, uebersicht, werte, ausStoffen, pflichten, abgleich };
+// Mängel: Beobachtungen zum Ist-Zustand. Jede zugeordnete Mangelart bringt Gefährdung, Maßnahme, Dringlichkeit und Quelle mit.
+const RANG = { sofort: 0, kurzfristig: 1, einplanen: 2 };
+function maengelliste(b, fall) {
+  const A = new Map((b.maengel || []).map(m => [m.id, m])); const G = new Map(b.gefaehrdungen.map(g => [g.id, g])); const liste = [];
+  const nimm = (m, nr) => { const a = m.art ? A.get(m.art) : null;
+    liste.push({ station: nr || m.station || null, text: m.text, gegenstand: m.gegenstand || null, art: a ? a.id : null, name: a ? a.name : 'nicht zugeordnet', dringlichkeit: a ? a.dringlichkeit : null,
+      gefaehrdung: a ? G.get(a.gefaehrdung).name : null, massnahme: a ? a.massnahme : null, quellen: a ? a.quellen : [], frage: a && a.verhalten ? a.frage : null, beleg: a ? a.beleg : null, betrifft: m.betrifft || null }); };
+  for (const m of fall.maengel || []) nimm(m, null); for (const s of fall.stationen || []) for (const m of s.maengel || []) nimm(m, s.nr);
+  return liste.sort((x, y) => (RANG[x.dringlichkeit] ?? 9) - (RANG[y.dringlichkeit] ?? 9));
+}
+// Ist-Stand je Maßnahme: zu prüfen (Ausgangswert), erfüllt oder nicht erfüllt. Ein Mangel mit „betrifft“ setzt nicht erfüllt.
+function istStand(fall, station, massnahmeId) {
+  const st = (fall.stationen || []).find(s => s.nr === station) || {}; const ist = { ...(fall.ist || {}), ...(st.ist || {}) };
+  if ([...(fall.maengel || []), ...(st.maengel || [])].some(m => m.betrifft === massnahmeId && (!m.station || m.station === station))) return 'nicht erfüllt';
+  return ist[massnahmeId] === 'erfuellt' ? 'erfüllt' : ist[massnahmeId] === 'nicht_erfuellt' ? 'nicht erfüllt' : 'zu prüfen';
+}
+module.exports = { auswerten, uebersicht, werte, ausStoffen, pflichten, abgleich, maengelliste, istStand };

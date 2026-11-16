@@ -53,7 +53,8 @@ function atome(ausdruck, pfad, fehler, sammel) {
   if (!ausdruck || typeof ausdruck !== 'object' || Array.isArray(ausdruck)) { fehler.push(`${pfad}: Bedingung ist weder Merkmal noch Objekt`); return; }
   const schluessel = Object.keys(ausdruck);
   if ('angabe' in ausdruck) {
-    const ok = schluessel.every(k => ['angabe', 'ist', 'ab', 'bis'].includes(k)) && schluessel.length === 2;
+    const kern = schluessel.filter(k => k !== 'unbekannt'); // unbekannt: true = gilt, solange die Angabe fehlt
+    const ok = kern.every(k => ['angabe', 'ist', 'ab', 'bis'].includes(k)) && kern.length === 2 && (!('unbekannt' in ausdruck) || ausdruck.unbekannt === true);
     if (!ok) fehler.push(`${pfad}: Angabe-Bedingung braucht genau eines von ist, ab, bis`);
     sammel.angaben.add(ausdruck.angabe); return;
   }
@@ -138,6 +139,12 @@ function pruefe(b) {
   }
   // Wörterbuch
   const idx = {}; for (const t of TYPEN) idx[t] = new Set((b.stammdaten[t] || []).map(x => x.id));
+  for (const m of b.maengel || []) { const p = `maengel ${m.id}`;
+    if (!['sofort', 'kurzfristig', 'einplanen'].includes(m.dringlichkeit)) f.push(`${p}: Dringlichkeit muss sofort, kurzfristig oder einplanen sein`);
+    if (!b.gefaehrdungen.some(g => g.id === m.gefaehrdung)) f.push(`${p}: unbekannte Gefährdung ${m.gefaehrdung}`);
+    if (!m.massnahme || !(m.quellen || []).length) f.push(`${p}: Maßnahme oder Quelle fehlt`);
+    for (const q of m.quellen || []) if (!b.quellen.some(x => x.id === q.id)) f.push(`${p}: unbekannte Quelle ${q.id}`); }
+  for (const d of doppelte((b.maengel || []).map(m => m.id))) f.push(`maengel: Kennung doppelt ${d}`);
   const worte = (b.woerterbuch || []).flatMap(w => w.worte || []);
   for (const d of doppelte(worte)) f.push(`woerterbuch: Wort doppelt ${d}`);
   for (const w of b.woerterbuch || []) {
@@ -160,6 +167,7 @@ function pruefe(b) {
 function ladeBibliothek(ordner) {
   const b = {};
   for (const n of ['merkmale', 'angaben', 'stammdaten', 'quellen', 'gefaehrdungen', 'faktoren', 'regeln', 'pflichten', 'woerterbuch']) b[n] = lies(ordner, n);
+  b.maengel = fs.existsSync(path.join(ordner, 'maengel.json')) ? lies(ordner, 'maengel') : [];
   const { fehler, hinweise } = pruefe(b);
   if (fehler.length) { const e = new Error('Bibliothek fehlerhaft:\n- ' + fehler.join('\n- ')); e.fehler = fehler; throw e; }
   b.hinweise = hinweise;
@@ -168,6 +176,8 @@ function ladeBibliothek(ordner) {
 
 function pruefeFall(b, fall) {
   const f = [];
+  { const arten = new Set((b.maengel || []).map(m => m.id)); const pm = (liste, wo) => (liste || []).forEach((m, i) => { if (!m.text) f.push(`${wo} Mangel ${i + 1}: Text fehlt`); if (m.art && !arten.has(m.art)) f.push(`${wo} Mangel ${i + 1}: unbekannte Mangelart ${m.art}`); });
+    pm(fall.maengel, 'Fall'); for (const s of fall.stationen || []) pm(s.maengel, `Station ${s.nr}`); }
   const index = {}; for (const t of TYPEN) index[t] = new Map(b.stammdaten[t].map(x => [x.id, x]));
   const angaben = new Map(b.angaben.map(a => [a.id, a]));
   const pruefAngaben = (obj, wo) => { for (const [k, v] of Object.entries(obj || {})) {

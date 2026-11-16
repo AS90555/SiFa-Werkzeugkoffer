@@ -2,7 +2,7 @@
 'use strict';
 // Aufruf: node kern/cli.js faelle/fensterwerk.json [--json]
 const fs = require('fs'); const path = require('path');
-const { ladeBibliothek } = require('./laden'); const { auswerten, uebersicht, pflichten, abgleich } = require('./auswerten');
+const { ladeBibliothek } = require('./laden'); const { auswerten, uebersicht, pflichten, abgleich, maengelliste, istStand } = require('./auswerten');
 const wurzel = path.join(__dirname, '..');
 const datei = process.argv[2]; if (!datei) { console.error('Aufruf: node kern/cli.js <fall.json> [--json]'); process.exit(2); }
 const b = ladeBibliothek(path.join(wurzel, 'bibliothek'));
@@ -39,7 +39,10 @@ if (ab.stationen.length) {
     if (s.ohneEintrag.length) z.push(`  - Ohne Eintrag in der Bibliothek: ${s.ohneEintrag.join('; ')}`);
     if (s.zusaetzlich.length) z.push(`  - Zusätzlich vom System: ${s.zusaetzlich.map(g => G.get(g).name).join('; ')}`); }
 }
-z.push('', '## Je Arbeitsplatz', '');
+{ const ml = maengelliste(b, fall); if (ml.length) { z.push('', '## Mängel vor Ort', '', 'Beobachtungen zum Ist-Zustand. Die Dringlichkeit ist ein Vorschlag; die Fachkraft entscheidet.', '', '| Dringlichkeit | Platz | Beobachtung | Art des Mangels | Gefährdung | Maßnahme | Quelle |', '| --- | --- | --- | --- | --- | --- | --- |');
+  for (const m of ml) z.push(`| ${m.dringlichkeit || 'offen'} | ${m.station || ''} | ${m.text} | ${m.name} | ${m.gefaehrdung || ''} | ${m.massnahme || 'Mangelart zuordnen'} | ${m.quellen.map(q => Q.get(q.id).titel + (q.stelle ? ', ' + q.stelle : ' (Fundstelle offen)')).join('; ')} |`);
+  const fr = [...new Set(ml.filter(m => m.frage).map(m => m.frage))]; if (fr.length) z.push('', 'Fragen an die Organisation, weil Verhalten im Spiel ist:', '', ...fr.map(x => `- ${x}`)); } }
+z.push('', '## Je Arbeitsplatz', '', 'Hinter jeder Maßnahme steht der Ist-Stand: zu prüfen, erfüllt oder nicht erfüllt.', '');
 for (const s of e.stationen) {
   { const fs0 = fall.stationen.find(x => x.nr === s.nr); z.push(`### ${s.nr} ${s.name}${fs0.bereich ? ' (' + fs0.bereich + ')' : ''}`, ''); }
   { const fs1 = fall.stationen.find(x => x.nr === s.nr); const ma = [...(fs1.maengel || []), ...((fall.maengel || []).filter(m => !m.station || m.station === s.nr))]; if (ma.length) z.push(`Beim Rundgang gemeldete Mängel: ${ma.map(m => m.text).join('; ')}`, ''); }
@@ -47,7 +50,7 @@ for (const s of e.stationen) {
     const r = R.get(t.regel);
     const quelle = r.quellen.length ? r.quellen.map(q => `${Q.get(q.id).titel}, ${q.stelle || 'Fundstelle offen'}`).join('; ') : 'ohne Beleg';
     z.push(`- **${G.get(r.gefaehrdung).name}** (${r.id}, ${r.verbindlichkeit}${t.status === 'offen' ? ', offen bis zur Angabe' : ''})`);
-    for (const m of r.massnahmen) z.push(`  - ${m.art}: ${m.text}`);
+    for (const m of r.massnahmen) z.push(`  - ${m.art}: ${m.text} [${istStand(fall, s.nr, m.id)}]`);
     z.push(`  - Quelle: ${quelle}. Beleg: ${r.beleg}.`);
     if (t.fehlt.length) z.push(`  - Angabe fehlt: ${t.fehlt.map(a => A.get(a).frage).join(' ')}`);
   }

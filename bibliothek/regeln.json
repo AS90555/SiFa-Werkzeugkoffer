@@ -463,7 +463,16 @@
  {
   "id": "R12",
   "name": "Last von Hand, wiederholt",
-  "wenn": "v.hand_wiederholt",
+  "wenn": {
+   "alle": [
+    "v.hand_wiederholt",
+    {
+     "angabe": "last_kg",
+     "ab": 3,
+     "unbekannt": true
+    }
+   ]
+  },
   "entsteht": "Körperliche Belastung",
   "gefaehrdung": "g-heben-tragen",
   "braucht": [
@@ -474,29 +483,17 @@
    {
     "id": "R12-M1",
     "art": "O",
-    "text": "Belastung mit der Leitmerkmalmethode bewerten",
-    "beleg": {
-     "quelle": "bauau-lmm",
-     "stelle": "Handlungsanleitung LMM-HHT, Abschnitt Vorgehen (Achtung)"
-    }
+    "text": "Belastung mit der Leitmerkmalmethode bewerten"
    },
    {
     "id": "R12-M2",
     "art": "T",
-    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
-    "beleg": {
-     "quelle": "lasthandhabv",
-     "stelle": "§ 2 Abs. 1"
-    }
+    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
    },
    {
     "id": "R12-M3",
     "art": "O",
-    "text": "Tätigkeitswechsel",
-    "beleg": {
-     "quelle": "dguv-r109-606",
-     "stelle": "Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen"
-    }
+    "text": "Tätigkeitswechsel"
    }
   ],
   "quellen": [
@@ -514,14 +511,8 @@
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "geprueft",
-  "freigabe": "entwurf",
-  "belegstand": {
-   "lauf": "B002",
-   "datum": "2026-11-12",
-   "pruefungen": 2,
-   "fingerabdruck": "63161f320a47f296"
-  }
+  "beleg": "offen",
+  "freigabe": "entwurf"
  },
  {
   "id": "R13",

@@ -14,7 +14,23 @@
 4. Angaben nur eintragen, wenn das Protokoll sie ausdrücklich nennt (zum Beispiel Gewicht, Griffe je Stunde, Hartholz). Nie schätzen.
 5. Stoffe: jeden genannten Gefahrstoff unter `stoffe` eintragen, mit `sdb: null` und leerer Liste `h`. Keine H-Sätze erfinden.
 6. Alles, was sich nicht sauber zuordnen lässt, unter `wuensche` notieren: Was steht im Protokoll, was fehlt in den Stammdaten. **Nichts passend biegen.** Lieber ein Wunsch als eine falsche Zuordnung. Ein Schritt, für den Vorgang oder Ausführung fehlt, wird weggelassen und als Wunsch notiert.
-7. Beschreibt das Protokoll einen Mangel (fehlendes Schloss, lockerer Stecker, offene Abdeckung, fehlende Sicherung), kommt er unter `maengel` mit der Textstelle. Ein Mangel ist kein Schritt und keine Angabe.
+7. Beschreibt das Protokoll einen Mangel (fehlendes Schloss, lockerer Stecker, offene Abdeckung, fehlende Sicherung), kommt er unter `maengel` mit der Textstelle und, wenn eine passt, mit der Mangelart: `{"text":"Stelle aus dem Protokoll","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Schleifmaschine"}`. Ein Mangel ist kein Schritt und keine Angabe. Passt keine Art sicher, bleibt `art` weg. Die Mangelarten (Datei `bibliothek/maengel.json` darf gelesen werden):
+   - `schutzeinrichtung`: Schutzeinrichtung oder Sicherung fehlt, ist defekt, offen oder umgangen
+   - `absturzsicherung`: Absturzsicherung fehlt oder ist schadhaft: Geländer, Abdeckung, Anschlagpunkt, Leiter
+   - `elektrik`: Elektrische Leitung oder Betriebsmittel beschädigt, im Weg oder im Nassen
+   - `rettung_verstellt`: Fluchtweg, Notausgang, Feuerlöscher, Notdusche oder Erste-Hilfe-Einrichtung verstellt oder nicht vorhanden
+   - `arbeitsweise`: Gefährliche Arbeitsweise oder Lage
+   - `stoff_lagerung`: Stoff offen, unbeschriftet, falsch gelagert oder neben einer Zündquelle
+   - `weg_boden`: Boden oder Verkehrsweg nass, uneben, verstellt oder verschmutzt
+   - `psa`: Schutzausrüstung fehlt, wird nicht getragen oder ist ungeeignet
+   - `arbeitsmittel_defekt`: Arbeitsmittel beschädigt, abgenutzt oder defekt
+   - `lueftung`: Lüftung oder Absaugung fehlt, ist abgeschaltet oder unzureichend
+   - `beleuchtung`: Beleuchtung schwach, ausgefallen oder flackernd
+   - `organisation`: Unterweisung, Prüfung, Betriebsanweisung oder Kennzeichnung fehlt
+   - `notfall`: Notruf, Erste Hilfe oder Überwachung bei Alleinarbeit nicht sichergestellt
+   - `hilfsmittel`: Hilfsmittel fehlt oder wird nicht benutzt
+   - `einrichtung`: Einrichtung des Arbeitsplatzes passt nicht: Höhe, Stuhl, Bildschirm, Greifraum
+   Ein Mangel liegt nur vor, wenn das Protokoll eine Abweichung beschreibt: fehlt, defekt, offen, verstellt, wird nicht benutzt. „Die Schutzbrille hängt im Schrank“ allein ist keiner; „beim Umfüllen trägt sie niemand“ ist einer.
 8. Unter `zuordnung` für jeden Schritt die Textstelle nennen, auf der er beruht, und ob die Zuordnung sicher ist.
 9. Prüfen mit `node lernen/pruefe-fall.js <datei>`. Fehler beheben, bis die Prüfung durchläuft.
 

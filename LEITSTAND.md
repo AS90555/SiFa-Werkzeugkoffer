@@ -4,8 +4,7 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 ## Als Nächstes fällig
 
-1. **Mängel-Schicht bauen**, bevor weiter trainiert wird: Beobachtungen zum Ist-Zustand (defekt, fehlt, verstellt, nicht getragen) werden bisher erfasst, aber nicht ausgewertet. An Andres eigenem Protokoll durchspielen.
-2. **Lernrunde im Feld BGHM** (2. von 2 vor der nächsten Prüfrunde): `node lernen/runde.js neu lern`.
+1. **Lernrunde im Feld BGHM** (2. von 2 vor der nächsten Prüfrunde): `node lernen/runde.js neu lern`.
 
 ## Wartet auf Andre
 
@@ -19,10 +18,10 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | --- | --- |
 | Regeln | 115 |
 | Organisationspflichten | 20 |
-| Gefährdungen | 50 |
+| Gefährdungen | 56 |
 | Stammdaten | 175 |
 | Wörterbuch | 116 |
-| Regeln doppelt belegt | 33 von 115 (29 %) |
+| Regeln doppelt belegt | 32 von 115 (28 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |

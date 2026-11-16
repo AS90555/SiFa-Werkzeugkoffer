@@ -52,7 +52,7 @@ function neu(art, anzahl) {
     schreib(path.join(o, 'auftraege', `uebersetzer-${i + 1}.md`), [`# Auftrag Übersetzer ${i + 1}, Runde ${nr}`, '',
       `Lies zuerst deine Arbeitsanweisung vollständig: \`${path.join(WURZEL, 'agenten', 'uebersetzer.md')}\``, '', 'Deine Protokolle:', '',
       ...h.map(a => `- \`${path.join(o, 'protokolle', a.kennung + '.md')}\` → Fall \`${path.join(o, 'faelle', a.kennung + '.json')}\` mit \`"id":"${a.kennung}"\``), '',
-      `Erlaubte Nachschlagedateien: \`${path.join(WURZEL, 'bibliothek')}/stammdaten.json\`, \`woerterbuch.json\`, \`angaben.json\`.`,
+      `Erlaubte Nachschlagedateien: \`${path.join(WURZEL, 'bibliothek')}/stammdaten.json\`, \`woerterbuch.json\`, \`angaben.json\`, \`maengel.json\`.`,
       `Prüfe jeden Fall mit \`cd ${WURZEL} && node lernen/pruefe-fall.js <Falldatei>\`, bis „in Ordnung“ erscheint.`, '',
       `Lies nicht: \`${path.join(o, 'wahrheit')}\`, \`regeln.json\`, \`gefaehrdungen.json\`, andere Runden. Benutze nur: Dateien lesen, Dateien schreiben und die hier genannten Befehle. Kein Internet, keine Erinnerungen oder geplanten Aufgaben, keine weiteren Agenten. Antworte am Ende nur mit einer Zeile je Kennung: Zahl der Schritte, Wünsche und Mängel.`, ''].join('\n'));
   });

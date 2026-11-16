@@ -248,5 +248,35 @@
   "id": "g-fehlbedienung",
   "faktor": 1,
   "name": "Unfall durch falsche Bedienung der Maschine"
+ },
+ {
+  "id": "g-schutz-unwirksam",
+  "faktor": 1,
+  "name": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist"
+ },
+ {
+  "id": "g-stoff-unkontrolliert",
+  "faktor": 3,
+  "name": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe"
+ },
+ {
+  "id": "g-psa-fehlt",
+  "faktor": 11,
+  "name": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt"
+ },
+ {
+  "id": "g-arbeitsmittel-defekt",
+  "faktor": 1,
+  "name": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel"
+ },
+ {
+  "id": "g-organisation",
+  "faktor": 11,
+  "name": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung"
+ },
+ {
+  "id": "g-arbeitsweise",
+  "faktor": 11,
+  "name": "Unfall durch eine gefährliche Arbeitsweise oder Lage"
  }
 ]
