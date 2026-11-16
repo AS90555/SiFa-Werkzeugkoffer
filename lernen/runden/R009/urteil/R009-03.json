@@ -1,0 +1,84 @@
+{
+ "id": "R009-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen der Hand am Lufthammer wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Glühendes Eisen und Spritzer, Handschuhe und Schutzkleidung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Brand durch Funkenflug wird nicht gemeint, der Gasflaschen-Eintrag betrifft einen anderen Anlass."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "grund": "Alte ausgefranste Gasschläuche, nicht verwenden und instand setzen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Brennerabgase in der Halle werden von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Hammerlärm, Gehörschutz passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "grund": "Schutzbrille liegt ungenutzt im Regal."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Hitze staut sich unter dem Dach."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Der Lehrling bedient den Lufthammer, eine kraftbetriebene Maschine."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Die Schlacke wird mit einem Haken herausgezogen, solange er noch warm ist."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Die Gasflasche steht direkt neben dem Ofen."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt kein Heben oder Tragen."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Ofenreinigung von Hand ist kein Anlauf einer Maschine."
+  },
+  {
+   "gefaehrdung": "Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit",
+   "urteil": "unbegruendet",
+   "grund": "Es wird nur Eisen erhitzt, keine Schmelze."
+  }
+ ]
+}

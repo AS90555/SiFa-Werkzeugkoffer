@@ -1,0 +1,62 @@
+{
+ "id": "R009-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Pressenstößel, Zweihandschaltung und Schutzeinrichtung passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Teile von zehn bis vierzig Kilo über Hüfthöhe, Hebehilfe passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Lose Zuschnitte am Boden, Verkehrswege freihalten passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Gabelstapler fährt neben der Presse, Wege trennen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Ausgefallene Lampe, instand setzen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Reinigung mit Druckluft, Staub fliegt durch die Halle."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Im Sommer wird es in der Halle sehr warm."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hydraulische Kartonagenpresse ist eine kraftbetriebene Maschine."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Die Abdeckung ist aufgeklappt."
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Lärm."
+  }
+ ]
+}

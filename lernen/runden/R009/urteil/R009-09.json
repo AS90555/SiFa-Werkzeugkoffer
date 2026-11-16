@@ -1,0 +1,16 @@
+{"id":"R009-09",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Quetschen der Finger beim Einhängen der Teile an die Vorrichtung wird vom System nicht benannt; Heben (Muskel-Skelett) ist eine andere Gefahr."},
+  {"nr":2,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der Mangel-Eintrag meint dieselbe Reinigung der Pistole mit Verdünnung am Waschbecken ohne Absaugung, die Maßnahme Absaugung instand setzen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Der Lappen im offenen Eimer ist derselbe Anlass, Behälter geschlossen halten und Zündquellen fernhalten passt zur Brandgefahr."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Verbrennen an der heißen Trocknertür wird nicht benannt; Hitzebelastung durch Raumtemperatur ist eine andere Gefahr."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Lärm am Arbeitsplatz mit Gehörschutz und Lärmminderung als Maßnahmen passt zur lauten Lüftung."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Hohe Raumtemperatur im Sommer, Lüftung und Trinkpausen passen."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Fronthauben und Türen werden von Hand vom Gestell genommen und eingehängt."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"unbegruendet","grund":"Das Protokoll beschreibt keine Instandhaltung oder Störungsbeseitigung an einer Maschine, der Filterwechsel reicht dafür nicht."},
+  {"gefaehrdung":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","urteil":"berechtigt","grund":"Zweikomponenten-Decklack, Härter und Verdünnung werden verarbeitet (Mischen aus dem Gebinde, Reinigung mit Verdünnung)."},
+  {"gefaehrdung":"Brand oder Explosion durch entzündbare Stoffe oder Gase","urteil":"typisch","grund":"Lackspritzen mit Lösemitteln, Verdünnung und Trockner gehören nach Fachwissen zur Brand- und Explosionsprüfung."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Umgang mit Lack, Härter und Verdünnung von Hand (Abmessen, Reinigen) führt typisch zu Hautkontakt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Exzenterschleifer, Poliermaschine und Spritzpistole an Druckluft sind kraftbetriebene Arbeitsmittel."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Der Staub liegt auf dem Boden und auf den Ablagen."}]}

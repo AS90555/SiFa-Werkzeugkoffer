@@ -1,0 +1,82 @@
+{
+ "id": "R009-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funken und Holz rundherum, brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "grund": "Flaschen ohne Sicherung, gegen Umfallen sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Anschläger steht nah an der hängenden Last, niemand unter die Last passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Hallenlärm, Gehörschutz nach Stufen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Rauch ohne Absaugung, Absaugung an der Entstehungsstelle passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "urteil": "typisch",
+   "grund": "Brennschneiden und Heften, Nachbarfläche arbeitet weiter."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Brennschneiden, Funken und heiße Teile."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden ist voller Schlacke und Metallreste."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Staub und Rauch, nur ein Fenster geöffnet."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Ausgeschnittene Stahlträger und Bleche haben scharfe Kanten und Grate."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Der Kranführer fährt über die Arbeitsfläche, der Anschläger steht nah an der Last."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Flaschen ohne Sicherung neben dem Brenner, Holz rundherum."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Schlauch liegt quer über die Fläche."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Eine Absaugung gibt es nicht."
+  }
+ ]
+}

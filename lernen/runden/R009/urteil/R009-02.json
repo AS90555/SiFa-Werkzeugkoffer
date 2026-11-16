@@ -1,0 +1,63 @@
+{
+ "id": "R009-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Zugestellter Boden mit Reifen und Kisten, Verkehrswege freihalten passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mehrere Ladegeräte an einer Leiste, eines unbeaufsichtigt dauernd an, gleicher Anlass."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Akkus neben dem Heizkörper auf Holzregal, Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Austretender Elektrolyt als Hautreizung wird von keinem anderen Eintrag gemeint; der Lagereintrag ist schon Wahrheit 3 zugeordnet."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "grund": "Feuerlöscher mit abgelaufenem Prüfdatum, Prüfung nachholen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Langes gebeugtes Stehen über dem Rahmen, Arbeitsplatz anpassen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Akkus von zwei bis drei Kilo, etwa dreißig pro Woche heruntergehoben."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Montage von Hand mit Schraubendrehern und Drehmomentschlüssel."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Standbohrmaschine und Akkuschrauber sind kraftbetrieben."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Ein Akku auf dem Tisch wirkt aufgequollen."
+  }
+ ]
+}

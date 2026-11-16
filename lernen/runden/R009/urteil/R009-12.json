@@ -1,0 +1,13 @@
+{"id":"R009-12",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Absturz in die etwa 1,80 m tiefe Grube; Öffnung abdecken oder umwehren passt zur Grubenöffnung."},
+  {"nr":2,"urteil":"getroffen","system":"Fahrzeug kippt oder wird falsch bedient","grund":"Arbeiten unter dem auf Arbeitshöhe gefahrenen Fahrzeug, Hebebühne prüfen und Aufnahmepunkte passen."},
+  {"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Kabel am Boden als Stolperstelle, Stolperstellen beseitigen und Verkehrswege freihalten passen."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Hautkontakt mit Öl und Bremsflüssigkeit wird nicht benannt; der Kanister-Eintrag meint die Lagerung, seine Maßnahmen schützen nicht die Haut."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Kälte und Zug am Tor, Heizen und Kleidung passen."},
+  {"nr":6,"urteil":"getroffen","system":"Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät","grund":"Die Person arbeitet meist allein in der Grube, Personenschutzmaßnahmen und Notruf passen."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Elektrischer Schlag, Störlichtbogen","urteil":"berechtigt","grund":"Das Kabel der Anlage zum Rechner liegt quer über den Boden."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Lampe in der Grube ist eine Leuchtstoffröhre ohne Schutzkorb."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Unter dem Wagen liegt Schmutz und Öl."},
+  {"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Kanister mit Bremsflüssigkeit und Motoröl stehen auf dem Boden."}]}

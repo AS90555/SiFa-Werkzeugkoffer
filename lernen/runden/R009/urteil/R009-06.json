@@ -1,0 +1,73 @@
+{
+ "id": "R009-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Lärm an der Entrindungsmaschine wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Erfassen an Kette und Rollentisch wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Wegrollende lose Stämme sind etwas anderes als Stolpern oder eine schwebende Last."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel auf nassem Boden und undichter Schaltkasten, Betriebsmittel instand setzen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Holzstaub beim Entrinden wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kalter Platz im Winter, Kleidung gegen Kälte passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "typisch",
+   "grund": "Der Kran lädt Stämme auf den Stapel ab."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel über den Boden verteilt, Schlamm und Rindenreste."
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "urteil": "berechtigt",
+   "grund": "Der Platz ist offen, bei Regen steht Wasser."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Messer der Entrindungsmaschine werden gewechselt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden ist aufgeweicht, lose Stämme liegen vor der Maschine."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Schutzhandschuhe trägt der Helfer nicht."
+  }
+ ]
+}

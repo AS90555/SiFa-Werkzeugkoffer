@@ -1,0 +1,89 @@
+{
+ "id": "R009-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "grund": "Abgescheuerte, mit Klebeband geflickte Gurte, nicht verwenden passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Zwei Kollegen stehen unter der abgesenkten Last, niemand unter die Last passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Leiter steht nicht richtig, Absturzsicherung herstellen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Ölverschmierter Boden, Verunreinigungen beseitigen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Ständiges Drehen und Wenden, Schrauben von unten, Arbeitshöhe gestalten passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Lieferdruck und Arbeit ohne Pause, Arbeitsabläufe gestalten passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Lösemittel auf Lappen, Dämpfe und Hautkontakt, Maßnahmen nach Sicherheitsdatenblatt passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Baugruppen von dreißig bis zweihundert Kilo werden gedreht."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Viele Schrauben mit dem elektrischen Schrauber."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Schwere Baugruppen werden am Montageplatz abgesetzt."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Reinigung mit Lappen und Lösemittel."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Lösemittel aus einem Kanister."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kran und elektrischer Schrauber sind kraftbetrieben."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Zwei Kollegen stehen unter der Last und setzen die Schrauben an."
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "urteil": "berechtigt",
+   "grund": "Das Kabel des Schraubers hängt quer über den Boden."
+  }
+ ]
+}

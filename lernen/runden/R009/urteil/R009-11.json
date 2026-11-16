@@ -1,0 +1,14 @@
+{"id":"R009-11",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der überbrückte Türschalter ist derselbe Anlass, Schutzeinrichtung wieder wirksam machen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Werkzeug hängt an Kette und Kran; Anschlagmittel prüfen und niemand unter der Last passen."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Offene Schaltschränke und Stromschlag werden vom System nicht benannt."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Verbrennen an der heißen Düse wird nicht benannt; die Raumtemperatur-Gefährdung meint eine andere Gefahr."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Warmer Raum, Lüftung und Trinkpausen passen."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Glatter Boden mit verstreutem Granulat, Verunreinigungen beseitigen passt."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Spritzgießmaschine mit Hydraulik und Druckluftreinigung ist typisch laut; im Protokoll nicht genannt."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Die Person rüstet das Werkzeug um, Rüsten ist Sonderbetrieb an der Maschine."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Granulatreste fliegen beim Reinigen mit Druckluft durch den Raum, Masterbatch wird von Hand aus dem Sack geschüttet."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Maschine wird mit Druckluft gereinigt, dabei fliegen Granulatreste durch den Raum."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"typisch","grund":"Beim Spritzgießen entstehen an der heißen Düse typisch Dämpfe aus der Kunststoffschmelze, und die Lüftung kommt nicht nach."}]}

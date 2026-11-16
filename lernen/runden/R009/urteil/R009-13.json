@@ -1,0 +1,13 @@
+{"id":"R009-13",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Lösemittelhaltiges Abbeizmittel mit Hautkontakt und Dämpfen; Hautkontakt vermeiden und Handschuhe passen."},
+  {"nr":2,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der Mangel-Eintrag nennt dasselbe: Gelüftet wird sonst nicht, Lüftung instand setzen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Die Lappen liegen offen im Eimer, Behälter geschlossen halten und Zündquellen fernhalten passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Heißluftföhn als Zündquelle bei Lösemitteldämpfen, Zündquellen fernhalten passt."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Boden mit Farbresten und Ölflecken, Verunreinigungen beseitigen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Quer liegende Kabel und Föhn an Steckdosenleiste am Eimer, Betriebsmittel instand setzen passt."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Abbeizmittel wird dick mit dem Pinsel aufgetragen und abgekratzt, Spritzer und Hautkontakt gehören typisch dazu."},
+  {"gefaehrdung":"Belastung durch verbrauchte oder stickige Luft","urteil":"berechtigt","grund":"Das Fenster bleibt bei Kälte geschlossen, gelüftet wird sonst nicht."},
+  {"gefaehrdung":"Muskel-Skelett-Beschwerden durch Zwangshaltung","urteil":"berechtigt","grund":"Die Stühle werden oft im Stehen über den Tisch gebeugt bearbeitet."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Die Kabel liegen quer über den Boden, Kanister stehen herum."}]}

@@ -1,0 +1,14 @@
+{"id":"R009-10",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Person wird von Fahrzeug angefahren oder überrollt","grund":"Fahrzeuge fahren rückwärts in die Halle, Kunden gehen durch; Trennen der Wege und Sicht schaffen passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Blei- und Zinkgewichte mit Hautkontakt und Staub werden nirgends als Gefahrstoff benannt; der Absaugungs-Eintrag meint Reifenabrieb, nicht Blei."},
+  {"nr":3,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Lärm von Schlagschraubern und Kompressor, Kapselung und Gehörschutz passen."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Heben schwerer Räder wird nicht benannt; Hand-Arm-Beschwerden durch gleichförmige Arbeit sind eine andere Gefahr."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Nasser Boden, Ölflecken und Reifenreste, Verunreinigungen beseitigen und Verkehrswege freihalten passen."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Der Mechaniker wartet die Montiermaschine selbst und schmiert den Dorn nach."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"typisch","grund":"Schlagschrauber laufen den ganzen Tag, vier Räder pro Stunde, bei Saisonbeginn hundert Autos am Tag."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Montiermaschine drückt den Reifen über die Felge, Montierhebel von Hand; Quetschen und Scheren gehört zu diesem Arbeitsmittel."},
+  {"gefaehrdung":"Fahrzeug kippt oder wird falsch bedient","urteil":"berechtigt","grund":"Die Hebebühne fährt hoch oder das Rad wird mit dem Wagenheber angehoben."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Montiermaschine, Auswuchtmaschine, Hebebühne und Schlagschrauber sind kraftbetriebene Maschinen."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Es gibt ein Waschbecken, aber keine Absaugung, und Reifenabrieb und Staub liegen auf den Regalen."}]}

@@ -1,0 +1,64 @@
+{
+ "id": "R009-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Lösemittel- und Epoxiddämpfe im Tank; Lüftung wirksam machen passt zur Ursache."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Offene Lösemitteleimer und Gebinde als Brandgefahr, Maßnahme Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel durch Pfütze, Betriebsmittel der Benutzung entziehen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Gerüst aus Brettern auf Kanistern ist dieselbe Absturzgefahr aus demselben Anlass."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Hitze und Schwüle meint etwas anderes als verbrauchte, stickige Luft; keine Maßnahme zu Wärmebelastung."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Gebückte Zwangshaltung im Tank, Arbeitshöhe und Bewertung passen."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Verschüttung, Sauerstoffmangel oder Absturz in Silos, Behältern und engen Räumen",
+   "grund": "Enger Tank mit Mannloch, Sicherungsposten passt zur Rettung."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Das Kabel läuft über den Boden durch eine Pfütze."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "Die Luft steht trotzdem im Tank, es wird warm und schwül."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Spritzpistole und Kompressor sind kraftbetriebene Geräte."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "R009-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Offene Beize ohne Deckel, Behälter geschlossen halten passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "grund": "Mit Klebeband geflickte Gasschläuche, nicht verwenden und instand setzen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Staub",
+   "grund": "Metallstaub beim Polieren, Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Hand über der Flamme, hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Vorgebeugtes Sitzen am zu niedrigen Tisch, Arbeitshöhe gestalten passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Einzug von Hand oder Arm",
+   "grund": "Hand wird gegen das Tuch am Polierbock gedrückt, Werkstückauflage passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Säurebad, Augenspülung in der Nähe passt zum fehlenden Augenspüler."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Lärm."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Lötlampe mit Propangas und Flamme."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "typisch",
+   "grund": "Propanflasche steht unter dem Tisch."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Das Metallpulver liegt auf dem Boden."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Der Polierbock läuft mit Motor."
+  },
+  {
+   "gefaehrdung": "Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar",
+   "urteil": "unbegruendet",
+   "grund": "Aus falscher Zuordnung des fehlenden Augenspülers entstanden, vom Brandfall ist keine Rede."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Die Lampe läuft den ganzen Tag, das Fenster ist meist zu; Absaugung abgeklemmt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Feilen liegen überall auf den Dielen."
+  }
+ ]
+}

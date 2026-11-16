@@ -1,0 +1,18 @@
+{"id":"R009-14",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Hand am Sägeblatt bei offener Verkleidung; Schutzeinrichtungen wirksam, nichts überbrückt passt."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Einziehen oder Quetschen der Hand am laufenden Band wird nicht als eigene Gefahr benannt; der Eintrag zur Schutzeinrichtung ist dem fehlenden Not-Halt zugeordnet."},
+  {"nr":3,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Stämme von mehreren hundert Kilo werden mit dem Kran gehoben; Anschlagmittel prüfen und niemand unter der Last passen."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Dauerlärm der Anlage, Gehörschutz und Lärmbereich passen."},
+  {"nr":5,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Abblasen der Späne wirbelt Holzstaub auf; Abblasen nicht zulässig und Aufsaugen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Schwache Beleuchtung am Bandende, angemessene Beleuchtung und Leuchten instand setzen passt."},
+  {"nr":7,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der Mangel-Eintrag nennt den fehlenden Not-Halt in Reichweite am Band, Schutzeinrichtung herstellen passt."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Bretter werden an der Austrittsseite von Hand abgenommen und am Band heruntergegriffen."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Das Sägeband wird gewechselt und gerüstet, dazu die offene Verkleidung."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Holzstaub und Späne in der Luft und am Boden gehören nach Fachwissen zur Staubexplosionsprüfung."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"berechtigt","grund":"Die Person greift die Bretter oft im Takt, schnell, ohne Pause."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Beim Abblasen fliegt viel Staub in die Luft."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Gatter, Kran und Sortierband sind kraftbetriebene Maschinen, die Bedienung vom Steuerpult erfordert Unterweisung."},
+  {"gefaehrdung":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","urteil":"berechtigt","grund":"Die Arbeit am Band im Takt, schnell, ohne Pause."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Späne werden mit Druckluft vom Boden geblasen."}]}
