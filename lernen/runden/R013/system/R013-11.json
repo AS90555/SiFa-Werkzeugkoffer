@@ -1,0 +1,165 @@
+{
+ "id": "R013-11",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Warneinrichtung bei Unterdruckabfall funktionsfähig",
+    "Wiederkehrende Prüfung; die Frist legt der Arbeitgeber fest",
+    "Niemand unter der Last"
+   ],
+   "entsteht": [
+    "Last hängt am Unterdruck"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden",
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine",
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Auflage- und Abnahmetische, Rollenböcke oder Hubtische einsetzen, damit schwere Teile nicht frei getragen werden",
+    "Schwere oder lange Werkstücke zu zweit handhaben und den Arbeitsplatz so einrichten, dass nicht verdreht oder seitlich eingelegt werden muss",
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Große, schwere oder lange Werkstücke werden von Hand aufgelegt und über den Tisch geschoben oder geführt; Rücken und Schultern werden einseitig belastet",
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen",
+    "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden",
+    "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz",
+    "Schutzhaube und Spaltkeil richtig eingestellt",
+    "Schiebestock oder Schiebeholz bei schmalen Werkstücken"
+   ],
+   "entsteht": [
+    "Hand nah am laufenden Werkzeug",
+    "Hand nah am Sägeblatt, Rückschlag des Werkstücks"
+   ]
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsschuhe",
+    "Ziehen statt schieben nur mit Sicht, Last niedrig"
+   ],
+   "entsteht": [
+    "Schwere Last auf kleinen Rollen"
+   ]
+  },
+  {
+   "gefaehrdung": "Lungenerkrankung durch mineralischen Staub mit Quarzanteil",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Staubarm arbeiten: nass bearbeiten oder an der Entstehungsstelle absaugen",
+    "Staub aufsaugen, nicht trocken kehren oder abblasen"
+   ],
+   "entsteht": [
+    "Feiner Staub beim Schneiden, Schleifen oder Bohren von Stein, Beton und Komposit"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode Ziehen und Schieben bewerten",
+    "Geeignete Transportmittel bereitstellen und Fahrwege eben halten"
+   ],
+   "entsteht": [
+    "Schwere Wagen oder Karren, unebene Wege, Steigungen"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist",
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Fußschalter steht im Gang, sodass man beim Vorbeigehen daran kommt",
+    "Mangel vor Ort: Der Schutz am Sägeblatt ist teilweise demontiert"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen",
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: es liegen Grate auf dem Boden",
+    "Mangel vor Ort: Der Schlamm trocknet im Laufe des Tages zu einer weißen Schicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Geeignete Schutzausrüstung bereitstellen und für die Benutzung sorgen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Handschuhe werden nicht immer getragen"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

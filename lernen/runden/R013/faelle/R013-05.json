@@ -3,14 +3,7 @@
  "name": "R013-05",
  "betrieb": {},
  "angaben": {},
- "stoffe": [
-  {
-   "id": "s1",
-   "name": "Gewindeschneidöl",
-   "sdb": null,
-   "h": []
-  }
- ],
+ "stoffe": [],
  "stationen": [
   {
    "nr": 1,
@@ -88,6 +81,10 @@
   {
    "text": "Gereinigt wird der Korb am Schichtende mit einem Besen",
    "fehlt": "Material Schrott und Schmutz im Korb"
+  },
+  {
+   "text": "ein Eimer mit Gewindeschneidöl",
+   "fehlt": "Als Stoff mit Datenblatt fehlt ein passendes Gefahrstoff-Material für Schneidöl; nur als Material oel_schmierstoff im Schritt, nicht unter Stoffe"
   }
  ],
  "maengel": [
