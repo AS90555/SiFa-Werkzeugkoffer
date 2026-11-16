@@ -1,0 +1,68 @@
+{
+ "id": "R008-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Niedriges Geländer, fehlende Sicherung an der Kante; Absturzsicherung herstellen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Austritt von Kältemittel mit Erfrierung oder Atemreiz."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Bersten der erwärmten Flasche wird nicht gemeint; der Eintrag zu Stoffen meint Kontakt, Verwechslung, Brand."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Heben oder Ziehen der schweren Flasche."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "grund": "Sonne und Hitze im Freien; Schutz gegen Witterungseinflüsse passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lauter Kompressor."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "typisch",
+   "grund": "Schwere Flasche wird auf dem Dach gestellt und gezogen; typisch bei Gasflaschen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Das Dach ist mit Kies bedeckt, man rutscht auf losen Steinen."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Werkzeug liegt verteilt auf dem Dach mit ungesicherter Kante; typisch Absturz von Gegenständen."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "unbegruendet",
+   "grund": "Flasche in der Sonne ist keine offene oder unbeschriftete Lagerung; falsche Zuordnung."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Die Schutzbrille liegt im Auto."
+  }
+ ]
+}

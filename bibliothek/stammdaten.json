@@ -453,6 +453,28 @@
     "m.holz",
     "m.langgut"
    ]
+  },
+  {
+   "id": "inertgas",
+   "name": "Stickstoff, Argon, Schutzgas, Kohlendioxid",
+   "merkmale": [
+    "m.erstickend"
+   ]
+  },
+  {
+   "id": "kaeltemittel",
+   "name": "Kältemittel in Druckflaschen",
+   "merkmale": [
+    "m.druckgas",
+    "m.erstickend"
+   ]
+  },
+  {
+   "id": "stein_komposit",
+   "name": "Stein, Beton, Quarzkomposit, Keramik",
+   "merkmale": [
+    "m.quarzstaub"
+   ]
   }
  ],
  "vorgang": [
@@ -892,6 +914,13 @@
     "v.laut",
     "v.bohren_stein"
    ]
+  },
+  {
+   "id": "ziehen_schieben",
+   "name": "Ziehen und Schieben von Lasten mit Wagen, Sackkarre oder Hubwagen",
+   "merkmale": [
+    "v.ziehen_schieben"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -1297,6 +1326,13 @@
    "name": "Arbeiten gebückt, kniend, über Kopf oder weit vorgebeugt",
    "merkmale": [
     "u.zwangshaltung"
+   ]
+  },
+  {
+   "id": "taktarbeit",
+   "name": "Taktgebundene Arbeit, Stückzahlvorgabe",
+   "merkmale": [
+    "u.zeitdruck"
    ]
   }
  ]

@@ -1194,5 +1194,75 @@
   ],
   "vorgang": "handhaben",
   "hinweis": "Ablegen in einen Wagen von Hand; wird der Wagen geschoben, zusätzlich Transport von Hand"
+ },
+ {
+  "worte": [
+   "stickstoff",
+   "kohlendioxid",
+   "formiergas"
+  ],
+  "material": [
+   "inertgas"
+  ]
+ },
+ {
+  "worte": [
+   "kältemittel",
+   "kältemittelflasche"
+  ],
+  "material": [
+   "kaeltemittel"
+  ]
+ },
+ {
+  "worte": [
+   "druckflasche",
+   "flaschenkäfig"
+  ],
+  "material": [
+   "druckgasflasche"
+  ]
+ },
+ {
+  "worte": [
+   "quarzkomposit",
+   "arbeitsplatte aus stein",
+   "granit",
+   "betonstaub",
+   "steinstaub"
+  ],
+  "material": [
+   "stein_komposit"
+  ]
+ },
+ {
+  "worte": [
+   "sackkarre",
+   "wagen schieben",
+   "über den hof gezogen",
+   "rollwagen"
+  ],
+  "vorgang": "ziehen_schieben"
+ },
+ {
+  "worte": [
+   "taktung",
+   "stückzahl",
+   "stückzahlvorgabe",
+   "zähler"
+  ],
+  "umgebung": [
+   "taktarbeit"
+  ]
+ },
+ {
+  "worte": [
+   "ofentür",
+   "glühend",
+   "kammerofen"
+  ],
+  "material": [
+   "heisses_werkstueck"
+  ]
  }
 ]

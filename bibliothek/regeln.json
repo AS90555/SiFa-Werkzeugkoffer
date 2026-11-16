@@ -4298,5 +4298,101 @@
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R115",
+  "name": "Gase, die den Sauerstoff verdrängen",
+  "wenn": "m.erstickend",
+  "entsteht": "Gas tritt aus und sammelt sich, besonders in Behältern, Gruben und kleinen Räumen",
+  "gefaehrdung": "g-sauerstoffmangel",
+  "massnahmen": [
+   {
+    "id": "R115-M1",
+    "art": "T",
+    "text": "Für ausreichende Lüftung sorgen"
+   },
+   {
+    "id": "R115-M2",
+    "art": "O",
+    "text": "Vor dem Einsteigen in Behälter und enge Räume die Atmosphäre messen und freigeben"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r113-004",
+    "stelle": null
+   },
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R116",
+  "name": "Quarzhaltiger Staub",
+  "wenn": "m.quarzstaub",
+  "entsteht": "Feiner Staub beim Schneiden, Schleifen oder Bohren von Stein, Beton und Komposit",
+  "gefaehrdung": "g-quarzstaub",
+  "massnahmen": [
+   {
+    "id": "R116-M1",
+    "art": "T",
+    "text": "Staubarm arbeiten: nass bearbeiten oder an der Entstehungsstelle absaugen"
+   },
+   {
+    "id": "R116-M2",
+    "art": "O",
+    "text": "Staub aufsaugen, nicht trocken kehren oder abblasen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "trgs-559",
+    "stelle": null
+   },
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R117",
+  "name": "Ziehen und Schieben",
+  "wenn": "v.ziehen_schieben",
+  "entsteht": "Schwere Wagen oder Karren, unebene Wege, Steigungen",
+  "gefaehrdung": "g-ziehen-schieben",
+  "massnahmen": [
+   {
+    "id": "R117-M1",
+    "art": "O",
+    "text": "Belastung mit der Leitmerkmalmethode Ziehen und Schieben bewerten"
+   },
+   {
+    "id": "R117-M2",
+    "art": "T",
+    "text": "Geeignete Transportmittel bereitstellen und Fahrwege eben halten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "bauau-lmm",
+    "stelle": null
+   },
+   {
+    "id": "lasthandhabv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

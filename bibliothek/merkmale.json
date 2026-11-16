@@ -119,5 +119,8 @@
  "u.zwangshaltung": "Arbeiten gebückt, kniend, über Kopf oder weit vorgebeugt",
  "a.hebebuehne": "Fahrzeug-Hebebühne, Arbeiten unter angehobenem Fahrzeug",
  "v.bohren_stein": "Bohren oder Stemmen in Beton und Stein",
- "a.maschine": "Kraftbetriebene Maschine, die bedient wird"
+ "a.maschine": "Kraftbetriebene Maschine, die bedient wird",
+ "m.erstickend": "Gas, das den Sauerstoff verdrängt: Stickstoff, Argon, Kohlendioxid, Kältemittel",
+ "m.quarzstaub": "Mineralischer Staub mit Quarzanteil",
+ "v.ziehen_schieben": "Ziehen und Schieben von Lasten mit Wagen oder Karre"
 }

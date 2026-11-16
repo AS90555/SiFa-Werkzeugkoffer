@@ -1,0 +1,67 @@
+{
+ "id": "R008-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Spritzer auf Haut und Augen; Handschuhe und Schutzbrille passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Lösemittellappen im offenen Karton; geschlossen halten, Zündquellen fernhalten."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Rahmen von Hand auf die Bahn legen; Absetzen auf Unterlagen, Finger nicht unter die Last."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "25-kg-Rahmen alle 40 Sekunden."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Psychische Belastung durch Takt wird von keinem Eintrag gemeint; Hand-Arm-Beschwerden sind eine andere Gefahr."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Anlage mit Düsenwechsel und Reinigung; typisch bei Anlagen."
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "urteil": "berechtigt",
+   "grund": "Imprägnierung, Grundierung und Lösemittel aus Fässern."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Lösemittel und Lappen im offenen Karton."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Rollenbahn mit Einzugsstellen, Rahmen werden von Hand aufgelegt."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Immer gleiches Heben im festen 40-Sekunden-Takt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Bedienfehler."
+  }
+ ]
+}

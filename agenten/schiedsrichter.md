@@ -36,6 +36,6 @@ Urteile streng und nüchtern, in jeder Runde gleich:
 - Im Zweifel `verfehlt`.
 - Zusatzfunde bekommen eines von drei Urteilen:
   - `berechtigt`: Das Protokoll nennt den Anlass ausdrücklich.
-  - `typisch`: Das Protokoll spricht den Anlass nicht aus, aber die Gefährdung gehört nach fachlicher Erfahrung typischerweise zu der beschriebenen Tätigkeit, Maschine oder dem Material (scharfkantiges Blech und Schnittverletzung, Winkelschleifer und Lärm, Schweißen und Rauch). Eine Fachkraft würde sie an diesem Platz von sich aus prüfen.
+  - `typisch`: Das Protokoll spricht den Anlass nicht aus, aber die Gefährdung gehört nach fachlicher Erfahrung typischerweise zu der beschriebenen Tätigkeit, Maschine oder dem Material (scharfkantiges Blech und Schnittverletzung, Winkelschleifer und Lärm, Schweißen und Rauch). Eine Fachkraft würde sie an diesem Platz von sich aus prüfen. Dazu gehört an jeder kraftbetriebenen Maschine auch die Frage nach Unterweisung, Betriebsanweisung und bestimmungsgemäßer Bedienung.
   - `unbegruendet`: Weder genannt noch typisch für das Beschriebene, oder aus einer falschen Zuordnung entstanden (Heckenschnitt als Holzbearbeitung, Kranlast als Heben von Hand).
 - Im Zweifel zwischen `typisch` und `unbegruendet`: `unbegruendet`.

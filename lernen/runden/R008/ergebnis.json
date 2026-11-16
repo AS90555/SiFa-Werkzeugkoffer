@@ -1,0 +1,146 @@
+{
+ "runde": "R008",
+ "blind": true,
+ "regeln": 115,
+ "quote": 76,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 57,
+  "schritte": 40,
+  "maengel": 31
+ },
+ "faelle": [
+  {
+   "id": "R008-01",
+   "arbeitsplatz": "Kammerofen mit Schutzgas, Chargieren",
+   "branche": "Härterei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-02",
+   "arbeitsplatz": "Reparatur einer Werkzeugmaschine beim Kunden",
+   "branche": "Maschinenservice",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-03",
+   "arbeitsplatz": "Kältemittel umfüllen, Arbeiten auf dem Dach",
+   "branche": "Kälte- und Klimatechnik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-04",
+   "arbeitsplatz": "Rohbau, Roboterzelle, Störung beseitigen",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-05",
+   "arbeitsplatz": "WIG-Schweißen an Edelstahl, Arbeiten im Behälter",
+   "branche": "Behälterbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-06",
+   "arbeitsplatz": "Montage beim Kunden, Einbau einer Küche",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-07",
+   "arbeitsplatz": "Flutanlage für Imprägnierung und Grundierung",
+   "branche": "Fenster in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R008-08",
+   "arbeitsplatz": "Löten und Bestücken von Baugruppen",
+   "branche": "Elektromechanik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "2": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 8,
+   "verfehlt": 4
+  },
+  "5": {
+   "getroffen": 2,
+   "verfehlt": 2
+  },
+  "6": {
+   "getroffen": 1,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 6,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 0,
+   "verfehlt": 2
+  }
+ },
+ "schiedsrichter": {
+  "quote": 76,
+  "getroffen": 35,
+  "rueckfrage": 0,
+  "verfehlt": 11,
+  "unbegruendet": 0,
+  "zBerechtigt": 26,
+  "zTypisch": 15,
+  "zUnbegruendet": 8
+ }
+}

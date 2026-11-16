@@ -1,0 +1,73 @@
+{
+ "id": "R008-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Pendelnde Last trifft Personen ist nicht das Herabfallen der Last; kein Eintrag meint das Pendeln."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Körbe von 30 bis 80 kg von Hand schieben; Hebehilfe und Bewertung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Verbrennung an der offenen Ofentür ist nicht Hitzebelastung des Körpers; keine Maßnahme gegen Berührung heißer Teile."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Brand durch Öl und Ablagerung am heißen Ofen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Öldampf bei zugesetzter Lüftung; Lüftung instand setzen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Stickstoff und Sauerstoffmangel wird vom System nicht genannt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Im Protokoll kein Wort zu Lärm."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Körbe werden mit dem Hallenkran an den Ofen gehoben."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Boden leicht ölig, Schläuche am Boden, Ablagerung unter dem Ofen."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "typisch",
+   "grund": "Körbe werden mit Druckluft gereinigt, dabei wird Staub aufgewirbelt."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Man spürt die Hitze schon auf einen Meter Abstand."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Beleuchtung schwach, man muss mit der Taschenlampe nachsehen."
+  }
+ ]
+}

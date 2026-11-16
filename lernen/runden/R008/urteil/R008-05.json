@@ -1,0 +1,98 @@
+{
+ "id": "R008-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Edelstahl-Schweißrauch im engen Behälter, Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Der Eintrag zum Silo meint Schüttgut und Verschüttung; Argon-Verdrängung wird nicht gemeint, seine Maßnahmen passen nicht zur Ursache."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Ätzende Beizpaste; Handschuhe und Schutzbrille passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Getroffen werden von Klammer oder Teil",
+   "grund": "Funken und Splitter, berstende Scheibe des Winkelschleifers; Schutzhaube und Gesichtsschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Lichtbogen blendet den Helfer."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser Boden vor der Tür."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Winkelschleifer im Behälter ist typisch laut."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Winkelschleifer wird von Hand geführt."
+  },
+  {
+   "gefaehrdung": "Verschüttung, Sauerstoffmangel, Absturz im Silo",
+   "urteil": "unbegruendet",
+   "grund": "Kein Silo und kein Schüttgut; falsche Zuordnung."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Heiße Schweißnähte und Werkstücke beim Schweißen."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Funken von Schweißen und Schleifen im Behälter."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "typisch",
+   "grund": "Argonflasche an der Wand; typisch für Gasflaschen."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Hallentor offen, im Winter ist es kalt."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Schleifstaub wird mit Druckluft vom Tisch geblasen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Bedienfehler."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Die Paste steht in einem offenen Eimer."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Luft riecht nach Metall, der Ventilator bringt nicht viel."
+  }
+ ]
+}

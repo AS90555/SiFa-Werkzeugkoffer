@@ -385,5 +385,12 @@
   "stufe": "empfehlung",
   "stand": "März 2023",
   "datei": "DGUV/DGUV-Regel-109-009_Fahrzeuginstandhaltung.pdf"
+ },
+ {
+  "id": "trgs-559",
+  "titel": "TRGS 559 Quarzhaltiger Staub",
+  "stufe": "vermutungswirkung",
+  "stand": "siehe Datei",
+  "datei": "TRGS/TRGS-559.pdf"
  }
 ]

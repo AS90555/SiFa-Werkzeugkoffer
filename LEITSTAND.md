@@ -1,10 +1,10 @@
 # Leitstand
 
-Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R008 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Lernrunde im Feld BGHM** (2. von 2 vor der nächsten Prüfrunde): `node lernen/runde.js neu lern`.
+1. **Prüfrunde im Feld BGHM** (16 Arbeitsplätze): `node lernen/runde.js neu pruef`.
 
 ## Wartet auf Andre
 
@@ -16,16 +16,16 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 115 |
+| Regeln | 118 |
 | Organisationspflichten | 20 |
-| Gefährdungen | 56 |
-| Stammdaten | 175 |
-| Wörterbuch | 116 |
-| Regeln doppelt belegt | 32 von 115 (28 %) |
+| Gefährdungen | 59 |
+| Stammdaten | 180 |
+| Wörterbuch | 123 |
+| Regeln doppelt belegt | 32 von 118 (27 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
-| Freie Aufträge im Abdeckungsplan | 113 von 167 |
+| Freie Aufträge im Abdeckungsplan | 105 von 167 |
 
 ## Runden
 
@@ -38,6 +38,7 @@ Stand nach R007 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R005 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 64 % | 30 von 47 | 15 |  | 9 | ja |
 | R006 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 |  | 7 | ja |
 | R007 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 63 % | 27 von 43 | 19 |  | 15 | ja |
+| R008 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 76 % | 35 von 46 | 26 | 15 | 8 | ja |
 
 ## Beleg-Läufe
 

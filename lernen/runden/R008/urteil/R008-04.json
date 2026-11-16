@@ -1,0 +1,73 @@
+{
+ "id": "R008-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unerwarteter Anlauf im Sonderbetrieb",
+   "grund": "Roboter nur im Automatikbetrieb angehalten, Personen in der Zelle; Abschalten und Sichern passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Helles Blitzen des Lichtbogens."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Schweißrauch, Absaugung läuft nur halb."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Spritzer und Funken, brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Paletten im Gang, Teile auf dem Boden."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laut von den Pressen nebenan."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Schweißspritzer und heiße Brenner und Teile gehören zum Schweißen."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Bleche werden mit dem Kran in Spannvorrichtungen gelegt."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Eine Absaugung läuft nur halb, eine Düse ist abgeklemmt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Bedienfehler oder fehlende Kenntnis."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Lichtschranke ist mit Klebeband überbrückt."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Zwei Personen stehen in der Zelle, der Roboter ist nicht abgeschaltet."
+  }
+ ]
+}

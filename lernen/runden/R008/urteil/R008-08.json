@@ -1,0 +1,63 @@
+{
+ "id": "R008-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Lötrauch, Absaugarm weit weg vom Kopf; Absaugung instand setzen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Lötkolben mit 350 Grad; fester Ablageplatz passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Offene Netzteile am Netz; Berührschutz wiederherstellen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Isopropanol im offenen Becher; geschlossen halten, Zündquellen fernhalten."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Kopf nach vorn gebeugt, Lupe steht tief; ergonomisch anpassen."
+  },
+  {
+   "nr": 6,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Psychische Belastung durch Taktvorgabe wird von keinem Eintrag gemeint."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Instandhaltung oder Sonderbetrieb."
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "urteil": "berechtigt",
+   "grund": "Lötzinn, Flussmittel und Isopropanol werden verwendet."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Isopropanol neben Lötkolben mit 350 Grad."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Isopropanol und Flussmittel reizen typischerweise Haut und Augen."
+  }
+ ]
+}

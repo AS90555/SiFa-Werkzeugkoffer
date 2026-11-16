@@ -1,0 +1,67 @@
+{
+ "id": "R008-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Spindel von Hand gedreht bei offener Verkleidung; Schutzeinrichtung wiederherstellen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Messen im offenen Schaltschrank; spannungsfreien Zustand herstellen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "grund": "Abfüllen von Kühlschmierstoff; Hautschutz und Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser Boden, enger Gang, Kisten und Paletten."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm der Nachbarmaschinen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "berechtigt",
+   "grund": "Hauptschalter aus, aber kein Sperrschild; Maschine kann unerwartet anlaufen."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Blechverkleidung und Späne gehören typisch zur Fräsmaschine."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Gabelstapler fahren vorbei, während der Techniker am Schaltschrank arbeitet."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Späne fliegen beim Reinigen mit Druckluft durch die Halle."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Gabelstapler fahren vorbei, während der Techniker am Schaltschrank arbeitet."
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "urteil": "berechtigt",
+   "grund": "An der Verkleidung hängt kein Schild, dass die Maschine gesperrt ist."
+  }
+ ]
+}

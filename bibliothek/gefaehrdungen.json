@@ -117,7 +117,7 @@
  {
   "id": "g-enger-raum",
   "faktor": 8,
-  "name": "Verschüttung, Sauerstoffmangel, Absturz im Silo"
+  "name": "Verschüttung, Sauerstoffmangel oder Absturz in Silos, Behältern und engen Räumen"
  },
  {
   "id": "g-abstimmung",
@@ -278,5 +278,20 @@
   "id": "g-arbeitsweise",
   "faktor": 11,
   "name": "Unfall durch eine gefährliche Arbeitsweise oder Lage"
+ },
+ {
+  "id": "g-sauerstoffmangel",
+  "faktor": 3,
+  "name": "Ersticken durch Gase, die den Sauerstoff verdrängen"
+ },
+ {
+  "id": "g-quarzstaub",
+  "faktor": 3,
+  "name": "Lungenerkrankung durch mineralischen Staub mit Quarzanteil"
+ },
+ {
+  "id": "g-ziehen-schieben",
+  "faktor": 9,
+  "name": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten"
  }
 ]

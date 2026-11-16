@@ -1,0 +1,68 @@
+{
+ "id": "R008-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Oberschränke auf der Trittleiter; Leitermaßnahmen passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel quer im Flur und über der Spüle, Betriebsmittel prüfen und entziehen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Quarzstaub; die Staub-Gefährdung fehlt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Bohrhammer so laut, dass man schreien muss."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schränke und 60-kg-Platte über das Treppenhaus."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Kniend unter der Spüle."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "berechtigt",
+   "grund": "Platte wird mit der Handkreissäge gekürzt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel quer durch den Flur und Treppenhaus mit Last."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "Fenster bleiben zu, keine Lüftung."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Bedienfehler."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "typisch",
+   "grund": "Montageleim und Silikon, Fenster zu; Dämpfe typisch."
+  }
+ ]
+}
