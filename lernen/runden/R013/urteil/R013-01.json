@@ -1,0 +1,19 @@
+{"id":"R013-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Fahrzeug kippt oder wird falsch bedient","grund":"Angehobenes Fahrzeug rutscht von den Armen, Person liegt darunter; die Maßnahme Aufnahme nur an vorgesehenen Punkten passt zur Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Ölverschmutzter Boden und Ölfleck an der Bühne; Maßnahme Verunreinigungen beseitigen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Bremsenreiniger-Sprühdose steht offen auf der Ablage; Maßnahme Behälter geschlossen halten passt zur Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Ölgetränkte Lappen liegen herum neben brennbarem Reiniger; Maßnahme Zündquellen fernhalten passt."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Altölbehälter wird von Hand zur Sammelstelle getragen; Maßnahme Hebehilfe passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Druckluftschrauber in der Werkstatt; das Protokoll nennt keinen Lärm, eine Fachkraft würde ihn aber prüfen."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Das Protokoll beschreibt keine gleichförmige Arbeit in hoher Zahl, nur Bremsenwechsel."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"berechtigt","grund":"Protokoll: Bremsenreiniger steht offen, Altöl läuft aus, ölige Lappen liegen herum."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Protokoll: Bremsstaub wird mit Druckluft ausgeblasen."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Hebebühne und Druckluftschrauber werden bedient; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"Protokoll: die Beleuchtung ist eher schwach."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"Protokoll: die Beleuchtung ist eher schwach (Mangel vor Ort)."},
+  {"gefaehrdung":"Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung","urteil":"berechtigt","grund":"Protokoll: die Bühne wird jeden Morgen geprüft, ein Protokoll gibt es nicht."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Protokoll: die Lüftung läuft nur bei geöffnetem Tor richtig."}
+ ]}

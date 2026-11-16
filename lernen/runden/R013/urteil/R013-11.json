@@ -1,0 +1,16 @@
+{"id":"R013-11","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der Fußschalter steht im Gang (Mangel vor Ort), die Schere kann beim Vorbeigehen ausgelöst werden; die Maßnahme passt zur Ursache."},
+{"nr":2,"urteil":"getroffen","system":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","grund":"An scharfen Kanten werden die Handschuhe nicht immer getragen (Mangel vor Ort); geeignete Schutzausrüstung und ihre Benutzung passen."},
+{"nr":3,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Der Schutz am Sägeblatt ist teilweise demontiert, die Hand kommt ans laufende Blatt; Schutzhaube und Spaltkeil richtig einstellen passt."},
+{"nr":4,"urteil":"getroffen","system":"Lungenerkrankung durch mineralischen Staub mit Quarzanteil","grund":"Die trocken laufende Säge erzeugt Schamottestaub mit Quarzanteil; nass bearbeiten und absaugen passt."},
+{"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Die bis 300 Kilo schweren Paletten werden von Hand auf den Tisch gezogen; Hebehilfen und Auflage- und Abnahmetische passen."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Die Bleche werden mit einem Sauger angehoben, die Last hängt am Unterdruck."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Auf dem Boden liegen Kanten und Späne; im Protokoll liegen Grate auf dem Boden."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Schere und Säge sind kraftbetriebene Maschinen; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Das Protokoll nennt keinen Lärm; Schere und Kreissäge sind an diesem Platz typischerweise laut."},
+{"gefaehrdung":"Person wird von Fahrzeug angefahren oder überrollt","urteil":"typisch","grund":"Hubwagen mit schweren Paletten bewegen sich im Arbeitsbereich; eine Fachkraft prüft das Zusammenspiel mit den Personen."},
+{"gefaehrdung":"Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten","urteil":"berechtigt","grund":"Die Steine werden mit dem Hubwagen bewegt und dann von Hand auf den Tisch gezogen."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Es liegen Grate auf dem Boden und der Schlamm trocknet zu einer weißen Schicht (Mangel vor Ort)."}
+]}

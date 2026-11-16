@@ -1,0 +1,21 @@
+{"id":"R013-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Träger schwingt beim Auflegen durch den Kran; die Maßnahme Finger nicht unter die Last passt zur Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Sägeblatt läuft ungeschützt, weil die Schutzhaube oben offen ist; Maßnahme Schutzeinrichtungen wirksam passt."},
+  {"nr":3,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Glühende Schlacken fliegen beim Brennen durch die Halle; Maßnahme Funkenflug abschirmen passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Holzpaletten liegen direkt im Funkenbereich; Maßnahme brennbare Stoffe aus dem Funkenbereich entfernen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Haut- und Atemwegserkrankung durch Kühlschmierstoff","grund":"Schneidflüssigkeit riecht nach Öl; Maßnahme Hautschutzplan und Kapselung mit Absaugung passt."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Bandsäge jault so laut, dass man sich nur mit Zeichen verständigt; Maßnahme Gehörschutz und Lärmbereich passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Protokoll: das Anlegen der Profile ist Handarbeit, Träger bis acht Meter lang."},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"typisch","grund":"Profile und Bleche werden geschnitten; scharfe Kanten sind an dieser Stelle typisch."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"typisch","grund":"Bandsäge und Brennschneiden erzeugen Späne und Rauch, Reinigung mit Druckluft wirbelt sie auf."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: Öl und Schneidflüssigkeit, der Boden ist meist nass."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Protokoll: Träger werden von einem Kran auf den Rollenbock gelegt."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Protokoll: im Sommer wird es in der Halle sehr warm, das Dach ist Blech."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Bandsäge und Brennschneidanlage werden bedient; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Protokoll: die Schutzhaube der Säge ist oben offen."},
+  {"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Protokoll: Flaschen stehen ungesichert an der Wand, glühende Schlacken fliegen auf Holzpaletten."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: der Boden ist meist nass (Mangel vor Ort)."}
+ ]}

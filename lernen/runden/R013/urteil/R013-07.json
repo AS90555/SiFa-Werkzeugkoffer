@@ -1,0 +1,15 @@
+{"id":"R013-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Presse wird hydraulisch zugefahren, man muss zwischen Presse und Wand durch; Maßnahme Schutzeinrichtung wirksam passt."},
+  {"nr":2,"urteil":"getroffen","system":"Person wird von Fahrzeug angefahren oder überrollt","grund":"Hallenstapler fährt das Paket in die Presse, Personen sind im Verkehrsraum; Maßnahme Fahr- und Gehwege trennen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Zweikomponentenleim wird ohne Absaugung gemischt; Maßnahme Lüftung oder Absaugung instand setzen passt zur Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schwere Lamellen werden von Hand aufgelegt und gewendet; Maßnahme Hebehilfe passt."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die Halle ist warm, Körperarbeit bei Hitze; Maßnahme Abschirmung der Wärmequelle und Trinkpausen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Späne und Leimreste liegen auf dem Boden; Maßnahme Verunreinigungen beseitigen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"berechtigt","grund":"Protokoll: das Paket wiegt mehrere hundert Kilo und wird mit dem Stapler eingefahren."},
+  {"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Holzlamellen werden von Hand bewegt und gewendet; Splitter sind bei Holz typisch."},
+  {"gefaehrdung":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","urteil":"berechtigt","grund":"Protokoll: Zweikomponentenleim wird aus Pulver und Wasser angesetzt, riecht stark, Gebinde und Reinigung."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Presse und Hallenstapler werden bedient; Unterweisung und Betriebsanweisung sind zu prüfen."}
+ ]}

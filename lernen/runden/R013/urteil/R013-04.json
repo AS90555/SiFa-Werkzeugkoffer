@@ -1,0 +1,25 @@
+{"id":"R013-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","grund":"Protokoll: die Ketten reißen gelegentlich; Maßnahme Arbeitsmittel mit Mängeln nicht verwenden passt zur Ursache."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Nichts in der Systemliste meint das Quetschen zwischen Richtbank und Wand; die Maßnahmen passen nicht zu dieser Ursache."},
+  {"nr":3,"urteil":"getroffen","system":"Getroffen werden von Klammer oder Teil","grund":"Trennscheibe kann bersten; Maßnahme Schutzhaube richtig einstellen und Gesichtsschutz passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Funkenflug reicht bis zum Lackregal; Maßnahme brennbare Stoffe aus dem Funkenbereich entfernen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Dämpfe von Grundierung und Füller entstehen beim Schweißen; Maßnahme an der Entstehungsstelle erfassen oder lüften passt."},
+  {"nr":6,"urteil":"getroffen","system":"Augen- und Hautschaden durch optische Strahlung","grund":"Schweißer trägt nur eine Brille, der Lichtbogen wirkt auf Auge und Haut; Maßnahme Schweißerschutzschild passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Trennschleifer wird den ganzen Tag benutzt; eine Fachkraft würde den Lärm prüfen."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"unbegruendet","grund":"Das Protokoll nennt keine Instandhaltung oder Sonderbetrieb."},
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Protokoll: Trennschleifer mit rotierender Trennscheibe wird den ganzen Tag benutzt."},
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"unbegruendet","grund":"Protokoll beschreibt kein Heben schwerer Lasten als Tätigkeit des Platzes."},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"typisch","grund":"Bleche werden getrennt; scharfe Kanten sind an dieser Stelle typisch."},
+  {"gefaehrdung":"Atemwegserkrankung durch Schweißrauch","urteil":"berechtigt","grund":"Protokoll: Schutzgasschweißen an beschichteten Blechen unterboden."},
+  {"gefaehrdung":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","urteil":"typisch","grund":"Trennen und Schweißen erzeugen Funkenflug; eine Fachkraft würde den Schutz vor Funken prüfen."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: Späne liegen am Boden."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"berechtigt","grund":"Protokoll: zwischen Richtbank und Wand sind nur neunzig Zentimeter."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"typisch","grund":"Trennschleifer ohne Absaugung und Reinigung mit Druckluft wirbeln Metallstaub auf."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Richtbank, Trennschleifer und Schweißgerät werden bedient; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Protokoll: der Funkenflug geht bis zum Regal mit den Lacken."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Protokoll: der Schweißer steht meist ohne Schweißschirm, trägt nur eine Brille."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: Späne liegen überall (Mangel vor Ort)."}
+ ]}

@@ -1,0 +1,18 @@
+{"id":"R013-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Schweres Blech wird von Hand abgesetzt und mit dem Kran eingehängt; Maßnahme Finger nicht unter die Last passt zur Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Teile sind scharfkantig, der Grat ist noch dran; Maßnahme schnittfeste Handschuhe und entgraten passt."},
+  {"nr":3,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Haube ist während des Betriebs offen; Maßnahme Arbeitsmittel erst verwenden, wenn die Schutzeinrichtung wirksam ist, passt."},
+  {"nr":4,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Absaugung hängt mit losen Schläuchen über der Anlage; Maßnahme Lüftung oder Absaugung instand setzen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Dauerbetrieb nachts ohne Bedienung durch Funken; Maßnahmen brennbare Stoffe entfernen und Feuerlöscher passen."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Lärm so hoch, dass nur mit Headset gesprochen wird; Maßnahme Lärm am Entstehungsort verringern und Gehörschutz passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Protokoll: Bleche von 80 bis 150 Kilo werden eingehängt, Teile von Hand herausgezogen."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Protokoll: der Techniker wechselt die Düsen wöchentlich an der laufenden Anlage; eine Fachkraft würde den Anlauf bei Wartung prüfen."},
+  {"gefaehrdung":"Umfallende Druckgasflasche, abgerissenes Ventil","urteil":"typisch","grund":"Schneidgas Stickstoff kommt aus einer Flasche neben der Anlage."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Protokoll: das Blech wird mit dem Hallenkran eingehängt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Laserschneidanlage wird am Bedienpanel bedient; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Ersticken durch Gase, die den Sauerstoff verdrängen","urteil":"typisch","grund":"Stickstoff als Schneidgas aus einer Flasche neben der Anlage; eine Fachkraft würde die Lüftung prüfen."},
+  {"gefaehrdung":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","urteil":"typisch","grund":"Beim Schneiden entstehen Rauch und Funken; eine Fachkraft würde den Funkenschutz prüfen."}
+ ]}

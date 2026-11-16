@@ -1,0 +1,18 @@
+{"id":"R013-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Monteur arbeitet in neun Metern Höhe ohne Auffanggurt; Maßnahme Gurt am Anschlagpunkt in der Hubarbeitsbühne passt."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Nichts in der Systemliste meint das Kippen der Hubarbeitsbühne auf dem abfallenden Boden."},
+  {"nr":3,"urteil":"getroffen","system":"Last fällt, rutscht oder trifft Personen","grund":"Rohre werden über dem Kopf gehalten, darunter arbeiten Kollegen mit Hubwagen; Maßnahme Bereich darunter absperren passt."},
+  {"nr":4,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Verlängerungskabel liegt über den Boden und kann durch Hubwagen beschädigt werden; Maßnahme Leitungen so verlegen, dass sie nicht beschädigt werden, passt."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Nichts in der Systemliste meint das Einatmen von Dieselabgasen."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Kalte, zugige Arbeit in der Höhe bei offenem Tor; Maßnahme arbeitsplatzbezogen heizen passt."},
+  {"nr":7,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Rohre von sechs bis zwölf Kilo werden über dem Kopf gehalten; Maßnahme Hebehilfe passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"typisch","grund":"Rohre werden mit Gewinde nachgeschnitten; scharfe Kanten und Grate sind an dieser Stelle typisch."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: Verlängerungskabel läuft über den Boden zur Bühne."},
+  {"gefaehrdung":"Muskel-Skelett-Beschwerden durch Zwangshaltung","urteil":"berechtigt","grund":"Protokoll: die Monteure halten die Rohre über den Kopf, während sie Gewinde einstecken."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"berechtigt","grund":"Protokoll: Eimer mit Gewindeschneidöl steht im Korb."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Protokoll: die Sicherung mit Auffanggurt wird heute nicht getragen."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Protokoll: im Korb liegt verstreut Schrott (Mangel vor Ort)."}
+ ]}

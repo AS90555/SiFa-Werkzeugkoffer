@@ -1,0 +1,15 @@
+{"id":"R013-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Plattform hat ein Geländer nur auf einer Seite; Maßnahme Absturzsicherung herstellen und Bereich sperren passt."},
+  {"nr":2,"urteil":"getroffen","system":"Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung","grund":"Rollgerüst wird ohne Kontrolle aufgebaut, nur die Rollen werden festgestellt; Maßnahme Prüfung nachholen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schwere Platten werden den ganzen Tag über Kopf gehalten; Maßnahme Hebehilfe passt zur Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Kabel hängen über den Gang; Maßnahme Verkehrswege freihalten und Stolperstellen beseitigen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Verlängerungsleitung liegt quer durch den Raum und kann beschädigt werden; Maßnahme Leitungen so verlegen, dass sie nicht beschädigt werden, passt."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Rohbau mit offenen Fenstern, es zieht und ist kalt; Maßnahme arbeitsplatzbezogen heizen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"unbegruendet","grund":"Protokoll nennt Akkuschrauber und Handsäge, aber keinen lauten Betrieb."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"typisch","grund":"Protokoll: Akkuschrauber wird für Deckenplatten eingesetzt; eine Fachkraft würde die Wiederholung prüfen."},
+  {"gefaehrdung":"Muskel-Skelett-Beschwerden durch Zwangshaltung","urteil":"berechtigt","grund":"Protokoll: die Platten werden den ganzen Tag über den Kopf gedrückt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Akkuschrauber und Handsäge werden bedient; Unterweisung und Betriebsanweisung sind zu prüfen."}
+ ]}

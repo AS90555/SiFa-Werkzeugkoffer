@@ -1,0 +1,19 @@
+{"id":"R013-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Einzug von Hand oder Arm","grund":"Hände, Ärmel und Haare können vom drehenden Werkstück erfasst werden; Maßnahmen Werkstück spannen und eng anliegende Kleidung passen."},
+  {"nr":2,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Protokoll: der Schlüssel liegt noch im Futter (Mangel vor Ort); Maßnahme Arbeit unterbrechen und sichere Arbeitsweise festlegen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Späne werden ohne Handschuh weggeschoben; Maßnahme schnittfeste Handschuhe passt."},
+  {"nr":4,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Welle hängt am Kran und kann abrutschen; Maßnahmen Niemand unter der Last und Anschlagmittel prüfen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Person wird von Fahrzeug angefahren oder überrollt","grund":"Der Stapler im Gang kreuzt den Arbeitsplatz; Maßnahme Fahr- und Gehwege trennen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Haut- und Atemwegserkrankung durch Kühlschmierstoff","grund":"Kühlschmierstoff läuft auf das Werkstück, die Wanne ist halbvoll, Aerosol entsteht; Maßnahmen Kapselung und Hautschutz passen."},
+  {"nr":7,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Eine Leuchtstoffröhre ist defekt; Maßnahme ausgefallene Leuchten umgehend instand setzen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Drehmaschine läuft mit bis zu tausend Umdrehungen; eine Fachkraft würde den Lärm an dieser Maschine prüfen."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"unbegruendet","grund":"Das Protokoll nennt keine Instandhaltung oder Sonderbetrieb."},
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Protokoll: die Hand ist bei laufender Maschine nah am Werkstück, der Span wird ohne Handschuh weggeschoben."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"typisch","grund":"Kühlschmierstoff läuft aus, Auffangwanne ist halbvoll; Boden kann rutschig werden."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"unbegruendet","grund":"Das Protokoll nennt Späne und Kühlschmierstoff, keinen Staub."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Drehmaschine wird von einem Dreher allein bedient; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Protokoll: der Schutz vor dem Futter ist nur ein Bügel aus Blech (Mangel vor Ort)."}
+ ]}

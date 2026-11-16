@@ -1,0 +1,15 @@
+{"id":"R013-10","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Haube steht offen (Mangel vor Ort), Finger können in Fräse und Säge geraten; die Maßnahme, nur mit vorhandener und wirksamer Schutzeinrichtung zu arbeiten, passt."},
+{"nr":2,"urteil":"verfehlt","system":null,"grund":"Ein unerwarteter Anlauf beim Wechsel der Fräsköpfe steht nicht in der Liste; der offene Hauptschalter gehört zu einem Eintrag über die Schutzeinrichtung, der Anlauf ist eine andere Gefahr."},
+{"nr":3,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die Hitze in der Halle ohne Lüftung ist genannt; Lüftung und Trinkpausen passen."},
+{"nr":4,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Das Heben der 4 bis 5 Kilo schweren Profilstangen von Hand ist genannt; eine Hebehilfe passt."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Die Schutzhaube steht offen, weil sie beim Einrichten im Weg ist, und die Fräse läuft."},
+{"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Das Protokoll nennt keinen Lärm, aber Fräse und Säge sind an dieser Anlage typischerweise laut."},
+{"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Kunststoffspäne aus dem Fräsen sind brennbar und werden abgesaugt; die Absaugung und die Späne sind zu prüfen."},
+{"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"berechtigt","grund":"Die Fräsköpfe werden mit der Hand gewechselt und sind scharf."},
+{"gefaehrdung":"Einzug von Hand oder Arm","urteil":"berechtigt","grund":"Eine Vorschubwalze zieht die Stangen in die Fräse, und sie werden von vorne eingelegt."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Einrichten und Messerwechsel an einer kraftbetriebenen Anlage; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"unbegruendet","grund":"Der Mangel betrifft Hitze in der Halle, nicht Gase, Rauch oder Dämpfe; das ist eine falsche Zuordnung."}
+]}

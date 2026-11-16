@@ -1,0 +1,17 @@
+{"id":"R013-09","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Beim Anschlagen von Hand am Kran kann die Last abrutschen oder pendeln; die Maßnahme Anschlagmittel vor Gebrauch prüfen passt zur Ursache."},
+{"nr":2,"urteil":"getroffen","system":"Getroffen werden von Klammer oder Teil","grund":"Brechende Trenn- und Schruppscheiben schleudern Teile weg; Schutzhaube und Gesichtsschutz bei Trennscheiben passen."},
+{"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Metall- und Quarzstaub beim Schleifen und Strahlen, die Absaugung am Schleifbock hängt nur teilweise; Absaugung an der Entstehungsstelle passt."},
+{"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Lautheit der Halle ist im Protokoll genannt; Lärmminderung und Gehörschutz passen."},
+{"nr":5,"urteil":"verfehlt","system":null,"grund":"Vibrationen der Handschleifmaschinen stehen nicht in der Liste; die Rückfrage betrifft gleichförmige Arbeit, nicht Vibration."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Die Instandhaltung stellt die Maschinen ein, Anlauf im Sonderbetrieb ist an diesem Platz von einer Fachkraft zu prüfen."},
+{"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"unbegruendet","grund":"Das Protokoll beschreibt keine bewegten Teile, an denen Hände gequetscht werden können."},
+{"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Schleifen und Strahlen erzeugen Metallstaub, dessen Explosionsschutz eine Fachkraft an diesem Platz prüft."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Handschleifmaschinen und Strahlkabine werden bedient; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"typisch","grund":"Mit Handschleifmaschinen an Trenn- und Schruppscheiben gehört der Kontakt mit dem laufenden Werkzeug zur Tätigkeit."},
+{"gefaehrdung":"Brand oder Explosion durch entzündbare Stoffe oder Gase","urteil":"typisch","grund":"Schleifen erzeugt Funken; eine Fachkraft prüft den Funkenflug am Schleifbock."},
+{"gefaehrdung":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","urteil":"typisch","grund":"Funkenflug beim Schleifen kann Haut und Kleidung treffen."},
+{"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"unbegruendet","grund":"Der Mangel an der Absaugung betrifft Staub; von Gasen, Rauch oder Dämpfen steht im Protokoll nichts."}
+]}
