@@ -1,0 +1,18 @@
+{"id":"R010-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der Mangel-Eintrag nennt die hochgeklappte Schutzhaube; Arbeitsmittel erst mit wirksamer Schutzeinrichtung verwenden passt."},
+  {"nr":2,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Warme Walzen und Profile; Handschuhe und Ablageplatz für heiße Teile passen."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Kein Eintrag meint Kleberdämpfe, Lösemittel oder Hautkontakt mit Gefahrstoffen."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Lärm durch Anlage und Kompressor wird als Gehörschaden mit Lärmminderung und Gehörschutz erfasst."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Spürbar warme Halle im Sommer; Lüftung und Trinkpausen passen."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Mangel-Eintrag nennt die Ausschussteile auf dem Boden neben dem Auslauf."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Profile werden von Hand aufgelegt, abgenommen und gestapelt."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Die Walzen werden bei hochgeklappter Haube gereinigt und die Anlage vom Schichtführer umgestellt."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"berechtigt","grund":"Profile werden auf das Einzugsband gelegt und über Walzen gezogen, die Haube steht offen."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Die Ummantelungsanlage ist eine kraftbetriebene Maschine mit Unterweisungsbedarf."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Zum Abwischen muss man an die Walzen greifen, während sie noch warm sind."},
+  {"gefaehrdung":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","urteil":"unbegruendet","grund":"Der Maschinentakt wird erwähnt, Zeitdruck oder Hektik steht nicht im Protokoll."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Auflegen und Abnehmen ist beschrieben, aber keine hohe Zahl gleicher Bewegungen."}
+ ]}

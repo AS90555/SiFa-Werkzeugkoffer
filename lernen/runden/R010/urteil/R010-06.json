@@ -1,0 +1,21 @@
+{"id":"R010-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der Mangel-Eintrag nennt die offene Schutzhaube an der Abbundanlage."},
+  {"nr":2,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Elemente von etwa 80 kg werden mit dem Kran angehoben; Anschlagmittel prüfen und nicht darunter stehen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Getroffen werden von Klammer oder Teil","grund":"Druckluftnagler mit Klammer; Auslösesicherung und Hand aus der Schusslinie passen."},
+  {"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Späne und Holzstaub überall; Absaugung und Verbot des Abblasens passen."},
+  {"nr":5,"urteil":"getroffen","system":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","grund":"Der Mangel-Eintrag nennt die juckende Mineralwolle und die nicht getragenen Handschuhe."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Halle mit Rufen zum Gegenüber; Lärmminderung und Gehörschutz passen."},
+  {"nr":7,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Platten werden immer wieder vom Stapel getragen; Hebehilfe und Tätigkeitswechsel passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Die Anlage schneidet, bohrt und fräst, die Schutzhaube ist offen."},
+  {"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Kanthölzer und OSB-Platten werden von Hand aufgelegt, dabei sind Splitter und Kanten typisch."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Der Maschinenführer rüstet um, wechselt Sägeblätter und verstellt die Anschläge."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"berechtigt","grund":"Späne und Holzstaub liegen überall herum."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"typisch","grund":"Die Zuführrollenbahn der Abbundanlage hat Einzugsstellen an Rollen."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Späne und Holzstaub liegen überall herum."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Schwere Elemente und Balken werden von Hand abgesetzt und gelegt."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Am Ende der Schicht wird mit Druckluft abgeblasen."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Abbundanlage, Nagler und Kran sind kraftbetriebene Geräte mit Unterweisungsbedarf."}
+ ]}

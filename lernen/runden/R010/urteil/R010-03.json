@@ -1,0 +1,14 @@
+{"id":"R010-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Säure und Lauge auf Haut und Augen beim Umschütten; säurefeste Handschuhe, Schutzbrille und Augenspülung passen."},
+  {"nr":2,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der Mangel-Eintrag nennt die laufende Absaugung bei offenem Deckel; Lüftung instand setzen und Wirksamkeit prüfen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Mangel-Eintrag nennt die feuchte, rutschige Bühne aus Gitterrost."},
+  {"nr":4,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Warme, feuchte Halle und Zug von der Tür; Lüftung und Aufenthalt begrenzen passen zur Ursache."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Er holt Säcke mit Pulver, Fässer mit Natronlauge und Kanister aus dem Lager."},
+  {"gefaehrdung":"Absturz aus der Höhe","urteil":"berechtigt","grund":"Er steht auf einer Leiter und kippt den Kanister über den Rand."},
+  {"gefaehrdung":"Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät","urteil":"berechtigt","grund":"Ein Galvaniseur, der allein arbeitet, mit Säure und Lauge."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Dafür steht er auf einer Leiter und kippt den Kanister über den Rand."},
+  {"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Die Fässer stehen nebeneinander, die Beschriftung ist an einer Stelle verblasst."}
+ ]}

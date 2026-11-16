@@ -1,0 +1,15 @@
+{"id":"R010-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Schnittverletzung durch das Schneidegerät wird von keinem Eintrag gemeint."},
+  {"nr":2,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Crimpmaschine mit Fußschalter; wirksame Schutzeinrichtung gegen die Schließbewegung mit hoher Kraft passt."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Kein Eintrag meint Druckprüfung mit 400 bar oder platzenden Schlauch."},
+  {"nr":4,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Hautkontakt beim Abkoppeln und Wischen; Schutzhandschuhe und Hautschutzplan mit ölgetränkten Lappen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Mangel-Eintrag nennt das auf den Boden tropfende Hydrauliköl; Verunreinigungen unverzüglich beseitigen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Presse; Lärmminderung und Gehörschutz passen."},
+  {"nr":7,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Der Mangel-Eintrag nennt die dunkle Halle mit Licht nur an der Decke."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Schlauch wird von der großen Rolle gezogen, kräftig nachgedrückt und die Armatur von Hand aufgeschoben."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Bei anderem Durchmesser wechselt der Vorarbeiter den Stempel der Presse."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Hydraulische Presse, Druckluftentgrater und Prüfstand sind kraftbetriebene Geräte mit Unterweisungsbedarf."}
+ ]}

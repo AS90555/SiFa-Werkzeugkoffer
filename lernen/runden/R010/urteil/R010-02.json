@@ -1,0 +1,11 @@
+{"id":"R010-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Die 180-kg-Achse hängt am Kran bzw. Manipulatorhaken; Anschlagmittel prüfen und nicht darunter stehen passen zum Abrutschen beim Einhängen."},
+  {"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Mangel-Eintrag nennt genau die kaum sichtbare Stufe vor dem Montageplatz."},
+  {"nr":3,"urteil":"getroffen","system":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","grund":"Dutzende Schrauben je Achse im kurzen Takt: Leitmerkmalmethode und Arbeitsplatzwechsel passen zur einseitigen wiederholten Belastung."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der Kompressor-Lärm wird als Gehörschaden mit Lärmminderung und Gehörschutz erfasst."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","urteil":"typisch","grund":"Alle fünf Minuten eine neue Achse im kurzen Takt gehört typisch zu Zeitdruck an der Linie."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Pneumatischer Balancer und Druckluftschrauber sind kraftbetriebene Geräte mit Unterweisungsbedarf."}
+ ]}

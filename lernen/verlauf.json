@@ -529,5 +529,61 @@
    }
   },
   "geschlossen": true
+ },
+ {
+  "runde": "R010",
+  "art": "lern",
+  "datum": "2026-11-16",
+  "plaetze": 8,
+  "blind": true,
+  "feld": "bghm",
+  "mass": "schiedsrichter",
+  "quote": 80,
+  "getroffen": 35,
+  "gewertet": 44,
+  "wahrheitUnbegruendet": 0,
+  "zusatzBerechtigt": 27,
+  "zusatzTypisch": 17,
+  "zusatzUnbegruendet": 3,
+  "regeln": 123,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 10,
+    "verfehlt": 4
+   },
+   "2": {
+    "getroffen": 1,
+    "verfehlt": 0
+   },
+   "3": {
+    "getroffen": 8,
+    "verfehlt": 2
+   },
+   "5": {
+    "getroffen": 1,
+    "verfehlt": 2
+   },
+   "6": {
+    "getroffen": 2,
+    "verfehlt": 0
+   },
+   "7": {
+    "getroffen": 5,
+    "verfehlt": 0
+   },
+   "8": {
+    "getroffen": 3,
+    "verfehlt": 0
+   },
+   "9": {
+    "getroffen": 2,
+    "verfehlt": 0
+   },
+   "11": {
+    "getroffen": 3,
+    "verfehlt": 1
+   }
+  },
+  "geschlossen": false
  }
 ]

@@ -1,0 +1,146 @@
+{
+ "runde": "R010",
+ "blind": true,
+ "regeln": 123,
+ "quote": 80,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 51,
+  "schritte": 43,
+  "maengel": 27
+ },
+ "faelle": [
+  {
+   "id": "R010-01",
+   "arbeitsplatz": "Zapfinsel mit Domschacht im Freien",
+   "branche": "Tankstellenservice",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-02",
+   "arbeitsplatz": "Montagelinie mit Achsmanipulator in der Halle",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-03",
+   "arbeitsplatz": "Podest an der Trommelanlage mit Bädern",
+   "branche": "Galvanik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-04",
+   "arbeitsplatz": "Rollenprüfstand in der Box und Probefahrt auf dem Hof",
+   "branche": "Motorradwerkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-05",
+   "arbeitsplatz": "Zargenfertigung an der Ummantelungsanlage",
+   "branche": "Türen in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-06",
+   "arbeitsplatz": "Abbundanlage und Wandelemente auf dem Montagetisch",
+   "branche": "Holzhausbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-07",
+   "arbeitsplatz": "Beschichten von Stahlbauteilen im Freien",
+   "branche": "Korrosionsschutz",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R010-08",
+   "arbeitsplatz": "Schlauchleitungen fertigen und prüfen",
+   "branche": "Hydraulik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 10,
+   "verfehlt": 4
+  },
+  "2": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 8,
+   "verfehlt": 2
+  },
+  "5": {
+   "getroffen": 1,
+   "verfehlt": 2
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 3,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 80,
+  "getroffen": 35,
+  "rueckfrage": 0,
+  "verfehlt": 9,
+  "unbegruendet": 0,
+  "zBerechtigt": 27,
+  "zTypisch": 17,
+  "zUnbegruendet": 3
+ }
+}

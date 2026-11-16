@@ -1,0 +1,17 @@
+{"id":"R010-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Brand oder Explosion durch Diesellache und Dämpfe wird nicht genannt; der Handy-Eintrag ist eine allgemeine Arbeitsweise-Gefährdung aus anderem Anlass."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung des Systems meint Einatmen von Kraftstoffdämpfen oder Hautkontakt mit Diesel."},
+  {"nr":3,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Der Eintrag nennt genau die über den Asphalt hängende Lampe am Verlängerungskabel; die Maßnahme (beschädigte Betriebsmittel entziehen) passt."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Quetschen durch den abrutschenden Deckel beim Hochstemmen wird von keinem Eintrag gemeint."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Der schwere Deckel wird mit dem Brecheisen hochgestemmt, weil man ihn von Hand nicht bewegt."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Der Akkuschrauber wird nur kurz zum Lösen der Abdeckung benutzt, gleichförmige Arbeit steht nicht im Protokoll."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Verlängerungskabel quer über den Asphalt und eine nicht aufgenommene Diesellache am Boden."},
+  {"gefaehrdung":"Absturz aus der Höhe","urteil":"typisch","grund":"Der Domschacht ist bei geöffneter Abdeckung eine offene Öffnung im Boden, die eine Fachkraft prüfen würde."},
+  {"gefaehrdung":"Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar","urteil":"berechtigt","grund":"Ein Feuerlöscher steht zwei Zapfinseln weiter, man müsste ihn holen."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Akkuschrauber ist ein kraftbetriebenes Gerät, Unterweisung und Betriebsanweisung gehören dazu."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Das Handy liegt auf der Säule im Bereich mit Kraftstoffgeruch."},
+  {"gefaehrdung":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","urteil":"berechtigt","grund":"Ein Schlauch zur Pumpe hat einen dunklen Riss, den man beim Hochheben sieht."}
+ ]}

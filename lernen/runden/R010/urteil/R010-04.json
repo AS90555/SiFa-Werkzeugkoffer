@@ -1,0 +1,15 @@
+{"id":"R010-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der Mangel-Eintrag nennt den nur lose am Auspuff hängenden Absaugschlauch; Absaugung instand setzen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Heiße Teile am Motor; Schutzhandschuhe und Schutzkleidung passen zum heißen Krümmer."},
+  {"nr":3,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der laute Motor im Vollgas wird als Gehörschaden mit Gehörschutz erfasst."},
+  {"nr":4,"urteil":"getroffen","system":"Person wird von Fahrzeug angefahren oder überrollt","grund":"Autos fahren am Hof ohne Absperrung vorbei; Fahr- und Gehwege trennen passt."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Brand durch Benzinkanister nahe heißem Motor wird von keinem Eintrag gemeint."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Der Prüfstand wird nach jeder Schicht mit Druckluft ausgeblasen, der Staub landet in der Box."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"typisch","grund":"Hitze am Krümmer bei Vollgas in der geschlossenen Box; Wärmebelastung gehört zu Motorlauf im Stand."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Motorrad auf drehenden Rollen mit Spanngurten, Probelauf mit Personen in der Nähe."},
+  {"gefaehrdung":"Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten","urteil":"berechtigt","grund":"Für die Probefahrt schiebt man das Motorrad in den Hof."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Auf dem Hof gibt es keine Absperrung, Autos fahren vorbei."}
+ ]}
