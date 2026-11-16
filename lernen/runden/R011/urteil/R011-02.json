@@ -1,0 +1,15 @@
+{"id":"R011-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","grund":"Die Halbmasken liegen bereit, werden beim Anrühren und Verarbeiten von Harz und Härter aber nicht getragen; Schutzausrüstung bereitstellen und benutzen passt zu dieser Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Die abgerissene Absaugung am Schleifer ist genau die Ursache des Staubs beim Schleifen, und Absaugung instand setzen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Die offene Tonne mit den harzgetränkten Lappen ist der Anlass, und Behälter geschlossen halten sowie von Zündquellen fernhalten passt dazu."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Der Lüftungsmangel bei Windstille steht im System im selben Eintrag wie die abgerissene Absaugung, der nur einer Wahrheit zugeordnet werden kann; diese Gefahr ist im System nicht eigens vorhanden."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Beschwerden durch Zwangshaltung","grund":"Das Arbeiten über Kopf und kniend ist die beschriebene Zwangshaltung, und Arbeitshöhe so gestalten, dass Zwangshaltungen vermieden werden, passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Das Protokoll nennt keinen Lärmwert, aber Schleifen mit dem Exzenterschleifer gehört fachlich typischerweise zur Lärmfrage."},
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Das Protokoll nennt, dass die Matten über Kopf an den Decksbereich gesetzt werden."},
+  {"gefaehrdung":"Absturz aus der Höhe","urteil":"berechtigt","grund":"Das Protokoll nennt ausdrücklich, dass die Leute über Kopf auf der Leiter stehen."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Das Protokoll nennt keine herabfallenden Teile, aber Arbeiten über Kopf am Rumpf gehören fachlich typischerweise zur Frage nach Absicherung darunter."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Das Protokoll nennt keine Unterweisung zum Exzenterschleifer; die Frage nach Unterweisung und Betriebsanweisung gehört an einer Maschine typischerweise dazu."}
+ ]}

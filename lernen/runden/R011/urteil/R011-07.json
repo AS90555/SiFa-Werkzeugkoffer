@@ -1,0 +1,17 @@
+{"id":"R011-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Der schwebende Träger über dem Boden ist der Anlass, und Niemand unter der schwebenden Last sowie Anschlagmittel prüfen passen dazu."},
+  {"nr":2,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Der Monteur steht auf der Arbeitsbühne in gut vier Metern Höhe, und die Absturzsicherung mit Gurt am Anschlagpunkt passt zu dieser Ursache."},
+  {"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der ungleiche Boden mit Schotter, Matsch und liegenden Bauteilen ist der Anlass, und Verkehrswege freihalten sowie Verunreinigungen beseitigen passt dazu."},
+  {"nr":4,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Die Freileitung über dem Kranarm ist der Anlass, und die Maßnahme Arbeit unterbrechen und sichere Arbeitsweise festlegen passt zu dieser Lage."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der sehr laute Schlagschrauber, bei dem man sich nur noch mit Handzeichen verständigt, ist der Anlass, und Lärm am Entstehungsort verringern sowie Gehörschutz passen dazu."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung und Unfallgefahr durch Witterung im Freien","grund":"Regen, Wind und knapp über null Grad mit rutschigen Stellen sind der Anlass, und Arbeitsplätze gegen Witterung schützen oder geeignete Schutzausrüstung bereitstellen passt."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung des Systems meint Zwangshaltung beim Nachschlagen mit dem Hammer; der Hand-Arm-Eintrag betrifft gleichförmige Schraubarbeit und ist eine andere Gefahr."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"typisch","grund":"Das Protokoll nennt das Verschrauben mit dem Schlagschrauber; bei wiederholtem Schrauben gehört diese Belastung fachlich typischerweise dazu."},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"typisch","grund":"Das Protokoll nennt Stahlträger und das Richten von Stahl; scharfe Kanten und Grate gehören beim Stahlbau typischerweise zur Prüfung."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Das Protokoll nennt ausdrücklich, dass die Temperatur knapp über null Grad liegt und es windig ist."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Das Protokoll nennt den Monteur oben auf der Bühne mit Werkzeug über den Personen am Boden; das Absperren des Bereichs darunter gehört typischerweise dazu."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Das Protokoll nennt den Kranführer am Mobilkran, aber keine Unterweisung; die Frage nach Unterweisung und bestimmungsgemäßer Bedienung gehört an einem Kran typischerweise dazu."}
+ ]}

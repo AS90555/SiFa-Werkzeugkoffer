@@ -1,0 +1,15 @@
+{"id":"R011-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Der sehr heiße Ofen und die heißen Teile beim Gießen sind der Anlass, und ein fester Ablageplatz für heiße Teile sowie hitzebeständige Handschuhe passen dazu."},
+  {"nr":2,"urteil":"getroffen","system":"Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit","grund":"Die Schmelze, die bei Feuchtigkeit spritzt, ist genau diese Gefahr, und Werkzeuge nur trocken einsetzen sowie Hitzeschutzkleidung passen dazu."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Der Sprühnebel des Trennmittels als Gefahr für Atemwege und Augen ist im System nicht eigens erfasst; der einzige Dämpfeintrag betrifft die Absaugung und gehört zu Wahrheit 7."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Das laut brummende Hydraulikaggregat ist der Anlass, und Lärm am Entstehungsort verringern sowie Gehörschutz passen dazu."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der feuchte, mit Trennmittelspritzern verschmierte Boden ist der Anlass, und Verunreinigungen unverzüglich beseitigen passt dazu."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Das Abtrennen des Angussrests von Hand mit dem Stanzwerkzeug ist nicht die Gefahr der Schließbewegung; keine Gefährdung des Systems meint Schneiden oder Quetschen durch dieses Werkzeug."},
+  {"nr":7,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Die Absaugung läuft nur, wenn man sie einschaltet, und Lüftung oder Absaugung instand setzen sowie die Wirksamkeit prüfen passt zu dieser Ursache."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"berechtigt","grund":"Das Protokoll nennt, dass die Maschine mit hoher Kraft presst und die Schließbewegung bei den Händen im Bereich liegt."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Das Protokoll nennt ausdrücklich, dass es am Ofen sehr heiß ist."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Das Protokoll nennt den Einrichter, der die Form wechselt, aber keine Unterweisung; an einer Druckgießmaschine gehört diese Frage typischerweise dazu."}
+ ]}

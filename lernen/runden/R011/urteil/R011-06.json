@@ -1,0 +1,19 @@
+{"id":"R011-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der dauerhaft unter Wasser stehende Boden in den Buchten ist der Anlass, und Verkehrswege freihalten sowie Verunreinigungen beseitigen passt dazu."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung des Systems meint das Anfahren oder Einklemmen durch ein rückwärts fahrendes Fahrzeug in der Bucht."},
+  {"nr":3,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Die Kabel von Poliermaschine und Sauger liegen im Wasser, und beschädigte Betriebsmittel entziehen sowie instand setzen passt zu dieser Ursache."},
+  {"nr":4,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Der saure Felgenreiniger ist der Anlass, und säurefeste Handschuhe, Schutzbrille und Augenspülung in der Nähe passen dazu."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der Industriesauger und die Poliermaschine sind so laut, dass man schreien muss, und Lärm am Entstehungsort verringern sowie Gehörschutz passen dazu."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die kalte Halle mit Zugluft durch das Rolltor ist der Anlass, und arbeitsplatzbezogenes Heizen sowie geeignete Kleidung passen dazu."},
+  {"nr":7,"urteil":"getroffen","system":"Muskel-Skelett-Beschwerden durch Zwangshaltung","grund":"Das Polieren über Kopfhöhe und am Dach ist die beschriebene Zwangshaltung, und Arbeitshöhe und Erreichbarkeit so gestalten passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"unbegruendet","grund":"Das Protokoll nennt kein Heben oder Tragen schwerer Lasten, nur das Polieren in Haltung."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"unbegruendet","grund":"Die Ursache schweres Teil wird von Hand abgesetzt steht nicht im Protokoll."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Das Protokoll nennt das Versprühen von Desinfektionsspray, das in der Halle als Sprühnebel verteilt wird."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"berechtigt","grund":"Das Protokoll nennt einen Auszubildenden im Frühjahr, der an den Maschinen arbeitet, also die Unterweisung als Anlass."},
+  {"gefaehrdung":"Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg","urteil":"berechtigt","grund":"Das Protokoll nennt den Hochdruckreiniger in den Waschbuchten als Anlass."},
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"typisch","grund":"Das Protokoll nennt die laufende Exzenter-Poliermaschine, und der Kontakt mit dem Polierteller gehört fachlich typischerweise zur Prüfung."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"unbegruendet","grund":"Das Protokoll nennt keinen Staub, nur Polierpaste und Waschwasser."}
+ ]}

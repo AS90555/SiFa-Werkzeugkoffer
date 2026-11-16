@@ -1,0 +1,16 @@
+{"id":"R011-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Das System nennt das Quetschen an der Presse, und die Maßnahme Auslösung nur bei freiem Bereich passt zum Greifen in die Form bei nicht gestoppter Presse."},
+  {"nr":2,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Das Einlegen der Rohlinge in die rund 160 Grad heißen Platten ist die beschriebene Ursache, und hitzebeständige Handschuhe passen dazu."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung nennt das Einatmen oder Verspritzen des Trennmittels selbst; der einzige Dampfeintrag betrifft die Lüftung und gehört zu Wahrheit 5."},
+  {"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Die Maßnahme Saugen statt Abblasen passt genau zum Ausblasen des Staubs mit Druckluft am Schichtende."},
+  {"nr":5,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der Mangel, dass die Lüftung meist nur auf halber Stufe läuft, ist genau diese Ursache, und Lüftung instand setzen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Das Heben der etwa 25 Kilogramm schweren Ballen von Hand wird mit Hebehilfe als Maßnahme angegangen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"unbegruendet","grund":"Das Protokoll spricht an Stanzpresse und Vulkanisierpressen nicht von Lärm."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Das Protokoll nennt das Rüsten der Formen durch den Vorarbeiter mit dem Kran; bei einer Presse gehört die Frage nach gesichertem Instandhalten und Rüsten typischerweise dazu."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Das Protokoll nennt keine Unterweisung und keine Betriebsanweisung; an einer kraftbetriebenen Presse gehört diese Frage typischerweise dazu."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Das Protokoll nennt ausdrücklich, dass der Vorarbeiter die Formen beim Rüsten mit dem Kran wechselt."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Das Protokoll nennt, dass er bei einem klemmenden Stück mit der Hand in die Form greift, ohne die Presse anzuhalten."}
+ ]}

@@ -1,0 +1,142 @@
+{
+ "runde": "R011",
+ "blind": true,
+ "regeln": 124,
+ "quote": 84,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 39,
+  "schritte": 40,
+  "maengel": 23
+ },
+ "faelle": [
+  {
+   "id": "R011-01",
+   "arbeitsplatz": "Stanzpresse und Vulkanisierpressen",
+   "branche": "Dichtungen",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-02",
+   "arbeitsplatz": "Rumpf auf Holzböcken, Laminieren und Schleifen",
+   "branche": "Bootstischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-03",
+   "arbeitsplatz": "Zwischenraum im Doppelboden, Schweißen",
+   "branche": "Schiffswerft",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-04",
+   "arbeitsplatz": "Rollenprüfstand und Motorprüfstand",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-05",
+   "arbeitsplatz": "Spritzgießmaschine, Granulat, Entnahme",
+   "branche": "Kunststoffspritzgießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-06",
+   "arbeitsplatz": "Fahrzeugaufbereitung, Waschhalle, Polieren",
+   "branche": "Autohaus",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-07",
+   "arbeitsplatz": "Montage auf der Baustelle, Träger setzen",
+   "branche": "Stahlbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R011-08",
+   "arbeitsplatz": "Druckgießmaschine und Trennmittel",
+   "branche": "Druckgießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 10,
+   "verfehlt": 2
+  },
+  "2": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 7,
+   "verfehlt": 2
+  },
+  "5": {
+   "getroffen": 3,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 3,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 84,
+  "getroffen": 41,
+  "rueckfrage": 0,
+  "verfehlt": 8,
+  "unbegruendet": 0,
+  "zBerechtigt": 14,
+  "zTypisch": 16,
+  "zUnbegruendet": 6
+ }
+}

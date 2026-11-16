@@ -1,0 +1,11 @@
+{"id":"R011-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der Schutzbügel an den Rollen ist abgehängt, und die Maßnahme Arbeitsmittel erst verwenden, wenn die Schutzeinrichtung wirksam ist, passt zu dieser Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der klemmende Regler der Absaugung ist der Anlass, und Lüftung oder Absaugung instand setzen passt dazu."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung des Systems nennt Brand oder Kraftstoff; der Benzingeruch an undichten Schlauchschellen ist im System nicht erfasst."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung des Systems nennt heiße Auspuffkrümmer oder Verbrennung durch heiße Teile am Motor."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der laute Motor, bei dem man die Stimme heben muss, ist der Anlass, und Lärm am Entstehungsort verringern sowie Gehörschutz passen dazu."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Das Protokoll nennt das morgendliche Umhängen der Schläuche durch den Monteur; bei einem Prüfstand mit angetriebenen Rollen gehört die Frage nach gesichertem Anlauf im Rüstbetrieb typischerweise dazu."}
+ ]}

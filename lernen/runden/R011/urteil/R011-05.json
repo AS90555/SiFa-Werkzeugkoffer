@@ -1,0 +1,13 @@
+{"id":"R011-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Unerwarteter Anlauf im Sonderbetrieb","grund":"Die Maschine schließt im Takt weiter, während die Person bei einem nicht gegriffenen Teil selbst ins offene Werkzeug greift; sichere Arbeitsverfahren bei Abweichung vom Normalbetrieb passen zu dieser Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Lichtschranke lässt an der Seite einen Spalt, durch den der Arm in den Bewegungsbereich kommt; die Maßnahme Arbeitsmittel erst verwenden, wenn die Schutzeinrichtung wirksam ist, passt."},
+  {"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der mit Granulatresten übersäte, rutschige Boden ist der Anlass, und Verkehrswege freihalten sowie Verunreinigungen beseitigen passt dazu."},
+  {"nr":4,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der deutliche Geruch nach verbranntem Kunststoff beim Spritzen ist der Anlass, und Gefahrstoffe an der Entstehungsstelle erfassen oder wirksam lüften passt."},
+  {"nr":5,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Die heißen Heizzylinder beim Eingreifen sind der Anlass, und hitzebeständige Handschuhe passen dazu."},
+  {"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Die dauerhafte Entnahme im engen Takt mit gebückter Haltung ist die Belastung, und die Bewertung mit der Leitmerkmalmethode sowie ein Tätigkeitswechsel passen dazu."},
+  {"nr":7,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die hohe Hallentemperatur im Sommer ist der Anlass, und Abschirmung der Wärmequelle, Lüftung sowie Trinkpausen passen dazu."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Das Protokoll nennt keine Unterweisung zur Spritzgießmaschine; bei einer hydraulischen Maschine mit Eingriff ins Werkzeug gehört diese Frage typischerweise dazu."}
+ ]}
