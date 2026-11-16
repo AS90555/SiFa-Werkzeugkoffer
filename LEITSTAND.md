@@ -4,7 +4,7 @@ Stand nach R009 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 ## Als Nächstes fällig
 
-1. **Lücken aus R009 schließen:** Bericht `lernen/runden/R009/bericht.md`. Reihenfolge: Wörterbuch, Stammdaten, Regeln (als Entwurf mit offenem Beleg). Danach `node lernen/runde.js geschlossen R009`.
+1. **Lernrunde im Feld BGHM** (1. von 2 vor der nächsten Prüfrunde): `node lernen/runde.js neu lern`.
 
 ## Wartet auf Andre
 
@@ -16,12 +16,12 @@ Stand nach R009 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 118 |
+| Regeln | 123 |
 | Organisationspflichten | 20 |
 | Gefährdungen | 59 |
-| Stammdaten | 180 |
-| Wörterbuch | 123 |
-| Regeln doppelt belegt | 32 von 118 (27 %) |
+| Stammdaten | 196 |
+| Wörterbuch | 135 |
+| Regeln doppelt belegt | 32 von 123 (26 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
@@ -39,7 +39,7 @@ Stand nach R009 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R006 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 |  | 7 | ja |
 | R007 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 63 % | 27 von 43 | 19 |  | 15 | ja |
 | R008 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 76 % | 35 von 46 | 26 | 15 | 8 | ja |
-| R009 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 79 % | 79 von 100 | 52 | 33 | 8 | nein |
+| R009 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 79 % | 79 von 100 | 52 | 33 | 8 | ja |
 
 ## Beleg-Läufe
 

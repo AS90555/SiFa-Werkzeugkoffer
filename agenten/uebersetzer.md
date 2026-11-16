@@ -17,9 +17,10 @@
 7. Beschreibt das Protokoll einen Mangel (fehlendes Schloss, lockerer Stecker, offene Abdeckung, fehlende Sicherung), kommt er unter `maengel` mit der Textstelle und, wenn eine passt, mit der Mangelart: `{"text":"Stelle aus dem Protokoll","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Schleifmaschine"}`. Ein Mangel ist kein Schritt und keine Angabe. Passt keine Art sicher, bleibt `art` weg. Die Mangelarten (Datei `bibliothek/maengel.json` darf gelesen werden):
    - `schutzeinrichtung`: Schutzeinrichtung oder Sicherung fehlt, ist defekt, offen oder umgangen
    - `absturzsicherung`: Absturzsicherung fehlt oder ist schadhaft: Geländer, Abdeckung, Anschlagpunkt, Leiter
-   - `elektrik`: Elektrische Leitung oder Betriebsmittel beschädigt, im Weg oder im Nassen
+   - `elektrik`: Elektrische Leitung oder Betriebsmittel beschädigt, im Weg, im Nassen oder offen (Schaltschrank, Verteiler, fehlende Abdeckung)
    - `rettung_verstellt`: Fluchtweg, Notausgang, Feuerlöscher, Notdusche oder Erste-Hilfe-Einrichtung verstellt oder nicht vorhanden
    - `arbeitsweise`: Gefährliche Arbeitsweise oder Lage
+   - `last_ungesichert`: Last, Werkstück oder Lagergut ungesichert: kann kippen, rollen, rutschen oder herabfallen (lose Stämme, wackelnde Böcke, ungesicherter Stapel)
    - `stoff_lagerung`: Stoff offen, unbeschriftet, falsch gelagert oder neben einer Zündquelle
    - `weg_boden`: Boden oder Verkehrsweg nass, uneben, verstellt oder verschmutzt
    - `psa`: Schutzausrüstung fehlt, wird nicht getragen oder ist ungeeignet
@@ -38,6 +39,9 @@
 
 - Der Vorgang „Heben“ gilt nur für Kran, Hebezeug und Vakuumheber. Heben und Tragen von Hand ist „Heben, Tragen, Handhaben von Hand“.
 - Rüsten, Werkzeugwechsel, Reinigen und Störungsbeseitigung an einer Maschine sind Sonderbetrieb und bekommen das Material „Anlage“.
+- Sagt das Protokoll, dass die eigene Maschine laut ist oder man sich nur schreiend oder mit Handzeichen verständigt, ist das die Umgebung „Lärm am Arbeitsplatz“, auch ohne Pegel.
+- Bedient, beschickt oder überwacht jemand eine Maschine, ohne dass ein genauerer Vorgang passt, ist das der Vorgang „Anlage fahren, Maschine bedienen“.
+- Öfen, Brenner und Trockner sind keine „Anlage“ im Sinn von Sonderbetrieb, solange nur von Hand gereinigt wird und nichts anlaufen kann.
 - Sonderbetrieb nur als Schritt anlegen, wenn das Protokoll beschreibt, was dabei an der Maschine getan wird. Der bloße Satz „Rüsten und Reinigen macht jeder selbst“ ist kein Schritt.
 - Eine Umgebung nur wählen, wenn das Protokoll sie ausdrücklich nennt. „Das Tor schließt nicht ganz“ ist noch keine Kälte, „der Kompressor läuft“ noch kein Lärm.
 - Zustände der Umgebung gehören zur Umgebung, nicht zu den Mängeln allein: verschmutzter oder unebener Boden, Zeitdruck, Hitze, Kälte, Gefälle, Lärm von nebenan, Fahrverkehr. Ein solcher Zustand kann zugleich als Mangel notiert werden.

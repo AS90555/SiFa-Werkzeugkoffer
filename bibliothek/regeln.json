@@ -2311,7 +2311,12 @@
  {
   "id": "R60",
   "name": "Funkenflug",
-  "wenn": "v.funken",
+  "wenn": {
+   "eine": [
+    "v.funken",
+    "u.funken"
+   ]
+  },
   "entsteht": "Funken und glühende Partikel",
   "gefaehrdung": "g-brand-ex-stoff",
   "massnahmen": [
@@ -4388,6 +4393,177 @@
    },
    {
     "id": "lasthandhabv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R118",
+  "name": "Runde Last kann wegrollen",
+  "wenn": "m.rollend",
+  "entsteht": "Stämme, Rohre oder Rollen liegen lose oder im Stapel",
+  "gefaehrdung": "g-last-faellt",
+  "massnahmen": [
+   {
+    "id": "R118-M1",
+    "art": "T",
+    "text": "Runde Lasten gegen Wegrollen sichern: Keile, Rungen, Lagergestelle"
+   },
+   {
+    "id": "R118-M2",
+    "art": "O",
+    "text": "Nicht vor oder auf ungesicherten Stapeln aufhalten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r108-007",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R119",
+  "name": "Funkenflug: Verbrennung",
+  "wenn": {
+   "eine": [
+    "v.funken",
+    "u.funken"
+   ]
+  },
+  "entsteht": "Funken, Zunder und heiße Partikel treffen Haut oder Kleidung",
+  "gefaehrdung": "g-verbrennung",
+  "massnahmen": [
+   {
+    "id": "R119-M1",
+    "art": "T",
+    "text": "Funkenflug abschirmen: Stellwände, Vorhänge, Funkenrichtung von Personen weg"
+   },
+   {
+    "id": "R119-M2",
+    "art": "P",
+    "text": "Schwer entflammbare Kleidung, Handschuhe und Schutzbrille tragen, auch Personen daneben"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "psa-bv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r100-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R120",
+  "name": "Öl, Fett und Betriebsflüssigkeiten",
+  "wenn": "m.oel",
+  "entsteht": "Hautkontakt beim Nachfüllen, Schmieren und Reinigen, Spritzer",
+  "gefaehrdung": "g-haut-augen",
+  "massnahmen": [
+   {
+    "id": "R120-M1",
+    "art": "O",
+    "text": "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen"
+   },
+   {
+    "id": "R120-M2",
+    "art": "P",
+    "text": "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille"
+   },
+   {
+    "id": "R120-M3",
+    "art": "O",
+    "text": "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "trgs-401",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R121",
+  "name": "Probelauf mit Personen im Gefahrbereich",
+  "wenn": "v.probelauf",
+  "entsteht": "Maschine, Kran oder Tor wird zum Test gefahren, während Personen in der Nähe sind",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R121-M1",
+    "art": "O",
+    "text": "Vor dem Probelauf den Gefahrbereich räumen und absperren"
+   },
+   {
+    "id": "R121-M2",
+    "art": "O",
+    "text": "Verständigung und Zuständigkeit festlegen: Wer fährt, wer gibt Zeichen, wer hält an"
+   },
+   {
+    "id": "R121-M3",
+    "art": "T",
+    "text": "Not-Halt für die Person am Bedienteil erreichbar"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "trbs-1112",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R122",
+  "name": "Schmiedehammer",
+  "wenn": "a.hammer",
+  "entsteht": "Schlagbewegung zwischen Hammer und Amboss",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R122-M1",
+    "art": "O",
+    "text": "Werkstück mit Zange führen, Hände nicht zwischen Hammer und Amboss"
+   },
+   {
+    "id": "R122-M2",
+    "art": "O",
+    "text": "Hammer nur von unterwiesenen Personen bedienen lassen, Schlag erst nach Zuruf auslösen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
     "stelle": null
    }
   ],

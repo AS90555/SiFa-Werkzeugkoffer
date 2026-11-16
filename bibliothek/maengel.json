@@ -35,10 +35,10 @@
  },
  {
   "id": "elektrik",
-  "name": "Elektrische Leitung oder Betriebsmittel beschädigt, im Weg oder im Nassen",
+  "name": "Elektrische Leitung oder Betriebsmittel beschädigt, im Weg, im Nassen oder offen (Schaltschrank, Verteiler, fehlende Abdeckung)",
   "dringlichkeit": "sofort",
   "gefaehrdung": "g-elektrisch",
-  "massnahme": "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen",
+  "massnahme": "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen; Schaltschränke und Verteiler geschlossen halten",
   "quellen": [
    {
     "id": "dguv-v3",
@@ -234,6 +234,25 @@
   "gefaehrdung": "g-zwangshaltung",
   "massnahme": "Arbeitsplatz ergonomisch anpassen",
   "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   }
+  ],
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "last_ungesichert",
+  "name": "Last, Werkstück oder Lagergut ungesichert: kann kippen, rollen, rutschen oder herabfallen",
+  "dringlichkeit": "sofort",
+  "gefaehrdung": "g-last-faellt",
+  "massnahme": "Last gegen Kippen, Rollen und Rutschen sichern; bis dahin den Bereich räumen",
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
    {
     "id": "arbstaettv",
     "stelle": null

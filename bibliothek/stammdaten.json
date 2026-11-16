@@ -374,7 +374,7 @@
   },
   {
    "id": "metallschmelze",
-   "name": "Flüssiges Metall, Schlacke",
+   "name": "Flüssiges Metall, flüssige Schlacke (Gießerei, Schmelzofen)",
    "merkmale": [
     "m.heiss",
     "m.schmelze"
@@ -441,7 +441,7 @@
   },
   {
    "id": "abgase",
-   "name": "Abgase von Verbrennungsmotoren",
+   "name": "Abgase von Verbrennungsmotoren, Gasbrennern und Öfen",
    "merkmale": [
     "m.freigesetzt"
    ]
@@ -474,6 +474,62 @@
    "name": "Stein, Beton, Quarzkomposit, Keramik",
    "merkmale": [
     "m.quarzstaub"
+   ]
+  },
+  {
+   "id": "rundholz",
+   "name": "Rundholz, Stamm",
+   "merkmale": [
+    "m.holz",
+    "m.langgut",
+    "m.rollend"
+   ]
+  },
+  {
+   "id": "schnittholz",
+   "name": "Bretter, Bohlen, Schnittholz",
+   "merkmale": [
+    "m.holz",
+    "m.langgut",
+    "m.splitternd"
+   ]
+  },
+  {
+   "id": "oel_schmierstoff",
+   "name": "Öl, Fett, Schmierstoff, Bremsflüssigkeit, Betriebsflüssigkeit",
+   "merkmale": [
+    "m.oel"
+   ]
+  },
+  {
+   "id": "fahrzeugrad",
+   "name": "Fahrzeugrad, Reifen, Felge",
+   "merkmale": [
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "heisses_maschinenteil",
+   "name": "Heißes Maschinenteil: Düse, Heizplatte, Ofen- oder Trocknertür, Auspuff",
+   "merkmale": [
+    "m.heiss"
+   ]
+  },
+  {
+   "id": "blechteil",
+   "name": "Großes Blechteil: Karosserieteil, Haube, Tür, Verkleidung",
+   "merkmale": [
+    "m.metall",
+    "m.scharfkantig",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "rohr_rundmaterial",
+   "name": "Rohre, Rundstahl, Coils, Rollen",
+   "merkmale": [
+    "m.metall",
+    "m.rollend"
    ]
   }
  ],
@@ -785,7 +841,7 @@
   },
   {
    "id": "foerdern",
-   "name": "Fördern auf Band oder Rollenbahn",
+   "name": "Fördern auf Band oder Rollenbahn, auch Abnehmen und Auflegen am laufenden Band",
    "merkmale": []
   },
   {
@@ -920,6 +976,57 @@
    "name": "Ziehen und Schieben von Lasten mit Wagen, Sackkarre oder Hubwagen",
    "merkmale": [
     "v.ziehen_schieben"
+   ]
+  },
+  {
+   "id": "entrinden",
+   "name": "Entrinden, Schälen von Rundholz",
+   "merkmale": [
+    "v.abtragend",
+    "v.laut"
+   ]
+  },
+  {
+   "id": "schmieden",
+   "name": "Schmieden, Hämmern, Erhitzen im Schmiedeofen",
+   "merkmale": [
+    "v.heiss",
+    "v.laut",
+    "v.funken"
+   ]
+  },
+  {
+   "id": "polieren",
+   "name": "Polieren, Bürsten, Schwabbeln",
+   "merkmale": [
+    "v.abtragend",
+    "v.schnell_drehend"
+   ]
+  },
+  {
+   "id": "probelauf",
+   "name": "Probelauf, Funktionsprüfung: Maschine, Kran oder Tor wird zum Test gefahren",
+   "merkmale": [
+    "v.probelauf"
+   ]
+  },
+  {
+   "id": "maschine_bedienen",
+   "name": "Anlage fahren, Maschine bedienen, beschicken, überwachen",
+   "merkmale": []
+  },
+  {
+   "id": "spritzgiessen",
+   "name": "Spritzgießen, Extrudieren, Kunststoff heiß verarbeiten",
+   "merkmale": [
+    "v.heiss"
+   ]
+  },
+  {
+   "id": "pressen_verdichten",
+   "name": "Pressen und Verdichten: Ballenpresse, Kartonagenpresse, Müllpresse",
+   "merkmale": [
+    "v.pressen"
    ]
   }
  ],
@@ -1141,9 +1248,17 @@
   },
   {
    "id": "hebebuehne",
-   "name": "Fahrzeug-Hebebühne",
+   "name": "Fahrzeug-Hebebühne, Wagenheber, Unterstellbock",
    "merkmale": [
     "a.hebebuehne"
+   ]
+  },
+  {
+   "id": "schmiedehammer",
+   "name": "Schmiedehammer, Lufthammer, Fallhammer",
+   "merkmale": [
+    "a.hammer",
+    "a.maschine"
    ]
   }
  ],
@@ -1211,7 +1326,7 @@
   },
   {
    "id": "laerm_umgebung",
-   "name": "Lärm aus der Umgebung, laute Nachbarplätze, Kompressor",
+   "name": "Lärm am Arbeitsplatz: laute eigene Maschine, laute Nachbarplätze, Kompressor; man muss laut sprechen oder schreien",
    "merkmale": [
     "u.laerm"
    ]
@@ -1239,7 +1354,7 @@
   },
   {
    "id": "hitze",
-   "name": "Hitze, Wärmestrahlung",
+   "name": "Hitze, Wärmestrahlung, warm und schwül",
    "merkmale": [
     "u.hitze"
    ]
@@ -1333,6 +1448,13 @@
    "name": "Taktgebundene Arbeit, Stückzahlvorgabe",
    "merkmale": [
     "u.zeitdruck"
+   ]
+  },
+  {
+   "id": "funkenflug",
+   "name": "Funkenflug oder heiße Partikel, auch von Nachbararbeiten",
+   "merkmale": [
+    "u.funken"
    ]
   }
  ]

@@ -1264,5 +1264,120 @@
   "material": [
    "heisses_werkstueck"
   ]
+ },
+ {
+  "worte": [
+   "entrindung",
+   "entrindungsmaschine",
+   "entrinden",
+   "schälmaschine"
+  ],
+  "vorgang": "entrinden",
+  "ausfuehrung": "durchlaufmaschine"
+ },
+ {
+  "worte": [
+   "lufthammer",
+   "schmiedehammer",
+   "fallhammer",
+   "amboss"
+  ],
+  "vorgang": "schmieden",
+  "ausfuehrung": "schmiedehammer"
+ },
+ {
+  "worte": [
+   "polierbock",
+   "poliermaschine",
+   "schwabbelscheibe"
+  ],
+  "vorgang": "polieren"
+ },
+ {
+  "worte": [
+   "kartonagenpresse",
+   "ballenpresse",
+   "müllpresse",
+   "papierpresse"
+  ],
+  "vorgang": "pressen_verdichten",
+  "ausfuehrung": "presse"
+ },
+ {
+  "worte": [
+   "spritzgießmaschine",
+   "spritzgussmaschine",
+   "extruder"
+  ],
+  "vorgang": "spritzgiessen"
+ },
+ {
+  "worte": [
+   "probelauf",
+   "probefahrt",
+   "zum prüfen angefahren",
+   "auf und zu gefahren"
+  ],
+  "vorgang": "probelauf"
+ },
+ {
+  "worte": [
+   "stamm",
+   "stämme",
+   "rundholz"
+  ],
+  "material": [
+   "rundholz"
+  ]
+ },
+ {
+  "worte": [
+   "bretter",
+   "bohlen",
+   "schnittholz"
+  ],
+  "material": [
+   "schnittholz"
+  ]
+ },
+ {
+  "worte": [
+   "motoröl",
+   "bremsflüssigkeit",
+   "schmierfett",
+   "hydrauliköl",
+   "getriebeöl"
+  ],
+  "material": [
+   "oel_schmierstoff"
+  ]
+ },
+ {
+  "worte": [
+   "funkenflug",
+   "funken fliegen",
+   "heiße partikel",
+   "zunder"
+  ],
+  "umgebung": [
+   "funkenflug"
+  ]
+ },
+ {
+  "worte": [
+   "anschreien",
+   "mit handzeichen verständigen",
+   "man versteht sein eigenes wort nicht"
+  ],
+  "umgebung": [
+   "laerm_umgebung"
+  ]
+ },
+ {
+  "worte": [
+   "wagenheber",
+   "unterstellbock"
+  ],
+  "ausfuehrung": "hebebuehne"
  }
 ]

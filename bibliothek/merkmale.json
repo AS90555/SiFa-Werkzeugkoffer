@@ -122,5 +122,10 @@
  "a.maschine": "Kraftbetriebene Maschine, die bedient wird",
  "m.erstickend": "Gas, das den Sauerstoff verdrängt: Stickstoff, Argon, Kohlendioxid, Kältemittel",
  "m.quarzstaub": "Mineralischer Staub mit Quarzanteil",
- "v.ziehen_schieben": "Ziehen und Schieben von Lasten mit Wagen oder Karre"
+ "v.ziehen_schieben": "Ziehen und Schieben von Lasten mit Wagen oder Karre",
+ "m.rollend": "Runde Last, die wegrollen kann: Stämme, Rohre, Coils",
+ "m.oel": "Öl, Fett, Schmierstoff oder Betriebsflüssigkeit: Hautkontakt",
+ "v.probelauf": "Probelauf, Funktionsprüfung mit Bewegung",
+ "u.funken": "Funkenflug oder heiße Partikel in der Umgebung",
+ "a.hammer": "Schmiedehammer, Lufthammer: Schlagbewegung"
 }
