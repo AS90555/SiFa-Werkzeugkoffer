@@ -138,5 +138,35 @@
     "stelle": "Nachgefüllt wird das Korn aus Säcken"
    }
   ]
+ },
+ {
+  "thema": "UV-Strahlung aus UV-Härtern hinter offener Abdeckung",
+  "seit": "R014",
+  "anlass": [
+   {
+    "kennung": "R014-05",
+    "stelle": "Über der Kammer sitzen die UV-Strahler hinter einer Abdeckung"
+   }
+  ]
+ },
+ {
+  "thema": "Wegspringende Ventilfeder beim Spannen von Hand",
+  "seit": "R014",
+  "anlass": [
+   {
+    "kennung": "R014-08",
+    "stelle": "die Feder wird von Hand gespannt"
+   }
+  ]
+ },
+ {
+  "thema": "Heben schwerer Zylinder von Hand",
+  "seit": "R014",
+  "anlass": [
+   {
+    "kennung": "R014-06",
+    "stelle": "die Zylinder sind schwer"
+   }
+  ]
  }
 ]

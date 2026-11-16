@@ -1,0 +1,17 @@
+{"runde": "R014",
+ "merkmale": [],
+ "gefaehrdungen": [],
+ "stammdaten": [],
+ "woerter": [
+  {"worte": ["altöl", "ölfilter"], "material": ["oel_schmierstoff"]},
+  {"worte": ["schläuche und kabel", "kabel liegen", "einzelne kabel"], "material": ["elektro_betriebsmittel"], "umgebung": ["boden"]},
+  {"worte": ["fahrzeugmotor", "motor des fahrzeugs"], "material": ["abgase"]}
+ ],
+ "regeln": [],
+ "nicht_aufgenommen": [
+  {"thema": "UV-Strahlung aus UV-Härtern hinter offener Abdeckung", "grund": "Einzelfall", "anlass": [{"kennung": "R014-05", "stelle": "Über der Kammer sitzen die UV-Strahler hinter einer Abdeckung"}]},
+  {"thema": "Wegspringende Ventilfeder beim Spannen von Hand", "grund": "Einzelfall", "anlass": [{"kennung": "R014-08", "stelle": "die Feder wird von Hand gespannt"}]},
+  {"thema": "Heben schwerer Zylinder von Hand", "grund": "Einzelfall", "anlass": [{"kennung": "R014-06", "stelle": "die Zylinder sind schwer"}]}
+ ],
+ "erledigt": []
+}

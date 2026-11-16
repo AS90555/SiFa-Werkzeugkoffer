@@ -1681,5 +1681,36 @@
    "fahrgerüst"
   ],
   "vorgang": "hoehenarbeit"
+ },
+ {
+  "worte": [
+   "altöl",
+   "ölfilter"
+  ],
+  "material": [
+   "oel_schmierstoff"
+  ]
+ },
+ {
+  "worte": [
+   "schläuche und kabel",
+   "kabel liegen",
+   "einzelne kabel"
+  ],
+  "material": [
+   "elektro_betriebsmittel"
+  ],
+  "umgebung": [
+   "boden"
+  ]
+ },
+ {
+  "worte": [
+   "fahrzeugmotor",
+   "motor des fahrzeugs"
+  ],
+  "material": [
+   "abgase"
+  ]
  }
 ]
