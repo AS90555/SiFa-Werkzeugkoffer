@@ -1,0 +1,16 @@
+{"id":"R013-16","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Tür zu den Spindeln lässt sich im Lauf öffnen, weil der Riegel klemmt (Mangel vor Ort); eine wirksame Schutzeinrichtung passt."},
+{"nr":2,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Die Presse schließt mit hoher Kraft, und der Bediener legt die Platte von Hand ein; Schutzeinrichtung wirksam und Finger nicht unter die Last passen."},
+{"nr":3,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Verleimdämpfe werden eingeatmet, und ob die Absaugung läuft, ist nicht zu sehen; Erfassen an der Entstehungsstelle oder wirksames Lüften passt."},
+{"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der Vibrationstopf ist laut und die Anlage pfeift; Lärmminderung und Gehörschutz passen."},
+{"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Das Heben der etwa 30 Kilo schweren Korpusse ist genannt; eine Hebehilfe passt."},
+{"nr":6,"urteil":"getroffen","system":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","grund":"Der feste Takt der Anlage erzeugt Zeitdruck und Hast; Arbeitsabläufe so gestalten und die Belastung erfassen passen."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Die Bohrspindeln laufen hinter der Tür, die sich im Lauf öffnen lässt (Mangel vor Ort)."},
+{"gefaehrdung":"Atemwegserkrankung durch Holzstaub","urteil":"typisch","grund":"Spanplatten werden gebohrt und verarbeitet; Holzstaub ist typisch und die Absaugung ist zu prüfen."},
+{"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Die Reinigung des Dübeltopfs mit Druckluft erzeugt Staub; Reinigungsplan und Zündquellen sind zu prüfen."},
+{"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"typisch","grund":"Im Takt werden Platten eingelegt und Seiten auf den Wagen gelegt; gleichförmige Hand-Arm-Arbeit ist an dieser Linie typisch."},
+{"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Der Dübeltopf wird am Schichtende mit Druckluft gereinigt, dabei wird Staub aufgewirbelt."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Maschinenbediener und Schichtleitung arbeiten an der Serienlinie; Unterweisung und Betriebsanweisung sind zu prüfen."}
+]}

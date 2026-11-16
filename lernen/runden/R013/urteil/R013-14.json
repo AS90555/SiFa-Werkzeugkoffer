@@ -1,0 +1,13 @@
+{"id":"R013-14","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","grund":"Die Schläuche haben Knicke und müssen laufend ausgetauscht werden (Mangel vor Ort); mängelbehaftete Arbeitsmittel nicht verwenden passt."},
+{"nr":2,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Die Last am Hallenkran wird angehängt und kann pendeln und treffen; Niemand unter der Last und Anschlagmittel prüfen passen."},
+{"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Feiner Staub mit Strahlmittelabrieb wird eingeatmet, weil die Absaugung ausgefallen ist; Absaugung an der Entstehungsstelle passt."},
+{"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Das Strahlgerät ist ausdrücklich lauter als alles andere in der Halle; Lärmminderung und Gehörschutz passen."},
+{"nr":5,"urteil":"verfehlt","system":null,"grund":"Heben und Kippen schwerer Säcke beim Nachfüllen steht nicht in der Liste; die Rückfrage betrifft gleichförmige Arbeit."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Strahlgerät mit Förderschnecke und Drehtisch; Anlauf bei Wartung oder Störung ist an diesem Platz zu prüfen."},
+{"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Strahlen erzeugt feinen Metallstaub, dessen Explosionsschutz eine Fachkraft prüft."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Strahler bedient das Gerät allein; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"unbegruendet","grund":"Beim Strahlen entsteht Staub; von Gasen, Rauch oder Dämpfen steht im Protokoll nichts, der Mangel ist eine falsche Zuordnung."}
+]}

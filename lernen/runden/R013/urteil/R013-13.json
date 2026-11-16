@@ -1,0 +1,15 @@
+{"id":"R013-13","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Abdeckung am Nagelautomaten ist abgenommen (Mangel vor Ort), die Hand kann beim Nachlegen gequetscht werden; eine wirksame Schutzeinrichtung passt."},
+{"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Die Schlauchleitung liegt quer über den Boden (Mangel vor Ort); Verkehrswege freihalten passt."},
+{"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Beim Kehren wird Holzstaub aufgewirbelt und eingeatmet; Abblasen und trockenes Kehren sind unzulässig, Aufsaugen passt."},
+{"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der Dauerlärm der Maschine ist genannt; Kapselung und Gehörschutz passen."},
+{"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die kalte Halle und das oft offene Tor sind genannt; arbeitsplatzbezogenes Heizen und Kleidung passen."},
+{"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Das Abheben und Stapeln schwerer Bretter ist genannt; eine Hebehilfe passt."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Mit Brettern und Kanthölzern gehören Splitter und Kanten zur Tätigkeit; geeignete Handschuhe sind zu prüfen."},
+{"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Holzstaub wird am Schichtende zusammengekehrt; Reinigungsplan und Zündquellen sind zu prüfen."},
+{"gefaehrdung":"Getroffen werden von Klammer oder Teil","urteil":"typisch","grund":"Mit dem Druckluftnagler wird von Hand geschossen; Auslösesicherung und Schutzbrille gehören dazu."},
+{"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"berechtigt","grund":"Die Abdeckung ist beim Nachlegen abgenommen, die Maschine läuft, und die Hand ist im Bereich."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Maschinenbediener rüstet und bedient den Nagelautomaten; Unterweisung und Betriebsanweisung sind zu prüfen."}
+]}

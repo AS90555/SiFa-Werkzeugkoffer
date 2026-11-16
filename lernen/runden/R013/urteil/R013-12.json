@@ -1,0 +1,15 @@
+{"id":"R013-12","wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Die Leiter steht auf Rollen und ist nicht gesichert (Mangel vor Ort); Absturzsicherung herstellen und den Bereich sperren passen."},
+{"nr":2,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Die Altbatterien stehen offen in der Sonne, die Pole sind teils nicht abgeklebt (Mangel vor Ort); Behälter geschlossen halten passt."},
+{"nr":3,"urteil":"verfehlt","system":null,"grund":"Brand oder Explosion durch Wasserstoff steht nicht in der Liste; die fehlende Lüftung ist nur unter Einatmen von Gasen genannt, das ist eine andere Gefahr."},
+{"nr":4,"urteil":"getroffen","system":"Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten","grund":"Die schweren Ölfässer werden von Hand geschoben; geeignete Transportmittel passen."}
+],
+"zusaetzlich":[
+{"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Schwere Bremsscheiben und Motorteile liegen oben und werden von Hand erreicht; das gehört zum Teilelager."},
+{"gefaehrdung":"Person wird von Fahrzeug angefahren oder überrollt","urteil":"typisch","grund":"Motorblöcke werden mit dem Hubwagen durch den Flur gefahren."},
+{"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Schwere Teile und Fässer werden von Hand abgesetzt und umgelagert; Quetschungen an Händen und Füßen sind typisch."},
+{"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Altöl, Bremsflüssigkeit und Batterien werden gelagert und umgefüllt; Schutzhandschuhe und Hautschutz gehören dazu."},
+{"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"berechtigt","grund":"Die schweren Teile liegen oben im Regal."},
+{"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die schweren Teile liegen oben und werden mit einer Leiter erreicht (Mangel vor Ort)."},
+{"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"In dem Raum gibt es keine Lüftung, und Batterien und Altöl lagern dort."}
+]}
