@@ -39,3 +39,7 @@ Urteile streng und nüchtern, in jeder Runde gleich:
   - `typisch`: Das Protokoll spricht den Anlass nicht aus, aber die Gefährdung gehört nach fachlicher Erfahrung typischerweise zu der beschriebenen Tätigkeit, Maschine oder dem Material (scharfkantiges Blech und Schnittverletzung, Winkelschleifer und Lärm, Schweißen und Rauch). Eine Fachkraft würde sie an diesem Platz von sich aus prüfen. Dazu gehört an jeder kraftbetriebenen Maschine auch die Frage nach Unterweisung, Betriebsanweisung und bestimmungsgemäßer Bedienung.
   - `unbegruendet`: Weder genannt noch typisch für das Beschriebene, oder aus einer falschen Zuordnung entstanden (Heckenschnitt als Holzbearbeitung, Kranlast als Heben von Hand).
 - Im Zweifel zwischen `typisch` und `unbegruendet`: `unbegruendet`.
+
+## Einträge aus Mängeln
+
+Einträge der Systemliste, deren „entsteht“ mit „Mangel vor Ort:“ beginnt, stammen aus einer Beobachtung im Protokoll. Sie treffen eine Wahrheit, wenn sie dieselbe Gefahr aus demselben Anlass meinen. Steht derselbe Name der Systemliste bei einem Treffer, gehört er nicht zusätzlich unter `zusaetzlich`.
