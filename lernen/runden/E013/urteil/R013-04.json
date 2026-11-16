@@ -1,0 +1,108 @@
+{
+ "id": "R013-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "grund": "Ketten reißen, Arbeitsmittel mit Mängeln nicht verwenden passt zur Ursache."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Enge zwischen Richtbank und Wand wird von keinem Eintrag gemeint; die Quetschen-Gefährdung des Systems gilt dem Absetzen schwerer Teile."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Trennschleifer, Schutzhaube und Werkstück fixieren passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funkenflug zum Lackregal, Brennbares aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Dämpfe der Beschichtungen, erfassen oder lüften passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Lichtbogenstrahlung, Schweißerschutzschild passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Trennschleifen den ganzen Tag."
+  },
+  {
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "urteil": "berechtigt",
+   "grund": "Funken und Scheibenbruch beim Trennschleifer."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "urteil": "berechtigt",
+   "grund": "Schutzgasschweißen am Unterboden."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "berechtigt",
+   "grund": "Schweißen und Funkenflug."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Bleche mit scharfen Kanten."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Trennschleifen ohne Absaugung, Reinigung mit Pressluft."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Späne liegen überall, Ketten auf dem Boden."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hydraulische Richtbank, Unterweisung gehört dazu."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Funkenflug geht bis zum Regal mit den Lacken."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Der Schweißer steht ohne Schweißschirm da und trägt nur eine Brille."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein von Hand abgesetztes schweres Teil im Protokoll."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Keine Instandhaltung oder Störungsbeseitigung beschrieben."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Heben oder Tragen beschrieben."
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "R013-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Korb in neun Metern, Absturzsicherung mit Gurt passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kippen der Hubarbeitsbühne auf abfallendem Boden wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Rohre über Kollegen, Bereich darunter absperren passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Verlängerungskabel am Boden, sicher verlegen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Dieselabgase werden von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kälte und Zug, Heizen und Kleidung passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Rohre von Hand heben und halten, Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Stahlrohre und Gewindeschneiden."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel am Boden, Schrott im Korb."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "urteil": "berechtigt",
+   "grund": "Rohre werden über Kopf gehalten."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Eimer mit Gewindeschneidöl im Korb."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Die Sicherung mit Auffanggurt wird nicht getragen."
+  }
+ ]
+}

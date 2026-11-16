@@ -1,0 +1,68 @@
+{
+ "id": "R013-13",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel Abdeckung am Nagelautomaten abgenommen, gleicher Anlass."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Mangel Schlauchleitung quer über den Boden, Stolperstellen beseitigen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Holzstaub mit dem Besen kehren, Kehren nicht zulässig und Sauger passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Dauerlärm, Lärmminderung und Gehörschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kalte Halle mit offenem Tor, Heizen und Kälteschutz passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Heben und Stapeln schwerer Bretter, Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "urteil": "typisch",
+   "grund": "Bretter und Kanthölzer aus Fichte werden von Hand gehandhabt."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Holzstaub wird zusammengekehrt, Staubschicht am Platz."
+  },
+  {
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "urteil": "berechtigt",
+   "grund": "Es gibt einen Druckluftnagler, der von Hand geführt wird."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Nagelautomat schlägt per Hub von oben, Hand im Bereich beim Auflegen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Stationäre Maschine, Rüsten durch den Bediener."
+  }
+ ]
+}

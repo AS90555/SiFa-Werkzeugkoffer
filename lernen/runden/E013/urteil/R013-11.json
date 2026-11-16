@@ -1,0 +1,67 @@
+{
+ "id": "R013-11",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel Fußschalter im Gang, gleicher Anlass; Schutz gegen unbeabsichtigtes Betätigen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "grund": "Mangel Handschuhe nicht immer getragen bei scharfen Kanten, Maßnahme Schutzausrüstung bereitstellen und Benutzung sicherstellen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Schutz am Sägeblatt teilweise demontiert, Schutzeinrichtung einstellen und benutzen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Lungenerkrankung durch mineralischen Staub mit Quarzanteil",
+   "grund": "Trockener Schamottestaub, nass schneiden und absaugen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwere Paletten von Hand ziehen, Hebehilfen und Tische passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Bleche werden mit einem Sauger angehoben."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Grate auf dem Boden, Schlamm trocknet zu einer Schicht."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Alte hydraulische Schere und Kreissäge."
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Tafelschere und Kreissäge sind laut."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "unbegruendet",
+   "grund": "Ein Hubwagen im Betrieb gibt für Anfahren oder Überrollen keinen Anlass her."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "Palette wird mit dem Hubwagen bewegt und von Hand auf den Tisch gezogen."
+  }
+ ]
+}

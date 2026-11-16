@@ -1,0 +1,77 @@
+{
+ "id": "R013-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Fahrzeug kippt oder wird falsch bedient",
+   "grund": "Fahrzeug auf der Bühne, Aufnahmepunkte und Prüfung der Bühne passen zur Ursache."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öliger Boden, Ölfleck; Verunreinigungen beseitigen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Hautkontakt mit Reiniger und Altöl, Handschuhe und Sicherheitsdatenblatt passen; Staub steht separat."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Brennbarer Reiniger und Lappen, Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Tragen des Altölbehälters von Hand, Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Druckluftschrauber an der Bühne, typisch laut."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Gelegentlicher Einsatz des Schraubers, keine gleichförmige Dauerarbeit genannt."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Bremsenstaub wird mit Druckluft ausgeblasen."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Die Beleuchtung ist eher schwach."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Hebebühne, Unterweisung und Betriebsanweisung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Die Bremsenreiniger-Sprühdose steht offen auf der Ablage."
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "urteil": "berechtigt",
+   "grund": "Die Bühne wird ohne Protokoll geprüft."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Die Lüftung läuft nur bei geöffnetem Tor richtig."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "R013-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Schweres Blech wird abgesetzt, Unterlagen und Sicherheitsschuhe passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Scharfkantige Teile mit Grat, Schnittschutzhandschuhe passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Haube bei Teileentnahme offen; Schutzeinrichtung wirksam halten passt zur Ursache, Laserstrahlung ist nicht benannt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Schneidrauch, lose Absaugschläuche, Absaugung instand setzen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funken und glühende Partikel, Brennbares entfernen und Feuerlöscher passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Hoher Lärm, Lärmminderung und Gehörschutz passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Schwere Bleche und Teile werden von Hand bewegt."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Düsenwechsel durch den Techniker an der Anlage."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "berechtigt",
+   "grund": "Stickstoffflasche neben der Anlage."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Blech hängt im Hallenkran."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Bedienpanel einer Laseranlage, Unterweisung gehört dazu."
+  },
+  {
+   "gefaehrdung": "Ersticken durch Gase, die den Sauerstoff verdrängen",
+   "urteil": "typisch",
+   "grund": "Stickstoff als Schneidgas."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Funken und heiße Teile beim Schneiden."
+  }
+ ]
+}

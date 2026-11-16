@@ -1,0 +1,88 @@
+{
+ "id": "R013-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Quetschen beim Absetzen schwerer Träger, Unterlagen und Sicherheitsschuhe passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Sägeblatt, Schutzeinrichtung wirksam halten passt zur offenen Haube."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Glühende Schlacken auf Haut und Kleidung, Funkenflug abschirmen und Schutzkleidung passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Brennbares aus dem Funkenbereich entfernen passt zu den Holzpaletten."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "grund": "Schneidflüssigkeit, Hautschutz und Absaugung passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm an der Säge, Gehörschutz passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Profile und Bleche werden von Hand aufgelegt und abgenommen."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Profile, Bleche und Schnittkanten."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Träger werden vom Kran auf den Rollenbock gelegt."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Gereinigt wird mit Druckluft."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Im Sommer wird es in der Halle sehr warm."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden ist meist nass."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Vollautomatische Bandsäge und Brennanlage, Unterweisung gehört dazu."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Die Schutzhaube der Säge ist oben offen."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Flaschen stehen ungesichert, Holzpaletten unter den Schlacken."
+  }
+ ]
+}

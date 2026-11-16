@@ -1,0 +1,61 @@
+{
+ "id": "R013-10",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Offene Haube an Fräse und Säge: Schutzeinrichtungen wirksam halten passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel Hauptschalter nicht gesperrt beim Fräskopfwechsel, gleicher Anlass, Maßnahme Schutzeinrichtung wirksam herstellen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Hitze im Sommer ohne Dachlüftung, Lüftung und Trinkpausen passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Heben der Profilstangen von Hand, Hebehilfe und Tätigkeitswechsel passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Fräse und Säge im Dreischichtbetrieb."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Späne und Staub werden abgesaugt, Kunststoffstaub ist brennbar."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "berechtigt",
+   "grund": "Messerwechsel und Wechsel der Fräsköpfe von Hand."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "berechtigt",
+   "grund": "Eine Vorschubwalze zieht die Stangen in die Fräse."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Anlage, Einrichten durch die Schichtführung."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "unbegruendet",
+   "grund": "Falsche Zuordnung: der Mangel (Dach ohne Lüftung) meint Hitze, nicht Gase oder Dämpfe."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "R013-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einzug von Hand oder Arm",
+   "grund": "Drehende Welle, Keine Handschuhe und enge Kleidung passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Schlüssel steckt im Futter, sichere Arbeitsweise festlegen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Späne, Schnittschutz; Maßnahme Handschuhe passt zum Weg ohne Handschuh."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Welle am Kran, Anschlagmittel prüfen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Stapler im Gang neben der Maschine, Fahr- und Gehwege trennen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "grund": "Kühlschmierstoff am Werkstück, Hautschutz und Kapselung passen."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Defekte Leuchtstoffröhre, Leuchten instand setzen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Hand mit Haken nah am laufenden Werkstück."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Der Schutz vor dem Futter ist nur ein Bügel aus Blech."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "typisch",
+   "grund": "Kühlschmierstoff und Späne am Boden einer Drehmaschine."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Konventionelle Drehmaschine, Unterweisung gehört dazu."
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Lärm wird nicht genannt."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Keine Instandhaltung oder Störungsbeseitigung beschrieben."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "unbegruendet",
+   "grund": "Beim Drehen mit Kühlschmierstoff kein Staub genannt."
+  }
+ ]
+}

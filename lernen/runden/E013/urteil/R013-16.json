@@ -1,0 +1,73 @@
+{
+ "id": "R013-16",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel Tür lässt sich im Lauf öffnen, gleicher Anlass."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Hydraulische Presse mit Zweihandtaster, Schutzeinrichtung wirksam und Schließbewegung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Verleimdämpfe, an der Entstehungsstelle erfassen oder lüften passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Vibrationstopf und Anlage laut, Lärmminderung und Gehörschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Heben fertiger Korpusse, Hebehilfe passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Takt der Anlage gibt Tempo vor, Arbeitsgestaltung passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "berechtigt",
+   "grund": "Bohrspindeln fahren von oben in die Platte."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "typisch",
+   "grund": "Bohren von Spanplatten erzeugt Holzstaub."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Holzstaub bei Bohren und Reinigen."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Taktarbeit mit immer gleichem Einlegen über acht Stunden."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Der Dübeltopf wird mit Druckluft gereinigt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Automat und Presse sind kraftbetriebene Maschinen."
+  }
+ ]
+}

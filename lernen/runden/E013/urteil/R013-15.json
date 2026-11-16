@@ -1,0 +1,83 @@
+{
+ "id": "R013-15",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel Schutzhaube über der Messerwelle nicht mehr dicht, gleicher Anlass."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Scharfe Messer beim Messerwechsel, Schnittschutzhandschuhe passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Reinigen mit Druckluft, Abblasen nicht zulässig und Sauger passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Hitze im Sommer, Lüftung und Trinkpausen passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm der Messerwelle, Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Schwaches Licht über der Maschine, Beleuchtung instand setzen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Krebs der Nase durch Hartholzstaub",
+   "urteil": "berechtigt",
+   "grund": "Die Bretter sind Eiche und Buche."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Holzstaub und Späne an der Hobelmaschine."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "berechtigt",
+   "grund": "An der Abrichte schiebt man die Bretter von Hand durch."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Späne fallen zu Boden und sammeln sich um die Füße."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Der Dickenhobel zieht die Bretter automatisch durch den Vorschub ein."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Feiner Staub fliegt beim Reinigen mit Druckluft durch die Halle."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Hobelmaschine, Lehrling schiebt nach."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Mangel: Absauganschluss an der Abrichte fehlt."
+  }
+ ]
+}

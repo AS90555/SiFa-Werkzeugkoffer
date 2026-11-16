@@ -1,0 +1,66 @@
+{
+ "id": "R013-12",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Ungesicherte Rollenleiter, Maßnahme Absturzsicherung herstellen und Leiter prüfen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Mangel offene Batteriekiste, Pole nicht abgeklebt, gleicher Anlass; Behälter geschlossen halten passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Wasserstoffbildung und Explosion bei fehlender Lüftung wird nicht gemeint; die Lüftungsmangel-Gefährdung betrifft Einatmen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "grund": "Fässer von Hand schieben, Transportmittel bereitstellen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Schwere Teile wie Bremsscheiben und Motorteile werden von oben geholt, Kartons und Paletten angenommen."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Motorblöcke werden mit dem Hubwagen durch den Flur gefahren."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine bewegten Teile, nur schwere Teile."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Altöl und Bremsflüssigkeit sind Stoffe mit Hautkontakt."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "berechtigt",
+   "grund": "Schwere Teile liegen oben im Regal."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Mangel: schwere Teile liegen oben und werden mit der Leiter erreicht."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Mangel: keine Lüftung im Raum mit Altöl und Batterien."
+  }
+ ]
+}

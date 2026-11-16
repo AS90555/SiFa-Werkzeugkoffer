@@ -1,0 +1,63 @@
+{
+ "id": "R013-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Zufahrende Presse, Schutzeinrichtung wirksam passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Hallenstapler, Fahr- und Gehwege trennen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Zweikomponentenleim, Hautkontakt und Sensibilisierung, Einstufung und Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Lamellen von Hand legen und wenden, Hebehilfe passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Warme Halle, Lüftung und Trinkpausen passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Späne und Leimreste am Boden, beseitigen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Stapler fährt Paket von mehreren hundert Kilo in die Presse."
+  },
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "urteil": "typisch",
+   "grund": "Fichtenbretter, Splitter beim Handhaben."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Das Mischen findet ohne Absaugung statt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hydraulische Presse, Unterweisung gehört dazu."
+  }
+ ]
+}

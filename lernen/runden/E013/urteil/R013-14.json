@@ -1,0 +1,57 @@
+{
+ "id": "R013-14",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "grund": "Mangel Schläuche mit Knicken, gleicher Anlass; Schläuche nicht verwenden und ersetzen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Last am Hallenkran, Niemand unter der Last und Anschlagmittel prüfen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Staub",
+   "grund": "Feiner Strahlstaub, Absaugung und Atemschutz passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lauter Strahler, Lärmminderung und Gehörschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Gefährdung der Liste meint das Heben und Kippen schwerer Säcke."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Instandhaltung oder Störungsbeseitigung wird nicht beschrieben."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "unbegruendet",
+   "grund": "Brennbarer Staub wird nicht genannt, nur Stahlkorn."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Strahlanlage ist kraftbetrieben, Strahler rüstet selbst."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Mangel: Absaugung seit dem Sommer ausgefallen."
+  }
+ ]
+}

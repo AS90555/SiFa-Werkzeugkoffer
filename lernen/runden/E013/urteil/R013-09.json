@@ -1,0 +1,77 @@
+{
+ "id": "R013-09",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Last am Kran beim Anschlagen: Anschlagmittel prüfen und niemand unter der Last passen zur Ursache."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Getroffen werden von Klammer oder Teil",
+   "grund": "Berstende Scheibe und Splitter, Schutzhaube und Gesichtsschutz bei Trennscheiben passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Staub",
+   "grund": "Metall- und Schleifstaub, Absaugung an der Entstehungsstelle passt zum Mangel an der Absaugung."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm in der Halle, Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Hand-Arm-Vibration wird nirgends genannt; die Rückfrage betrifft gleichförmige Arbeit, nicht Vibration."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Instandhaltung stellt die Maschinen ein, Kabine wird von der Schicht gereinigt; Sicherung gegen Wiedereinschalten ist hier üblich."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "berechtigt",
+   "grund": "Der Staub liegt auf den Hallenträgern, gereinigt wird mit Druckluftschlauch."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Strahlkabine und Handschleifmaschinen sind kraftbetriebene Maschinen."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Handschleifmaschinen und Schleifbock mit Trenn- und Schruppscheiben."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Drehgestell und Tür mit Gummilappen geben im Protokoll keinen Quetschanlass her."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "unbegruendet",
+   "grund": "Entzündbare Stoffe oder Gase werden nicht genannt."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "unbegruendet",
+   "grund": "Heiße Flächen oder Funkenflug auf die Haut werden nicht beschrieben."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Mangel: Absaugung am Schleifbock hängt nur teilweise, Haube verschlissen, Schlauch abgeknickt."
+  }
+ ]
+}
