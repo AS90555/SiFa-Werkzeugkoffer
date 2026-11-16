@@ -1,0 +1,56 @@
+{
+ "runde": "R008",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R008-01",
+   "auftrag": "a133",
+   "branche": "Härterei",
+   "bereich": "Kammerofen mit Schutzgas, Chargieren"
+  },
+  {
+   "kennung": "R008-02",
+   "auftrag": "a118",
+   "branche": "Maschinenservice",
+   "bereich": "Reparatur einer Werkzeugmaschine beim Kunden"
+  },
+  {
+   "kennung": "R008-03",
+   "auftrag": "a151",
+   "branche": "Kälte- und Klimatechnik",
+   "bereich": "Kältemittel umfüllen, Arbeiten auf dem Dach"
+  },
+  {
+   "kennung": "R008-04",
+   "auftrag": "a126",
+   "branche": "Fahrzeugbau",
+   "bereich": "Rohbau, Roboterzelle, Störung beseitigen"
+  },
+  {
+   "kennung": "R008-05",
+   "auftrag": "a145",
+   "branche": "Behälterbau",
+   "bereich": "WIG-Schweißen an Edelstahl, Arbeiten im Behälter"
+  },
+  {
+   "kennung": "R008-06",
+   "auftrag": "a098",
+   "branche": "Tischlerei",
+   "bereich": "Montage beim Kunden, Einbau einer Küche"
+  },
+  {
+   "kennung": "R008-07",
+   "auftrag": "a103",
+   "branche": "Fenster in Serie",
+   "bereich": "Flutanlage für Imprägnierung und Grundierung"
+  },
+  {
+   "kennung": "R008-08",
+   "auftrag": "a119",
+   "branche": "Elektromechanik",
+   "bereich": "Löten und Bestücken von Baugruppen"
+  }
+ ]
+}
