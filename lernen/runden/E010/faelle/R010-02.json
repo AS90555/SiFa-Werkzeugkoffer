@@ -1,0 +1,24 @@
+{"id":"R010-02","name":"R010-02","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Achsmontage mit Manipulator","bereich":"Achsmontage mit Manipulator","personen":4,"umgebung":["halle","laerm_umgebung","taktarbeit","boden"],"angaben":{"last_kg":180,"gleichfoermig":true},
+   "schritte":[
+    {"vorgang":"heben","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+    {"vorgang":"senken","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+    {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}
+   ]}],
+ "wuensche":[
+  {"text":"Fett wird von Hand mit einem Pinsel aufgetragen","fehlt":"Vorgang für das Auftragen von Fett mit dem Pinsel fehlt; als Material wäre Öl, Fett, Schmierstoff vorhanden"},
+  {"text":"Die Schrauben kommen aus einem Behälter neben der Linie","fehlt":"Material Schrauben und Verbindungselemente fehlt"},
+  {"text":"Die Vorrichtungen rüstet der Vorarbeiter","fehlt":"Es ist nicht beschrieben, was beim Rüsten getan wird; deshalb kein Schritt"},
+  {"text":"Achse, die etwa 180 Kilo wiegt","fehlt":"Material Fahrzeugachse fehlt; schweres_geraet nur als nächstliegendes Material gewählt"}
+ ],
+ "maengel":[
+  {"text":"Vor dem Montageplatz liegt eine Stufe, die man beim Gehen kaum sieht","art":"weg_boden","gegenstand":"Stufe vor dem Montageplatz, kaum sichtbar"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Eine Achse, die etwa 180 Kilo wiegt, wird von einem Hallenkran an den Haken des Manipulators gehängt","sicher":true},
+  {"schritt":2,"stelle":"Der Manipulator ist ein pneumatischer Balancer, den man am Griff führt, und er hebt die Achse in Position unter den Rahmen","sicher":false},
+  {"schritt":3,"stelle":"Dann wird mit Drehmomentschlüsseln verschraubt, die über einen Schlauch mit Druckluft laufen, mehrere Dutzend Schrauben pro Achse","sicher":true},
+  {"schritt":4,"stelle":"gereinigt wird am Ende der Schicht mit Besen und Industriesauger","sicher":true}
+ ]}

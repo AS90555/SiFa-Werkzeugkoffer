@@ -1,0 +1,8 @@
+{
+ "hinweis": "Welches Modell welche Rolle übernimmt. Immer das kleinste, das die Eichprobe besteht (docs/05_Lernkreislauf.md). haiku ist das kleinste, sonnet das mittlere.",
+ "sprecher": "haiku",
+ "uebersetzer": "sonnet",
+ "schiedsrichter": "sonnet",
+ "lueckenschliesser": "sonnet",
+ "stichprobe": "sonnet"
+}

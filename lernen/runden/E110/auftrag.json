@@ -1,0 +1,56 @@
+{
+ "runde": "E110",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R010-01",
+   "auftrag": "a157",
+   "branche": "Tankstellenservice",
+   "bereich": "Arbeiten an Zapfsäule und Domschacht"
+  },
+  {
+   "kennung": "R010-02",
+   "auftrag": "a128",
+   "branche": "Fahrzeugbau",
+   "bereich": "Achsmontage mit Manipulator"
+  },
+  {
+   "kennung": "R010-03",
+   "auftrag": "a134",
+   "branche": "Galvanik",
+   "bereich": "Trommelanlage, Ansetzen der Bäder"
+  },
+  {
+   "kennung": "R010-04",
+   "auftrag": "a164",
+   "branche": "Motorradwerkstatt",
+   "bereich": "Prüfstand und Probefahrt"
+  },
+  {
+   "kennung": "R010-05",
+   "auftrag": "a104",
+   "branche": "Türen in Serie",
+   "bereich": "Zargenfertigung an der Ummantelungsanlage"
+  },
+  {
+   "kennung": "R010-06",
+   "auftrag": "a090",
+   "branche": "Holzhausbau",
+   "bereich": "Abbundanlage und Wandelemente auf dem Montagetisch"
+  },
+  {
+   "kennung": "R010-07",
+   "auftrag": "a148",
+   "branche": "Korrosionsschutz",
+   "bereich": "Beschichten von Stahlbauteilen im Freien"
+  },
+  {
+   "kennung": "R010-08",
+   "auftrag": "a117",
+   "branche": "Hydraulik",
+   "bereich": "Schlauchleitungen fertigen und prüfen"
+  }
+ ]
+}

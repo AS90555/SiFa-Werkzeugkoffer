@@ -1,0 +1,31 @@
+{"id":"R010-08","name":"R010-08","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Werkbank Schlauchleitungen","bereich":"Schlauchleitungen fertigen und prüfen","personen":2,"umgebung":["laerm_umgebung","dunkel","boden"],"angaben":{},
+   "schritte":[
+     {"vorgang":"schneiden","ausfuehrung":"handmaschine","material":[]},
+     {"vorgang":"einsetzen","ausfuehrung":"von_hand","material":[]},
+     {"vorgang":"umformen","ausfuehrung":"presse","material":[]},
+     {"vorgang":"sonderbetrieb","ausfuehrung":"presse","material":["anlage"]},
+     {"vorgang":"druckpruefen","ausfuehrung":"hochdruckgeraet","material":[]},
+     {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["oel_schmierstoff"]},
+     {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}
+   ]}],
+ "wuensche":[
+   {"text":"Der Schlauch wird von einer großen Rolle gezogen","fehlt":"Material Schlauch oder Schlauchleitung fehlt in den Stammdaten; Schritte ohne Material eingetragen"},
+   {"text":"Die Enden werden mit einem Druckluftentgrater entgratet","fehlt":"Ausführung Druckluftentgrater fehlt in den Stammdaten; Schritt weggelassen"},
+   {"text":"dann wird die Armatur von Hand aufgeschoben; die Hülse um den Schlauch presst","fehlt":"Material Armatur und Hülse fehlt in den Stammdaten; Schritte ohne Material eingetragen"},
+   {"text":"Am Ende werden die Schläuche mit einem Aufkleber gekennzeichnet","fehlt":"Vorgang Kennzeichnen oder Beschriften fehlt in den Stammdaten; Schritt weggelassen"}
+ ],
+ "maengel":[
+   {"text":"Das Hydrauliköl tropft beim Abkoppeln auf den Boden","art":"weg_boden"},
+   {"text":"Die Halle ist dunkel, das Licht hängt nur an der Decke","art":"beleuchtung"}
+ ],
+ "zuordnung":[
+   {"schritt":1,"stelle":"Der Schlauch wird von einer großen Rolle gezogen und mit einem handgeführten Schneidegerät auf Länge geschnitten","sicher":true},
+   {"schritt":2,"stelle":"dann wird die Armatur von Hand aufgeschoben","sicher":true},
+   {"schritt":3,"stelle":"Anschließend geht das Stück in die Crimpmaschine, eine hydraulische Presse mit Fußschalter, die die Hülse um den Schlauch presst","sicher":true},
+   {"schritt":4,"stelle":"Bei einem anderen Durchmesser wechselt der Vorarbeiter den Stempel der Presse","sicher":true},
+   {"schritt":5,"stelle":"dort wird der fertige Schlauch mit Wasser unter hohem Druck gesetzt, bis etwa vierhundert bar","sicher":true},
+   {"schritt":6,"stelle":"Das Hydrauliköl tropft beim Abkoppeln auf den Boden, die Ölreste wischt man mit einem Lappen weg","sicher":true},
+   {"schritt":7,"stelle":"Am Ende werden die Schläuche ... in eine Kiste gelegt","sicher":true}
+ ]}

@@ -1,0 +1,30 @@
+{"id":"R010-07","name":"R010-07","betrieb":{},"angaben":{},
+ "stoffe":[
+   {"id":"s1","name":"Zweikomponentige Epoxidgrundierung mit Härter","material":"lack","sdb":null,"h":[]},
+   {"id":"s2","name":"Verdünner","material":"loesemittel","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Freigelände hinter der Halle","bereich":"Beschichten von Stahlbauteilen im Freien","personen":2,"umgebung":["aussen","witterung","kalt","boden"],"angaben":{},
+   "schritte":[
+     {"vorgang":"heben","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+     {"vorgang":"lackieren","ausfuehrung":"hochdruckgeraet","material":["lack"]},
+     {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+     {"vorgang":"lackieren","ausfuehrung":"von_hand","material":["lack"]},
+     {"vorgang":"sonderbetrieb","ausfuehrung":"hochdruckgeraet","material":["anlage","loesemittel"]}
+   ]}],
+ "wuensche":[
+   {"text":"Vorher wird der Rost mit einem Strahlgerät abgestrahlt, das Strahlmittel fliegt dabei über den ganzen Platz.","fehlt":"Ausführung für Strahlgerät fehlt in den Stammdaten (von Hand geführt oder Strahlkabine?); Schritt weggelassen, Strahlmittel dort nicht eingetragen"},
+   {"text":"Die Träger und Geländerteile liegen auf Holzböcken im Freien","fehlt":"Werkstoff der Geländerteile ist nicht genannt; eingetragen ist Stahl nur aus der Bereichsbezeichnung Stahlbauteile"}
+ ],
+ "maengel":[
+   {"text":"Oben an den Stützen arbeitet man von einer Arbeitsbühne aus, die auf unebenem Boden steht.","art":"arbeitsweise","gegenstand":"Arbeitsbühne auf unebenem Boden"},
+   {"text":"Wind trägt den Spritznebel zur Straße hin","art":"arbeitsweise"},
+   {"text":"Eine Maske trägt nur einer, der andere arbeitet ohne.","art":"psa","gegenstand":"Atemschutzmaske beim Spritzen"},
+   {"text":"Gereinigt wird die Pistole am Ende mit Verdünner in einem offenen Eimer, den man danach neben die Bauteile stellt.","art":"stoff_lagerung","gegenstand":"offener Eimer mit Verdünner"}
+ ],
+ "zuordnung":[
+   {"schritt":1,"stelle":"Die Träger und Geländerteile werden mit einem Kran umgesetzt","sicher":true},
+   {"schritt":2,"stelle":"spritzt einer mit einer Airless-Pistole eine zweikomponentige Epoxidgrundierung auf","sicher":true},
+   {"schritt":3,"stelle":"Die Farbe wird aus Gebinden mit Härter angemischt; der andere füllt nach","sicher":true},
+   {"schritt":4,"stelle":"trägt von Hand nach","sicher":true},
+   {"schritt":5,"stelle":"Gereinigt wird die Pistole am Ende mit Verdünner in einem offenen Eimer","sicher":true}
+ ]}

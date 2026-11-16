@@ -1,0 +1,33 @@
+{"id":"R010-06","name":"R010-06","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Abbundanlage und Montagetisch","bereich":"Abbundanlage und Wandelemente auf dem Montagetisch","personen":3,"umgebung":["laerm_umgebung","boden"],"angaben":{},
+   "schritte":[
+     {"vorgang":"foerdern","ausfuehrung":"stetigfoerderer","material":["kantel"]},
+     {"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"vollautomat","material":["kantel"]},
+     {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["kantel"]},
+     {"vorgang":"einsetzen","ausfuehrung":"von_hand","material":[]},
+     {"vorgang":"eintreiben","ausfuehrung":"druckluft_klammergeraet","material":["plattenware"]},
+     {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["plattenware"]},
+     {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
+     {"vorgang":"sonderbetrieb","ausfuehrung":"vollautomat","material":["anlage"]}
+   ]}],
+ "wuensche":[
+   {"text":"dazwischen Dämmung aus Mineralwolle eingelegt","fehlt":"Material Mineralwolle (Dämmung) fehlt in den Stammdaten; Schritt ohne Material eingetragen"},
+   {"text":"Die Elemente wiegen je nach Größe um die achtzig Kilogramm und werden anschließend mit einem Kran angehoben und weggefahren","fehlt":"Material für fertiges Wandelement fehlt in den Stammdaten; Gewicht nicht als Angabe eingetragen, die Angabe Last je Griff passt nicht zum Kran"},
+   {"text":"Am Ende der Schicht wird mit Druckluft abgeblasen","fehlt":"Ausführung Druckluftpistole fehlt in den Stammdaten; Schritt weggelassen, Holzstaub dort nicht eingetragen"}
+ ],
+ "maengel":[
+   {"text":"Die Schutzhaube an der Abbundanlage ist offen, weil die Balken sonst nicht durchpassen.","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Abbundanlage"},
+   {"text":"Späne und Holzstaub liegen überall herum","art":"weg_boden"},
+   {"text":"Die Mineralwolle juckt auf der Haut, Handschuhe trägt nicht jeder.","art":"psa","gegenstand":"Handschuhe bei Mineralwolle"}
+ ],
+ "zuordnung":[
+   {"schritt":1,"stelle":"Die Konstruktionshölzer werden von Hand auf eine Zuführrollenbahn gelegt","sicher":true},
+   {"schritt":2,"stelle":"Die Abbundanlage schneidet, bohrt und fräst die Balken dann automatisch nach einem Programm","sicher":true},
+   {"schritt":3,"stelle":"Am Montagetisch werden die Hölzer von Hand aufgelegt","sicher":true},
+   {"schritt":4,"stelle":"dazwischen Dämmung aus Mineralwolle eingelegt","sicher":true},
+   {"schritt":5,"stelle":"die Beplankung aus OSB-Platten mit einem Druckluftnagler befestigt","sicher":true},
+   {"schritt":6,"stelle":"Wer am Tisch steht, trägt die Platten immer wieder vom Stapel","sicher":true},
+   {"schritt":7,"stelle":"Die Elemente werden anschließend mit einem Kran angehoben und weggefahren","sicher":true},
+   {"schritt":8,"stelle":"Der Maschinenführer rüstet die Anlage um, wechselt Sägeblätter und verstellt die Anschläge","sicher":true}
+ ]}

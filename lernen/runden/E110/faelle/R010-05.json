@@ -1,0 +1,28 @@
+{"id":"R010-05","name":"R010-05","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Ummantelungsanlage Zargen","bereich":"Zargenfertigung","personen":2,"umgebung":["hitze","laerm_umgebung","boden","taktarbeit"],"angaben":{},
+   "schritte":[
+     {"vorgang":"foerdern","ausfuehrung":"stetigfoerderer","material":[]},
+     {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+     {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+     {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+   ]}],
+ "wuensche":[
+   {"text":"Die Zargenprofile liegen auf einem Wagen neben der Anlage","fehlt":"Werkstoff der Zargenprofile ist nicht genannt; kein Material eingetragen"},
+   {"text":"Die Anlage zieht die Profile dann selbsttätig durch, über eine Reihe beheizter Walzen, auf denen eine Dekorfolie mit Schmelzkleber auf die Profile gepresst wird","fehlt":"Vorgang Ummanteln (Dekorfolie mit Schmelzkleber auf Profile pressen) fehlt in den Stammdaten; Schritt weggelassen, Schmelzkleber dort nicht eingetragen"},
+   {"text":"dabei fasst er die noch warmen Profile an","fehlt":"Passendes Material für warme Zargenprofile fehlt; das heiße Werkstück ist nur für frisch geschweißte Teile oder Teile aus dem Ofen gedacht"},
+   {"text":"mit einem Tuch und einem Reinigungsmittel abgewischt; die Walzen sind noch warm","fehlt":"Reinigungsmittel nicht benannt, ob gefährlich unbekannt; beheizte Walzen als heißes Maschinenteil nicht sicher, nicht eingetragen"},
+   {"text":"es riecht nach Kleber und Lösemittel","fehlt":"Welches Lösemittel verwendet wird, ist nicht genannt; kein Stoff eingetragen"}
+ ],
+ "maengel":[
+   {"text":"die Schutzhaube steht hochgeklappt","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Ummantelungsanlage"},
+   {"text":"dafür muss man an die Walzen greifen, während sie noch warm sind","art":"arbeitsweise"},
+   {"text":"Der Kleber kommt als Granulat aus einem Vorratsbehälter, der oben offen ist","art":"stoff_lagerung","gegenstand":"Vorratsbehälter Schmelzkleber-Granulat"},
+   {"text":"Ausschussteile liegen manchmal neben dem Auslauf auf dem Boden","art":"weg_boden"}
+ ],
+ "zuordnung":[
+   {"schritt":1,"stelle":"Die Zargenprofile werden von Hand auf das Einzugsband gelegt","sicher":true},
+   {"schritt":2,"stelle":"Am Auslauf nimmt der Kollege die fertigen Zargen ab und stapelt sie auf einen Rollwagen, dabei fasst er die noch warmen Profile an","sicher":true},
+   {"schritt":3,"stelle":"Die Walzenoberfläche wird am Ende der Schicht von Hand mit einem Tuch und einem Reinigungsmittel abgewischt","sicher":true},
+   {"schritt":4,"stelle":"Stellt man die Anlage auf eine neue Profilbreite um, macht das der Schichtführer mit einem Schraubschlüssel an den Führungsschienen","sicher":true}
+ ]}

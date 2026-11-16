@@ -20,6 +20,7 @@ Sprache: Deutsch, klar, ohne Fachjargon aus der Softwareentwicklung. Andre ist F
 - `freigabe: geprueft` setzt nur Andre: `node freigabe/setzen.js` erst ausführen, wenn er es im Gespräch ausdrücklich gesagt hat. Ein Bericht eines Agenten ist keine Freigabe.
 - `grundlage: erfahrung` an einer Maßnahme setzt nur Andre.
 - Agenten bekommen ihre Aufträge aus den erzeugten Auftragsdateien, nicht frei formuliert. Sprecher laufen auf dem kleinsten Modell.
+- Selbstlern-Zyklus: `node lernen/zyklus.js weiter` sagt, was zu tun ist und welche Agenten mit welchem Modell zu starten sind. Lücken schließt dort nur `lernen/uebernehmen.js` innerhalb seiner Schranken (`docs/05_Lernkreislauf.md`). Die Schranken nicht lockern, ohne dass Andre es sagt.
 - Protokolle in `protokolle/` nie verändern.
 - Keine Unterlagen von Andres Arbeitgeber verwenden.
 - Protokolle und Fälle enthalten keinen Firmennamen, keinen Ort und keine Personennamen. Taucht so etwas in einem Diktat auf, vor dem Ablegen durch eine neutrale Bezeichnung ersetzen und Andre darauf hinweisen.

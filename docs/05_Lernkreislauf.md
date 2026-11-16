@@ -91,3 +91,42 @@ Die Regelwerkstexte liegen außerhalb des Repositorys (Umgebungsvariable `REGELW
 ## Kosten
 
 Eine Lernrunde braucht fünf Agentenläufe (zwei kleine Sprecher, zwei Übersetzer, ein Schiedsrichter), eine Prüfrunde mit sechzehn Plätzen zehn, ein Beleg-Lauf mit zwei Paketen vier. Rechnen, Prüfen, Auswählen und Zusammenführen macht das Programm ohne KI.
+
+## Selbstlern-Zyklus (seit 16.11.2026)
+
+**Ziel:** Das System trainiert sich im Feld BGHM selbst, ohne Rückfrage und mit den kleinsten Modellen, die die Arbeit nachweislich schaffen. Am Ende jedes Zyklus steht ein Messwert.
+
+**Ein Zyklus** sind zwei Lernrunden (je 8 Arbeitsplätze) und eine Prüfrunde (16 Arbeitsplätze), jede mit Lückenschluss. Nur die Prüfrunde ist der Messwert.
+
+**So läuft er:** `node lernen/zyklus.js neu`, dann immer wieder `node lernen/zyklus.js weiter`. Der Befehl erledigt alles, was ohne Agenten geht (Runde anlegen, prüfen, rechnen, auswerten, Vorschlag übernehmen, Tests, Lernbuch, Leitstand, sichern) und nennt dann die Agenten, die zu starten sind, jeweils mit Modell und fertigem Auftrag. Sind sie fertig, wieder `weiter`. Das geht so lange, bis `FERTIG` oder `ANGEHALTEN` erscheint. Die Leitung braucht dafür kein Fachwissen und kann selbst ein kleines Modell sein.
+
+**Wer was tut:**
+
+| Rolle | Aufgabe | Modell |
+| --- | --- | --- |
+| Sprecher | schreibt Protokolle und verdeckte Wahrheit, kennt die Bibliothek nicht | klein |
+| Übersetzer | macht aus dem Protokoll einen Fall | laut Eichprobe |
+| Programm | rechnet die Gefährdungen, ohne KI | – |
+| Schiedsrichter | urteilt nach Bedeutung: getroffen oder verfehlt | laut Eichprobe |
+| Stichprobe | liest in der Prüfrunde zehn Treffer-Urteile gegen | mittel |
+| Lückenschließer | schlägt vor, was der Bibliothek fehlt | mittel |
+| Programm | prüft den Vorschlag an festen Schranken und übernimmt | – |
+
+Welches Modell welche Rolle hat, steht in `lernen/modelle.json`.
+
+**Schranken des Lückenschlusses** (`lernen/uebernehmen.js`). Der Lückenschließer ändert die Bibliothek nie selbst. Das Programm übernimmt nur:
+
+- Neues. Bestehende Einträge und Regeln bleiben unverändert, belegte und freigegebene sowieso.
+- Mit Anlass, der wörtlich in einem Protokoll steht.
+- Regeln und Gefährdungen nur als Muster: zwei verschiedene Arbeitsplätze müssen den Anlass zeigen. Einzelfälle wandern in `lernen/offene-themen.json` und zählen beim nächsten Mal mit.
+- Regeln immer als Entwurf mit offenem Beleg, nie doppelt zu einer bestehenden Bedingung.
+- Höchstens 6 Merkmale, 2 Gefährdungen, 10 Stammdaten, 12 Wörterbucheinträge und 4 Regeln je Runde.
+- Nur, wenn danach alle Tests bestehen. Sonst wird alles zurückgenommen.
+
+Was abgelehnt wurde und warum, steht je Runde in `uebernahme.json` und im Bericht des Zyklus (`lernen/zyklen/Z…md`).
+
+**Was der Zyklus nicht tut:** Er setzt keinen Beleg und keine Freigabe. Er ändert keine bestehenden Regeln und keine Mangelarten. Er legt keine geplante Aufgabe an.
+
+**Eichprobe für Modelle.** Bevor ein kleineres Modell eine Rolle bekommt, wiederholt es eine schon gelaufene Runde. Übersetzer: Das kleinere Modell darf keine Gefährdungen verlieren, die als Treffer gewertet waren. Schiedsrichter: mindestens 90 % gleiche Urteile wie das bisherige Modell, und nicht milder. Die Probeläufe liegen unter `lernen/runden/E…`.
+
+**Anhalten.** Liefert ein Agent nach drei Versuchen nicht vollständig, hält der Zyklus an und sagt, was fehlt. Fällt die Quote einer Prüfrunde unter die vorige, läuft der Zyklus zu Ende und vermerkt die Stopp-Regel im Bericht. Sind zu Beginn weniger als 25 % der Regeln doppelt belegt, steht im Bericht, dass vor dem nächsten Zyklus ein Beleg-Lauf fällig ist.
