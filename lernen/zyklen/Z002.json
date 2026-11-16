@@ -10,7 +10,7 @@
   "hinweis": "Welches Modell welche Rolle übernimmt. Immer das kleinste, das die Eichprobe besteht (docs/05_Lernkreislauf.md). haiku ist das kleinste, sonnet das mittlere.",
   "sprecher": "haiku",
   "uebersetzer": "sonnet",
-  "schiedsrichter": "haiku",
+  "schiedsrichter": "sonnet",
   "lueckenschliesser": "sonnet",
   "stichprobe": "sonnet"
  },
@@ -25,9 +25,12 @@
   "R014:lueckenschliesser": 1,
   "R015:sprecher": 1,
   "R015:uebersetzer": 1,
-  "R015:schiedsrichter": 1
+  "R015:schiedsrichter": 1,
+  "R015:lueckenschliesser": 1
  },
- "hinweise": [],
+ "hinweise": [
+  "Ab der Prüfrunde urteilt wieder das mittlere Modell als Schiedsrichter, weil das kleinste zweimal (R014, R015) trotz Verbot eine geplante Erinnerung angelegt hat. Die Lernrunden R014 und R015 wurden noch vom kleinsten Modell beurteilt."
+ ],
  "belegquoteZuBeginn": 25,
  "fertig": false
 }

@@ -1,0 +1,19 @@
+{"id":"R015-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Beim Späneholen mit dem Haken läuft die Spindel noch nach; Maßnahme Arbeitsmittel nur mit wirksamer Schutzeinrichtung passt."},
+  {"nr":2,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Die Türverriegelung ist mit Klebeband überbrückt; Maßnahme Schutzeinrichtungen wirksam, nichts überbrückt passt."},
+  {"nr":3,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Das Schrumpfgerät ist heiß und steht neben dem Magazin; Maßnahme gekennzeichneter Ablageplatz und hitzebeständige Handschuhe passt."},
+  {"nr":4,"urteil":"getroffen","system":"Haut- und Atemwegserkrankung durch Kühlschmierstoff","grund":"Kühlschmierstoff steht als Nebel in der Kabine; Maßnahme Kapselung und Absaugung passt."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Werkstücke bis 15 Kilo werden häufig von Hand gehoben; Maßnahme Hebehilfe passt."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"In der Kabine ist es laut, die Spindel jault auf Drehzahl; Lärmmaßnahmen passen."},
+  {"nr":7,"urteil":"getroffen","system":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","grund":"Vier Maschinen gleichzeitig und ständiger Zeitdruck; Maßnahme Arbeitsabläufe gestalten und erfassen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Der Bediener rüstet und wechselt Werkzeuge an der CNC-Maschine; Fachkraft prüft Anlauf bei Eingriffen, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"typisch","grund":"Schaftfräser und Werkzeugwechsel; Schnittgefahr an Werkzeugen gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"typisch","grund":"Kühlschmierstoff und Späne auf dem Boden um die Maschine; Wischen am Schichtende gehört dazu, nicht ausdrücklich als Gefahr genannt."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"typisch","grund":"Fräsen von Aluminium und Stahl erzeugt Späne und Staub; Absaugung ist zu prüfen, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene CNC-Maschine, der Bediener rüstet selbst; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Kühlschmierstoff steht als Nebel in der Kabine, bei offener Tür riecht man ihn sofort."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Der Gehörschutz hängt neben der Tür und wird selten getragen."}
+ ]}

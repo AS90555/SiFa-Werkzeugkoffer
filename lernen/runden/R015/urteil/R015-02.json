@@ -1,0 +1,20 @@
+{"id":"R015-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Schiebetür lässt sich während des Laufs öffnen, die Verriegelung hängt lose; Maßnahme Arbeitsmittel nur mit wirksamer Schutzeinrichtung verwenden passt."},
+  {"nr":2,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Die Wange wird von Hand auf die Spannschienen gelegt und kann kippen; Maßnahme Auf Unterlagen absetzen, Finger nicht unter die Last passt."},
+  {"nr":3,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Die 20 bis 30 Kilo schweren Wangen werden zu zweit gehoben; Maßnahme Hebehilfe passt."},
+  {"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Der verstopfte Filter lässt Holzstaub in die Raumluft; Staub nicht abblasen, Aufsaugen mit Sauger passt, auch wenn die Absaugung selbst nicht genannt wird."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Fräsen und Absaugung sind laut; Lärmmaßnahmen passen."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Die Druckluftleitung läuft offen über den Boden; Maßnahme Verkehrswege freihalten passt."},
+  {"nr":7,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Der Werkzeugwechsel erfolgt von einer kleinen Trittleiter; Maßnahme Leiter nur für kurze, leichte Arbeiten passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"CNC-Maschine mit offener Tür und Werkzeugwechsel; Fachkraft prüft Anlauf bei Eingriffen, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Holzstaub ist brennbar; Späne liegen nach dem Abblasen auf dem Boden, Staubexplosion nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Späne und Staub fliegen beim Fräsen, Abblasen am Schichtende."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene CNC-Maschine; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Am Schichtende wird mit dem Druckluftschlauch abgeblasen, der Boden ist danach voller Späne."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Der Filter ist seit Wochen nicht getauscht, das zeigt das Manometer."},
+  {"gefaehrdung":"Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung","urteil":"berechtigt","grund":"Der Ersatzfilter wird nicht eingebaut, weil keiner zuständig ist."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Die Staubmaske hängt meist am Hals statt vor dem Mund."}
+ ]}

@@ -1,0 +1,146 @@
+{
+ "runde": "R015",
+ "blind": true,
+ "regeln": 128,
+ "quote": 94,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 43,
+  "schritte": 41,
+  "maengel": 36
+ },
+ "faelle": [
+  {
+   "id": "R015-01",
+   "arbeitsplatz": "Bremsen und Reifen am Lkw, Arbeiten in der Grube",
+   "branche": "Nutzfahrzeugwerkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-02",
+   "arbeitsplatz": "CNC-Bearbeitungszentrum für Wangen",
+   "branche": "Treppenbau in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-03",
+   "arbeitsplatz": "Stanz-Nibbel-Maschine",
+   "branche": "Blechbearbeitung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-04",
+   "arbeitsplatz": "CNC-Fräszentrum, Rüsten und Werkzeugwechsel",
+   "branche": "Maschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-05",
+   "arbeitsplatz": "Kappsäge und CNC-Fräse für Aluminiumprofile",
+   "branche": "Aluminiumbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-06",
+   "arbeitsplatz": "Bandsäge für geschweifte Teile aus Massivholz",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-07",
+   "arbeitsplatz": "Spaltanlage für Bandstahl, Einfädeln des Coils",
+   "branche": "Bandstahl",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R015-08",
+   "arbeitsplatz": "Formmaschine und Sandaufbereitung",
+   "branche": "Eisengießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 18,
+   "verfehlt": 1
+  },
+  "2": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 7,
+   "verfehlt": 0
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 8,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 6,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 0,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 94,
+  "getroffen": 49,
+  "rueckfrage": 0,
+  "verfehlt": 3,
+  "unbegruendet": 0,
+  "zBerechtigt": 29,
+  "zTypisch": 26,
+  "zUnbegruendet": 3
+ }
+}

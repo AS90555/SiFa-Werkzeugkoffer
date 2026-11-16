@@ -1,0 +1,19 @@
+{"id":"R015-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Die Blechtafeln werden einzeln von Hand auf den Tisch gezogen; Maßnahme Hebehilfe passt."},
+  {"nr":2,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Abdeckung ist offen, der Bediener greift bei klemmenden Teilen in den Stanzbereich; Maßnahme Arbeitsmittel nur mit wirksamer Schutzeinrichtung passt."},
+  {"nr":3,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Die scharfen Grate werden ungeschützt gestapelt; Maßnahme schnittfeste Handschuhe und Entgraten passt."},
+  {"nr":4,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Die Tür des Schaltschranks steht offen; Maßnahme Schaltschränke geschlossen halten passt."},
+  {"nr":5,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der starke Ölnebel reizt die Atemwege; Maßnahme Lüftung oder Absaugung instand setzen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Auf dem Boden liegt ein Schmierfilm aus dem Ölnebel; Maßnahme Verunreinigungen beseitigen passt."},
+  {"nr":7,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Das Dröhnen des Stanzhubs ist im ganzen Raum zu hören; Lärmmaßnahmen passen."},
+  {"nr":8,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Eine Lampe an der Maschine leuchtet nicht mehr; Maßnahme Beleuchtung instand setzen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Stanzmaschine mit Werkzeugwechsel durch den Einrichter; Fachkraft prüft Anlauf bei Eingriffen, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"berechtigt","grund":"Der Bediener zieht die Tafeln von Hand auf den Tisch und greift bei klemmenden Teilen in den Bereich."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"unbegruendet","grund":"Das Protokoll nennt bei Stahlblech keinen Staub; die Zuordnung ist falsch."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Stanz-Nibbel-Maschine, ein Bediener arbeitet allein; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Container für die Ausschnitte sind oft bis oben voll."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Der Bediener stapelt die scharfkantigen Teile ungeschützt mit der Hand."}
+ ]}

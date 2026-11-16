@@ -1,0 +1,20 @@
+{"id":"R015-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Die Hand liegt beim Positionieren am Sägetisch nah am laufenden Sägeblatt; Maßnahme Schutzeinrichtung benutzen und Hilfsmittel zum Zuführen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Schutzhaube der Fräse ist an einer Seite offen; Maßnahme Arbeitsmittel nur mit wirksamer Schutzeinrichtung passt."},
+  {"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Aluminiumstaub und Späne fliegen beim Sägen und Fräsen; Maßnahme Absaugung an der Entstehungsstelle passt."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Das Sägeblatt pfeift laut beim Schneiden; Lärmmaßnahmen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Das Licht über dem Platz ist eher schwach; Maßnahme Beleuchtung instand setzen passt. Die warme Halle ist eine Zusatzfrage."},
+  {"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schwere, lange Profile werden zu zweit abgenommen; Maßnahme Hebehilfe passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Kappsäge mit Schutzbügel, der von Hand bedient wird; Quetschen der Hand gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Schnitt- und Stichverletzung","urteil":"typisch","grund":"Aluminiumprofile mit Graten und Spänen; Schnittgefahr gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"berechtigt","grund":"Feines Aluminiumpulver setzt sich auf Boden und Gerät ab; am Schichtende wird mit Druckluft gereinigt."},
+  {"gefaehrdung":"Haut- und Atemwegserkrankung durch Kühlschmierstoff","urteil":"berechtigt","grund":"Gekühlt wird mit einem Öl-Wasser-Gemisch, das säuerlich riecht; Hautkontakt beim Arbeiten am Behälter."},
+  {"gefaehrdung":"Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff","urteil":"typisch","grund":"Das Öl-Wasser-Gemisch riecht säuerlich; Keimbelastung ist zu prüfen, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Späne und Aluminiumpulver setzen sich am Boden ab, am Schichtende wird der Boden mit Druckluft gereinigt."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"typisch","grund":"CNC-Fräse mit drehender Spindel; Einzugsgefahr gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Die Halle ist im Sommer warm und staubig."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Bediener rüstet die Maschinen selbst; Unterweisung und Betriebsanweisung sind zu prüfen."}
+ ]}

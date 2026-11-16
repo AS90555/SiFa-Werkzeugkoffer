@@ -1,0 +1,16 @@
+{"id":"R015-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der Bereich vor dem Pressenkopf ist offen, die Hand greift in den Kasten; Maßnahme Arbeitsmittel nur mit wirksamer Schutzeinrichtung passt."},
+  {"nr":2,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Am Sandmischer staubt es stark; Maßnahme Saugen statt Abblasen passt zum aufgewirbelten Staub, Absaugung ist nicht genannt."},
+  {"nr":3,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Der Ofen neben der Formanlage macht die Luft warm und feucht; Maßnahme Abschirmung der Wärmequelle und Trinkpausen passt."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Systemliste meint flüssiges Metall in Pfannen, die bei Verlust der Last verbrennen; der Hebezug ist nur als herabfallende Last erfasst."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Sandaufbereitung läuft laut, ein Gebläse brummt; Lärmmaßnahmen passen."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Boden ist uneben, sandbedeckt, und es liegen Stolperstellen herum; Maßnahme Verkehrswege freihalten passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"berechtigt","grund":"Der Mann greift zum Bestücken mit beiden Händen in den Formkasten, während die Presse arbeitet."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Die Gießpfannen mit flüssigem Metall werden mit dem Kran transportiert."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"typisch","grund":"Förderband und Sandmischer mit Rollen und Bändern; Einzugsstellen gehören zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Formmaschine; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Der Gehörschutz wird nicht getragen, er hängt oft am Haken."}
+ ]}

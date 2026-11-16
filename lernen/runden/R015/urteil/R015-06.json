@@ -1,0 +1,18 @@
+{"id":"R015-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Der Bediener führt das Holz von Hand nah am laufenden Sägeband; Maßnahme Schiebestock oder Schiebeholz und Schutzeinrichtungen passen."},
+  {"nr":2,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Die Absaugung ist nicht eingeschaltet; Maßnahme Maschine nur mit eingeschalteter Absaugung betreiben passt."},
+  {"nr":3,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Beim Sägebandwechsel ist die Maschine manchmal noch am Stromnetz; Maßnahme sichere Arbeitsweise festlegen und unterweisen passt."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Das Sägeband ist laut, wenn es auf Holz trifft; Lärmmaßnahmen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Bretter bis etwa 15 Kilo werden von Hand gehoben; Maßnahme Hebehilfe passt."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Systemliste meint Unbeteiligte im Gefahrenbereich des Sägebandes am Durchgang."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Krebs der Nase durch Hartholzstaub","urteil":"berechtigt","grund":"Das Protokoll nennt Eiche, also Hartholz, als Staubquelle."},
+  {"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Massivholzbretter mit Kanten werden von Hand geführt; Splitter gehören zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"berechtigt","grund":"Sägemehl liegt auf dem Tisch, Späne fallen auf den Boden."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Späne fallen auf den Boden, der Platz liegt am Durchgang."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Bandsäge, ein Lehrling arbeitet ab und zu mit; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Der Tischschutz ist nur halb heruntergefahren, weil er bei kleinen Schweifungen stört."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Der Absauganschluss ist da, aber der Schlauch hängt halb ab und die Absaugung ist aus."}
+ ]}

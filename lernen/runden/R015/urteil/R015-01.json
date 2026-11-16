@@ -1,0 +1,21 @@
+{"id":"R015-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schwere Räder werden zu zweit vom Nabenbolzen gezogen; das System nennt Hebehilfe als Maßnahme."},
+  {"nr":2,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Der Mangel der lose angelehnten Leiter ist im System erfasst, Maßnahme Absturzsicherung herstellen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","grund":"Der nachzustellende Wagenheber ist der Mangel; die Maßnahme verlangt, mängelbehaftete Arbeitsmittel nicht zu verwenden."},
+  {"nr":4,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Das quer liegende, beschädigte Lampenkabel ist der Mangel; Maßnahme Betriebsmittel entziehen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Bremsstaub beim Ausblasen; die Maßnahme Saugen statt Abblasen passt zur Ursache."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Druckluft- und Schlagschrauber übertönen den Rest; Lärmmaßnahmen passen."},
+  {"nr":7,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Mäßige Beleuchtung, unten in der Grube am dunkelsten; Maßnahme Beleuchtung instand setzen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"typisch","grund":"Radmuttern mit Druckluftschrauber lösen gehört zur Reifenarbeit; Wiederholung wird im Protokoll nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Öl und Schmutzwasser stehen in den Ecken der Grube, das Kabel liegt quer über den Boden."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Schwere Räder werden von Hand abgesetzt; Quetschen der Finger gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Das Hallentor steht im Sommer meist offen, dann wird es ziemlich warm."},
+  {"gefaehrdung":"Fahrzeug kippt oder wird falsch bedient","urteil":"unbegruendet","grund":"Das Protokoll beschreibt Wagenheber und Grube, keine Hebebühne; die Maßnahme passt nicht zur Lage."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Druckluftschrauber ist eine kraftbetriebene Maschine, ein Lehrling arbeitet mit; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Öl in der Grube und Reinigen mit Öl; Hautkontakt gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Öl und Schmutzwasser stehen in den Ecken der Grube."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"unbegruendet","grund":"Das Protokoll nennt Staub in der Halle, keine Gase oder Dämpfe aus einem Verfahren; falsche Zuordnung."}
+ ]}

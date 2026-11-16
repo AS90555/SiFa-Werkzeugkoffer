@@ -1,0 +1,17 @@
+{"id":"R015-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Beim Einfädeln greifen die Hände zwischen die Walzen; Maßnahme Auslösung nur bei freiem Bereich passt."},
+  {"nr":2,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Die Stahlkanten sind scharf und ölig, der Bediener trägt keine Handschuhe; Maßnahme Schnittschutzhandschuhe passt."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Systemliste meint Stahlbänder, die beim Lösen der Umreifung zurückschnellen."},
+  {"nr":4,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Der etwa 20 Tonnen schwere Coil wird mit dem Hallenkran eingesetzt und kann pendeln; Maßnahmen Niemand unter der schwebenden Last und Anschlagmittel prüfen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der laute Motor und die quietschende Walze; Lärmmaßnahmen passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Einfädeln im Tippbetrieb und Messerwechsel durch den Schichtführer; Fachkraft prüft Anlauf bei Eingriffen, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Spaltanlage; Unterweisung und Betriebsanweisung sind zu prüfen."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Runder Coil auf dem Abhaspel; Sicherung gegen Wegrollen gehört zu dieser Tätigkeit, nicht ausdrücklich genannt."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"berechtigt","grund":"Die Stahlkanten sind oft mit Ölfilm überzogen, gereinigt wird mit Lappen."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Der Mann steht seitlich direkt an der Kante des Bandes, die Hände greifen zwischen die Walzen."},
+  {"gefaehrdung":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","urteil":"berechtigt","grund":"Handschuhe trägt er nicht immer, weil sie in den Walzen hängen bleiben könnten."},
+  {"gefaehrdung":"Muskel-Skelett-Beschwerden durch Zwangshaltung","urteil":"berechtigt","grund":"Der Bildschirm an der Bedienstation ist klein und schwer zu lesen."}
+ ]}
