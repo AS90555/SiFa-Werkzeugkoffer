@@ -1,0 +1,230 @@
+{
+ "runde": "R016",
+ "blind": true,
+ "regeln": 128,
+ "quote": 74,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 88,
+  "schritte": 73,
+  "maengel": 37
+ },
+ "faelle": [
+  {
+   "id": "R016-01",
+   "arbeitsplatz": "Röntgenprüfung von Schweißnähten",
+   "branche": "Behälterbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-02",
+   "arbeitsplatz": "Sitzmontage und Ergonomie am Band",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-03",
+   "arbeitsplatz": "Lackierstraße mit Trockner",
+   "branche": "Türen in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-04",
+   "arbeitsplatz": "Senkerodieren mit Dielektrikum",
+   "branche": "Werkzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-05",
+   "arbeitsplatz": "Ausliefern und Aufstellen von Schränken im Treppenhaus eines Mehrfamilienhauses",
+   "branche": "Möbelmontage",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-06",
+   "arbeitsplatz": "Federwindeautomat und Anlassofen in der Halle",
+   "branche": "Federnfertigung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-07",
+   "arbeitsplatz": "Schweißen einer Rohrnaht im ungesicherten Graben",
+   "branche": "Rohrleitungsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-08",
+   "arbeitsplatz": "Pelletpresse und Siloanlage mit Förderschnecke",
+   "branche": "Holzpelletwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-09",
+   "arbeitsplatz": "Dach eines Reisebusses in der Werkstatt, auf der Hebebühne",
+   "branche": "Busbetrieb",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-10",
+   "arbeitsplatz": "Gesenkpresse mit Induktionsspule, Schmiedebereich",
+   "branche": "Schmiede",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-11",
+   "arbeitsplatz": "Formbrett für die Kabelbaumfertigung, im Sitzen",
+   "branche": "Zulieferer",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-12",
+   "arbeitsplatz": "Ultraschallbad und Mikroskoparbeitsplatz in der Feinmechanik",
+   "branche": "Uhren und Feinmechanik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-13",
+   "arbeitsplatz": "Montage im Schacht",
+   "branche": "Aufzugsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-14",
+   "arbeitsplatz": "Lackieren im Spritzstand mit Wasserlack",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-15",
+   "arbeitsplatz": "Kommissionierung und Verladen mit Stapler",
+   "branche": "Küchenfertigung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R016-16",
+   "arbeitsplatz": "Druckprüfung von Gehäusen",
+   "branche": "Pumpenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 14,
+   "verfehlt": 7
+  },
+  "2": {
+   "getroffen": 2,
+   "verfehlt": 4
+  },
+  "3": {
+   "getroffen": 11,
+   "verfehlt": 3
+  },
+  "5": {
+   "getroffen": 3,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 5,
+   "verfehlt": 3
+  },
+  "9": {
+   "getroffen": 8,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 1,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 74,
+  "getroffen": 58,
+  "rueckfrage": 2,
+  "verfehlt": 18,
+  "unbegruendet": 0,
+  "zBerechtigt": 38,
+  "zTypisch": 32,
+  "zUnbegruendet": 17
+ }
+}

@@ -30,10 +30,12 @@
   "R015:lueckenschliesser": 1,
   "R016:sprecher": 1,
   "R016:uebersetzer": 1,
-  "R016:schiedsrichter": 1
+  "R016:schiedsrichter": 1,
+  "R016:stichprobe": 1
  },
  "hinweise": [
-  "Ab der Prüfrunde urteilt wieder das mittlere Modell als Schiedsrichter, weil das kleinste zweimal (R014, R015) trotz Verbot eine geplante Erinnerung angelegt hat. Die Lernrunden R014 und R015 wurden noch vom kleinsten Modell beurteilt."
+  "Ab der Prüfrunde urteilt wieder das mittlere Modell als Schiedsrichter, weil das kleinste zweimal (R014, R015) trotz Verbot eine geplante Erinnerung angelegt hat. Die Lernrunden R014 und R015 wurden noch vom kleinsten Modell beurteilt.",
+  "Stopp-Regel: Die Quote ist von 92 % (R013) auf 74 % (R016) gefallen. Vor dem nächsten Zyklus die Ursache klären."
  ],
  "belegquoteZuBeginn": 25,
  "fertig": false
