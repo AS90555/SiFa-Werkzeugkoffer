@@ -1,0 +1,130 @@
+{
+ "id": "R010-08",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung",
+    "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken",
+    "Wiederkehrende Prüfung"
+   ],
+   "entsteht": [
+    "Schließbewegung mit hoher Kraft"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsstätte mit angemessener künstlicher Beleuchtung ausstatten",
+    "Ausgefallene Leuchten umgehend instand setzen"
+   ],
+   "entsteht": [
+    "Gefahrstellen und Arbeitsaufgabe schlecht zu sehen"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille",
+    "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken"
+   ],
+   "entsteht": [
+    "Hautkontakt beim Nachfüllen, Schmieren und Reinigen, Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Das Hydrauliköl tropft beim Abkoppeln auf den Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Ausgefallene oder unzureichende Beleuchtung instand setzen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Halle ist dunkel, das Licht hängt nur an der Decke"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "id": "R010-04",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Saugen statt Abblasen",
+    "Schutzbrille"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub, wegfliegende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Vor dem Probelauf den Gefahrbereich räumen und absperren",
+    "Verständigung und Zuständigkeit festlegen: Wer fährt, wer gibt Zeichen, wer hält an",
+    "Not-Halt für die Person am Bedienteil erreichbar",
+    "Vor dem Probelauf den Gefahrbereich räumen und absperren",
+    "Verständigung und Zuständigkeit festlegen: Wer fährt, wer gibt Zeichen, wer hält an",
+    "Not-Halt für die Person am Bedienteil erreichbar"
+   ],
+   "entsteht": [
+    "Maschine, Kran oder Tor wird zum Test gefahren, während Personen in der Nähe sind",
+    "Maschine, Kran oder Tor wird zum Test gefahren, während Personen in der Nähe sind"
+   ]
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   ],
+   "entsteht": [
+    "Fahrzeuge kreuzen den Arbeitsplatz"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode Ziehen und Schieben bewerten",
+    "Geeignete Transportmittel bereitstellen und Fahrwege eben halten"
+   ],
+   "entsteht": [
+    "Schwere Wagen oder Karren, unebene Wege, Steigungen"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: dort gibt es keine Absperrung, Autos fahren vorbei"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der Schlauch der Absaugung hängt dabei nur lose am Auspuff"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}
