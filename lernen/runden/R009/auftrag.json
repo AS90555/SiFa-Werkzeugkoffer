@@ -1,0 +1,104 @@
+{
+ "runde": "R009",
+ "art": "pruef",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R009-01",
+   "auftrag": "a154",
+   "branche": "Schiffswerft",
+   "bereich": "Konservierung, Spritzen im Tank"
+  },
+  {
+   "kennung": "R009-02",
+   "auftrag": "a141",
+   "branche": "Fahrradwerkstatt",
+   "bereich": "Montage und Reparatur, Akkus von Elektrofahrrädern"
+  },
+  {
+   "kennung": "R009-03",
+   "auftrag": "a146",
+   "branche": "Schmiede",
+   "bereich": "Lufthammer und Schmiedeofen"
+  },
+  {
+   "kennung": "R009-04",
+   "auftrag": "a120",
+   "branche": "Schmuckwaren",
+   "bereich": "Goldschmiedeplatz: Löten, Polieren, Säurebad"
+  },
+  {
+   "kennung": "R009-05",
+   "auftrag": "a106",
+   "branche": "Möbel in Serie",
+   "bereich": "Verpackung und Kartonagenpresse"
+  },
+  {
+   "kennung": "R009-06",
+   "auftrag": "a088",
+   "branche": "Sägewerk",
+   "bereich": "Rundholzplatz und Entrindung"
+  },
+  {
+   "kennung": "R009-07",
+   "auftrag": "a030",
+   "branche": "Metall, Stahlbau",
+   "bereich": "Brennschneiden und Heften großer Träger mit dem Hallenkran"
+  },
+  {
+   "kennung": "R009-08",
+   "auftrag": "a113",
+   "branche": "Maschinenbau",
+   "bereich": "Montagehalle, Baugruppen mit dem Hallenkran"
+  },
+  {
+   "kennung": "R009-09",
+   "auftrag": "a127",
+   "branche": "Fahrzeugbau",
+   "bereich": "Decklackkabine und Nacharbeit"
+  },
+  {
+   "kennung": "R009-10",
+   "auftrag": "a060",
+   "branche": "Kfz, Reifenservice",
+   "bereich": "Reifenmontage und Auswuchten, Radwechsel im Akkord"
+  },
+  {
+   "kennung": "R009-11",
+   "auftrag": "a064",
+   "branche": "Kunststoff, Spritzguss",
+   "bereich": "Spritzgießmaschine, Werkzeugwechsel, Granulat"
+  },
+  {
+   "kennung": "R009-12",
+   "auftrag": "a160",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Achsvermessung und Arbeitsgrube"
+  },
+  {
+   "kennung": "R009-13",
+   "auftrag": "a099",
+   "branche": "Möbelrestaurierung",
+   "bereich": "Abbeizen und Ölen"
+  },
+  {
+   "kennung": "R009-14",
+   "auftrag": "a024",
+   "branche": "Holz, Sägewerk",
+   "bereich": "Gatter und Sortierband"
+  },
+  {
+   "kennung": "R009-15",
+   "auftrag": "a158",
+   "branche": "Kranservice",
+   "bereich": "Prüfung und Wartung eines Hallenkrans"
+  },
+  {
+   "kennung": "R009-16",
+   "auftrag": "a147",
+   "branche": "Bauschlosserei",
+   "bereich": "Tore und Antriebe montieren und prüfen"
+  }
+ ]
+}
