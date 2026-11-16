@@ -1,0 +1,20 @@
+{"id":"R011-05","name":"R011-05","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Hydraulische Spritzgießmaschine","bereich":"Spritzgießmaschinen","personen":1,"umgebung":["halle","hitze","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"spritzgiessen","ausfuehrung":"automat_lichtschranke","material":["heisses_maschinenteil","prozessrauch"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"Das Granulat aus Polyethylen und Polypropylen kommt aus dem Silo über einen Schlauch in den Trichter","fehlt":"Kein Material für Kunststoffgranulat, kein passender Vorgang für automatische Materialzufuhr"},
+  {"text":"Deckel für Dosen mit 20 bis 300 Gramm, Teil aus dem offenen Werkzeug holen","fehlt":"Kein Material für Kunststoffteil (Spritzgussteil); Gewicht nur als Spanne genannt, daher keine Angabe last_kg"},
+  {"text":"Gerüstet wird die Maschine vom Einrichter","fehlt":"Keine Beschreibung, was beim Rüsten getan wird, daher kein Schritt"},
+  {"text":"Die Maschine öffnet und schließt das Werkzeug im Takt von etwa 25 Sekunden; Dreischichtbetrieb","fehlt":"Keine Umgebung für Maschinentakt ohne Stückzahlvorgabe; Schichtarbeit nicht in den Stammdaten"}],
+ "maengel":[
+  {"text":"Vor der Schutztür hängt eine Lichtschranke, die an der Seite einen Spalt lässt, durch den man mit dem Arm hineinkommt","art":"schutzeinrichtung","gegenstand":"Lichtschranke vor der Schutztür der Spritzgießmaschine"},
+  {"text":"Der Boden vor der Maschine ist mit Granulatresten übersät und leicht rutschig","art":"weg_boden","gegenstand":"Boden vor der Maschine"},
+  {"text":"Die Hydraulikleitungen liegen zum Teil offen über dem Boden","art":"weg_boden","gegenstand":"Hydraulikleitungen über dem Boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Maschine öffnet und schließt das Werkzeug im Takt ... Heizzylinder heiß ... riecht es deutlich nach verbranntem Kunststoff ... Lichtschranke","sicher":true},
+  {"schritt":2,"stelle":"muss die Person selbst in das offene Werkzeug greifen und das Teil herausholen","sicher":true},
+  {"schritt":3,"stelle":"der Trichter wird einmal in der Woche von der Instandhaltung gereinigt","sicher":false}]}

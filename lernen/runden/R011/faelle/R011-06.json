@@ -1,0 +1,34 @@
+{"id":"R011-06","name":"R011-06","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"saurer Felgenreiniger","material":"beize_saeure","sdb":null,"h":[]},
+  {"id":"s2","name":"Desinfektionsspray","material":"desinfektionsmittel","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Waschbucht","bereich":"Fahrzeugaufbereitung","personen":2,"umgebung":["laerm_umgebung","kalt","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"spruehen","ausfuehrung":"hochdruckreiniger","material":["abgase"]},
+    {"vorgang":"spruehen","ausfuehrung":"von_hand","material":["beize_saeure","fahrzeugrad"]},
+    {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["fahrzeugrad"]},
+    {"vorgang":"reinigen_hand","ausfuehrung":"handmaschine","material":[]},
+    {"vorgang":"spruehen","ausfuehrung":"von_hand","material":["desinfektionsmittel"]},
+    {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}]},
+  {"nr":2,"name":"Polierstand","bereich":"Fahrzeugaufbereitung","personen":2,"umgebung":["laerm_umgebung","kalt","zwangshaltung","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"polieren","ausfuehrung":"handmaschine","material":["blechteil"]}]}],
+ "wuensche":[
+  {"text":"Ein Fahrzeug fährt rückwärts mit laufendem Motor in die Bucht","fehlt":"Kein Vorgang für Fahrzeug einweisen oder einfahren; Abgase nur als Material am Waschschritt eingetragen"},
+  {"text":"eingeschäumt mit einer Schaumlanze","fehlt":"Kein Material für Schaummittel, Stoff nicht benannt"},
+  {"text":"Polierpaste, die am Ende mit einem Mikrofasertuch abgenommen wird","fehlt":"Kein Material für Polierpaste; Abnehmen mit Tuch als eigener Schritt nicht eingetragen"},
+  {"text":"im Frühjahr zusätzlich ein Auszubildender","fehlt":"Alter nicht genannt, daher keine Angabe zu Jugendlichen"},
+  {"text":"Gerüstet werden die Maschinen von den Aufbereitern selbst","fehlt":"Keine Beschreibung, was beim Rüsten getan wird, daher kein Schritt"},
+  {"text":"die Waschhalle wird am Ende der Schicht mit dem Schlauch und einem Schrubber gereinigt","fehlt":"Reinigen der Halle mit Schlauch: kein passender Vorgang für Bodenreinigung nass; als Schritt reinigen_hand ohne Material eingetragen"}],
+ "maengel":[
+  {"text":"Der Boden in den Buchten steht dauerhaft unter Wasser","art":"weg_boden","gegenstand":"Boden in den Waschbuchten"},
+  {"text":"die Kabel der Poliermaschine und des Sauggeräts liegen mitten darin","art":"elektrik","gegenstand":"Kabel von Poliermaschine und Sauggerät im Wasser"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"mit einer Schaumlanze eingeschäumt und mit dem Hochdruckreiniger abgespült","sicher":true},
+  {"schritt":2,"stelle":"Die Felgen werden mit einem sauren Felgenreiniger eingesprüht","sicher":true},
+  {"schritt":3,"stelle":"mit einer Bürste nachgearbeitet","sicher":true},
+  {"schritt":4,"stelle":"Der Innenraum wird mit dem Industriesauger gereinigt","sicher":false},
+  {"schritt":5,"stelle":"danach mit einem Desinfektionsspray behandelt","sicher":true},
+  {"schritt":6,"stelle":"die Waschhalle wird am Ende der Schicht mit dem Schlauch und einem Schrubber gereinigt","sicher":false},
+  {"schritt":7,"stelle":"Exzenter-Poliermaschine ... Polieren geschieht meist im Stehen, über Kopfhöhe, am Dach und an der Motorhaube","sicher":true}]}

@@ -1,0 +1,24 @@
+{"id":"R011-08","name":"R011-08","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Trennmittel, mit Wasser verdünnt","material":"spruehdose","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Kaltkammer-Druckgießmaschine","bereich":"Druckgießmaschinen","personen":1,"umgebung":["hitze","laerm_umgebung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"spruehen","ausfuehrung":"von_hand","material":["spruehdose"]},
+   {"vorgang":"giessen","ausfuehrung":"von_hand","material":["metallschmelze"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"vollautomat","material":["metallwerkstueck"]},
+   {"vorgang":"umformen","ausfuehrung":"presse","material":["metallwerkstueck"]},
+   {"vorgang":"giessen","ausfuehrung":"von_hand","material":["metallschmelze"]}]}],
+ "wuensche":[
+  {"text":"Trennmittel, das mit Wasser verdünnt ist, per Handspritzpistole","fehlt":"Kein Material für verdünntes Trennmittel aus der Spritzpistole; Sprühdose nur als Näherung eingetragen"},
+  {"text":"Dabei entsteht ein feiner Sprühnebel, der sich im Raum verteilt","fehlt":"Kein Material für Sprühnebel"},
+  {"text":"Die Form wird vom Einrichter gewechselt, das dauert etwa zwei Stunden","fehlt":"Ausführung des Formwechsels nicht genannt, daher kein Schritt"},
+  {"text":"die Schmelze spritzt manchmal, wenn sie Feuchtigkeit trifft","fehlt":"Keine Umgebung oder Angabe für Feuchtigkeit an Schmelze"},
+  {"text":"zwei Leute wechseln sich im Schichtbetrieb ab","fehlt":"Schichtbetrieb nicht in den Stammdaten"}],
+ "maengel":[
+  {"text":"Eine Absaugung über der Maschine läuft nur, wenn man sie einschaltet","art":"lueftung","gegenstand":"Absaugung über der Druckgießmaschine"},
+  {"text":"Der Boden liegt voller Trennmittelspritzer und ist feucht","art":"weg_boden","gegenstand":"Boden an der Maschine"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"wird die offene Form mit einer Handspritzpistole eingesprüht, mit Trennmittel","sicher":false},
+  {"schritt":2,"stelle":"holt die Person die Schmelze mit einem Gießlöffel aus dem Ofen und gießt sie in die Kammer","sicher":true},
+  {"schritt":3,"stelle":"Die Maschine presst das Teil ... und wirft es aus","sicher":false},
+  {"schritt":4,"stelle":"Der Angussrest wird mit einem Stanzwerkzeug abgetrennt","sicher":false},
+  {"schritt":5,"stelle":"Gereinigt wird der Ofen wöchentlich, die Schlacke wird mit einer Kelle abgeschöpft","sicher":true}]}

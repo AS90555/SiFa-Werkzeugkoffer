@@ -1,0 +1,25 @@
+{"id":"R011-07","name":"R011-07","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Montage Stahlhalle","bereich":"Stahlbau","personen":4,"umgebung":["aussen","witterung","kalt","boden","laerm_umgebung","gefahrbereich"],"angaben":{"last_kg":1200},
+  "schritte":[
+   {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+   {"vorgang":"hoehenarbeit","ausfuehrung":"hubarbeitsbuehne","material":["stahlprofil"]},
+   {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":["stahlprofil"]},
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["stahlprofil"]}]}],
+ "wuensche":[
+  {"text":"Die Träger werden vom Lastwagen abgeladen und zum Kran gebracht","fehlt":"Ausführung des Abladens nicht genannt, daher kein Schritt Abladen"},
+  {"text":"Der Kran wird vom Kranführer selbst aufgebaut","fehlt":"Keine Beschreibung, was beim Aufbau getan wird, daher kein Schritt"},
+  {"text":"Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm","fehlt":"Keine Umgebung für Freileitung oder Arbeiten in der Nähe von Spannung"},
+  {"text":"Ein Monteur steht auf einer Arbeitsbühne in gut vier Metern Höhe","fehlt":"Bauart der Arbeitsbühne nicht genannt; Hubarbeitsbühne angenommen, unsicher. Keine Angabe für Arbeitshöhe"},
+  {"text":"acht bis zwölf Meter lang und bis 1,2 Tonnen schwer","fehlt":"last_kg ist je Griff gefragt; hier Kranlast, als Angabe eingetragen, Länge hat keine Angabe"}],
+ "maengel":[
+  {"text":"Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm","art":"arbeitsweise","gegenstand":"Freileitung über dem Kranarm"},
+  {"text":"Der Boden ist ungleich, mit Schotter und Matsch, und an einigen Stellen liegen Bauteile und Schrott herum","art":"weg_boden","gegenstand":"Boden der Baustelle"},
+  {"text":"Aufgeräumt wird nach Feierabend nicht, die Reste bleiben auf der Baustelle liegen","art":"weg_boden","gegenstand":"Reste auf der Baustelle"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Ein Anschläger hängt den Träger mit Rundschlingen an den Kranhaken","sicher":true},
+  {"schritt":2,"stelle":"dann schwebt der Träger über den Boden, bis er über den Stützen steht","sicher":true},
+  {"schritt":3,"stelle":"Ein Monteur steht auf einer Arbeitsbühne in gut vier Metern Höhe","sicher":false},
+  {"schritt":4,"stelle":"steckt die Schrauben ein. Die Verschraubung macht er mit einem Schlagschrauber","sicher":true},
+  {"schritt":5,"stelle":"muss er Stahl richten, mit dem Hammer nachschlagen","sicher":true}]}
