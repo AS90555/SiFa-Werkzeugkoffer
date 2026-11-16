@@ -1,0 +1,116 @@
+{
+ "id": "R014-01",
+ "name": "R014-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Werkzeuge polieren und Spritzgießwerkzeug wechseln",
+   "bereich": "Werkzeughalle Formenbau",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "dunkel",
+    "stickig",
+    "hitze"
+   ],
+   "angaben": {
+    "last_kg": 2500
+   },
+   "schritte": [
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "polieren",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "metallwerkstueck"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Polierpaste, Filz, Staub legt sich auf den Boden und die Kittel",
+   "fehlt": "Kein Material für Polierstaub und Polierpaste; Paste hat keinen Stoffeintrag"
+  },
+  {
+   "text": "Zum Wechseln wird das alte Werkzeug am Automaten gelöst, Kühlwasserschläuche abgezogen",
+   "fehlt": "Kein eigener Vorgang für Spritzgießwerkzeug-Wechsel am Automaten außer Sonderbetrieb; Spritzgießautomat selbst wird nicht als Schritt beschrieben"
+  },
+  {
+   "text": "Stahlblock etwa zweieinhalb Tonnen",
+   "fehlt": "Kein Material für schwere Werkzeugblöcke; Metallwerkstück als Näherung"
+  },
+  {
+   "text": "daneben stehen Filz, Paste und Öl",
+   "fehlt": "Öl und Polierpaste lassen sich nicht als Stoff mit Datenblatt eintragen (Öl ist kein Gefahrstoff-Stammdatum)"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "teils ohne Absaugung, der Staub legt sich auf den Boden und auf die Kittel",
+   "art": "lueftung",
+   "gegenstand": "Absaugung an der Polierstation"
+  },
+  {
+   "text": "Der Hallenboden ist an der Maschine nass vom Kühlwasser, auf dem Boden liegen einzelne Schläuche und Kabel",
+   "art": "weg_boden",
+   "gegenstand": "Hallenboden an der Maschine"
+  },
+  {
+   "text": "Die Beleuchtung ist eher schwach über dem Polierstand",
+   "art": "beleuchtung",
+   "gegenstand": "Beleuchtung am Polierstand"
+  },
+  {
+   "text": "Die Hebeschlingen hängen an einem Haken an der Wand und sind nicht gekennzeichnet",
+   "art": "organisation",
+   "gegenstand": "Hebeschlingen"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "das alte Werkzeug am Automaten gelöst, die Kühlwasserschläuche werden abgezogen; Gerüstet und gereinigt wird von dem Zweierteam selbst",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "der Block mit dem Hallenkran herausgehoben und auf einen Wagen gestellt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "mit Spannpratzen festgeschraubt, Schrauben M16 mit dem Drehmomentschlüssel angezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Der Arbeiter hält die Form von Hand gegen die Scheibe",
+   "sicher": true
+  }
+ ]
+}

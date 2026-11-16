@@ -1,0 +1,119 @@
+{
+ "id": "R014-03",
+ "name": "R014-03",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Tafelschere und Schwenkbiegemaschine",
+   "bereich": "Blechwerkstatt",
+   "personen": 1,
+   "umgebung": [
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {
+    "last_kg": 50
+   },
+   "schritte": [
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "umformen",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Schwenkbiegemaschine biegt die Kanten per Pedal",
+   "fehlt": "Keine Ausführung für Schwenkbiegemaschine mit Pedal; Halbautomat als Näherung"
+  },
+  {
+   "text": "Nach dem Biegen werden die Teile auf einen Rollwagen gelegt",
+   "fehlt": "Kein Schritt für Rollwagen ohne Hubwagen; Wagen wird nur als Mangel im Weg notiert"
+  },
+  {
+   "text": "Gereinigt wird einmal die Woche, dann ist der Boden voll mit Ölen und Schmierfett",
+   "fehlt": "Reinigen ohne Beschreibung der Tätigkeit, daher kein Schritt"
+  },
+  {
+   "text": "dann ist der Boden voll mit Ölen und Schmierfett",
+   "fehlt": "Öle und Schmierfett lassen sich nicht als Stoff eintragen (kein Gefahrstoff-Stammdatum)"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Schutz an der Schere ist ein Lichtgitter, das manchmal überbrückt ist",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Lichtgitter der Tafelschere"
+  },
+  {
+   "text": "die Hand liegt dabei nah am Schnittspalt",
+   "art": "arbeitsweise",
+   "gegenstand": "Hand am Schnittspalt der Tafelschere"
+  },
+  {
+   "text": "Grate liegen am Boden",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Biegemaschine"
+  },
+  {
+   "text": "Rollwagen, der oft im Weg steht",
+   "art": "weg_boden",
+   "gegenstand": "Rollwagen im Verkehrsweg"
+  },
+  {
+   "text": "dann ist der Boden voll mit Ölen und Schmierfett",
+   "art": "weg_boden",
+   "gegenstand": "Boden nach der Reinigung"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "hydraulische Schere, Blech wird von Hand eingelegt und an einem Anschlag ausgerichtet",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Schwenkbiegemaschine biegt die Kanten per Pedal, das Blech wird vorne festgeklemmt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "ein Blech wiegt bis fünfzig Kilo; wenn ein großes Blech gehalten werden muss",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gerüstet wird vom Schlosser selbst, das Messer der Schere wird per Schlüssel nachgestellt",
+   "sicher": true
+  }
+ ]
+}

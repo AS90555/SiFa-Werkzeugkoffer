@@ -1,0 +1,28 @@
+{"id":"R014-02","name":"R014-02","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Tischfräse mit Vorschubapparat","bereich":"Holzbearbeitung","personen":2,"umgebung":["laerm_umgebung","eng","kalt"],"angaben":{"hartholz":true},
+  "schritte":[
+   {"vorgang":"fraesen","ausfuehrung":"durchlaufmaschine","material":["massivholzteil","holzstaub"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["massivholzteil"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"Gerade Schnitte macht man oft mit dem Schiebestock, der liegt auf dem Tisch","fehlt":"Kein Vorgang und keine Ausführung für Fräsen mit Schiebestock am Anschlag"},
+  {"text":"Der Vorschubapparat schiebt die Teile mit einer Rolle über den Tisch, ein Hebel gibt die Geschwindigkeit vor","fehlt":"Keine Ausführung für Vorschubapparat an der Tischfräse; Durchlaufmaschine als Näherung"}
+ ],
+ "maengel":[
+  {"text":"Die Fräse ist eine ältere Maschine mit offener Welle","art":"schutzeinrichtung","gegenstand":"Fräswelle der Tischfräse"},
+  {"text":"Die Schutzhaube ist ein Bügel, der über die Fräse gedreht wird, aber sie passt nicht immer ganz","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Tischfräse"},
+  {"text":"die Absaugung ist laut und zieht nur halb","art":"lueftung","gegenstand":"Späneabsaugung an der Tischfräse"},
+  {"text":"Kleinteile fallen unter die Maschine und werden mit dem Besen herausgeholt, während die Welle noch nachläuft","art":"arbeitsweise","gegenstand":"Entfernen von Kleinteilen bei nachlaufender Welle"},
+  {"text":"Gereinigt wird am Feierabend mit Druckluft, dabei fliegen Späne durch die Halle","art":"arbeitsweise","gegenstand":"Reinigen mit Druckluft"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Vorschubapparat schiebt die Teile mit einer Rolle über den Tisch","sicher":false},
+  {"schritt":2,"stelle":"einer führt die Werkstücke am Anschlag, der andere schaltet und sammelt ab","sicher":false},
+  {"schritt":3,"stelle":"Rüsten macht der Tischler selbst, er wechselt das Messer, dafür muss der Strom aus","sicher":true},
+  {"schritt":4,"stelle":"Kleinteile fallen unter die Maschine und werden mit dem Besen herausgeholt","sicher":true},
+  {"schritt":5,"stelle":"Gereinigt wird am Feierabend mit Druckluft","sicher":true}
+ ]}

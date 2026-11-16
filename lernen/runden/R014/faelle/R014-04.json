@@ -1,0 +1,24 @@
+{"id":"R014-04","name":"R014-04","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Vierseitenhobel mit Abstapeln","bereich":"Hobelwerk","personen":2,"umgebung":["laerm_umgebung","hitze","dunkel","bodenoeffnung"],"angaben":{"hartholz":false},
+  "schritte":[
+   {"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"durchlaufmaschine","material":["kantel","holzstaub"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["kantel"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"Kanthölzer bis sechs Meter lang, werden über Rollen eingeschoben","fehlt":"Kein Hinweis zu Rollenbahn als Schritt; Einschieben nicht als eigener Vorgang"},
+  {"text":"die Messer werden zweimal im Jahr vom Schleifdienst gewechselt","fehlt":"Messerwechsel durch Fremdfirma, Tätigkeit nicht beschrieben, daher kein Schritt"}
+ ],
+ "maengel":[
+  {"text":"die Abdeckungen sind oben offen, weil sie zum Einfädeln hochgeklappt werden","art":"schutzeinrichtung","gegenstand":"Abdeckung der Einzugswalzen"},
+  {"text":"abgesaugt wird nur an der Maschine selbst","art":"lueftung","gegenstand":"Absaugung im Hobelwerk"},
+  {"text":"manchmal rutscht ein Stapel von der Kante","art":"last_ungesichert","gegenstand":"Stapel am Auslauf"},
+  {"text":"die Grube ist mit einem Gitter abgedeckt, das lose liegt","art":"absturzsicherung","gegenstand":"Gitterabdeckung der Späne-Grube"},
+  {"text":"Die Beleuchtung an der Maschine ist schwach","art":"beleuchtung","gegenstand":"Beleuchtung am Vierseitenhobel"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Vierseitenhobel mit vier Fräswellen, Kanthölzer über Rollen eingeschoben, Einzugswalzen","sicher":true},
+  {"schritt":2,"stelle":"Am Auslauf kommen die Hölzer in einen Stapel, der Stapler richtet sie von Hand aus","sicher":true},
+  {"schritt":3,"stelle":"Gereinigt wird der Vierseitenhobel von der Bedienperson mit dem Besen","sicher":true}
+ ]}
