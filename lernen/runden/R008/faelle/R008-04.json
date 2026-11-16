@@ -1,0 +1,25 @@
+{"id":"R008-04","name":"R008-04","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Schweißroboterzelle Unterboden","bereich":"Rohbauhalle","personen":2,"umgebung":["gefahrbereich","laerm_umgebung","eng","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"schweissen","ausfuehrung":"automat_lichtschranke","material":["blech","prozessrauch"]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["blech"]}
+  ]}],
+ "wuensche":[
+  {"text":"Durch den Zaun sieht man das helle Blitzen des Lichtbogens","fehlt":"Umgebung Blendung nicht gewählt, da sie für Blendung und Spiegelungen gedacht ist"},
+  {"text":"Der Roboter steht still, er ist aber nicht abgeschaltet, nur im Automatikbetrieb angehalten","fehlt":"Ausführung Roboter oder Schweißroboter mit Gitterzaun; Automat mit Lichtschranke nur als nächstliegende"},
+  {"text":"die Schweißspritzer fliegen","fehlt":"Kein eigenes Material für Schweißspritzer"}
+ ],
+ "maengel":[
+  {"text":"eine Lichtschranke ist auch vorhanden, sie ist aber mit Klebeband überbrückt","art":"schutzeinrichtung","gegenstand":"Lichtschranke der Roboterzelle"},
+  {"text":"Der Roboter steht still, er ist aber nicht abgeschaltet, nur im Automatikbetrieb angehalten","art":"arbeitsweise","gegenstand":"Eingriff am nicht abgeschalteten Roboter"},
+  {"text":"eine Absaugung läuft nur halb, eine Düse ist abgeklemmt","art":"lueftung","gegenstand":"Absaugung der Schweißzelle"},
+  {"text":"auf dem Boden liegen Schlacke und Drahtreste","art":"weg_boden","gegenstand":"Boden in der Zelle"},
+  {"text":"Paletten stehen im Gang, die Instandhaltung stellt Teile auf den Boden neben die Zelle","art":"weg_boden","gegenstand":"Gang neben der Zelle"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Heute steht eine Störung an, der Roboter hat einen Drahtvorschub gemeldet. Einer hält die Taschenlampe, der andere greift an den Brenner","sicher":true},
+  {"schritt":2,"stelle":"Schweißroboterzelle, die den Unterboden aus Blechteilen zusammenschweißt","sicher":false},
+  {"schritt":3,"stelle":"Die Bleche werden mit dem Kran in Spannvorrichtungen gelegt","sicher":true}
+ ]}

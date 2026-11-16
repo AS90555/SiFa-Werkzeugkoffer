@@ -1,0 +1,27 @@
+{"id":"R008-01","name":"R008-01","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Kammerofen mit Schutzgas","bereich":"Härterei, Wärmebehandlung","personen":2,"umgebung":["hitze","boden","dunkel"],"angaben":{"last_kg":80},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Der Wagen wird in die Kammer gefahren, der Ofen läuft auf 850 bis 900 Grad, bei der Beschickung steht die Tür offen","fehlt":"Vorgang Wärmebehandeln, Härten im Ofen, Chargieren in einen heißen Ofen; Einbrennen passt nur für Beschichtungen"},
+  {"text":"Nach dem Chargieren wird im Abschreckbecken gekühlt, Dampf steigt aus dem Ölbad auf","fehlt":"Vorgang Abschrecken im Ölbad; Material Abschrecköl; Dampf aus dem Ölbad (Prozessdampf) ist ohne Schritt nicht eintragbar"},
+  {"text":"Das Schutzgas kommt aus Stickstoff-Flaschen im Käfig neben dem Ofen, die Leitung läuft über Schläuche am Boden","fehlt":"Kein Schritt für Schutzgasversorgung, Flaschenwechsel oder Leitungen"},
+  {"text":"Die Körbe wiegen zwischen dreißig und achtzig Kilogramm","fehlt":"Angabe last_kg nur als Obergrenze 80 eingetragen; Griffe je Stunde fehlen"},
+  {"text":"Die Körbe reinigt der Chargierer mit Druckluft und einem Eimer Wasser","fehlt":"Material Korb oder Gitterbox für Teile; Reinigen mit Wasser von Hand"},
+  {"text":"Die Teile kommen als Schüttgut in Körben aus der Vorwäsche","fehlt":"Material Schüttgut in Korb; metallwerkstueck nur als nächstliegendes Material verwendet"}
+ ],
+ "maengel":[
+  {"text":"die Lüftung über dem Ofen ist zugesetzt, man sieht den Dampf bis unter die Decke","art":"lueftung","gegenstand":"Lüftung über dem Ofen"},
+  {"text":"Der Boden ist an dieser Stelle leicht ölig, unter dem Ofen liegt Ablagerung vom Abschrecken","art":"weg_boden","gegenstand":"Boden am Ofen"},
+  {"text":"die Leitung läuft über Schläuche am Boden entlang","art":"weg_boden","gegenstand":"Gasschläuche am Boden"},
+  {"text":"Die Beleuchtung ist eher schwach, im hinteren Bereich muss man mit der Taschenlampe nachsehen","art":"beleuchtung","gegenstand":"Beleuchtung im hinteren Bereich"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Mitarbeiter hebt sie mit dem Hallenkran an den Ofen","sicher":true},
+  {"schritt":2,"stelle":"schiebt sie mit der Hand auf den Wagen","sicher":false},
+  {"schritt":3,"stelle":"die Körbe reinigt der Chargierer mit Druckluft und einem Eimer Wasser","sicher":false}
+ ]}

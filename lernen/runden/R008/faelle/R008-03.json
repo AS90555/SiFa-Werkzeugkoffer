@@ -1,0 +1,28 @@
+{"id":"R008-03","name":"R008-03","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Außeneinheit der Klimaanlage auf dem Flachdach","bereich":"Dach eines Bürogebäudes","personen":2,"umgebung":["witterung","laerm_umgebung","boden"],"angaben":{"last_kg":50},
+  "schritte":[
+   {"vorgang":"hoehenarbeit","ausfuehrung":"leiter","material":[]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["druckgasflasche"]},
+   {"vorgang":"pruefen","ausfuehrung":"von_hand","material":["druckgasflasche"]},
+   {"vorgang":"bewegen","ausfuehrung":"von_hand","material":["druckgasflasche"]}
+  ]}],
+ "wuensche":[
+  {"text":"Die Flasche wird mit einer Sackkarre über das Dach gezogen","fehlt":"Ausführung Sackkarre; Vorgang Bewegen von Hand nur als nächstliegende Zuordnung"},
+  {"text":"Das Kältemittel wird aus einer Flasche in ein Servicegerät umgefüllt","fehlt":"Stoff Kältemittel mit Datenblatt (kein passendes Gefahrstoff-Material); Druckgasflasche nur als nächstliegendes Material; Ausführung Servicegerät mit Schnellkupplungen"},
+  {"text":"hochgekommen ist man über eine Holzleiter","fehlt":"Vorgang Aufstieg, Zugang zum Dach; Höhenarbeit mit Leiter nur als nächstliegende Zuordnung"},
+  {"text":"es sind über dreißig Grad","fehlt":"Umgebung Hitze nicht gewählt, da das Protokoll sie nur als warmes Wetter beschreibt; Witterung gewählt"},
+  {"text":"Das Dach ist mit Kies bedeckt","fehlt":"Keine eigene Umgebung für Dachfläche, Kies oder lose Steine; boden als nächstliegende"}
+ ],
+ "maengel":[
+  {"text":"das Geländer ist niedrig, an der Kante fehlt eine Sicherung","art":"absturzsicherung","gegenstand":"Geländer und Dachkante"},
+  {"text":"Die Flasche steht auf dem Dachbelag in der Sonne","art":"stoff_lagerung","gegenstand":"Kältemittelflasche"},
+  {"text":"die Schutzbrille liegt im Auto","art":"psa","gegenstand":"Schutzbrille beim Umfüllen"},
+  {"text":"Das Dach ist mit Kies bedeckt, teilweise rutscht man auf losen Steinen","art":"weg_boden","gegenstand":"Dachfläche mit losem Kies"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"hochgekommen ist man über eine Holzleiter","sicher":false},
+  {"schritt":2,"stelle":"Das Kältemittel wird aus einer Flasche in ein Servicegerät umgefüllt","sicher":true},
+  {"schritt":3,"stelle":"Die Manometer werden abgelesen, beim Abziehen zischt es kurz","sicher":false},
+  {"schritt":4,"stelle":"Die Flasche wird mit einer Sackkarre über das Dach gezogen, sie ist schwer, etwa fünfzig Kilo","sicher":false}
+ ]}

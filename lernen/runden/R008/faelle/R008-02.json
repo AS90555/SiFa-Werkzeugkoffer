@@ -1,0 +1,28 @@
+{"id":"R008-02","name":"R008-02","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Kühlschmierstoff aus dem Kundenbehälter","material":"kuehlschmierstoff","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Bearbeitungszentrum, Service bei stehender Maschine","bereich":"Produktionshalle beim Kunden","personen":2,"umgebung":["eng","boden","fahrverkehr","laerm_umgebung"],"angaben":{},
+  "schritte":[
+   {"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["kuehlschmierstoff"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["metallspaene","anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"eine Fräsmaschine, ein Bearbeitungszentrum von etwa drei Tonnen","fehlt":"Keine Angabe oder Material für das Gewicht der Maschine; kein Schritt zum Bewegen der Maschine beschrieben"},
+  {"text":"Werkzeug und Kühlschmierstoff werden aus dem Kundenbehälter abgefüllt","fehlt":"Material Werkzeug; Angabe, ob der Kühlschmierstoff wassergemischt ist, fehlt"},
+  {"text":"Der Techniker räumt seine Werkzeuge am Ende wieder auf den Wagen","fehlt":"Kein Vorgang für Aufräumen oder Verladen von Werkzeug"},
+  {"text":"Wir sind heute beim Kunden in der Produktionshalle, zwei Personen vom Service","fehlt":"Umgebung fremdfirma nicht gewählt, weil das Protokoll sie nicht ausdrücklich nennt"}
+ ],
+ "maengel":[
+  {"text":"Die Verkleidung der Maschine ist aus Blech und an einer Seite offen","art":"schutzeinrichtung","gegenstand":"Verkleidung der Maschine"},
+  {"text":"Die Spindel wird von Hand gedreht, um die Achse zu prüfen, dabei ist die Verkleidung noch offen","art":"schutzeinrichtung","gegenstand":"Verkleidung der Maschine"},
+  {"text":"der Hauptschalter ist aus, aber an der Verkleidung hängt kein Schild, dass die Maschine gesperrt ist","art":"organisation","gegenstand":"Sperrschild an der Maschine"},
+  {"text":"der Boden ist nass und der Gang ist eng, Kisten und Paletten liegen daneben","art":"weg_boden","gegenstand":"Gang neben der Maschine"},
+  {"text":"Gabelstapler fahren vorbei, während der Techniker am Schaltschrank arbeitet","art":"arbeitsweise","gegenstand":"Arbeit am Schaltschrank im Fahrverkehr"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Er misst mit dem Multimeter an der Steuerkarte","sicher":true},
+  {"schritt":2,"stelle":"Die Spindel wird von Hand gedreht, um die Achse zu prüfen","sicher":true},
+  {"schritt":3,"stelle":"Werkzeug und Kühlschmierstoff werden aus dem Kundenbehälter abgefüllt","sicher":true},
+  {"schritt":4,"stelle":"Die Späne fliegen beim Reinigen mit Druckluft durch die Halle","sicher":false}
+ ]}
