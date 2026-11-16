@@ -1,0 +1,226 @@
+{
+ "runde": "R013",
+ "blind": true,
+ "regeln": 126,
+ "quote": 92,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 97,
+  "schritte": 77,
+  "maengel": 55
+ },
+ "faelle": [
+  {
+   "id": "R013-01",
+   "arbeitsplatz": "Hebebühne, Bremsen- und Ölwechsel",
+   "branche": "Kfz, Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-02",
+   "arbeitsplatz": "Zuschnitt mit Bandsäge und Brennschneidanlage",
+   "branche": "Stahlbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-03",
+   "arbeitsplatz": "Deckenverkleidung vom Rollgerüst",
+   "branche": "Innenausbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-04",
+   "arbeitsplatz": "Richtbank, Trennen und Schweißen",
+   "branche": "Karosseriewerkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-05",
+   "arbeitsplatz": "Sprinklerrohre montieren von der Hubarbeitsbühne",
+   "branche": "Brandschutztechnik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-06",
+   "arbeitsplatz": "Laserschneidanlage mit Be- und Entladen",
+   "branche": "Metall, Blechbearbeitung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-07",
+   "arbeitsplatz": "Presse für Brettschichtholz, Leimauftrag",
+   "branche": "Leimholz",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-08",
+   "arbeitsplatz": "Konventionelle Drehmaschine, lange Wellen",
+   "branche": "Dreherei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-09",
+   "arbeitsplatz": "Putzerei: Strahlkabine und Schleifbock für Gussteile",
+   "branche": "Gießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-10",
+   "arbeitsplatz": "Profilieranlage für Fensterkanteln",
+   "branche": "Fenster in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-11",
+   "arbeitsplatz": "Blechzuschnitt an der Tafelschere und Schamottesäge",
+   "branche": "Ofenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-12",
+   "arbeitsplatz": "Teilelager und Annahme mit Altöl- und Batterielager",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-13",
+   "arbeitsplatz": "Nagelplatz",
+   "branche": "Palettenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-14",
+   "arbeitsplatz": "Strahlstand",
+   "branche": "Strahlbetrieb",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-15",
+   "arbeitsplatz": "Hobelmaschine",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R013-16",
+   "arbeitsplatz": "Serienlinie für Korpusse",
+   "branche": "Möbel in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 36,
+   "verfehlt": 3
+  },
+  "2": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 13,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 4,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 9,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 7,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 9,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 92,
+  "getroffen": 83,
+  "rueckfrage": 0,
+  "verfehlt": 7,
+  "unbegruendet": 0,
+  "zBerechtigt": 51,
+  "zTypisch": 52,
+  "zUnbegruendet": 11
+ }
+}

@@ -1,0 +1,20 @@
+# Auftrag Stichprobe, Runde R013
+
+Lies zuerst deine Arbeitsanweisung vollständig: `/home/claude/sifa-werkzeugkoffer/agenten/stichprobe.md`
+
+Lies diese Treffer-Urteile gegen:
+
+- `R013-01`, Wahrheit Nr. 1: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-01.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-01.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-01.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-01.json`
+- `R013-02`, Wahrheit Nr. 4: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-02.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-02.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-02.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-02.json`
+- `R013-03`, Wahrheit Nr. 6: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-03.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-03.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-03.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-03.json`
+- `R013-05`, Wahrheit Nr. 4: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-05.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-05.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-05.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-05.json`
+- `R013-07`, Wahrheit Nr. 1: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-07.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-07.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-07.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-07.json`
+- `R013-08`, Wahrheit Nr. 3: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-08.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-08.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-08.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-08.json`
+- `R013-09`, Wahrheit Nr. 4: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-09.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-09.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-09.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-09.json`
+- `R013-12`, Wahrheit Nr. 1: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-12.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-12.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-12.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-12.json`
+- `R013-13`, Wahrheit Nr. 6: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-13.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-13.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-13.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-13.json`
+- `R013-15`, Wahrheit Nr. 4: Protokoll `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/protokolle/R013-15.md`, Wahrheit `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/wahrheit/R013-15.json`, Systemliste `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/system/R013-15.json`, Urteil `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/urteil/R013-15.json`
+
+Schreibe das Ergebnis nach `/home/claude/sifa-werkzeugkoffer/lernen/runden/R013/stichprobe.json`, ein Eintrag je Zeile oben.
+
+Antworte am Ende nur mit einer Zeile: Zahl bestätigt, Zahl zweifelhaft.
