@@ -1,0 +1,137 @@
+{
+ "id": "R013-05",
+ "name": "R013-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Gewindeschneidöl",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Sprinklerleitung unter der Hallendecke montieren",
+   "bereich": "Montage",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "kalt",
+    "gefaelle",
+    "boden",
+    "zwangshaltung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "hubarbeitsbuehne",
+     "material": [
+      "stahlprofil",
+      "oel_schmierstoff",
+      "elektro_betriebsmittel"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil"
+     ],
+     "angaben": {
+      "last_kg": 12
+     }
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "mit einer Gewindemaschine nachschneiden",
+   "fehlt": "Ausführung der Gewindemaschine (handgeführt oder fest) unklar; Schritt weggelassen"
+  },
+  {
+   "text": "Schrott im Korb",
+   "fehlt": "Kein Material für Metallschrott"
+  },
+  {
+   "text": "der Lift wird am Ende des Tages betankt",
+   "fehlt": "Vorgang Betanken; Diesel als Kraftstoff"
+  },
+  {
+   "text": "Die Bühne wird von einem Mitarbeiter gerüstet",
+   "fehlt": "Nicht beschrieben, was beim Rüsten getan wird; kein Sonderbetrieb-Schritt"
+  },
+  {
+   "text": "Darunter bewegen sich zwei Kollegen mit Hubwagen",
+   "fehlt": "Fremde Tätigkeit anderer Kollegen unter der Bühne; als Schritt nicht angelegt, Umgebung nur Halle"
+  },
+  {
+   "text": "Die Bühne steht auf dem Hallenboden, der leicht abfällt",
+   "fehlt": "Standsicherheit der Bühne am Gefälle ist keine Angabe in den Stammdaten"
+  },
+  {
+   "text": "Gereinigt wird der Korb am Schichtende mit einem Besen",
+   "fehlt": "Material Schrott und Schmutz im Korb"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Korb hat ein Geländer, eine Kette fehlt",
+   "art": "absturzsicherung",
+   "gegenstand": "Kette am Korbgeländer der Hubarbeitsbühne"
+  },
+  {
+   "text": "die Sicherung mit Auffanggurt wird heute nicht getragen",
+   "art": "psa",
+   "gegenstand": "Auffanggurt im Korb"
+  },
+  {
+   "text": "Im Korb liegt verstreut Schrott",
+   "art": "weg_boden",
+   "gegenstand": "Korbboden mit Schrott"
+  },
+  {
+   "text": "Verlängerungskabel, das über den Boden zur Bühne gezogen ist",
+   "art": "elektrik",
+   "gegenstand": "Verlängerungskabel der Gewindemaschine"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Dafür steht eine Hubarbeitsbühne, ein Scherenlift ... in gut neun Metern Höhe",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die einzelnen Längen wiegen sechs bis zwölf Kilo. Die Monteure heben sie von Hand aus dem Regal in den Korb",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Verschraubung wird mit einem Rohrschlüssel angezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt wird der Korb am Schichtende mit einem Besen",
+   "sicher": false
+  }
+ ]
+}
