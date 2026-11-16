@@ -1,0 +1,34 @@
+{"id":"R013-09","name":"R013-09","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Strahlkabine","bereich":"Putzerei Gießerei, Strahlen von Gussteilen","personen":1,"umgebung":["laerm_umgebung"],"angaben":{},
+   "schritte":[
+    {"vorgang":"strahlen","ausfuehrung":"halbautomat","material":["metallwerkstueck","strahlmittel"]},
+    {"vorgang":"heben","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+    {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","strahlmittel"]},
+    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["strahlmittel"]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand","material":["strahlmittel"]}]},
+  {"nr":2,"name":"Schleifbock","bereich":"Putzerei Gießerei, Entgraten von Gussteilen","personen":1,"umgebung":["laerm_umgebung"],"angaben":{},
+   "schritte":[
+    {"vorgang":"trennschleifen","ausfuehrung":"handmaschine","material":["metallwerkstueck"]},
+    {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"Die Gussteile kommen als Trauben mit anhaftendem Formsand","fehlt":"Material Formsand beziehungsweise Gussteil mit Formsand"},
+  {"text":"Die Handschleifmaschinen vibrieren stark, man hält sie fast die ganze Schicht in den Händen","fehlt":"Angabe oder Umgebung für Hand-Arm-Vibration und Dauer"},
+  {"text":"Scheiben werden ungefähr jede Stunde gewechselt","fehlt":"Angabe für Häufigkeit des Werkzeugwechsels"},
+  {"text":"Der Staub liegt auf den Hallenträgern","fehlt":"Umgebung oder Mangelart für Staubablagerungen in der Halle"},
+  {"text":"Schleifstaub am Schleifbock","fehlt":"Material Metallschleifstaub"},
+  {"text":"man legt das Teil auf ein Drehgestell und schiebt es durch die Tür mit den Gummilappen","fehlt":"Vorgang für Beschicken einer Strahlkabine von Hand; als Teil des Strahlschritts erfasst"},
+  {"text":"Schichtbetrieb","fehlt":"Angabe oder Umgebung für Schichtarbeit"}],
+ "maengel":[
+  {"text":"Die Absaugung am Schleifbock hängt nur teilweise, die Haube ist verschlissen und ein Schlauch ist abgeknickt","art":"lueftung","gegenstand":"Absaugung am Schleifbock"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"In der Strahlkabine, einer Durchlaufanlage mit Schleuderrad, wird das Teil von Stahlkorn getroffen. Man legt das Teil auf ein Drehgestell","sicher":false},
+  {"schritt":2,"stelle":"Schwere Teile setzt ein Kran ein","sicher":true},
+  {"schritt":3,"stelle":"bei größeren Teilen über zwanzig Kilo wird von Hand am Kran angeschlagen","sicher":true},
+  {"schritt":4,"stelle":"Die Reinigung der Kabine macht jeden Tag die Schicht selbst","sicher":true},
+  {"schritt":5,"stelle":"mit dem Druckluftschlauch","sicher":true},
+  {"schritt":6,"stelle":"mit dem Besen","sicher":true},
+  {"schritt":7,"stelle":"Am Schleifbock werden Angüsse und Grate mit Handschleifmaschinen entfernt","sicher":true},
+  {"schritt":8,"stelle":"Die Scheiben sind Trennscheiben und Schruppscheiben, die werden ungefähr jede Stunde gewechselt","sicher":true}]}

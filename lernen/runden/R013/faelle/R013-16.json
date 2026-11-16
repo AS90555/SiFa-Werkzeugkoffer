@@ -1,0 +1,21 @@
+{"id":"R013-16","name":"R013-16","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Verleim","material":"leim","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Serienlinie für Korpusse","bereich":"Bohr- und Dübelautomat, Korpuspresse","personen":3,"umgebung":["laerm_umgebung","taktarbeit"],"angaben":{"gleichfoermig":true},
+  "schritte":[
+   {"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"vollautomat","material":["plattenware"]},
+   {"vorgang":"pressen_verschrauben","ausfuehrung":"presse","material":["plattenware","leim","daempfe_loesemittel"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["plattenware"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand"}]}],
+ "wuensche":[
+  {"text":"ein fertiger Korpus wiegt etwa dreißig Kilo","fehlt":"Last je Griff unklar (Seiten werden auf den Wagen gelegt, nicht der Korpus); keine Zahl eingetragen, keine Griffe je Stunde"},
+  {"text":"gereinigt wird der Dübeltopf am Schichtende mit Druckluft","fehlt":"Material Dübel oder Staub nicht genannt; Schritt ohne Material"},
+  {"text":"hydraulische Presse mit Zweihandtaster","fehlt":"Ausführung hydraulische Presse mit Einlegen von Hand; presse unsicher"},
+  {"text":"Gerüstet wird bei jedem Auftragswechsel von der Schichtleitung","fehlt":"Rüsten nicht beschrieben, daher kein Schritt"},
+  {"text":"eine Absaugung gibt es, man sieht aber nicht, ob sie läuft","fehlt":"kein Mangel belegt, nur Unklarheit"}],
+ "maengel":[
+  {"text":"Die Tür lässt sich aber während des Laufs öffnen, weil der Riegel klemmt","art":"schutzeinrichtung","gegenstand":"Tür mit Sichtfenster vor den Bohrspindeln"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Spindeln fahren von oben in die Platte; Werkstück wird automatisch durch die Anlage geschoben","sicher":true},
+  {"schritt":2,"stelle":"hydraulische Presse ... Bediener legt die Platte von Hand ein und zieht den Zweihandtaster; Verleim riecht stark","sicher":false},
+  {"schritt":3,"stelle":"einer, der die fertigen Seiten auf den Wagen legt","sicher":true},
+  {"schritt":4,"stelle":"gereinigt wird der Dübeltopf am Schichtende mit Druckluft","sicher":true}]}

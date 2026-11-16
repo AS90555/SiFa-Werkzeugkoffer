@@ -1,0 +1,33 @@
+{"id":"R013-11","name":"R013-11","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Tafelschere","bereich":"Ofenbau, Blechzuschnitt","personen":1,"umgebung":["boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"heben","ausfuehrung":"vakuumheber","material":["blech"]},
+    {"vorgang":"schneiden","ausfuehrung":"stationaer_handvorschub","material":["blech"]}]},
+  {"nr":2,"name":"Säge für Schamottesteine","bereich":"Ofenbau, Schamotte schneiden","personen":1,"umgebung":["boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"ziehen_schieben","ausfuehrung":"handhubwagen","material":["stein_komposit"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stein_komposit"]},
+    {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["stein_komposit"]}]}],
+ "wuensche":[
+  {"text":"Die Schere ist eine alte hydraulische Maschine, die Tafeln werden unter die Schere geschoben","fehlt":"Vorgang und Ausführung für Blechschneiden mit Tafelschere; als Schneiden mit Handvorschub erfasst"},
+  {"text":"eine Palette wiegt gut dreihundert Kilo, die Steine werden von Hand auf den Tisch gezogen","fehlt":"Gewicht je Griff nicht genannt, Palettengewicht passt nicht zur Angabe Last je Griff"},
+  {"text":"Hubwagen","fehlt":"Antrieb des Hubwagens nicht genannt; als Handhubwagen erfasst"},
+  {"text":"Die Schamottesteine werden auf einer Kreissäge mit Wasser geschnitten, das Wasser läuft in eine Wanne am Boden","fehlt":"Material Schamotte (als Stein, Keramik erfasst) und Nassschnitt-Schlamm"},
+  {"text":"Wenn die Säge trocken läuft, hat man den Staub überall an den Kleidern und in der Luft","fehlt":"Zustand Trockenschnitt mit Staub in der Luft"},
+  {"text":"Die Schnittkanten sind scharf","fehlt":"Material mit scharfen Kanten oder Schnittgefahr"},
+  {"text":"Der Fußschalter steht im Gang, sodass man beim Vorbeigehen daran kommt","fehlt":"Umgebung Durchgangsverkehr"},
+  {"text":"Die Säge wartet der Schichtführer","fehlt":"Wartung nicht beschrieben, kein Schritt"}],
+ "maengel":[
+  {"text":"Der Fußschalter steht im Gang, sodass man beim Vorbeigehen daran kommt","art":"schutzeinrichtung","gegenstand":"Fußschalter der Tafelschere"},
+  {"text":"es liegen Grate auf dem Boden","art":"weg_boden","gegenstand":"Boden an der Tafelschere"},
+  {"text":"Handschuhe werden nicht immer getragen","art":"psa","gegenstand":"Schutzhandschuhe"},
+  {"text":"Der Schlamm trocknet im Laufe des Tages zu einer weißen Schicht","art":"weg_boden","gegenstand":"Boden an der Säge"},
+  {"text":"Der Schutz am Sägeblatt ist teilweise demontiert","art":"schutzeinrichtung","gegenstand":"Schutz am Sägeblatt"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"sie werden mit einem Sauger angehoben","sicher":true},
+  {"schritt":2,"stelle":"und unter die Schere geschoben, Tafelschere für das Blech","sicher":false},
+  {"schritt":3,"stelle":"Sie werden mit dem Hubwagen bewegt","sicher":false},
+  {"schritt":4,"stelle":"dann von Hand auf den Tisch gezogen","sicher":true},
+  {"schritt":5,"stelle":"Die Schamottesteine werden auf einer Kreissäge mit Wasser geschnitten","sicher":true}]}
