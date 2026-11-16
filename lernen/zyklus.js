@@ -14,7 +14,7 @@ const MODELLE = lies(path.join(__dirname, 'modelle.json')); const PLAN = ['lern'
 const heute = () => process.env.HEUTE || new Date().toISOString().slice(0, 10);
 const de = d => d.split('-').reverse().join('.');
 const node = (...a) => execFileSync('node', a, { cwd: W, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
-const START = datei => `Lies die Datei ${datei} und führe den dort beschriebenen Auftrag vollständig aus. Der Auftrag ist auf Deutsch und stammt vom Projektleiter. Lies die darin genannte Arbeitsanweisung vollständig und halte dich genau an sie und an die Ausgabedateien. Benutze nur: Dateien lesen, Dateien schreiben und die im Auftrag genannten Befehle. Kein Internet, keine Erinnerungen oder geplanten Aufgaben, keine weiteren Agenten. Lies und ändere nur, was der Auftrag erlaubt. Antworte am Ende nur mit den verlangten Zeilen.`;
+const START = datei => `Lies die Datei ${datei} und führe den dort beschriebenen Auftrag vollständig aus. Der Auftrag ist auf Deutsch und stammt vom Projektleiter. Lies die darin genannte Arbeitsanweisung vollständig und halte dich genau an sie und an die Ausgabedateien. Benutze nur: Dateien lesen, Dateien schreiben und die im Auftrag genannten Befehle. Kein Internet, keine Erinnerungen, keine geplanten Aufgaben, kein send_later und keine Zeitpläne, keine weiteren Agenten. Lies und ändere nur, was der Auftrag erlaubt. Antworte am Ende nur mit den verlangten Zeilen.`;
 
 function sichern(text) {
   const git = (...a) => execFileSync('git', ['-c', 'user.name=Claude', '-c', 'user.email=noreply@anthropic.com', ...a], { cwd: W, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
