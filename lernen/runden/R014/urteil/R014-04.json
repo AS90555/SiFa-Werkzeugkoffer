@@ -1,0 +1,19 @@
+{"id":"R014-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Einzug von Hand oder Arm","grund":"Die Abdeckungen sind zum Einfädeln hochgeklappt, Hand oder Arm kann in die Walzen gezogen werden; Maßnahme Einzugsstelle so weit wie möglich verdecken passt."},
+  {"nr":2,"urteil":"getroffen","system":"Last fällt, rutscht oder trifft Personen","grund":"Ein Stapel rutscht manchmal von der Kante; Maßnahme Last gegen Rutschen sichern passt."},
+  {"nr":3,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Die Grube unter der Maschine ist mit einem losen Gitter abgedeckt; Maßnahme Abdeckungen gegen Verschieben sichern passt."},
+  {"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Beim Hobeln steht ständig Staub in der Luft, abgesaugt wird nur an der Maschine; Maßnahme Absaugung an der Entstehungsstelle passt."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Fräswellen sind sehr laut; Maßnahme Lärm am Entstehungsort verringern passt."},
+  {"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Kanthölzer bis sechs Meter lang und schwer; Maßnahme Hebehilfe passt."},
+  {"nr":7,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Im Sommer wird das ungedämmte Gebäude heiß; Maßnahme Lüftung und Trinkpausen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Kanthölzer werden bearbeitet und abgestapelt; Splitter und Kanten gehören typischerweise dazu."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"typisch","grund":"Holzstaub steht in der Luft, Späne liegen in der Grube; eine Fachkraft würde die Staubexplosion prüfen."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Die Bedienperson reinigt die Maschine und arbeitet an ihr; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Abdeckungen der Einzugswalzen sind oben offen."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"Die Beleuchtung an der Maschine ist schwach."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"Die Beleuchtung an der Maschine ist schwach."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"unbegruendet","grund":"Das Hobeln erzeugt Holzstaub, aber keine Gase oder Dämpfe; der Staub ist schon bewertet."}
+ ]}

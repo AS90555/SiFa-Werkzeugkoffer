@@ -1,0 +1,16 @@
+{"id":"R014-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Beim Einlegen der Ringe von Hand fährt die Schleifscheibe automatisch an; Maßnahme Auslösung nur bei freiem Bereich passt."},
+  {"nr":2,"urteil":"getroffen","system":"Haut- und Atemwegserkrankung durch Kühlschmierstoff","grund":"Kühlschmierstoff läuft in der Wanne und gelangt auf die Haut; Maßnahme Hautschutzplan und Hautkontakt vermeiden passt."},
+  {"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Feiner Schleifstaub wird eingeatmet; Maßnahme Absaugung an der Entstehungsstelle passt."},
+  {"nr":4,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Die heiße wässrige Lauge kann ätzen und spritzen; Maßnahme Schutzbrille, Handschuhe und Augenspülung passt."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Man kann auf dem ölverschmierten Boden ausrutschen; Maßnahme Verunreinigungen beseitigen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Das Protokoll nennt keinen Lärm; Schleifmaschinen gehören typischerweise dazu, eine Fachkraft würde ihn prüfen."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Die Schleifscheibe fährt automatisch an, und Einrichten und Reinigen macht der Schleifer selbst; Energiesicherung nennt das Protokoll nicht."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Schleifer richtet die Maschine selbst ein; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","urteil":"berechtigt","grund":"Die Waschanlage hat heiße wässrige Lauge, und es steigt Dampf auf."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Tür der Schleifmaschine steht bei jedem Wechsel offen."},
+  {"gefaehrdung":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","urteil":"berechtigt","grund":"Der Deckel der Waschanlage klemmt, man hebt ihn mit der Hand."}
+ ]}

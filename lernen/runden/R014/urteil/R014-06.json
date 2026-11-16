@@ -1,0 +1,19 @@
+{"id":"R014-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg","grund":"Hydrauliköl spritzt beim Lösen der Leitungen, weil der Speicher nicht entlastet ist; Maßnahme vor Arbeiten am Gerät Druck ablassen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Sturz vom Gerät oder Ausrutschen auf dem öligen Boden; Maßnahme Verunreinigungen beseitigen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Die Kette am Kran zieht schief, die Last kann kippen oder herabfallen; Maßnahme Anschlagmittel vor Gebrauch prüfen passt."},
+  {"nr":4,"urteil":"getroffen","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Bremsreiniger aus der Dose wird eingeatmet oder gelangt auf die Haut; Maßnahme Einstufung nach Sicherheitsdatenblatt und Hautkontakt vermeiden passt."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Abgase des laufenden Motors in der Halle; die Systemliste kennt keine Gefahr durch Motorabgase."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der laufende Motor knattert laut; Maßnahme Lärm am Entstehungsort verringern passt."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Schwere Zylinder werden von Hand gehoben; die Systemliste kennt keine Gefahr durch Heben von Hand an diesem Platz."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Der Speicher ist nicht entlastet und das Fahrzeug läuft für einen Test; Energiesicherung nennt das Protokoll nicht."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Die Werkstatt ist im Winter kalt, das Tor geht nur halb zu."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Hydrauliköl, Bremsreiniger und ölige Lappen; Hautkontakt liegt nahe, das Protokoll nennt aber keinen Schutz."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Ein Lehrling reinigt mit Bremsreiniger, das Gerät wird getestet; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Schlauchleitungen werden gelöst, während die Schneidwerkshöhe unter Druck steht."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Kette hängt an einer Stelle, die schief zieht."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Der Schlosser springt vom Gerät auf einen öligen Boden."}
+ ]}

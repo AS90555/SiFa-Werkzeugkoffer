@@ -1,0 +1,22 @@
+{"id":"R014-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Kleinteile werden mit dem Besen unter der Maschine geholt, während die Welle nachläuft; Maßnahme sichere Arbeitsweise festlegen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Unerwarteter Anlauf im Sonderbetrieb","grund":"Messerwechsel bei nicht gesichertem Strom; Maßnahme Abschalten und gegen Wiedereinschalten sichern passt."},
+  {"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Holzstaub wird bei schwacher Absaugung eingeatmet; Maßnahme Absaugung an der Entstehungsstelle passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Staubexplosion","grund":"Abblasen mit Druckluft wirbelt Späne auf; Maßnahme Reinigungsplan betrifft genau diese Reinigung."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Fräse ist so laut, dass man sich anschreien muss; Maßnahme Lärm am Entstehungsort verringern passt."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Enge Aufstellung, Anstoßen an Maschinenteile; Maßnahme Bewegungsflächen freihalten passt zur Ursache."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Krebs der Nase durch Hartholzstaub","urteil":"berechtigt","grund":"Das Protokoll nennt Buche; Buchenstaub ist Hartholzstaub."},
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Leisten und Platten bis einen Meter werden von Hand geführt und getragen; das Protokoll spricht die Belastung nicht aus, eine Fachkraft würde sie prüfen."},
+  {"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Holzbearbeitung an der Tischfräse gehört typischerweise zu Splittern und Kanten."},
+  {"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Im Winter ist es kalt, weil das Tor oft offen steht."},
+  {"gefaehrdung":"Einzug von Hand oder Arm","urteil":"typisch","grund":"Der Vorschubapparat zieht die Teile mit einer Rolle über den Tisch; die Einzugsstelle sagt das Protokoll nicht aus, eine Fachkraft würde sie prüfen."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"unbegruendet","grund":"Das Protokoll nennt keine schweren Teile, die von Hand abgesetzt werden; Leisten bis einen Meter sind keine Anlässe dafür."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Späne werden beim Reinigen mit Druckluft aufgewirbelt."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Die Maschine wird gerüstet und bedient; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Fräse hat eine offene Welle."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Schutzhaube ist ein Bügel, der nicht immer ganz passt."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"unbegruendet","grund":"Holzfräsen erzeugt keine Gase oder Dämpfe; die schwache Absaugung betrifft den Holzstaub, der schon bewertet ist."}
+ ]}

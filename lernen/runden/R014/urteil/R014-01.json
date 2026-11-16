@@ -1,0 +1,18 @@
+{"id":"R014-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Der Werkzeugblock hängt am Kran; das System nennt die schwebende Last mit Anschlagmittelprüfung, das passt zur Ursache."},
+  {"nr":2,"urteil":"getroffen","system":"Einzug von Hand oder Arm","grund":"Die Form wird von Hand gegen die drehende Scheibe gehalten; Maßnahme Werkstück spannen statt von Hand halten passt."},
+  {"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Schleifstaub teils ohne Absaugung; Maßnahme Absaugung an der Entstehungsstelle passt."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Gefahr ist Strom über Feuchtigkeit und beschädigte Kabel; die Systemliste kennt diese Gefahr nicht, nur das Stolpern."},
+  {"nr":5,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Schwache Beleuchtung über dem Polierstand; Maßnahme Beleuchtung instand setzen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Warme Halle, im Sommer stickig; Maßnahme Lüftung und Trinkpausen passt zur Wärme."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Werkzeugwechsel am Spritzgießautomaten; das Protokoll nennt keine Energiesicherung, gehört aber zum Umrüsten."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Der Hallenboden ist an der Maschine nass vom Kühlwasser, einzelne Schläuche und Kabel liegen darauf."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Der Hallenboden ist an der Maschine nass vom Kühlwasser, einzelne Schläuche und Kabel liegen darauf."},
+  {"gefaehrdung":"Belastung durch verbrauchte oder stickige Luft","urteil":"berechtigt","grund":"Im Sommer wird es in der Halle stickig."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Die Paste riecht ölig, und es wird teils ohne Absaugung poliert."},
+  {"gefaehrdung":"Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung","urteil":"berechtigt","grund":"Die Hebeschlingen hängen am Wandhaken und sind nicht gekennzeichnet."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Zwei Beschäftigte arbeiten an Spritzgießautomat und Polierstation; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."}
+ ]}

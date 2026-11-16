@@ -1,0 +1,18 @@
+{"id":"R014-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Die alte, rostige Kette der Hebebrücke kann reißen, Motorteile fallen herab; Maßnahme Anschlagmittel vor Gebrauch prüfen passt."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Eine Ventilfeder springt beim Spannen von Hand ab; die Systemliste kennt keine Gefahr durch wegspringende Federn."},
+  {"nr":3,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Lösemitteldämpfe aus der Teilewaschanlage riechen im ganzen Raum; Maßnahme an der Entstehungsstelle erfassen oder wirksam lüften passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Lösemittel vom Fass wird oben nachgefüllt, Zündung möglich; Maßnahme Zündquellen fernhalten und beim Umfüllen erden passt."},
+  {"nr":5,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Altöl steht offen in einer Schüssel auf der Werkbank, die Haut wird geschädigt; Maßnahme Behälter geschlossen halten passt."},
+  {"nr":6,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Im Sommer wird es unter dem Blech warm und der Kreislauf wird belastet; Maßnahme Abschirmung und Lüftung, Trinkpausen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Die Teilewaschanlage arbeitet mit Lösemittel; Spritzer auf Haut und Augen gehören typischerweise dazu, das Protokoll nennt keinen Schutz."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Die Presse hat eine Schließbewegung mit hoher Kraft; eine Fachkraft würde den Quetschbereich prüfen, das Protokoll nennt ihn nicht."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Am Boden liegt Schmutz."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Am Boden liegt Schmutz."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Mechaniker bedient die Presse; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Der Azubi steht daneben, wenn die Presse läuft."},
+  {"gefaehrdung":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","urteil":"berechtigt","grund":"Die Kette der Motorenhebebrücke ist alt und hat Rost an den Gliedern."}
+ ]}

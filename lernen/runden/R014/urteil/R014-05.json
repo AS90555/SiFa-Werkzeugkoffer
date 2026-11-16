@@ -1,0 +1,24 @@
+{"id":"R014-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Einzug von Hand oder Arm","grund":"Das Brett wird von Hand eingelegt, die Vorschubwalzen ziehen es ein, die Schutzhaube ist offen; Maßnahme Einzugsstelle verdecken und Werkstück mit Abstand anlegen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Last fällt, rutscht oder trifft Personen","grund":"Der Stapel neben dem Einlauf ist nicht festgemacht; Maßnahme Last gegen Kippen und Rollen sichern passt."},
+  {"nr":3,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Beim Umrüsten greift der Lackierer bei laufender Anlage mit der Hand in den Auslauf; Maßnahme sichere Arbeitsweise festlegen passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Staubexplosion","grund":"Holzspäne liegen in dicken Haufen am Boden und können sich entzünden; Maßnahme Reinigungsplan und Zündquellen vermeiden passt."},
+  {"nr":5,"urteil":"getroffen","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Lösemittel aus einem offenen Eimer wird eingeatmet oder gelangt auf die Haut; Maßnahme Einstufung nach Sicherheitsdatenblatt und Hautkontakt vermeiden passt."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"UV-Strahlung aus den Härtern; die Systemliste kennt keine Gefahr durch UV-Strahlung."},
+  {"nr":7,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Säge läuft den ganzen Tag, man muss schreien; Maßnahme Lärm am Entstehungsort verringern passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Atemwegserkrankung durch Holzstaub","urteil":"berechtigt","grund":"Der Absaugstutzen am Auslauf hängt halb ab."},
+  {"gefaehrdung":"Krebs der Nase durch Hartholzstaub","urteil":"berechtigt","grund":"Das Protokoll nennt Eiche; Eichenstaub ist Hartholzstaub."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Die Späne liegen in dicken Haufen am Boden."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Die Späne liegen in dicken Haufen am Boden."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Bediener rüstet die Säge selbst; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Die Säge wird bei hochgeklappter Haube eingestellt; Energiesicherung nennt das Protokoll nicht."},
+  {"gefaehrdung":"Brand oder Explosion durch entzündbare Stoffe oder Gase","urteil":"berechtigt","grund":"Lösemittel aus offenem Eimer, Grundierung mit Lösemittel und Lappen mit Lösemittel."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Der Lackierer reinigt mit Lösemittel und Lappen; Hautkontakt liegt nahe, Schutz nennt das Protokoll nicht."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Schutzhaube der Säge ist oben hochgeklappt."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Abdeckung über den UV-Strahlern hat einen Spalt offen."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Lösemittelhaltige Grundierung und Reiniger; die Lackierstraße wird nur durch eine Wandöffnung gelüftet."},
+  {"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Lösemittel steht in einem offenen Eimer."}
+ ]}

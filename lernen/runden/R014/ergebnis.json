@@ -1,0 +1,146 @@
+{
+ "runde": "R014",
+ "blind": true,
+ "regeln": 128,
+ "quote": 88,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 39,
+  "schritte": 29,
+  "maengel": 38
+ },
+ "faelle": [
+  {
+   "id": "R014-01",
+   "arbeitsplatz": "Werkzeuge polieren, Spritzgießwerkzeug wechseln",
+   "branche": "Formenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-02",
+   "arbeitsplatz": "Tischfräse mit Vorschubapparat",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-03",
+   "arbeitsplatz": "Tafelschere und Schwenkbiegemaschine",
+   "branche": "Blechbearbeitung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-04",
+   "arbeitsplatz": "Vierseitenhobel und Abstapeln",
+   "branche": "Hobelwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-05",
+   "arbeitsplatz": "Mehrblattsäge und Lackierstraße mit UV-Härtung",
+   "branche": "Parkett",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-06",
+   "arbeitsplatz": "Reparatur am Mähdrescher, Hydraulik",
+   "branche": "Landmaschinenwerkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-07",
+   "arbeitsplatz": "Rundschleifen und Waschen",
+   "branche": "Wälzlager",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R014-08",
+   "arbeitsplatz": "Motorinstandsetzung und Teilewaschanlage",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 18,
+   "verfehlt": 1
+  },
+  "2": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "3": {
+   "getroffen": 9,
+   "verfehlt": 2
+  },
+  "5": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "6": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 2,
+   "verfehlt": 1
+  },
+  "11": {
+   "getroffen": 2,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 88,
+  "getroffen": 45,
+  "rueckfrage": 0,
+  "verfehlt": 6,
+  "unbegruendet": 0,
+  "zBerechtigt": 34,
+  "zTypisch": 23,
+  "zUnbegruendet": 3
+ }
+}

@@ -1,0 +1,15 @@
+{"id":"R014-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Das Lichtgitter an der Tafelschere ist manchmal überbrückt; Maßnahme Arbeitsmittel erst bei wirksamer Schutzeinrichtung verwenden passt."},
+  {"nr":2,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Das Blech wird beim Schwenkbiegen eingeklemmt und schwenkt nach oben; Maßnahme Auslösung nur bei freiem Bereich passt."},
+  {"nr":3,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Die Kanten sind scharf, Grate liegen am Boden; Maßnahme schnittfeste Handschuhe und entgraten passt."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Rollwagen steht oft im Weg; Maßnahme Verkehrswege freihalten passt zur Ursache."},
+  {"nr":5,"urteil":"verfehlt","system":null,"grund":"Hautreizung durch Öl und Schmierfett; die Systemliste nennt an diesem Platz keine Hautgefahr."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Stanze nebenan macht die Halle so laut, dass man den Nachbarn nicht versteht; Maßnahme Lärm verringern passt."},
+  {"nr":7,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Bleche bis 50 kg werden von Hand gehoben; Maßnahme Hebehilfe passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Das Messer der Schere wird per Schlüssel nachgestellt; Energiesicherung nennt das Protokoll nicht, eine Fachkraft würde sie prüfen."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Schere und Schwenkbiegemaschine werden bedient; zu Unterweisung und Betriebsanweisung sagt das Protokoll nichts."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Hand liegt beim Einlegen nah am Schnittspalt."}
+ ]}
