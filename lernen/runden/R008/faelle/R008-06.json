@@ -1,0 +1,59 @@
+{
+ "id": "R008-06",
+ "name": "R008-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {"id": "s1", "name": "Montageleim", "material": "leim", "sdb": null, "h": []}
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Küchenmontage beim Kunden, Altbauwohnung dritter Stock ohne Aufzug",
+   "bereich": "Montage beim Kunden, Einbau einer Küche",
+   "personen": 2,
+   "umgebung": ["treppe", "zwangshaltung", "boden", "stickig"],
+   "angaben": {},
+   "schritte": [
+    {"vorgang": "handhaben", "ausfuehrung": "von_hand", "material": []},
+    {"vorgang": "handhaben", "ausfuehrung": "von_hand", "material": [], "angaben": {"last_kg": 60}},
+    {"vorgang": "saegen", "ausfuehrung": "handmaschine", "material": []},
+    {"vorgang": "bohren_stein", "ausfuehrung": "handmaschine", "material": []},
+    {"vorgang": "montieren", "ausfuehrung": "leiter", "material": []},
+    {"vorgang": "montieren", "ausfuehrung": "von_hand", "material": []},
+    {"vorgang": "kehren", "ausfuehrung": "von_hand", "material": []},
+    {"vorgang": "handhaben", "ausfuehrung": "von_hand", "material": [], "stoffe": ["s1"]}
+   ]
+  }
+ ],
+ "wuensche": [
+  {"text": "Die Schränke werden vom Transporter über das Treppenhaus in die Wohnung getragen", "fehlt": "Material Küchenschrank (Möbelkorpus) fehlt; Gewicht nicht genannt, daher keine Angabe"},
+  {"text": "Arbeitsplatte aus Quarzkomposit, die etwa sechzig Kilogramm wiegt", "fehlt": "Material Stein- oder Quarzkompositplatte fehlt; Griffe je Stunde nicht genannt"},
+  {"text": "Die Arbeitsplatte wird vor Ort auf Maß gekürzt, dazu wird eine Handkreissäge genutzt", "fehlt": "Material Quarzkomposit (Steinstaub, kein Holz) und Sägen von Stein fehlen; Staub beim Kürzen nicht genannt"},
+  {"text": "Der Bohrhammer ist in dem Altbau so laut, dass man sich nur noch anschreien kann", "fehlt": "Nicht genannt, was gebohrt wird und wo; Lärmpegel in dB(A) fehlt; Schritt unsicher"},
+  {"text": "Die Oberschränke montiert man auf einer Trittleiter, weil die Decke über zwei Meter liegt", "fehlt": "Material Küchenschrank fehlt"},
+  {"text": "Unter der Spüle kniet man beim Anschließen des Siphons auf dem Boden", "fehlt": "Vorgang Installieren oder Anschließen von Wasser (statt Montieren) und Material Siphon fehlen"},
+  {"text": "Silikon (im Transporter)", "fehlt": "Silikon als Material oder Stoff fehlt; Verwendung nicht beschrieben"},
+  {"text": "Montageleim und Silikon liegen im Transporter", "fehlt": "Verwendung des Montageleims nicht beschrieben; nur dem Ladeschritt zugeordnet"},
+  {"text": "Der Geselle lädt morgens Schränke und Werkzeug in den Transporter", "fehlt": "Fahrzeug oder Fahrt zum Kunden ist kein Vorgang"},
+  {"text": "Heute baut ein Geselle mit einem Auszubildenden die Küche ein", "fehlt": "Alter des Auszubildenden nicht genannt, daher keine Betriebsangabe zu Jugendlichen"},
+  {"text": "Der Kunde räumt vorher nicht aus", "fehlt": "Beengte oder verstellte Räume des Kunden ohne eigene Angabe; Umgebung eng nicht ausdrücklich genannt"},
+  {"text": "die Monteure fegen den Abfall am Ende in Säcke", "fehlt": "Material Bauabfall fehlt"}
+ ],
+ "maengel": [
+  {"text": "Die Verlängerungskabel liegen quer durch den Flur", "art": "elektrik", "gegenstand": "Verlängerungskabel im Flur"},
+  {"text": "das Kabel für die Spülmaschine hängt über die Spüle", "art": "elektrik", "gegenstand": "Kabel der Spülmaschine über der Spüle"},
+  {"text": "Die Fenster bleiben zu, eine Lüftung gibt es nicht.", "art": "lueftung", "gegenstand": "Lüftung in der Wohnung"},
+  {"text": "stellen sie ins Treppenhaus", "gegenstand": "Abfallsäcke im Treppenhaus"}
+ ],
+ "zuordnung": [
+  {"schritt": 1, "stelle": "Die Schränke werden vom Transporter über das Treppenhaus in die Wohnung getragen", "sicher": true},
+  {"schritt": 2, "stelle": "die Platte zu zweit ... etwa sechzig Kilogramm", "sicher": true},
+  {"schritt": 3, "stelle": "auf Maß gekürzt, dazu wird eine Handkreissäge genutzt", "sicher": true},
+  {"schritt": 4, "stelle": "Der Bohrhammer ist in dem Altbau so laut", "sicher": false},
+  {"schritt": 5, "stelle": "Die Oberschränke montiert man auf einer Trittleiter", "sicher": true},
+  {"schritt": 6, "stelle": "Unter der Spüle kniet man beim Anschließen des Siphons", "sicher": false},
+  {"schritt": 7, "stelle": "die Monteure fegen den Abfall am Ende in Säcke", "sicher": true},
+  {"schritt": 8, "stelle": "Der Geselle lädt morgens Schränke und Werkzeug in den Transporter, dort liegen auch Montageleim und Silikon", "sicher": false}
+ ]
+}

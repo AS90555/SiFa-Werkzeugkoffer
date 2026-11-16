@@ -1,0 +1,126 @@
+{
+ "id": "R008-06",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzhaube, Werkstück fixiert",
+    "Beide Hände an der Maschine"
+   ],
+   "entsteht": [
+    "Offenes Werkzeug, Rückschlag"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Treppen mit Handlauf ausstatten",
+    "Stufen trittsicher und in ordnungsgemäßem Zustand halten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Sturz auf der Treppe, besonders mit Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Leiter nur für kurze, leichte Arbeiten; Standhöhe und Dauer begrenzen",
+    "Leitern regelmäßig prüfen"
+   ],
+   "entsteht": [
+    "Stand auf schmaler Stufe oder Sprosse"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Ausreichend gesundheitlich zuträgliche Atemluft sicherstellen"
+   ],
+   "entsteht": [
+    "Verbrauchte, stickige Luft"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden",
+    "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+   ],
+   "entsteht": [
+    "Langes Arbeiten in ungünstiger Körperhaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen",
+    "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Verlängerungskabel liegen quer durch den Flur",
+    "Mangel vor Ort: das Kabel für die Spülmaschine hängt über die Spüle"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Fenster bleiben zu, eine Lüftung gibt es nicht."
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

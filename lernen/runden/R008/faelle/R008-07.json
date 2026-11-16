@@ -1,0 +1,56 @@
+{
+ "id": "R008-07",
+ "name": "R008-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {"id": "s1", "name": "Imprägnierung", "material": "impraegnierung", "sdb": null, "h": []},
+  {"id": "s2", "name": "Grundierung", "material": "lack", "sdb": null, "h": []},
+  {"id": "s3", "name": "Lösemittel zum Düsenspülen", "material": "loesemittel", "sdb": null, "h": []}
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Flutanlage mit Zuführtisch, Bedienpult und Ablage",
+   "bereich": "Flutanlage für Imprägnierung und Grundierung",
+   "personen": 2,
+   "umgebung": ["werkstatt"],
+   "angaben": {},
+   "schritte": [
+    {"vorgang": "handhaben", "ausfuehrung": "von_hand", "material": ["rahmen"], "angaben": {"last_kg": 25, "griffe_h": 90, "gleichfoermig": true}},
+    {"vorgang": "foerdern", "ausfuehrung": "stetigfoerderer", "material": ["rahmen"]},
+    {"vorgang": "impraegnieren", "ausfuehrung": "vollautomat", "material": ["rahmen", "impraegnierung"], "stoffe": ["s1"]},
+    {"vorgang": "lackieren", "ausfuehrung": "vollautomat", "material": ["rahmen", "lack"], "stoffe": ["s2"]},
+    {"vorgang": "anmischen", "ausfuehrung": "von_hand", "material": ["impraegnierung", "lack"], "stoffe": ["s1", "s2"]},
+    {"vorgang": "sonderbetrieb", "ausfuehrung": "von_hand", "material": ["anlage", "loesemittel"], "stoffe": ["s3"]},
+    {"vorgang": "sonderbetrieb", "ausfuehrung": "von_hand", "material": ["anlage"]},
+    {"vorgang": "sonderbetrieb", "ausfuehrung": "von_hand", "material": ["anlage"]}
+   ]
+  }
+ ],
+ "wuensche": [
+  {"text": "Der Antrieb der Bahn brummt den ganzen Tag", "fehlt": "Lärm der eigenen Anlage ohne Pegel; Umgebung Lärm gilt nur für Nachbarplätze, laerm_db fehlt"},
+  {"text": "Die Halle ist warm", "fehlt": "Wärme ohne Angabe von Hitze oder Wärmestrahlung, daher keine Umgebung Hitze"},
+  {"text": "Die Taktung gibt die Bahn vor, man kann nicht schneller oder langsamer arbeiten", "fehlt": "Maschinengebundener Takt (Fremdbestimmung) hat keine Umgebung; Zeitdruck nicht ausdrücklich genannt"},
+  {"text": "Die Flüssigkeit kommt aus Fässern mit zweihundert Litern, die eine Pumpe in die Wanne drückt", "fehlt": "Welche Flüssigkeit aus welchem Fass (Imprägnierung oder Grundierung) kommt, ist nicht getrennt; Fass und Pumpe als Ausführung fehlen"},
+  {"text": "Die Lappen dafür liegen danach im offenen Karton neben der Anlage", "fehlt": "Material Lappen mit Lösemittel (Lappenentsorgung) fehlt; als Mangel notiert"},
+  {"text": "Die Düsen werden vom Meister gewechselt, wenn sie verstopfen", "fehlt": "Schritt Düsenwechsel als Störungsbeseitigung durch den Meister; Schritt unsicher"},
+  {"text": "Heute sind zwei Personen an der Linie, eine am Bedienpult und eine am Zuführtisch", "fehlt": "Tätigkeit am Bedienpult nicht beschrieben, kein Schritt Bedienen"},
+  {"text": "Der Auffangbereich wird einmal pro Schicht mit Wasser und Besen gereinigt", "fehlt": "Ausführung Besen und Wasser; als Sonderbetrieb gewertet, Schritt unsicher"},
+  {"text": "hinten die Ablage", "fehlt": "Entnehmen und Ablegen der Rahmen am Ende der Bahn nicht beschrieben, kein Schritt"}
+ ],
+ "maengel": [
+  {"text": "Beim Umfüllen aus den Fässern spritzt die Flüssigkeit schnell mal auf Kittel und Hände.", "gegenstand": "Umfüllen aus den Fässern ohne Spritzschutz"},
+  {"text": "die Lappen dafür liegen danach im offenen Karton neben der Anlage", "art": "stoff_lagerung", "gegenstand": "lösemittelgetränkte Lappen im offenen Karton"}
+ ],
+ "zuordnung": [
+  {"schritt": 1, "stelle": "Der Rahmen wiegt etwa fünfundzwanzig Kilogramm, und man hebt ihn alle vierzig Sekunden vom Wagen auf die Bahn (90 Griffe je Stunde aus 40 Sekunden gerechnet; Takt ausdrücklich genannt)", "sicher": true},
+  {"schritt": 2, "stelle": "werden von Hand auf die Rollenbahn gelegt ... laufen sie langsam durch", "sicher": true},
+  {"schritt": 3, "stelle": "durch das Becken mit der Imprägnierung", "sicher": true},
+  {"schritt": 4, "stelle": "über Düsen, die Grundierung aufbringen", "sicher": true},
+  {"schritt": 5, "stelle": "Beim Umfüllen aus den Fässern", "sicher": false},
+  {"schritt": 6, "stelle": "Abends werden die Düsen mit Lösemittel aus einer Kanne gespült", "sicher": true},
+  {"schritt": 7, "stelle": "Die Düsen werden vom Meister gewechselt, wenn sie verstopfen", "sicher": false},
+  {"schritt": 8, "stelle": "Der Auffangbereich wird einmal pro Schicht mit Wasser und Besen gereinigt", "sicher": false}
+ ]
+}

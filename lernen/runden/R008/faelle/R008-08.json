@@ -1,0 +1,53 @@
+{
+ "id": "R008-08",
+ "name": "R008-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {"id": "s1", "name": "Isopropanol", "material": "loesemittel", "sdb": null, "h": []}
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Löt- und Bestückplatz an der Tischreihe, mit Prüfplätzen",
+   "bereich": "Elektromechanik, Löten und Bestücken von Baugruppen",
+   "personen": 6,
+   "umgebung": ["werkstatt", "zwangshaltung"],
+   "angaben": {},
+   "schritte": [
+    {"vorgang": "einsetzen", "ausfuehrung": "von_hand", "material": []},
+    {"vorgang": "loeten_brennschneiden", "ausfuehrung": "von_hand", "material": ["prozessrauch"]},
+    {"vorgang": "reinigen_hand", "ausfuehrung": "von_hand", "material": ["loesemittel"], "stoffe": ["s1"]},
+    {"vorgang": "pruefen", "ausfuehrung": "von_hand", "material": []},
+    {"vorgang": "reinigen_hand", "ausfuehrung": "von_hand", "material": []},
+    {"vorgang": "sonderbetrieb", "ausfuehrung": "von_hand", "material": ["anlage"]}
+   ]
+  }
+ ],
+ "wuensche": [
+  {"text": "mit bleifreiem Lötzinn, das Flussmittel ist im Draht enthalten", "fehlt": "Lötzinn und Flussmittel (Kolophonium) als Material oder Stoff fehlen; Flussmittel nicht als Stoff eingetragen, weil Material fehlt"},
+  {"text": "Lötkolben, der auf etwa 350 Grad eingestellt ist", "fehlt": "Ausführung Lötkolben fehlt; von Hand gewählt; heiße Oberfläche des Kolbens nicht abbildbar"},
+  {"text": "Die Bauteile setzt man von Hand mit einer Pinzette ein", "fehlt": "Material Platine und Bauteile (Elektronik) fehlt"},
+  {"text": "An den Prüfplätzen liegen die Netzteile offen auf dem Tisch, sie hängen direkt am Netz", "fehlt": "Prüfen unter Spannung (elektrische Gefährdung) mit Material Netzteil fehlt; Tätigkeit am Prüfplatz nicht beschrieben, Schritt unsicher"},
+  {"text": "Der Takt wird über einen Zähler gemessen, es sollen etwa zwölf Platinen pro Stunde werden", "fehlt": "Stückzahl je Stunde ist keine Griffzahl; hohe Wiederholung nicht ausdrücklich genannt, daher gleichfoermig offen"},
+  {"text": "Man sitzt den ganzen Tag", "fehlt": "Sitzende Tätigkeit ohne passenden Vorgang; Einrichtung des Platzes nur als Mangel erfasst"},
+  {"text": "Gewechselt wird im Schichtbetrieb", "fehlt": "Schichtarbeit hat keine Umgebung oder Angabe"},
+  {"text": "Die Platinen kommen in Gurten vom Automaten", "fehlt": "Anliefern und Entnehmen vom Automaten nicht beschrieben, kein Schritt"},
+  {"text": "der Techniker stellt die Lötstation am Morgen ein", "fehlt": "Was beim Einstellen getan wird, ist nicht beschrieben; Schritt unsicher"},
+  {"text": "die Antistatikmatte wischt man mit Wasser ab", "fehlt": "Material Antistatikmatte fehlt"}
+ ],
+ "maengel": [
+  {"text": "Der Lötrauch wird über einen Absaugarm abgesaugt, der aber weit weg vom Kopf steht.", "art": "lueftung", "gegenstand": "Absaugarm am Lötplatz"},
+  {"text": "Zur Reinigung der Platinen nimmt man Isopropanol aus einem offenen Becher", "art": "stoff_lagerung", "gegenstand": "Isopropanol im offenen Becher"},
+  {"text": "An den Prüfplätzen liegen die Netzteile offen auf dem Tisch, sie hängen direkt am Netz.", "art": "schutzeinrichtung", "gegenstand": "offene Netzteile an den Prüfplätzen"},
+  {"text": "die Lupe steht tief, der Kopf ist meistens nach vorn gebeugt", "art": "einrichtung", "gegenstand": "Lupe am Arbeitsplatz"}
+ ],
+ "zuordnung": [
+  {"schritt": 1, "stelle": "Die Bauteile setzt man von Hand mit einer Pinzette ein", "sicher": true},
+  {"schritt": 2, "stelle": "Gelötet wird mit einem Lötkolben ... Der Lötrauch wird über einen Absaugarm abgesaugt", "sicher": true},
+  {"schritt": 3, "stelle": "Zur Reinigung der Platinen nimmt man Isopropanol aus einem offenen Becher und einen Pinsel", "sicher": true},
+  {"schritt": 4, "stelle": "An den Prüfplätzen liegen die Netzteile offen auf dem Tisch", "sicher": false},
+  {"schritt": 5, "stelle": "die Antistatikmatte wischt man mit Wasser ab", "sicher": true},
+  {"schritt": 6, "stelle": "der Techniker stellt die Lötstation am Morgen ein", "sicher": false}
+ ]
+}

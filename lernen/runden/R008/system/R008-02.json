@@ -1,0 +1,157 @@
+{
+ "id": "R008-02",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schnittfeste Handschuhe",
+    "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden"
+   ],
+   "entsteht": [
+    "Scharfe Kanten, Grate, Späne"
+   ]
+  },
+  {
+   "gefaehrdung": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Kapselung und Absaugung der Maschine",
+    "Hautschutzplan",
+    "Hautkontakt vermeiden, geeignete Handschuhe außerhalb drehender Teile"
+   ],
+   "entsteht": [
+    "Hautkontakt, Nebel und Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Auffangwannen, Spritzschutz",
+    "Boden sauber halten",
+    "Rutschhemmende Schuhe",
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Öl und Emulsion auf dem Boden",
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fahr- und Gehwege trennen und kennzeichnen",
+    "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+   ],
+   "entsteht": [
+    "Fahrzeuge kreuzen den Arbeitsplatz"
+   ]
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht",
+    "Vor Beginn der Arbeiten an aktiven Teilen spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen"
+   ],
+   "entsteht": [
+    "Spannung führende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Saugen statt Abblasen",
+    "Schutzbrille"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub, wegfliegende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist",
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Verkleidung der Maschine ist aus Blech und an einer Seite offen",
+    "Mangel vor Ort: Die Spindel wird von Hand gedreht, um die Achse zu prüfen, dabei ist die Verkleidung noch offen"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Gabelstapler fahren vorbei, während der Techniker am Schaltschrank arbeitet"
+   ]
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fehlende Unterweisung, Prüfung, Betriebsanweisung oder Kennzeichnung nachholen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der Hauptschalter ist aus, aber an der Verkleidung hängt kein Schild, dass die Maschine gesperrt ist"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der Boden ist nass und der Gang ist eng, Kisten und Paletten liegen daneben"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Schädigung des ungeborenen Kindes",
+  "Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+  "Brand oder Explosion durch entzündbare Stoffe oder Gase"
+ ]
+}

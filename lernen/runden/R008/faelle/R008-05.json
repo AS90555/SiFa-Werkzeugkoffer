@@ -1,0 +1,46 @@
+{
+ "id": "R008-05",
+ "name": "R008-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {"id": "s1", "name": "Beizpaste", "material": "beize_saeure", "sdb": null, "h": []}
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Schweißstation WIG an Edelstahl, Arbeiten im Behälter",
+   "bereich": "Behälterbau, WIG-Schweißen an Edelstahl",
+   "personen": 2,
+   "umgebung": ["silo", "eng", "kalt", "boden"],
+   "angaben": {"einstieg": true},
+   "schritte": [
+    {"vorgang": "schweissen", "ausfuehrung": "schweissgeraet", "material": ["metallwerkstueck", "druckgasflasche"]},
+    {"vorgang": "trennschleifen", "ausfuehrung": "handmaschine", "material": ["metallwerkstueck"]},
+    {"vorgang": "beizen", "ausfuehrung": "von_hand", "material": ["beize_saeure"], "stoffe": ["s1"]},
+    {"vorgang": "abblasen", "ausfuehrung": "von_hand", "material": []}
+   ]
+  }
+ ],
+ "wuensche": [
+  {"text": "Argon strömt beim Schweißen aus dem Brenner in den Behälter, weil der Einstieg offen bleibt", "fehlt": "Erstickungsgefahr durch Schutzgas im Behälter ist weder als Material noch als Zustand der Umgebung abbildbar (Argon nur als Druckgasflasche)"},
+  {"text": "Der Lichtbogen strahlt so hell, dass der Helfer am Einstieg die Augen abwendet", "fehlt": "Strahlung des Lichtbogens für Umstehende (Helfer) hat keine Umgebung oder Angabe"},
+  {"text": "Im Inneren ... die Luft ist warm und riecht nach Metall", "fehlt": "Schweißrauch wird nicht ausdrücklich genannt, daher kein Material Prozessrauch; Wärme im Behälter ist keine Hitze im Sinne der Stammdaten"},
+  {"text": "der Helfer am Einstieg", "fehlt": "Sicherungsposten am Einstieg als Rolle oder Maßnahme nicht abbildbar"},
+  {"text": "bläst den Schleifstaub mit Druckluft vom Tisch", "fehlt": "Ausführung Druckluftpistole und Material Schleifstaub (Metallstaub) fehlen; Schritt mit Ausführung von Hand ohne Material"},
+  {"text": "Der Schweißer reinigt den Platz selbst", "fehlt": "Keine Beschreibung, was beim Reinigen getan wird, außer dem Abblasen; kein eigener Schritt"},
+  {"text": "Umgerüstet wird die Vorrichtung am Vortag vom Schlosser", "fehlt": "Keine Beschreibung des Rüstvorgangs, daher kein Schritt Sonderbetrieb"},
+  {"text": "Pro Tag werden drei bis vier Behälter gefertigt", "fehlt": "Keine passende Angabe für Stückzahl je Tag"}
+ ],
+ "maengel": [
+  {"text": "Die Paste steht in einem offenen Eimer neben dem Einstieg.", "art": "stoff_lagerung", "gegenstand": "Beizpaste im offenen Eimer"},
+  {"text": "Ein kleiner Ventilator am Deckel saugt Luft ab, aber man merkt, dass er nicht viel bringt.", "art": "lueftung", "gegenstand": "Absaugung im Behälter"},
+  {"text": "Der Boden vor der Tür ist etwas nass", "art": "weg_boden", "gegenstand": "Boden vor der Tür"}
+ ],
+ "zuordnung": [
+  {"schritt": 1, "stelle": "Geschweißt wird im WIG-Verfahren mit einem Gerät, die Wolframelektrode führt der Schweißer von Hand ... Argon aus einer Flasche", "sicher": true},
+  {"schritt": 2, "stelle": "Nach dem Schweißen wird mit einem Winkelschleifer nachgearbeitet", "sicher": true},
+  {"schritt": 3, "stelle": "danach bestreicht man die Nähte mit Beizpaste", "sicher": true},
+  {"schritt": 4, "stelle": "bläst den Schleifstaub mit Druckluft vom Tisch", "sicher": false}
+ ]
+}

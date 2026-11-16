@@ -1,0 +1,211 @@
+{
+ "id": "R008-05",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzhaube, Werkstück fixiert",
+    "Beide Hände an der Maschine"
+   ],
+   "entsteht": [
+    "Offenes Werkzeug, Rückschlag"
+   ]
+  },
+  {
+   "gefaehrdung": "Verschüttung, Sauerstoffmangel, Absturz im Silo",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Nur mit Erlaubnisschein",
+    "Sicherungsposten"
+   ],
+   "entsteht": [
+    "Enger Raum, Schüttgut"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Emissionsarmes Verfahren und Zusatzwerkstoff wählen",
+    "Absaugung an der Entstehungsstelle, nachgeführt",
+    "Atemschutz, wenn die Absaugung nicht ausreicht"
+   ],
+   "entsteht": [
+    "Schweißrauch und Gase"
+   ]
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schweißplatz zu Nachbarplätzen abschirmen",
+    "Schweißerschutzschild und bedeckende Kleidung"
+   ],
+   "entsteht": [
+    "Ultraviolette und sichtbare Strahlung des Lichtbogens"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "Feuerlöscher griffbereit",
+    "Außerhalb fester Schweißplätze nur mit Erlaubnis",
+    "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+    "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+    "Zündquellen fernhalten, Explosionsschutz prüfen"
+   ],
+   "entsteht": [
+    "Funken und glühende Partikel",
+    "Entzündbare Flüssigkeit, Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Flasche gegen Umfallen sichern",
+    "Transport nur mit Ventilschutz"
+   ],
+   "entsteht": [
+    "Hoher Druck, schwere Flasche"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzhaube richtig eingestellt",
+    "Schutzbrille, bei Trennscheiben Gesichtsschutz"
+   ],
+   "entsteht": [
+    "Funken, Splitter, berstende Scheibe"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absaugung an der Entstehungsstelle",
+    "Staub aufsaugen, nicht abblasen",
+    "Saugen statt Abblasen",
+    "Schutzbrille"
+   ],
+   "entsteht": [
+    "Metall- und Schleifstaub",
+    "Aufgewirbelter Staub, wegfliegende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Weniger gefährliches Verfahren oder Produkt prüfen",
+    "Absaugung oder Lüftung, Augenspülung in der Nähe",
+    "Säurefeste Handschuhe, Schutzbrille oder Gesichtsschutz, Schürze"
+   ],
+   "entsteht": [
+    "Säure oder Lauge auf Haut und Augen, ätzende Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Paste steht in einem offenen Eimer neben dem Einstieg."
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Ein kleiner Ventilator am Deckel saugt Luft ab, aber man merkt, dass er nicht viel bringt."
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Boden vor der Tür ist etwas nass"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Schädigung des ungeborenen Kindes",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

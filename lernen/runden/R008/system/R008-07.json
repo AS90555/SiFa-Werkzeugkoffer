@@ -1,0 +1,137 @@
+{
+ "id": "R008-07",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel",
+    "Einsatz höhenverstellbarer Montagetische prüfen",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+   ],
+   "entsteht": [
+    "Körperliche Belastung",
+    "Last, Zwangshaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen",
+    "Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Geschlossenes System, Absaugung",
+    "Handschuhe nach Sicherheitsdatenblatt beim Nachfüllen und Reinigen",
+    "Absaugung der Lacknebel",
+    "Einstufung nach Sicherheitsdatenblatt",
+    "Einstufung nach Sicherheitsdatenblatt, Maßnahmen danach",
+    "Hautkontakt technisch vermeiden",
+    "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts"
+   ],
+   "entsteht": [
+    "Abhängig von der Einstufung",
+    "Kontakt beim Nachfüllen und Reinigen",
+    "Lacknebel, Dämpfe",
+    "Dämpfe, Hautkontakt",
+    "Stoff kann Allergien auslösen"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Explosionsschutz prüfen und im Explosionsschutzdokument ausweisen",
+    "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+    "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+    "Zündquellen fernhalten, Explosionsschutz prüfen"
+   ],
+   "entsteht": [
+    "Explosionsfähige Atmosphäre",
+    "Entzündbare Flüssigkeit, Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einzugs- und Umlenkstellen verkleidet",
+    "Reinigen und Entstören nur im Stillstand"
+   ],
+   "entsteht": [
+    "Einzugsstellen an Rollen und Bändern"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Geschlossene Waschgeräte statt offener Wanne",
+    "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"
+   ],
+   "entsteht": [
+    "Hautkontakt und Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+   ],
+   "entsteht": [
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsschuhe",
+    "Auf Unterlagen absetzen, Finger nicht unter die Last"
+   ],
+   "entsteht": [
+    "Schweres Teil wird von Hand abgesetzt"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Lappen dafür liegen danach im offenen Karton neben der Anlage"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Schädigung des ungeborenen Kindes"
+ ]
+}

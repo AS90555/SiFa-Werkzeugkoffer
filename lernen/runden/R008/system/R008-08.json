@@ -1,0 +1,137 @@
+{
+ "id": "R008-08",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einstufung aus dem Sicherheitsdatenblatt ermitteln, Maßnahmen danach festlegen",
+    "Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Einstufung nach Sicherheitsdatenblatt, Maßnahmen danach",
+    "Hautkontakt technisch vermeiden",
+    "Handschuhe nach Abschnitt 8 des Sicherheitsdatenblatts"
+   ],
+   "entsteht": [
+    "Abhängig von der Einstufung",
+    "Dämpfe, Hautkontakt",
+    "Stoff kann Allergien auslösen"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "Feuerlöscher griffbereit",
+    "Außerhalb fester Schweißplätze nur mit Erlaubnis",
+    "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+    "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+    "Zündquellen fernhalten, Explosionsschutz prüfen"
+   ],
+   "entsteht": [
+    "Funken und glühende Partikel",
+    "Entzündbare Flüssigkeit, Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Geschlossene Waschgeräte statt offener Wanne",
+    "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"
+   ],
+   "entsteht": [
+    "Hautkontakt und Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden",
+    "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+   ],
+   "entsteht": [
+    "Langes Arbeiten in ungünstiger Körperhaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: An den Prüfplätzen liegen die Netzteile offen auf dem Tisch, sie hängen direkt am Netz."
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Lötrauch wird über einen Absaugarm abgesaugt, der aber weit weg vom Kopf steht."
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Zur Reinigung der Platinen nimmt man Isopropanol aus einem offenen Becher"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsplatz ergonomisch anpassen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Lupe steht tief, der Kopf ist meistens nach vorn gebeugt"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Schädigung des ungeborenen Kindes",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}
