@@ -1,0 +1,159 @@
+{
+ "id": "R009-07",
+ "name": "R009-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Brennschneidplatz",
+   "bereich": "Stahlträger-Fläche in der Halle",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "boden",
+    "laerm_umgebung",
+    "gefahrbereich"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "loeten_brennschneiden",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "stahlprofil",
+      "druckgasflasche",
+      "prozessrauch"
+     ]
+    },
+    {
+     "vorgang": "schweissen",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "blech",
+      "druckgasflasche",
+      "prozessrauch"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Kran und Anschlagen",
+   "bereich": "Stahlträger-Fläche in der Halle",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "boden",
+    "laerm_umgebung",
+    "gefahrbereich"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "stahlprofil"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Funken fliegen beim Schneiden in alle Richtungen",
+   "fehlt": "Kein eigener Eintrag für Funkenflug in der Umgebung"
+  },
+  {
+   "text": "Gerüstet wird vom Schichtführer",
+   "fehlt": "Kein Schritt, da nicht beschrieben wird, was am Gerät getan wird"
+  },
+  {
+   "text": "die Brennerdüsen wechselt der Brenner selbst",
+   "fehlt": "Düsenwechsel am Brenner ist als Werkzeugwechsel mit Material Anlage nur näherungsweise abgebildet"
+  },
+  {
+   "text": "heftet die Bleche zusammen",
+   "fehlt": "Heften mit Autogenbrenner: Vorgang Schweißen passt nur näherungsweise"
+  },
+  {
+   "text": "Die Träger sind bis zu zwölf Meter lang und mehrere Tonnen schwer",
+   "fehlt": "Keine Angabe für Gewicht bei Kranlasten vorgesehen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Flaschen stehen direkt neben dem Brenner auf dem Boden, zum Teil ohne Sicherung",
+   "art": "stoff_lagerung",
+   "gegenstand": "Sauerstoff- und Acetylenflaschen"
+  },
+  {
+   "text": "der Schlauch liegt quer über die Fläche",
+   "art": "weg_boden",
+   "gegenstand": "Gasschlauch"
+  },
+  {
+   "text": "Wenn ein Träger hängt, fährt der Kranführer über die Arbeitsfläche, und der Anschläger steht nah an der Last",
+   "art": "arbeitsweise",
+   "gegenstand": "Aufenthalt und Kranfahrt unter hängender Last"
+  },
+  {
+   "text": "Holz liegt rundherum",
+   "art": "stoff_lagerung",
+   "gegenstand": "brennbares Holz neben Schneidstelle mit Funkenflug"
+  },
+  {
+   "text": "Der Boden ist aus Beton und voller Schlacke und Metallreste.",
+   "art": "weg_boden",
+   "gegenstand": "Hallenboden"
+  },
+  {
+   "text": "Bei Staub und Rauch wird nur ein Fenster geöffnet, eine Absaugung gibt es nicht.",
+   "art": "lueftung",
+   "gegenstand": "fehlende Absaugung"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "schneidet mit einem Autogenbrenner mit Sauerstoff- und Acetylenflaschen die Anschlüsse aus",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "heftet die Bleche zusammen",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "die Brennerdüsen wechselt der Brenner selbst",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "ein Anschläger, der die Last einhängt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "ein Kollege am Kran",
+   "sicher": true
+  }
+ ]
+}

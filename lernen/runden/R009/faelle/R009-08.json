@@ -1,0 +1,166 @@
+{
+ "id": "R009-08",
+ "name": "R009-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Lösemittel aus dem Kanister",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Kranbetrieb Baugruppen",
+   "bereich": "Montagehalle",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "gefahrbereich",
+    "zeitdruck"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "schweres_geraet"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Montageplätze",
+   "bereich": "Montagehalle",
+   "personen": 3,
+   "umgebung": [
+    "halle",
+    "gefahrbereich",
+    "boden",
+    "zeitdruck",
+    "zwangshaltung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "leiter",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Baugruppen wiegen zwischen dreißig und zweihundert Kilo",
+   "fehlt": "Keine einzelne Last je Griff genannt, daher keine Angabe eingetragen"
+  },
+  {
+   "text": "Gereinigt wird am Freitag mit einem Lappen und Lösemittel aus einem Kanister",
+   "fehlt": "Nicht klar, was gereinigt wird (Boden, Maschine); Zuordnung näherungsweise"
+  },
+  {
+   "text": "Die Baugruppen werden ständig gedreht und gewendet",
+   "fehlt": "Nicht klar, ob von Hand oder mit Kran gewendet; Schritt Handhaben unsicher"
+  },
+  {
+   "text": "Zum Montieren klettern die Leute auf eine Leiter",
+   "fehlt": "Montieren auf der Leiter nur näherungsweise abgebildet"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Gurte sind teils abgescheuert und mit Klebeband geflickt",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Hebegurte"
+  },
+  {
+   "text": "stehen zwei Kollegen darunter und setzen die Schrauben an",
+   "art": "arbeitsweise",
+   "gegenstand": "Aufenthalt unter abgesenkter Last"
+  },
+  {
+   "text": "dessen Kabel quer über den Boden hängt",
+   "art": "elektrik",
+   "gegenstand": "Kabel des elektrischen Schraubers"
+  },
+  {
+   "text": "eine Leiter, die an einer Seite nicht richtig steht",
+   "art": "absturzsicherung",
+   "gegenstand": "Leiter"
+  },
+  {
+   "text": "Der Boden ist an vielen Stellen mit Öl verschmiert",
+   "art": "weg_boden",
+   "gegenstand": "Hallenboden"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Kollege hängt die Last mit zwei Hebegurten am Kranhaken ein",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "mit dem Kran von der Vormontage an den Montageplatz gebracht",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Schrauben werden mit einem elektrischen Schrauber angezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die Baugruppen werden ständig gedreht und gewendet",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "Zum Montieren klettern die Leute auf eine Leiter",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Gereinigt wird am Freitag mit einem Lappen und Lösemittel",
+   "sicher": false
+  }
+ ]
+}

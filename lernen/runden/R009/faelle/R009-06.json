@@ -1,0 +1,112 @@
+{
+ "id": "R009-06",
+ "name": "R009-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Rundholzkran",
+   "bereich": "Rundholzplatz",
+   "personen": 1,
+   "umgebung": [
+    "aussen",
+    "witterung",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Entrindungsmaschine",
+   "bereich": "Rundholzplatz",
+   "personen": 1,
+   "umgebung": [
+    "aussen",
+    "witterung",
+    "kalt",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "schneidwerkzeug"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Stämme kommen mit dem Lastwagen an und werden mit dem Kran auf einen Stapel abgeladen",
+   "fehlt": "Material Rundholz, Stamm fehlt in den Stammdaten"
+  },
+  {
+   "text": "ein Stamm wird mit einer Kette auf einen Rollentisch gezogen und läuft dann durch einen Entrindungsring",
+   "fehlt": "Vorgang Entrinden fehlt, ebenso Ausführung Entrindungsmaschine; Schritt weggelassen. Auch Anschlagen mit Kette und Rollentisch nicht sicher zuzuordnen"
+  },
+  {
+   "text": "Die Maschine hat einen Motor, der laut brummt und rattert",
+   "fehlt": "Lärm der Maschine selbst; Vorgang Entrinden mit Lärmmerkmal fehlt, keine Angabe Lärmpegel"
+  },
+  {
+   "text": "beim Entrinden fliegt Staub in die Luft; im Sommer riecht es nach Harz",
+   "fehlt": "Material Rindenstaub fehlt"
+  },
+  {
+   "text": "Gewartet wird die Maschine vom Maschinenführer selbst",
+   "fehlt": "Kein Schritt, da nicht beschrieben wird, was getan wird"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Boden ist aufgeweicht und mit Schlamm und Rindenresten bedeckt, bei Regen steht hier Wasser.",
+   "art": "weg_boden",
+   "gegenstand": "Boden am Rundholzplatz"
+  },
+  {
+   "text": "Vor der Maschine liegen Stämme zum Teil lose herum",
+   "art": "weg_boden",
+   "gegenstand": "lose Stämme vor der Maschine"
+  },
+  {
+   "text": "Die Kabel der Maschine liegen über den Boden verteilt bis zum Schaltkasten",
+   "art": "elektrik",
+   "gegenstand": "Kabel der Entrindungsmaschine"
+  },
+  {
+   "text": "Schaltkasten, der oben am Gestell hängt und nicht ganz dicht aussieht",
+   "art": "elektrik",
+   "gegenstand": "Schaltkasten"
+  },
+  {
+   "text": "Schutzhandschuhe trägt der Helfer nicht.",
+   "art": "psa",
+   "gegenstand": "Schutzhandschuhe"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "werden mit dem Kran auf einen Stapel abgeladen",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "die Messer werden nur bei Bedarf gewechselt",
+   "sicher": false
+  }
+ ]
+}

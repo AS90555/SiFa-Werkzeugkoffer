@@ -1,0 +1,120 @@
+{
+ "id": "R009-05",
+ "name": "R009-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Verpackungslinie",
+   "bereich": "Verpackung",
+   "personen": 2,
+   "umgebung": [
+    "dunkel",
+    "hitze"
+   ],
+   "angaben": {
+    "last_kg": 40
+   },
+   "schritte": [
+    {
+     "vorgang": "verpacken",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "packmittel"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Kartonagenpresse",
+   "bereich": "Verpackung",
+   "personen": 1,
+   "umgebung": [
+    "fahrverkehr",
+    "boden",
+    "dunkel",
+    "hitze"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "umformen",
+     "ausfuehrung": "presse",
+     "material": [
+      "packmittel"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die fertigen Schrankkorpusse und Türen ... zwischen zehn und vierzig Kilo ... über Hüfthöhe auf die Palette",
+   "fehlt": "Material Schrankkorpus oder Tür fehlt in den Stammdaten; Schritt Handhaben steht ohne Material. Lastangabe 40 kg ist die genannte Obergrenze, Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "gereinigt wird am Schichtende mit Druckluft, wobei der Staub aus Pappe und Folienresten durch die Halle fliegt",
+   "fehlt": "Material Papp- und Folienstaub fehlt; Abblasen steht ohne Material"
+  },
+  {
+   "text": "Die Presse ist eine hydraulische Maschine mit einem Stößel ... Zweihandtaster",
+   "fehlt": "Ausführung Presse mit Zweihandtaster und Einlegen von Hand ist nur näherungsweise abgebildet; Vorgang Kartonagen pressen fehlt"
+  },
+  {
+   "text": "Gerüstet wird von der Schichtführung",
+   "fehlt": "Kein Schritt, da nicht beschrieben wird, was am Gerät getan wird"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Abdeckung ist aufgeklappt, weil der Kollege sonst nicht schnell genug nachlegen kann.",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Abdeckung der Kartonagenpresse"
+  },
+  {
+   "text": "Vor der Presse liegt ein Stapel loser Zuschnitte am Boden",
+   "art": "weg_boden",
+   "gegenstand": "Zuschnitte am Boden vor der Presse"
+  },
+  {
+   "text": "eine Lampe ist seit Wochen ausgefallen",
+   "art": "beleuchtung",
+   "gegenstand": "Hallenbeleuchtung"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "von Hand in Folie gewickelt und in Pappkartons gelegt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "heben sie teilweise über Hüfthöhe auf die Palette",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "gereinigt wird am Schichtende mit Druckluft",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "nimmt die Zuschnitte aus dem Stapel, legt sie in die Maschine und drückt einen Zweihandtaster",
+   "sicher": false
+  }
+ ]
+}

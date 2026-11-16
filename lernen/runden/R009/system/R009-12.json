@@ -1,0 +1,117 @@
+{
+ "id": "R009-12",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Öffnungen abdecken oder umwehren",
+    "Abdeckungen gegen Verschieben sichern"
+   ],
+   "entsteht": [
+    "Offene oder ungesicherte Öffnung im Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei gefährlicher Alleinarbeit für technische oder organisatorische Personenschutzmaßnahmen sorgen"
+   ],
+   "entsteht": [
+    "Niemand bemerkt einen Unfall oder kann helfen"
+   ]
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fahrzeug nur an den vorgesehenen Aufnahmepunkten aufnehmen",
+    "Hebebühne regelmäßig prüfen lassen"
+   ],
+   "entsteht": [
+    "Fahrzeug steht nicht sicher auf der Hebebühne"
+   ]
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschädigte elektrische Betriebsmittel der Benutzung entziehen und instand setzen lassen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Anlage hängt an einem Rechner auf einem Rollwagen, das Kabel liegt quer über den Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Lampe in der Grube ist eine Leuchtstoffröhre ohne Schutzkorb"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: unter dem Wagen liegt Schmutz und Öl"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Kanister, die auf dem Boden stehen"
+   ]
+  },
+  {
+   "gefaehrdung": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Notruf und Erste Hilfe sicherstellen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Mitarbeiter ist meist alleine im Bereich, ein Kollege kommt nur kurz vorbei"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}
