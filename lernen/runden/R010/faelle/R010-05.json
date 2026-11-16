@@ -1,0 +1,170 @@
+{
+ "id": "R010-05",
+ "name": "R010-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s2",
+   "name": "Reinigungsmittel für die Walzen",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Ummantelungsanlage",
+   "bereich": "Zargenfertigung",
+   "personen": 2,
+   "umgebung": [
+    "hitze",
+    "laerm_umgebung",
+    "taktarbeit",
+    "boden"
+   ],
+   "angaben": {
+    "gleichfoermig": true
+   },
+   "schritte": [
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "durchlaufmaschine",
+     "material": []
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "schmelzkleber",
+      "heisses_maschinenteil"
+     ]
+    },
+    {
+     "vorgang": "entleeren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "schmelzkleber"
+     ]
+    },
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "durchlaufmaschine",
+     "material": [
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "heisses_maschinenteil"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Zargenprofile liegen auf einem Wagen und werden von Hand auf das Einzugsband gelegt",
+   "fehlt": "Material Zargenprofil (Werkstoff nicht genannt); Schritt ohne Material"
+  },
+  {
+   "text": "Kleber kommt als Granulat aus einem Vorratsbehälter, der oben offen ist",
+   "fehlt": "Material Schmelzkleber-Granulat als nicht heißer Feststoff; Behälter offen ist kein Stoff-Merkmal"
+  },
+  {
+   "text": "Am Auslauf nimmt der Kollege die fertigen Zargen ab und stapelt sie auf einen Rollwagen",
+   "fehlt": "Material warmes Fertigteil (heisses_werkstueck nur näherungsweise); Stapeln auf Wagen ohne eigenen Vorgang, hier als Handhaben"
+  },
+  {
+   "text": "es riecht nach Kleber und Lösemittel",
+   "fehlt": "Herkunft und Name des Lösemittels unklar; kein eigener Stoff eingetragen; Lüftung nicht beschrieben"
+  },
+  {
+   "text": "wenn der Kompressor fürs Ausblasen dazukommt",
+   "fehlt": "Ausblasen mit Druckluft nur erwähnt, nicht beschrieben (was, wie oft, von wem); kein Schritt angelegt"
+  },
+  {
+   "text": "Reinigungsmittel",
+   "fehlt": "Art des Reinigungsmittels nicht genannt; Material Lösemittel vorläufig, nicht sicher"
+  },
+  {
+   "text": "Der Kleber kommt als Granulat aus einem Vorratsbehälter",
+   "fehlt": "Schmelzkleber als Stoff mit Datenblatt: kein passendes Gefahrstoff-Material in den Stammdaten; kein Stoff eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Schutzhaube steht hochgeklappt",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzhaube der Ummantelungsanlage"
+  },
+  {
+   "text": "dafür muss man an die Walzen greifen, während sie noch warm sind",
+   "art": "arbeitsweise",
+   "gegenstand": "Reinigung der beheizten Walzen im warmen Zustand"
+  },
+  {
+   "text": "Ausschussteile liegen manchmal neben dem Auslauf auf dem Boden, weil der Wagen voll ist",
+   "art": "weg_boden",
+   "gegenstand": "Boden am Auslauf"
+  },
+  {
+   "text": "Vorratsbehälter, der oben offen ist"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "werden von Hand auf das Einzugsband gelegt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Anlage zieht die Profile dann selbsttätig durch, über eine Reihe beheizter Walzen",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "regelmäßig nachgefüllt werden muss",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Am Auslauf nimmt der Kollege die fertigen Zargen ab",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "stapelt sie auf einen Rollwagen, dabei fasst er die noch warmen Profile an",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Die Walzenoberfläche wird am Ende der Schicht von Hand mit einem Tuch und einem Reinigungsmittel abgewischt",
+   "sicher": true
+  },
+  {
+   "schritt": 7,
+   "stelle": "Stellt man die Anlage auf eine neue Profilbreite um, macht das der Schichtführer mit einem Schraubschlüssel",
+   "sicher": true
+  }
+ ]
+}

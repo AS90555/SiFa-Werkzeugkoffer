@@ -1,0 +1,135 @@
+{
+ "id": "R010-04",
+ "name": "R010-04",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s2",
+   "name": "Benzin in Kanistern",
+   "material": "benzin",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Rollenprüfstand in der Box",
+   "bereich": "Prüfstand und Probefahrt",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung",
+    "hitze",
+    "gefaelle"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "probelauf",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "abgase",
+      "heisses_maschinenteil"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Probefahrt auf dem Hof",
+   "bereich": "Prüfstand und Probefahrt",
+   "personen": 1,
+   "umgebung": [
+    "aussen",
+    "fahrverkehr"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "ziehen_schieben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "probelauf",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Motorrad wird mit dem Vorderrad über eine Rampe auf die Rollen gefahren und mit Spanngurten am Boden festgezurrt",
+   "fehlt": "Vorgang und Ausführung für Auffahren auf den Prüfstand und Festzurren fehlen; Material Motorrad fehlt"
+  },
+  {
+   "text": "Der Mechaniker startet den Motor, ... im Stand Vollgas gegeben",
+   "fehlt": "Ausführung für motorisch betriebenes Fahrzeug im Probelauf fehlt; von_hand nur als Behelf gewählt"
+  },
+  {
+   "text": "Die Kollegin sitzt in einem Kabuff am Rechner und schaut durch das Fenster",
+   "fehlt": "Ausführung für Bedienen eines Prüfstands über Rechner fehlt; von_hand nur als Behelf gewählt"
+  },
+  {
+   "text": "Der Prüfstand wird nach jeder Schicht vom Mechaniker mit Druckluft ausgeblasen, der Staub landet in der Box",
+   "fehlt": "Material Staub aus dem Prüfstand fehlt"
+  },
+  {
+   "text": "Gerüstet und umgebaut wird meist allein vom Mechaniker am Motor, mit dem Werkzeugwagen daneben",
+   "fehlt": "Es ist nicht beschrieben, was beim Rüsten und Umbauen getan wird; deshalb kein Schritt"
+  },
+  {
+   "text": "Schmieröl und Benzin stehen in Kanistern im Regal",
+   "fehlt": "Lagerung im Regal ohne Ein- und Auslagern ist kein Schritt; Stoffe sind unter stoffe eingetragen"
+  },
+  {
+   "text": "Für die Probefahrt schiebt man das Motorrad in den Hof",
+   "fehlt": "Material Motorrad fehlt; Probefahrt im Straßenverkehr ist in den Stammdaten nicht abgebildet"
+  },
+  {
+   "text": "Schmieröl ... stehen in Kanistern im Regal",
+   "fehlt": "Schmieröl ist kein Gefahrstoff-Stammdatum und kann nicht unter stoffe stehen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "der Schlauch der Absaugung hängt dabei nur lose am Auspuff",
+   "art": "lueftung",
+   "gegenstand": "Absaugschlauch nur lose am Auspuff"
+  },
+  {
+   "text": "dort gibt es keine Absperrung, Autos fahren vorbei",
+   "art": "arbeitsweise",
+   "gegenstand": "Probefahrtbereich im Hof ohne Absperrung neben Fahrverkehr"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Mechaniker startet den Motor, ... und es wird im Stand Vollgas gegeben",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "eine Kollegin, die den Prüfstand bedient",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Prüfstand wird nach jeder Schicht vom Mechaniker mit Druckluft ausgeblasen",
+   "sicher": true
+  }
+ ]
+}

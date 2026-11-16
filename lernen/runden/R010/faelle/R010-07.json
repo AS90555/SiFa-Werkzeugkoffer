@@ -1,0 +1,35 @@
+{"id":"R010-07","name":"R010-07","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"zweikomponentige Epoxidgrundierung","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Härter","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Verdünner","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Beschichten von Stahlbauteilen im Freien","bereich":"Beschichten von Stahlbauteilen im Freien","personen":2,
+  "umgebung":["aussen","witterung","kalt","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["stahlprofil"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["lack"]},
+   {"vorgang":"lackieren","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"hoehenarbeit","ausfuehrung":"hubarbeitsbuehne","material":["lack"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["loesemittel"]}]}],
+ "wuensche":[
+  {"text":"Vorher wird der Rost mit einem Strahlgerät abgestrahlt, das Strahlmittel fliegt dabei über den ganzen Platz","fehlt":"Vorgang Strahlen und Ausführung Strahlgerät sowie Material Strahlmittel und Rost; Schritt nicht angelegt"},
+  {"text":"Träger und Geländerteile ... teils dreihundert Kilogramm schwer","fehlt":"Gewicht 300 kg nicht als Angabe eingetragen (Kranlast, kein Griff von Hand)"},
+  {"text":"Die Pistole hängt an einem langen Schlauch unter hohem Druck","fehlt":"Ausführung Airless-Spritzgerät mit Hochdruck; hier näherungsweise handgeführte Maschine"},
+  {"text":"Oben an den Stützen arbeitet man von einer Arbeitsbühne aus","fehlt":"Art der Arbeitsbühne nicht genannt (Hubarbeitsbühne nur näherungsweise); Vorgang Höhenarbeit ist für Decke, Dach oder Tor beschrieben"},
+  {"text":"der Wind trägt den Spritznebel zur Straße hin","fehlt":"Gefährdung Dritter und Umwelt durch Spritznebel; kein Merkmal in den Stammdaten"},
+  {"text":"Farbe aus Gebinden mit Härter angemischt, es riecht stark nach Lösemittel","fehlt":"Name der Lösemittel im Lack nicht genannt; Einstufung nicht bekannt"}],
+ "maengel":[
+  {"text":"Eine Maske trägt nur einer, der andere arbeitet ohne","art":"psa","gegenstand":"Atemschutzmaske beim Spritzen"},
+  {"text":"Gereinigt wird die Pistole am Ende mit Verdünner in einem offenen Eimer, den man danach neben die Bauteile stellt","art":"stoff_lagerung","gegenstand":"offener Eimer mit Verdünner"},
+  {"text":"Der Schlauch liegt über dem Kiesboden","art":"weg_boden","gegenstand":"Hochdruckschlauch auf dem Kiesboden"},
+  {"text":"eine Arbeitsbühne, die auf unebenem Boden steht","art":"arbeitsweise","gegenstand":"Arbeitsbühne auf unebenem Boden"},
+  {"text":"das Strahlmittel fliegt dabei über den ganzen Platz"},
+  {"text":"der Wind trägt den Spritznebel zur Straße hin"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"werden mit einem Kran umgesetzt","sicher":true},
+  {"schritt":2,"stelle":"Die Farbe wird aus Gebinden mit Härter angemischt","sicher":true},
+  {"schritt":3,"stelle":"spritzt einer mit einer Airless-Pistole eine zweikomponentige Epoxidgrundierung auf","sicher":false},
+  {"schritt":4,"stelle":"der andere füllt nach und trägt von Hand nach","sicher":true},
+  {"schritt":5,"stelle":"Oben an den Stützen arbeitet man von einer Arbeitsbühne aus","sicher":false},
+  {"schritt":6,"stelle":"Gereinigt wird die Pistole am Ende mit Verdünner in einem offenen Eimer","sicher":true}]}

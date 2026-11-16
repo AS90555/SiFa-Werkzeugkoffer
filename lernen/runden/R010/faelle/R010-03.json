@@ -1,0 +1,33 @@
+{"id":"R010-03","name":"R010-03","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Natronlauge in Fässern","material":"beize_saeure","sdb":null,"h":[]},
+  {"id":"s2","name":"Säure in Kanistern","material":"beize_saeure","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Podest an der Trommelanlage","bereich":"Trommelanlage, Ansetzen der Bäder","personen":1,"umgebung":["alleinarbeit","boden","hitze","kalt"],"angaben":{},
+   "schritte":[
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["beize_saeure"]},
+    {"vorgang":"entleeren","ausfuehrung":"leiter","material":["beize_saeure","prozessrauch"]},
+    {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["beize_saeure","prozessrauch"]},
+    {"vorgang":"maschine_bedienen","ausfuehrung":"von_hand","material":[]}
+   ]}],
+ "wuensche":[
+  {"text":"Säcke mit Pulver","fehlt":"Art des Pulvers ist nicht genannt, daher weder Material noch Stoff eingetragen"},
+  {"text":"dafür steht er auf einer Leiter und kippt den Kanister über den Rand","fehlt":"Eine Ausführung, die Handarbeit und Leiter zugleich ausdrückt, fehlt; Leiter gewählt"},
+  {"text":"Das Wasser kommt aus einem Schlauch, der über dem Becken hängt","fehlt":"Vorgang und Material Wasser einfüllen fehlen"},
+  {"text":"Gereinigt wird das Becken einmal im Monat","fehlt":"Es ist nicht beschrieben, was beim Reinigen getan wird; deshalb kein Schritt"},
+  {"text":"Gerüstet wird vom Galvaniseur selbst","fehlt":"Es ist nicht beschrieben, was beim Rüsten getan wird; deshalb kein Schritt"},
+  {"text":"die Trommel hat ein Ablaufventil, das von Hand bedient wird","fehlt":"Vorgang Ablassen von Badflüssigkeit und das Material Bad fehlen"},
+  {"text":"Er holt aus dem Lager Säcke mit Pulver, Natronlauge in Fässern und eine Säure in Kanistern","fehlt":"Gewicht der Fässer und Kanister nicht genannt, daher keine Lastangabe"}
+ ],
+ "maengel":[
+  {"text":"Die Absaugung läuft, aber der Deckel ist offen, weil er den Schlauch sonst nicht erreicht","art":"lueftung","gegenstand":"Absaugung wirkt bei offenem Deckel unzureichend"},
+  {"text":"Die Fässer stehen nebeneinander, die Beschriftung ist an einer Stelle verblasst","art":"stoff_lagerung","gegenstand":"Fass mit verblasster Beschriftung"},
+  {"text":"dafür steht er auf einer Leiter und kippt den Kanister über den Rand","art":"arbeitsweise","gegenstand":"Kanister mit Säure wird von der Leiter über den Rand gekippt"},
+  {"text":"eine Bühne aus Gitterrost, feucht und rutschig","art":"weg_boden","gegenstand":"feuchtes, rutschiges Gitterrost"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Er holt aus dem Lager Säcke mit Pulver, Natronlauge in Fässern und eine Säure in Kanistern","sicher":true},
+  {"schritt":2,"stelle":"Die Chemikalien werden in den Behälter gegeben, dafür steht er auf einer Leiter und kippt den Kanister über den Rand","sicher":false},
+  {"schritt":3,"stelle":"Zum Umrühren nimmt er einen langen Holzstab","sicher":false},
+  {"schritt":4,"stelle":"die Trommel hat ein Ablaufventil, das von Hand bedient wird","sicher":false}
+ ]}

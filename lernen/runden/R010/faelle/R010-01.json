@@ -1,0 +1,103 @@
+{
+ "id": "R010-01",
+ "name": "R010-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Zapfinsel und Domschacht",
+   "bereich": "Arbeiten an der Zapfsäule und am Domschacht",
+   "personen": 2,
+   "umgebung": [
+    "aussen",
+    "bodenoeffnung",
+    "boden",
+    "fluchtweg_verstellt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": []
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Monteur klappt die Verkleidung der Säule ab und schraubt die Abdeckung vom Domschacht los (Akkuschrauber, Gabelschlüssel)",
+   "fehlt": "Material für Säulenverkleidung und Schachtabdeckung fehlt in den Stammdaten"
+  },
+  {
+   "text": "den schweren Deckel stemmt er mit einem Brecheisen hoch, weil man ihn von Hand nicht bewegt",
+   "fehlt": "Material Schachtdeckel (schwer, Gewicht nicht genannt) und Ausführung mit Hebel oder Brecheisen fehlen; Gewicht nicht angegeben"
+  },
+  {
+   "text": "Im Schacht liegen der Tankstutzen und die Pumpe, man riecht den Kraftstoff deutlich",
+   "fehlt": "Vorgang für Arbeiten im Schacht an Tankstutzen und Pumpe ist nicht beschrieben; Dieselkraftstoff fehlt als Material (Benzin passt nicht)"
+  },
+  {
+   "text": "Der Helfer leuchtet mit einer Lampe",
+   "fehlt": "Vorgang Leuchten oder Assistieren fehlt"
+  },
+  {
+   "text": "Geraucht wird hier nicht, aber das Handy liegt auf der Säule",
+   "fehlt": "Explosionsgefährdeter Bereich und Zündquellen sind in den Stammdaten nicht abgebildet"
+  },
+  {
+   "text": "Gerüstet wird vom Monteur selbst, der Helfer räumt hinterher das Werkzeug zusammen",
+   "fehlt": "Es ist nicht beschrieben, was beim Rüsten getan wird; deshalb kein Schritt"
+  },
+  {
+   "text": "Auf dem Boden steht eine Pfütze Diesel; man riecht den Kraftstoff deutlich",
+   "fehlt": "Diesel ist als Gefahrstoff-Material nicht vorhanden (Benzin passt nicht), daher kein Eintrag unter stoffe"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Auf dem Boden steht eine Pfütze Diesel, die noch niemand aufgenommen hat",
+   "art": "weg_boden",
+   "gegenstand": "Pfütze Diesel auf dem Asphalt"
+  },
+  {
+   "text": "eine Lampe, die an einem langen Verlängerungskabel quer über den Asphalt hängt, bis zur Steckdose an der Wand",
+   "art": "elektrik",
+   "gegenstand": "Verlängerungskabel quer über der Zapfinsel"
+  },
+  {
+   "text": "Ein Feuerlöscher steht zwei Zapfinseln weiter, man müsste ihn holen",
+   "art": "rettung_verstellt",
+   "gegenstand": "Feuerlöscher nicht in Griffweite"
+  },
+  {
+   "text": "Geraucht wird hier nicht, aber das Handy liegt auf der Säule",
+   "art": "arbeitsweise",
+   "gegenstand": "Handy als Zündquelle am Domschacht"
+  },
+  {
+   "text": "Ein Schlauch, der zur Pumpe führt, hat an einer Stelle einen dunklen Riss",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Schlauch zur Pumpe mit Riss"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Dafür hat er einen Akkuschrauber und einen Gabelschlüssel dabei",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "den schweren Deckel stemmt er mit einem Brecheisen hoch",
+   "sicher": false
+  }
+ ]
+}
