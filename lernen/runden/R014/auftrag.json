@@ -1,0 +1,56 @@
+{
+ "runde": "R014",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R014-01",
+   "auftrag": "a114",
+   "branche": "Formenbau",
+   "bereich": "Werkzeuge polieren, Spritzgießwerkzeug wechseln"
+  },
+  {
+   "kennung": "R014-02",
+   "auftrag": "a095",
+   "branche": "Tischlerei",
+   "bereich": "Tischfräse mit Vorschubapparat"
+  },
+  {
+   "kennung": "R014-03",
+   "auftrag": "a139",
+   "branche": "Blechbearbeitung",
+   "bereich": "Tafelschere und Schwenkbiegemaschine"
+  },
+  {
+   "kennung": "R014-04",
+   "auftrag": "a089",
+   "branche": "Hobelwerk",
+   "bereich": "Vierseitenhobel und Abstapeln"
+  },
+  {
+   "kennung": "R014-05",
+   "auftrag": "a108",
+   "branche": "Parkett",
+   "bereich": "Mehrblattsäge und Lackierstraße mit UV-Härtung"
+  },
+  {
+   "kennung": "R014-06",
+   "auftrag": "a155",
+   "branche": "Landmaschinenwerkstatt",
+   "bereich": "Reparatur am Mähdrescher, Hydraulik"
+  },
+  {
+   "kennung": "R014-07",
+   "auftrag": "a122",
+   "branche": "Wälzlager",
+   "bereich": "Rundschleifen und Waschen"
+  },
+  {
+   "kennung": "R014-08",
+   "auftrag": "a159",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Motorinstandsetzung und Teilewaschanlage"
+  }
+ ]
+}

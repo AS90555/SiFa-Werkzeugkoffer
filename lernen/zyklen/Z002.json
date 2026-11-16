@@ -1,0 +1,26 @@
+{
+ "id": "Z002",
+ "begonnen": "2026-11-16",
+ "plan": [
+  "lern",
+  "lern",
+  "pruef"
+ ],
+ "modelle": {
+  "hinweis": "Welches Modell welche Rolle übernimmt. Immer das kleinste, das die Eichprobe besteht (docs/05_Lernkreislauf.md). haiku ist das kleinste, sonnet das mittlere.",
+  "sprecher": "haiku",
+  "uebersetzer": "sonnet",
+  "schiedsrichter": "haiku",
+  "lueckenschliesser": "sonnet",
+  "stichprobe": "sonnet"
+ },
+ "runden": [
+  "R014"
+ ],
+ "versuche": {
+  "R014:sprecher": 1
+ },
+ "hinweise": [],
+ "belegquoteZuBeginn": 25,
+ "fertig": false
+}
