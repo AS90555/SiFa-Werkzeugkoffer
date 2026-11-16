@@ -1,7 +1,86 @@
 [
- {"thema": "Blei an Auswuchtgewichten: Hautkontakt und Staub", "seit": "R009", "anlass": [{"kennung": "R009-10", "stelle": "Gewichte, die aus Blei oder Zink sind"}]},
- {"thema": "Elektrolyt aus beschädigten oder offenen Akkus", "seit": "R009", "anlass": [{"kennung": "R009-02", "stelle": "teilweise liegen sie ohne Gehäuse im Regal"}]},
- {"thema": "Zündquellen im explosionsgefährdeten Bereich", "seit": "R010", "anlass": [{"kennung": "R010-01", "stelle": "das Handy liegt auf der Säule"}]},
- {"thema": "Gefährdung Dritter außerhalb des Betriebs, zum Beispiel durch Spritznebel", "seit": "R010", "anlass": [{"kennung": "R010-07", "stelle": "der Wind trägt den Spritznebel zur Straße hin"}]},
- {"thema": "Schnittverletzung an handgeführtem Schneidgerät ohne Klinge im Wörterbuch", "seit": "R010", "anlass": [{"kennung": "R010-08", "stelle": "bei stählernem Geflecht muss man kräftig nachdrücken"}]}
+ {
+  "thema": "Blei an Auswuchtgewichten: Hautkontakt und Staub",
+  "seit": "R009",
+  "anlass": [
+   {
+    "kennung": "R009-10",
+    "stelle": "Gewichte, die aus Blei oder Zink sind"
+   }
+  ]
+ },
+ {
+  "thema": "Elektrolyt aus beschädigten oder offenen Akkus",
+  "seit": "R009",
+  "anlass": [
+   {
+    "kennung": "R009-02",
+    "stelle": "teilweise liegen sie ohne Gehäuse im Regal"
+   }
+  ]
+ },
+ {
+  "thema": "Zündquellen im explosionsgefährdeten Bereich",
+  "seit": "R010",
+  "anlass": [
+   {
+    "kennung": "R010-01",
+    "stelle": "das Handy liegt auf der Säule"
+   }
+  ]
+ },
+ {
+  "thema": "Gefährdung Dritter außerhalb des Betriebs, zum Beispiel durch Spritznebel",
+  "seit": "R010",
+  "anlass": [
+   {
+    "kennung": "R010-07",
+    "stelle": "der Wind trägt den Spritznebel zur Straße hin"
+   }
+  ]
+ },
+ {
+  "thema": "Sprühnebel und Dämpfe beim Versprühen von Trennmittel einatmen",
+  "seit": "R011",
+  "anlass": [
+   {
+    "kennung": "R011-01",
+    "stelle": "Zwischendurch werden die Formen mit einem Trennmittel aus der Sprühdose eingesprüht, das riecht deutlich."
+   },
+   {
+    "kennung": "R011-08",
+    "stelle": "Dabei entsteht ein feiner Sprühnebel, der sich im Raum verteilt."
+   }
+  ]
+ },
+ {
+  "thema": "Nachschlagen mit dem Hammer in Zwangshaltung beim Richten von Stahl",
+  "seit": "R011",
+  "anlass": [
+   {
+    "kennung": "R011-07",
+    "stelle": "Zwischendurch muss er Stahl richten, mit dem Hammer nachschlagen."
+   }
+  ]
+ },
+ {
+  "thema": "Abtrennen des Angussrests mit dem Stanzwerkzeug: Schneiden oder Quetschen der Hände",
+  "seit": "R011",
+  "anlass": [
+   {
+    "kennung": "R011-08",
+    "stelle": "Der Angussrest wird mit einem Stanzwerkzeug abgetrennt."
+   }
+  ]
+ },
+ {
+  "thema": "Freileitung über dem Kranarm, Arbeiten in der Nähe von Spannung",
+  "seit": "R011",
+  "anlass": [
+   {
+    "kennung": "R011-07",
+    "stelle": "Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm."
+   }
+  ]
+ }
 ]

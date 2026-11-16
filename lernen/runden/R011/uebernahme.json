@@ -1,0 +1,24 @@
+{
+ "runde": "R011",
+ "uebernommen": {
+  "merkmale": [],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/laminierharz"
+  ],
+  "woerter": [
+   "trennmittel, sprühnebel, spritzpistole",
+   "auspuffkrümmer",
+   "rollenprüfstand, motorprüfstand",
+   "rückwärts",
+   "windstille",
+   "harzgeruch, harzdämpfe, styrol",
+   "schneidegerät, schneidgerät",
+   "laminierharz, polyesterharz, epoxidharz, peroxid"
+  ],
+  "regeln": []
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 8
+}

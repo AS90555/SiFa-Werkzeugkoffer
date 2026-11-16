@@ -546,6 +546,13 @@
    "merkmale": [
     "m.staub"
    ]
+  },
+  {
+   "id": "laminierharz",
+   "name": "Laminierharz mit Peroxid-Härter",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
   }
  ],
  "vorgang": [

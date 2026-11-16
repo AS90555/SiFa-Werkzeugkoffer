@@ -1424,5 +1424,74 @@
   "material": [
    "diesel"
   ]
+ },
+ {
+  "worte": [
+   "trennmittel",
+   "sprühnebel",
+   "spritzpistole"
+  ],
+  "material": [
+   "spruehdose"
+  ]
+ },
+ {
+  "worte": [
+   "auspuffkrümmer"
+  ],
+  "material": [
+   "heisses_maschinenteil"
+  ]
+ },
+ {
+  "worte": [
+   "rollenprüfstand",
+   "motorprüfstand"
+  ],
+  "vorgang": "probelauf"
+ },
+ {
+  "worte": [
+   "rückwärts"
+  ],
+  "umgebung": [
+   "fahrverkehr"
+  ]
+ },
+ {
+  "worte": [
+   "windstille"
+  ],
+  "umgebung": [
+   "stickig"
+  ]
+ },
+ {
+  "worte": [
+   "harzgeruch",
+   "harzdämpfe",
+   "styrol"
+  ],
+  "material": [
+   "prozessrauch"
+  ]
+ },
+ {
+  "worte": [
+   "schneidegerät",
+   "schneidgerät"
+  ],
+  "ausfuehrung": "messer"
+ },
+ {
+  "worte": [
+   "laminierharz",
+   "polyesterharz",
+   "epoxidharz",
+   "peroxid"
+  ],
+  "material": [
+   "laminierharz"
+  ]
  }
 ]

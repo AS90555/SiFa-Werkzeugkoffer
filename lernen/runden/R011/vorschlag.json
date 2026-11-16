@@ -1,0 +1,142 @@
+{
+ "runde": "R011",
+ "merkmale": [],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {
+   "typ": "material",
+   "id": "laminierharz",
+   "name": "Laminierharz mit Peroxid-Härter",
+   "merkmale": [
+    "m.gefahrstoff"
+   ],
+   "anlass": [
+    {
+     "kennung": "R011-02",
+     "stelle": "Das Harz wird im Eimer mit Härter angerührt, der Härter ist ein flüssiges Peroxid"
+    }
+   ]
+  }
+ ],
+ "woerter": [
+  {
+   "worte": [
+    "trennmittel",
+    "sprühnebel",
+    "spritzpistole"
+   ],
+   "material": [
+    "spruehdose"
+   ]
+  },
+  {
+   "worte": [
+    "auspuffkrümmer"
+   ],
+   "material": [
+    "heisses_maschinenteil"
+   ]
+  },
+  {
+   "worte": [
+    "rollenprüfstand",
+    "motorprüfstand"
+   ],
+   "vorgang": "probelauf"
+  },
+  {
+   "worte": [
+    "rückwärts"
+   ],
+   "umgebung": [
+    "fahrverkehr"
+   ]
+  },
+  {
+   "worte": [
+    "windstille"
+   ],
+   "umgebung": [
+    "stickig"
+   ]
+  },
+  {
+   "worte": [
+    "harzgeruch",
+    "harzdämpfe",
+    "styrol"
+   ],
+   "material": [
+    "prozessrauch"
+   ]
+  },
+  {
+   "worte": [
+    "schneidegerät",
+    "schneidgerät"
+   ],
+   "ausfuehrung": "messer"
+  },
+  {
+   "worte": [
+    "laminierharz",
+    "polyesterharz",
+    "epoxidharz",
+    "peroxid"
+   ],
+   "material": [
+    "laminierharz"
+   ]
+  }
+ ],
+ "regeln": [],
+ "nicht_aufgenommen": [
+  {
+   "thema": "Sprühnebel und Dämpfe beim Versprühen von Trennmittel einatmen",
+   "grund": "Regel bricht bestehende eingefrorene Ergebnisse (Tests schlagen fehl); nur mit gewollter Neueinfrierung durch Andre",
+   "anlass": [
+    {
+     "kennung": "R011-01",
+     "stelle": "Zwischendurch werden die Formen mit einem Trennmittel aus der Sprühdose eingesprüht, das riecht deutlich."
+    },
+    {
+     "kennung": "R011-08",
+     "stelle": "Dabei entsteht ein feiner Sprühnebel, der sich im Raum verteilt."
+    }
+   ]
+  },
+  {
+   "thema": "Nachschlagen mit dem Hammer in Zwangshaltung beim Richten von Stahl",
+   "grund": "Einzelfall",
+   "anlass": [
+    {
+     "kennung": "R011-07",
+     "stelle": "Zwischendurch muss er Stahl richten, mit dem Hammer nachschlagen."
+    }
+   ]
+  },
+  {
+   "thema": "Abtrennen des Angussrests mit dem Stanzwerkzeug: Schneiden oder Quetschen der Hände",
+   "grund": "Einzelfall, unklar ob von Hand geführt",
+   "anlass": [
+    {
+     "kennung": "R011-08",
+     "stelle": "Der Angussrest wird mit einem Stanzwerkzeug abgetrennt."
+    }
+   ]
+  },
+  {
+   "thema": "Freileitung über dem Kranarm, Arbeiten in der Nähe von Spannung",
+   "grund": "Einzelfall",
+   "anlass": [
+    {
+     "kennung": "R011-07",
+     "stelle": "Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm."
+    }
+   ]
+  }
+ ],
+ "erledigt": [
+  "Schnittverletzung an handgeführtem Schneidgerät ohne Klinge im Wörterbuch"
+ ]
+}
