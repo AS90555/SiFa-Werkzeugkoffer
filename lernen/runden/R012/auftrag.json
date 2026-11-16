@@ -1,0 +1,56 @@
+{
+ "runde": "R012",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R012-01",
+   "auftrag": "a166",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Scheibentausch und Arbeiten am Airbag"
+  },
+  {
+   "kennung": "R012-02",
+   "auftrag": "a110",
+   "branche": "Holzverarbeitung",
+   "bereich": "Spänesilo und Absauganlage, Filterwechsel und Störung"
+  },
+  {
+   "kennung": "R012-03",
+   "auftrag": "a150",
+   "branche": "Heizungsbau",
+   "bereich": "Kesseltausch im Keller, Löten und Pressen"
+  },
+  {
+   "kennung": "R012-04",
+   "auftrag": "a092",
+   "branche": "Brennholz",
+   "bereich": "Spaltmaschine und Wippkreissäge"
+  },
+  {
+   "kennung": "R012-05",
+   "auftrag": "a136",
+   "branche": "Industrielackiererei",
+   "bereich": "Spritzstand für Nasslack, Farbmischraum"
+  },
+  {
+   "kennung": "R012-06",
+   "auftrag": "a121",
+   "branche": "Kleinteilefertigung",
+   "bereich": "Stanzautomat mit Bandzuführung"
+  },
+  {
+   "kennung": "R012-07",
+   "auftrag": "a097",
+   "branche": "Tischlerei",
+   "bereich": "Breitbandschleifmaschine"
+  },
+  {
+   "kennung": "R012-08",
+   "auftrag": "a025",
+   "branche": "Holz, Treppenbau",
+   "bereich": "Oberfräse und Schleifen von Hand, Ölen"
+  }
+ ]
+}
