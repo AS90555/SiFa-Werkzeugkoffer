@@ -168,5 +168,55 @@
     "stelle": "die Zylinder sind schwer"
    }
   ]
+ },
+ {
+  "thema": "Zurückschnellende Umreifungsbänder beim Lösen am Coil",
+  "seit": "R015",
+  "anlass": [
+   {
+    "kennung": "R015-07",
+    "stelle": "die beim Lösen zurückschnellen können"
+   }
+  ]
+ },
+ {
+  "thema": "Unbeteiligte am Durchgang im Gefahrenbereich einer Säge",
+  "seit": "R015",
+  "anlass": [
+   {
+    "kennung": "R015-06",
+    "stelle": "der Platz liegt am Durchgang"
+   }
+  ]
+ },
+ {
+  "thema": "Flüssiges Metall in Gießpfannen am Kran: Verbrennung bei Lastverlust",
+  "seit": "R015",
+  "anlass": [
+   {
+    "kennung": "R015-08",
+    "stelle": "die Pfannen werden mit dem Kran transportiert"
+   }
+  ]
+ },
+ {
+  "thema": "Bremsbelagstaub aus dem Ausblasen",
+  "seit": "R015",
+  "anlass": [
+   {
+    "kennung": "R015-01",
+    "stelle": "dabei steht der Staub in der Halle"
+   }
+  ]
+ },
+ {
+  "thema": "Reifen aufpumpen im Käfig",
+  "seit": "R015",
+  "anlass": [
+   {
+    "kennung": "R015-01",
+    "stelle": "Die Reifen pumpen wir in einem Käfig"
+   }
+  ]
  }
 ]

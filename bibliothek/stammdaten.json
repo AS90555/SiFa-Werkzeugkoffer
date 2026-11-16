@@ -612,6 +612,38 @@
    "merkmale": [
     "m.sperrig"
    ]
+  },
+  {
+   "id": "bandstahl",
+   "name": "Bandstahl, Stahlband, Coil",
+   "merkmale": [
+    "m.metall",
+    "m.scharfkantig",
+    "m.rollend"
+   ]
+  },
+  {
+   "id": "blechabfall",
+   "name": "Blechabfall, Ausschnitte und Abschnitte",
+   "merkmale": [
+    "m.metall",
+    "m.scharfkantig"
+   ]
+  },
+  {
+   "id": "formsand",
+   "name": "Formsand, Quarzsand",
+   "merkmale": [
+    "m.quarzstaub"
+   ]
+  },
+  {
+   "id": "aluminiumpulver",
+   "name": "Aluminiumpulver, feiner Aluminiumstaub",
+   "merkmale": [
+    "m.staub",
+    "m.metall"
+   ]
   }
  ],
  "vorgang": [

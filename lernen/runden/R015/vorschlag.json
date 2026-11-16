@@ -1,0 +1,29 @@
+{"runde": "R015",
+ "merkmale": [],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {"typ": "material", "id": "bandstahl", "name": "Bandstahl, Stahlband, Coil", "merkmale": ["m.metall", "m.scharfkantig", "m.rollend"],
+   "anlass": [{"kennung": "R015-07", "stelle": "Die Stahlkanten sind scharf"}]},
+  {"typ": "material", "id": "blechabfall", "name": "Blechabfall, Ausschnitte und Abschnitte", "merkmale": ["m.metall", "m.scharfkantig"],
+   "anlass": [{"kennung": "R015-03", "stelle": "Die Ausschnitte fallen unten in Container"}, {"kennung": "R015-07", "stelle": "auch die Abschnitte vom Boden"}]},
+  {"typ": "material", "id": "formsand", "name": "Formsand, Quarzsand", "merkmale": ["m.quarzstaub"],
+   "anlass": [{"kennung": "R015-08", "stelle": "feuchtem Quarzsand mit Bindemittel"}, {"kennung": "R015-08", "stelle": "am Mischer staubt es stark"}]},
+  {"typ": "material", "id": "aluminiumpulver", "name": "Aluminiumpulver, feiner Aluminiumstaub", "merkmale": ["m.staub", "m.metall"],
+   "anlass": [{"kennung": "R015-05", "stelle": "das feine Aluminiumpulver fliegen in die Luft"}]}
+ ],
+ "woerter": [
+  {"worte": ["bandstahl", "stahlband", "stahlbänder"], "material": ["bandstahl"]},
+  {"worte": ["ausschnitte", "abschnitte", "stanzabfall", "blechabfall"], "material": ["blechabfall"]},
+  {"worte": ["quarzsand", "formsand"], "material": ["formsand"]},
+  {"worte": ["aluminiumpulver", "aluminiumstaub", "alustaub"], "material": ["aluminiumpulver"]}
+ ],
+ "regeln": [],
+ "nicht_aufgenommen": [
+  {"thema": "Zurückschnellende Umreifungsbänder beim Lösen am Coil", "grund": "Einzelfall", "anlass": [{"kennung": "R015-07", "stelle": "die beim Lösen zurückschnellen können"}]},
+  {"thema": "Unbeteiligte am Durchgang im Gefahrenbereich einer Säge", "grund": "Einzelfall", "anlass": [{"kennung": "R015-06", "stelle": "der Platz liegt am Durchgang"}]},
+  {"thema": "Flüssiges Metall in Gießpfannen am Kran: Verbrennung bei Lastverlust", "grund": "Einzelfall; Stoff und Hebezeug sind bekannt, es fehlte der Schritt in der Übersetzung", "anlass": [{"kennung": "R015-08", "stelle": "die Pfannen werden mit dem Kran transportiert"}]},
+  {"thema": "Bremsbelagstaub aus dem Ausblasen", "grund": "Einzelfall; vorhandenes Staubmerkmal würde fälschlich Staubexplosion auslösen", "anlass": [{"kennung": "R015-01", "stelle": "dabei steht der Staub in der Halle"}]},
+  {"thema": "Reifen aufpumpen im Käfig", "grund": "Einzelfall", "anlass": [{"kennung": "R015-01", "stelle": "Die Reifen pumpen wir in einem Käfig"}]}
+ ],
+ "erledigt": []
+}

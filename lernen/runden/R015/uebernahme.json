@@ -1,0 +1,23 @@
+{
+ "runde": "R015",
+ "uebernommen": {
+  "merkmale": [],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/bandstahl",
+   "material/blechabfall",
+   "material/formsand",
+   "material/aluminiumpulver"
+  ],
+  "woerter": [
+   "bandstahl, stahlband, stahlbänder",
+   "ausschnitte, abschnitte, stanzabfall, blechabfall",
+   "quarzsand, formsand",
+   "aluminiumpulver, aluminiumstaub, alustaub"
+  ],
+  "regeln": []
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 22
+}

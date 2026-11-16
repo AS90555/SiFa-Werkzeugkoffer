@@ -1712,5 +1712,45 @@
   "material": [
    "abgase"
   ]
+ },
+ {
+  "worte": [
+   "bandstahl",
+   "stahlband",
+   "stahlbänder"
+  ],
+  "material": [
+   "bandstahl"
+  ]
+ },
+ {
+  "worte": [
+   "ausschnitte",
+   "abschnitte",
+   "stanzabfall",
+   "blechabfall"
+  ],
+  "material": [
+   "blechabfall"
+  ]
+ },
+ {
+  "worte": [
+   "quarzsand",
+   "formsand"
+  ],
+  "material": [
+   "formsand"
+  ]
+ },
+ {
+  "worte": [
+   "aluminiumpulver",
+   "aluminiumstaub",
+   "alustaub"
+  ],
+  "material": [
+   "aluminiumpulver"
+  ]
  }
 ]
