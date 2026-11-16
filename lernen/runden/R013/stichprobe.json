@@ -1,0 +1,65 @@
+{
+ "runde": "R013",
+ "eintraege": [
+  {
+   "kennung": "R013-01",
+   "nr": 1,
+   "urteil": "bestaetigt",
+   "grund": "Absinkendes oder abrutschendes Fahrzeug über der Person ist dieselbe Gefahr wie 'Fahrzeug kippt'; die Maßnahme Aufnahme nur an den vorgesehenen Punkten passt zur Ursache."
+  },
+  {
+   "kennung": "R013-02",
+   "nr": 4,
+   "urteil": "bestaetigt",
+   "grund": "Brand durch Funkenflug auf Holzpaletten ist dieselbe Gefahr; die Maßnahme brennbare Stoffe aus dem Funkenbereich entfernen trifft die Ursache genau."
+  },
+  {
+   "kennung": "R013-03",
+   "nr": 6,
+   "urteil": "bestaetigt",
+   "grund": "Kälte und Zugluft im ungeheizten Rohbau ist dieselbe Gefahr; arbeitsplatzbezogenes Heizen und Kälteschutzkleidung passen."
+  },
+  {
+   "kennung": "R013-05",
+   "nr": 4,
+   "urteil": "bestaetigt",
+   "grund": "Verlängerungskabel am Boden, das durch Hubwagen beschädigt werden kann, ist dieselbe Gefahr (elektrischer Schlag); die Maßnahme Leitungen so verlegen, dass sie nicht beschädigt werden, passt."
+  },
+  {
+   "kennung": "R013-07",
+   "nr": 1,
+   "urteil": "bestaetigt",
+   "grund": "Quetschen zwischen zufahrender Presse und Wand ist dieselbe Gefahr wie Quetschen an bewegten Teilen; wirksame Schutzeinrichtung (Verkleidung, Lichtgitter) passt zur Ursache."
+  },
+  {
+   "kennung": "R013-08",
+   "nr": 3,
+   "urteil": "bestaetigt",
+   "grund": "Schnittverletzung an Spänen ist dieselbe Gefahr; schnittfeste Handschuhe passen formal zur Ursache (Hinweis: an der drehenden Maschine kollidiert das mit dem Handschuhverbot wegen Einzug, die Maßnahme muss dort mit Haken und Spanbrecher kombiniert werden)."
+  },
+  {
+   "kennung": "R013-09",
+   "nr": 4,
+   "urteil": "bestaetigt",
+   "grund": "Dauerlärm in der Halle ist dieselbe Gefahr wie Gehörschaden durch Lärm; Lärmminderung und Gehörschutz passen."
+  },
+  {
+   "kennung": "R013-12",
+   "nr": 1,
+   "urteil": "bestaetigt",
+   "grund": "Sturz von der ungesicherten Rollenleiter ist Absturz aus der Höhe, also dieselbe Gefahr; Absturzsicherung herstellen und Leiter nur für kurze, leichte Arbeiten passen, auch wenn das Wegrollen nicht ausdrücklich genannt wird."
+  },
+  {
+   "kennung": "R013-13",
+   "nr": 6,
+   "urteil": "bestaetigt",
+   "grund": "Überlastung von Rücken und Gelenken beim Abheben und Stapeln schwerer Bretter ist dieselbe Gefahr wie Heben, Halten, Tragen; Hebehilfe passt."
+  },
+  {
+   "kennung": "R013-15",
+   "nr": 4,
+   "urteil": "bestaetigt",
+   "grund": "Sommerhitze in der Halle ist dieselbe Gefahr wie Belastung durch Hitze; Lüftung und Trinkpausen passen."
+  }
+ ]
+}
