@@ -1,0 +1,42 @@
+{
+ "runde": "R016",
+ "uebernommen": {
+  "merkmale": [
+   "m.spannungsfuehrend",
+   "m.uv_strahler"
+  ],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/roentgenanlage",
+   "material/induktionsanlage",
+   "material/erodieranlage",
+   "material/uv_strahler",
+   "material/fahrzeugsitz",
+   "material/stahlbehaelter",
+   "material/nebel_aerosol",
+   "umgebung/sommerwaerme",
+   "ausfuehrung/schneidzange"
+  ],
+  "woerter": [
+   "röntgengerät, röntgenröhre, röntgenstrahler, röntgenanlage",
+   "induktionsspule, induktionsanlage, hochfrequenzanlage, induktionserwärmung",
+   "senkerodierer, erodiermaschine, funkenerosion, erodieranlage",
+   "uv-lampe, uv-strahler, uv-härter, uv-härtung, uv-licht",
+   "vordersitz, fahrzeugsitz, autositz, sitzmontage",
+   "stahlbehälter, druckbehälter, großbehälter",
+   "ölnebel, spritznebel, feiner nebel, nebel in der luft, ein nebel in der luft",
+   "im sommer warm, ist im sommer warm, im sommer wird, wird es warm, wird die halle warm, heizt sich auf",
+   "heißluftpistole, heißluftgebläse, heißluftfön",
+   "seitenschneider, abisolierzange, abisolierer, kabelschere",
+   "lampe an einem kabel, baustellenlampe, kabel liegt im wasser, tauchpumpe",
+   "auf einer leiter, auf der leiter, steht man dabei auf einer leiter"
+  ],
+  "regeln": [
+   "R128 Anlage mit gefährlicher elektrischer Spannung",
+   "R129 UV-Strahler und UV-Härtung"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 26
+}

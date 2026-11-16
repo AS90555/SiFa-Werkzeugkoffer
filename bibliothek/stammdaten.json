@@ -644,6 +644,56 @@
     "m.staub",
     "m.metall"
    ]
+  },
+  {
+   "id": "roentgenanlage",
+   "name": "Röntgenanlage mit Röhrenspannung und Bedienpult",
+   "merkmale": [
+    "m.spannungsfuehrend"
+   ]
+  },
+  {
+   "id": "induktionsanlage",
+   "name": "Induktionsanlage mit Hochfrequenzgenerator und Spule",
+   "merkmale": [
+    "m.spannungsfuehrend"
+   ]
+  },
+  {
+   "id": "erodieranlage",
+   "name": "Erodieranlage mit Funkenspannung zwischen Elektrode und Werkstück",
+   "merkmale": [
+    "m.spannungsfuehrend"
+   ]
+  },
+  {
+   "id": "uv_strahler",
+   "name": "UV-Lampe oder UV-Strahler zum Härten",
+   "merkmale": [
+    "m.uv_strahler"
+   ]
+  },
+  {
+   "id": "fahrzeugsitz",
+   "name": "Fahrzeugsitz, Autositz",
+   "merkmale": [
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "stahlbehaelter",
+   "name": "Großer schwerer Stahlbehälter",
+   "merkmale": [
+    "m.metall",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "nebel_aerosol",
+   "name": "Öl-, Spritz- oder Sprühnebel in der Atemluft",
+   "merkmale": [
+    "m.freigesetzt"
+   ]
   }
  ],
  "vorgang": [
@@ -1402,6 +1452,13 @@
     "a.hochdruck",
     "a.maschine"
    ]
+  },
+  {
+   "id": "schneidzange",
+   "name": "Seitenschneider, Abisolierzange, Handwerkzeug mit Schneide",
+   "merkmale": [
+    "a.handwerkzeug_klinge"
+   ]
   }
  ],
  "umgebung": [
@@ -1604,6 +1661,13 @@
    "name": "Enge Stelle zwischen Anlage und Wand",
    "merkmale": [
     "u.quetschstelle"
+   ]
+  },
+  {
+   "id": "sommerwaerme",
+   "name": "Warme Halle im Sommer oder aufgeheizte Maschine",
+   "merkmale": [
+    "u.hitze"
    ]
   }
  ]

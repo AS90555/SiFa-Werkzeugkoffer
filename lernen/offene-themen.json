@@ -140,16 +140,6 @@
   ]
  },
  {
-  "thema": "UV-Strahlung aus UV-Härtern hinter offener Abdeckung",
-  "seit": "R014",
-  "anlass": [
-   {
-    "kennung": "R014-05",
-    "stelle": "Über der Kammer sitzen die UV-Strahler hinter einer Abdeckung"
-   }
-  ]
- },
- {
   "thema": "Wegspringende Ventilfeder beim Spannen von Hand",
   "seit": "R014",
   "anlass": [
@@ -216,6 +206,56 @@
    {
     "kennung": "R015-01",
     "stelle": "Die Reifen pumpen wir in einem Käfig"
+   }
+  ]
+ },
+ {
+  "thema": "Ionisierende Strahlung bei der Röntgenprüfung",
+  "seit": "R016",
+  "anlass": [
+   {
+    "kennung": "R016-01",
+    "stelle": "Die Schweißnaht wird mit einem mobilen Röntgengerät durchstrahlt"
+   }
+  ]
+ },
+ {
+  "thema": "Erfassen der Hände an Drahtführung und Werkzeug eines Federwindeautomaten",
+  "seit": "R016",
+  "anlass": [
+   {
+    "kennung": "R016-06",
+    "stelle": "Der Draht läuft durch eine Führung in ein Werkzeug"
+   }
+  ]
+ },
+ {
+  "thema": "Brand durch Mineralöl und Funken bei unbeaufsichtigtem Lauf der Erodiermaschine",
+  "seit": "R016",
+  "anlass": [
+   {
+    "kennung": "R016-04",
+    "stelle": "Die Maschine läuft oft über Nacht ohne Aufsicht"
+   }
+  ]
+ },
+ {
+  "thema": "Schwingendes Rohr beim Einheben mit dem Bagger in den Graben",
+  "seit": "R016",
+  "anlass": [
+   {
+    "kennung": "R016-07",
+    "stelle": "werden vom Bagger am Rand eingehoben"
+   }
+  ]
+ },
+ {
+  "thema": "Anstoßen und Einklemmen in enger Lackierkabine zwischen Gehängen und Wand",
+  "seit": "R016",
+  "anlass": [
+   {
+    "kennung": "R016-03",
+    "stelle": "der Bediener muss sich einmal um eine Tür herumzwängen"
    }
   ]
  }

@@ -4745,5 +4745,70 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R128",
+  "name": "Anlage mit gefährlicher elektrischer Spannung",
+  "wenn": "m.spannungsfuehrend",
+  "entsteht": "An Röntgenröhre, Hochfrequenzanlage oder Funkenstrecke liegt eine Spannung an, die bei Berührung von Gehäuse, Kabeln oder Anschlüssen einen elektrischen Schlag auslösen kann",
+  "gefaehrdung": "g-elektrisch",
+  "massnahmen": [
+   {
+    "id": "R128-M1",
+    "art": "T",
+    "text": "Gehäuse, Zuleitungen und Anschlüsse berührsicher abdecken; Abdeckungen nur bei abgeschalteter und gesicherter Anlage öffnen"
+   },
+   {
+    "id": "R128-M2",
+    "art": "O",
+    "text": "Anlage und Zuleitungen regelmäßig durch eine Elektrofachkraft prüfen lassen und Bediener zu den elektrischen Gefahren unterweisen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v3",
+    "stelle": null
+   },
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R129",
+  "name": "UV-Strahler und UV-Härtung",
+  "wenn": "m.uv_strahler",
+  "entsteht": "UV-Strahlung aus Lampen oder Strahlern kann bei offener oder fehlender Abdeckung Augen und Haut schädigen",
+  "gefaehrdung": "g-strahlung",
+  "massnahmen": [
+   {
+    "id": "R129-M1",
+    "art": "T",
+    "text": "UV-Strahler vollständig abdecken oder einhausen, sodass keine Strahlung in den Arbeitsbereich gelangt; Abdeckung nicht umgehen"
+   },
+   {
+    "id": "R129-M2",
+    "art": "O",
+    "text": "Strahler nur bei geschlossener Abdeckung einschalten und Beschäftigte über die Gefahr der UV-Strahlung unterweisen"
+   },
+   {
+    "id": "R129-M3",
+    "art": "P",
+    "text": "Bei Arbeiten in der Nähe ungeschützter Strahler geeigneten Augen- und Hautschutz tragen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "ostrv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

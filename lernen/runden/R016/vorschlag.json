@@ -1,0 +1,71 @@
+{
+ "runde": "R016",
+ "merkmale": [
+  {"id": "m.spannungsfuehrend", "name": "Anlage mit gefährlicher elektrischer Spannung, zum Beispiel Röntgenröhre, Hochfrequenzanlage, Funkenstrecke"},
+  {"id": "m.uv_strahler", "name": "UV-Strahler oder UV-Lampe als Strahlungsquelle"}
+ ],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {"typ": "material", "id": "roentgenanlage", "name": "Röntgenanlage mit Röhrenspannung und Bedienpult", "merkmale": ["m.spannungsfuehrend"],
+   "anlass": [{"kennung": "R016-01", "stelle": "Röhrenstrahler auf einem Stativ mit 250 Kilovolt Röhrenspannung"}]},
+  {"typ": "material", "id": "induktionsanlage", "name": "Induktionsanlage mit Hochfrequenzgenerator und Spule", "merkmale": ["m.spannungsfuehrend"],
+   "anlass": [{"kennung": "R016-10", "stelle": "die Hochfrequenzanlage steht daneben im Schaltschrank"}]},
+  {"typ": "material", "id": "erodieranlage", "name": "Erodieranlage mit Funkenspannung zwischen Elektrode und Werkstück", "merkmale": ["m.spannungsfuehrend"],
+   "anlass": [{"kennung": "R016-04", "stelle": "Zwischen Elektrode und Werkstück liegt beim Funken eine Spannung von etwa 200 Volt"}]},
+  {"typ": "material", "id": "uv_strahler", "name": "UV-Lampe oder UV-Strahler zum Härten", "merkmale": ["m.uv_strahler"],
+   "anlass": [{"kennung": "R016-12", "stelle": "daneben brennt die UV-Lampe ohne Abdeckung"}]},
+  {"typ": "material", "id": "fahrzeugsitz", "name": "Fahrzeugsitz, Autositz", "merkmale": ["m.sperrig"],
+   "anlass": [{"kennung": "R016-02", "stelle": "ein Sitz wiegt etwa 28 Kilogramm"}]},
+  {"typ": "material", "id": "stahlbehaelter", "name": "Großer schwerer Stahlbehälter", "merkmale": ["m.metall", "m.sperrig"],
+   "anlass": [{"kennung": "R016-01", "stelle": "Der Behälter ist ein stehender Stahlbehälter mit etwa 1,8 Metern Durchmesser und rund 900 Kilogramm Gewicht"}]},
+  {"typ": "material", "id": "nebel_aerosol", "name": "Öl-, Spritz- oder Sprühnebel in der Atemluft", "merkmale": ["m.freigesetzt"],
+   "anlass": [{"kennung": "R016-04", "stelle": "Beim Lauf steigt ein feiner Nebel auf, und es riecht süßlich nach Öl"}]},
+  {"typ": "umgebung", "id": "sommerwaerme", "name": "Warme Halle im Sommer oder aufgeheizte Maschine", "merkmale": ["u.hitze"],
+   "anlass": [{"kennung": "R016-02", "stelle": "Die Halle ist im Sommer warm, am Tor zieht es"}, {"kennung": "R016-04", "stelle": "Im Sommer wird die Halle warm, die Maschine heizt sich auf"}, {"kennung": "R016-11", "stelle": "Die Halle ist hell, aber im Sommer wird es warm"}]},
+  {"typ": "ausfuehrung", "id": "schneidzange", "name": "Seitenschneider, Abisolierzange, Handwerkzeug mit Schneide", "merkmale": ["a.handwerkzeug_klinge"],
+   "anlass": [{"kennung": "R016-11", "stelle": "mit einem Seitenschneider und an den Enden mit einer Handabisolierzange abisoliert"}]}
+ ],
+ "woerter": [
+  {"worte": ["röntgengerät", "röntgenröhre", "röntgenstrahler", "röntgenanlage"], "material": ["roentgenanlage"]},
+  {"worte": ["induktionsspule", "induktionsanlage", "hochfrequenzanlage", "induktionserwärmung"], "material": ["induktionsanlage"]},
+  {"worte": ["senkerodierer", "erodiermaschine", "funkenerosion", "erodieranlage"], "material": ["erodieranlage"]},
+  {"worte": ["uv-lampe", "uv-strahler", "uv-härter", "uv-härtung", "uv-licht"], "material": ["uv_strahler"]},
+  {"worte": ["vordersitz", "fahrzeugsitz", "autositz", "sitzmontage"], "material": ["fahrzeugsitz"]},
+  {"worte": ["stahlbehälter", "druckbehälter", "großbehälter"], "material": ["stahlbehaelter"]},
+  {"worte": ["ölnebel", "spritznebel", "feiner nebel", "nebel in der luft", "ein nebel in der luft"], "material": ["nebel_aerosol"]},
+  {"worte": ["im sommer warm", "ist im sommer warm", "im sommer wird", "wird es warm", "wird die halle warm", "heizt sich auf"], "umgebung": ["sommerwaerme"]},
+  {"worte": ["heißluftpistole", "heißluftgebläse", "heißluftfön"], "material": ["heisses_maschinenteil"]},
+  {"worte": ["seitenschneider", "abisolierzange", "abisolierer", "kabelschere"], "ausfuehrung": "schneidzange"},
+  {"worte": ["lampe an einem kabel", "baustellenlampe", "kabel liegt im wasser", "tauchpumpe"], "material": ["elektro_betriebsmittel"]},
+  {"worte": ["auf einer leiter", "auf der leiter", "steht man dabei auf einer leiter"], "vorgang": "hoehenarbeit", "ausfuehrung": "leiter"}
+ ],
+ "regeln": [
+  {"name": "Anlage mit gefährlicher elektrischer Spannung", "wenn": "m.spannungsfuehrend",
+   "entsteht": "An Röntgenröhre, Hochfrequenzanlage oder Funkenstrecke liegt eine Spannung an, die bei Berührung von Gehäuse, Kabeln oder Anschlüssen einen elektrischen Schlag auslösen kann",
+   "gefaehrdung": "g-elektrisch",
+   "massnahmen": [
+    {"art": "T", "text": "Gehäuse, Zuleitungen und Anschlüsse berührsicher abdecken; Abdeckungen nur bei abgeschalteter und gesicherter Anlage öffnen"},
+    {"art": "O", "text": "Anlage und Zuleitungen regelmäßig durch eine Elektrofachkraft prüfen lassen und Bediener zu den elektrischen Gefahren unterweisen"}
+   ],
+   "quellen": ["dguv-v3", "betrsichv"],
+   "anlass": [{"kennung": "R016-01", "stelle": "Röhrenstrahler auf einem Stativ mit 250 Kilovolt Röhrenspannung"}, {"kennung": "R016-04", "stelle": "Zwischen Elektrode und Werkstück liegt beim Funken eine Spannung von etwa 200 Volt"}, {"kennung": "R016-10", "stelle": "die Hochfrequenzanlage steht daneben im Schaltschrank"}]},
+  {"name": "UV-Strahler und UV-Härtung", "wenn": "m.uv_strahler",
+   "entsteht": "UV-Strahlung aus Lampen oder Strahlern kann bei offener oder fehlender Abdeckung Augen und Haut schädigen",
+   "gefaehrdung": "g-strahlung",
+   "massnahmen": [
+    {"art": "T", "text": "UV-Strahler vollständig abdecken oder einhausen, sodass keine Strahlung in den Arbeitsbereich gelangt; Abdeckung nicht umgehen"},
+    {"art": "O", "text": "Strahler nur bei geschlossener Abdeckung einschalten und Beschäftigte über die Gefahr der UV-Strahlung unterweisen"},
+    {"art": "P", "text": "Bei Arbeiten in der Nähe ungeschützter Strahler geeigneten Augen- und Hautschutz tragen"}
+   ],
+   "quellen": ["ostrv"],
+   "anlass": [{"kennung": "R014-05", "stelle": "Über der Kammer sitzen die UV-Strahler hinter einer Abdeckung"}, {"kennung": "R016-12", "stelle": "daneben brennt die UV-Lampe ohne Abdeckung"}]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Ionisierende Strahlung bei der Röntgenprüfung", "grund": "Einzelfall", "anlass": [{"kennung": "R016-01", "stelle": "Die Schweißnaht wird mit einem mobilen Röntgengerät durchstrahlt"}]},
+  {"thema": "Erfassen der Hände an Drahtführung und Werkzeug eines Federwindeautomaten", "grund": "Einzelfall", "anlass": [{"kennung": "R016-06", "stelle": "Der Draht läuft durch eine Führung in ein Werkzeug"}]},
+  {"thema": "Brand durch Mineralöl und Funken bei unbeaufsichtigtem Lauf der Erodiermaschine", "grund": "Einzelfall", "anlass": [{"kennung": "R016-04", "stelle": "Die Maschine läuft oft über Nacht ohne Aufsicht"}]},
+  {"thema": "Schwingendes Rohr beim Einheben mit dem Bagger in den Graben", "grund": "Einzelfall", "anlass": [{"kennung": "R016-07", "stelle": "werden vom Bagger am Rand eingehoben"}]},
+  {"thema": "Anstoßen und Einklemmen in enger Lackierkabine zwischen Gehängen und Wand", "grund": "Einzelfall", "anlass": [{"kennung": "R016-03", "stelle": "der Bediener muss sich einmal um eine Tür herumzwängen"}]}
+ ],
+ "erledigt": ["UV-Strahlung aus UV-Härtern hinter offener Abdeckung"]
+}

@@ -1752,5 +1752,135 @@
   "material": [
    "aluminiumpulver"
   ]
+ },
+ {
+  "worte": [
+   "röntgengerät",
+   "röntgenröhre",
+   "röntgenstrahler",
+   "röntgenanlage"
+  ],
+  "material": [
+   "roentgenanlage"
+  ]
+ },
+ {
+  "worte": [
+   "induktionsspule",
+   "induktionsanlage",
+   "hochfrequenzanlage",
+   "induktionserwärmung"
+  ],
+  "material": [
+   "induktionsanlage"
+  ]
+ },
+ {
+  "worte": [
+   "senkerodierer",
+   "erodiermaschine",
+   "funkenerosion",
+   "erodieranlage"
+  ],
+  "material": [
+   "erodieranlage"
+  ]
+ },
+ {
+  "worte": [
+   "uv-lampe",
+   "uv-strahler",
+   "uv-härter",
+   "uv-härtung",
+   "uv-licht"
+  ],
+  "material": [
+   "uv_strahler"
+  ]
+ },
+ {
+  "worte": [
+   "vordersitz",
+   "fahrzeugsitz",
+   "autositz",
+   "sitzmontage"
+  ],
+  "material": [
+   "fahrzeugsitz"
+  ]
+ },
+ {
+  "worte": [
+   "stahlbehälter",
+   "druckbehälter",
+   "großbehälter"
+  ],
+  "material": [
+   "stahlbehaelter"
+  ]
+ },
+ {
+  "worte": [
+   "ölnebel",
+   "spritznebel",
+   "feiner nebel",
+   "nebel in der luft",
+   "ein nebel in der luft"
+  ],
+  "material": [
+   "nebel_aerosol"
+  ]
+ },
+ {
+  "worte": [
+   "im sommer warm",
+   "ist im sommer warm",
+   "im sommer wird",
+   "wird es warm",
+   "wird die halle warm",
+   "heizt sich auf"
+  ],
+  "umgebung": [
+   "sommerwaerme"
+  ]
+ },
+ {
+  "worte": [
+   "heißluftpistole",
+   "heißluftgebläse",
+   "heißluftfön"
+  ],
+  "material": [
+   "heisses_maschinenteil"
+  ]
+ },
+ {
+  "worte": [
+   "seitenschneider",
+   "abisolierzange",
+   "abisolierer",
+   "kabelschere"
+  ],
+  "ausfuehrung": "schneidzange"
+ },
+ {
+  "worte": [
+   "lampe an einem kabel",
+   "baustellenlampe",
+   "kabel liegt im wasser",
+   "tauchpumpe"
+  ],
+  "material": [
+   "elektro_betriebsmittel"
+  ]
+ },
+ {
+  "worte": [
+   "auf einer leiter",
+   "auf der leiter",
+   "steht man dabei auf einer leiter"
+  ],
+  "vorgang": "hoehenarbeit",
+  "ausfuehrung": "leiter"
  }
 ]

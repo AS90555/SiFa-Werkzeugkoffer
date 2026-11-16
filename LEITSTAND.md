@@ -1,10 +1,10 @@
 # Leitstand
 
-Stand nach R015 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R016 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Prüfrunde im Feld BGHM** (16 Arbeitsplätze): `node lernen/runde.js neu pruef`.
+1. **Lernrunde im Feld BGHM** (1. von 2 vor der nächsten Prüfrunde): `node lernen/runde.js neu lern`.
 
 ## Wartet auf Andre
 
@@ -12,20 +12,24 @@ Stand nach R015 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 - **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
 - **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
 
+## Hinweise
+
+- Stopp-Regel: Die Quote ist von 92 % (R013) auf 74 % (R016) gefallen. Erst die Ursache klären, dann weiter füttern.
+
 ## Kennzahlen
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 128 |
+| Regeln | 130 |
 | Organisationspflichten | 20 |
 | Gefährdungen | 60 |
-| Stammdaten | 216 |
-| Wörterbuch | 174 |
-| Regeln doppelt belegt | 32 von 128 (25 %) |
+| Stammdaten | 225 |
+| Wörterbuch | 186 |
+| Regeln doppelt belegt | 32 von 130 (25 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
-| Freie Aufträge im Abdeckungsplan | 33 von 167 |
+| Freie Aufträge im Abdeckungsplan | 65 von 215 |
 
 ## Runden
 
@@ -46,6 +50,7 @@ Stand nach R015 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R013 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 92 % | 83 von 90 | 51 | 52 | 11 | ja |
 | R014 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 88 % | 45 von 51 | 34 | 23 | 3 | ja |
 | R015 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 94 % | 49 von 52 | 29 | 26 | 3 | ja |
+| R016 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 74 % | 58 von 78 | 38 | 32 | 17 | ja |
 
 ## Beleg-Läufe
 
