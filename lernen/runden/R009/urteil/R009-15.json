@@ -1,0 +1,14 @@
+{"id":"R009-15",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Leiter und Laufstege in etwa acht Metern Höhe; Absturzsicherung und sicheres Arbeitsmittel vor Leiter passen."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Das Erfassen oder Anstoßen einer Person durch den anfahrenden Kran wird nicht benannt; Last fällt herab ist eine andere Gefahr."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Strom bei Arbeiten am Elektrozug wird nicht benannt; der unerwartete Anlauf ist eine andere Gefahr."},
+  {"nr":4,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Nasse, glatte Laufbahn; Verunreinigungen beseitigen und rutschhemmende Schuhe passen."},
+  {"nr":5,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Der Mangel-Eintrag nennt dasselbe: Funken fliegen bis zum Kranträger, sichere Arbeitsweise festlegen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Halle teils dunkel, nur einzelne Strahler; angemessene Beleuchtung passt."},
+  {"nr":7,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Der Mangel-Eintrag nennt die Reinigungsmittel auf dem Laufsteg, Behälter geschlossen halten passt."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Wartung und Prüfung am Kran, der Hauptschalter liegt nicht am Kran, sondern im Schaltkasten an der Halle."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"typisch","grund":"Elektrozug mit Hubkette und Tragkraft von zwei Tonnen, Ketten und Gurte liegen am Boden."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Werkzeug und Reinigungsmittel auf dem Laufsteg in acht Metern Höhe, der Helfer steht unten."},
+  {"gefaehrdung":"Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung","urteil":"berechtigt","grund":"Einen festen Ablauf für die Prüfung gibt es nicht."}]}

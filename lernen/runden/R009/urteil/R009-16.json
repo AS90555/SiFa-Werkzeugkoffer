@@ -1,0 +1,17 @@
+{"id":"R009-16",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Tor wird mit Hallenkran gehoben und mit Ketten angeschlagen; Anschlagmittel prüfen und niemand unter der Last passen."},
+  {"nr":2,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Der Mangel-Eintrag nennt den Probelauf mit dem daneben stehenden Auszubildenden, sichere Arbeitsweise festlegen passt."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Verbrennen der Haut durch heiße Partikel wird nicht benannt; die Maßnahmen zu Funken (Schutzbrille, Haube) schützen nicht die Haut."},
+  {"nr":4,"urteil":"getroffen","system":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","grund":"Der Mangel-Eintrag nennt den Auszubildenden ohne Schutzbrille, Schutzausrüstung bereitstellen und Benutzung sicherstellen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Lose Anschlussleitung am Schaltkasten, beschädigte Betriebsmittel entziehen passt."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Laute Halle, Gehörschutz und Lärmminderung passen."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Wackelnde Böcke auf unebenem Boden werden nur vom Eintrag zur gefährlichen Arbeitsweise erfasst, der bereits dem Probelauf zugeordnet ist."}],
+ "zusaetzlich":[
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"berechtigt","grund":"Die Schweißnähte werden mit einer Flex nachgeschliffen."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Akkuschrauber und Ringschlüssel für die Befestigung des Antriebs beschreiben keine gleichförmige Arbeit in hoher Zahl."},
+  {"gefaehrdung":"Brand oder Explosion durch entzündbare Stoffe oder Gase","urteil":"berechtigt","grund":"Beim Schleifen fliegen heiße Partikel umher."},
+  {"gefaehrdung":"Getroffen werden von Klammer oder Teil","urteil":"berechtigt","grund":"Beim Flexen fliegen Partikel umher, der Auszubildende steht ohne Schutzbrille daneben."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Ein Kabel vom Akkuladegerät kreuzt die Montagefläche, das Werkzeug liegt in einer Kiste am Tor."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Beim Schleifen liegt feiner Staub am Boden."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Flex, Kran und Torantrieb sind kraftbetriebene Arbeitsmittel, der Auszubildende arbeitet mit."}]}
