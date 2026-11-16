@@ -40,20 +40,6 @@
   ]
  },
  {
-  "thema": "Sprühnebel und Dämpfe beim Versprühen von Trennmittel einatmen",
-  "seit": "R011",
-  "anlass": [
-   {
-    "kennung": "R011-01",
-    "stelle": "Zwischendurch werden die Formen mit einem Trennmittel aus der Sprühdose eingesprüht, das riecht deutlich."
-   },
-   {
-    "kennung": "R011-08",
-    "stelle": "Dabei entsteht ein feiner Sprühnebel, der sich im Raum verteilt."
-   }
-  ]
- },
- {
   "thema": "Nachschlagen mit dem Hammer in Zwangshaltung beim Richten von Stahl",
   "seit": "R011",
   "anlass": [
@@ -80,6 +66,46 @@
    {
     "kennung": "R011-07",
     "stelle": "Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm."
+   }
+  ]
+ },
+ {
+  "thema": "Ungewollte Auslösung des Airbags",
+  "seit": "R012",
+  "anlass": [
+   {
+    "kennung": "R012-01",
+    "stelle": "Beim Airbag-Arbeiten, das hier auch gemacht wird"
+   }
+  ]
+ },
+ {
+  "thema": "Nachlaufender Motor nach dem Abschalten",
+  "seit": "R012",
+  "anlass": [
+   {
+    "kennung": "R012-02",
+    "stelle": "aber der Motor läuft nach, bis er ausgedreht ist"
+   }
+  ]
+ },
+ {
+  "thema": "Selbstentzündung ölgetränkter Lappen",
+  "seit": "R012",
+  "anlass": [
+   {
+    "kennung": "R012-08",
+    "stelle": "die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke"
+   }
+  ]
+ },
+ {
+  "thema": "Warme Luft ohne Fenster",
+  "seit": "R012",
+  "anlass": [
+   {
+    "kennung": "R012-02",
+    "stelle": "Es ist warm, der Raum hat kein Fenster."
    }
   ]
  }

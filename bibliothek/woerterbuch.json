@@ -1493,5 +1493,109 @@
   "material": [
    "laminierharz"
   ]
+ },
+ {
+  "worte": [
+   "frontscheibe",
+   "windschutzscheibe",
+   "fahrzeugscheibe"
+  ],
+  "material": [
+   "fahrzeugscheibe"
+  ]
+ },
+ {
+  "worte": [
+   "stinkt stark",
+   "das riecht deutlich",
+   "riecht es deutlich nach lösemittel",
+   "manchmal nach lack"
+  ],
+  "material": [
+   "daempfe_loesemittel"
+  ]
+ },
+ {
+  "worte": [
+   "lösungsmittel",
+   "lösungsmitteln"
+  ],
+  "material": [
+   "loesemittel",
+   "daempfe_loesemittel"
+  ]
+ },
+ {
+  "worte": [
+   "kabel quert",
+   "strahler",
+   "verlängerungskabel"
+  ],
+  "material": [
+   "elektro_betriebsmittel"
+  ]
+ },
+ {
+  "worte": [
+   "hebebühnen"
+  ],
+  "ausfuehrung": "hebebuehne"
+ },
+ {
+  "worte": [
+   "polyurethan-kleber",
+   "pu-kleber",
+   "scheibenkleber"
+  ],
+  "material": [
+   "kleber_1k"
+  ]
+ },
+ {
+  "worte": [
+   "primer",
+   "haftvermittler"
+  ],
+  "material": [
+   "lack"
+  ]
+ },
+ {
+  "worte": [
+   "treppenwange",
+   "treppenwangen"
+  ],
+  "material": [
+   "treppenteil"
+  ]
+ },
+ {
+  "worte": [
+   "holzöl",
+   "hartwachsöl",
+   "öl-wachs-gemisch"
+  ],
+  "material": [
+   "holzoel"
+  ]
+ },
+ {
+  "worte": [
+   "heizkessel",
+   "gaskessel",
+   "ölkessel",
+   "der neue kessel"
+  ],
+  "material": [
+   "schweres_geraet"
+  ]
+ },
+ {
+  "worte": [
+   "legt die teile",
+   "nimmt sie wieder ab"
+  ],
+  "vorgang": "handhaben",
+  "ausfuehrung": "von_hand"
  }
 ]

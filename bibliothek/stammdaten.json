@@ -553,6 +553,50 @@
    "merkmale": [
     "m.gefahrstoff"
    ]
+  },
+  {
+   "id": "fahrzeugscheibe",
+   "name": "Fahrzeugscheibe, Windschutzscheibe",
+   "merkmale": [
+    "m.glas",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "daempfe_loesemittel",
+   "name": "Dämpfe und Geruch von Lösemittel, Kleber, Lack oder Trennmittel in der Atemluft",
+   "merkmale": [
+    "m.freigesetzt"
+   ]
+  },
+  {
+   "id": "elektro_betriebsmittel",
+   "name": "Kabel, Strahler oder Verlängerung im Arbeitsbereich",
+   "merkmale": [
+    "m.elektro_betriebsmittel"
+   ]
+  },
+  {
+   "id": "treppenteil",
+   "name": "Treppenwange, Treppenstufe aus Holz",
+   "merkmale": [
+    "m.holz",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "kleber_1k",
+   "name": "Einkomponenten-Kleber, zum Beispiel Polyurethan-Kleber",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
+  },
+  {
+   "id": "holzoel",
+   "name": "Holzöl, Öl-Wachs-Gemisch",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
   }
  ],
  "vorgang": [

@@ -1,0 +1,37 @@
+{
+ "runde": "R012",
+ "uebernommen": {
+  "merkmale": [
+   "m.elektro_betriebsmittel"
+  ],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/fahrzeugscheibe",
+   "material/daempfe_loesemittel",
+   "material/elektro_betriebsmittel",
+   "material/treppenteil",
+   "material/kleber_1k",
+   "material/holzoel"
+  ],
+  "woerter": [
+   "frontscheibe, windschutzscheibe, fahrzeugscheibe",
+   "stinkt stark, das riecht deutlich, riecht es deutlich nach lösemittel, manchmal nach lack",
+   "lösungsmittel, lösungsmitteln",
+   "kabel quert, strahler, verlängerungskabel",
+   "hebebühnen",
+   "polyurethan-kleber, pu-kleber, scheibenkleber",
+   "primer, haftvermittler",
+   "treppenwange, treppenwangen",
+   "holzöl, hartwachsöl, öl-wachs-gemisch",
+   "heizkessel, gaskessel, ölkessel, der neue kessel",
+   "legt die teile, nimmt sie wieder ab"
+  ],
+  "regeln": [
+   "R124 Elektrisches Betriebsmittel im Arbeitsbereich",
+   "R125 Große Werkstücke an stationärer Maschine von Hand geführt"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 11
+}

@@ -128,5 +128,6 @@
  "v.probelauf": "Probelauf, Funktionsprüfung mit Bewegung",
  "u.funken": "Funkenflug oder heiße Partikel in der Umgebung",
  "a.hammer": "Schmiedehammer, Lufthammer: Schlagbewegung",
- "a.hochdruck": "Flüssigkeit oder Gas unter hohem Druck: Hochdruckstrahl, Druckprüfung"
+ "a.hochdruck": "Flüssigkeit oder Gas unter hohem Druck: Hochdruckstrahl, Druckprüfung",
+ "m.elektro_betriebsmittel": "Elektrisches Betriebsmittel oder Leitung im Arbeitsbereich: Kabel am Boden, Strahler, Verlängerung"
 }

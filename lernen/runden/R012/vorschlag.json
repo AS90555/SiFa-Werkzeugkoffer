@@ -1,0 +1,61 @@
+{
+ "runde": "R012",
+ "merkmale": [
+  {"id": "m.elektro_betriebsmittel", "name": "Elektrisches Betriebsmittel oder Leitung im Arbeitsbereich: Kabel am Boden, Strahler, Verlängerung"}
+ ],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {"typ": "material", "id": "fahrzeugscheibe", "name": "Fahrzeugscheibe, Windschutzscheibe", "merkmale": ["m.glas", "m.sperrig"],
+   "anlass": [{"kennung": "R012-01", "stelle": "mit gerissener Frontscheibe"}]},
+  {"typ": "material", "id": "daempfe_loesemittel", "name": "Dämpfe und Geruch von Lösemittel, Kleber, Lack oder Trennmittel in der Atemluft", "merkmale": ["m.freigesetzt"],
+   "anlass": [{"kennung": "R012-01", "stelle": "Der Kleber stinkt stark"}, {"kennung": "R012-05", "stelle": "im Mischraum riecht es deutlich nach Lösemittel"}, {"kennung": "R011-01", "stelle": "Trennmittel aus der Sprühdose eingesprüht, das riecht deutlich"}]},
+  {"typ": "material", "id": "elektro_betriebsmittel", "name": "Kabel, Strahler oder Verlängerung im Arbeitsbereich", "merkmale": ["m.elektro_betriebsmittel"],
+   "anlass": [{"kennung": "R012-01", "stelle": "ein Kabel quert den Boden"}, {"kennung": "R012-03", "stelle": "steht ein Strahler auf dem Boden"}]},
+  {"typ": "material", "id": "treppenteil", "name": "Treppenwange, Treppenstufe aus Holz", "merkmale": ["m.holz", "m.sperrig"],
+   "anlass": [{"kennung": "R012-08", "stelle": "Treppenwangen und Stufen aus Eiche und Buche"}]},
+  {"typ": "material", "id": "kleber_1k", "name": "Einkomponenten-Kleber, zum Beispiel Polyurethan-Kleber", "merkmale": ["m.gefahrstoff"],
+   "anlass": [{"kennung": "R012-01", "stelle": "mit Polyurethan-Kleber eingesetzt"}]},
+  {"typ": "material", "id": "holzoel", "name": "Holzöl, Öl-Wachs-Gemisch", "merkmale": ["m.gefahrstoff"],
+   "anlass": [{"kennung": "R012-08", "stelle": "offenen Eimer mit Öl-Wachs-Gemisch getränkt wird"}]}
+ ],
+ "woerter": [
+  {"worte": ["frontscheibe", "windschutzscheibe", "fahrzeugscheibe"], "material": ["fahrzeugscheibe"]},
+  {"worte": ["stinkt stark", "das riecht deutlich", "riecht es deutlich nach lösemittel", "manchmal nach lack"], "material": ["daempfe_loesemittel"]},
+  {"worte": ["lösungsmittel", "lösungsmitteln"], "material": ["loesemittel", "daempfe_loesemittel"]},
+  {"worte": ["kabel quert", "strahler", "verlängerungskabel"], "material": ["elektro_betriebsmittel"]},
+  {"worte": ["hebebühnen"], "ausfuehrung": "hebebuehne"},
+  {"worte": ["polyurethan-kleber", "pu-kleber", "scheibenkleber"], "material": ["kleber_1k"]},
+  {"worte": ["primer", "haftvermittler"], "material": ["lack"]},
+  {"worte": ["treppenwange", "treppenwangen"], "material": ["treppenteil"]},
+  {"worte": ["holzöl", "hartwachsöl", "öl-wachs-gemisch"], "material": ["holzoel"]},
+  {"worte": ["heizkessel", "gaskessel", "ölkessel", "der neue kessel"], "material": ["schweres_geraet"]},
+  {"worte": ["legt die teile", "nimmt sie wieder ab"], "vorgang": "handhaben", "ausfuehrung": "von_hand"}
+ ],
+ "regeln": [
+  {"name": "Elektrisches Betriebsmittel im Arbeitsbereich", "wenn": "m.elektro_betriebsmittel",
+   "entsteht": "Kabel, Strahler oder Verlängerungen liegen am Boden, im Weg oder im Nassen und können beschädigt werden; dann droht ein elektrischer Schlag",
+   "gefaehrdung": "g-elektrisch",
+   "massnahmen": [
+    {"art": "T", "text": "Leitungen und Betriebsmittel so verlegen und aufstellen, dass sie nicht beschädigt werden und nicht im Nassen oder im Gehweg liegen"},
+    {"art": "O", "text": "Betriebsmittel vor dem Gebrauch auf sichtbare Schäden prüfen, beschädigte aus dem Verkehr ziehen und die wiederkehrende Prüfung veranlassen"}
+   ],
+   "quellen": ["dguv-v3", "betrsichv"],
+   "anlass": [{"kennung": "R012-01", "stelle": "ein Kabel quert den Boden"}, {"kennung": "R012-03", "stelle": "steht ein Strahler auf dem Boden"}]},
+  {"name": "Große Werkstücke an stationärer Maschine von Hand geführt", "wenn": {"alle": ["a.stationaer_handvorschub", "m.sperrig"]},
+   "entsteht": "Große, schwere oder lange Werkstücke werden von Hand aufgelegt und über den Tisch geschoben oder geführt; Rücken und Schultern werden einseitig belastet",
+   "gefaehrdung": "g-heben-tragen",
+   "massnahmen": [
+    {"art": "T", "text": "Auflage- und Abnahmetische, Rollenböcke oder Hubtische einsetzen, damit schwere Teile nicht frei getragen werden"},
+    {"art": "O", "text": "Schwere oder lange Werkstücke zu zweit handhaben und den Arbeitsplatz so einrichten, dass nicht verdreht oder seitlich eingelegt werden muss"}
+   ],
+   "quellen": ["lasthandhabv", "arbschg"],
+   "anlass": [{"kennung": "R012-07", "stelle": "Sie werden von Hand auf den Tisch gelegt und durch die Maschine geschoben"}, {"kennung": "R012-08", "stelle": "teils bis zu drei Meter lang und mehrere Kilo schwer"}]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Ungewollte Auslösung des Airbags", "grund": "Einzelfall", "anlass": [{"kennung": "R012-01", "stelle": "Beim Airbag-Arbeiten, das hier auch gemacht wird"}]},
+  {"thema": "Nachlaufender Motor nach dem Abschalten", "grund": "Einzelfall", "anlass": [{"kennung": "R012-02", "stelle": "aber der Motor läuft nach, bis er ausgedreht ist"}]},
+  {"thema": "Selbstentzündung ölgetränkter Lappen", "grund": "Einzelfall", "anlass": [{"kennung": "R012-08", "stelle": "die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke"}]},
+  {"thema": "Warme Luft ohne Fenster", "grund": "Wörterbuch kennt kein Fenster bereits, Zuordnung durch den Übersetzer fehlte", "anlass": [{"kennung": "R012-02", "stelle": "Es ist warm, der Raum hat kein Fenster."}]}
+ ],
+ "erledigt": ["Sprühnebel und Dämpfe beim Versprühen von Trennmittel einatmen"]
+}

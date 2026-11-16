@@ -4612,5 +4612,74 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R124",
+  "name": "Elektrisches Betriebsmittel im Arbeitsbereich",
+  "wenn": "m.elektro_betriebsmittel",
+  "entsteht": "Kabel, Strahler oder Verlängerungen liegen am Boden, im Weg oder im Nassen und können beschädigt werden; dann droht ein elektrischer Schlag",
+  "gefaehrdung": "g-elektrisch",
+  "massnahmen": [
+   {
+    "id": "R124-M1",
+    "art": "T",
+    "text": "Leitungen und Betriebsmittel so verlegen und aufstellen, dass sie nicht beschädigt werden und nicht im Nassen oder im Gehweg liegen"
+   },
+   {
+    "id": "R124-M2",
+    "art": "O",
+    "text": "Betriebsmittel vor dem Gebrauch auf sichtbare Schäden prüfen, beschädigte aus dem Verkehr ziehen und die wiederkehrende Prüfung veranlassen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v3",
+    "stelle": null
+   },
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R125",
+  "name": "Große Werkstücke an stationärer Maschine von Hand geführt",
+  "wenn": {
+   "alle": [
+    "a.stationaer_handvorschub",
+    "m.sperrig"
+   ]
+  },
+  "entsteht": "Große, schwere oder lange Werkstücke werden von Hand aufgelegt und über den Tisch geschoben oder geführt; Rücken und Schultern werden einseitig belastet",
+  "gefaehrdung": "g-heben-tragen",
+  "massnahmen": [
+   {
+    "id": "R125-M1",
+    "art": "T",
+    "text": "Auflage- und Abnahmetische, Rollenböcke oder Hubtische einsetzen, damit schwere Teile nicht frei getragen werden"
+   },
+   {
+    "id": "R125-M2",
+    "art": "O",
+    "text": "Schwere oder lange Werkstücke zu zweit handhaben und den Arbeitsplatz so einrichten, dass nicht verdreht oder seitlich eingelegt werden muss"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]
