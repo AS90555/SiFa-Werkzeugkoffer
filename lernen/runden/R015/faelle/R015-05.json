@@ -1,0 +1,28 @@
+{"id":"R015-05","name":"R015-05","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Öl-Wasser-Gemisch als Kühlmittel der Fräse","material":"kuehlschmierstoff","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Profile sägen und fräsen","bereich":"Profile sägen und fräsen","personen":2,"umgebung":["laerm_umgebung","dunkel","hitze","boden"],"angaben":{"kss_wassergemischt":true},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["aluprofil"]},
+   {"vorgang":"saegen_metall","ausfuehrung":"stationaer_handvorschub","material":["aluprofil","metallspaene"]},
+   {"vorgang":"zerspanen_metall","ausfuehrung":"halbautomat","material":["aluprofil","kuehlschmierstoff","metallspaene"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["metallspaene"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["aluprofil"]}
+ ]}],
+ "wuensche":[
+  {"text":"Rüsten macht der Bediener selbst","fehlt":"Kein Schritt: Das Protokoll beschreibt nicht, was beim Rüsten an der Maschine getan wird"},
+  {"text":"Die Profile sind schwer und lang, zwei Mann müssen beim Abnehmen die langen Stücke heben","fehlt":"Kein Gewicht und keine Griffzahl genannt, daher keine Angabe eingetragen; Heben zu zweit und Länge etwa sechs Meter nicht abbildbar"},
+  {"text":"Die Späne und das feine Aluminiumpulver fliegen in die Luft","fehlt":"Aluminiumstaub in der Luft als Umgebung oder Material (Staubexplosion, Atemluft) fehlt; hier nur Metallspäne als Material"},
+  {"text":"Die Halle ist im Sommer warm und staubig","fehlt":"Umgebung Hitze nur sinngemäß gewählt (warm, nicht schwül); Staub in der Luft hat keine eigene Umgebung"},
+  {"text":"Kappsäge schneidet die Profile, Bediener zieht den Schutzbügel nach unten, drückt die Säge an","fehlt":"Wörterbuch ordnet Kappsäge als Vollautomat ein, hier wird von Hand angedrückt; Ausführung stationär mit Handvorschub gewählt"}
+ ],
+ "maengel":[
+  {"text":"Die Schutzhaube der Fräse ist an einer Seite offen, weil das Blech beim Beladen sonst im Weg ist","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Fräse"},
+  {"text":"Das Licht über dem Platz ist eher schwach","art":"beleuchtung","gegenstand":"Beleuchtung über dem Platz"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"werden von Hand auf den Sägetisch gelegt und mit einem Anschlag positioniert","sicher":true},
+  {"schritt":2,"stelle":"Der Bediener zieht den Schutzbügel nach unten, drückt die Säge an, und das Blatt läuft mit lautem Pfeifen durch das Profil","sicher":false},
+  {"schritt":3,"stelle":"Bei der Fräse wird das Profil in eine Vorrichtung gespannt, dann läuft das Programm automatisch, der Bediener steht daneben und legt nach","sicher":false},
+  {"schritt":4,"stelle":"am Schichtende wird mit Druckluft gereinigt, auch die Späne vom Boden","sicher":true},
+  {"schritt":5,"stelle":"zwei Mann müssen beim Abnehmen die langen Stücke heben","sicher":true}
+ ]}

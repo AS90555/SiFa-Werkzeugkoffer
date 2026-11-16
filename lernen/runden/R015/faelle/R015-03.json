@@ -1,0 +1,32 @@
+{"id":"R015-03","name":"R015-03","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Stanz-Nibbel-Maschine","bereich":"Blechbearbeitung","personen":1,
+  "umgebung":["halle","laerm_umgebung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["blech"]},
+   {"vorgang":"umformen","ausfuehrung":"presse","material":["blech"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["blech"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["metallspaene"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"Die Tafeln sind einen Meter fünfundzwanzig auf zweieinhalb Meter groß und zwei Millimeter dick","fehlt":"Gewicht nicht genannt, last_kg bleibt offen"},
+  {"text":"Der Ölnebel an der Seite ist so stark, dass ein Schmierfilm auf dem Boden liegt","fehlt":"Material Ölnebel (Aerosol); als Stoff ohne Datenblatt notiert"},
+  {"text":"Die Ausschnitte fallen unten in Container, die oft bis oben voll sind","fehlt":"Material Stanzabfall, Ausschnitte"},
+  {"text":"Er zieht sie einzeln per Hand auf den Tisch","fehlt":"Stapelwagen als Ausführung (Ziehen von Hand ist als Handhaben angelegt)"}],
+ "maengel":[
+  {"text":"Die Abdeckung vorne ist offen, das Programm läuft, und der Bediener greift zwischendurch in den Bereich","art":"schutzeinrichtung","gegenstand":"Abdeckung der Stanz-Nibbel-Maschine"},
+  {"text":"Am Schaltschrank hinten steht die Tür offen","art":"elektrik","gegenstand":"Schaltschrank"},
+  {"text":"Eine Lampe an der Seite leuchtet nicht mehr","art":"beleuchtung","gegenstand":"Lampe an der Maschine"},
+  {"text":"der Bediener stapelt sie ungeschützt mit der Hand","art":"psa","gegenstand":"Handschutz gegen scharfe Grate"},
+  {"text":"Der Ölnebel an der Seite ist so stark, dass ein Schmierfilm auf dem Boden liegt","art":"lueftung","gegenstand":"Absaugung Ölnebel"},
+  {"text":"ein Schmierfilm auf dem Boden","art":"weg_boden","gegenstand":"Boden an der Maschine"},
+  {"text":"Container, die oft bis oben voll sind","art":"arbeitsweise","gegenstand":"Ausschnitt-Container"},
+  {"text":"die Tafeln liegen dann auf dem Boden","art":"weg_boden","gegenstand":"Blechtafeln beim Werkzeugwechsel"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Er zieht sie einzeln per Hand auf den Tisch","sicher":true},
+  {"schritt":2,"stelle":"Die Maschine schlägt mit einem Hub","sicher":true},
+  {"schritt":3,"stelle":"der Bediener greift zwischendurch in den Bereich, wenn ein Teil klemmt","sicher":false},
+  {"schritt":4,"stelle":"der Bediener stapelt sie ungeschützt mit der Hand","sicher":true},
+  {"schritt":5,"stelle":"Mit Druckluft wird der Tisch zwischendurch abgeblasen, dabei fliegen Späne","sicher":true},
+  {"schritt":6,"stelle":"Gerüstet wird die Maschine vom Einrichter, der Werkzeugwechsel dauert bei großen Stanzen eine halbe Stunde","sicher":true}]}

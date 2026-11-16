@@ -1,0 +1,33 @@
+{"id":"R015-01","name":"R015-01","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Nutzfahrzeugwerkstatt, Bremsen und Reifen an Lkw","bereich":"Nutzfahrzeugwerkstatt","personen":2,
+  "umgebung":["werkstatt","bodenoeffnung","dunkel","hitze","laerm_umgebung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":["fahrzeugrad"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["fahrzeugrad"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"senken","ausfuehrung":"hebebuehne","material":[]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["oel_schmierstoff"]}]}],
+ "wuensche":[
+  {"text":"Öl und Schmutzwasser stehen in den Ecken der Grube","fehlt":"Öl als Gefahrstoff mit Datenblatt nicht möglich (oel_schmierstoff ist kein Gefahrstoff-Stammdatum)"},
+  {"text":"Bremsbeläge werden mit Schlagbürste und Druckluft ausgeblasen, der Staub steht in der Halle","fehlt":"Material Bremsstaub (Bremsbelagstaub)"},
+  {"text":"Die Reifen pumpen wir in einem Käfig neben der Grube auf","fehlt":"Vorgang Reifen aufpumpen im Käfig (Reifenfüllen)"},
+  {"text":"Oben werden die Radmuttern gelöst, schwere Räder zu zweit vom Nabenbolzen ziehen, oder Radheber","fehlt":"Radheber als Ausführung; Gewicht der Räder nicht genannt, daher keine Angabe"},
+  {"text":"Der Lkw wird rückwärts über die Arbeitsgrube gefahren","fehlt":"Material Lkw, Nutzfahrzeug als Ganzes"},
+  {"text":"Das Kabel der Handlampe liegt quer über den Boden","fehlt":"Material Handlampe nur als elektro_betriebsmittel; Schritt für Handlampe nicht angelegt"}],
+ "maengel":[
+  {"text":"an einer Stelle ist der Rost schon eingedrückt","art":"absturzsicherung","gegenstand":"Holzrost der Arbeitsgrube"},
+  {"text":"die Leiter ist nur an einer Seite eingehängt und steht lose angelehnt","art":"absturzsicherung","gegenstand":"Leiter in der Grube"},
+  {"text":"das Kabel liegt quer über den Boden","art":"elektrik","gegenstand":"Kabel der Handlampe"},
+  {"text":"Öl und Schmutzwasser stehen in den Ecken der Grube","art":"weg_boden","gegenstand":"Grubenboden"},
+  {"text":"Wagenheber, der nach ein paar Hüben immer wieder nachgestellt werden muss","art":"arbeitsmittel_defekt","gegenstand":"Wagenheber"},
+  {"text":"Die Halle ist mäßig beleuchtet, unten in der Grube ist es am dunkelsten","art":"beleuchtung","gegenstand":"Beleuchtung Halle und Grube"},
+  {"text":"dabei steht der Staub in der Halle","art":"lueftung","gegenstand":"Absaugung beim Ausblasen der Bremsen"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Unten steigt der Geselle hinein, weil Bremstrommeln und Leitungen von unten am besten zu erreichen sind","sicher":false},
+  {"schritt":2,"stelle":"Oben werden die Radmuttern mit einem Druckluftschrauber gelöst","sicher":true},
+  {"schritt":3,"stelle":"die schweren Räder zieht man zu zweit vom Nabenbolzen","sicher":true},
+  {"schritt":4,"stelle":"Die Bremsbeläge werden mit einer Schlagbürste und Druckluft ausgeblasen","sicher":true},
+  {"schritt":5,"stelle":"Zum Anheben der Achsen nutzen wir einen Wagenheber","sicher":false},
+  {"schritt":6,"stelle":"gereinigt wird am Feierabend mit dem Besen","sicher":true}]}

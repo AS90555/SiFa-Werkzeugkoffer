@@ -1,0 +1,28 @@
+{"id":"R015-04","name":"R015-04","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Kühlschmierstoff","material":"kuehlschmierstoff","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"CNC-Fräszentrum","bereich":"Metallbearbeitung","personen":1,
+  "umgebung":["halle","laerm_umgebung","zeitdruck"],"angaben":{"last_kg":15},
+  "schritte":[
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["heisses_maschinenteil","schneidwerkzeug"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+   {"vorgang":"zerspanen_metall","ausfuehrung":"vollautomat","material":["metallwerkstueck","kuehlschmierstoff"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","metallspaene"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["kuehlschmierstoff"]}]}],
+ "wuensche":[
+  {"text":"Er betreut vier Maschinen gleichzeitig","fehlt":"Betreuung mehrerer Maschinen nicht abbildbar; als Zeitdruck erfasst"},
+  {"text":"Das Futter wird in einem Schrumpfgerät erwärmt","fehlt":"Material oder Ausführung Schrumpfgerät, Schrumpffutter"},
+  {"text":"Werkstücke aus Aluminium und Stahl","fehlt":"Material Aluminium-Werkstück getrennt vom Stahlwerkstück; als Metallwerkstück erfasst"},
+  {"text":"wischt er am Ende der Schicht mit einem Lappen","fehlt":"Lappen-Wischen als eigener Vorgang; als Kehren erfasst"}],
+ "maengel":[
+  {"text":"Die Tür zur Kabine verriegelt nicht immer richtig, deshalb wird sie zum Teil mit einem Klebeband überbrückt","art":"schutzeinrichtung","gegenstand":"Verriegelung der Kabinentür"},
+  {"text":"Beim Späneholen mit dem Haken aus der Kabine läuft die Spindel noch nach, das passiert oft","art":"schutzeinrichtung","gegenstand":"Zuhaltung der Kabinentür"},
+  {"text":"Kühlschmierstoff steht als Nebel in der Kabine, wenn die Tür offen ist, riecht man ihn sofort","art":"lueftung","gegenstand":"Absaugung Kühlschmierstoffnebel"},
+  {"text":"Ein Gehörschutz hängt neben der Tür, wird aber selten getragen","art":"psa","gegenstand":"Gehörschutz"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Maschinenbediener rüstet selbst, er wechselt die Werkzeuge im Magazin und spannt die Werkstücke ein","sicher":true},
+  {"schritt":2,"stelle":"Dafür wird das Futter in einem Schrumpfgerät erwärmt, das Schrumpfgerät ist heiß","sicher":false},
+  {"schritt":3,"stelle":"Werkstücke aus Aluminium und Stahl bis 15 Kilo hebt er von Hand in den Schraubstock","sicher":true},
+  {"schritt":4,"stelle":"CNC-Fräszentrum, Bearbeitungszentrum mit geschlossener Kabine; In der Kabine ist es laut","sicher":true},
+  {"schritt":5,"stelle":"Beim Späneholen mit dem Haken aus der Kabine läuft die Spindel noch nach","sicher":true},
+  {"schritt":6,"stelle":"Den Boden um die Maschine wischt er am Ende der Schicht mit einem Lappen","sicher":false}]}

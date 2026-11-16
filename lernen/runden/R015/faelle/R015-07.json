@@ -1,0 +1,124 @@
+{
+ "id": "R015-07",
+ "name": "R015-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Spaltanlage",
+   "bereich": "Spaltanlage für Bandstahl",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "rohr_rundmaterial"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "rohr_rundmaterial",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "schneidwerkzeug"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Bandende wird mit einer Zange gegriffen und von Hand durch die Führungswalzen und die Spaltmesser geschoben ... Tippbetrieb",
+   "fehlt": "Kein Vorgang für Einfädeln im Tippbetrieb mit Händen an den Walzen; Schritt nur als Maschine bedienen angelegt"
+  },
+  {
+   "text": "Die Ringe sind mit Stahlbändern umwickelt, die beim Lösen zurückschnellen können",
+   "fehlt": "Kein Vorgang und kein Material für das Lösen der Umreifung am Coil"
+  },
+  {
+   "text": "Der Coil wiegt etwa zwanzig Tonnen",
+   "fehlt": "Last im Kranbetrieb: keine Angabe für Tonnen vorgesehen"
+  },
+  {
+   "text": "Die Stahlkanten sind scharf",
+   "fehlt": "Material Bandstahl oder Stahlband fehlt; hier Rohre, Rundstahl, Coils"
+  },
+  {
+   "text": "Gereinigt wird am Schichtende mit Lappen, auch die Abschnitte vom Boden",
+   "fehlt": "Material Stahlabschnitte (Blechabfall) im Reinigungsschritt nicht abgebildet"
+  },
+  {
+   "text": "Gerüstet wird die Anlage vom Schichtführer, dabei wird das Messer gewechselt",
+   "fehlt": "Rüsten außer dem Messerwechsel nicht beschrieben"
+  },
+  {
+   "text": "die Beleuchtung in der Halle ist gut",
+   "fehlt": "Keine Besonderheit; Umgebung Halle ohne Besonderheit entfällt neben Lärm"
+  },
+  {
+   "text": "Die Stahlkanten sind oft mit Ölfilm überzogen",
+   "fehlt": "Ölfilm ist kein Gefahrstoff-Stammdatum; als Material im Schritt, nicht unter Stoffe"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Handschuhe trägt er nicht immer, weil sie in den Walzen hängen bleiben könnten",
+   "art": "psa",
+   "gegenstand": "Schutzhandschuhe beim Einfädeln"
+  },
+  {
+   "text": "Der Mann steht dabei direkt an der Kante, seitlich zum Band, die Hände greifen zwischen die Walzen",
+   "art": "arbeitsweise",
+   "gegenstand": "Einfädeln mit Händen zwischen den Walzen"
+  },
+  {
+   "text": "der Bildschirm an der Bedienstation ist klein und schwer zu lesen",
+   "art": "einrichtung",
+   "gegenstand": "Bildschirm der Bedienstation"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "der Coil wird mit dem Hallenkran auf den Abhaspel gesetzt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Das Bandende wird mit einer Zange gegriffen und von Hand durch die Führungswalzen und die Spaltmesser geschoben",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird am Schichtende mit Lappen, auch die Abschnitte vom Boden",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gerüstet wird die Anlage vom Schichtführer, dabei wird das Messer gewechselt",
+   "sicher": true
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{"id":"R015-06","name":"R015-06","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Bandsäge","bereich":"Bandsäge für geschweifte Teile","personen":1,"umgebung":["werkstatt","laerm_umgebung","boden"],"angaben":{"hartholz":true,"last_kg":15},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["schnittholz"]},
+   {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["schnittholz","holzstaub"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}
+ ]}],
+ "wuensche":[
+  {"text":"Ein Brett wiegt schon mal fünfzehn Kilo","fehlt":"Handhaben der Bretter ist nicht ausdrücklich beschrieben; Griffe je Stunde fehlen. Schritt nur wegen der genannten Last angelegt"},
+  {"text":"der Platz liegt am Durchgang, und es kommen Leute vorbei","fehlt":"Umgebung für Durchgangsverkehr von Personen am Arbeitsplatz fehlt"},
+  {"text":"ab und zu kommt ein Auszubildender dazu","fehlt":"Alter des Auszubildenden nicht genannt, Angabe Jugendliche daher nicht eingetragen"},
+  {"text":"Das Sägeband wird ungefähr jede Woche gewechselt","fehlt":"Material Sägeband fehlt; hier Anlage und ihre Werkzeuge"},
+  {"text":"Die Späne fallen auf den Boden, Sägemehl liegt auch auf dem Tisch","fehlt":"Umgebung boden nur sinngemäß gewählt (Späne am Boden, nicht ausdrücklich verschmutzt oder uneben)"}
+ ],
+ "maengel":[
+  {"text":"der Tischschutz ist nur halb heruntergefahren, weil er bei den kleinen Schweifungen stört","art":"schutzeinrichtung","gegenstand":"Tischschutz der Bandsäge"},
+  {"text":"Ein Absauganschluss ist da, aber der Schlauch hängt halb ab, und die Absaugung ist gerade nicht eingeschaltet","art":"lueftung","gegenstand":"Absaugung der Bandsäge"},
+  {"text":"Das Sägeband wird ungefähr jede Woche gewechselt, dabei ist die Maschine manchmal noch am Stromnetz","art":"arbeitsweise","gegenstand":"Bandwechsel bei angeschlossener Maschine"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"ein Brett wiegt schon mal fünfzehn Kilo","sicher":false},
+  {"schritt":2,"stelle":"Der Bediener führt das Holz von Hand gegen das laufende Band","sicher":true},
+  {"schritt":3,"stelle":"Das Sägeband wird ungefähr jede Woche gewechselt, dabei ist die Maschine manchmal noch am Stromnetz","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird am Ende des Tages mit dem Besen","sicher":true}
+ ]}

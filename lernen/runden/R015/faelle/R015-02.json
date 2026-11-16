@@ -1,0 +1,26 @@
+{"id":"R015-02","name":"R015-02","betrieb":{},"angaben":{},
+ "annahmen":["Gewicht der Wange: Protokoll nennt 20 bis 30 kg, eingetragen ist der obere Wert 30 kg."],
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"CNC-Bearbeitungszentrum Treppenwangen","bereich":"Treppenbau, Serienfertigung","personen":1,
+  "umgebung":["werkstatt","laerm_umgebung","boden"],"angaben":{"hartholz":true,"last_kg":30},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["treppenteil"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"vollautomat","material":["treppenteil","holzstaub"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"leiter","material":["anlage"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"Dabei hebt er zu zweit","fehlt":"Personenzahl nur für einen Schritt; Station mit einer Person angelegt"},
+  {"text":"Griffe je Stunde der Wangen","fehlt":"Keine Zahl im Protokoll, Angabe griffe_h bleibt offen"},
+  {"text":"Die Druckluftleitung läuft offen über den Boden zur Maschine","fehlt":"Material Druckluftleitung; nur als Mangel notiert"}],
+ "maengel":[
+  {"text":"Die Schiebetür lässt sich während des Laufs öffnen, die Verriegelung hängt schon lose","art":"schutzeinrichtung","gegenstand":"Schiebetür und Verriegelung der CNC-Maschine"},
+  {"text":"Der Filter ist seit Wochen nicht getauscht","art":"lueftung","gegenstand":"Absaugung unter dem Tisch"},
+  {"text":"Ein Ersatzfilter liegt im Schrank, wird aber nicht eingebaut, weil keiner zuständig ist","art":"organisation","gegenstand":"Zuständigkeit Filterwechsel"},
+  {"text":"die Druckluftleitung läuft offen über den Boden zur Maschine","art":"weg_boden","gegenstand":"Druckluftleitung"},
+  {"text":"eine Staubmaske hängt meist am Hals","art":"psa","gegenstand":"Staubmaske"},
+  {"text":"Am Ende der Schicht wird mit dem Druckluftschlauch abgeblasen, der Boden ist danach voller Späne","art":"arbeitsweise","gegenstand":"Abblasen mit Druckluft"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Bediener legt die Wange von Hand auf die Spannschienen","sicher":true},
+  {"schritt":2,"stelle":"Die Maschine läuft das Programm ab, Nuten und Ausklinkungen","sicher":true},
+  {"schritt":3,"stelle":"Der Werkzeugwechsel passiert am Magazin an der Seite, dafür steigt der Bediener auf eine kleine Trittleiter","sicher":true},
+  {"schritt":4,"stelle":"Am Ende der Schicht wird mit dem Druckluftschlauch abgeblasen","sicher":true}]}

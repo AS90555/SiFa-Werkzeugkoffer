@@ -1,0 +1,138 @@
+{
+ "id": "R015-08",
+ "name": "R015-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Formanlage",
+   "bereich": "Formanlage in der Gießerei mit Sandaufbereitung",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung",
+    "hitze",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "halbautomat",
+     "material": []
+    },
+    {
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "stetigfoerderer",
+     "material": []
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Formmaschine presst aus feuchtem Quarzsand mit Bindemittel Formkästen",
+   "fehlt": "Material Formsand, Quarzsand, Sandform und Kern fehlt; Schritte stehen ohne Material"
+  },
+  {
+   "text": "Die Maschine arbeitet mit Druckluft, und der Bereich vor dem Pressenkopf ist offen",
+   "fehlt": "Keine passende Ausführung für Formmaschine mit Druckluftpresse; Halbautomat gewählt"
+  },
+  {
+   "text": "am Mischer staubt es stark, der Sand ist grau, trocken und fein",
+   "fehlt": "Quarzstaub in der Luft: weder Material noch Umgebung vorgesehen; Sandmischer ohne eigenen Vorgang"
+  },
+  {
+   "text": "Die Gießpfannen werden etwa dreißig Meter entfernt befüllt, das Metall ist flüssig, und die Pfannen werden mit dem Kran transportiert",
+   "fehlt": "Nicht Teil dieser Station, kein Schritt; Material flüssiges Metall nur als Nachbararbeit, Umgebung für Spritzer und Gießbereich fehlt"
+  },
+  {
+   "text": "Direkt neben der Formanlage läuft der Ofen, die Luft ist warm und feucht",
+   "fehlt": "Hitze nur sinngemäß gewählt (warm, feucht, im Sommer heiß)"
+  },
+  {
+   "text": "Gerüstet wird die Formmaschine vom Vorarbeiter",
+   "fehlt": "Rüsten nicht näher beschrieben; nur der Werkzeugwechsel mit dem Kran als Schritt"
+  },
+  {
+   "text": "Der Sand kommt aus einem Silo über ein Förderband",
+   "fehlt": "Material Sand für Förderband und Silo fehlt"
+  },
+  {
+   "text": "feuchter Quarzsand mit Bindemittel",
+   "fehlt": "Kein Gefahrstoff-Material für Formsand und Bindemittel; nicht unter Stoffe eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "der Bereich vor dem Pressenkopf ist offen",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Pressenkopf der Formmaschine"
+  },
+  {
+   "text": "man müsste Gehörschutz tragen, aber er hängt oft am Haken",
+   "art": "psa",
+   "gegenstand": "Gehörschutz"
+  },
+  {
+   "text": "Der Boden ist uneben und oft mit Sand bedeckt, es liegen Stolperstellen herum",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Formanlage"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Formmaschine presst aus feuchtem Quarzsand mit Bindemittel Formkästen",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die fertige Sandform wird dann von Hand mit einem Kern bestückt, der Mann greift dafür mit beiden Händen in den Kasten",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Sand kommt aus einem Silo über ein Förderband",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt wird mit Druckluft, dabei fliegt Sand auf",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "am Schichtende räumt der Mann den Rest mit dem Besen zusammen",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "Werkzeugwechsel passiert mit dem Kran",
+   "sicher": true
+  }
+ ]
+}
