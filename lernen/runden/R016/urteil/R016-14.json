@@ -1,0 +1,67 @@
+{
+ "id": "R016-14",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Zweikomponentenlack mit Härter, Hautkontakt; Handschuhe und Sicherheitsdatenblatt passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Spritznebel einatmen: der einzige passende Eintrag (Gefahrstoff) ist schon Nr. 1 zugeordnet; sonst nichts meint das."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "grund": "Airless-Pumpe mit Druckschlauch; Strahl nie auf Personen, Schläuche prüfen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Absaugung; Lärmminderung und Gehörschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Türen bis zwanzig Kilo umsetzen; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "berechtigt",
+   "grund": "Zwischenschleifen von Hand an Schranktüren und Regalböden."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Filterwechsel ist genannt, aber kein Anlaufanlass."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Lackieren und Schleifen mit Staub gehören dazu."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Schwere Türen werden auf Böcke abgesetzt."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "„Die Luft im Raum ist warm und feucht“."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Airless-Pumpe und Pistole mit Einstellung von Druck und Düse."
+  }
+ ]
+}

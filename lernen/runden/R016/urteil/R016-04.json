@@ -1,0 +1,51 @@
+{
+ "id": "R016-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu elektrischem Schlag."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Hautkontakt mit Öl und Schlamm, Handschuhe und Hautschutzplan passen; der Nebel wird nicht erfasst."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Brand durch Öl oder Funken."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Hitze oder Wärmebelastung."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Tank ablassen, Schlamm herausholen und Rüsten an der Maschine."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Der Einrichter setzt die Elektrode per Kran ein."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Senkerodierer ist eine kraftbetriebene Maschine, Unterweisung und Betriebsanweisung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Der Deckel über dem Tank ist meist offen."
+  }
+ ]
+}

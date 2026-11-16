@@ -1,0 +1,61 @@
+{
+ "id": "R016-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Einklemmen von Finger oder Fuß beim Rollwagen ist nicht dieselbe Gefahr wie Muskel-Skelett-Belastung beim Schieben."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu elektrischem Schlag am Röntgengerät."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Lösemitteldämpfe und Hautkontakt, Maßnahmen Einstufung, Handschuhe, Hautkontakt vermeiden passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Nichts zu ionisierender Strahlung in der Liste."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Behälter wird mit dem Hallenkran umgesetzt."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Im Winter ist die Halle kalt."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "Behälter wird von Hand auf dem Rollwagen in Position geschoben."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Entwicklerflüssigkeit, Fixierer und Lösemittel werden von Hand umgefüllt und benutzt."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Kassetten werden mit Lösemittel abgewischt."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Die Warnlampe über der Kabinentür ist seit Wochen ausgefallen."
+  }
+ ]
+}

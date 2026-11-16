@@ -1,0 +1,62 @@
+{
+ "id": "R016-13",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Offene Schachttüren; Öffnungen umwehren, Absturzsicherung herstellen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Dreißig Kilo schwere Schiene über der Schachttür; Bereich darunter absperren passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine elektrische Gefährdung in der Systemliste; Beleuchtungseintrag meint Sicht, nicht Strom."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Arbeit über Kopf; Zwangshaltung vermeiden passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Lungenerkrankung durch mineralischen Staub mit Quarzanteil",
+   "grund": "Bohrstaub aus Beton; Absaugen, Aufsaugen statt Abblasen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Schlag- und Hammerbohrer in engem Betonschacht."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Dreißig Kilo schwere Schienen von Hand hereingehoben."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "unbegruendet",
+   "grund": "Keine scharfen Kanten im Protokoll genannt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Akku-Schlagbohrer und Hammerbohrer."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Lampe am Kabel, die immer wieder verrutscht."
+  }
+ ]
+}

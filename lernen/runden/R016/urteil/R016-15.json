@@ -1,0 +1,71 @@
+{
+ "id": "R016-15",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Stapler fährt im Hof und Lager; Fahr- und Gehwege trennen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stapel, Wagen oder Paket kippt",
+   "grund": "Paletten bis drei Ebenen; Stapelhöhe begrenzen, Ladung sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser Boden mit Pfützen und Kanten; Verunreinigungen beseitigen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Ware von Hand kommissionieren; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "typisch",
+   "grund": "Elektrostapler mit Hubmast im Hof bei Nässe und Winter."
+  },
+  {
+   "gefaehrdung": "Unfall durch fehlende Abstimmung mit Fremden",
+   "urteil": "typisch",
+   "grund": "Beladen des LKW am Verladetor, Fahrer im Gefahrbereich."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Stapler wird von der Person selbst gewartet."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Batterie am Ladegerät im Hof."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "„Das Tor zum Hof steht meist offen, im Winter zieht es durch.“"
+  },
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "urteil": "unbegruendet",
+   "grund": "Nur Kanten am Boden genannt, keine scharfen Teile."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Paletten bis drei Ebenen hoch und Ware aus Regalen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Anlass für Quetschen genannt."
+  }
+ ]
+}

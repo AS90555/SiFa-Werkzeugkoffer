@@ -1,0 +1,46 @@
+{
+ "id": "R016-16",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "grund": "Druckprüfung mit Handpumpe; Prüfling abschirmen, Schläuche prüfen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Gehäuse bis fünfzig Kilo; Hebehilfe passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Mangel nasser rutschiger Boden; Verunreinigungen beseitigen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Schläuche über dem Boden; Stolperstellen beseitigen, Verkehrswege freihalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "„Die Halle ist kalt im Winter, die Tore gehen oft auf.“"
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Prüfstand mit Spannvorrichtung und Pumpe."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "„Ein Schutz um den Prüfstand herum gibt es nicht“."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "R016-11",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Schnittverletzung in der Systemliste."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Verbrennung durch Heißluftpistole in der Systemliste."
+  },
+  {
+   "nr": 3,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Kontaktspray als Gefahrstoff steht nur unter Rückfragen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "grund": "Immer gleiche Griffe der Hände; Leitmerkmalmethode und Arbeitsplatzwechsel passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Takt und sichtbare Stückzahl; Arbeitsabläufe gestalten passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Hitzebelastung in der Systemliste."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Kleine Crimpmaschine auf dem Tisch, Hand im Bereich."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Crimpmaschine ist kraftbetrieben."
+  }
+ ]
+}

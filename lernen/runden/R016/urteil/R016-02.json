@@ -1,0 +1,51 @@
+{
+ "id": "R016-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen der Hände am Fahrzeug fehlt in der Liste."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Die Kälte-Hitze-Zugluft-Gefährdung hat nur Maßnahmen gegen Kälte, keine passt zu warmer Halle oder Zugluft am Tor."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Heben des 28-kg-Sitzes, Hebehilfe passt, Balancer ist außer Betrieb."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Takt von neunzig Sekunden, Maßnahmen zur Gestaltung der Arbeitsabläufe passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Akkuschrauber mit Federzug, Takt von neunzig Sekunden, vier Schrauben je Takt."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Die Halle ist im Sommer warm, am Tor zieht es."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "urteil": "berechtigt",
+   "grund": "Er muss sich nach vorn beugen, Stecker sitzen eng zwischen Karosserie und Sitz."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Akkuschrauber und Balancer sind kraftbetriebene Arbeitsmittel, Unterweisung gehört dazu."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "R016-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Ungesicherte, bröckelnde Grabenwand, Arbeit unterbrechen und sichere Arbeitsweise festlegen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Die Last-Gefährdung meint lose Rundteile im Stapel, nicht ein schwingendes Rohr am Bagger."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel liegt im Wasser, beschädigte Betriebsmittel entziehen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Es riecht nach Rauch, Absaugung und Atemschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funken fliegen auf das Erdreich, brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Heller Lichtbogen, Schweißerschutzschild und Abschirmung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Funken und Spritzer beim Schweißen treffen Haut oder Kleidung."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "berechtigt",
+   "grund": "Schutzgas aus einer Flasche, die oben am Rand steht."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Schweißer steht unten im Graben auf dem nassen Boden."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "unbegruendet",
+   "grund": "Nur Drahtbürste genannt, kein Staub."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "typisch",
+   "grund": "Schweißen mit Schutzgas erzeugt Gase und Rauch."
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "urteil": "typisch",
+   "grund": "Zwei Meter tiefer ungesicherter Graben, der Helfer steht am Rand."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Keine lose gestapelten Rohre genannt."
+  }
+ ]
+}

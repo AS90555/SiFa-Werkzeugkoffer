@@ -1,0 +1,66 @@
+{
+ "id": "R016-09",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Absturz vom Dach ohne Geländer; Absturzsicherung herstellen, Bereich sperren passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Herumliegendes Werkzeug als Stolperstelle; Verkehrswege freihalten, Stolperstellen beseitigen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Kältemittel als Gefahrstoff mit Dämpfen und Hautkontakt; Maßnahmen nach Sicherheitsdatenblatt passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Dieselabgase in der Halle; Lüftung oder Absaugung passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Akkuschrauber nur gelegentlich, ein Bus pro Tag, keine gleichförmige Arbeit genannt."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "unbegruendet",
+   "grund": "Nur ein Kältemittelsatz auf dem Boden, keine Druckgasflasche genannt."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "„Gereinigt wird mit Reiniger aus einem Kanister“ und Reinigung des Verdampfers."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "berechtigt",
+   "grund": "Werkzeug liegt auf dem Dach, unten arbeitet eine zweite Person am Bus."
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "typisch",
+   "grund": "Bus steht auf der Hebebühne; Aufnahmepunkte und Prüfung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hebebühne und Akkuschrauber sind kraftbetriebene Arbeitsmittel."
+  },
+  {
+   "gefaehrdung": "Ersticken durch Gase, die den Sauerstoff verdrängen",
+   "urteil": "unbegruendet",
+   "grund": "Keine enge Räume oder Gruben genannt, Halle ist offen."
+  }
+ ]
+}

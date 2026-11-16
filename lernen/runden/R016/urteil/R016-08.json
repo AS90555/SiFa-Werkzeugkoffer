@@ -1,0 +1,73 @@
+{
+ "id": "R016-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einzug von Hand oder Arm",
+   "grund": "Schneckenabdeckung hängt schief, Einzugsstellen verkleiden und nur im Stillstand reinigen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Leiter am Silo, Leitermaßnahmen passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Feiner Holzstaub, Aufsaugen statt Abblasen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Staubexplosion",
+   "grund": "Staubschicht und aufgewirbelter Staub, Reinigungsplan und Zündquellen vermeiden passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Warme Pellets, hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Halle, Gehörschutz und Lärmminderung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Reinigung mit Druckluft wirbelt den Staub auf."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Ein Mitarbeiter fährt mit dem Radlader Späne nach."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Staub auf dem Boden und Späne auf dem Förderband."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Ringmatrizenpresse ist eine kraftbetriebene Maschine."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Die Abdeckung der Schnecke hängt schief."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Gereinigt wird mit Druckluft, dabei wird der Staub aufgewirbelt."
+  }
+ ]
+}

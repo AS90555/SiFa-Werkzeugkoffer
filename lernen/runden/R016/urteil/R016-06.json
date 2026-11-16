@@ -1,0 +1,67 @@
+{
+ "id": "R016-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Erfassen der Hände an Führung und Werkzeug fehlt als Gefahr; der Mangel-Eintrag meint das Rüsten."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unerwarteter Anlauf im Sonderbetrieb",
+   "grund": "Rüsten bei nicht abgeschalteter Maschine, Abschalten und sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heiße Körbe, hitzebeständige Handschuhe und Ablageplatz passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Maschine, Lärmminderung und Gehörschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Öl auf Haut, Handschuhe und Hautschutzplan passen; der Nebel wird nicht erfasst."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Die 300-kg-Spule wird mit dem Kran eingehängt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Federn liegen verstreut an der Kiste, Ölreste auf dem Boden."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Federwindeautomat ist eine kraftbetriebene Maschine."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Es sind keine lose gestapelten Rohre oder Rollen genannt, die Spule hängt am Kran."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Heben von Hand mit Gewicht genannt."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Beim Rüsten bleibt die Maschine nicht immer abgeschaltet."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "R016-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Lösemittel, Härter, Dämpfe, Hautkontakt, Handschuhe und Sicherheitsdatenblatt passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Lösemitteldämpfe, Zündquellen fernhalten und Explosionsschutz passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heiße Türen am Trocknerausgang, hitzebeständige Handschuhe und Ablageplatz passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Anstoßen oder Einklemmen in der engen Kabine ist nicht Stolpern über verstellte Flächen, im Zweifel verfehlt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Lack, Härter und Verdünnung werden von Hand gespritzt und angesetzt."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Man riecht trotzdem das Lösemittel in der Abluft der offenen Kabine."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "unbegruendet",
+   "grund": "Im Protokoll steht nichts von Stolperstellen oder Rutschen, nur von Enge."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Spritzpistole, Förderkette und Trockner sind kraftbetriebene Anlagen."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Gewicht und keine Haltung der Türen genannt."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "unbegruendet",
+   "grund": "Keine scharfen Kanten im Protokoll genannt."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Förderkette mit Gehängen und Türen, die von Hand auf Wagen gelegt werden."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Rüsten, Filterwechsel und Reinigung an der laufenden Anlage."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Die Verdünnung steht in einem offenen Eimer neben der Kabine."
+  }
+ ]
+}

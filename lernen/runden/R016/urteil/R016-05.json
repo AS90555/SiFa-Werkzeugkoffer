@@ -1,0 +1,52 @@
+{
+ "id": "R016-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Tragen der sechzig Kilo schweren Pakete, Hebehilfe und Bewertung passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Sturz auf der Treppe mit Last, Folie liegt im Treppenhaus, Verunreinigungen beseitigen und Verkehrswege passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag zu Absturz von der Leiter."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Das Licht geht im Treppenhaus aus, Beleuchtung instand setzen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Drängelnde Kunden und enger Plan, Maßnahmen zur Gestaltung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Akkuschrauber nur gelegentlich beim Befestigen, keine gleichförmige Arbeit genannt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Akkuschrauber ist ein kraftbetriebenes Arbeitsmittel, Unterweisung gehört dazu."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "Pakete werden mit der Sackkarre vom Transporter zum Hauseingang gefahren."
+  }
+ ]
+}

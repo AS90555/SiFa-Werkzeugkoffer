@@ -1,0 +1,68 @@
+{
+ "id": "R016-10",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Presse schlägt zu, Hände im Gesenk; Schutzeinrichtung wirksam passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Glühendes Werkstück; hitzebeständige Handschuhe und Ablageplatz passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Nichts in der Systemliste meint Stromschlag an Hochfrequenzanlage und Spule."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Presse; Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Graphit-Trennmittelnebel ist ein Gefahrstoff; das System fragt nur nach der Einstufung."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Heiße Halle an der Spule; Abschirmung, Lüftung, Trinkpausen passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Grat wird abgeschert, Teile mit Graten gehören zur Gesenkschmiede."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "unbegruendet",
+   "grund": "Graphit mit Wasser ist nicht entzündbar, kein entzündbarer Stoff genannt."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "„Rüsten macht die Werkstatt mit dem Kran, dabei wird das Gesenk gewechselt.“"
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "„Die Späne und den Zunder blasen wir mit Druckluft vom Boden.“"
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Presse ist eine kraftbetriebene Maschine."
+  }
+ ]
+}
