@@ -1,0 +1,104 @@
+{
+ "runde": "R013",
+ "art": "pruef",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R013-01",
+   "auftrag": "a058",
+   "branche": "Kfz, Werkstatt",
+   "bereich": "Hebebühne, Bremsen- und Ölwechsel"
+  },
+  {
+   "kennung": "R013-02",
+   "auftrag": "a142",
+   "branche": "Stahlbau",
+   "bereich": "Zuschnitt mit Bandsäge und Brennschneidanlage"
+  },
+  {
+   "kennung": "R013-03",
+   "auftrag": "a100",
+   "branche": "Innenausbau",
+   "bereich": "Deckenverkleidung vom Rollgerüst"
+  },
+  {
+   "kennung": "R013-04",
+   "auftrag": "a165",
+   "branche": "Karosseriewerkstatt",
+   "bereich": "Richtbank, Trennen und Schweißen"
+  },
+  {
+   "kennung": "R013-05",
+   "auftrag": "a152",
+   "branche": "Brandschutztechnik",
+   "bereich": "Sprinklerrohre montieren von der Hubarbeitsbühne"
+  },
+  {
+   "kennung": "R013-06",
+   "auftrag": "a032",
+   "branche": "Metall, Blechbearbeitung",
+   "bereich": "Laserschneidanlage mit Be- und Entladen"
+  },
+  {
+   "kennung": "R013-07",
+   "auftrag": "a093",
+   "branche": "Leimholz",
+   "bereich": "Presse für Brettschichtholz, Leimauftrag"
+  },
+  {
+   "kennung": "R013-08",
+   "auftrag": "a111",
+   "branche": "Dreherei",
+   "bereich": "Konventionelle Drehmaschine, lange Wellen"
+  },
+  {
+   "kennung": "R013-09",
+   "auftrag": "a131",
+   "branche": "Gießerei",
+   "bereich": "Putzerei: Schleifen und Strahlen von Gussteilen"
+  },
+  {
+   "kennung": "R013-10",
+   "auftrag": "a102",
+   "branche": "Fenster in Serie",
+   "bereich": "Profilieranlage für Fensterkanteln"
+  },
+  {
+   "kennung": "R013-11",
+   "auftrag": "a123",
+   "branche": "Ofenbau",
+   "bereich": "Blechzuschnitt und Schamotte schneiden"
+  },
+  {
+   "kennung": "R013-12",
+   "auftrag": "a167",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Teilelager und Annahme, Altöl und Batterien"
+  },
+  {
+   "kennung": "R013-13",
+   "auftrag": "a091",
+   "branche": "Palettenbau",
+   "bereich": "Nagelautomat und Druckluftnagler"
+  },
+  {
+   "kennung": "R013-14",
+   "auftrag": "a137",
+   "branche": "Strahlbetrieb",
+   "bereich": "Freistrahlraum"
+  },
+  {
+   "kennung": "R013-15",
+   "auftrag": "a094",
+   "branche": "Tischlerei",
+   "bereich": "Abricht- und Dickenhobel"
+  },
+  {
+   "kennung": "R013-16",
+   "auftrag": "a105",
+   "branche": "Möbel in Serie",
+   "bereich": "Bohr- und Dübelautomat, Korpuspresse"
+  }
+ ]
+}

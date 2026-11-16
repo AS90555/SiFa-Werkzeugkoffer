@@ -16,7 +16,8 @@
  },
  "runden": [
   "R011",
-  "R012"
+  "R012",
+  "R013"
  ],
  "versuche": {
   "R011:sprecher": 1,
@@ -26,7 +27,8 @@
   "R012:sprecher": 1,
   "R012:uebersetzer": 1,
   "R012:schiedsrichter": 1,
-  "R012:lueckenschliesser": 1
+  "R012:lueckenschliesser": 1,
+  "R013:sprecher": 1
  },
  "hinweise": [],
  "belegquoteZuBeginn": 26,
