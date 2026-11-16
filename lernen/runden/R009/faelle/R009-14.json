@@ -1,0 +1,34 @@
+{"id":"R009-14","name":"R009-14","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+ {"nr":1,"name":"Gatter","bereich":"Gatter und Sortierband","personen":2,"umgebung":["werkstatt"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
+   {"vorgang":"saegen","ausfuehrung":"vollautomat","material":[]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["holzstaub"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]},
+ {"nr":2,"name":"Sortierband","bereich":"Gatter und Sortierband","personen":1,"umgebung":["dunkel","taktarbeit"],"angaben":{"gleichfoermig":true},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"Die Stämme werden mit einem Kran vom Stapel gehoben, ein Stamm wiegt oft mehrere hundert Kilo","fehlt":"Kein Material für Rundholz oder Stamm; Gewicht nur ungefähr genannt, keine Angabe eingetragen"},
+  {"text":"Mehrere parallel gespannte Sägeblätter, die den Stamm in einem Durchgang in Bretter schneiden","fehlt":"Kein Material Stamm; Gatter nicht im Wörterbuch, als vollautomatisches Sägen gewählt"},
+  {"text":"der andere nimmt die Bretter an der Austrittsseite ab","fehlt":"Kein Material für Bretter (Schnittholz)"},
+  {"text":"Die Späne werden mit Druckluft vom Boden geblasen","fehlt":"Keine Ausführung für Druckluftpistole beim Abblasen; als von Hand eingetragen"},
+  {"text":"Auf dem Sortierband werden die Bretter nach Länge und Breite sortiert","fehlt":"Kein Schritt: Das Band selbst läuft ohne Beschreibung einer Tätigkeit der Person; kein Material für Bretter"},
+  {"text":"man muss gegen den Lärm anschreien","fehlt":"Lärm der eigenen Anlage; keine Umgebung dafür gewählt, Lärmpegel nicht genannt"},
+  {"text":"dabei fliegt viel Staub in die Luft","fehlt":"Staub in der Luft ohne passende Umgebung"},
+  {"text":"Gereinigt wird einmal pro Schicht","fehlt":"Keine Beschreibung, was beim Reinigen getan wird, daher kein Schritt"}],
+ "maengel":[
+  {"text":"Die Schutzverkleidung ist an einer Seite offen, weil dort das Sägeband gewechselt wird.","art":"schutzeinrichtung","gegenstand":"Schutzverkleidung am Gatter"},
+  {"text":"Die Späne werden mit Druckluft vom Boden geblasen, dabei fliegt viel Staub in die Luft.","art":"arbeitsweise","gegenstand":"Abblasen der Späne mit Druckluft"},
+  {"text":"Das Band hat keinen Not-Halt in Reichweite, der nächste liegt am Ende der Halle.","art":"schutzeinrichtung","gegenstand":"Not-Halt am Sortierband"},
+  {"text":"Die Beleuchtung ist schwach, besonders am Ende des Bandes.","art":"beleuchtung","gegenstand":"Beleuchtung am Sortierband"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Stämme werden mit einem Kran vom Stapel gehoben","sicher":true},
+  {"schritt":2,"stelle":"Das Gatter ist eine Sägeanlage ... bedient vom Steuerpult aus","sicher":false},
+  {"schritt":3,"stelle":"der andere nimmt die Bretter an der Austrittsseite ab","sicher":true},
+  {"schritt":4,"stelle":"Die Späne werden mit Druckluft vom Boden geblasen","sicher":false},
+  {"schritt":5,"stelle":"das Sägeband gewechselt wird / gerüstet wird das Sägeband vom Schichtführer","sicher":false},
+  {"schritt":6,"stelle":"greift die Bretter von Hand herunter, oft im Takt, schnell, ohne Pause","sicher":true}]}

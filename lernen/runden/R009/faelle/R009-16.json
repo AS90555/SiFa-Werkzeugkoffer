@@ -1,0 +1,30 @@
+{"id":"R009-16","name":"R009-16","betrieb":{"jugendliche":true},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Montage Schiebetore und Antriebe","bereich":"Tore und Antriebe","personen":2,"umgebung":["aussen","laerm_umgebung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+   {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+   {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"elektroarbeiten","ausfuehrung":"von_hand","material":["elektrische_anlage"]},
+   {"vorgang":"pruefen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"trennschleifen","ausfuehrung":"handmaschine","material":["metallwerkstueck"]}]}],
+ "wuensche":[
+  {"text":"Schiebetore aus verzinktem Stahl, über zweihundert Kilo schwer","fehlt":"Kein Material für Torflügel; als Metallwerkstück eingetragen. Gewicht nur als „über zweihundert“ genannt, keine Angabe eingetragen"},
+  {"text":"Der Auszubildende steht oft ohne Schutzbrille daneben","fehlt":"Alter des Auszubildenden nicht genannt; Jugendliche im Betrieb nach Stichwort Auszubildender eingetragen"},
+  {"text":"mit Ketten angeschlagen","fehlt":"Ketten als Anschlagmittel; Anschlagen mit Hebezeug eingetragen"},
+  {"text":"Das Tor wird mit dem Schalter ein paar Mal auf und zu gefahren","fehlt":"Kein Vorgang für Probelauf eines Tors; als Prüfen von Hand eingetragen"},
+  {"text":"dabei fliegen heiße Partikel umher, und feiner Staub liegt am Boden","fehlt":"Keine Umgebung für Funkenflug, kein Material für Schleifstaub von verzinktem Stahl"},
+  {"text":"Die Montage findet in der Werkhalle und vor dem Gebäude statt","fehlt":"Außengelände als Umgebung gewählt, Witterung nicht genannt"}],
+ "maengel":[
+  {"text":"Der Auszubildende steht dabei oft ohne Schutzbrille daneben.","art":"psa","gegenstand":"Schutzbrille beim Schleifen"},
+  {"text":"Danach wird das Tor mit dem Schalter ein paar Mal auf und zu gefahren, während der Auszubildende daneben steht.","art":"arbeitsweise","gegenstand":"Auszubildender neben dem fahrenden Tor"},
+  {"text":"ein Kabel vom Akkuladegerät kreuzt die Montagefläche","art":"elektrik","gegenstand":"Kabel vom Akkuladegerät quer über die Montagefläche"},
+  {"text":"die Anschlussleitung hängt lose am Schaltkasten","art":"elektrik","gegenstand":"lose Anschlussleitung am Schaltkasten"},
+  {"text":"Die Böcke stehen auf unebenem Boden und wackeln leicht.","art":"arbeitsweise","gegenstand":"wackelnde Böcke auf unebenem Boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Sie werden mit einem Hallenkran auf Böcke gehoben","sicher":true},
+  {"schritt":2,"stelle":"mit Ketten angeschlagen","sicher":false},
+  {"schritt":3,"stelle":"Der Antrieb wird mit Akkuschrauber und Ringschlüsseln befestigt","sicher":true},
+  {"schritt":4,"stelle":"Der Antrieb wird vom Gesellen selbst angeschlossen","sicher":false},
+  {"schritt":5,"stelle":"das Tor mit dem Schalter ein paar Mal auf und zu gefahren","sicher":false},
+  {"schritt":6,"stelle":"Die Schweißnähte werden mit einer Flex nachgeschliffen","sicher":true}]}

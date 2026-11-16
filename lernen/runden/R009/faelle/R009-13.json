@@ -1,0 +1,141 @@
+{
+ "id": "R009-13",
+ "name": "R009-13",
+ "betrieb": {
+  "frauen": true
+ },
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Abbeizmittel auf Basis von Lösemitteln",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s4",
+   "name": "Lösemittel zum Bodenreinigen",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Abbeizen und Ölen",
+   "bereich": "Abbeizen und Ölen",
+   "personen": 2,
+   "umgebung": [
+    "stickig",
+    "boden",
+    "zwangshaltung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "beizen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "lackreste"
+     ]
+    },
+    {
+     "vorgang": "schleifen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Abbeizmittel auf Basis von Lösemitteln aus großem Kanister",
+   "fehlt": "Kein Material für Abbeizmittel auf Lösemittelbasis; als Lösemittel eingetragen"
+  },
+  {
+   "text": "mit Heißluftföhn nachgearbeitet",
+   "fehlt": "Kein Vorgang und keine Ausführung für Heißluftföhn (Lack erhitzen)"
+  },
+  {
+   "text": "Leinöl oder Hartwachsöl, mit einem Ballen aufgetragen und mit einem Tuch abgerieben",
+   "fehlt": "Kein Vorgang für Öl auftragen und abreiben, kein Material für Öl und Wachsöl; Schritt weggelassen"
+  },
+  {
+   "text": "Lappen liegen danach offen in einem Eimer",
+   "fehlt": "Kein Material für lösemittelgetränkte Lappen (Selbstentzündung)"
+  },
+  {
+   "text": "Tische und Stühle",
+   "fehlt": "Kein Material für Möbelstücke aus Holz, Schleifen ohne Material"
+  },
+  {
+   "text": "Das Fenster bleibt bei Kälte geschlossen, gelüftet wird sonst nicht",
+   "fehlt": "Umgebung stickig gewählt; keine Umgebung für fehlende Lüftung bei Lösemittelarbeit"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Lappen liegen danach offen in einem Eimer neben dem Tisch.",
+   "art": "stoff_lagerung",
+   "gegenstand": "lösemittelgetränkte Lappen im offenen Eimer"
+  },
+  {
+   "text": "Kanister stehen herum, einer direkt neben der Heizung.",
+   "art": "stoff_lagerung",
+   "gegenstand": "Kanister neben der Heizung"
+  },
+  {
+   "text": "Gelüftet wird sonst nicht. Ein Ventilator steht in der Ecke, läuft aber selten.",
+   "art": "lueftung",
+   "gegenstand": "Lüftung im Raum"
+  },
+  {
+   "text": "Der Föhn ist über eine Steckdosenleiste am Eimer angeschlossen, die Kabel liegen quer über den Boden.",
+   "art": "elektrik",
+   "gegenstand": "Steckdosenleiste am Eimer und Kabel am Boden"
+  },
+  {
+   "text": "Der Boden ist mit Farbresten und Ölflecken übersät.",
+   "art": "weg_boden",
+   "gegenstand": "Boden mit Farbresten und Ölflecken"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Abbeizmittel ... mit dem Pinsel dick auf die Flächen gestrichen",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "kratzt den aufgeweichten Lack mit dem Spachtel ab und wischt mit Lappen nach",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "mit Heißluftföhn und Schleifpapier nachgearbeitet",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "der Boden wird mit Lösemittel abgeschrubbt",
+   "sicher": false
+  }
+ ]
+}
