@@ -15,13 +15,15 @@
   "stichprobe": "sonnet"
  },
  "runden": [
-  "R014"
+  "R014",
+  "R015"
  ],
  "versuche": {
   "R014:sprecher": 1,
   "R014:uebersetzer": 1,
   "R014:schiedsrichter": 1,
-  "R014:lueckenschliesser": 1
+  "R014:lueckenschliesser": 1,
+  "R015:sprecher": 1
  },
  "hinweise": [],
  "belegquoteZuBeginn": 25,

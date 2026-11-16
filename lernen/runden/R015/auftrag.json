@@ -1,0 +1,56 @@
+{
+ "runde": "R015",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R015-01",
+   "auftrag": "a161",
+   "branche": "Nutzfahrzeugwerkstatt",
+   "bereich": "Bremsen und Reifen am Lkw, Arbeiten in der Grube"
+  },
+  {
+   "kennung": "R015-02",
+   "auftrag": "a109",
+   "branche": "Treppenbau in Serie",
+   "bereich": "CNC-Bearbeitungszentrum für Wangen"
+  },
+  {
+   "kennung": "R015-03",
+   "auftrag": "a138",
+   "branche": "Blechbearbeitung",
+   "bereich": "Stanz-Nibbel-Maschine"
+  },
+  {
+   "kennung": "R015-04",
+   "auftrag": "a112",
+   "branche": "Maschinenbau",
+   "bereich": "CNC-Fräszentrum, Rüsten und Werkzeugwechsel"
+  },
+  {
+   "kennung": "R015-05",
+   "auftrag": "a149",
+   "branche": "Aluminiumbau",
+   "bereich": "Profile sägen und fräsen, Fenster- und Fassadenelemente"
+  },
+  {
+   "kennung": "R015-06",
+   "auftrag": "a096",
+   "branche": "Tischlerei",
+   "bereich": "Bandsäge, geschweifte Teile"
+  },
+  {
+   "kennung": "R015-07",
+   "auftrag": "a140",
+   "branche": "Bandstahl",
+   "bereich": "Spaltanlage, Coil einfädeln"
+  },
+  {
+   "kennung": "R015-08",
+   "auftrag": "a130",
+   "branche": "Eisengießerei",
+   "bereich": "Formanlage und Sandaufbereitung"
+  }
+ ]
+}
