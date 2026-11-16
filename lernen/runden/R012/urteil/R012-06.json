@@ -1,0 +1,19 @@
+{"id":"R012-06",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Unerwarteter Anlauf im Sonderbetrieb","grund":"Greift die Hand bei klemmendem Werkzeug in den Stanzbereich, kann die Presse anlaufen, und die Maßnahme sichere Arbeitsverfahren bei abweichendem Zustand passt."},
+  {"nr":2,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Die Schutztür klemmt und ist offen gestellt, und die Maßnahme Schutzeinrichtung wirksam halten passt."},
+  {"nr":3,"urteil":"getroffen","system":"Schnitt- und Stichverletzung","grund":"Das Blech wird über Rollen eingefädelt, und die Maßnahmen schnittfeste Handschuhe und entgratete Kanten passen."},
+  {"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der Stanzvorgang ist laut, und die Gehörschutz-Maßnahmen passen."},
+  {"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Der Boden ist ölig, und die Maßnahmen Verunreinigungen beseitigen und rutschhemmende Schuhe passen."},
+  {"nr":6,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Gereinigt wird mit Druckluft, wobei Späne zur Seite fliegen, und die Maßnahme sichere Arbeitsweise festlegen passt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"berechtigt","grund":"Die Hand greift in den Stanzbereich der Presse, wenn ein Werkzeug klemmt."},
+  {"gefaehrdung":"Person wird von Fahrzeug angefahren oder überrollt","urteil":"typisch","grund":"Die halbe Tonne schwere Bandrolle wird mit dem Hubwagen herangefahren, Sicherheitsschuhe und freie Verkehrswege gehören dazu."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"unbegruendet","grund":"Das Protokoll nennt Späne und Blech, keinen Staub."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"Die Beleuchtung über dem Platz ist schwach."},
+  {"gefaehrdung":"Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten","urteil":"typisch","grund":"Die schwere Bandrolle wird mit dem Hubwagen bewegt, typisch für das Ziehen und Schieben schwerer Lasten."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Die schwere Bandrolle kann beim Transport wegrollen oder abrutschen."},
+  {"gefaehrdung":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","urteil":"berechtigt","grund":"Die Beleuchtung über dem Platz ist schwach und muss instand gesetzt werden."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der Stanzautomat ist kraftbetrieben, bei dem Unterweisung und Betriebsanweisung zu prüfen sind."}
+ ]}

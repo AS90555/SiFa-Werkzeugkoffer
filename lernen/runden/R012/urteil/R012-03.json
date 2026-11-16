@@ -1,0 +1,23 @@
+{"id":"R012-03",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Gasbrenner und frisch gelötete Rohre sind heiß, und die Maßnahmen fester Ablageplatz und hitzebeständige Handschuhe passen."},
+  {"nr":2,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Die Flex wirft Funken über den Boden, und die Maßnahme brennbare Stoffe aus dem Funkenbereich entfernen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Der Gasbrenner steht neben dem Karton mit Dämmmaterial, und die Maßnahme von Zündquellen fernhalten passt."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Einatmen von Lösungsmitteldämpfen ist im System nicht als eigene Gefahr genannt; der offene Gebinde-Mangel gehört schon zur Brandgefahr aus Nr. 3."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Der über 100 Kilogramm schwere Kessel wird zu zweit gehoben, und die Maßnahme Hebehilfe passt."},
+  {"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Enge, niedrige Räume führen zum Anstoßen und Stolpern, und die Maßnahme Bewegungsflächen und Verkehrswege freihalten passt."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Ein Stromschlag durch den Strahler ist im System nicht genannt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Das Trennen mit der Flex ist typischerweise laut, das Protokoll spricht den Lärm nicht aus."},
+  {"gefaehrdung":"Kontakt mit laufendem Werkzeug","urteil":"typisch","grund":"Das Trennen mit der laufenden Flex gehört typischerweise zur Prüfung von Schutzhaube und Handhabung."},
+  {"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Das Protokoll beschreibt keine gleichförmige, sich wiederholende Arbeit."},
+  {"gefaehrdung":"Getroffen werden von Klammer oder Teil","urteil":"typisch","grund":"Die Flex schleudert Funken, Splitter und Teile, typischerweise gegen Gesicht und Körper."},
+  {"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Der schwere Kessel wird von Hand auf den Sockel abgesetzt, wobei Finger gequetscht werden können."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"typisch","grund":"Das Trennen mit der Flex erzeugt Metall- und Schleifstaub."},
+  {"gefaehrdung":"Muskel-Skelett-Beschwerden durch Zwangshaltung","urteil":"berechtigt","grund":"Der Keller ist eng und niedrig, man muss gebückt arbeiten."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Gasbrenner, Flex und Pressmaschine sind kraftbetrieben, bei denen Unterweisung und Betriebsanweisung zu prüfen sind."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Der über 100 Kilogramm schwere Kessel wird gehoben und kann beim Heben rutschen."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Flex schneidet Stahlrohre, dabei fliegen Funken über den Boden."},
+  {"gefaehrdung":"Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar","urteil":"berechtigt","grund":"Der Feuerlöscher steht im Flur, nicht im Keller."}
+ ]}

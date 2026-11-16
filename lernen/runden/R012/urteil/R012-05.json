@@ -1,0 +1,15 @@
+{"id":"R012-05",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Der Lösemittelgeruch im Mischraum und der Nebel am Spritzstand zeigen Dämpfe, und die Maßnahme Lüftung instand setzen passt."},
+  {"nr":2,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Das Lösemittelgemisch steht im offenen Eimer, und die Maßnahme Behälter geschlossen halten passt."},
+  {"nr":3,"urteil":"getroffen","system":"Brand oder Explosion durch entzündbare Stoffe oder Gase","grund":"Der Lösemittellack kann sich entzünden, und die Maßnahmen Zündquellen fernhalten und Explosionsschutz prüfen passen."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Das Heben und Ablegen der Teile am Hänger ist im System nicht als Muskel-Skelett-Gefährdung genannt."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die Halle ist im Sommer warm, und die Maßnahmen Abschirmung der Wärmequelle und Trinkpausen passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Die Pumpe und die Absaugung werden von der Instandhaltung eingestellt, das Protokoll spricht den Anlauf nicht aus."},
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Die Teile hängen am Hänger, der ausgefahren wird."},
+  {"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Der Umgang mit Lack und Lösemittel an offenen Gebinden gehört typischerweise zu Schutzbrille und Handschuhen."},
+  {"gefaehrdung":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","urteil":"typisch","grund":"Der Takt von etwa zwanzig Minuten im Schichtbetrieb legt die Prüfung der psychischen Belastung nahe."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Spritzpistolen, Pumpe und Mischautomat sind kraftbetrieben, bei denen Unterweisung und Betriebsanweisung zu prüfen sind."}
+ ]}

@@ -1,0 +1,18 @@
+{"id":"R012-04",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","grund":"Der zweite Hebel der Spaltmaschine ist überbrückt, und die Maßnahme Arbeitsmittel erst bei wirksamer Schutzeinrichtung verwenden passt."},
+  {"nr":2,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Das Schutzgitter der Säge wird oft nicht zurückgesetzt, und die Maßnahme Schutzeinrichtungen benutzen passt."},
+  {"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Nasses, unebenes Holz und Schotter sind der Anlass, und die Maßnahmen rutschhemmender Fußboden und rutschhemmende Schuhe passen."},
+  {"nr":4,"urteil":"getroffen","system":"Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten","grund":"Schwere Stämme werden mit dem Rollwagen über unebene Wege gezogen, und die Maßnahme geeignete Transportmittel und ebene Fahrwege passt."},
+  {"nr":5,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der laufende Hydraulikmotor ist laut, und die Gehörschutz-Maßnahmen passen; die Vibration ist im System nicht eigens genannt."},
+  {"nr":6,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Holzstaub und Rinde entstehen beim Sägen und Abblasen, und die Maßnahmen Absaugung und Abblasverbot passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Die schweren Stämme werden von Hand herangezogen und bewegt."},
+  {"gefaehrdung":"Brand oder Staubexplosion","urteil":"berechtigt","grund":"Holzstaub verteilt sich auf dem Platz und wird mit dem Blasgerät aufgewirbelt."},
+  {"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Beim Sägen entsteht viel Staub, und Rinde fliegt weg."},
+  {"gefaehrdung":"Belastung und Unfallgefahr durch Witterung im Freien","urteil":"berechtigt","grund":"Der Platz liegt im Freien, und bei Regen rutscht man auf dem Holz."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Spaltmaschine und Wippkreissäge sind kraftbetrieben, bei denen Unterweisung und Betriebsanweisung zu prüfen sind."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"berechtigt","grund":"Das Holz liegt in Haufen und Stapeln auf dem Platz."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Das Blasgerät wirbelt Holzstaub auf."}
+ ]}

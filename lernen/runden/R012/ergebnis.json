@@ -1,0 +1,146 @@
+{
+ "runde": "R012",
+ "blind": true,
+ "regeln": 124,
+ "quote": 80,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 43,
+  "schritte": 40,
+  "maengel": 39
+ },
+ "faelle": [
+  {
+   "id": "R012-01",
+   "arbeitsplatz": "Bucht mit Hebebühnen für Scheibentausch und Airbag-Arbeiten",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-02",
+   "arbeitsplatz": "Metallplattform mit Leiter am Spänesilo und Filtergehäuse der Absauganlage",
+   "branche": "Holzverarbeitung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-03",
+   "arbeitsplatz": "Heizungskeller eines Wohnhauses beim Kesseltausch mit Löten, Pressen und Trennen",
+   "branche": "Heizungsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-04",
+   "arbeitsplatz": "Freiplatz mit hydraulischer Spaltmaschine und Wippkreissäge auf Holzbock",
+   "branche": "Brennholz",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-05",
+   "arbeitsplatz": "Spritzstand für Nasslack, Farbmischraum",
+   "branche": "Industrielackiererei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-06",
+   "arbeitsplatz": "Stanzautomat mit Bandzuführung",
+   "branche": "Kleinteilefertigung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-07",
+   "arbeitsplatz": "Breitbandschleifmaschine",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R012-08",
+   "arbeitsplatz": "Oberfräse und Schleifen von Hand, Ölen",
+   "branche": "Holz, Treppenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 10,
+   "verfehlt": 2
+  },
+  "2": {
+   "getroffen": 0,
+   "verfehlt": 2
+  },
+  "3": {
+   "getroffen": 8,
+   "verfehlt": 2
+  },
+  "5": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 2
+  },
+  "11": {
+   "getroffen": 1,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 80,
+  "getroffen": 40,
+  "rueckfrage": 0,
+  "verfehlt": 10,
+  "unbegruendet": 0,
+  "zBerechtigt": 29,
+  "zTypisch": 22,
+  "zUnbegruendet": 3
+ }
+}

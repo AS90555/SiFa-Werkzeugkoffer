@@ -1,0 +1,17 @@
+{"id":"R012-02",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Die glatte Plattform mit Spänen am Boden ist der Anlass, und die Maßnahmen Stolperstellen beseitigen und rutschhemmende Schuhe passen."},
+  {"nr":2,"urteil":"getroffen","system":"Unfall durch eine gefährliche Arbeitsweise oder Lage","grund":"Das Nachstochern mit dem Besenstiel in das Silo bei laufender Schnecke ist der Anlass, und die Maßnahme Arbeit unterbrechen und sichere Arbeitsweise festlegen passt."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Das Nachlaufen des Motors und bewegliche Teile sind im System nicht als Gefahr genannt; der unerwartete Anlauf meint etwas anderes."},
+  {"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Der Staub setzt sich auf Filter und Kleidung, und die Maßnahme Aufsaugen statt Abblasen passt."},
+  {"nr":5,"urteil":"getroffen","system":"Brand oder Staubexplosion","grund":"Das Abstauben mit dem Handfeger wirbelt Staub auf, und die Maßnahmen Zündquellen vermeiden und Explosionsschutzdokument passen."},
+  {"nr":6,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Schwere Filterpatronen werden über Kopf gehoben, und die Maßnahme Hebehilfe passt."},
+  {"nr":7,"urteil":"verfehlt","system":null,"grund":"Warme Luft ohne Fenster ist im System nicht genannt."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Der Filterwechsel an der Anlage mit Hauptschalter gehört typischerweise zur Frage des unerwarteten Wiederanlaufs, das Protokoll spricht ihn nicht aus."},
+  {"gefaehrdung":"Verschüttung, Sauerstoffmangel oder Absturz in Silos, Behältern und engen Räumen","urteil":"berechtigt","grund":"Das Protokoll nennt das Klettern in das Silo."},
+  {"gefaehrdung":"Absturz aus der Höhe","urteil":"berechtigt","grund":"Gearbeitet wird oben am Silo auf einer gut vier Meter hohen Plattform, zu der eine Leiter führt."},
+  {"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"berechtigt","grund":"Filterpatronen werden oben über Kopf gehoben, während ein Kollege unten am Schaltkasten steht."},
+  {"gefaehrdung":"Absturz aus der Höhe","urteil":"berechtigt","grund":"Die Leiter hat keinen Rückenschutz."}
+ ]}

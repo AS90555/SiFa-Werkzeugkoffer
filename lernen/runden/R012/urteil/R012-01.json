@@ -1,0 +1,17 @@
+{"id":"R012-01",
+ "wahrheit":[
+  {"nr":1,"urteil":"verfehlt","system":null,"grund":"Das System kennt keine Gefahr durch Hebebühnen; die schwebende Last betrifft nur den Saugheber der Scheibe."},
+  {"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Das quer über den Boden liegende Kabel ist der Anlass, und die Maßnahme Stolperstellen beseitigen oder kennzeichnen passt."},
+  {"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Systemgefährdung betrifft die ungewollte Auslösung des Airbags."},
+  {"nr":4,"urteil":"verfehlt","system":null,"grund":"Dämpfe von Kleber und Primer sind im System nicht genannt."},
+  {"nr":5,"urteil":"getroffen","system":"Atemwegserkrankung durch Staub","grund":"Das Abblasen mit Druckluft wirbelt Staub auf, und die Maßnahme Saugen statt Abblasen passt."},
+  {"nr":6,"urteil":"verfehlt","system":null,"grund":"Das System nennt nur die fehlende Prüfung des Löschers, nicht die Brandgefahr durch Kleber und Lösemittel."},
+  {"nr":7,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Der laute Draht-Cutter ist im Protokoll genannt, und die Gehörschutz-Maßnahmen passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Das Protokoll nennt den Saugheber, mit dem die Scheibe herausgehoben wird."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Der elektrische Draht-Cutter ist eine kraftbetriebene Maschine, bei der Unterweisung und Betriebsanweisung zu prüfen sind."},
+  {"gefaehrdung":"Elektrischer Schlag, Störlichtbogen","urteil":"berechtigt","grund":"Das Protokoll nennt das Kabel, das quer über den Boden des Arbeitsplatzes verläuft."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Gereinigt wird mit Druckluft, wobei der Staub durch die Halle fliegt."},
+  {"gefaehrdung":"Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung","urteil":"berechtigt","grund":"Der Prüfstempel des Feuerlöschers ist verblasst."}
+ ]}

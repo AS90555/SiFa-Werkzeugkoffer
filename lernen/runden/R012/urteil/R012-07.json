@@ -1,0 +1,18 @@
+{"id":"R012-07",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Einzug von Hand oder Arm","grund":"Beim Einlegen und beim Bandwechsel kommt die Hand nah an das laufende Band, und die Maßnahme Werkstückauflage und Anschlag passt."},
+  {"nr":2,"urteil":"verfehlt","system":null,"grund":"Das schwere Schieben der Platten führt im System zu keiner Muskel-Skelett-Gefährdung."},
+  {"nr":3,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Der Schleifstaub wird eingeatmet, und die Maßnahmen Absaugung und Staub aufsaugen statt abblasen passen."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Staubexplosion","grund":"Der Staub im offenen Sack kann sich entzünden oder eine Staubexplosion auslösen, und die Maßnahmen Reinigungsplan und Zündquellen vermeiden passen."},
+  {"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Die Halle wird im Winter kalt, und die Maßnahmen arbeitsplatzbezogen heizen und geeignete Kleidung passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Gehörschaden durch Lärm","urteil":"typisch","grund":"Schleifmaschinen sind typischerweise laut, das Protokoll spricht den Lärm nicht aus."},
+  {"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Der Bandwechsel an der Maschine gehört typischerweise zur Frage des unerwarteten Anlaufs."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Abdeckung der Walzen fehlt an einer Seite."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Die Schleifmaschine ist kraftbetrieben, bei der Unterweisung und Betriebsanweisung zu prüfen sind."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Die Tür zum Hof steht im Winter oft offen."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Am Einlauf kommt eine dicke Staubwolke heraus, die sich im Raum verteilt."},
+  {"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"unbegruendet","grund":"Schleifstaub auf Fensterbänken begründet keine Sturz- oder Rutschgefahr."},
+  {"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Der Staub landet in einem offenen Sack."}
+ ]}

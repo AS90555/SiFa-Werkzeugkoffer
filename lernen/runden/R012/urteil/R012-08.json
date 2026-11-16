@@ -1,0 +1,17 @@
+{"id":"R012-08",
+ "wahrheit":[
+  {"nr":1,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Die Hände führen das Werkstück am ungeschützten Fräser, und die Maßnahme Schutzeinrichtungen benutzen und Schiebehilfsmittel verwenden passt."},
+  {"nr":2,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Der lose hängende Absaugschlauch lässt Staub ungefasst in die Atemluft, und die Maßnahmen Absaugung und Wirksamkeit prüfen passen."},
+  {"nr":3,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Das Öl-Wachs-Gemisch steht im offenen Eimer, und die Maßnahme Behälter geschlossen halten passt."},
+  {"nr":4,"urteil":"getroffen","system":"Brand oder Staubexplosion","grund":"Die zusammengeknüllten, mit Öl getränkten Lappen können sich selbst entzünden, und die Maßnahmen Reinigungsplan und Zündquellen vermeiden passen."},
+  {"nr":5,"urteil":"getroffen","system":"Muskel-Skelett-Beschwerden durch Zwangshaltung","grund":"Das ständige Schleifen über Schulterhöhe ist eine ungünstige Körperhaltung, und die Maßnahme Arbeitshöhe so gestalten passt."},
+  {"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Die Fräse ist laut, und die Gehörschutz-Maßnahmen passen."},
+  {"nr":7,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Der Arbeitsplatz heizt sich im Sommer unter dem Oberlicht auf und zieht im Winter, und die Maßnahmen Abschirmung, Lüftung und Heizung passen."}
+ ],
+ "zusaetzlich":[
+  {"gefaehrdung":"Krebs der Nase durch Hartholzstaub","urteil":"berechtigt","grund":"Eiche und Buche sind Hartholz, dessen Staub krebserzeugend ist."},
+  {"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Maschine hat keine Abdeckung."},
+  {"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Der Schleifer wird meistens über Schulterhöhe gehalten."},
+  {"gefaehrdung":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","urteil":"berechtigt","grund":"Der Absaugschlauch hängt lose am Fräser."},
+  {"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Oberfräse und Handschleifer sind kraftbetrieben, bei denen Unterweisung und Betriebsanweisung zu prüfen sind."}
+ ]}
