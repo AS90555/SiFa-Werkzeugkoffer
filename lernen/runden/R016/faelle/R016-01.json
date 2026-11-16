@@ -1,7 +1,5 @@
 {"id":"R016-01","name":"R016-01","betrieb":{},"angaben":{},
  "stoffe":[
-  {"id":"s1","name":"Entwicklerflüssigkeit","sdb":null,"h":[]},
-  {"id":"s2","name":"Fixierer","sdb":null,"h":[]},
   {"id":"s3","name":"Lösemittel zum Abwischen der Kassetten","material":"loesemittel","sdb":null,"h":[]}],
  "stationen":[
   {"nr":1,"name":"Röntgenprüfung von Schweißnähten an Behältern","bereich":"Prüfbereich","personen":3,"umgebung":["kalt"],"angaben":{"last_kg":900},
@@ -15,7 +13,7 @@
  "wuensche":[
   {"text":"Die Schweißnaht wird mit einem mobilen Röntgengerät durchstrahlt (250 kV, Bedienpult, Tür verschlossen, Helfer hinter Bleitür)","fehlt":"Vorgang Röntgen- oder Strahlenprüfung (ionisierende Strahlung) fehlt"},
   {"text":"Behälter, stehender Stahlbehälter, 1,8 m Durchmesser, 900 kg","fehlt":"Material großer Stahlbehälter fehlt"},
-  {"text":"Entwicklungsautomat mit Entwicklerflüssigkeit und Fixierer in Kanistern, alle zwei Wochen nachgefüllt","fehlt":"Material Fotochemikalien (Entwickler, Fixierer) fehlt; Schritt Entwicklungsautomat bedienen nicht angelegt"},
+  {"text":"Entwicklungsautomat mit Entwicklerflüssigkeit und Fixierer in Kanistern, alle zwei Wochen nachgefüllt","fehlt":"Material Fotochemikalien (Entwickler, Fixierer) fehlt, daher nicht als Stoffe eingetragen; Schritt Entwicklungsautomat bedienen nicht angelegt"},
   {"text":"Rüsten macht der Prüfer selbst, die Röhre wird einmal im Jahr von einer Fremdfirma gewartet","fehlt":"Kein beschriebener Vorgang an der Maschine, daher kein Sonderbetrieb-Schritt; Fremdfirma-Wartung nicht beschrieben"},
   {"text":"Die Kabine ist durch eine Tür vom Rest der Halle abgetrennt","fehlt":"Umgebung Strahlenbereich oder Kontrollbereich fehlt"}],
  "maengel":[
