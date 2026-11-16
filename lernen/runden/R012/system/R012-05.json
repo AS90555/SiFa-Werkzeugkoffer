@@ -1,0 +1,117 @@
+{
+ "id": "R012-05",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Aufhängepunkte nach Gewicht festlegen",
+    "Bereich unter dem Förderer sichern"
+   ],
+   "entsteht": [
+    "Schwebende, fahrende Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Explosionsschutz prüfen und im Explosionsschutzdokument ausweisen",
+    "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+    "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+    "Zündquellen fernhalten, Explosionsschutz prüfen"
+   ],
+   "entsteht": [
+    "Explosionsfähige Atmosphäre",
+    "Entzündbare Flüssigkeit, Dämpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einstufung nach Sicherheitsdatenblatt",
+    "Schutzbrille und Handschuhe",
+    "Augenspülung in der Nähe"
+   ],
+   "entsteht": [
+    "Meist alkalischer Reiniger"
+   ]
+  },
+  {
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird",
+    "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+   ],
+   "entsteht": [
+    "Arbeiten in Hektik"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen",
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: am Eingang zieht man beim Ausfahren des Hängers oft Nebel mit heraus, das sieht man an der Decke",
+    "Mangel vor Ort: im Mischraum riecht es deutlich nach Lösemittel"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten",
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Gebinde stehen zum Teil offen auf einem Rollwagen",
+    "Mangel vor Ort: das Spülmittel ist ein Lösemittelgemisch in einem offenen Eimer"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Schädigung des ungeborenen Kindes",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

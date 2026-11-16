@@ -1,0 +1,29 @@
+{"id":"R012-01","name":"R012-01","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Primer für die Dichtung","material":"lack","sdb":null,"h":[]},
+           {"id":"s2","name":"Polyurethan-Kleber","material":"kleber_2k","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Scheibentausch und Airbag","bereich":"Scheibentausch und Airbag","personen":2,"umgebung":["werkstatt","laerm_umgebung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"schneiden","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"heben","ausfuehrung":"vakuumheber","material":[]},
+   {"vorgang":"kleben","ausfuehrung":"von_hand","material":["dichtung"]},
+   {"vorgang":"einsetzen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"abblasen","ausfuehrung":"handmaschine","material":[]}]}],
+ "wuensche":[
+  {"text":"die alte Scheibe ausgeschnitten, mit einem elektrischen Draht-Cuttermesser","fehlt":"Material Fahrzeugscheibe (Verbundglas) fehlt; Isolierglas passt nicht"},
+  {"text":"mit einem Saugheber herausgehoben","fehlt":"Material Fahrzeugscheibe fehlt"},
+  {"text":"Primer vorbehandelt, Polyurethan-Kleber","fehlt":"Primer als lack (Grundierung) und PU-Kleber als kleber_2k nur Näherung; einkomponentiger Kleber fehlt als Material"},
+  {"text":"Beim Airbag-Arbeiten, Batterie abgeklemmt, Schild auf der Motorhaube","fehlt":"Vorgang und Material für Airbag-Arbeiten (pyrotechnische Teile) fehlen; das Protokoll beschreibt keine Tätigkeit"},
+  {"text":"Gereinigt wird am Ende des Tages mit Druckluft, der Staub fliegt","fehlt":"Material für Staub aus dem Fahrzeug fehlt (kein Holzstaub)"},
+  {"text":"Der Kleber stinkt stark","fehlt":"Dämpfe des Klebers als Material; Umgebung stickig nicht ausdrücklich genannt"},
+  {"text":"Gerüstet wird vom Meister, der Lehrling putzt die Gläser","fehlt":"keine Tätigkeit beschrieben; Alter des Lehrlings nicht genannt (Jugendliche offen)"}],
+ "maengel":[
+  {"text":"ein Kabel quert den Boden","art":"elektrik","gegenstand":"Kabel am Boden"},
+  {"text":"Werkzeuge liegen verstreut herum","art":"weg_boden","gegenstand":"Boden an der Werkbank"},
+  {"text":"Ein Feuerlöscher hängt an der Wand, der Prüfstempel ist verblasst","art":"organisation","gegenstand":"Feuerlöscher"},
+  {"text":"Gereinigt wird am Ende des Tages mit Druckluft, der Staub fliegt dabei durch die Halle","art":"arbeitsweise","gegenstand":"Abblasen mit Druckluft"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"die alte Scheibe ausgeschnitten, mit einem elektrischen Draht-Cuttermesser","sicher":true},
+  {"schritt":2,"stelle":"mit einem Saugheber herausgehoben","sicher":true},
+  {"schritt":3,"stelle":"Die Dichtung wird mit einem Primer vorbehandelt","sicher":false},
+  {"schritt":4,"stelle":"die neue Scheibe mit Polyurethan-Kleber eingesetzt","sicher":true},
+  {"schritt":5,"stelle":"Gereinigt wird am Ende des Tages mit Druckluft","sicher":true}]}

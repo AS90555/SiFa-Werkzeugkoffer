@@ -1,0 +1,158 @@
+{
+ "id": "R012-08",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absaugung an der Entstehungsstelle",
+    "Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub",
+    "Abblasen und trockenes Kehren sind nicht zulässig",
+    "Aufsaugen mit Sauger mindestens Staubklasse M",
+    "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen",
+    "Maschine nur mit eingeschalteter Absaugung betreiben"
+   ],
+   "entsteht": [
+    "Holzstaub",
+    "Aufgewirbelter Staub",
+    "Absaugung fehlt, ist abgeschaltet oder wirkt nicht mehr"
+   ]
+  },
+  {
+   "gefaehrdung": "Krebs der Nase durch Hartholzstaub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Pflichtvorsorge bei Überschreitung von 2 mg/m³, Angebotsvorsorge bei Einhaltung, nachgehende Vorsorge",
+    "Verzeichnis der exponierten Beschäftigten führen und 40 Jahre aufbewahren"
+   ],
+   "entsteht": [
+    "Krebserzeugender Staub"
+   ]
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Reinigungsplan",
+    "Zündquellen vermeiden"
+   ],
+   "entsteht": [
+    "Brennbare Staubschicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen",
+    "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden",
+    "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz"
+   ],
+   "entsteht": [
+    "Hand nah am laufenden Werkzeug"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte",
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft",
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden",
+    "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+   ],
+   "entsteht": [
+    "Langes Arbeiten in ungünstiger Körperhaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: eine Abdeckung hat die Maschine nicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Person hält ihn meistens über Schulterhöhe"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Absaugschlauch hängt lose am Fräser"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten",
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten",
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: einem offenen Eimer mit Öl-Wachs-Gemisch",
+    "Mangel vor Ort: die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke neben der Werkbank",
+    "Mangel vor Ort: weil dafür kein fester Behälter steht"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+  "Schädigung des ungeborenen Kindes",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

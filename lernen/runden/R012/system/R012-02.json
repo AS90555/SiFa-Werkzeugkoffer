@@ -1,0 +1,139 @@
+{
+ "id": "R012-02",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abblasen und trockenes Kehren sind nicht zulässig",
+    "Aufsaugen mit Sauger mindestens Staubklasse M"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Reinigungsplan",
+    "Zündquellen vermeiden",
+    "Explosionsschutzdokument",
+    "Funkenlöschung und Druckentlastung",
+    "Prüfung der Anlage"
+   ],
+   "entsteht": [
+    "Brennbare Staubschicht",
+    "Explosionsfähige Atmosphäre"
+   ]
+  },
+  {
+   "gefaehrdung": "Verschüttung, Sauerstoffmangel oder Absturz in Silos, Behältern und engen Räumen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Nur mit Erlaubnisschein",
+    "Sicherungsposten"
+   ],
+   "entsteht": [
+    "Enger Raum, Schüttgut"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter",
+    "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt",
+    "Unterweisung und Beauftragung der Bediener",
+    "Leiter nur für kurze, leichte Arbeiten; Standhöhe und Dauer begrenzen",
+    "Leitern regelmäßig prüfen"
+   ],
+   "entsteht": [
+    "Arbeitsplatz über dem Boden",
+    "Stand auf schmaler Stufe oder Sprosse"
+   ]
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bereich darunter absperren",
+    "Werkzeug sichern"
+   ],
+   "entsteht": [
+    "Werkzeug und Bauteile über Personen"
+   ]
+  },
+  {
+   "gefaehrdung": "Absturz aus der Höhe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absturzsicherung herstellen; bis dahin den Bereich sperren"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Leiter hat keinen Rückenschutz"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: klettert man in das Silo und stochert mit einem Besenstiel nach"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Plattform ist glatt, Späne liegen auf dem Boden"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

@@ -1,0 +1,30 @@
+{"id":"R012-04","name":"R012-04","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Spaltmaschine und Wippkreissäge","bereich":"Spaltmaschine und Wippkreissäge","personen":2,"umgebung":["aussen","witterung","boden","laerm_umgebung"],"angaben":{},
+  "schritte":[
+   {"vorgang":"ziehen_schieben","ausfuehrung":"von_hand","material":["rundholz"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["rundholz"]},
+   {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["rundholz","holzstaub"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"stationaer_handvorschub","material":["rundholz"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]},
+   {"vorgang":"abblasen","ausfuehrung":"handmaschine","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"der andere spaltet","fehlt":"Vorgang Spalten fehlt (Maschine bedienen nur als Näherung); Ausführung hydraulische Spaltmaschine fehlt"},
+  {"text":"Die Spaltmaschine ist laut, wenn der Hydraulikmotor anläuft, und vibriert","fehlt":"Schwingungen als Umgebung oder Angabe fehlen"},
+  {"text":"Gerüstet wird vom Betriebsleiter","fehlt":"keine Tätigkeit beschrieben"},
+  {"text":"einer legt Stämme auf","fehlt":"Auflegen und Ziehen mit Rollwagen: Ausführung Rollwagen fehlt, Näherung von Hand"}],
+ "maengel":[
+  {"text":"der zweite Hebel ist mit einem Draht überbrückt","art":"schutzeinrichtung","gegenstand":"Zweihandbedienung der Spaltmaschine"},
+  {"text":"Das Schutzgitter der Säge wird beim Wechsel oft nicht zurückgesetzt","art":"schutzeinrichtung","gegenstand":"Schutzgitter der Wippkreissäge"},
+  {"text":"Das Holz liegt in Haufen überall auf dem Platz, zwischen den Stapeln sind Stolperstellen","art":"weg_boden","gegenstand":"Platz zwischen den Holzstapeln"},
+  {"text":"Bei Regen rutscht man auf dem Holz, der Platz ist uneben","art":"weg_boden","gegenstand":"Schotterplatz"},
+  {"text":"einem Blasgerät, das Holzstaub aufwirbelt","art":"arbeitsweise","gegenstand":"Reinigen mit Blasgerät"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"sie werden von Hand mit dem Rollwagen herangezogen","sicher":true},
+  {"schritt":2,"stelle":"einer legt Stämme auf","sicher":true},
+  {"schritt":3,"stelle":"Die Säge schneidet die Stämme in Scheite, dabei entsteht viel Staub","sicher":true},
+  {"schritt":4,"stelle":"der andere spaltet","sicher":false},
+  {"schritt":5,"stelle":"der Wechsel der Sägeblätter ist Handarbeit","sicher":true},
+  {"schritt":6,"stelle":"Gereinigt wird mit dem Besen","sicher":true},
+  {"schritt":7,"stelle":"und einem Blasgerät, das Holzstaub aufwirbelt","sicher":true}]}

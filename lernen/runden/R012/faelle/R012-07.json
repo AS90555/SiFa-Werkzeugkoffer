@@ -1,0 +1,23 @@
+{"id":"R012-07","name":"R012-07","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Breitbandschleifmaschine","bereich":"Tischlerei","personen":1,"umgebung":["kalt"],"angaben":{},
+  "schritte":[
+   {"vorgang":"schleifen","ausfuehrung":"stationaer_handvorschub","material":["massivholzteil","plattenware","holzstaub"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"Sie werden von Hand auf den Tisch gelegt und durch die Maschine geschoben","fehlt":"Unklar, ob stationäre Maschine mit Handvorschub oder Durchlaufmaschine; als Handvorschub eingetragen, unsicher"},
+  {"text":"Die Platten sind zum Teil lackiert, und an der Maschine riecht es manchmal nach Lack","fehlt":"Lackierte Platten als Material beim Schleifen nicht passend vorhanden"},
+  {"text":"Beim Einlegen steht der Geselle seitlich, weil die großen Platten sonst nicht durchpassen","fehlt":"Körperhaltung nicht eindeutig einer Umgebung oder einem Mangel zuzuordnen"},
+  {"text":"Platten bis etwa einen Meter zwanzig breit, ein bis zwei Minuten je Platte","fehlt":"Kein Gewicht genannt, keine Griffe je Stunde"},
+  {"text":"das macht ein Geselle allein im Einschichtbetrieb","fehlt":"Alleinarbeit außer Ruf- und Sichtweite nicht ausdrücklich genannt, daher nicht eingetragen"}],
+ "maengel":[
+  {"text":"am Einlauf kommt eine dicke Staubwolke heraus, die sich im Raum verteilt","art":"lueftung","gegenstand":"Absaugung am Einlauf der Breitbandschleifmaschine"},
+  {"text":"Der Schleifstaub liegt auf den Fensterbänken","art":"weg_boden","gegenstand":"Staubablagerung im Raum"},
+  {"text":"Die Abdeckung der Walzen fehlt an einer Seite","art":"schutzeinrichtung","gegenstand":"Walzenabdeckung der Breitbandschleifmaschine"},
+  {"text":"der Staub landet in einem offenen Sack","art":"stoff_lagerung","gegenstand":"offener Sack mit Kehricht und Schleifstaub"},
+  {"text":"die Tür zum Hof steht dann oft offen","art":"arbeitsweise","gegenstand":"offene Hoftür im Winter"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Sie werden von Hand auf den Tisch gelegt und durch die Maschine geschoben","sicher":false},
+  {"schritt":2,"stelle":"gewechselt werden sie vom Gesellen selbst, dafür zieht er die Abdeckung ab","sicher":true},
+  {"schritt":3,"stelle":"Einmal am Tag wird mit dem Besen gekehrt","sicher":true}]}

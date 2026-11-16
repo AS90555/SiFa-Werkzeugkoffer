@@ -1,0 +1,32 @@
+{"id":"R012-05","name":"R012-05","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"zweikomponentiger Nasslack auf Lösemittelbasis","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Härter für den Lack","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Spülmittel, Lösemittelgemisch für die Pistolenreinigung","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Spritzstand Nasslack mit Farbmischraum","bereich":"Lackiererei","personen":2,"umgebung":["hitze","taktarbeit"],"angaben":{"last_kg":4},
+  "schritte":[
+   {"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["lack"]},
+   {"vorgang":"haengend_foerdern","ausfuehrung":"haengefoerderer","material":["stahlprofil","blechteil"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"tauchreinigen","ausfuehrung":"tauchbad","material":["lackreste","loesemittel"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"Doppelmembranpumpe zieht den Lack aus dem Gebinde","fehlt":"Kein eigener Schritt für Pumpenförderung von Lack; nur im Rüsten mit erfasst"},
+  {"text":"Mischautomat im Farbmischraum, Töne werden angesetzt","fehlt":"Ausführung für Anmischen mit Mischautomat fehlt; als von Hand eingetragen, unsicher"},
+  {"text":"Teile kommen im Takt von etwa zwanzig Minuten am Hänger","fehlt":"Keine Zahl der Griffe je Stunde genannt, daher keine Angabe; Ausführung Hängeförderer ist vermutet"},
+  {"text":"Teile zwischen einem halben und vier Kilo","fehlt":"Last je Griff nur als Höchstwert 4 kg eingetragen"},
+  {"text":"Härter wird vor Ort zugemischt","fehlt":"Eigener Schritt Umfüllen/Zumischen des Härters nicht getrennt vom Anmischen"},
+  {"text":"Schichtbetrieb, einer lackiert, der andere legt Teile ab und nimmt sie ab","fehlt":"Keine Angabe zur Schichtzahl in den Stammdaten"}],
+ "maengel":[
+  {"text":"am Eingang zieht man beim Ausfahren des Hängers oft Nebel mit heraus, das sieht man an der Decke","art":"lueftung","gegenstand":"Absaugung am Eingang des Spritzstands"},
+  {"text":"im Mischraum riecht es deutlich nach Lösemittel","art":"lueftung","gegenstand":"Farbmischraum"},
+  {"text":"die Gebinde stehen zum Teil offen auf einem Rollwagen","art":"stoff_lagerung","gegenstand":"offene Lackgebinde im Farbmischraum"},
+  {"text":"das Spülmittel ist ein Lösemittelgemisch in einem offenen Eimer","art":"stoff_lagerung","gegenstand":"offener Eimer mit Spülmittel"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gespritzt wird von Hand mit einer Druckluftpistole","sicher":true},
+  {"schritt":2,"stelle":"legt die Teile auf den Hängern ab und nimmt sie wieder ab","sicher":false},
+  {"schritt":3,"stelle":"Im Farbmischraum daneben steht der Mischautomat, hier werden die Töne angesetzt","sicher":false},
+  {"schritt":4,"stelle":"Gereinigt werden die Pistolen nach jeder Schicht in einem Reinigungsbecken","sicher":true},
+  {"schritt":5,"stelle":"Gerüstet werden die Pistolen und die Pumpe vom Lackierer selbst","sicher":true},
+  {"schritt":6,"stelle":"Die Filtermatten im Spritzstand werden alle drei Tage gewechselt","sicher":true}]}

@@ -1,0 +1,26 @@
+{"id":"R012-08","name":"R012-08","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Öl-Wachs-Gemisch","material":"lack","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Oberfräse, Handschleifer und Ölplatz","bereich":"Treppenbau","personen":1,"umgebung":["laerm_umgebung","hitze","kalt","zwangshaltung"],"angaben":{"hartholz":true},
+  "schritte":[
+   {"vorgang":"fraesen","ausfuehrung":"stationaer_handvorschub","material":["massivholzteil","holzstaub"]},
+   {"vorgang":"schleifen","ausfuehrung":"handmaschine","material":["massivholzteil","holzstaub"]},
+   {"vorgang":"lackieren","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"Das Ölen erfolgt mit einem Lappen, der aus einem offenen Eimer mit Öl-Wachs-Gemisch getränkt wird","fehlt":"Vorgang Ölen von Hand und Material Öl-Wachs-Gemisch fehlen; als Beschichten mit Lack eingetragen, unsicher"},
+  {"text":"die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke","fehlt":"Material ölgetränkte Lappen (Selbstentzündung) fehlt"},
+  {"text":"Reinigen erfolgt am Ende der Schicht mit dem Staubsauger","fehlt":"Unklar, ob Maschine oder Boden gereinigt wird; als Reinigen von Hand eingetragen, unsicher"},
+  {"text":"Treppenwangen und Stufen, teils bis zu drei Meter lang und mehrere Kilo schwer","fehlt":"Keine genaue Last je Griff, keine Griffe je Stunde; Material Treppenteile nicht in den Stammdaten"},
+  {"text":"Die Person arbeitet allein, Rüsten macht sie selbst","fehlt":"Alleinarbeit außer Ruf- und Sichtweite nicht ausdrücklich genannt; Rüsten ohne Beschreibung kein Schritt"}],
+ "maengel":[
+  {"text":"Der Absaugschlauch hängt lose am Fräser","art":"lueftung","gegenstand":"Absaugung an der Oberfräse"},
+  {"text":"eine Abdeckung hat die Maschine nicht","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Oberfräse"},
+  {"text":"die Person hält ihn meistens über Schulterhöhe","art":"arbeitsweise","gegenstand":"Schleifen über Schulterhöhe"},
+  {"text":"einem offenen Eimer mit Öl-Wachs-Gemisch","art":"stoff_lagerung","gegenstand":"offener Eimer mit Öl-Wachs-Gemisch"},
+  {"text":"die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke neben der Werkbank","art":"stoff_lagerung","gegenstand":"ölgetränkte Lappen"},
+  {"text":"weil dafür kein fester Behälter steht","art":"stoff_lagerung","gegenstand":"fehlender Behälter für gebrauchte Lappen"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Oberfräse sitzt in einer Tischplatte, das Werkstück wird von Hand über den Fräser geführt","sicher":true},
+  {"schritt":2,"stelle":"Das Schleifen geschieht von Hand mit einem Exzenterschleifer","sicher":true},
+  {"schritt":3,"stelle":"Das Ölen erfolgt mit einem Lappen","sicher":false},
+  {"schritt":4,"stelle":"Reinigen erfolgt am Ende der Schicht mit dem Staubsauger","sicher":false}]}

@@ -1,0 +1,29 @@
+{"id":"R012-03","name":"R012-03","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Lösungsmittel für das Flussmittel","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Heizungskeller","bereich":"Heizungstausch im Keller","personen":2,"umgebung":["eng","zwangshaltung","funkenflug"],"angaben":{},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"trennschleifen","ausfuehrung":"handmaschine","material":["stahlprofil"]},
+   {"vorgang":"loeten_brennschneiden","ausfuehrung":"schweissgeraet","material":["rohr_rundmaterial"]},
+   {"vorgang":"pressen_verschrauben","ausfuehrung":"handmaschine","material":["rohr_rundmaterial"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["schweres_geraet"]}]}],
+ "wuensche":[
+  {"text":"Zuerst wird das Heizungswasser abgelassen, es läuft in einen Eimer","fehlt":"Vorgang Ablassen fehlt; ob das Wasser heiß ist, steht nicht da"},
+  {"text":"Der alte Kessel wird mit einer Rohrzange gelöst","fehlt":"Vorgang Demontieren fehlt (Montieren nur als Näherung); Material Heizkessel fehlt"},
+  {"text":"Der neue Kessel wiegt über 100 Kilogramm, wir heben ihn zu zweit","fehlt":"genaues Gewicht je Griff nicht genannt, Angabe last_kg bleibt offen"},
+  {"text":"Die Beleuchtung ist eine einzelne Glühbirne, bei der Arbeit steht ein Strahler auf dem Boden","fehlt":"schwache Beleuchtung nicht ausdrücklich genannt"},
+  {"text":"Aufgeräumt wird am Ende, der Müll landet in einem Sack, das alte Öl im Fass","fehlt":"Vorgang Aufräumen und Entsorgen; Stoff Altöl (Heizöl?) nicht eindeutig"},
+  {"text":"Gerüstet machen wir selbst","fehlt":"keine Tätigkeit beschrieben"},
+  {"text":"Der Lehrling holt Material","fehlt":"Transport von Material nicht näher beschrieben; Alter des Lehrlings nicht genannt"}],
+ "maengel":[
+  {"text":"Das Lösungsmittel für die Flussmittel steht in einem offenen Gebinde","art":"stoff_lagerung","gegenstand":"Gebinde mit Lösungsmittel"},
+  {"text":"Der Brenner steht neben einem Karton mit Dämmmaterial","art":"stoff_lagerung","gegenstand":"Gasbrenner neben Karton"},
+  {"text":"die Flex schneidet die Stahlrohre, dabei fliegen Funken über den Boden","art":"arbeitsweise","gegenstand":"Flexen mit Funkenflug"},
+  {"text":"Der Feuerlöscher steht im Flur, nicht im Keller","art":"rettung_verstellt","gegenstand":"Feuerlöscher"},
+  {"text":"Die Beleuchtung ist eine einzelne Glühbirne"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der alte Kessel wird mit einer Rohrzange gelöst","sicher":false},
+  {"schritt":2,"stelle":"die Stahlrohre mit einer Flex abgetrennt","sicher":true},
+  {"schritt":3,"stelle":"mit einem Gasbrenner gelötet, die Kupferrohre werden verlötet","sicher":true},
+  {"schritt":4,"stelle":"dann mit einer Pressmaschine verpresst","sicher":true},
+  {"schritt":5,"stelle":"wir heben ihn zu zweit auf den Sockel","sicher":true}]}

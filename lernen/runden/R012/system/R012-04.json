@@ -1,0 +1,182 @@
+{
+ "id": "R012-04",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absaugung an der Entstehungsstelle",
+    "Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub",
+    "Abblasen und trockenes Kehren sind nicht zulässig",
+    "Aufsaugen mit Sauger mindestens Staubklasse M",
+    "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen",
+    "Maschine nur mit eingeschalteter Absaugung betreiben"
+   ],
+   "entsteht": [
+    "Holzstaub",
+    "Aufgewirbelter Staub",
+    "Absaugung fehlt, ist abgeschaltet oder wirkt nicht mehr"
+   ]
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Reinigungsplan",
+    "Zündquellen vermeiden"
+   ],
+   "entsteht": [
+    "Brennbare Staubschicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen",
+    "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden",
+    "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz",
+    "Schutzhaube und Spaltkeil richtig eingestellt",
+    "Schiebestock oder Schiebeholz bei schmalen Werkstücken"
+   ],
+   "entsteht": [
+    "Hand nah am laufenden Werkzeug",
+    "Hand nah am Sägeblatt, Rückschlag des Werkstücks"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Saugen statt Abblasen",
+    "Schutzbrille"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub, wegfliegende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen"
+   ],
+   "entsteht": [
+    "Nässe, Wind, Sonne, Glätte"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode Ziehen und Schieben bewerten",
+    "Geeignete Transportmittel bereitstellen und Fahrwege eben halten"
+   ],
+   "entsteht": [
+    "Schwere Wagen oder Karren, unebene Wege, Steigungen"
+   ]
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Runde Lasten gegen Wegrollen sichern: Keile, Rungen, Lagergestelle",
+    "Nicht vor oder auf ungesicherten Stapeln aufhalten"
+   ],
+   "entsteht": [
+    "Stämme, Rohre oder Rollen liegen lose oder im Stapel"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist",
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der zweite Hebel ist mit einem Draht überbrückt",
+    "Mangel vor Ort: Das Schutzgitter der Säge wird beim Wechsel oft nicht zurückgesetzt"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: einem Blasgerät, das Holzstaub aufwirbelt"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen",
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Das Holz liegt in Haufen überall auf dem Platz, zwischen den Stapeln sind Stolperstellen",
+    "Mangel vor Ort: Bei Regen rutscht man auf dem Holz, der Platz ist uneben"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Krebs der Nase durch Hartholzstaub",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

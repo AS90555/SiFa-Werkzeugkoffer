@@ -1,0 +1,26 @@
+{"id":"R012-06","name":"R012-06","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Stanzautomat mit Bandzuführung","bereich":"Stanzerei","personen":1,"umgebung":["laerm_umgebung","boden","dunkel"],"angaben":{},
+  "schritte":[
+   {"vorgang":"umformen","ausfuehrung":"presse","material":["blech"]},
+   {"vorgang":"ziehen_schieben","ausfuehrung":"handhubwagen","material":["rohr_rundmaterial"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"presse","material":["blech"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["metallspaene"]}]}],
+ "wuensche":[
+  {"text":"die Rolle wiegt etwa eine halbe Tonne und wird mit dem Hubwagen herangefahren","fehlt":"Nicht gesagt, ob der Hubwagen Handhubwagen oder elektrisch ist; als Handhubwagen eingetragen, unsicher"},
+  {"text":"Gelegentlich steht eine Kollegin daneben und sortiert Teile nach","fehlt":"Zweite Person nur gelegentlich; Sortieren nicht als Schritt erfasst, Personenzahl 1"},
+  {"text":"Gerüstet wird das Werkzeug von der Instandhaltung mit dem Kran","fehlt":"Fremde Tätigkeit der Instandhaltung, nicht Schritt dieser Station"},
+  {"text":"Zweischichtbetrieb, das Band läuft ununterbrochen","fehlt":"Keine Angabe für Schichtzahl; Zahl der Takte oder Griffe nicht genannt"}],
+ "maengel":[
+  {"text":"Vorne ist ein Schutzgitter, aber die Tür klemmt seit Wochen und ist offen gestellt","art":"schutzeinrichtung","gegenstand":"Tür des Schutzgitters am Stanzautomaten"},
+  {"text":"Wenn ein Werkzeug klemmt, greift der Mitarbeiter direkt in den Stanzbereich, um den Rest rauszuholen, obwohl die Maschine laut Anzeige stehen sollte","art":"arbeitsweise","gegenstand":"Eingreifen in den Stanzbereich bei Störung"},
+  {"text":"Gereinigt wird mit Druckluft, dabei fliegen die Späne zur Seite","art":"arbeitsweise","gegenstand":"Abblasen der Späne mit Druckluft"},
+  {"text":"Der Boden ist teilweise ölig","art":"weg_boden","gegenstand":"öliger Boden am Arbeitsplatz"},
+  {"text":"die Beleuchtung über dem Platz ist schwach","art":"beleuchtung","gegenstand":"Beleuchtung am Arbeitsplatz"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"eine Exzenterpresse, die von einer Rolle Blechband Teile ausstanzt","sicher":true},
+  {"schritt":2,"stelle":"wird mit dem Hubwagen herangefahren","sicher":false},
+  {"schritt":3,"stelle":"Das Band wird über Rollen eingefädelt","sicher":false},
+  {"schritt":4,"stelle":"Wenn ein Werkzeug klemmt, greift der Mitarbeiter direkt in den Stanzbereich","sicher":true},
+  {"schritt":5,"stelle":"Gereinigt wird mit Druckluft","sicher":true}]}
