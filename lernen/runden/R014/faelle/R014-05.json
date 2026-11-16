@@ -1,0 +1,184 @@
+{
+ "id": "R014-05",
+ "name": "R014-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Grundierung mit Lösemittel",
+   "material": "lack",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s2",
+   "name": "UV-härtender Decklack",
+   "material": "lack",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s3",
+   "name": "Lösemittel zum Reinigen",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Mehrblattsäge",
+   "bereich": "Parkettfertigung",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {
+    "hartholz": true,
+    "last_kg": 15
+   },
+   "schritte": [
+    {
+     "vorgang": "saegen",
+     "ausfuehrung": "durchlaufmaschine",
+     "material": [
+      "schnittholz",
+      "holzstaub"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Lackierstraße",
+   "bereich": "Lackierung",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "lackieren",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "lack",
+      "element_lackiert"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "loesemittel",
+      "lackreste"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Beim Umrüsten der Düsen greift der Lackierer mit der Hand direkt in den Auslauf",
+   "fehlt": "Keine Angabe, ob die Anlage dabei stillsteht oder anlaufen kann"
+  },
+  {
+   "text": "Die Teile laufen auf einem Band durch eine Kammer",
+   "fehlt": "Auftragsart (Spritzen, Gießen, Walzen) nicht genannt; Ausführung Vollautomat ist nur nächstliegend"
+  },
+  {
+   "text": "Über der Kammer sitzen die UV-Strahler",
+   "fehlt": "UV-Strahlung als Material oder Umgebung fehlt in den Stammdaten"
+  },
+  {
+   "text": "gelüftet wird durch eine Wandöffnung",
+   "fehlt": "Keine passende Umgebung; Lüftungsmangel nicht eindeutig beschrieben"
+  },
+  {
+   "text": "Einstellen der Säge (Schutzhaube hochgeklappt, weil sich das Einstellen sonst nicht machen lässt)",
+   "fehlt": "Was beim Einstellen an der Säge getan wird, steht nicht im Protokoll; kein Schritt angelegt"
+  },
+  {
+   "text": "Rüsten und Reinigen an der Lackierung macht der Lackierer selbst, die Säge rüstet der Bediener",
+   "fehlt": "Nur Satz ohne Beschreibung der Tätigkeit; kein Schritt angelegt"
+  },
+  {
+   "text": "Der Bediener legt das Brett von Hand auf den Einlauf",
+   "fehlt": "Anzahl Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "In der Schicht sind vier Leute",
+   "fehlt": "Beschäftigtenzahl des Betriebs nicht genannt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Schutzhaube oben ist hochgeklappt, weil sich das Einstellen sonst nicht machen lässt",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzhaube der Mehrblattsäge mit offener Blattwelle"
+  },
+  {
+   "text": "der Stutzen am Auslauf hängt halb ab",
+   "art": "lueftung",
+   "gegenstand": "Absaugstutzen am Auslauf der Säge"
+  },
+  {
+   "text": "neben dem Einlauf steht ein Stapel, der nicht festgemacht ist",
+   "art": "last_ungesichert",
+   "gegenstand": "Stapel neben dem Einlauf"
+  },
+  {
+   "text": "Die Späne liegen in dicken Haufen am Boden",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Säge"
+  },
+  {
+   "text": "Abdeckung, die einen Spalt offen hat",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Abdeckung der UV-Strahler über der Kammer"
+  },
+  {
+   "text": "greift der Lackierer mit der Hand direkt in den Auslauf",
+   "art": "arbeitsweise",
+   "gegenstand": "Düsen im Auslauf der Lackierkammer"
+  },
+  {
+   "text": "Lösemittel aus einem offenen Eimer",
+   "art": "stoff_lagerung",
+   "gegenstand": "Eimer mit Reinigungslösemittel"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Bediener legt das Brett von Hand auf den Einlauf, Vorschubwalzen ziehen es durch, und die Blätter auf der Welle nehmen die Leisten ab",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Teile laufen auf einem Band durch eine Kammer. Die Lacke kommen aus Gebinden",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Beim Umrüsten der Düsen greift der Lackierer mit der Hand direkt in den Auslauf",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt wird mit Lappen und Lösemittel aus einem offenen Eimer",
+   "sicher": true
+  }
+ ]
+}

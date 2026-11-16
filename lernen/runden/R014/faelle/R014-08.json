@@ -1,0 +1,124 @@
+{
+ "id": "R014-08",
+ "name": "R014-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Lösemittel der Teilewaschanlage vom Fass",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Montagebock Motorinstandsetzung",
+   "bereich": "Motorinstandsetzung",
+   "personen": 3,
+   "umgebung": [
+    "werkstatt",
+    "boden",
+    "hitze"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "presse",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "tauchreinigen",
+     "ausfuehrung": "tauchbad",
+     "material": [
+      "loesemittel",
+      "daempfe_loesemittel",
+      "metallwerkstueck"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Ventile werden mit einer Presse ausgebaut, die Feder wird von Hand gespannt",
+   "fehlt": "Ausbauen von Ventilen ist kein eigener Vorgang; Montieren ist nur nächstliegend"
+  },
+  {
+   "text": "Auf der Werkbank steht eine Schüssel mit Altöl, daneben liegen Ölfilter",
+   "fehlt": "Kein Schritt beschrieben; Altöl hat in den Stammdaten kein Gefahrstoff-Material, daher kein Stoff eingetragen"
+  },
+  {
+   "text": "im Sommer wird es warm unter dem Blech",
+   "fehlt": "Hitze nur saisonal; als Umgebung eingetragen, Ausmaß offen"
+  },
+  {
+   "text": "Azubi im zweiten Lehrjahr",
+   "fehlt": "Alter nicht genannt, Angabe Jugendliche nicht eingetragen"
+  },
+  {
+   "text": "Einrichten und Reinigen macht jeder selbst am Ende der Schicht",
+   "fehlt": "Nur Satz ohne Beschreibung der Tätigkeit; kein Schritt angelegt"
+  },
+  {
+   "text": "Die Presse bedient der Mechaniker, der Azubi steht daneben, wenn sie läuft",
+   "fehlt": "Aufenthalt des Azubis im Gefahrbereich; Umgebung Gefahrbereich nicht ausdrücklich genannt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "eine Motorenhebebrücke mit Kette, die Kette ist alt und hat Rost an den Gliedern",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Kette der Motorenhebebrücke"
+  },
+  {
+   "text": "Dämpfe kommen raus, man riecht es im ganzen Raum",
+   "art": "lueftung",
+   "gegenstand": "Teilewaschanlage"
+  },
+  {
+   "text": "am Boden liegt Schmutz",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Teilewaschanlage"
+  },
+  {
+   "text": "Auf der Werkbank steht eine Schüssel mit Altöl",
+   "art": "stoff_lagerung",
+   "gegenstand": "Schüssel mit Altöl auf der Werkbank"
+  },
+  {
+   "text": "der Azubi steht daneben, wenn sie läuft",
+   "art": "arbeitsweise",
+   "gegenstand": "Aufenthalt neben der laufenden Presse"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Zylinderköpfe werden mit dem Hebezeug von der Palette gehoben",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Ventile werden mit einer Presse ausgebaut, die Feder wird von Hand gespannt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Teile werden in einer Teilewaschanlage gereinigt, einem Becken auf Rollen mit Deckel, Lösemittel vom Fass",
+   "sicher": true
+  }
+ ]
+}

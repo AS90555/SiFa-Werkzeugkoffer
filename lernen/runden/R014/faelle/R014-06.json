@@ -1,0 +1,123 @@
+{
+ "id": "R014-06",
+ "name": "R014-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Bremsreiniger aus der Dose",
+   "material": "kaltreiniger",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Mähdrescher, Hydraulik des Schneidwerks",
+   "bereich": "Werkstatt Landmaschinen",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "laerm_umgebung",
+    "kalt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "hochdruckgeraet",
+     "material": [
+      "anlage",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kaltreiniger",
+      "spruehdose"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "einer schätzungsweise dreißig Kilo",
+   "fehlt": "Gewicht nur geschätzt und Heben am Kran; als last_kg nicht eingetragen, weil Heben von Hand nicht beschrieben ist"
+  },
+  {
+   "text": "Der Motor des Fahrzeugs läuft in der Halle, weil die Tür offen ist und das Gerät einen Test braucht",
+   "fehlt": "Probelauf: keine passende Ausführung für ein Fahrzeug mit laufendem Motor; Schritt weggelassen. Abgase sind im Protokoll nicht ausdrücklich genannt"
+  },
+  {
+   "text": "Das Gerät steht auf zwei Böcken unter dem Hallenkran",
+   "fehlt": "Keine Ausführung für Unterstellböcke bei Arbeit unter Kran; Standsicherheit der Böcke nicht beschrieben"
+  },
+  {
+   "text": "Um an den Zylinder zu kommen, springt er vom Gerät auf den Boden",
+   "fehlt": "Auf- und Absteigen am Gerät als Vorgang fehlt in den Stammdaten"
+  },
+  {
+   "text": "die Reinigung macht der Lehrling am Freitag mit Bremsreiniger aus der Dose",
+   "fehlt": "Was gereinigt wird, steht nicht da; Zuordnung als Reinigen von Hand unsicher. Alter des Lehrlings nicht genannt"
+  },
+  {
+   "text": "Der Schlosser rüstet selbst",
+   "fehlt": "Nur Satz ohne Beschreibung der Tätigkeit; kein Schritt angelegt"
+  },
+  {
+   "text": "Das Öl läuft heraus auf den Hallenboden, darauf liegt schon ein Lappen",
+   "fehlt": "Ölige Lappen als Material des Schritts erwähnt, Menge und Entsorgung nicht genannt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "löst die Schlauchleitungen am Zylinder mit dem Schraubenschlüssel, während die Schneidwerkshöhe noch unter Druck steht, weil der Speicher nicht entlastet wurde",
+   "art": "arbeitsweise",
+   "gegenstand": "Hydraulikspeicher des Schneidwerks"
+  },
+  {
+   "text": "die Kette hängt an einer Stelle, die schief zieht",
+   "art": "arbeitsweise",
+   "gegenstand": "Kette am Hallenkran"
+  },
+  {
+   "text": "springt er vom Gerät auf den Boden, der Boden ist ölig",
+   "art": "arbeitsweise",
+   "gegenstand": "Absteigen vom Mähdrescher"
+  },
+  {
+   "text": "Das Öl läuft heraus auf den Hallenboden",
+   "art": "weg_boden",
+   "gegenstand": "Hallenboden unter dem Mähdrescher"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Geselle löst die Schlauchleitungen am Zylinder mit dem Schraubenschlüssel, während die Schneidwerkshöhe noch unter Druck steht",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Zum Heben nehmen wir den Kran, aber die Kette hängt an einer Stelle, die schief zieht",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "die Reinigung macht der Lehrling am Freitag mit Bremsreiniger aus der Dose",
+   "sicher": false
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "id": "R014-07",
+ "name": "R014-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Heiße wässrige Lauge der Waschanlage",
+   "material": "beize_saeure",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Rundschleifmaschine",
+   "bereich": "Fertigung Wälzlagerringe",
+   "personen": 1,
+   "umgebung": [
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "schleifen",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "metallwerkstueck",
+      "kuehlschmierstoff"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Waschanlage",
+   "bereich": "Fertigung Wälzlagerringe",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "tauchreinigen",
+     "ausfuehrung": "tauchbad",
+     "material": [
+      "metallwerkstueck",
+      "beize_saeure",
+      "heisswasser_dampf"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "beize_saeure"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "der Schleifstaub ist ein feiner grauer Schlamm",
+   "fehlt": "Schleifschlamm als Material fehlt in den Stammdaten; nicht als Metallspäne gebogen"
+  },
+  {
+   "text": "Der Kühlschmierstoff läuft in einer Wanne unter der Maschine",
+   "fehlt": "Nicht genannt, ob wassergemischt; Angabe nicht eingetragen"
+  },
+  {
+   "text": "Dampf steigt auf, die Abluft geht an die Decke",
+   "fehlt": "Dampf aus der Waschanlage ohne passende Umgebung; Wirksamkeit der Abluft nicht beschrieben"
+  },
+  {
+   "text": "Einrichten und Reinigen macht der Schleifer selbst",
+   "fehlt": "Nur Satz ohne Beschreibung der Tätigkeit; kein Schritt angelegt"
+  },
+  {
+   "text": "die Lauge wechselt der Vorgesetzte einmal im Monat",
+   "fehlt": "Wie die Lauge gewechselt wird, ist nicht beschrieben; Schritt unsicher"
+  },
+  {
+   "text": "Vier Leute arbeiten in der Fertigung",
+   "fehlt": "Beschäftigtenzahl des Betriebs nicht genannt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Tür steht bei jedem Wechsel offen, weil der Greifer sonst nicht hineinpasst",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutztür der Rundschleifmaschine"
+  },
+  {
+   "text": "die Wanne ist halb leer, man sieht Ölschlieren auf dem Boden",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Rundschleifmaschine"
+  },
+  {
+   "text": "Der Deckel der Anlage klemmt, man hebt ihn mit der Hand",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Deckel der Waschanlage"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Bediener nimmt die Ringe aus einer Kiste neben der Maschine und legt sie von Hand in die Spannvorrichtung, die Schleifscheibe fährt automatisch an",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Ringe werden in einem Korb hineingehängt und mit einem Hebel herausgezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "die Lauge wechselt der Vorgesetzte einmal im Monat",
+   "sicher": false
+  }
+ ]
+}
