@@ -1,31 +1,139 @@
-{"id":"R013-12","name":"R013-12","betrieb":{},"angaben":{},
- "stoffe":[
-  {"id":"s1","name":"Altöl","material":"oel_schmierstoff","sdb":null,"h":[]},
-  {"id":"s2","name":"Bremsflüssigkeit","material":"oel_schmierstoff","sdb":null,"h":[]}],
- "stationen":[
-  {"nr":1,"name":"Annahme und Altöllager","bereich":"Kfz-Werkstatt, Annahme, Altöl und Batterien","personen":1,"umgebung":["werkstatt"],"angaben":{},
-   "schritte":[
-    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["schweres_geraet"]},
-    {"vorgang":"ziehen_schieben","ausfuehrung":"handhubwagen","material":["schweres_geraet"]},
-    {"vorgang":"ziehen_schieben","ausfuehrung":"von_hand","material":["oel_schmierstoff"]}]},
-  {"nr":2,"name":"Teilelager","bereich":"Kfz-Werkstatt, Teilelager","personen":1,"umgebung":["werkstatt"],"angaben":{},
-   "schritte":[
-    {"vorgang":"lagern_regal","ausfuehrung":"leiter","material":["schweres_geraet"]}]}],
- "wuensche":[
-  {"text":"Altteile und Kundenteile werden am Tresen angenommen, Rolltisch und Waage","fehlt":"Material Altteile allgemein; Gewicht je Griff nicht genannt"},
-  {"text":"Motorblöcke werden mit dem Hubwagen durch den Flur gefahren","fehlt":"Antrieb des Hubwagens nicht genannt; als Handhubwagen erfasst"},
-  {"text":"Altbatterien liegen in einer Kiste auf dem Boden","fehlt":"Material Altbatterie; kein Schritt, da keine Tätigkeit beschrieben"},
-  {"text":"Wer die Ölfässer umlagert, schiebt sie von Hand","fehlt":"Fass mit 200 Litern als Material; Gewicht nicht in kg genannt"},
-  {"text":"Eine Lüftung gibt es in dem Raum nicht, nur das Tor steht offen","fehlt":"Umgebung offen, aber ohne Lüftung; Stickig nicht gewählt, da das Tor offen ist"},
-  {"text":"Die Kiste steht in der Sonne","fehlt":"Umgebung Wärme durch Sonne, nicht eindeutig Hitze"},
-  {"text":"eine zweite Person räumt zeitweise das Lager auf","fehlt":"Tätigkeit Aufräumen nicht genauer beschrieben"}],
- "maengel":[
-  {"text":"Die Leiter steht auf Rollen und ist nicht gesichert","art":"absturzsicherung","gegenstand":"Leiter im Teilelager"},
-  {"text":"Die schweren Teile liegen oben und werden mit einer Leiter erreicht","art":"arbeitsweise","gegenstand":"schwere Teile im oberen Regalfach"},
-  {"text":"Die Altbatterien liegen in einer Kiste auf dem Boden neben der Rampe, die Pole sind teils nicht abgeklebt, die Kiste ist offen und steht in der Sonne","art":"stoff_lagerung","gegenstand":"Altbatteriekiste"},
-  {"text":"Eine Lüftung gibt es in dem Raum nicht","art":"lueftung","gegenstand":"Raum Annahme und Altöl"}],
- "zuordnung":[
-  {"schritt":1,"stelle":"Altmaterial kommt im Karton oder auf der Palette, Annahme am Tresen","sicher":false},
-  {"schritt":2,"stelle":"Motorblöcke werden mit dem Hubwagen durch den Flur gefahren","sicher":false},
-  {"schritt":3,"stelle":"Wer die Ölfässer umlagert, schiebt sie von Hand","sicher":true},
-  {"schritt":4,"stelle":"Die schweren Teile wie Bremsscheiben oder Motorteile liegen oben und werden mit einer Leiter erreicht","sicher":true}]}
+{
+ "id": "R013-12",
+ "name": "R013-12",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Annahme und Altöllager",
+   "bereich": "Kfz-Werkstatt, Annahme, Altöl und Batterien",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "ziehen_schieben",
+     "ausfuehrung": "handhubwagen",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "ziehen_schieben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Teilelager",
+   "bereich": "Kfz-Werkstatt, Teilelager",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "lagern_regal",
+     "ausfuehrung": "leiter",
+     "material": [
+      "schweres_geraet"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Altteile und Kundenteile werden am Tresen angenommen, Rolltisch und Waage",
+   "fehlt": "Material Altteile allgemein; Gewicht je Griff nicht genannt"
+  },
+  {
+   "text": "Motorblöcke werden mit dem Hubwagen durch den Flur gefahren",
+   "fehlt": "Antrieb des Hubwagens nicht genannt; als Handhubwagen erfasst"
+  },
+  {
+   "text": "Altbatterien liegen in einer Kiste auf dem Boden",
+   "fehlt": "Material Altbatterie; kein Schritt, da keine Tätigkeit beschrieben"
+  },
+  {
+   "text": "Wer die Ölfässer umlagert, schiebt sie von Hand",
+   "fehlt": "Fass mit 200 Litern als Material; Gewicht nicht in kg genannt"
+  },
+  {
+   "text": "Eine Lüftung gibt es in dem Raum nicht, nur das Tor steht offen",
+   "fehlt": "Umgebung offen, aber ohne Lüftung; Stickig nicht gewählt, da das Tor offen ist"
+  },
+  {
+   "text": "Die Kiste steht in der Sonne",
+   "fehlt": "Umgebung Wärme durch Sonne, nicht eindeutig Hitze"
+  },
+  {
+   "text": "eine zweite Person räumt zeitweise das Lager auf",
+   "fehlt": "Tätigkeit Aufräumen nicht genauer beschrieben"
+  },
+  {
+   "text": "Altöl in zwei Fässern mit je 200 Litern, daneben Kanister mit Bremsflüssigkeit",
+   "fehlt": "Stoffe Altöl und Bremsflüssigkeit können nicht als Stoff eingetragen werden: Material Öl ist kein Gefahrstoff-Stammdatum"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Leiter steht auf Rollen und ist nicht gesichert",
+   "art": "absturzsicherung",
+   "gegenstand": "Leiter im Teilelager"
+  },
+  {
+   "text": "Die schweren Teile liegen oben und werden mit einer Leiter erreicht",
+   "art": "arbeitsweise",
+   "gegenstand": "schwere Teile im oberen Regalfach"
+  },
+  {
+   "text": "Die Altbatterien liegen in einer Kiste auf dem Boden neben der Rampe, die Pole sind teils nicht abgeklebt, die Kiste ist offen und steht in der Sonne",
+   "art": "stoff_lagerung",
+   "gegenstand": "Altbatteriekiste"
+  },
+  {
+   "text": "Eine Lüftung gibt es in dem Raum nicht",
+   "art": "lueftung",
+   "gegenstand": "Raum Annahme und Altöl"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Altmaterial kommt im Karton oder auf der Palette, Annahme am Tresen",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Motorblöcke werden mit dem Hubwagen durch den Flur gefahren",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Wer die Ölfässer umlagert, schiebt sie von Hand",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die schweren Teile wie Bremsscheiben oder Motorteile liegen oben und werden mit einer Leiter erreicht",
+   "sicher": true
+  }
+ ]
+}

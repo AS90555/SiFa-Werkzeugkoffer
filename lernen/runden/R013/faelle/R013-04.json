@@ -1,0 +1,144 @@
+{
+ "id": "R013-04",
+ "name": "R013-04",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Lacke im Regal",
+   "material": "lack",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Richtbank Karosserie",
+   "bereich": "Karosseriewerkstatt",
+   "personen": 2,
+   "umgebung": [
+    "eng",
+    "funkenflug",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "blechteil"
+     ]
+    },
+    {
+     "vorgang": "trennschleifen",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "schweissen",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "blech",
+      "prozessrauch"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallspaene"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "die Richtbank ist hydraulisch, das Auto wird mit Ketten und Zugtürmen gezogen, die Pumpe bedient man von Hand",
+   "fehlt": "Ausführung Richtbank (Handpumpe, hydraulisch) und Material Zugketten/Fahrzeug fehlen; Zuordnung unsicher"
+  },
+  {
+   "text": "Meistens ein Karosseriebauer, manchmal mit einem Helfer; der Schweißer steht in der Nähe",
+   "fehlt": "Personenzahl schwankt; mit 2 angesetzt, Schweißer als dritte Person nicht gezählt"
+  },
+  {
+   "text": "Dämpfe von Beschichtungen auf den Blechen, Grundierung und Füller, stehen im Raum, Schmierfilm an der Decke",
+   "fehlt": "Material Beschichtungsdämpfe: als Rauch und Dämpfe beim Schweißen zugeordnet, unsicher"
+  },
+  {
+   "text": "Das Trennschleifen dauert den ganzen Tag",
+   "fehlt": "Dauer in Stunden nicht genannt; keine Angabe eintragbar"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Dabei reißen die Ketten gelegentlich, die liegen dann auf dem Boden",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Zugketten der Richtbank"
+  },
+  {
+   "text": "Trennschleifer benutzt, ohne Absaugung",
+   "art": "lueftung",
+   "gegenstand": "Absaugung am Trennschleifer"
+  },
+  {
+   "text": "der Funkenflug geht bis zum Regal mit den Lacken",
+   "art": "stoff_lagerung",
+   "gegenstand": "Lackregal im Funkenflug"
+  },
+  {
+   "text": "der Schweißer steht meist ohne Schweißschirm in der Nähe und schweißt Bleche am Unterboden. Er trägt nur eine Brille",
+   "art": "psa",
+   "gegenstand": "Schweißschirm"
+  },
+  {
+   "text": "Die Lüftung ist ein kleiner Ventilator am Tor",
+   "art": "lueftung",
+   "gegenstand": "Lüftung der Werkstatt"
+  },
+  {
+   "text": "Späne liegen überall",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Richtbank"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "verzogene Unfallfahrzeuge wieder in Form gezogen",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Zum Trennen von Blechen wird ein Trennschleifer benutzt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Zum Schweißen nimmt man ein Schutzgasgerät",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Der Helfer wechselt die Schleifscheiben",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird mit Pressluft, Späne liegen überall",
+   "sicher": true
+  }
+ ]
+}

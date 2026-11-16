@@ -1,0 +1,159 @@
+{
+ "id": "R013-01",
+ "name": "R013-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Bremsenreiniger",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Hebebühne Kfz-Werkstatt",
+   "bereich": "Kfz-Werkstatt",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "dunkel"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "hebebuehne",
+     "material": [
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "spruehen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Bremsenstaub wird mit Druckluft ausgeblasen",
+   "fehlt": "Material Bremsenstaub fehlt in den Stammdaten"
+  },
+  {
+   "text": "Der Mechaniker liegt unter dem Fahrzeug auf dem Rollbrett",
+   "fehlt": "Zwangshaltung nicht ausdrücklich genannt (liegend unter dem Fahrzeug); Umgebung nicht gewählt"
+  },
+  {
+   "text": "Der Behälter mit Altöl wird von Hand zur Sammelstelle getragen",
+   "fehlt": "Gewicht des Behälters nicht genannt"
+  },
+  {
+   "text": "Gereinigt wird am Ende der Schicht, meistens macht das der Lehrling",
+   "fehlt": "Nicht beschrieben, was gereinigt wird; Alter des Lehrlings erfragen (Jugendarbeitsschutz); kein Schritt angelegt"
+  },
+  {
+   "text": "Lappen liegen herum",
+   "fehlt": "Material ölverschmutzte Putzlappen fehlt"
+  },
+  {
+   "text": "Die Lüftung läuft nur bei geöffnetem Tor richtig",
+   "fehlt": "Umgebung Zugluft/Kälte oder stickig nicht ausdrücklich genannt"
+  },
+  {
+   "text": "Altöl läuft in einen Behälter",
+   "fehlt": "Altöl ist kein Gefahrstoff-Stammdatum, deshalb nicht unter stoffe; als Material des Schritts eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Bremsenreiniger-Sprühdose steht offen auf der Ablage neben der Bühne",
+   "art": "stoff_lagerung",
+   "gegenstand": "Sprühdose Bremsenreiniger"
+  },
+  {
+   "text": "Der Boden ist ölig, an der Bühne liegt ein Ölfleck, Lappen liegen herum",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Hebebühne"
+  },
+  {
+   "text": "Die Bühne prüft der Meister jeden Morgen kurz, ein Protokoll gibt es dafür nicht",
+   "art": "organisation",
+   "gegenstand": "Prüfung der Hebebühne"
+  },
+  {
+   "text": "die Beleuchtung ist eher schwach",
+   "art": "beleuchtung",
+   "gegenstand": "Beleuchtung der Werkstatt"
+  },
+  {
+   "text": "die Lüftung läuft nur bei geöffnetem Tor richtig",
+   "art": "lueftung",
+   "gegenstand": "Lüftung der Werkstatt"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Hier hängt ein Fahrzeug jetzt auf etwa zwei Meter Höhe, der Mechaniker liegt darunter; Zum Bremsenwechsel wird das Rad abgeschraubt, dann Scheibe und Beläge getauscht",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "mit Druckluftschrauber und Drehmomentschlüssel, den Rest von Hand",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Beim Ölwechsel läuft das Altöl aus der Wanne in einen Behälter unter dem Auto",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "der wird dann von Hand zur Sammelstelle getragen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Die Bremsenreiniger-Sprühdose steht offen auf der Ablage",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Bremsenstaub wird mit Druckluft ausgeblasen",
+   "sicher": true
+  }
+ ]
+}
