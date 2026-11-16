@@ -1,0 +1,230 @@
+{
+ "runde": "R009",
+ "blind": true,
+ "regeln": 118,
+ "quote": 79,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 89,
+  "schritte": 68,
+  "maengel": 81
+ },
+ "faelle": [
+  {
+   "id": "R009-01",
+   "arbeitsplatz": "Konservierung, Spritzen eines Schutzanstrichs im Schiffstank",
+   "branche": "Schiffswerft",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-02",
+   "arbeitsplatz": "Montage und Reparatur an Elektrofahrrädern, Lagerung und Laden von Akkus",
+   "branche": "Fahrradwerkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-03",
+   "arbeitsplatz": "Lufthammer und Schmiedeofen mit Gasbeheizung",
+   "branche": "Schmiede",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-04",
+   "arbeitsplatz": "Goldschmiedeplatz mit Löten, Polieren und Säurebad",
+   "branche": "Schmuckwaren",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-05",
+   "arbeitsplatz": "Verpackung und Kartonagenpresse",
+   "branche": "Möbel in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-06",
+   "arbeitsplatz": "Rundholzplatz und Entrindung",
+   "branche": "Sägewerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-07",
+   "arbeitsplatz": "Brennschneiden und Heften großer Träger mit dem Hallenkran",
+   "branche": "Metall, Stahlbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-08",
+   "arbeitsplatz": "Montagehalle, Baugruppen mit dem Hallenkran",
+   "branche": "Maschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-09",
+   "arbeitsplatz": "Decklackkabine und Nacharbeit",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-10",
+   "arbeitsplatz": "Reifenmontage und Auswuchten, Radwechsel im Akkord",
+   "branche": "Kfz, Reifenservice",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-11",
+   "arbeitsplatz": "Spritzgießmaschine, Werkzeugwechsel, Granulat",
+   "branche": "Kunststoff, Spritzguss",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-12",
+   "arbeitsplatz": "Achsvermessung und Arbeitsgrube",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-13",
+   "arbeitsplatz": "Abbeiz- und Ölplatz in der Werkstatt",
+   "branche": "Möbelrestaurierung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-14",
+   "arbeitsplatz": "Gatter und Sortierband",
+   "branche": "Holz, Sägewerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-15",
+   "arbeitsplatz": "Prüfung und Wartung eines Hallenkrans",
+   "branche": "Kranservice",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R009-16",
+   "arbeitsplatz": "Tore und Antriebe montieren und prüfen",
+   "branche": "Bauschlosserei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 25,
+   "verfehlt": 7
+  },
+  "2": {
+   "getroffen": 5,
+   "verfehlt": 2
+  },
+  "3": {
+   "getroffen": 10,
+   "verfehlt": 5
+  },
+  "5": {
+   "getroffen": 11,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 3,
+   "verfehlt": 3
+  },
+  "7": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 7,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 79,
+  "getroffen": 79,
+  "rueckfrage": 0,
+  "verfehlt": 21,
+  "unbegruendet": 0,
+  "zBerechtigt": 52,
+  "zTypisch": 33,
+  "zUnbegruendet": 8
+ }
+}

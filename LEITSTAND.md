@@ -1,10 +1,10 @@
 # Leitstand
 
-Stand nach R008 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R009 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Prüfrunde im Feld BGHM** (16 Arbeitsplätze): `node lernen/runde.js neu pruef`.
+1. **Lücken aus R009 schließen:** Bericht `lernen/runden/R009/bericht.md`. Reihenfolge: Wörterbuch, Stammdaten, Regeln (als Entwurf mit offenem Beleg). Danach `node lernen/runde.js geschlossen R009`.
 
 ## Wartet auf Andre
 
@@ -25,7 +25,7 @@ Stand nach R008 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
-| Freie Aufträge im Abdeckungsplan | 105 von 167 |
+| Freie Aufträge im Abdeckungsplan | 89 von 167 |
 
 ## Runden
 
@@ -39,6 +39,7 @@ Stand nach R008 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R006 | Prüfrunde, gemischt | 8 | blind, Schiedsrichter | 60 % | 29 von 48 | 16 |  | 7 | ja |
 | R007 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 63 % | 27 von 43 | 19 |  | 15 | ja |
 | R008 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 76 % | 35 von 46 | 26 | 15 | 8 | ja |
+| R009 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 79 % | 79 von 100 | 52 | 33 | 8 | nein |
 
 ## Beleg-Läufe
 
