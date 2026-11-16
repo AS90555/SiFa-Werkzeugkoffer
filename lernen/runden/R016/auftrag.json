@@ -1,0 +1,104 @@
+{
+ "runde": "R016",
+ "art": "pruef",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R016-01",
+   "auftrag": "a205",
+   "branche": "Behälterbau",
+   "bereich": "Röntgenprüfung von Schweißnähten"
+  },
+  {
+   "kennung": "R016-02",
+   "auftrag": "a193",
+   "branche": "Fahrzeugbau",
+   "bereich": "Sitzmontage und Ergonomie am Band"
+  },
+  {
+   "kennung": "R016-03",
+   "auftrag": "a180",
+   "branche": "Türen in Serie",
+   "bereich": "Lackierstraße mit Trockner"
+  },
+  {
+   "kennung": "R016-04",
+   "auftrag": "a186",
+   "branche": "Werkzeugbau",
+   "bereich": "Senkerodieren mit Dielektrikum"
+  },
+  {
+   "kennung": "R016-05",
+   "auftrag": "a176",
+   "branche": "Möbelmontage",
+   "bereich": "Ausliefern und Montage in Treppenhäusern"
+  },
+  {
+   "kennung": "R016-06",
+   "auftrag": "a189",
+   "branche": "Federnfertigung",
+   "bereich": "Federwindeautomat und Anlassofen"
+  },
+  {
+   "kennung": "R016-07",
+   "auftrag": "a209",
+   "branche": "Rohrleitungsbau",
+   "bereich": "Schweißen im Graben"
+  },
+  {
+   "kennung": "R016-08",
+   "auftrag": "a170",
+   "branche": "Holzpelletwerk",
+   "bereich": "Pelletpresse und Siloanlage"
+  },
+  {
+   "kennung": "R016-09",
+   "auftrag": "a214",
+   "branche": "Busbetrieb",
+   "bereich": "Werkstatt für Busse, Arbeiten auf dem Dach"
+  },
+  {
+   "kennung": "R016-10",
+   "auftrag": "a199",
+   "branche": "Schmiede",
+   "bereich": "Gesenkschmiede mit Induktionserwärmung"
+  },
+  {
+   "kennung": "R016-11",
+   "auftrag": "a196",
+   "branche": "Zulieferer",
+   "bereich": "Kabelbaumfertigung am Formbrett"
+  },
+  {
+   "kennung": "R016-12",
+   "auftrag": "a192",
+   "branche": "Uhren und Feinmechanik",
+   "bereich": "Ultraschallreinigung und Arbeiten am Mikroskop"
+  },
+  {
+   "kennung": "R016-13",
+   "auftrag": "a208",
+   "branche": "Aufzugsbau",
+   "bereich": "Montage im Schacht"
+  },
+  {
+   "kennung": "R016-14",
+   "auftrag": "a175",
+   "branche": "Tischlerei",
+   "bereich": "Lackieren im Spritzstand mit Wasserlack"
+  },
+  {
+   "kennung": "R016-15",
+   "auftrag": "a182",
+   "branche": "Küchenfertigung",
+   "bereich": "Kommissionierung und Verladen mit Stapler"
+  },
+  {
+   "kennung": "R016-16",
+   "auftrag": "a187",
+   "branche": "Pumpenbau",
+   "bereich": "Druckprüfung von Gehäusen"
+  }
+ ]
+}

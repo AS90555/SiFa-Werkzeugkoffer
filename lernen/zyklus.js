@@ -104,6 +104,9 @@ function weiter() {
     let nr = z.runden[z.runden.length - 1]; let s = nr ? stand(nr) : null;
     if (!nr || s.stufe === 'fertig') {
       if (z.runden.length >= z.plan.length) { bericht(z); z.fertig = true; z.beendet = heute(); speichern(z); node('lernen/leitstand.js'); sichern(`${z.id}: Zyklus abgeschlossen`); console.log(`FERTIG: Zyklus ${z.id} ist abgeschlossen. Bericht: lernen/zyklen/${z.id}.md`); return; }
+      const frei = JSON.parse(fs.readFileSync(path.join(__dirname, 'abdeckung.json'), 'utf8')).auftraege.filter(x => !x.genutzt && x.feld === 'bghm').length; const braucht = z.plan[z.runden.length] === 'pruef' ? 16 : 8;
+      if (frei < braucht) { z.angehalten = `Im Vorrat lernen/abdeckung.json sind nur noch ${frei} freie Arbeitsplätze im Feld BGHM, die nächste Runde braucht ${braucht}. Neue Aufträge anfügen (Gruppe, Branche, Bereich, Faktoren, feld: bghm), dann weiter.`; speichern(z); sichern(`${z.id}: angehalten, Vorrat leer`); console.log('ANGEHALTEN: ' + z.angehalten); return; }
+      if (frei < braucht + 32) z.hinweise.push(`Vor Runde ${z.runden.length + 1}: Nur noch ${frei} freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen.`);
       const aus = node('lernen/runde.js', 'neu', z.plan[z.runden.length]); nr = /^(R\d{3})/.exec(aus)[1]; z.runden.push(nr); speichern(z); console.log(aus.split('\n')[0]); continue; }
     if (s.stufe === 'sprecher') return jobs('sprecher', offeneAuftraege(nr, 'sprecher', ['protokoll', 'wahrheit']), `Runde ${nr}: Sprecher schreiben Protokolle`);
     if (s.stufe === 'uebersetzer') return jobs('uebersetzer', offeneAuftraege(nr, 'uebersetzer', ['fall']), `Runde ${nr}: Übersetzer legen Fälle an`);
