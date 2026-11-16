@@ -1,0 +1,27 @@
+{"id":"R009-09","name":"R009-09","betrieb":{},"angaben":{},
+"stoffe":[{"id":"s1","name":"Zweikomponenten-Decklack","material":"lack","sdb":null,"h":[]},{"id":"s2","name":"Härter","material":"lack","sdb":null,"h":[]},{"id":"s3","name":"Verdünnung zur Pistolenreinigung","material":"loesemittel","sdb":null,"h":[]}],
+"stationen":[
+{"nr":1,"name":"Decklackkabine","bereich":"Lackierung","personen":2,"umgebung":["halle","hitze"],"angaben":{},"schritte":[
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["lack"]},
+{"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","loesemittel"]}]},
+{"nr":2,"name":"Nacharbeitsbereich","bereich":"Lackierung","personen":1,"umgebung":["halle","laerm_umgebung","boden","hitze"],"angaben":{},"schritte":[
+{"vorgang":"schleifen","ausfuehrung":"handmaschine","material":[]}]}],
+"wuensche":[
+{"text":"nimmt das Bauteil, meist eine Fronthaube oder eine Tür, von Hand von einem Gestell und hängt es an die Vorrichtung","fehlt":"Material für lackierte oder zu lackierende Karosserieteile (Fronthaube, Tür) fehlt"},
+{"text":"Nach dem Spritzen wird das Teil in den Trockner gefahren, dessen Tür man per Hand öffnet","fehlt":"Ausführung für Trockner mit Handtür fehlt; Schritt weggelassen"},
+{"text":"anschließend poliert man mit einer Poliermaschine","fehlt":"Vorgang Polieren fehlt; Schritt weggelassen"},
+{"text":"schleift Nasen und Läufer von Hand mit einem Exzenterschleifer","fehlt":"Material Lackstaub oder lackiertes Karosserieteil fehlt"},
+{"text":"Die Lüftung im Nacharbeitsbereich ist laut, man muss sich anschreien","fehlt":"Lärm der eigenen Lüftung; als Lärm aus der Umgebung gewählt, nicht sicher"}],
+"maengel":[
+{"text":"den Filter wechselt man alle paar Wochen, man sieht ihn von unten schon grau"},
+{"text":"Die Reinigung der Pistole mit Verdünnung erfolgt am Waschbecken ohne Absaugung","art":"lueftung","gegenstand":"Reinigungsplatz Waschbecken"},
+{"text":"der Lappen wird in einen offenen Eimer geworfen","art":"stoff_lagerung","gegenstand":"lösemittelgetränkter Lappen"},
+{"text":"Der Staub liegt auf dem Boden und auf den Ablagen","art":"weg_boden","gegenstand":"Nacharbeitsbereich"}],
+"zuordnung":[
+{"schritt":1,"stelle":"nimmt das Bauteil ... von Hand von einem Gestell und hängt es an die Vorrichtung","sicher":true},
+{"schritt":2,"stelle":"sprüht er mit einer handgeführten Pistole","sicher":true},
+{"schritt":3,"stelle":"mit einem Härter gemischt, den man aus einem Gebinde abmisst","sicher":true},
+{"schritt":4,"stelle":"Reinigung der Pistole mit Verdünnung","sicher":false},
+{"schritt":5,"stelle":"schleift man Nasen und Läufer von Hand mit einem Exzenterschleifer","sicher":true}]}

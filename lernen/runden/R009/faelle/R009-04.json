@@ -1,0 +1,32 @@
+{"id":"R009-04","name":"R009-04","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Beize im Säurebad","material":"beize_saeure","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Goldschmiedeplatz","bereich":"Goldschmiede","personen":1,"umgebung":["zwangshaltung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"loeten_brennschneiden","ausfuehrung":"von_hand","material":["druckgasflasche"]},
+   {"vorgang":"schleifen","ausfuehrung":"stationaer_handvorschub","material":["metallwerkstueck"]},
+   {"vorgang":"beizen","ausfuehrung":"von_hand","material":["beize_saeure"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["beize_saeure"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"sie löst Ringe","fehlt":"Vorgang Ringe lösen nicht beschrieben; kein Schritt"},
+  {"text":"lötet Schmuckteile mit Hartlot ... Lötlampe auf einem Gasbrenner","fehlt":"Ausführung Lötlampe mit Hand; von_hand nächstliegend. Hartlot und Flussmittel als Stoff nicht benannt"},
+  {"text":"poliert auf dem Bock ... Hand gegen das Tuch gedrückt","fehlt":"Vorgang Polieren fehlt, Schleifen mit Maschine nur nächstliegend"},
+  {"text":"das Metallpulver liegt auf dem Boden","fehlt":"Material Metallstaub aus Edelmetall fehlt"},
+  {"text":"Die Beize wird am Ende der Woche gewechselt, das alte Bad steht in einem Eimer im Flur","fehlt":"Vorgang Beize wechseln und entsorgen; anmischen nur nächstliegend"},
+  {"text":"Hier arbeitet eine Goldschmiedin allein","fehlt":"Das Protokoll sagt nicht, dass sie außer Ruf- und Sichtweite ist; Umgebung alleinarbeit nicht gewählt"},
+  {"text":"Die Lampe läuft den ganzen Tag, das Fenster ist meist zu","fehlt":"Stickige Luft nicht ausdrücklich genannt; Umgebung stickig nicht gewählt"}],
+ "maengel":[
+  {"text":"ein Glas mit Beize, offen, der Deckel liegt daneben","art":"stoff_lagerung","gegenstand":"offenes Säurebad"},
+  {"text":"die Schläuche sind zur Hälfte mit Klebeband geflickt","art":"arbeitsmittel_defekt","gegenstand":"Gasschläuche der Lötlampe"},
+  {"text":"die Staubabsaugung ist abgeklemmt","art":"lueftung","gegenstand":"Staubabsaugung am Polierbock"},
+  {"text":"das alte Bad steht in einem Eimer im Flur, ohne Beschriftung","art":"stoff_lagerung","gegenstand":"altes Säurebad im unbeschrifteten Eimer"},
+  {"text":"Es gibt ein Waschbecken, aber keinen Augenspüler","art":"rettung_verstellt","gegenstand":"Augenspüler beim Säurebad"},
+  {"text":"der Tisch ist zu niedrig, sie hält die Hand lange über der Flamme","art":"einrichtung","gegenstand":"Tischhöhe beim Löten"},
+  {"text":"Feilen liegen überall auf den Dielen","art":"weg_boden","gegenstand":"Feilen und Metallpulver auf dem Boden"},
+  {"text":"Ein Tisch hat keine Ablage für Werkzeug","art":"einrichtung","gegenstand":"fehlende Ablage am Tisch"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"lötet Schmuckteile mit Hartlot","sicher":false},
+  {"schritt":2,"stelle":"poliert auf dem Bock","sicher":false},
+  {"schritt":3,"stelle":"reinigt Stücke im Säurebad","sicher":true},
+  {"schritt":4,"stelle":"Die Beize wird am Ende der Woche gewechselt","sicher":false},
+  {"schritt":5,"stelle":"Gereinigt wird der Platz von der Goldschmiedin selbst, mit einem feuchten Lappen","sicher":true}]}

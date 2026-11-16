@@ -1,0 +1,24 @@
+{"id":"R009-10","name":"R009-10","betrieb":{},"angaben":{},
+"stoffe":[],
+"stationen":[
+{"nr":1,"name":"Reifenservice","bereich":"Kfz-Werkstatt","personen":2,"umgebung":["halle","fahrverkehr","betriebsfremde","laerm_umgebung","boden"],"angaben":{},"schritte":[
+{"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+{"vorgang":"senken","ausfuehrung":"hebebuehne","material":[]},
+{"vorgang":"montieren","ausfuehrung":"halbautomat","material":[]},
+{"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+"wuensche":[
+{"text":"Räder liegen in Gitterwagen; Rad wird auf eine Montiermaschine gelegt","fehlt":"Material Fahrzeugrad oder Reifen fehlt; Heben und Tragen der Räder von Hand nicht als Schritt, da Gewicht nicht genannt"},
+{"text":"oder das Rad wird mit dem Wagenheber angehoben","fehlt":"Ausführung Wagenheber fehlt; Schritt weggelassen"},
+{"text":"Gewichte, die aus Blei oder Zink sind und an der Innenseite eine Klebefläche haben","fehlt":"Material Auswuchtgewichte fehlt"},
+{"text":"Pro Stunde wechselt man an einem Fahrzeug vier Räder, bei Saisonbeginn werden es hundert Autos am Tag","fehlt":"Griffe je Stunde und je Tag nicht eindeutig genannt; Angabe nicht eingetragen"},
+{"text":"er schmiert dabei den Dorn nach","fehlt":"Schmiermittel nicht benannt, kein Stoff eingetragen"}],
+"maengel":[
+{"text":"Der Boden ist nass vom Wasser der Felgen und voller Ölflecken, Reifenreste liegen herum","art":"weg_boden","gegenstand":"Boden im Reifenbereich"},
+{"text":"Es gibt ein Waschbecken, aber keine Absaugung, und Reifenabrieb und Staub liegen auf den Regalen","art":"lueftung","gegenstand":"Reifenbereich"}],
+"zuordnung":[
+{"schritt":1,"stelle":"löst die Radschrauben mit einer Druckluft-Schlagschrauberpistole","sicher":true},
+{"schritt":2,"stelle":"danach fährt die Hebebühne hoch","sicher":true},
+{"schritt":3,"stelle":"Montiermaschine, die den Reifen über die Felge drückt, mit einem Montierhebel von Hand nachgeholfen","sicher":false},
+{"schritt":4,"stelle":"klebt man Gewichte ... auf die Felge","sicher":false},
+{"schritt":5,"stelle":"Die Montiermaschine wartet der Mechaniker selbst","sicher":true}]}

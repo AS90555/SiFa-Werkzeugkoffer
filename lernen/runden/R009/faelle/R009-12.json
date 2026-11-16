@@ -1,0 +1,28 @@
+{"id":"R009-12","name":"R009-12","betrieb":{},"angaben":{},
+"stoffe":[],
+"stationen":[
+{"nr":1,"name":"Achsmessstand","bereich":"Kfz-Werkstatt","personen":1,"umgebung":["halle","alleinarbeit","bodenoeffnung","eng","kalt","boden"],"angaben":{},"schritte":[
+{"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"senken","ausfuehrung":"hebebuehne","material":[]},
+{"vorgang":"pruefen","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"verschrauben","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"anmischen","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}]}],
+"wuensche":[
+{"text":"Das Auto fährt von vorn auf die Hebebühne, die Räder kommen auf die Schiebeplatten","fehlt":"Vorgang Fahrzeug aufnehmen oder Fahrzeug ausrichten fehlt; Schritt weggelassen"},
+{"text":"Bremsflüssigkeit und Motoröl werden bei Reparaturen aus Kanistern nachgefüllt","fehlt":"Material Betriebsflüssigkeiten Kfz fehlt; Bremsflüssigkeit und Motoröl deshalb nicht unter stoffe eingetragen"},
+{"text":"Spurstangen und Gelenke zu prüfen; Kontermuttern mit Ringschlüsseln und Drehmomentschlüssel","fehlt":"Material Fahrzeug, Fahrwerk fehlt"},
+{"text":"Gereinigt wird mit Besen und Wasserschlauch","fehlt":"Material Schmutz, Öl, Wasser fehlt"}],
+"maengel":[
+{"text":"Die Anlage hängt an einem Rechner auf einem Rollwagen, das Kabel liegt quer über den Boden","art":"elektrik","gegenstand":"Kabel der Vermessungsanlage"},
+{"text":"unter dem Wagen liegt Schmutz und Öl","art":"weg_boden","gegenstand":"Boden unter dem Fahrzeug"},
+{"text":"Kanister, die auf dem Boden stehen","art":"stoff_lagerung","gegenstand":"Kanister mit Bremsflüssigkeit und Motoröl"},
+{"text":"Die Lampe in der Grube ist eine Leuchtstoffröhre ohne Schutzkorb","art":"schutzeinrichtung","gegenstand":"Grubenleuchte"},
+{"text":"Der Mitarbeiter ist meist alleine im Bereich, ein Kollege kommt nur kurz vorbei","art":"notfall","gegenstand":"Alleinarbeit in der Grube"}],
+"zuordnung":[
+{"schritt":1,"stelle":"die Messköpfe werden mit Klemmen am Felgenrand befestigt","sicher":true},
+{"schritt":2,"stelle":"das Fahrzeug wird auf Arbeitshöhe gefahren","sicher":false},
+{"schritt":3,"stelle":"steigt in die Arbeitsgrube, um Spurstangen und Gelenke zu prüfen","sicher":true},
+{"schritt":4,"stelle":"löst man Kontermuttern mit Ringschlüsseln und Drehmomentschlüssel","sicher":true},
+{"schritt":5,"stelle":"werden bei Reparaturen aus Kanistern nachgefüllt","sicher":false},
+{"schritt":6,"stelle":"Gereinigt wird mit Besen und Wasserschlauch","sicher":true}]}

@@ -1,0 +1,26 @@
+{"id":"R009-02","name":"R009-02","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Pflegemittel für Ketten","material":"spruehdose","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Montagebank Fahrradwerkstatt","bereich":"Fahrradwerkstatt","personen":2,"umgebung":["boden","eng","zwangshaltung"],"angaben":{"last_kg":3},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"dazu steht eine Standbohrmaschine an der Wand","fehlt":"Es steht nicht da, dass und woran gebohrt wird; kein Schritt"},
+  {"text":"Die Akkus wiegen zwei bis drei Kilo ... etwa dreißig pro Woche","fehlt":"Griffe je Woche, nicht je Stunde oder Tag; Angabe griffe_h nicht eintragbar. Gewicht als obere Grenze 3 kg gesetzt"},
+  {"text":"Die Akkus ... Geladen wird an einer Steckdosenleiste","fehlt":"Vorgang Laden von Akkus fehlt; Material E-Bike-Akku (Lithium) fehlt, hochvoltbatterie passt nicht sicher"},
+  {"text":"Ein Pflegemittel für Ketten steht offen auf der Bank","fehlt":"Material Pflegemittel/Kettenöl fehlt; Sprühdose nur vermutet, Stoff ohne Datenblatt"},
+  {"text":"heute liegt ein Akku auf dem Tisch, der aufgequollen wirkt","fehlt":"Material beschädigter Akku (Brandgefahr) fehlt"},
+  {"text":"Die Akkus liegen auf Holzregalen direkt neben dem Heizkörper","fehlt":"Lagern von Akkus im Regal als Vorgang mit Material Akku fehlt"}],
+ "maengel":[
+  {"text":"Die Akkus liegen auf Holzregalen direkt neben dem Heizkörper, teilweise liegen sie ohne Gehäuse im Regal","art":"stoff_lagerung","gegenstand":"Akkus neben dem Heizkörper, teils ohne Gehäuse"},
+  {"text":"heute liegt ein Akku auf dem Tisch, der aufgequollen wirkt","art":"arbeitsmittel_defekt","gegenstand":"aufgequollener Akku"},
+  {"text":"mehrere Ladegeräte stecken dort gleichzeitig, eines davon ist seit Wochen angeschaltet, ohne dass jemand daneben steht","art":"arbeitsweise","gegenstand":"Laden an der Steckdosenleiste ohne Aufsicht"},
+  {"text":"Der Boden ist mit Reifen und Kisten zugestellt, man muss um die Ständer herumsteigen","art":"weg_boden","gegenstand":"zugestellter Boden"},
+  {"text":"Ein Feuerlöscher hängt am Eingang, sein Prüfdatum ist abgelaufen","art":"organisation","gegenstand":"Feuerlöscher mit abgelaufener Prüfung"},
+  {"text":"Ein Pflegemittel für Ketten steht offen auf der Bank","art":"stoff_lagerung","gegenstand":"offenes Pflegemittel"},
+  {"text":"Die Montagehöhe ist die Tischhöhe, man steht lange gebeugt über den Rahmen","art":"einrichtung","gegenstand":"Montagehöhe der Bank"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gearbeitet wird von Hand mit Schraubendrehern, Drehmomentschlüssel","sicher":true},
+  {"schritt":2,"stelle":"und Akkuschrauber","sicher":true},
+  {"schritt":3,"stelle":"Die Akkus ... werden in der Hand gehalten und heruntergehoben","sicher":true}]}

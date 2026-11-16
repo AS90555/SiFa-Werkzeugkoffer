@@ -1,0 +1,24 @@
+{"id":"R009-03","name":"R009-03","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Schmiede mit Ofen und Lufthammer","bereich":"Schmiede","personen":2,"umgebung":["hitze"],"angaben":{},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["heisses_werkstueck"]},
+   {"vorgang":"umformen","ausfuehrung":"stationaer_handvorschub","material":["heisses_werkstueck"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","metallschmelze"]}]}],
+ "wuensche":[
+  {"text":"Das Eisen wird im Ofen auf etwa elfhundert Grad gebracht","fehlt":"Vorgang Erhitzen im Schmiedeofen fehlt"},
+  {"text":"Der Lufthammer schlägt in schnellem Takt, mehrere hundert Schläge in der Minute, und man kann sich nur noch mit Handzeichen verständigen","fehlt":"Lärmpegel in dB(A) nicht genannt; Umgebung Lärm nur Angabe laerm_db, hier nicht eintragbar. Ausführung Lufthammer fehlt, stationaer_handvorschub nächstliegend"},
+  {"text":"Funken fliegen beim Schlagen weg, Zunder springt in alle Richtungen","fehlt":"Funken- und Zunderflug als Umgebung oder Material fehlt"},
+  {"text":"Ein Eimer Wasser steht zum Abschrecken neben dem Amboss, da spritzt es beim Eintauchen","fehlt":"Vorgang Abschrecken und Spritzer heißer Flüssigkeit fehlen"},
+  {"text":"die Luft riecht nach verbranntem Gas","fehlt":"Abgase des Gasofens; Umgebung stickig nicht ausdrücklich genannt, nicht gewählt"},
+  {"text":"Die Halle hat ein offenes Tor","fehlt":"Kälte oder Zugluft nicht genannt, Umgebung kalt nicht gewählt"},
+  {"text":"Der Ofen wird mit Gas beheizt, die Flasche steht direkt neben dem Ofen","fehlt":"Gasflasche am Ofen als Material eines Schritts nicht zuordenbar"}],
+ "maengel":[
+  {"text":"Eine Schutzbrille liegt auf dem Regal, niemand trägt sie","art":"psa","gegenstand":"Schutzbrille beim Schmieden"},
+  {"text":"die Flasche steht direkt neben dem Ofen","art":"stoff_lagerung","gegenstand":"Gasflasche neben dem Ofen"},
+  {"text":"die Schläuche sind alt und ausgefranst","art":"arbeitsmittel_defekt","gegenstand":"Gasschläuche am Ofen"},
+  {"text":"die Schlacke wird mit einem Haken herausgezogen, solange er noch warm ist","art":"arbeitsweise","gegenstand":"Ofenreinigung im warmen Zustand"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"dann mit der Zange herausgezogen und unter den Hammer gelegt ... der Meister das Werkstück mit der Zange hält","sicher":false},
+  {"schritt":2,"stelle":"der Lehrling bedient den Hammer, Lufthammer schlägt in schnellem Takt","sicher":false},
+  {"schritt":3,"stelle":"Gereinigt wird der Ofen nach Feierabend mit der Hand, die Schlacke wird mit einem Haken herausgezogen","sicher":false}]}

@@ -1,0 +1,20 @@
+{"id":"R009-01","name":"R009-01","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"zweikomponentiger Schutzanstrich auf Epoxidbasis","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Lösemittel für die Reinigung","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Konservierung im Schiffstank","bereich":"Konservierung","personen":3,"umgebung":["silo","stickig","eng","zwangshaltung","boden"],"angaben":{"einstieg":true},
+  "schritte":[{"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["lack"]}]}],
+ "wuensche":[
+  {"text":"Aufgetragen wird mit einer Spritzpistole, der Kompressor steht draußen am Kai","fehlt":"Ausführung Spritzpistole (Druckluft) fehlt; handmaschine nur als nächstliegende Wahl"},
+  {"text":"die Spritzpistole wird vom Vorarbeiter gerüstet, die Reinigung machen die Lackierer am Ende selbst","fehlt":"Nicht beschrieben, was dabei an der Maschine getan wird; deshalb kein Schritt für Rüsten und Reinigen"},
+  {"text":"Es wird warm und schwül, die Männer arbeiten im Overall","fehlt":"Umgebung Wärme und Schwüle im Behälter ohne Wärmestrahlung; hitze nicht sicher passend, nicht gewählt"},
+  {"text":"Die Beleuchtung ist eine einzige Baustrahlerlampe","fehlt":"Das Protokoll nennt die Beleuchtung nicht ausdrücklich als schwach; Umgebung dunkel nicht gewählt"},
+  {"text":"Rettung aus dem Tank wäre nur über das Mannloch möglich, mit einer Trage würde es eng","fehlt":"Rettung aus engen Räumen und Sicherung von außen (Leine) nicht abbildbar"},
+  {"text":"ein dritter steht oben am Mannloch und hält die Leine","fehlt":"Sicherungsposten außerhalb des Behälters nicht abbildbar"}],
+ "maengel":[
+  {"text":"die Gebinde stehen offen neben den Männern am Boden","art":"stoff_lagerung","gegenstand":"offene Gebinde des Epoxid-Schutzanstrichs"},
+  {"text":"Ein Lösemittel für die Reinigung steht in offenen Eimern am Mannloch","art":"stoff_lagerung","gegenstand":"Lösemittel in offenen Eimern"},
+  {"text":"es zeigt nach unten auf die Stelle, an der gerade gespritzt wird, und die Luft steht trotzdem im Tank","art":"lueftung","gegenstand":"Schlauchgebläse im Tank"},
+  {"text":"das Kabel läuft über den Boden durch eine Pfütze","art":"elektrik","gegenstand":"Kabel der Baustrahlerlampe"},
+  {"text":"Das Gerüst besteht aus zwei Brettern auf Kanistern","art":"arbeitsweise","gegenstand":"behelfsmäßiges Gerüst aus Brettern auf Kanistern"}],
+ "zuordnung":[{"schritt":1,"stelle":"Aufgetragen wird mit einer Spritzpistole ... Gespritzt wird den ganzen Vormittag","sicher":false}]}

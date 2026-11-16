@@ -1,0 +1,26 @@
+{"id":"R009-11","name":"R009-11","betrieb":{},"angaben":{},
+"stoffe":[],
+"stationen":[
+{"nr":1,"name":"Spritzgießmaschine","bereich":"Kunststofffertigung","personen":3,"umgebung":["halle","gefahrbereich","boden","hitze"],"angaben":{},"schritte":[
+{"vorgang":"heben","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+{"vorgang":"entleeren","ausfuehrung":"von_hand","material":[]},
+{"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage"]}]}],
+"wuensche":[
+{"text":"zwei Personen fahren die Anlage im Wechsel","fehlt":"Vorgang Spritzgießen oder Maschine bedienen fehlt; Schritt weggelassen"},
+{"text":"Das Granulat kommt aus einem Silo über einen Schlauch in den Trichter","fehlt":"Vorgang und Ausführung für automatische Materialzufuhr fehlen; Schritt weggelassen"},
+{"text":"Farbmasterbatch mischt man ins Granulat, man schüttet es von Hand aus einem Sack in den Mischer","fehlt":"Material Granulat oder Masterbatch fehlt"},
+{"text":"Das Werkzeug wiegt mehrere hundert Kilo","fehlt":"Material Spritzgießwerkzeug fehlt; schweres Gerät nicht sicher"},
+{"text":"Die Düse am Zylinder ist sehr heiß, während des Rüstens ist sie noch warm","fehlt":"heiße Maschinenteile als Material oder Umgebung fehlen"},
+{"text":"mit Druckluft, dabei fliegen Granulatreste durch den Raum","fehlt":"Ausführung Druckluftpistole fehlt; von Hand gewählt, nicht sicher"}],
+"maengel":[
+{"text":"die Tür lässt sich auch bei laufender Maschine öffnen, weil der Schalter überbrückt ist, das sieht man an einem Klebeband","art":"schutzeinrichtung","gegenstand":"Schutztür der Spritzgießmaschine"},
+{"text":"Der Boden um die Maschine ist glatt, Granulatkörner liegen verstreut","art":"weg_boden","gegenstand":"Boden um die Maschine"},
+{"text":"Die Maschine reinigt die Person, die auch rüstet, mit Druckluft","art":"arbeitsweise","gegenstand":"Reinigen mit Druckluft"},
+{"text":"Im Raum ist es warm, die Lüftung kommt nicht nach","art":"lueftung","gegenstand":"Raumlüftung"},
+{"text":"Die Schaltschränke stehen daneben, und die Türen sind offen"}],
+"zuordnung":[
+{"schritt":1,"stelle":"Der Werkzeugwechsel wird mit einem Hebezeug gemacht, eine Kette hängt am Werkzeug und der Kran fährt es heraus","sicher":false},
+{"schritt":2,"stelle":"Die Schrauben zum Spannen zieht man mit einem Schlüssel an","sicher":true},
+{"schritt":3,"stelle":"schüttet es von Hand aus einem Sack in den Mischer","sicher":true},
+{"schritt":4,"stelle":"reinigt ... mit Druckluft","sicher":false}]}
