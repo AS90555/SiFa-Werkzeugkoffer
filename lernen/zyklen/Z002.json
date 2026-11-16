@@ -28,7 +28,8 @@
   "R015:uebersetzer": 1,
   "R015:schiedsrichter": 1,
   "R015:lueckenschliesser": 1,
-  "R016:sprecher": 1
+  "R016:sprecher": 1,
+  "R016:uebersetzer": 1
  },
  "hinweise": [
   "Ab der Prüfrunde urteilt wieder das mittlere Modell als Schiedsrichter, weil das kleinste zweimal (R014, R015) trotz Verbot eine geplante Erinnerung angelegt hat. Die Lernrunden R014 und R015 wurden noch vom kleinsten Modell beurteilt."
