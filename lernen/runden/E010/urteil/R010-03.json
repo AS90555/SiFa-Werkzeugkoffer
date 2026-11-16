@@ -1,0 +1,12 @@
+{"id":"R010-03",
+"wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Säure spritzt beim Umschütten über den Kanisterrand; Maßnahmen Schutzbrille, Handschuhe und Augenspülung passen."},
+{"nr":2,"urteil":"getroffen","system":"Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren","grund":"Nebel über dem Becken bei offenem Deckel; Mangel Absaugung, Maßnahme Lüftung instand setzen und Wirksamkeit prüfen passt."},
+{"nr":3,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Feuchte, rutschige Gitterrostbühne (Mangel); Maßnahme Verkehrswege freihalten und Verunreinigungen beseitigen passt."},
+{"nr":4,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Halle ist warm und feucht, Zugluft von der Tür; Maßnahmen Abschirmung und Lüftung passen."}],
+"zusaetzlich":[
+{"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Säcke mit Pulver, Fässer und Kanister werden aus dem Lager geholt und in den Behälter gegeben."},
+{"gefaehrdung":"Absturz aus der Höhe","urteil":"berechtigt","grund":"Er steht zum Ansetzen auf einer Leiter."},
+{"gefaehrdung":"Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät","urteil":"berechtigt","grund":"Der Galvaniseur arbeitet allein."},
+{"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Er kippt den Kanister von der Leiter über den Rand."},
+{"gefaehrdung":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","urteil":"berechtigt","grund":"Fässer stehen nebeneinander, die Beschriftung ist an einer Stelle verblasst."}]}

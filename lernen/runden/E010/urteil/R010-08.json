@@ -1,0 +1,13 @@
+{"id":"R010-08",
+"wahrheit":[
+{"nr":1,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste meint Schnittverletzung beim Ablängen mit dem Schneidegerät."},
+{"nr":2,"urteil":"getroffen","system":"Quetschen und Scheren an bewegten Teilen","grund":"Finger in der Crimpmaschine unter dem Stempel; Maßnahmen Schutzeinrichtung wirksam und vor Schichtbeginn prüfen passen."},
+{"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste meint platzenden Schlauch oder austretendes Wasser bei der Druckprüfung."},
+{"nr":4,"urteil":"getroffen","system":"Verätzung, Reizung oder Verkleben von Haut und Augen","grund":"Hautkontakt mit Hydrauliköl beim Abkoppeln und Wischen; Maßnahmen Handschuhe und Hautschutzplan passen."},
+{"nr":5,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Hydrauliköl tropft auf den Boden (Mangel); Maßnahme Verunreinigungen unverzüglich beseitigen passt."},
+{"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Das Presswerk ist laut, Verständigung erschwert; Maßnahme Lärm am Entstehungsort verringern passt."},
+{"nr":7,"urteil":"getroffen","system":"Unfall oder Fehlgriff durch unzureichende Beleuchtung","grund":"Halle ist dunkel, Licht nur an der Decke; Maßnahme angemessene künstliche Beleuchtung passt."}],
+"zusaetzlich":[
+{"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"typisch","grund":"Schläuche von der großen Rolle ziehen und schwere Teile handhaben; Hebebelastung ist zu prüfen."},
+{"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Der Vorarbeiter wechselt den Stempel der Presse bei einem anderen Durchmesser."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Crimpmaschine mit Fußschalter und Prüfstand; Unterweisung und Betriebsanweisung sind zu prüfen."}]}

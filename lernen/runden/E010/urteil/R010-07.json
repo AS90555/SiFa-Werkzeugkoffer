@@ -1,0 +1,19 @@
+{"id":"R010-07",
+"wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Gesundheitsschaden durch Gefahrstoff nach Einstufung","grund":"Epoxidfarbe und Lösemittel beim Anmischen und Spritzen; Maßnahmen Hautkontakt vermeiden und Handschuhe passen."},
+{"nr":2,"urteil":"getroffen","system":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","grund":"Ein Kollege arbeitet ohne Maske im Spritznebel (Mangel); Maßnahme Schutzausrüstung bereitstellen und für Benutzung sorgen passt."},
+{"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste meint Spritznebel, der auf Personen auf der Straße trifft."},
+{"nr":4,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Träger und Geländerteile werden mit dem Kran umgesetzt; Maßnahmen Niemand unter der Last und Anschlagmittel prüfen passen."},
+{"nr":5,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste betrifft Injektion durch den Hochdruckstrahl."},
+{"nr":6,"urteil":"getroffen","system":"Absturz aus der Höhe","grund":"Arbeit von einer Bühne auf unebenem Boden; Maßnahmen sicheres Arbeitsmittel und Absturzsicherung passen."},
+{"nr":7,"urteil":"getroffen","system":"Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe","grund":"Verdünner in offenem Eimer neben den Bauteilen (Mangel); Maßnahme Behälter geschlossen halten und von Zündquellen fernhalten passt."}],
+"zusaetzlich":[
+{"gefaehrdung":"Brand oder Explosion durch entzündbare Stoffe oder Gase","urteil":"berechtigt","grund":"Lösemittel riecht stark, Verdünner wird im offenen Eimer aufbewahrt."},
+{"gefaehrdung":"Belastung durch Kälte, Hitze oder Zugluft","urteil":"berechtigt","grund":"Im Winter wird es frostig, im Sommer brennt die Sonne."},
+{"gefaehrdung":"Verätzung, Reizung oder Verkleben von Haut und Augen","urteil":"typisch","grund":"Anmischen mit Härter; Hautschutz ist zu prüfen."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Der Schlauch liegt über dem Kiesboden."},
+{"gefaehrdung":"Last fällt, rutscht oder trifft Personen","urteil":"typisch","grund":"Kranbetrieb im Freien mit Personen in der Nähe; Bereich unter der Last ist zu sichern."},
+{"gefaehrdung":"Belastung und Unfallgefahr durch Witterung im Freien","urteil":"berechtigt","grund":"Sonne, Wind und Nässe im Freien, der Wind trägt den Spritznebel zur Straße."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Strahlgerät und Airless-Pistole unter Hochdruck; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Arbeitsbühne steht auf unebenem Boden (Mangel)."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Schlauch liegt über dem Kiesboden (Mangel)."}]}

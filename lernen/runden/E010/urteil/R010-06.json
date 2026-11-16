@@ -1,0 +1,20 @@
+{"id":"R010-06",
+"wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Kontakt mit laufendem Werkzeug","grund":"Hände beim Nachlegen an der Abbundanlage mit offener Schutzhaube; Maßnahme Schutzeinrichtungen wirksam halten passt."},
+{"nr":2,"urteil":"getroffen","system":"Schwebende Last fällt herab","grund":"Wandelemente werden mit dem Kran angehoben und verfahren; Maßnahmen Niemand unter der Last und Anschlagmittel prüfen passen."},
+{"nr":3,"urteil":"getroffen","system":"Getroffen werden von Klammer oder Teil","grund":"Verletzung durch den Druckluftnagler am Montagetisch; Maßnahmen Auslösesicherung und freie Hand aus der Schusslinie passen."},
+{"nr":4,"urteil":"getroffen","system":"Atemwegserkrankung durch Holzstaub","grund":"Holzstaub liegt überall herum, am Schichtende wird abgeblasen; Maßnahmen Absaugung und Saugen statt Abblasen passen."},
+{"nr":5,"urteil":"getroffen","system":"Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt","grund":"Mineralwolle reizt die Haut, Handschuhe werden nicht konsequent getragen (Mangel); Maßnahme Schutzausrüstung bereitstellen und für Benutzung sorgen passt."},
+{"nr":6,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Halle und Abbundanlage sind laut; Maßnahme Lärm verringern und Gehörschutz passt."},
+{"nr":7,"urteil":"getroffen","system":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","grund":"Wiederholtes Heben der Platten vom Stapel belastet Rücken und Schultern; Maßnahme Hebehilfe passt."}],
+"zusaetzlich":[
+{"gefaehrdung":"Handverletzung durch Splitter und Kanten","urteil":"typisch","grund":"Holzbearbeitung mit Kanthölzern und Splittern; Fachkraft würde Handschutz prüfen."},
+{"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"berechtigt","grund":"Der Maschinenführer wechselt die Sägeblätter und verstellt die Anschläge."},
+{"gefaehrdung":"Brand oder Staubexplosion","urteil":"berechtigt","grund":"Späne und Holzstaub liegen überall herum."},
+{"gefaehrdung":"Einzug von Hand oder Arm","urteil":"typisch","grund":"Zuführrollenbahn und Abbundanlage; Einzugsstellen an Rollen sind zu prüfen."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Späne liegen am Boden."},
+{"gefaehrdung":"Quetschen und Scheren an bewegten Teilen","urteil":"typisch","grund":"Schwere Teile werden von Hand am Montagetisch abgesetzt."},
+{"gefaehrdung":"Atemwegserkrankung durch Staub","urteil":"berechtigt","grund":"Am Ende der Schicht wird mit Druckluft abgeblasen."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Abbundanlage; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Schutzhaube an der Abbundanlage ist offen."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Späne und Holzstaub liegen überall herum (Mangel)."}]}

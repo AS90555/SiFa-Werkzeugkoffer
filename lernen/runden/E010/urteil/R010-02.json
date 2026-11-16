@@ -1,0 +1,10 @@
+{"id":"R010-02",
+"wahrheit":[
+{"nr":1,"urteil":"verfehlt","system":null,"grund":"Schwebende Last fällt herab meint herabfallende Last, nicht Quetschen beim Führen am Manipulator."},
+{"nr":2,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Stufe vor dem Montageplatz, Mangel; Maßnahme Stolperstellen beseitigen oder kennzeichnen passt."},
+{"nr":3,"urteil":"getroffen","system":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","grund":"Wiederholtes Schrauben und Fetten im kurzen Takt; Maßnahmen Schrauber mit Abschaltkupplung und Arbeitsplatzwechsel passen."},
+{"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Dauerlärm des Kompressors und der Montage; Maßnahme Lärm am Entstehungsort verringern passt."}],
+"zusaetzlich":[
+{"gefaehrdung":"Schwebende Last fällt herab","urteil":"berechtigt","grund":"Achse von 180 Kilo wird vom Hallenkran an den Haken des Manipulators gehängt."},
+{"gefaehrdung":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","urteil":"berechtigt","grund":"Der Takt ist kurz, etwa alle fünf Minuten kommt eine neue Achse."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebener Manipulator und Drehmomentschlüssel; Unterweisung und Betriebsanweisung sind zu prüfen."}]}

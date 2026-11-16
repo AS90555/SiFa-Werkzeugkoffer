@@ -1,0 +1,16 @@
+{"id":"R010-05",
+"wahrheit":[
+{"nr":1,"urteil":"getroffen","system":"Einzug von Hand oder Arm","grund":"Hände werden an laufende Walzen gezogen, wenn die Schutzhaube hochgeklappt ist; Maßnahme Einzugsstelle verdecken passt."},
+{"nr":2,"urteil":"getroffen","system":"Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf","grund":"Warme Profile und heiße Walzen beim Abwischen und Stapeln; Maßnahmen Ablageplatz und hitzebeständige Handschuhe passen."},
+{"nr":3,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste betrifft Hautkontakt oder Einatmen von Kleber-Dämpfen und Lösemitteln."},
+{"nr":4,"urteil":"getroffen","system":"Gehörschaden durch Lärm","grund":"Anlage und Kompressor sind laut, Verständigung erschwert; Maßnahme Lärm am Entstehungsort verringern passt."},
+{"nr":5,"urteil":"getroffen","system":"Belastung durch Kälte, Hitze oder Zugluft","grund":"Halle im Sommer spürbar warm; Maßnahmen Abschirmung der Wärmequelle, Lüftung und Trinkpausen passen."},
+{"nr":6,"urteil":"getroffen","system":"Stolpern, Rutschen, Stürzen","grund":"Ausschussteile liegen neben dem Auslauf (Mangel); Maßnahme Verkehrswege freihalten passt."}],
+"zusaetzlich":[
+{"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Der Kollege nimmt die fertigen Zargen ab und stapelt sie auf den Rollwagen."},
+{"gefaehrdung":"Unerwarteter Anlauf im Sonderbetrieb","urteil":"typisch","grund":"Umstellung der Anlage auf neue Profilbreite durch den Schichtführer; Anlauf bei Umrüstung ist zu prüfen."},
+{"gefaehrdung":"Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge","urteil":"typisch","grund":"Die Anlage läuft im Takt; Taktarbeit ist auf psychische Belastung zu prüfen."},
+{"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"typisch","grund":"Profile werden im Takt von Hand aufgelegt, dazu das Abwischen der Walzen."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebene Anlage wird vom Schichtführer umgestellt; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist","urteil":"berechtigt","grund":"Die Schutzhaube steht hochgeklappt."},
+{"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Zum Abwischen muss man an die noch warmen Walzen greifen."}]}

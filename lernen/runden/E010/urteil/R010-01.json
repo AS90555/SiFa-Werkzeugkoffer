@@ -1,0 +1,17 @@
+{"id":"R010-01",
+"wahrheit":[
+{"nr":1,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste meint Brand oder Explosion durch Dämpfe und Diesellache."},
+{"nr":2,"urteil":"verfehlt","system":null,"grund":"Die Liste enthält keine Gefährdung durch Dämpfe oder Hautkontakt mit Diesel."},
+{"nr":3,"urteil":"getroffen","system":"Elektrischer Schlag, Störlichtbogen","grund":"Lampe am Verlängerungskabel quer über den Asphalt; Maßnahme zu beschädigten Betriebsmitteln passt zur Ursache."},
+{"nr":4,"urteil":"verfehlt","system":null,"grund":"Keine Gefährdung der Liste betrifft Quetschen durch den schweren Deckel."}],
+"zusaetzlich":[
+{"gefaehrdung":"Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen","urteil":"berechtigt","grund":"Der schwere Deckel wird mit dem Brecheisen hochgestemmt, weil man ihn von Hand nicht bewegt."},
+{"gefaehrdung":"Hand-Arm-Beschwerden durch gleichförmige Arbeit","urteil":"unbegruendet","grund":"Einzelnes Schrauben am Schacht ist keine gleichförmige Dauerarbeit."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Verlängerungskabel quer über den Asphalt."},
+{"gefaehrdung":"Absturz aus der Höhe","urteil":"berechtigt","grund":"Der Domschacht ist offen, die Abdeckung liegt auf dem Boden."},
+{"gefaehrdung":"Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar","urteil":"berechtigt","grund":"Feuerlöscher steht zwei Zapfinseln weiter, im Protokoll ausdrücklich genannt."},
+{"gefaehrdung":"Unfall durch falsche Bedienung der Maschine","urteil":"typisch","grund":"Kraftbetriebener Akkuschrauber; Unterweisung und Betriebsanweisung sind zu prüfen."},
+{"gefaehrdung":"Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar","urteil":"berechtigt","grund":"Mangel: Feuerlöscher zwei Zapfinseln weiter, man müsste ihn holen."},
+{"gefaehrdung":"Unfall durch eine gefährliche Arbeitsweise oder Lage","urteil":"berechtigt","grund":"Das Handy liegt auf der Säule im Zapfbereich."},
+{"gefaehrdung":"Stolpern, Rutschen, Stürzen","urteil":"berechtigt","grund":"Diesellache auf dem Boden, nicht aufgenommen."},
+{"gefaehrdung":"Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel","urteil":"berechtigt","grund":"Schlauch zur Pumpe mit dunklem Riss."}]}

@@ -1,0 +1,56 @@
+{
+ "runde": "R011",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R011-01",
+   "auftrag": "a124",
+   "branche": "Dichtungen",
+   "bereich": "Stanzen und Vulkanisieren"
+  },
+  {
+   "kennung": "R011-02",
+   "auftrag": "a101",
+   "branche": "Bootstischlerei",
+   "bereich": "Laminieren und Schleifen am Rumpf"
+  },
+  {
+   "kennung": "R011-03",
+   "auftrag": "a153",
+   "branche": "Schiffswerft",
+   "bereich": "Schweißen im Doppelboden"
+  },
+  {
+   "kennung": "R011-04",
+   "auftrag": "a129",
+   "branche": "Fahrzeugbau",
+   "bereich": "Motoren- oder Rollenprüfstand"
+  },
+  {
+   "kennung": "R011-05",
+   "auftrag": "a115",
+   "branche": "Kunststoffspritzgießerei",
+   "bereich": "Spritzgießmaschine, Granulat, Entnahme"
+  },
+  {
+   "kennung": "R011-06",
+   "auftrag": "a162",
+   "branche": "Autohaus",
+   "bereich": "Fahrzeugaufbereitung, Waschhalle, Polieren"
+  },
+  {
+   "kennung": "R011-07",
+   "auftrag": "a143",
+   "branche": "Stahlbau",
+   "bereich": "Montage auf der Baustelle, Träger setzen"
+  },
+  {
+   "kennung": "R011-08",
+   "auftrag": "a132",
+   "branche": "Druckgießerei",
+   "bereich": "Druckgießmaschine und Trennmittel"
+  }
+ ]
+}
