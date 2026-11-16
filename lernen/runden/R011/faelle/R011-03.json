@@ -1,0 +1,25 @@
+{"id":"R011-03","name":"R011-03","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Doppelboden im Schiffsrumpf","bereich":"Schweißen im Doppelboden","personen":2,"umgebung":["eng","zwangshaltung","stickig","funkenflug"],"angaben":{},
+   "schritte":[
+    {"vorgang":"schweissen","ausfuehrung":"schweissgeraet","material":["druckgasflasche","prozessrauch"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"der andere steht oben am Luk und reicht Material","fehlt":"Angabe, welches Material gereicht wird"},
+  {"text":"durch kleine Öffnungen kriecht man hinein","fehlt":"Umgebung enger Raum, Einstieg in Hohlraum (nur Enge gewählt); Alleinarbeit oder Rettung aus engem Raum"},
+  {"text":"Funken fliegen auf die Dämmung an der Wand, da liegt noch Mineralwolle","fehlt":"Umgebung brennbare Dämmung in Funkenflug; Material Mineralwolle"},
+  {"text":"die Schlacke liegt dann auf dem Boden","fehlt":"Material Schweißschlacke"}],
+ "maengel":[
+  {"text":"Die Kabel liegen quer über den Boden, teilweise im Wasser, die Pfützen stehen dort seit dem Regen","art":"elektrik","gegenstand":"Schweißkabel am Boden im Wasser"},
+  {"text":"Die Beleuchtung ist eine Lampe oben am Luk, die Taschenlampe hängt am Haken","art":"beleuchtung","gegenstand":"Beleuchtung im Doppelboden"},
+  {"text":"Beim Schweißen steigt der Rauch auf und sammelt sich im geschlossenen Raum, es gibt nur das Luk als Öffnung","art":"lueftung","gegenstand":"Absaugung beim Schweißen"},
+  {"text":"Ein Feuerlöscher hängt am Ende des Gangs, ungefähr zwanzig Meter entfernt"},
+  {"text":"Funken fliegen auf die Dämmung an der Wand, da liegt noch Mineralwolle"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Es wird mit einem MIG-Schweißgerät geschweißt ... die Gasflasche steht oben am Luk ... der Rauch","sicher":true},
+  {"schritt":2,"stelle":"der andere steht oben am Luk und reicht Material","sicher":false},
+  {"schritt":3,"stelle":"der Vorarbeiter wechselt die Drahtrolle","sicher":true},
+  {"schritt":4,"stelle":"Nach der Schicht wird mit der Bürste gereinigt","sicher":false}]}

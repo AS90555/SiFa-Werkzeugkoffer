@@ -1,0 +1,122 @@
+{
+ "id": "R011-02",
+ "name": "R011-02",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Offener Rumpf auf Holzböcken",
+   "bereich": "Laminieren und Schleifen am Rumpf",
+   "personen": 2,
+   "umgebung": [
+    "werkstatt",
+    "zwangshaltung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "leiter",
+     "material": []
+    },
+    {
+     "vorgang": "schleifen",
+     "ausfuehrung": "handmaschine",
+     "material": []
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Sie legen die Glasfasermatten von Hand in die Form",
+   "fehlt": "Material Glasfasermatten"
+  },
+  {
+   "text": "tränken sie mit Harz, mit einer Rolle und einem Pinsel",
+   "fehlt": "Vorgang Laminieren, Harz mit Rolle und Pinsel auftragen; Material Harz"
+  },
+  {
+   "text": "Das Harz wird im Eimer mit Härter angerührt, der Härter ist ein flüssiges Peroxid",
+   "fehlt": "Material Harz und Peroxid-Härter (Stoff ohne passende Materialart)"
+  },
+  {
+   "text": "schleift einer den Rumpf mit einem Exzenterschleifer, dabei entsteht viel feiner Staub",
+   "fehlt": "Material GFK-Schleifstaub"
+  },
+  {
+   "text": "Der Harzgeruch zieht durch die ganze Halle",
+   "fehlt": "Material Harzdämpfe, Styrol"
+  },
+  {
+   "text": "Harz, Härter (flüssiges Peroxid)",
+   "fehlt": "Materialart für Harz und Peroxid-Härter; Stoffe deshalb nicht unter stoffe eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Absaugung am Schleifer hängt an einem Schlauch, der ist zum Teil abgerissen, dann wird ohne Absaugung geschliffen",
+   "art": "lueftung",
+   "gegenstand": "Absaugung am Exzenterschleifer"
+  },
+  {
+   "text": "Gelüftet wird über eine Tür zum Hof und einen Ventilator, bei Windstille reicht das nicht",
+   "art": "lueftung",
+   "gegenstand": "Hallenlüftung"
+  },
+  {
+   "text": "Halbmasken liegen im Regal, werden aber nicht immer getragen",
+   "art": "psa",
+   "gegenstand": "Halbmaske"
+  },
+  {
+   "text": "Die Lappen vom Harz liegen nach dem Arbeiten in einer offenen Tonne",
+   "art": "stoff_lagerung",
+   "gegenstand": "harzgetränkte Lappen"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Sie legen die Glasfasermatten von Hand in die Form",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Das Harz wird im Eimer mit Härter angerührt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "über Kopf an den Decksbereich gesetzt, ... stehen über Kopf auf der Leiter",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "schleift einer den Rumpf mit einem Exzenterschleifer",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Am Ende der Schicht wird der Platz mit einem Besen gefegt",
+   "sicher": true
+  }
+ ]
+}
