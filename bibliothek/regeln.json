@@ -4681,5 +4681,69 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R126",
+  "name": "Getränkte Lappen können sich entzünden",
+  "wenn": "m.oellappen",
+  "entsteht": "Mit Öl, Reiniger oder Lösemittel getränkte Lappen liegen herum oder werden zusammengeknüllt; in Haufen können sie sich erhitzen und Feuer fangen",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R126-M1",
+    "art": "T",
+    "text": "Benutzte Lappen in einem nicht brennbaren, verschließbaren Sammelbehälter ablegen"
+   },
+   {
+    "id": "R126-M2",
+    "art": "O",
+    "text": "Lappen nicht liegen lassen oder zusammenknüllen, Behälter regelmäßig leeren und die Entsorgung festlegen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "trgs-800",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R127",
+  "name": "Quetschstelle zwischen Anlage und Wand",
+  "wenn": "u.quetschstelle",
+  "entsteht": "Zwischen einer bewegten Anlage oder einem bewegten Teil und der Wand bleibt nur ein enger Durchgang; Personen können eingeklemmt werden",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R127-M1",
+    "art": "T",
+    "text": "Abstand zur Wand vergrößern oder die enge Stelle durch Absperrung oder Schutzeinrichtung sichern"
+   },
+   {
+    "id": "R127-M2",
+    "art": "O",
+    "text": "Aufenthalt im Bewegungsbereich während des Betriebs untersagen, Zugang kennzeichnen und unterweisen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "asr-a1-8",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

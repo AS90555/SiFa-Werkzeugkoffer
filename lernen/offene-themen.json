@@ -90,22 +90,52 @@
   ]
  },
  {
-  "thema": "Selbstentzündung ölgetränkter Lappen",
-  "seit": "R012",
-  "anlass": [
-   {
-    "kennung": "R012-08",
-    "stelle": "die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke"
-   }
-  ]
- },
- {
   "thema": "Warme Luft ohne Fenster",
   "seit": "R012",
   "anlass": [
    {
     "kennung": "R012-02",
     "stelle": "Es ist warm, der Raum hat kein Fenster."
+   }
+  ]
+ },
+ {
+  "thema": "Kippen der Hubarbeitsbühne auf abfallendem Hallenboden",
+  "seit": "R013",
+  "anlass": [
+   {
+    "kennung": "R013-05",
+    "stelle": "Die Bühne steht auf dem Hallenboden, der an dieser Stelle leicht abfällt"
+   }
+  ]
+ },
+ {
+  "thema": "Hand-Arm-Vibration durch Handschleifmaschinen",
+  "seit": "R013",
+  "anlass": [
+   {
+    "kennung": "R013-09",
+    "stelle": "Die Handschleifmaschinen vibrieren stark"
+   }
+  ]
+ },
+ {
+  "thema": "Wasserstoff und Kurzschluss bei Altbatterien ohne Lüftung",
+  "seit": "R013",
+  "anlass": [
+   {
+    "kennung": "R013-12",
+    "stelle": "Die Altbatterien liegen in einer Kiste auf dem Boden"
+   }
+  ]
+ },
+ {
+  "thema": "Heben und Kippen schwerer Säcke beim Nachfüllen",
+  "seit": "R013",
+  "anlass": [
+   {
+    "kennung": "R013-14",
+    "stelle": "Nachgefüllt wird das Korn aus Säcken"
    }
   ]
  }

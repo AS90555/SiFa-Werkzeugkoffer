@@ -597,6 +597,21 @@
    "merkmale": [
     "m.gefahrstoff"
    ]
+  },
+  {
+   "id": "oelige_lappen",
+   "name": "Ölige oder getränkte Putzlappen",
+   "merkmale": [
+    "m.oel",
+    "m.oellappen"
+   ]
+  },
+  {
+   "id": "gipskartonplatte",
+   "name": "Gipskartonplatte",
+   "merkmale": [
+    "m.sperrig"
+   ]
   }
  ],
  "vorgang": [
@@ -1550,6 +1565,13 @@
    "name": "Funkenflug oder heiße Partikel, auch von Nachbararbeiten",
    "merkmale": [
     "u.funken"
+   ]
+  },
+  {
+   "id": "quetschstelle_wand",
+   "name": "Enge Stelle zwischen Anlage und Wand",
+   "merkmale": [
+    "u.quetschstelle"
    ]
   }
  ]

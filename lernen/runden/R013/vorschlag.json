@@ -1,0 +1,71 @@
+{
+ "runde": "R013",
+ "merkmale": [
+  {"id": "m.oellappen", "name": "Mit Öl, Reiniger oder Lösemittel getränkte Putzlappen"},
+  {"id": "u.quetschstelle", "name": "Enge Stelle zwischen bewegter Anlage und Wand oder festem Hindernis"}
+ ],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {"typ": "material", "id": "oelige_lappen", "name": "Ölige oder getränkte Putzlappen", "merkmale": ["m.oel", "m.oellappen"],
+   "anlass": [
+    {"kennung": "R013-01", "stelle": "Lappen liegen herum"},
+    {"kennung": "R012-08", "stelle": "die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke"}
+   ]},
+  {"typ": "umgebung", "id": "quetschstelle_wand", "name": "Enge Stelle zwischen Anlage und Wand", "merkmale": ["u.quetschstelle"],
+   "anlass": [
+    {"kennung": "R013-04", "stelle": "Zwischen Richtbank und Wand sind nur neunzig Zentimeter."},
+    {"kennung": "R013-07", "stelle": "man muss zwischen Presse und Wand durch"}
+   ]},
+  {"typ": "material", "id": "gipskartonplatte", "name": "Gipskartonplatte", "merkmale": ["m.sperrig"],
+   "anlass": [
+    {"kennung": "R013-03", "stelle": "die Gipskartonplatten werden vom Rollgerüst aus angeschraubt"}
+   ]}
+ ],
+ "woerter": [
+  {"worte": ["putzlappen", "ölige lappen", "lappen liegen", "benutzten lappen", "öllappen"], "material": ["oelige_lappen"]},
+  {"worte": ["zwischen richtbank und wand", "zwischen presse und wand", "zwischen maschine und wand", "zwischen anlage und wand"], "umgebung": ["quetschstelle_wand"]},
+  {"worte": ["messerwechsel", "fräsköpfe werden", "techniker wechselt", "düsenwechsel"], "vorgang": "sonderbetrieb", "material": ["anlage"]},
+  {"worte": ["gerüstet wird", "gewartet wird"], "vorgang": "sonderbetrieb", "material": ["anlage"]},
+  {"worte": ["dieselmotor", "verbrennungsmotor", "benzinmotor"], "material": ["abgase"]},
+  {"worte": ["abfällt", "abfallende", "abfallender"], "umgebung": ["gefaelle"]},
+  {"worte": ["gipskarton", "gipskartonplatte", "gipskartonplatten", "gipsplatte", "rigips"], "material": ["gipskartonplatte"]},
+  {"worte": ["rollgerüst", "fahrgerüst"], "vorgang": "hoehenarbeit"}
+ ],
+ "regeln": [
+  {"name": "Getränkte Lappen können sich entzünden", "wenn": "m.oellappen",
+   "entsteht": "Mit Öl, Reiniger oder Lösemittel getränkte Lappen liegen herum oder werden zusammengeknüllt; in Haufen können sie sich erhitzen und Feuer fangen",
+   "gefaehrdung": "g-brand-ex-stoff",
+   "massnahmen": [
+    {"art": "T", "text": "Benutzte Lappen in einem nicht brennbaren, verschließbaren Sammelbehälter ablegen"},
+    {"art": "O", "text": "Lappen nicht liegen lassen oder zusammenknüllen, Behälter regelmäßig leeren und die Entsorgung festlegen"}
+   ],
+   "quellen": ["gefstoffv", "trgs-800"],
+   "anlass": [
+    {"kennung": "R013-01", "stelle": "Lappen liegen herum"},
+    {"kennung": "R012-08", "stelle": "die benutzten Lappen liegen danach zusammengeknüllt in einer Ecke"}
+   ]},
+  {"name": "Quetschstelle zwischen Anlage und Wand", "wenn": "u.quetschstelle",
+   "entsteht": "Zwischen einer bewegten Anlage oder einem bewegten Teil und der Wand bleibt nur ein enger Durchgang; Personen können eingeklemmt werden",
+   "gefaehrdung": "g-quetschen",
+   "massnahmen": [
+    {"art": "T", "text": "Abstand zur Wand vergrößern oder die enge Stelle durch Absperrung oder Schutzeinrichtung sichern"},
+    {"art": "O", "text": "Aufenthalt im Bewegungsbereich während des Betriebs untersagen, Zugang kennzeichnen und unterweisen"}
+   ],
+   "quellen": ["betrsichv", "asr-a1-8"],
+   "anlass": [
+    {"kennung": "R013-04", "stelle": "Zwischen Richtbank und Wand sind nur neunzig Zentimeter."},
+    {"kennung": "R013-07", "stelle": "man muss zwischen Presse und Wand durch"}
+   ]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Kippen der Hubarbeitsbühne auf abfallendem Hallenboden", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R013-05", "stelle": "Die Bühne steht auf dem Hallenboden, der an dieser Stelle leicht abfällt"}]},
+  {"thema": "Hand-Arm-Vibration durch Handschleifmaschinen", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R013-09", "stelle": "Die Handschleifmaschinen vibrieren stark"}]},
+  {"thema": "Wasserstoff und Kurzschluss bei Altbatterien ohne Lüftung", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R013-12", "stelle": "Die Altbatterien liegen in einer Kiste auf dem Boden"}]},
+  {"thema": "Heben und Kippen schwerer Säcke beim Nachfüllen", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R013-14", "stelle": "Nachgefüllt wird das Korn aus Säcken"}]}
+ ],
+ "erledigt": ["Selbstentzündung ölgetränkter Lappen"]
+}

@@ -129,5 +129,7 @@
  "u.funken": "Funkenflug oder heiße Partikel in der Umgebung",
  "a.hammer": "Schmiedehammer, Lufthammer: Schlagbewegung",
  "a.hochdruck": "Flüssigkeit oder Gas unter hohem Druck: Hochdruckstrahl, Druckprüfung",
- "m.elektro_betriebsmittel": "Elektrisches Betriebsmittel oder Leitung im Arbeitsbereich: Kabel am Boden, Strahler, Verlängerung"
+ "m.elektro_betriebsmittel": "Elektrisches Betriebsmittel oder Leitung im Arbeitsbereich: Kabel am Boden, Strahler, Verlängerung",
+ "m.oellappen": "Mit Öl, Reiniger oder Lösemittel getränkte Putzlappen",
+ "u.quetschstelle": "Enge Stelle zwischen bewegter Anlage und Wand oder festem Hindernis"
 }

@@ -1597,5 +1597,89 @@
   ],
   "vorgang": "handhaben",
   "ausfuehrung": "von_hand"
+ },
+ {
+  "worte": [
+   "putzlappen",
+   "ölige lappen",
+   "lappen liegen",
+   "benutzten lappen",
+   "öllappen"
+  ],
+  "material": [
+   "oelige_lappen"
+  ]
+ },
+ {
+  "worte": [
+   "zwischen richtbank und wand",
+   "zwischen presse und wand",
+   "zwischen maschine und wand",
+   "zwischen anlage und wand"
+  ],
+  "umgebung": [
+   "quetschstelle_wand"
+  ]
+ },
+ {
+  "worte": [
+   "messerwechsel",
+   "fräsköpfe werden",
+   "techniker wechselt",
+   "düsenwechsel"
+  ],
+  "vorgang": "sonderbetrieb",
+  "material": [
+   "anlage"
+  ]
+ },
+ {
+  "worte": [
+   "gerüstet wird",
+   "gewartet wird"
+  ],
+  "vorgang": "sonderbetrieb",
+  "material": [
+   "anlage"
+  ]
+ },
+ {
+  "worte": [
+   "dieselmotor",
+   "verbrennungsmotor",
+   "benzinmotor"
+  ],
+  "material": [
+   "abgase"
+  ]
+ },
+ {
+  "worte": [
+   "abfällt",
+   "abfallende",
+   "abfallender"
+  ],
+  "umgebung": [
+   "gefaelle"
+  ]
+ },
+ {
+  "worte": [
+   "gipskarton",
+   "gipskartonplatte",
+   "gipskartonplatten",
+   "gipsplatte",
+   "rigips"
+  ],
+  "material": [
+   "gipskartonplatte"
+  ]
+ },
+ {
+  "worte": [
+   "rollgerüst",
+   "fahrgerüst"
+  ],
+  "vorgang": "hoehenarbeit"
  }
 ]

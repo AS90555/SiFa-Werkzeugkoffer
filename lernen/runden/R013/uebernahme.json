@@ -1,0 +1,32 @@
+{
+ "runde": "R013",
+ "uebernommen": {
+  "merkmale": [
+   "m.oellappen",
+   "u.quetschstelle"
+  ],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/oelige_lappen",
+   "umgebung/quetschstelle_wand",
+   "material/gipskartonplatte"
+  ],
+  "woerter": [
+   "putzlappen, ölige lappen, lappen liegen, benutzten lappen, öllappen",
+   "zwischen richtbank und wand, zwischen presse und wand, zwischen maschine und wand, zwischen anlage und wand",
+   "messerwechsel, fräsköpfe werden, techniker wechselt, düsenwechsel",
+   "gerüstet wird, gewartet wird",
+   "dieselmotor, verbrennungsmotor, benzinmotor",
+   "abfällt, abfallende, abfallender",
+   "gipskarton, gipskartonplatte, gipskartonplatten, gipsplatte, rigips",
+   "rollgerüst, fahrgerüst"
+  ],
+  "regeln": [
+   "R126 Getränkte Lappen können sich entzünden",
+   "R127 Quetschstelle zwischen Anlage und Wand"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 14
+}
