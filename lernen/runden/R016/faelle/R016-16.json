@@ -1,0 +1,18 @@
+{"id":"R016-16","name":"R016-16","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Prüfstand Druckprüfung Pumpengehäuse","bereich":"Prüfhalle","personen":1,"umgebung":["kalt","boden"],"angaben":{"last_kg":50},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+   {"vorgang":"druckpruefen","ausfuehrung":"hochdruckgeraet","material":["metallwerkstueck"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand"}]}],
+ "wuensche":[
+  {"text":"Pro Schicht werden etwa sechzig Gehäuse geprüft","fehlt":"Griffe je Stunde nicht genannt; Zahl der Griffe je Gehäuse offen, keine Angabe eingetragen"},
+  {"text":"Die Spannvorrichtung wird vom Instandhalter eingestellt","fehlt":"Rüsten macht eine andere Person, kein Schritt dieser Station"},
+  {"text":"das Gehäuse wird mit Wasser gefüllt","fehlt":"Wasser als Stoff nicht erfasst"}],
+ "maengel":[
+  {"text":"Ein Schutz um den Prüfstand herum gibt es nicht, der Prüfer steht direkt davor","art":"schutzeinrichtung","gegenstand":"Schutz um den Druckprüfstand"},
+  {"text":"Das Wasser läuft beim Abbau auf den Boden, der Boden ist deshalb oft rutschig","art":"weg_boden","gegenstand":"Boden am Prüfstand"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gehäuse auf einer Palette, etwa vierzig Kilogramm schwer, der größte Teil liegt bei fünfzig","sicher":true},
+  {"schritt":2,"stelle":"Druck über eine Handpumpe aufgebaut, am Manometer abgelesen","sicher":true},
+  {"schritt":3,"stelle":"Gereinigt wird der Stand täglich mit Wasser und Besen","sicher":true}]}

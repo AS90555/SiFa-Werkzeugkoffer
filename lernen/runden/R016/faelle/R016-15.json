@@ -1,0 +1,23 @@
+{"id":"R016-15","name":"R016-15","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Verladetor mit Elektrostapler","bereich":"Lager und Versand","personen":1,"umgebung":["lager","fahrverkehr","aussen","betriebsfremde","kalt","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"bewegen","ausfuehrung":"gabelstapler_elektro","material":["palette_gestapelt"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"gabelstapler_elektro","material":["anlage"]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand"}]},
+  {"nr":2,"name":"Kommissionierung von Hand","bereich":"Lager und Versand","personen":1,"umgebung":["lager","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"lagern_regal","ausfuehrung":"von_hand","material":["palette_gestapelt","massivholzteil"]}]}],
+ "wuensche":[
+  {"text":"die Arbeitsplatten sind bis zu vier Meter lang","fehlt":"Material Arbeitsplatte (Langgut, sperrig) fehlt in den Stammdaten"},
+  {"text":"der Kollege, der die Ware von Hand von den Regalen holt und auf Paletten stellt","fehlt":"Last je Griff und Griffe je Stunde nicht genannt, keine Angaben eingetragen"},
+  {"text":"Die Paletten stehen zum Teil bis drei Ebenen hoch","fehlt":"Lagerung gestapelter Paletten als eigener Schritt ohne Angabe, wer sie lagert"},
+  {"text":"Der Stapler wird am Ende der Schicht von der Person selbst gewartet, die Batterie ist am Ladegerät im Hof","fehlt":"Wartung und Batterieladen am Stapler ohne eigenen Vorgang; als Sonderbetrieb eingetragen, unsicher"}],
+ "maengel":[
+  {"text":"Im Lager liegt der Boden stellenweise nass von Lieferungen, es gibt Stellen mit Pfützen und Kanten","art":"weg_boden","gegenstand":"Lagerboden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Elektrostapler mit Hubmast; Der Stapler setzt die Paletten auf den LKW, meist zwanzig bis dreißig pro Tag","sicher":true},
+  {"schritt":2,"stelle":"Der Stapler wird am Ende der Schicht von der Person selbst gewartet","sicher":false},
+  {"schritt":3,"stelle":"Gereinigt wird der Hof einmal pro Woche mit einem Besen","sicher":true},
+  {"schritt":4,"stelle":"Kollege, der die Ware von Hand von den Regalen holt und auf Paletten stellt","sicher":false}]}

@@ -1,0 +1,23 @@
+{"id":"R016-14","name":"R016-14","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Zweikomponenten-Wasserlack","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Reiniger aus dem Kanister","material":"lackreste","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Spritzstand","bereich":"Lackiererei","personen":3,"umgebung":["laerm_umgebung","hitze"],"angaben":{},
+  "schritte":[
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"lackieren","ausfuehrung":"hochdruckgeraet","material":["lack"]},
+   {"vorgang":"schleifen_hand","ausfuehrung":"von_hand","material":["element_lackiert"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","lackreste"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"eine Türe hat etwa achtzig mal sechzig Zentimeter und wiegt bis zu zwanzig Kilogramm","fehlt":"Heben der Türen von Hand ist nicht beschrieben, daher kein Schritt und keine Lastangabe"},
+  {"text":"Der Stand ist nur über eine Tür aus dem Hauptraum erreichbar","fehlt":"Enge oder Fluchtweg nicht ausdrücklich beschrieben, keine Umgebung gewählt"},
+  {"text":"Gespritzt wird etwa vier Stunden am Tag","fehlt":"Absaugschacht und Trocknungsbox sind keine eigenen Schritte der Person"},
+  {"text":"der Lack wird aus einem Eimer neben dem Stand gemischt","fehlt":"Eimer ohne Deckel oder Beschriftung nicht genannt; Lagerung nicht beurteilbar"}],
+ "maengel":[],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Zweikomponenten-Wasserlack, der aus einem Eimer neben dem Stand gemischt wird","sicher":true},
+  {"schritt":2,"stelle":"Lackiert wird mit einer Airless-Pumpe, die an einem Druckschlauch hängt, der Lack geht über eine Pistole","sicher":true},
+  {"schritt":3,"stelle":"jede Türe bekommt drei Schichten mit Zwischenschleifen von Hand","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird die Pistole nach jeder Schicht mit Wasser und einem Reiniger aus dem Kanister, die Filtermatten werden von der Person am Stand gewechselt","sicher":false},
+  {"schritt":5,"stelle":"Rüsten, also Druck und Düse einstellen, macht der Lackierer selbst","sicher":true}]}

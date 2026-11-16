@@ -1,0 +1,23 @@
+{"id":"R016-05","name":"R016-05","betrieb":{},"angaben":{},"stoffe":[],
+"stationen":[{"nr":1,"name":"Auslieferung und Aufbau von Kleiderschränken","bereich":"Montage","personen":2,"umgebung":["eng","treppe","dunkel","zeitdruck","betriebsfremde","boden"],"angaben":{"last_kg":60},
+"schritte":[
+{"vorgang":"ziehen_schieben","ausfuehrung":"von_hand","material":["packgut"]},
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["packgut"]},
+{"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":["plattenware"]}]}],
+"wuensche":[
+{"text":"Die Pakete werden mit einer Sackkarre vom Transporter bis zum Hauseingang gefahren","fehlt":"Ausführung Sackkarre (nur Handhubwagen vorhanden)"},
+{"text":"dann trägt man sie Stufe für Stufe ins Treppenhaus hinauf, vierter Stock, kein Aufzug","fehlt":"Tragen über Treppen als eigener Vorgang oder Angabe Stockwerke"},
+{"text":"teilweise steht man dabei auf einer Leiter","fehlt":"Montage auf der Leiter; Vorgang Arbeiten in der Höhe passt für Decke, Dach, Tor nicht sicher"},
+{"text":"Der Fahrer hilft oft beim Tragen mit","fehlt":"Personenzahl schwankt zwischen zwei und drei"},
+{"text":"Kunden stehen oft in der Tür und drängeln","fehlt":"Umgebung Kunden im Arbeitsbereich ist nur als betriebsfremde Personen gewählt"},
+{"text":"Akku wird abends im Transporter geladen","fehlt":"Akku laden als Vorgang oder Stoff"},
+{"text":"Oben wird ausgepackt, die Seitenwände werden zusammengesteckt","fehlt":"Auspacken und Zusammenstecken ohne passenden Vorgang"},
+{"text":"Fahrer, Transporter","fehlt":"Fahrzeug fahren und Ladung sichern"}],
+"maengel":[
+{"text":"an der Wand stehen Kinderwagen und Fahrräder","art":"weg_boden","gegenstand":"Treppenhaus"},
+{"text":"das Licht geht nach dreißig Sekunden wieder aus, man drückt den Taster immer wieder","art":"beleuchtung","gegenstand":"Treppenhauslicht"},
+{"text":"Die Verpackungsfolie bleibt im Treppenhaus liegen","art":"weg_boden","gegenstand":"Treppenhaus"}],
+"zuordnung":[
+{"schritt":1,"stelle":"Pakete werden mit einer Sackkarre vom Transporter bis zum Hauseingang gefahren","sicher":false},
+{"schritt":2,"stelle":"dann trägt man sie Stufe für Stufe ins Treppenhaus hinauf, ein Kleiderschrank wiegt um die sechzig Kilo","sicher":true},
+{"schritt":3,"stelle":"mit dem Akkuschrauber befestigt","sicher":true}]}

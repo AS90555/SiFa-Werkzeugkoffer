@@ -1,0 +1,153 @@
+{
+ "angaben": {
+  "gleichfoermig": true
+ },
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Kontaktspray",
+   "material": "spruehdose",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Formbrett Kabelbaumfertigung",
+   "bereich": "Kabelbaumfertigung, Formbrett",
+   "personen": 3,
+   "umgebung": [
+    "halle",
+    "taktarbeit"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "halbautomat",
+     "material": []
+    },
+    {
+     "vorgang": "einsetzen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "spruehen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "spruehdose"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "die Schrumpfschläuche werden mit einer Heißluftpistole aufgeschrumpft",
+   "fehlt": "Vorgang Schrumpfen mit Heißluftpistole fehlt; Material heißes Maschinenteil passt nicht sicher"
+  },
+  {
+   "text": "Kabel, Kontakte, Stecker, Kabelbinder, Schrumpfschläuche",
+   "fehlt": "Kabel und Kleinteile als Material fehlen"
+  },
+  {
+   "text": "Die Heißluftpistole liegt zwischen den Kabeln auf dem Tisch",
+   "fehlt": "Ablage heißer Werkzeuge zwischen Material ist nicht abbildbar"
+  },
+  {
+   "text": "im Sommer wird es warm",
+   "fehlt": "Hitze nur im Sommer, nicht ausdrücklich als Belastung genannt; Umgebung nicht gewählt"
+  },
+  {
+   "text": "Gearbeitet wird den ganzen Tag im Sitzen",
+   "fehlt": "Sitzende Tätigkeit (Zwangshaltung/Einrichtung des Arbeitsplatzes) nicht ausdrücklich als Mangel beschrieben"
+  },
+  {
+   "text": "Rüsten macht die Fertigungsplanung",
+   "fehlt": "Kein Schritt, da nicht beschrieben wird, was getan wird"
+  }
+ ],
+ "maengel": [],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Kabel werden von der Rolle abgelängt mit einem Seitenschneider",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "an den Enden mit einer Handabisolierzange abisoliert",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Kontakte werden mit einer Handcrimpzange aufgepresst",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "bei größeren Querschnitten übernimmt eine kleine Crimpmaschine auf dem Tisch",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "Dann werden Stecker eingesetzt",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "die Bündel mit Kabelbindern zusammengebunden",
+   "sicher": true
+  },
+  {
+   "schritt": 7,
+   "stelle": "Kontaktspray steht in der Mitte des Tisches, damit werden die Kontakte eingesprüht",
+   "sicher": true
+  },
+  {
+   "schritt": 8,
+   "stelle": "prüft ein Kasten mit Steckern und Lampe den Durchgang",
+   "sicher": true
+  },
+  {
+   "schritt": 9,
+   "stelle": "gereinigt wird am Ende der Schicht jeder selbst mit einem Lappen",
+   "sicher": true
+  }
+ ],
+ "id": "R016-11",
+ "name": "R016-11",
+ "betrieb": {}
+}

@@ -1,0 +1,20 @@
+{"id":"R016-02","name":"R016-02","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Station 12 Sitzmontage Fließband","bereich":"Sitzmontage","personen":1,"umgebung":["taktarbeit","zwangshaltung","kalt"],"angaben":{"last_kg":28},
+   "schritte":[
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"verschrauben","ausfuehrung":"handmaschine","material":[]},
+    {"vorgang":"montieren","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"Ein Sitz wiegt etwa 28 Kilogramm, Vordersitz auf Gestell","fehlt":"Material Fahrzeugsitz fehlt"},
+  {"text":"im Takt von neunzig Sekunden","fehlt":"Griffe je Stunde nicht ausdrücklich genannt, daher nicht eingetragen"},
+  {"text":"Die Halle ist im Sommer warm","fehlt":"Warm ist noch keine Hitze, Umgebung nicht gewählt"},
+  {"text":"Der Schichtführer rüstet die Station, wenn sich ein Modell ändert","fehlt":"Kein beschriebener Vorgang an der Maschine, daher kein Sonderbetrieb-Schritt"},
+  {"text":"Der Schrauber hängt an einem Federzug, den man ein Stück mitziehen muss","fehlt":"Kein eigenes Material oder keine eigene Ausführung für Federzug"}],
+ "maengel":[
+  {"text":"Ein Hebegerät gibt es an der Station, aber der Balancer ist seit dem Frühjahr außer Betrieb","art":"hilfsmittel","gegenstand":"Balancer an Station zwölf"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"greift ihn mit beiden Händen an den Bügeln, hebt ihn aus dem Gestell und schiebt ihn von der Seite in den Fahrzeugboden","sicher":true},
+  {"schritt":2,"stelle":"Vier Schrauben werden von Hand mit einem Akkuschrauber angezogen","sicher":true},
+  {"schritt":3,"stelle":"steckt der Werker die elektrischen Stecker am Sitz an","sicher":true}]}

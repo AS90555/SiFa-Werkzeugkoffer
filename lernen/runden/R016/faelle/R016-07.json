@@ -1,0 +1,22 @@
+{"id":"R016-07","name":"R016-07","betrieb":{},"angaben":{},
+"stoffe":[],
+"stationen":[{"nr":1,"name":"Schweißen im Rohrgraben","bereich":"Rohrleitungsbaustelle","personen":2,"umgebung":["aussen","bodenoeffnung","boden","funkenflug"],"angaben":{},
+"schritte":[
+{"vorgang":"schweissen","ausfuehrung":"schweissgeraet","material":["rohr_rundmaterial","druckgasflasche","prozessrauch","elektro_betriebsmittel"]},
+{"vorgang":"entgraten","ausfuehrung":"von_hand","material":["rohr_rundmaterial"]}]}],
+"wuensche":[
+{"text":"die Rohre werden vom Bagger am Rand eingehoben","fehlt":"Ausführung Bagger als Hebezeug; Rohr einheben in den Graben"},
+{"text":"Das Rohrstück wird mit Gurten gehalten, bis die Naht fertig ist","fehlt":"Vorgang Rohr halten und ausrichten mit Gurten"},
+{"text":"Gerüstet wird am Morgen auf dem Lagerplatz, dort werden Gerät und Flasche angeschlossen","fehlt":"Schweißgerät und Gasflasche anschließen ohne passenden Vorgang"},
+{"text":"eine Tauchpumpe läuft dauernd","fehlt":"Material Tauchpumpe, Wasser im Graben"},
+{"text":"Der Helfer steht oben am Rand und reicht Werkzeug und Stromkabel nach","fehlt":"Vorgang Zureichen"},
+{"text":"Graben gut zwei Meter tief","fehlt":"Angabe Grabentiefe, Grabenverbau"},
+{"text":"Die Schlacke landet im Aushub","fehlt":"Material Schlacke, Entsorgung"}],
+"maengel":[
+{"text":"Die Wand des Grabens ist ungesichert, an einer Stelle bröckelt die Erde ab","art":"arbeitsweise","gegenstand":"Grabenwand"},
+{"text":"Im Graben steht Wasser, eine Tauchpumpe läuft dauernd, und das Kabel liegt im Wasser","art":"elektrik","gegenstand":"Stromkabel im Graben"},
+{"text":"Der Schweißer steht unten im Graben auf dem nassen Boden","art":"weg_boden","gegenstand":"Grabensohle"},
+{"text":"Die Schutzgasflasche steht oben am Rand","gegenstand":"Gasflasche am Grabenrand"}],
+"zuordnung":[
+{"schritt":1,"stelle":"Geschweißt wird mit einem Schweißgerät mit Drahtvorschub und Schutzgas aus einer Flasche","sicher":true},
+{"schritt":2,"stelle":"Gereinigt wird die Naht mit einer Drahtbürste","sicher":true}]}

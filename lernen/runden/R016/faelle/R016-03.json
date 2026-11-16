@@ -1,0 +1,31 @@
+{"id":"R016-03","name":"R016-03","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Zweikomponentenlack","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Härter","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Verdünnung","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Spritzkabine","bereich":"Lackierstraße Autotüren","personen":3,"umgebung":["eng"],"angaben":{},
+   "schritte":[
+    {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack","loesemittel"]},
+    {"vorgang":"spruehen","ausfuehrung":"handmaschine","material":["lack","blechteil","daempfe_loesemittel"]}]},
+  {"nr":2,"name":"Trockner und Abnahme","bereich":"Lackierstraße Autotüren","personen":1,"umgebung":["werkstatt"],"angaben":{},
+   "schritte":[
+    {"vorgang":"einbrennen","ausfuehrung":"vollautomat","material":["blechteil"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["blechteil","heisses_werkstueck"]}]},
+  {"nr":3,"name":"Rüsten bei Farbwechsel","bereich":"Lackierstraße Autotüren","personen":1,"umgebung":["werkstatt"],"angaben":{},
+   "schritte":[
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","loesemittel","lackreste"]}]}],
+ "wuensche":[
+  {"text":"Die Türen hängen an Gehängen auf einer Förderkette, je Tür zwei Gehänge","fehlt":"Förderkette nicht sicher als Hängeförderer zuzuordnen, Schritt Fördern nicht angelegt"},
+  {"text":"Der Lackbecher wird danach in den Eimer ausgeleert, neben der Kabine","fehlt":"Material Lackrest in offenem Eimer, Ausleeren nicht als eigener Vorgang angelegt"},
+  {"text":"Die Anlage wird am Wochenende gereinigt","fehlt":"Kein beschriebener Vorgang, daher kein Sonderbetrieb-Schritt"},
+  {"text":"Tunnelofen, der auf etwa 160 Grad heizt","fehlt":"Ofen ist keine Anlage im Sinn von Sonderbetrieb; Einstellung als vollautomat unsicher"}],
+ "maengel":[
+  {"text":"die Verdünnung steht in einem offenen Eimer neben der Kabine","art":"stoff_lagerung","gegenstand":"Verdünnung im offenen Eimer neben der Kabine"},
+  {"text":"Abluft wird oben abgesaugt, man riecht trotzdem das Lösemittel","art":"lueftung","gegenstand":"Absaugung der Spritzkabine"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"der Härter wird im Mischbecher angesetzt","sicher":true},
+  {"schritt":2,"stelle":"sprüht mit einer Handpistole die Türen von innen und außen an","sicher":true},
+  {"schritt":3,"stelle":"fährt die Tür durch den Trockner, einen Tunnelofen","sicher":false},
+  {"schritt":4,"stelle":"nimmt ein Bediener die Türen ab, die Türen sind dann noch warm und werden einzeln auf einen Wagen gelegt","sicher":true},
+  {"schritt":5,"stelle":"Dann wird die Pistole mit Verdünnung ausgeblasen und die Filter gewechselt","sicher":true}]}

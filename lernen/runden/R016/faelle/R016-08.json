@@ -1,0 +1,155 @@
+{
+ "id": "R016-08",
+ "name": "R016-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Pelletpresse",
+   "bereich": "Pelletwerk",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "laerm_umgebung",
+    "fahrverkehr",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "holzstaub",
+      "heisses_maschinenteil"
+     ]
+    },
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "stetigfoerderer",
+     "material": [
+      "holzstaub"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Siloanlage",
+   "bereich": "Pelletwerk",
+   "personen": 1,
+   "umgebung": [
+    "silo",
+    "halle"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "leiter",
+     "material": []
+    },
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "stetigfoerderer",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "eine zweite fährt mit dem Radlader Späne nach",
+   "fehlt": "Ausführung Radlader; Vorgang Material zufahren"
+  },
+  {
+   "text": "Die Pellets sind beim Auslauf noch warm",
+   "fehlt": "Material Pellets, warm"
+  },
+  {
+   "text": "Die Presse wird mit Fett geschmiert",
+   "fehlt": "Vorgang Schmieren; Schritt weggelassen, Stoff Fett unter Stoffe"
+  },
+  {
+   "text": "Der Zugang erfolgt über eine Leiter am Silo, oben ist eine Klappe, durch die man das Material kontrolliert",
+   "fehlt": "Material Pellets; Arbeiten in der Höhe an Silo ohne passenden Vorgang, Einstieg nicht genannt"
+  },
+  {
+   "text": "Eine Förderschnecke bringt die Pellets vom Silo zur Verladung",
+   "fehlt": "Ausführung Förderschnecke; Material Pellets"
+  },
+  {
+   "text": "Gerüstet macht die Schicht",
+   "fehlt": "Das Material Matrize fehlt"
+  },
+  {
+   "text": "Die Presse wird mit Fett geschmiert",
+   "fehlt": "Öl und Fett sind als Material, aber nicht als Stoff mit Datenblatt anlegbar; kein passender Gefahrstoff in den Stammdaten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Abdeckung der Schnecke ist mit Schrauben befestigt, sie hängt schief",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Abdeckung der Förderschnecke"
+  },
+  {
+   "text": "Auf den Geländern und auf dem Boden liegt feiner Staub, auf dem Förderband sammeln sich Späne",
+   "art": "weg_boden",
+   "gegenstand": "Geländer, Boden und Förderband"
+  },
+  {
+   "text": "Gereinigt wird einmal pro Woche mit Druckluft, dabei wird der Staub aufgewirbelt",
+   "art": "arbeitsweise",
+   "gegenstand": "Reinigung mit Druckluft"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Eine Person bedient die Presse vom Steuerpult aus",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Sägespäne laufen über ein Förderband hinein, unten kommen die Pellets heraus und fallen auf ein Band",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird einmal pro Woche mit Druckluft",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "die Presse wird abgeschaltet und die Matrize gewechselt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Leiter am Silo, oben ist eine Klappe, durch die man das Material kontrolliert",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Eine Förderschnecke bringt die Pellets vom Silo zur Verladung",
+   "sicher": false
+  }
+ ]
+}

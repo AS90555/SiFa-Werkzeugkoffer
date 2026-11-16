@@ -1,0 +1,24 @@
+{"id":"R016-13","name":"R016-13","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Aufzugsschacht, Montage der Führungsschienen","bereich":"Aufzugsmontage","personen":2,"umgebung":["bodenoeffnung","zwangshaltung"],"angaben":{"last_kg":30},
+  "schritte":[
+   {"vorgang":"hoehenarbeit","ausfuehrung":"leiter"},
+   {"vorgang":"bohren_stein","ausfuehrung":"handmaschine","material":["stein_komposit"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stahlprofil"]},
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["stahlprofil"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["stein_komposit"]}]}],
+ "wuensche":[
+  {"text":"Der Schacht ist etwa neun Meter hoch und nur gut einen Meter zwanzig breit","fehlt":"Enge im Schacht ist nicht ausdrücklich als beengt genannt, daher keine Umgebung Enge gewählt"},
+  {"text":"der zweite steht oben an der Schachttür und reicht Material an","fehlt":"Material anreichen an der Schachttür ist nicht als eigener Schritt erfasst; Arbeitsplatz für zweite Person fehlt"},
+  {"text":"Pro Schiene setzt er acht Bohrungen, das wiederholt sich bei jeder Etage","fehlt":"Griffe je Stunde nicht genannt; keine Angabe eingetragen"},
+  {"text":"Rüsten tut der Monteur selbst, die Akkus lädt er unten im Flur","fehlt":"nicht beschrieben, was beim Rüsten an der Maschine getan wird; Akkuladen ohne passende Ausführung, kein Schritt"},
+  {"text":"Gearbeitet wird meist über Kopf","fehlt":"Montage am Schachtprofil ist Höhenarbeit mit Leiter; Gerüst oder Montageplattform nicht genannt"}],
+ "maengel":[
+  {"text":"Die Schachtbeleuchtung ist eine Lampe an einem Kabel, die an einem Haken hängt und immer wieder verrutscht","art":"beleuchtung","gegenstand":"Schachtbeleuchtung"},
+  {"text":"Die offenen Schachttüren auf den Etagen sichert nur, wer selbst daran denkt, ein Geländer oder eine Absperrung aufzustellen","art":"absturzsicherung","gegenstand":"offene Schachttüren auf den Etagen"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"der Zugang führt über eine Leiter, die am Schachtkopf fest verschraubt ist; Gearbeitet wird meist über Kopf","sicher":false},
+  {"schritt":2,"stelle":"Akku-Schlagbohrer und einem Hammerbohrer für die Dübel in den Betonwänden","sicher":true},
+  {"schritt":3,"stelle":"Die Schienen sind Stahlprofile, etwa drei Meter lang und rund dreißig Kilogramm schwer, sie werden von Hand über die Schachttür hereingehoben","sicher":true},
+  {"schritt":4,"stelle":"mit Winkeln befestigt","sicher":false},
+  {"schritt":5,"stelle":"Gereinigt wird am Ende der Woche mit einem Industriesauger","sicher":false}]}

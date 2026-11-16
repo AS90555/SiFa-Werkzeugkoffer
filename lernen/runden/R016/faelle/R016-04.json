@@ -1,0 +1,24 @@
+{"id":"R016-04","name":"R016-04","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Mineralöl als Arbeitsflüssigkeit im Tank","material":"oel_schmierstoff","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Senkerodieranlage","bereich":"Werkzeugbau","personen":1,"umgebung":["werkstatt"],"angaben":{},
+   "schritte":[
+    {"vorgang":"maschine_bedienen","ausfuehrung":"vollautomat","material":["oel_schmierstoff"]},
+    {"vorgang":"einsetzen","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+    {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","oel_schmierstoff"]},
+    {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]}]}],
+ "wuensche":[
+  {"text":"Beim Lauf steigt ein feiner Nebel auf, und es riecht süßlich nach Öl","fehlt":"Material Ölnebel fehlt"},
+  {"text":"Zwischen Elektrode und Werkstück liegt beim Funken eine Spannung von etwa 200 Volt","fehlt":"Keine Angabe oder Umgebung für Funkenerosion"},
+  {"text":"Die Maschine läuft oft über Nacht ohne Aufsicht","fehlt":"Kein Mangel und keine Umgebung für unbeaufsichtigten Betrieb"},
+  {"text":"das Öl ist ein Mineralöl, das den Stromfluss regelt","fehlt":"Material Dielektrikum fehlt, Öl als Öl oder Schmierstoff unsicher"},
+  {"text":"Der Einrichter setzt die Elektrode per Kran ein","fehlt":"Material Elektrode fehlt"},
+  {"text":"Im Sommer wird die Halle warm, die Maschine heizt sich auf","fehlt":"Warm ist noch keine Hitze, Umgebung nicht gewählt"}],
+ "maengel":[
+  {"text":"Der Deckel über dem Tank ist meist offen, weil die Elektrode sonst nicht zu sehen ist","art":"schutzeinrichtung","gegenstand":"Deckel über dem Arbeitstank"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"steht ein Bediener an zwei Maschinen, die fast den ganzen Tag laufen","sicher":true},
+  {"schritt":2,"stelle":"das Werkstück aus Werkzeugstahl wird auf dem Tisch mit Spannpratzen befestigt","sicher":false},
+  {"schritt":3,"stelle":"Der Tank wird alle paar Wochen abgelassen, der Schlamm am Boden wird mit der Hand herausgeholt","sicher":true},
+  {"schritt":4,"stelle":"Gerüstet wird vom Einrichter, der die Elektrode per Kran einsetzt","sicher":true}]}

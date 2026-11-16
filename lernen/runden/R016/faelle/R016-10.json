@@ -1,0 +1,132 @@
+{
+ "angaben": {
+  "last_kg": 2,
+  "griffe_tag": 800
+ },
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Graphit-Wasser-Spray für das Gesenk",
+   "material": "spruehdose",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Gesenkschmiede mit Induktionserwärmung",
+   "bereich": "Gesenkschmiede mit Induktionserwärmung",
+   "personen": 3,
+   "umgebung": [
+    "halle",
+    "laerm_umgebung",
+    "hitze"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "schmieden",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil",
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "spruehen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "spruehdose"
+     ]
+    },
+    {
+     "vorgang": "umformen",
+     "ausfuehrung": "presse",
+     "material": [
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "umformen",
+     "ausfuehrung": "presse",
+     "material": [
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallspaene"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Teile fallen in einen Kübel mit Wasser zum Abkühlen",
+   "fehlt": "Abschrecken heißer Teile im Wasserkübel ist kein eigener Vorgang"
+  },
+  {
+   "text": "Die Spule hat Kühlwasserschläuche, die Hochfrequenzanlage steht daneben im Schaltschrank",
+   "fehlt": "Induktionsanlage mit Hochfrequenz (elektromagnetische Felder) nicht in den Stammdaten"
+  },
+  {
+   "text": "Graphit mit Wasser, das gibt Nebel in der Luft",
+   "fehlt": "Sprühnebel in der Atemluft; Material dämpfe_loesemittel passt nicht sicher"
+  },
+  {
+   "text": "Späne und den Zunder blasen wir mit Druckluft vom Boden",
+   "fehlt": "Zunder als Material fehlt; als Metallspäne eingetragen"
+  },
+  {
+   "text": "bis zu achthundert Teile",
+   "fehlt": "Unklar, ob 800 Teile je Schicht je Person oder gesamt; als Vorgänge je Tag eingetragen"
+  }
+ ],
+ "maengel": [],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Ein Kollege nimmt ein Stück mit einer langen Zange und legt es in die Induktionsspule",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "das Gesenk wird mit einem Spray aus einer Dose eingesprüht",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Mit einer Greifzange wird es in das untere Gesenk der Presse gelegt, dann schlägt die Presse einmal zu",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Der Grat wird danach in einer zweiten Presse abgeschert",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Rüsten macht die Werkstatt mit dem Kran, dabei wird das Gesenk gewechselt",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "Die Späne und den Zunder blasen wir mit Druckluft vom Boden",
+   "sicher": true
+  }
+ ],
+ "id": "R016-10",
+ "name": "R016-10",
+ "betrieb": {}
+}

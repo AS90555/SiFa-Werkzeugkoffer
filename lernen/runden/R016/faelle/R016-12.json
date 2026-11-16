@@ -1,0 +1,159 @@
+{
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Reinigungslösung im Ultraschallbad",
+   "material": "werkzeugreiniger",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s2",
+   "name": "Isopropanol",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s3",
+   "name": "UV-Kleber",
+   "material": "kleber_1k",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Ultraschallreinigung und Mikroskoparbeitsplatz",
+   "bereich": "Feinmechanik, Ultraschallreinigung und Arbeiten am Mikroskop",
+   "personen": 4,
+   "umgebung": [
+    "werkstatt",
+    "dunkel",
+    "zwangshaltung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "tauchreinigen",
+     "ausfuehrung": "tauchbad",
+     "material": [
+      "werkzeugreiniger",
+      "heisswasser_dampf"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "tauchbad",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Zum Verkleben nimmt man UV-Kleber, daneben brennt die UV-Lampe ohne Abdeckung",
+   "fehlt": "UV-Kleber und UV-Strahlung nicht in den Stammdaten; Schritt Kleben ohne passendes Material weggelassen"
+  },
+  {
+   "text": "Uhrwerksteile, Zeiger und Räder",
+   "fehlt": "Uhrwerksteile als Material fehlen"
+  },
+  {
+   "text": "Die Lösung ist auf sechzig Grad eingestellt, es dampft",
+   "fehlt": "Heiße Reinigungslösung: Material heisswasser_dampf nur näherungsweise"
+  },
+  {
+   "text": "Der Kopf ist beim Mikroskop stundenlang nach unten gebeugt",
+   "fehlt": "Bildschirm-/Mikroskoparbeit im Sitzen als Vorgang fehlt; als Zwangshaltung in der Umgebung"
+  },
+  {
+   "text": "am Tischende steht ein Eimer für Lösungsreste",
+   "fehlt": "Entsorgung von Lösungsresten nicht abbildbar"
+  },
+  {
+   "text": "UV-Kleber",
+   "fehlt": "UV-härtender Kleber nicht in den Stammdaten; als Einkomponenten-Kleber nur vorläufig eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "das Kabel liegt quer über dem Gang",
+   "art": "elektrik",
+   "gegenstand": "Kabel des Ultraschallgeräts"
+  },
+  {
+   "text": "das Kabel liegt quer über dem Gang",
+   "art": "weg_boden",
+   "gegenstand": "Gang am Mikroskoparbeitsplatz"
+  },
+  {
+   "text": "der Deckel ist offen, es dampft",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Deckel des Ultraschallbads"
+  },
+  {
+   "text": "die Flasche steht offen auf dem Tisch",
+   "art": "stoff_lagerung",
+   "gegenstand": "Isopropanol-Flasche"
+  },
+  {
+   "text": "daneben brennt die UV-Lampe ohne Abdeckung",
+   "art": "schutzeinrichtung",
+   "gegenstand": "UV-Lampe"
+  },
+  {
+   "text": "das Licht kommt nur von einer Schreibtischlampe",
+   "art": "beleuchtung",
+   "gegenstand": "Mikroskoparbeitsplatz"
+  },
+  {
+   "text": "Ein Lüfter gibt es am Becken nicht",
+   "art": "lueftung",
+   "gegenstand": "Ultraschallbecken"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Uhrwerksteile kommen in einem Drahtkorb ins Ultraschallbad",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Teile mit einem Tuch und Isopropanol abgewischt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Am Mikroskop setzt man Zeiger und Räder mit einer Pinzette ein, Uhrenöl mit einer Nadel",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die Lösung wechseln wir alle zwei Wochen, dafür muss das Becken leer gemacht werden",
+   "sicher": false
+  }
+ ],
+ "id": "R016-12",
+ "name": "R016-12",
+ "betrieb": {}
+}

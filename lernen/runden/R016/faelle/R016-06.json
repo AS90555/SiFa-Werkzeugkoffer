@@ -1,0 +1,167 @@
+{
+ "id": "R016-06",
+ "name": "R016-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Federwindeautomat",
+   "bereich": "Federnfertigung",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "rohr_rundmaterial"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "rohr_rundmaterial",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Anlassofen",
+   "bereich": "Federnfertigung",
+   "personen": 1,
+   "umgebung": [
+    "halle"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisses_werkstueck",
+      "heisses_maschinenteil"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "heisses_maschinenteil"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Draht wird mit Öl bespritzt, es steht ein Nebel in der Luft",
+   "fehlt": "Material Ölnebel in der Atemluft (daempfe_loesemittel gilt für Lösemittel)"
+  },
+  {
+   "text": "Die Enden der Feder sind spitz, an der Kiste liegen Federn verstreut",
+   "fehlt": "Material Federn, spitz und scharfkantig"
+  },
+  {
+   "text": "Körbe werden von Hand mit Handschuhen eingesetzt und nach einer Stunde herausgeholt",
+   "fehlt": "Vorgang Ofen beschicken mit Körben; Einbrennen passt für Anlassen nicht sicher"
+  },
+  {
+   "text": "Die Körbe werden auf einen Rollwagen gestellt, die Federn kühlen an der Luft ab",
+   "fehlt": "Rollwagen bewegen und Abkühlen als eigener Vorgang"
+  },
+  {
+   "text": "Der Draht läuft durch eine Führung in ein Werkzeug, dort wird er zur Feder gewunden und automatisch abgeschnitten",
+   "fehlt": "Vorgang Winden, Biegen von Draht (Umformen nennt Biegen, Abkanten, Stanzen, Pressen)"
+  },
+  {
+   "text": "die Spule wiegt rund dreihundert Kilo",
+   "fehlt": "Material Drahtspule; Last beim Kranheben ist keine Angabe je Griff"
+  },
+  {
+   "text": "Ofen, Hitze",
+   "fehlt": "Hitze nicht ausdrücklich als Umgebung genannt, deshalb nicht gewählt"
+  },
+  {
+   "text": "Der Draht wird mit Öl bespritzt",
+   "fehlt": "Öl und Fett sind als Material, aber nicht als Stoff mit Datenblatt anlegbar; kein passender Gefahrstoff in den Stammdaten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Rüsten macht der Einrichter, er tauscht das Werkzeug am Automaten, dabei bleibt die Maschine nicht immer abgeschaltet",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Automat beim Werkzeugwechsel"
+  },
+  {
+   "text": "Die Enden der Feder sind spitz, an der Kiste liegen Federn verstreut",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Kiste"
+  },
+  {
+   "text": "die Ölreste wischt man vom Boden",
+   "art": "weg_boden",
+   "gegenstand": "Boden am Automaten"
+  },
+  {
+   "text": "die Tür steht bei Beschickung offen",
+   "gegenstand": "Ofentür"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Spule, die mit einem Kran eingehängt wird",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Der Automat zieht Stahldraht von einer Spule ... Draht wird mit Öl bespritzt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird der Automat einmal pro Schicht mit einem Lappen",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "er tauscht das Werkzeug am Automaten",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Körbe werden von Hand mit Handschuhen eingesetzt und herausgeholt, Körbe sind heiß",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "der Ofen wird über Schalter bedient",
+   "sicher": false
+  }
+ ]
+}

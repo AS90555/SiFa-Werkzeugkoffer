@@ -1,0 +1,125 @@
+{
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Reiniger aus dem Kanister",
+   "material": "kaltreiniger",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Dach eines Reisebusses",
+   "bereich": "Werkstatt für Busse",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "leiter",
+     "material": []
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "hebebuehne",
+     "material": [
+      "kaeltemittel"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": []
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kaltreiniger"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Unten in der Halle laufen Dieselmotoren zur Probefahrt, die Abgase ziehen durch die Halle",
+   "fehlt": "Abgase als Belastung der Umgebung; Material abgase gehört zu keinem Schritt dieser Station"
+  },
+  {
+   "text": "Gewartet wird jeden Tag ein Bus, im Wechsel mit anderen",
+   "fehlt": "Keine Angabe für Häufigkeit oder Wechsel der Tätigkeiten"
+  },
+  {
+   "text": "Der Aufstieg läuft über eine feste Leiter an der Rückseite der Halle, dann geht man über das Dach",
+   "fehlt": "Gehen auf dem Fahrzeugdach ohne Absturzsicherung ist kein eigener Vorgang"
+  },
+  {
+   "text": "Reiniger aus einem Kanister",
+   "fehlt": "Genauer Reiniger für Verdampfer unbekannt, als Kaltreiniger vorläufig eingetragen"
+  },
+  {
+   "text": "Rüsten macht die Werkstatt selbst",
+   "fehlt": "Kein Schritt, da nicht beschrieben wird, was an der Maschine getan wird"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "ein Geländer gibt es am Bus nicht, nur einen Haltebügel an der Klimaanlage",
+   "art": "absturzsicherung",
+   "gegenstand": "Geländer am Busdach"
+  },
+  {
+   "text": "Einen Anschlagpunkt für eine Sicherung sehe ich nicht",
+   "art": "absturzsicherung",
+   "gegenstand": "Anschlagpunkt"
+  },
+  {
+   "text": "das Werkzeug liegt auf dem Dach herum",
+   "art": "last_ungesichert",
+   "gegenstand": "Werkzeug auf dem Dach"
+  },
+  {
+   "text": "Das Dach ist uneben und heute nass",
+   "art": "weg_boden",
+   "gegenstand": "Busdach"
+  },
+  {
+   "text": "Dieselmotoren zur Probefahrt, die Abgase ziehen durch die Halle",
+   "art": "lueftung",
+   "gegenstand": "Abgase in der Halle"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Aufstieg läuft über eine feste Leiter",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Kältemittelleitungen werden abgeklemmt, dafür steht ein Kältemittelsatz daneben; Dach des Busses auf der Hebebühne",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gearbeitet wird mit dem Akkuschrauber (Filter tauschen)",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "daran wird der Verdampfer gereinigt",
+   "sicher": false
+  }
+ ],
+ "id": "R016-09",
+ "name": "R016-09",
+ "betrieb": {}
+}
