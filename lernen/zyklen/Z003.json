@@ -29,7 +29,8 @@
   "R018:schiedsrichter": 1,
   "R018:lueckenschliesser": 1,
   "R019:sprecher": 1,
-  "R019:uebersetzer": 1
+  "R019:uebersetzer": 1,
+  "R019:schiedsrichter": 1
  },
  "hinweise": [
   "Vor Runde 1: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen.",
