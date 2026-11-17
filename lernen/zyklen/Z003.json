@@ -40,5 +40,6 @@
   "Vor Runde 3: Nur noch 16 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen."
  ],
  "belegquoteZuBeginn": 25,
- "fertig": false
+ "fertig": true,
+ "beendet": "2026-11-17"
 }
