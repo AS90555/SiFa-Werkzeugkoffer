@@ -5154,5 +5154,51 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R138",
+  "name": "Gießpfanne mit flüssigem Metall am Kran",
+  "wenn": {
+   "alle": [
+    "m.schmelze",
+    "a.hebezeug"
+   ]
+  },
+  "entsteht": "Pfanne mit flüssigem Metall pendelt, kippt oder stürzt beim Kranhub ab, das Metall trifft Personen",
+  "gefaehrdung": "g-schmelze",
+  "massnahmen": [
+   {
+    "id": "R138-M1",
+    "art": "T",
+    "text": "Pfannengehänge, Kran und Pfanne für flüssiges Metall ausgelegt, regelmäßig geprüft und mit Kippsicherung"
+   },
+   {
+    "id": "R138-M2",
+    "art": "O",
+    "text": "Transportweg der Pfanne freihalten und für Personen sperren, Kran nur durch unterwiesene Kranführer bedienen"
+   },
+   {
+    "id": "R138-M3",
+    "art": "P",
+    "text": "Hitzeschutzkleidung und Gesichtsschutz"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-r109-608",
+    "stelle": null
+   },
+   {
+    "id": "dguv-v52",
+    "stelle": null
+   },
+   {
+    "id": "psa-bv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

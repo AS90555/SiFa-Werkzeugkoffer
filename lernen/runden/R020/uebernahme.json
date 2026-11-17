@@ -1,0 +1,29 @@
+{
+ "runde": "R020",
+ "uebernommen": {
+  "merkmale": [],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/galvanik_chemikalien",
+   "material/kuehlmittel",
+   "material/brenngas"
+  ],
+  "woerter": [
+   "heizplatte, thermalöl",
+   "kupfersulfat, galvanikbad, wasserstoffperoxid",
+   "kühlmittel, kühlflüssigkeit, glykol",
+   "gasdüse, gasführung, gasleitung, erdgas, flüssiggas",
+   "lecksuchspray, lecksuchmittel",
+   "stahlschrott, schrottkorb",
+   "multimeter, spannungsprüfer, spannungsfreiheit",
+   "rückbank, rücksitzbank",
+   "hubtisch"
+  ],
+  "regeln": [
+   "R138 Gießpfanne mit flüssigem Metall am Kran"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 27
+}

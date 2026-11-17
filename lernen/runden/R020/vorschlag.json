@@ -1,0 +1,40 @@
+{
+ "runde": "R020",
+ "merkmale": [],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {"typ": "material", "id": "galvanik_chemikalien", "name": "Galvanikbad, Metallsalzlösung, Oxidationsmittel (zum Beispiel Kupfersulfat, Wasserstoffperoxid)", "merkmale": ["m.gefahrstoff"],
+   "anlass": [{"kennung": "R020-01", "stelle": "Nebenan steht das Galvanikbad, offene Wannen"}, {"kennung": "R020-01", "stelle": "Kanister mit Wasserstoffperoxid"}]},
+  {"typ": "material", "id": "kuehlmittel", "name": "Kühlmittel, Kühlflüssigkeit auf Glykolbasis, Frostschutz", "merkmale": ["m.gefahrstoff"],
+   "anlass": [{"kennung": "R020-07", "stelle": "Kühlflüssigkeit aus einem Gemisch auf Glykolbasis"}]},
+  {"typ": "material", "id": "brenngas", "name": "Brenngas an Leitung und Brenner (Erdgas, Flüssiggas)", "merkmale": ["m.gefahrstoff", "m.entzuendbar_bekannt"],
+   "anlass": [{"kennung": "R020-06", "stelle": "der Brenner ausgebaut und die Gasdüse getauscht"}]}
+ ],
+ "woerter": [
+  {"worte": ["heizplatte", "thermalöl"], "material": ["heisses_maschinenteil"]},
+  {"worte": ["kupfersulfat", "galvanikbad", "wasserstoffperoxid"], "material": ["galvanik_chemikalien"]},
+  {"worte": ["kühlmittel", "kühlflüssigkeit", "glykol"], "material": ["kuehlmittel"]},
+  {"worte": ["gasdüse", "gasführung", "gasleitung", "erdgas", "flüssiggas"], "material": ["brenngas"]},
+  {"worte": ["lecksuchspray", "lecksuchmittel"], "material": ["spruehdose"]},
+  {"worte": ["stahlschrott", "schrottkorb"], "material": ["blechabfall"]},
+  {"worte": ["multimeter", "spannungsprüfer", "spannungsfreiheit"], "vorgang": "elektroarbeiten"},
+  {"worte": ["rückbank", "rücksitzbank"], "material": ["fahrzeugsitz"]},
+  {"worte": ["hubtisch"], "vorgang": "senken", "ausfuehrung": "hubsenkstation"}
+ ],
+ "regeln": [
+  {"name": "Gießpfanne mit flüssigem Metall am Kran", "wenn": {"alle": ["m.schmelze", "a.hebezeug"]},
+   "entsteht": "Pfanne mit flüssigem Metall pendelt, kippt oder stürzt beim Kranhub ab, das Metall trifft Personen",
+   "gefaehrdung": "g-schmelze",
+   "massnahmen": [
+    {"art": "T", "text": "Pfannengehänge, Kran und Pfanne für flüssiges Metall ausgelegt, regelmäßig geprüft und mit Kippsicherung"},
+    {"art": "O", "text": "Transportweg der Pfanne freihalten und für Personen sperren, Kran nur durch unterwiesene Kranführer bedienen"},
+    {"art": "P", "text": "Hitzeschutzkleidung und Gesichtsschutz"}],
+   "quellen": ["dguv-r109-608", "dguv-v52", "psa-bv"],
+   "anlass": [{"kennung": "R015-08", "stelle": "die Pfannen werden mit dem Kran transportiert"}, {"kennung": "R020-03", "stelle": "mit einer Pfanne im Kran zur Gießlinie gefahren"}]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Gabelhubwagen ohne Angabe zum Antrieb", "grund": "Einzelfall", "anlass": [{"kennung": "R020-07", "stelle": "Das Batteriepaket kommt auf einem Gabelhubwagen herein"}]},
+  {"thema": "Wasserstoffperoxid-Kanister ohne Auffangwanne", "grund": "Einzelfall", "anlass": [{"kennung": "R020-01", "stelle": "teilweise ohne Auffangwanne"}]}
+ ],
+ "erledigt": ["Flüssiges Metall in Gießpfannen am Kran: Verbrennung bei Lastverlust"]
+}

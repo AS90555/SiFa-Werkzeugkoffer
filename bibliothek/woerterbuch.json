@@ -2016,5 +2016,88 @@
   "material": [
    "kleber_1k"
   ]
+ },
+ {
+  "worte": [
+   "heizplatte",
+   "thermalöl"
+  ],
+  "material": [
+   "heisses_maschinenteil"
+  ]
+ },
+ {
+  "worte": [
+   "kupfersulfat",
+   "galvanikbad",
+   "wasserstoffperoxid"
+  ],
+  "material": [
+   "galvanik_chemikalien"
+  ]
+ },
+ {
+  "worte": [
+   "kühlmittel",
+   "kühlflüssigkeit",
+   "glykol"
+  ],
+  "material": [
+   "kuehlmittel"
+  ]
+ },
+ {
+  "worte": [
+   "gasdüse",
+   "gasführung",
+   "gasleitung",
+   "erdgas",
+   "flüssiggas"
+  ],
+  "material": [
+   "brenngas"
+  ]
+ },
+ {
+  "worte": [
+   "lecksuchspray",
+   "lecksuchmittel"
+  ],
+  "material": [
+   "spruehdose"
+  ]
+ },
+ {
+  "worte": [
+   "stahlschrott",
+   "schrottkorb"
+  ],
+  "material": [
+   "blechabfall"
+  ]
+ },
+ {
+  "worte": [
+   "multimeter",
+   "spannungsprüfer",
+   "spannungsfreiheit"
+  ],
+  "vorgang": "elektroarbeiten"
+ },
+ {
+  "worte": [
+   "rückbank",
+   "rücksitzbank"
+  ],
+  "material": [
+   "fahrzeugsitz"
+  ]
+ },
+ {
+  "worte": [
+   "hubtisch"
+  ],
+  "vorgang": "senken",
+  "ausfuehrung": "hubsenkstation"
  }
 ]

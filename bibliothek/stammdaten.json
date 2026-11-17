@@ -731,6 +731,28 @@
    "merkmale": [
     "m.mineralfaser"
    ]
+  },
+  {
+   "id": "galvanik_chemikalien",
+   "name": "Galvanikbad, Metallsalzlösung, Oxidationsmittel (zum Beispiel Kupfersulfat, Wasserstoffperoxid)",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
+  },
+  {
+   "id": "kuehlmittel",
+   "name": "Kühlmittel, Kühlflüssigkeit auf Glykolbasis, Frostschutz",
+   "merkmale": [
+    "m.gefahrstoff"
+   ]
+  },
+  {
+   "id": "brenngas",
+   "name": "Brenngas an Leitung und Brenner (Erdgas, Flüssiggas)",
+   "merkmale": [
+    "m.gefahrstoff",
+    "m.entzuendbar_bekannt"
+   ]
   }
  ],
  "vorgang": [

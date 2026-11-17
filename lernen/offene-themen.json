@@ -114,16 +114,6 @@
   ]
  },
  {
-  "thema": "Flüssiges Metall in Gießpfannen am Kran: Verbrennung bei Lastverlust",
-  "seit": "R015",
-  "anlass": [
-   {
-    "kennung": "R015-08",
-    "stelle": "die Pfannen werden mit dem Kran transportiert"
-   }
-  ]
- },
- {
   "thema": "Bremsbelagstaub aus dem Ausblasen",
   "seit": "R015",
   "anlass": [
@@ -260,6 +250,26 @@
    {
     "kennung": "R019-02",
     "stelle": "wiegen mehrere Zentner"
+   }
+  ]
+ },
+ {
+  "thema": "Gabelhubwagen ohne Angabe zum Antrieb",
+  "seit": "R020",
+  "anlass": [
+   {
+    "kennung": "R020-07",
+    "stelle": "Das Batteriepaket kommt auf einem Gabelhubwagen herein"
+   }
+  ]
+ },
+ {
+  "thema": "Wasserstoffperoxid-Kanister ohne Auffangwanne",
+  "seit": "R020",
+  "anlass": [
+   {
+    "kennung": "R020-01",
+    "stelle": "teilweise ohne Auffangwanne"
    }
   ]
  }
