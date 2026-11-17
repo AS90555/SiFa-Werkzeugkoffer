@@ -18,7 +18,7 @@
    "massnahmen": [{"art": "T", "text": "Technische Maßnahme"}, {"art": "O", "text": "Organisatorische Maßnahme"}],
    "quellen": ["betrsichv"],
    "anlass": [{"kennung": "R011-02", "stelle": "wörtlich"}, {"kennung": "R011-05", "stelle": "wörtlich"}]}],
- "nicht_aufgenommen": [{"thema": "Kurzer Name des Themas", "grund": "Einzelfall", "anlass": [{"kennung": "R011-07", "stelle": "wörtlich"}]}],
+ "nicht_aufgenommen": [{"thema": "Kurzer Name des Themas", "zu": "Name genau wie in offene-themen.json, wenn es dieselbe Gefahr ist", "grund": "Einzelfall", "anlass": [{"kennung": "R011-07", "stelle": "wörtlich"}]}],
  "erledigt": ["Name eines Themas aus offene-themen.json, das du jetzt aufgenommen hast"]}
 ```
 
@@ -29,9 +29,10 @@
    - Das System kennt die Sache, aber keine Regel führt zur Gefährdung: neue Regel, wenn es ein Muster ist.
    - Der Übersetzer hat es falsch oder gar nicht zugeordnet, obwohl es das Passende gibt: Wörter fürs Wörterbuch.
 2. Zuerst prüfen, ob es das Gesuchte schon gibt, vielleicht unter anderem Namen. Bestehende Merkmale wiederverwenden, statt neue zu erfinden: Ein neues Material mit einem vorhandenen Merkmal löst die vorhandenen Regeln aus und braucht keine neue Regel.
-3. **Muster statt Einzelfall.** Eine neue Regel oder Gefährdung nur, wenn zwei verschiedene Arbeitsplätze denselben Anlass zeigen. Dafür zählen auch die Einträge in `offene-themen.json`. Was nur einmal vorkommt, kommt unter `nicht_aufgenommen`.
-4. Jeden Anlass wörtlich aus dem Protokoll abschreiben (mindestens drei Wörter am Stück). Das Programm vergleicht Buchstabe für Buchstabe.
-5. Fachlich nüchtern bleiben. Maßnahmen in der Reihenfolge technisch (T), organisatorisch (O), persönlich (P). Keine Zahlen, Grenzwerte oder Paragrafen aus dem Gedächtnis; die Fundstelle prüft später ein eigener Lauf. Als Quelle nur Kennungen aus `quellen.json`.
+3. **Erst die vorgemerkten Themen.** Lies `offene-themen.json`, bevor du ein neues Thema anlegst. Meint ein Fehlschlag dieselbe Gefahr aus derselben Ursache wie ein vorgemerktes Thema, auch wenn Gegenstand oder Branche anders sind (schwere Säcke und schwere Zylinder von Hand heben sind dasselbe Thema „schwere Last von Hand heben“), dann trage ihn mit `"zu": "<Name des vorgemerkten Themas>"` ein. Damit hat das Thema zwei Anlässe und darf eine Regel werden: Nimm dann beide Anlässe (den alten mit seiner Kennung und Stelle aus der Liste) in die Regel und setze das Thema unter `erledigt`. Neue Themen benennst du allgemein nach Gefahr und Ursache, nicht nach dem Gegenstand.
+4. **Muster statt Einzelfall.** Eine neue Regel oder Gefährdung nur, wenn zwei verschiedene Arbeitsplätze denselben Anlass zeigen. Dafür zählen auch die Einträge in `offene-themen.json`. Was nur einmal vorkommt, kommt unter `nicht_aufgenommen`.
+5. Jeden Anlass wörtlich aus dem Protokoll abschreiben (mindestens drei Wörter am Stück). Das Programm vergleicht Buchstabe für Buchstabe.
+6. Fachlich nüchtern bleiben. Maßnahmen in der Reihenfolge technisch (T), organisatorisch (O), persönlich (P). Keine Zahlen, Grenzwerte oder Paragrafen aus dem Gedächtnis; die Fundstelle prüft später ein eigener Lauf. Als Quelle nur Kennungen aus `quellen.json`.
 
 **Schranken des Programms (was darüber hinausgeht, wird abgelehnt):**
 
@@ -39,7 +40,7 @@
 - Je Runde höchstens 6 Merkmale, 2 Gefährdungen, 10 Stammdaten, 12 Wörterbucheinträge, 4 Regeln.
 - Merkmale beginnen mit `m.` (Material), `v.` (Vorgang), `a.` (Ausführung) oder `u.` (Umgebung) und passen zum Typ des Stammdatums.
 - Die Bedingung einer Regel ist ein Merkmal oder `{"alle": [...]}` oder `{"eine": [...]}` aus Merkmalen. Zu derselben Bedingung und Gefährdung darf es noch keine Regel geben.
-- Wörter haben mindestens fünf Buchstaben und stehen noch nicht im Wörterbuch.
+- Wörter haben mindestens fünf Buchstaben, höchstens zwei Wörter (Fachwörter wie „Heißluftpistole“ oder „Hubarbeitsbühne“, keine Satzstücke wie „im Sommer wird“) und stehen noch nicht im Wörterbuch.
 - Regeln werden immer Entwurf mit offenem Beleg. Die Kennung vergibt das Programm.
 
 **Darf nicht:** Dateien der Bibliothek ändern; Urteile, Wahrheiten oder Fälle ändern; etwas aufnehmen, nur damit die Quote steigt. Lieber wenige, saubere Vorschläge als viele.

@@ -120,6 +120,8 @@ Welches Modell welche Rolle hat, steht in `lernen/modelle.json`.
 - Mit Anlass, der wörtlich in einem Protokoll steht.
 - Regeln und Gefährdungen nur als Muster: zwei verschiedene Arbeitsplätze müssen den Anlass zeigen. Einzelfälle wandern in `lernen/offene-themen.json` und zählen beim nächsten Mal mit.
 - Regeln immer als Entwurf mit offenem Beleg, nie doppelt zu einer bestehenden Bedingung.
+- Wörterbucheinträge sind Fachwörter mit höchstens zwei Wörtern, keine Satzstücke (seit 17.11.2026).
+- Einzelfälle ordnet der Lückenschließer zuerst den vorgemerkten Themen zu, damit ein Muster entstehen kann (seit 17.11.2026).
 - Höchstens 6 Merkmale, 2 Gefährdungen, 10 Stammdaten, 12 Wörterbucheinträge und 4 Regeln je Runde.
 - Nur, wenn danach alle Tests bestehen. Sonst wird alles zurückgenommen.
 

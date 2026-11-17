@@ -54,7 +54,7 @@ function uebernehmen(nr, { ohneTests = !!process.env.UEBERNAHME_OHNE_TESTS } = {
       if (f.length) ab.push({ was: `Stammdaten ${x.typ}/${x.id}`, grund: f.join('; ') }); else { liste.push({ id: x.id, name: x.name, merkmale: x.merkmale || [] }); auf.stammdaten.push(`${x.typ}/${x.id}`); } }
     const bekannt = new Set(D.woerterbuch.flatMap(e => e.worte.map(kompakt)));
     for (const x of nimm('woerter', v.woerter)) { const f = []; const worte = (Array.isArray(x.worte) ? x.worte : []).map(s => String(s).toLowerCase().trim());
-      if (!worte.length) f.push('keine Worte'); for (const w of worte) { if (kompakt(w).length < 5) f.push(`„${w}“ ist zu kurz (mindestens fünf Buchstaben)`); if (bekannt.has(kompakt(w))) f.push(`„${w}“ steht schon im Wörterbuch`); }
+      if (!worte.length) f.push('keine Worte'); for (const w of worte) { if (kompakt(w).length < 5) f.push(`„${w}“ ist zu kurz (mindestens fünf Buchstaben)`); if (w.split(/\s+/).length > 2) f.push(`„${w}“ hat mehr als zwei Wörter (nur Fachwörter, keine Satzstücke)`); if (bekannt.has(kompakt(w))) f.push(`„${w}“ steht schon im Wörterbuch`); }
       const e = { worte }; const hat = (typ, id) => D.stammdaten[typ].find(s => s.id === id);
       if (x.vorgang) { if (hat('vorgang', x.vorgang)) e.vorgang = x.vorgang; else f.push(`Vorgang ${x.vorgang} gibt es nicht`); }
       if (x.ausfuehrung) { if (hat('ausfuehrung', x.ausfuehrung)) e.ausfuehrung = x.ausfuehrung; else f.push(`Ausführung ${x.ausfuehrung} gibt es nicht`); }
@@ -87,7 +87,7 @@ function uebernehmen(nr, { ohneTests = !!process.env.UEBERNAHME_OHNE_TESTS } = {
   // Themen, die noch kein Muster sind, merken
   const themen = gibt(THEMEN) ? lies(THEMEN) : []; const erledigt = new Set(((v && v.erledigt) || []).map(kompakt));
   let rest = themen.filter(t => !erledigt.has(kompakt(t.thema)));
-  for (const t of (v && Array.isArray(v.nicht_aufgenommen) ? v.nicht_aufgenommen : []).slice(0, 8)) { const f = []; if (!t.thema || pruefeAnlass(t.anlass, f) < 1) continue; const alt = rest.find(r => kompakt(r.thema) === kompakt(t.thema));
+  for (const t of (v && Array.isArray(v.nicht_aufgenommen) ? v.nicht_aufgenommen : []).slice(0, 8)) { const f = []; if (!t.thema || pruefeAnlass(t.anlass, f) < 1) continue; const alt = rest.find(r => kompakt(r.thema) === kompakt(t.zu || t.thema)); if (t.zu && !alt) { ab.push({ was: 'Thema ' + t.thema, grund: `„${t.zu}“ steht nicht in offene-themen.json; als neues Thema gemerkt` }); }
     if (alt) { for (const a of t.anlass) if (!alt.anlass.find(b => b.kennung === a.kennung)) alt.anlass.push({ kennung: a.kennung, stelle: a.stelle }); } else rest.push({ thema: t.thema, seit: nr, anlass: t.anlass.map(a => ({ kennung: a.kennung, stelle: a.stelle })) }); }
   schreib(THEMEN, rest);
   const ergebnis = { runde: nr, uebernommen: auf, abgelehnt: ab, zurueckgenommen: zurueck, offeneThemen: rest.length };

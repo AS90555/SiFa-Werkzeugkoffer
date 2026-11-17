@@ -72,11 +72,11 @@ test('Selbstlernen: Die Übernahme hält die Schranken ein (nur Neues, Anlass w�
   try {
     fs.writeFileSync(vp, JSON.stringify({ runde: 'R010', merkmale: [{ id: 'm.test_x', name: 'Testmerkmal' }],
       stammdaten: [{ typ: 'material', id: 'test_mat', name: 'Testmaterial', merkmale: ['m.test_x'], anlass: [a1] }, { typ: 'material', id: 'test_erfunden', name: 'Erfunden', merkmale: [], anlass: [{ kennung: 'R010-08', stelle: 'diese Stelle steht nirgends im Protokoll' }] }],
-      woerter: [{ worte: ['kran'], vorgang: 'heben' }], regeln: [regel('Muster', 'm.test_x', [a1, a2]), regel('Einzelfall', { alle: ['m.test_x', 'm.holz'] }, [a1]), regel('Doppelt', 'a.hochdruck', [a1, a2])] }));
+      woerter: [{ worte: ['kran'], vorgang: 'heben' }, { worte: ['im sommer wird warm'], material: ['test_mat'] }], regeln: [regel('Muster', 'm.test_x', [a1, a2]), regel('Einzelfall', { alle: ['m.test_x', 'm.holz'] }, [a1]), regel('Doppelt', 'a.hochdruck', [a1, a2])] }));
     const e = require('../lernen/uebernehmen').uebernehmen('R010', { ohneTests: true });
     assert.deepStrictEqual(e.uebernommen.stammdaten, ['material/test_mat']); assert.strictEqual(e.uebernommen.regeln.length, 1); assert.strictEqual(e.uebernommen.woerter.length, 0);
     const r = JSON.parse(fs.readFileSync(dateien[4], 'utf8')).pop(); assert.strictEqual(r.name, 'Muster'); assert.strictEqual(r.beleg, 'offen'); assert.strictEqual(r.freigabe, 'entwurf'); assert.strictEqual(r.quellen[0].stelle, null);
-    assert.ok(e.abgelehnt.some(x => x.grund.includes('nicht wörtlich'))); assert.ok(e.abgelehnt.some(x => x.grund.includes('zwei verschiedenen'))); assert.ok(e.abgelehnt.some(x => x.grund.includes('gibt es schon eine Regel')));
+    assert.ok(e.abgelehnt.some(x => x.grund.includes('nicht wörtlich'))); assert.ok(e.abgelehnt.some(x => x.grund.includes('mehr als zwei Wörter'))); assert.ok(e.abgelehnt.some(x => x.grund.includes('zwei verschiedenen'))); assert.ok(e.abgelehnt.some(x => x.grund.includes('gibt es schon eine Regel')));
   } finally {
     dateien.forEach((d, i) => { if (alt[i] === null) { if (fs.existsSync(d)) fs.unlinkSync(d); } else fs.writeFileSync(d, alt[i]); });
     for (const [p, a] of [[vp, altV], [up, altU]]) { if (a === null) { if (fs.existsSync(p)) fs.unlinkSync(p); } else fs.writeFileSync(p, a); }
