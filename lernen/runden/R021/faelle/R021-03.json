@@ -1,0 +1,43 @@
+{"id":"R021-03","name":"R021-03","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Reinigungsbenzin","material":"loesemittel","sdb":null,"h":[]}
+ ],
+ "stationen":[
+  {"nr":1,"name":"Werkbank Vergaserreinigung","bereich":"Motorradwerkstatt","personen":1,"umgebung":["dunkel"],"angaben":{},
+   "schritte":[
+    {"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+    {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["loesemittel"]},
+    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["loesemittel"]},
+    {"vorgang":"probelauf","ausfuehrung":"von_hand","material":["abgase"]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}
+   ]},
+  {"nr":2,"name":"Probefahrt auf Hof und Straße","bereich":"Motorradwerkstatt","personen":1,"umgebung":["aussen","fahrverkehr"],"angaben":{},
+   "schritte":[
+    {"vorgang":"probelauf","ausfuehrung":"von_hand","material":[]}
+   ]}
+ ],
+ "wuensche":[
+  {"text":"die Vergaser werden hier einzeln von Hand zerlegt","fehlt":"Zerlegen fehlt als Vorgang (nur Montieren, Zusammenbauen, Richten), Vergaser fehlt als Material"},
+  {"text":"mit dem die Düsen ausgeblasen werden","fehlt":"Für Abblasen mit Druckluftschlauch gibt es keine passende Ausführung; Von Hand als Näherung"},
+  {"text":"Die Maschinen laufen beim Einstellen manchmal im Stand","fehlt":"Motorrad im Stand laufen lassen und Einstellen ist keine Maschine im Sinn der Ausführungen; Probelauf mit Von Hand als Näherung"},
+  {"text":"Die Probefahrt macht der Mechaniker auf dem Hof oder über die Straße","fehlt":"Fahren eines Kraftfahrzeugs zur Probe fehlt als Ausführung"},
+  {"text":"Die Werkbank steht unter einer Neonröhre, die flackert","fehlt":"Flackernde Beleuchtung ist keine Umgebung; nur schwache oder ausgefallene Beleuchtung vorhanden"},
+  {"text":"Die Druckluft ist auf sechs bar eingestellt","fehlt":"Druck als Angabe nicht vorhanden"},
+  {"text":"Der Lehrling putzt den Boden","fehlt":"Es ist nicht gesagt, ob der Lehrling unter 18 ist, daher keine Angabe zu Jugendlichen"}
+ ],
+ "maengel":[
+  {"text":"Der Behälter ist nicht abgedeckt","art":"stoff_lagerung","gegenstand":"Behälter mit Reinigungsbenzin"},
+  {"text":"dann steht die Halle voll Abgas, das Rolltor ist meist zu","art":"lueftung","gegenstand":"Werkstatthalle beim Motorlauf"},
+  {"text":"Handschuhe trägt er beim Reinigen nicht","art":"psa","gegenstand":"Handschuhe beim Reinigen"},
+  {"text":"Die Werkbank steht unter einer Neonröhre, die flackert","art":"beleuchtung","gegenstand":"Neonröhre über der Werkbank"},
+  {"text":"der Schlauch hat einen losen Stecker","art":"arbeitsmittel_defekt","gegenstand":"Druckluftschlauch"},
+  {"text":"Ein Feuerlöscher hängt im Eingang, er ist aber seit Jahren nicht geprüft worden","art":"organisation","gegenstand":"Feuerlöscher im Eingang"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"die Vergaser werden hier einzeln von Hand zerlegt","sicher":false},
+  {"schritt":2,"stelle":"Zum Reinigen steht ein Behälter mit Reinigungsbenzin auf der Bank","sicher":true},
+  {"schritt":3,"stelle":"daneben liegt ein Druckluftschlauch, mit dem die Düsen ausgeblasen werden","sicher":false},
+  {"schritt":4,"stelle":"Die Maschinen laufen beim Einstellen manchmal im Stand, dann steht die Halle voll Abgas","sicher":false},
+  {"schritt":5,"stelle":"der Lehrling putzt den Boden","sicher":true},
+  {"schritt":6,"stelle":"Die Probefahrt macht der Mechaniker auf dem Hof oder über die Straße zur Hauptstraße, wo viel Verkehr ist","sicher":false}
+ ]}

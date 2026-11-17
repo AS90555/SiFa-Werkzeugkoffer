@@ -1,0 +1,27 @@
+{"id":"R021-01","name":"R021-01","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Hochspannungsprüfung von Netzteilen und Trafos","bereich":"Prüffeld für Elektrogeräte","personen":2,"umgebung":["sommerwaerme","boden"],"angaben":{"griffe_tag":300,"gleichfoermig":true},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"halbautomat","material":["elektro_betriebsmittel","prozessrauch"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Prüfgerät, das Spannungen bis etwa zwei Kilovolt erzeugt","fehlt":"Hochspannungsprüfung fehlt als Vorgang und Material; hier nur als Maschine bedienen (Halbautomat) abgebildet"},
+  {"text":"Das Prüfstück wird von Hand auf eine Prüfvorrichtung aus Holz gelegt und mit Krokodilklemmen und Steckverbindern angeschlossen","fehlt":"Anschließen mit Klemmen und Steckverbindern fehlt als Vorgang; Prüfstück (Netzteil, Trafo) fehlt als Material"},
+  {"text":"Prüferin schließt eine Tür am Käfig, Tür hat nur einen einfachen Schalter","fehlt":"Prüfkäfig mit Türschalter fehlt als Ausführung (nur Automat mit Lichtschranke oder Halbautomat vorhanden)"},
+  {"text":"Die Geräte kommen auf Europaletten an","fehlt":"Anliefern und Abladen ist nicht als Schritt beschrieben, Gewicht fehlt"},
+  {"text":"Die Prüferin sitzt den ganzen Tag, trägt die Geräte aber ab und zu selbst zum Tisch","fehlt":"Gewicht der Geräte und Griffe je Stunde fehlen, daher keine Angabe zur Last"},
+  {"text":"zwischen den Prüfungen riecht es leicht nach verbranntem Isoliermaterial, wenn ein Gerät durchschlägt","fehlt":"Rauch und Geruch aus durchgeschlagenem Prüfstück als Material nur näherungsweise (prozessrauch)"}
+ ],
+ "maengel":[
+  {"text":"die Tür hat nur einen einfachen Schalter","art":"schutzeinrichtung","gegenstand":"Käfigtür am Hochspannungsprüfplatz"},
+  {"text":"an der Seite steht eine Lichtschranke, die schon mal verschmiert ist","art":"schutzeinrichtung","gegenstand":"Lichtschranke am Prüfkäfig"},
+  {"text":"Die Kabel liegen quer über den Boden, zwei davon sind an einer Stelle eingeklemmt, weil ein Rollwagen drüber gefahren ist","art":"elektrik","gegenstand":"Prüfkabel am Boden"},
+  {"text":"Die Luft ist warm, weil die Lüftung im Sommer nicht nachkommt","art":"lueftung","gegenstand":"Lüftung im Prüffeld"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Das Prüfstück wird von Hand auf eine Prüfvorrichtung aus Holz gelegt; trägt die Geräte aber ab und zu selbst zum Tisch","sicher":true},
+  {"schritt":2,"stelle":"die Prüfung selbst macht eine Prüferin an einem Arbeitsplatz mit einem Prüfgerät; Kabel liegen quer über den Boden; riecht es leicht nach verbranntem Isoliermaterial","sicher":false},
+  {"schritt":3,"stelle":"der Schichtführer rüstet die Vorrichtung, er wechselt die Klemmen am Morgen","sicher":true}
+ ]}

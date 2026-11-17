@@ -24,7 +24,8 @@
   "R020:schiedsrichter": 1,
   "R020:lueckenschliesser": 1,
   "R021:sprecher": 1,
-  "R021:uebersetzer": 1
+  "R021:uebersetzer": 1,
+  "R021:schiedsrichter": 1
  },
  "hinweise": [],
  "belegquoteZuBeginn": 25,

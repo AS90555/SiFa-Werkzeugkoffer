@@ -1,0 +1,125 @@
+{
+ "id": "R021-02",
+ "name": "R021-02",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Brennschneidanlage",
+   "bereich": "Halle für Stahlbau",
+   "personen": 2,
+   "umgebung": [
+    "funkenflug",
+    "boden",
+    "kalt",
+    "sommerwaerme"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "loeten_brennschneiden",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "blech",
+      "druckgasflasche",
+      "prozessrauch",
+      "heisses_maschinenteil"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "blechabfall",
+      "heisses_werkstueck"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "druckgasflasche"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "einer bedient die Steuerung am Pult",
+   "fehlt": "Bedienen der Brennschneidanlage am Pult ist im Schritt Brennschneiden (Vollautomat) enthalten, ein eigener Schritt wurde nicht angelegt"
+  },
+  {
+   "text": "Die Schlacke liegt am Boden verstreut und ist noch heiß, wenn sie vom Tisch fällt",
+   "fehlt": "Heiße Schlacke fehlt als eigenes Material (nur heisses_werkstueck als Näherung)"
+  },
+  {
+   "text": "Das Schneidgas kommt aus Flaschen, Sauerstoff und Propan",
+   "fehlt": "Propan und Sauerstoff sind als Stoff mit Datenblatt nicht zulässig (Material Druckgasflasche ist kein Gefahrstoff-Stammdatum); nur als Material Druckgasflasche geführt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Flaschen stehen ungesichert neben dem Tisch in einer Reihe",
+   "art": "last_ungesichert",
+   "gegenstand": "Gasflaschen neben dem Schneidtisch"
+  },
+  {
+   "text": "eine hat keine Kappe",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Gasflasche ohne Schutzkappe"
+  },
+  {
+   "text": "der Abzug über dem Tisch ist verstellt, weil ein Stück Blech daran hängt",
+   "art": "lueftung",
+   "gegenstand": "Absaugung über dem Schneidtisch"
+  },
+  {
+   "text": "Der Boden ist mit Öl und Schneidresten verschmiert",
+   "art": "weg_boden",
+   "gegenstand": "Boden an der Brennschneidanlage"
+  },
+  {
+   "text": "Die Schweißerbrille und Handschuhe liegen im Regal, werden aber nicht immer getragen",
+   "art": "psa",
+   "gegenstand": "Schweißerbrille und Handschuhe"
+  },
+  {
+   "text": "Die Brenner werden nach dem Schnitt einfach abgestellt und liegen oft noch heiß auf dem Tisch",
+   "art": "arbeitsweise",
+   "gegenstand": "Brenner nach dem Schnitt"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "oben liegen die Bleche, die mit einem Kran aufgelegt werden",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Anlage fährt auf Schienen über einen Tisch; Schneidvorgang erzeugt Funkenflug und Rauch; Brenner liegen noch heiß auf dem Tisch",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "der andere räumt die Schnittabfälle weg; Schlacke ist noch heiß",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gerüstet wird morgens vom Schichtführer, der auch die Flaschen wechselt",
+   "sicher": true
+  }
+ ]
+}

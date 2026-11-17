@@ -1,0 +1,132 @@
+{
+ "id": "R021-04",
+ "name": "R021-04",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Maschinenraum Aufzugswartung",
+   "bereich": "Aufzugswartung",
+   "personen": 1,
+   "umgebung": [
+    "alleinarbeit",
+    "stickig",
+    "dunkel",
+    "boden",
+    "bodenoeffnung",
+    "treppe"
+   ],
+   "angaben": {
+    "last_kg": 30
+   },
+   "schritte": [
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oelige_lappen",
+      "oel_schmierstoff"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "stellt die Treibscheibe, die Steuerung und die Bremse ein",
+   "fehlt": "Aufzugsanlage (Treibscheibe, Bremse) fehlt als Material; Einstellen als Sonderbetrieb mit Anlage abgebildet"
+  },
+  {
+   "text": "Zum Einstellen wird die Kabine von Hand gefahren",
+   "fehlt": "Aufzugskabine fahren fehlt als Ausführung; Maschine bedienen mit Von Hand als Näherung"
+  },
+  {
+   "text": "Die Leiter zum Dach ist steil und hat keinen Rückenschutz",
+   "fehlt": "Das Besteigen der Leiter ist kein beschriebener Arbeitsschritt, daher nur als Mangel erfasst"
+  },
+  {
+   "text": "Der Monteur hebt Ersatzteile von etwa dreißig Kilo aus dem Lieferwagen über die Treppe",
+   "fehlt": "Ersatzteile fehlen als Material; Griffe je Stunde fehlen"
+  },
+  {
+   "text": "die Seile sind mit einer Ölschicht überzogen",
+   "fehlt": "Seilöl ist als Stoff mit Datenblatt nicht zulässig (Material Öl, Schmierstoff ist kein Gefahrstoff-Stammdatum); nur als Material geführt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Leiter zum Dach ist steil und hat keinen Rückenschutz",
+   "art": "absturzsicherung",
+   "gegenstand": "Leiter zum Dach"
+  },
+  {
+   "text": "der Monteur steht an der Öffnung zum Schacht und lehnt sich über das Geländer",
+   "art": "arbeitsweise",
+   "gegenstand": "Arbeiten an der Schachtöffnung"
+  },
+  {
+   "text": "die Seile sind mit einer Ölschicht überzogen, die auf dem Boden tropft",
+   "art": "weg_boden",
+   "gegenstand": "Boden im Maschinenraum"
+  },
+  {
+   "text": "im Maschinenraum gibt es keine Lüftung außer einem kleinen Fenster",
+   "art": "lueftung",
+   "gegenstand": "Maschinenraum"
+  },
+  {
+   "text": "Die Beleuchtung ist eine Leuchtstoffröhre, die in der Mitte des Raums hängt, die Ecken liegen im Dunkeln",
+   "art": "beleuchtung",
+   "gegenstand": "Maschinenraum"
+  },
+  {
+   "text": "eine Notrufliste hängt aber nirgends aus",
+   "art": "notfall",
+   "gegenstand": "Notrufliste im Maschinenraum"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "stellt die Treibscheibe, die Steuerung und die Bremse ein",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Zum Einstellen wird die Kabine von Hand gefahren",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Monteur hebt Ersatzteile von etwa dreißig Kilo aus dem Lieferwagen über die Treppe",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die Reinigung macht der Monteur selbst, er wischt das Öl mit einem Lappen auf",
+   "sicher": true
+  }
+ ]
+}
