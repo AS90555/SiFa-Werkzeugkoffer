@@ -30,16 +30,6 @@
   ]
  },
  {
-  "thema": "Gefährdung Dritter außerhalb des Betriebs, zum Beispiel durch Spritznebel",
-  "seit": "R010",
-  "anlass": [
-   {
-    "kennung": "R010-07",
-    "stelle": "der Wind trägt den Spritznebel zur Straße hin"
-   }
-  ]
- },
- {
   "thema": "Nachschlagen mit dem Hammer in Zwangshaltung beim Richten von Stahl",
   "seit": "R011",
   "anlass": [
@@ -106,6 +96,10 @@
    {
     "kennung": "R013-05",
     "stelle": "Die Bühne steht auf dem Hallenboden, der an dieser Stelle leicht abfällt"
+   },
+   {
+    "kennung": "R017-03",
+    "stelle": "Die Gestelle stehen auf Böcken"
    }
   ]
  },
@@ -256,6 +250,26 @@
    {
     "kennung": "R016-03",
     "stelle": "der Bediener muss sich einmal um eine Tür herumzwängen"
+   }
+  ]
+ },
+ {
+  "thema": "Restdruck beim Öffnen einer Kesseltür nach Druckphase",
+  "seit": "R017",
+  "anlass": [
+   {
+    "kennung": "R017-01",
+    "stelle": "Danach wird die Tür verschlossen"
+   }
+  ]
+ },
+ {
+  "thema": "Wegrollen eines Fahrzeugs auf dem Rollenprüfstand bei versagender Gurtsicherung",
+  "seit": "R017",
+  "anlass": [
+   {
+    "kennung": "R017-04",
+    "stelle": "stellt es hinten mit einer Gurtsicherung fest"
    }
   ]
  }

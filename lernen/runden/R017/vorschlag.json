@@ -1,0 +1,45 @@
+{"runde": "R017",
+ "merkmale": [],
+ "gefaehrdungen": [
+  {"id": "g-nebel-dritte", "faktor": 3, "name": "Gefährdung Dritter außerhalb des Arbeitsplatzes durch verwehten Spritznebel",
+   "anlass": [
+    {"kennung": "R010-07", "stelle": "der Wind trägt den Spritznebel zur Straße hin"},
+    {"kennung": "R017-03", "stelle": "Bei Wind weht der Nebel über den Hof"}
+   ]}
+ ],
+ "stammdaten": [
+  {"typ": "material", "id": "stahlgestell", "name": "Stahlgestell, Maschinenrahmen", "merkmale": ["m.metall", "m.sperrig"],
+   "anlass": [{"kennung": "R017-03", "stelle": "Stahlgestelle für Maschinen lackiert"}]},
+  {"typ": "material", "id": "elektrostatikpistole", "name": "Elektrostatische Spritzpistole mit Hochspannung", "merkmale": ["m.spannungsfuehrend"],
+   "anlass": [{"kennung": "R017-05", "stelle": "elektrostatische Pistole wird manuell geführt"}]}
+ ],
+ "woerter": [
+  {"worte": ["elektrostatische pistole", "elektrostatikpistole"], "material": ["elektrostatikpistole"]},
+  {"worte": ["heizstrahler"], "material": ["elektro_betriebsmittel"]},
+  {"worte": ["handflex"], "vorgang": "trennschleifen", "ausfuehrung": "handmaschine"},
+  {"worte": ["stahlgestell", "stahlgestelle"], "material": ["stahlgestell"]}
+ ],
+ "regeln": [
+  {"name": "Spritznebel im Freien erreicht Dritte", "wenn": {"alle": ["v.beschichten", "u.aussen"]},
+   "entsteht": "Wind verweht den Spritznebel über das Gelände hinaus, Personen außerhalb des Arbeitsplatzes atmen ihn ein oder werden in der Sicht behindert",
+   "gefaehrdung": "g-nebel-dritte",
+   "massnahmen": [
+    {"art": "T", "text": "Spritzen nur an einem Platz mit Windschutz oder in einer Kabine mit Absaugung"},
+    {"art": "O", "text": "Bei Wind das Spritzen unterbrechen und den Bereich zur Straße und zu Dritten absichern"},
+    {"art": "O", "text": "Beschäftigte unterweisen, Wetter und Windrichtung vor Beginn zu beachten"}
+   ],
+   "quellen": ["gefstoffv"],
+   "anlass": [
+    {"kennung": "R010-07", "stelle": "der Wind trägt den Spritznebel zur Straße hin"},
+    {"kennung": "R017-03", "stelle": "Bei Wind weht der Nebel über den Hof"}
+   ]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Kippen von Gestellen auf Böcken bei ungleichem Boden", "zu": "Kippen der Hubarbeitsbühne auf abfallendem Hallenboden", "grund": "Einzelfall bei anderem Gegenstand, Bedingung nicht sauber über ein Merkmal zu fassen",
+   "anlass": [{"kennung": "R017-03", "stelle": "Die Gestelle stehen auf Böcken"}]},
+  {"thema": "Restdruck beim Öffnen einer Kesseltür nach Druckphase", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R017-01", "stelle": "Danach wird die Tür verschlossen"}]},
+  {"thema": "Wegrollen eines Fahrzeugs auf dem Rollenprüfstand bei versagender Gurtsicherung", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R017-04", "stelle": "stellt es hinten mit einer Gurtsicherung fest"}]}
+ ],
+ "erledigt": ["Gefährdung Dritter außerhalb des Betriebs, zum Beispiel durch Spritznebel"]}

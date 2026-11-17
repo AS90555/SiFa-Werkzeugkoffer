@@ -1882,5 +1882,38 @@
   ],
   "vorgang": "hoehenarbeit",
   "ausfuehrung": "leiter"
+ },
+ {
+  "worte": [
+   "elektrostatische pistole",
+   "elektrostatikpistole"
+  ],
+  "material": [
+   "elektrostatikpistole"
+  ]
+ },
+ {
+  "worte": [
+   "heizstrahler"
+  ],
+  "material": [
+   "elektro_betriebsmittel"
+  ]
+ },
+ {
+  "worte": [
+   "handflex"
+  ],
+  "vorgang": "trennschleifen",
+  "ausfuehrung": "handmaschine"
+ },
+ {
+  "worte": [
+   "stahlgestell",
+   "stahlgestelle"
+  ],
+  "material": [
+   "stahlgestell"
+  ]
  }
 ]

@@ -298,5 +298,10 @@
   "id": "g-druck",
   "faktor": 1,
   "name": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg"
+ },
+ {
+  "id": "g-nebel-dritte",
+  "faktor": 3,
+  "name": "Gefährdung Dritter außerhalb des Arbeitsplatzes durch verwehten Spritznebel"
  }
 ]

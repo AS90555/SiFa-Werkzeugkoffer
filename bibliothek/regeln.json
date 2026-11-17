@@ -4810,5 +4810,43 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R130",
+  "name": "Spritznebel im Freien erreicht Dritte",
+  "wenn": {
+   "alle": [
+    "v.beschichten",
+    "u.aussen"
+   ]
+  },
+  "entsteht": "Wind verweht den Spritznebel über das Gelände hinaus, Personen außerhalb des Arbeitsplatzes atmen ihn ein oder werden in der Sicht behindert",
+  "gefaehrdung": "g-nebel-dritte",
+  "massnahmen": [
+   {
+    "id": "R130-M1",
+    "art": "T",
+    "text": "Spritzen nur an einem Platz mit Windschutz oder in einer Kabine mit Absaugung"
+   },
+   {
+    "id": "R130-M2",
+    "art": "O",
+    "text": "Bei Wind das Spritzen unterbrechen und den Bereich zur Straße und zu Dritten absichern"
+   },
+   {
+    "id": "R130-M3",
+    "art": "O",
+    "text": "Beschäftigte unterweisen, Wetter und Windrichtung vor Beginn zu beachten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

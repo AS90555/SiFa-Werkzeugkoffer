@@ -694,6 +694,21 @@
    "merkmale": [
     "m.freigesetzt"
    ]
+  },
+  {
+   "id": "stahlgestell",
+   "name": "Stahlgestell, Maschinenrahmen",
+   "merkmale": [
+    "m.metall",
+    "m.sperrig"
+   ]
+  },
+  {
+   "id": "elektrostatikpistole",
+   "name": "Elektrostatische Spritzpistole mit Hochspannung",
+   "merkmale": [
+    "m.spannungsfuehrend"
+   ]
   }
  ],
  "vorgang": [

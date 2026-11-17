@@ -1,0 +1,25 @@
+{
+ "runde": "R017",
+ "uebernommen": {
+  "merkmale": [],
+  "gefaehrdungen": [
+   "g-nebel-dritte"
+  ],
+  "stammdaten": [
+   "material/stahlgestell",
+   "material/elektrostatikpistole"
+  ],
+  "woerter": [
+   "elektrostatische pistole, elektrostatikpistole",
+   "heizstrahler",
+   "handflex",
+   "stahlgestell, stahlgestelle"
+  ],
+  "regeln": [
+   "R130 Spritznebel im Freien erreicht Dritte"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 27
+}
