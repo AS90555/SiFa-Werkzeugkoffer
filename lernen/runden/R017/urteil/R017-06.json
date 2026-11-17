@@ -1,0 +1,98 @@
+{
+ "id": "R017-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Getroffen werden von Klammer oder Teil",
+   "grund": "Abgenutzte Scheibe und schiefe Haube, Maßnahme Schutzhaube richtig einstellen und Gesichtsschutz passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Rost am Hallenkran, Maßnahme Anschlagmittel prüfen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funken und Schleifstaub, Maßnahme brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Schweißer ohne Trennwand, Maßnahme Schweißplatz abschirmen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Kompressor, Lärmminderung am Entstehungsort passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Gebücktes Arbeiten an zu niedriger Bank, Arbeitshöhe anpassen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Zuschnitt mit der Handflex, Schutzhaube sitzt schief."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Grat vom Zuschnitt, Gitterroste aus Stahl."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "urteil": "typisch",
+   "grund": "Schutzgasschweißen ohne genannte Absaugung."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Schweißen und Trennen erzeugen Funken und heiße Teile."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Schleifstaub liegt überall auf dem Boden, der Schrott bleibt liegen."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Schleifstaub vom Grat liegt überall."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Handflex und Schweißgerät, Unterweisung und Betriebsanweisung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Ersticken durch Gase, die den Sauerstoff verdrängen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine Gase in engen Räumen."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Schutzhaube sitzt schief, keine Trennwand."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Die Scheibe ist abgenutzt."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Schweißer ist in Turnschuhen unterwegs."
+  }
+ ]
+}

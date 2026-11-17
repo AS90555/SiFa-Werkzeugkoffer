@@ -1,0 +1,150 @@
+{
+ "runde": "R017",
+ "blind": true,
+ "regeln": 130,
+ "quote": 87,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 32,
+  "schritte": 39,
+  "maengel": 35
+ },
+ "faelle": [
+  {
+   "id": "R017-01",
+   "arbeitsplatz": "Kesseldruckanlage, Beschicken und Entleeren",
+   "branche": "Holzimprägnierung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-02",
+   "arbeitsplatz": "Maschinenumzug mit Hubwagen und Kran",
+   "branche": "Industriemontage",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-03",
+   "arbeitsplatz": "Lackieren großer Gestelle im Freien",
+   "branche": "Maschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-04",
+   "arbeitsplatz": "Endkontrolle und Rollenprüfstand",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-05",
+   "arbeitsplatz": "Pulverlackierung kleiner Teile",
+   "branche": "Gerätebau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-06",
+   "arbeitsplatz": "Gitterroste zuschneiden und schweißen",
+   "branche": "Schlosserei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-07",
+   "arbeitsplatz": "Furnierpresse und Leimauftrag",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R017-08",
+   "arbeitsplatz": "Abgasuntersuchung und Probelauf in der Halle",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 10,
+   "verfehlt": 3
+  },
+  "2": {
+   "getroffen": 3,
+   "verfehlt": 1
+  },
+  "3": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 4,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 2,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 87,
+  "getroffen": 41,
+  "rueckfrage": 2,
+  "verfehlt": 4,
+  "unbegruendet": 0,
+  "zBerechtigt": 35,
+  "zTypisch": 12,
+  "zUnbegruendet": 8
+ }
+}

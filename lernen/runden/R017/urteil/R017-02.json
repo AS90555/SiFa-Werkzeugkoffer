@@ -1,0 +1,53 @@
+{
+ "id": "R017-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Last am Kranhaken, Maßnahme Anschlagmittel prüfen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel-Eintrag zum selben Anlass, Finger zwischen Fuß und Boden."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Rangierender Lkw, Maßnahmen Wege trennen und Sicht passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Mangel-Eintrag zum Kabel der Fernbedienung quer über den Boden."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm vom Kompressor, Lärmminderung am Entstehungsort passt zur Ursache."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Rollen von Hand unterschieben, Hebehilfe und Tätigkeitswechsel passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: handgeführter Hubwagen, den man vor sich herschiebt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Kabel liegt quer über den Hallenboden."
+  }
+ ]
+}

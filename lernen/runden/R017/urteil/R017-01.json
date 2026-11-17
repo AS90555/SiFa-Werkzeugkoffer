@@ -1,0 +1,58 @@
+{
+ "id": "R017-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Restdruck beim Öffnen der Kesseltür wird vom System nicht erfasst."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Gabelstapler an der Rollbahn, Maßnahmen Fahr- und Gehwege trennen und Sicht passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel über nassem Boden, Mangel-Eintrag zum selben Anlass."
+  },
+  {
+   "nr": 4,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Gefahrstoff beim Anrühren steht nur als Rückfrage."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser Boden mit Pfützen, Maßnahmen Verunreinigungen beseitigen und rutschhemmender Boden."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Gurten von Hand, Maßnahmen Hebehilfe und Tätigkeitswechsel passen zur Belastung."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Bei schlechtem Wetter ist die Halle offen am Tor, es zieht durch."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Druckanlage mit Programmsteuerung, Unterweisung und Betriebsanweisung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Die Handräder der Tür sind schwergängig."
+  }
+ ]
+}

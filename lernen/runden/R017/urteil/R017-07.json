@@ -1,0 +1,93 @@
+{
+ "id": "R017-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Pressen mit klemmendem Taster, Maßnahme Schutzeinrichtung wirksam und vor Schichtbeginn prüfen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Leim und Lösemittel, Maßnahmen Einstufung, Hautkontakt, Handschuhe passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Brand oder Staubexplosion",
+   "grund": "Holzspäne am Boden, Reinigungsplan und Zündquellen vermeiden passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Hitze an der Presse, Abschirmung der Wärmequelle passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Platten über Kopf ohne Hilfsmittel, Mangel-Eintrag Hilfsmittel bereitstellen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Gabelstapler um die Presse herum, Wege trennen und Sicht passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "typisch",
+   "grund": "Sperrholz und Holzspäne, die ständig weggekehrt werden."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Leim von Hand aufgetragen, Lösemittel zum Reinigen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Boden ist mit Holzspänen belegt."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Lösemittel aus einer Flasche, die offen auf dem Tisch steht."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Leim riecht stark, die Fenster sind zu."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "typisch",
+   "grund": "Fenster zu und stark riechender Leim in warmer Halle."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "urteil": "unbegruendet",
+   "grund": "Protokoll nennt Stehen und Heben, keine Zwangshaltung."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hydraulische Etagenpresse, Unterweisung und Betriebsanweisung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Taster für die Schutzeinrichtung klemmt manchmal."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Flasche mit Lösemittel steht offen auf dem Tisch."
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "R017-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Brand oder Staubexplosion",
+   "grund": "Pulverwolke, Maßnahmen Zündquellen vermeiden und Ablagerungen entfernen passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Hochspannung der elektrostatischen Pistole wird vom System nicht gemeint."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Staub",
+   "grund": "Pulver an offenen Behältern, Maßnahme Absaugung und Atemschutz passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heiße Teile aus dem Ofen, hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Alte Lüftung, Mangel-Eintrag Lüftung instand setzen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser Boden am Ofenausgang, Mangel-Eintrag zum selben Anlass."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Abscheider läuft laut."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine schwere Last."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll beschreibt keine Instandhaltung an laufender Anlage."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Teile aus Stahlblech und Alu werden von Hand gegriffen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Es wird kein schweres Teil von Hand abgesetzt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kabine, Pistole und Ofen sind kraftbetriebene Anlagen, Unterweisung gehört dazu."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Staubsauger, der nicht für solchen Staub ausgelegt ist."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Die Behälter stehen offen neben der Kabine."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Handschuhe sind dünn und teils eingerissen."
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Eine Schulung für den Filterwechsel habe ich nicht gesehen."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Die Beleuchtung ist eher schwach, in den Ecken dunkel."
+  }
+ ]
+}

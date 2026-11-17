@@ -1,0 +1,73 @@
+{
+ "id": "R017-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Abgas beim Start, Maßnahme erfassen oder lüften passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel und Verlängerung am Boden, Eintrag mit Maßnahme Leitungen so verlegen, dass sie nicht beschädigt werden."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Mangel-Eintrag Keile liegen auf dem Boden, Maßnahme Last gegen Rollen sichern passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Brand durch Heizstrahler steht nur als Rückfrage."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Motorlärm im Probelauf, Lärmminderung am Entstehungsort passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Schwache Absaugung, Mangel-Eintrag Absaugung instand setzen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Reinigung mit Bremsenreiniger, Benzin- und Abgasgeruch."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Reinigung mit Lappen und Bremsenreiniger."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Kabel liegen quer über den Boden."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Am Rand ist es dunkel."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Probelauf, Mechaniker steht hinter dem Auto."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Ein Heizstrahler ist defekt, der andere hängt schief."
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "R017-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Wegrollen des Fahrzeugs bei versagender Gurtsicherung wird nicht gemeint; Probelauf-Eintrag zielt auf Personen im Gefahrbereich."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Ölverschmierte Matten und knapper Abstand, Mangel-Eintrag zum selben Anlass."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Abgase ziehen nicht ab, Mangel-Eintrag Lüftung instand setzen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Rollen, Lärmminderung am Entstehungsort passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Druck aus der Produktion und Schichtplan, Maßnahme Arbeitsabläufe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt kein Heben, Halten oder Tragen."
+  },
+  {
+   "gefaehrdung": "Beschwerden durch Bildschirmarbeit und langes Sitzen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Mitarbeiter am Pult sitzt von morgens bis mittags an der gleichen Stelle."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Hautkontakt mit Stoffen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Rollen im Boden und Probelauf am Prüfstand, Gefahrbereich und Zuständigkeit gehören dazu."
+  }
+ ]
+}

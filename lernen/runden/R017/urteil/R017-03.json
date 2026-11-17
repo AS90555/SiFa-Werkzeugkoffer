@@ -1,0 +1,83 @@
+{
+ "id": "R017-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Zweikomponentiger Lack mit Härter, Maßnahmen Einstufung, Hautkontakt, Handschuhe passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Offener Eimer mit Lösungsmittel, Maßnahme geschlossene Gefäße statt offener Wanne und Handschuhe passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Lösemitteldämpfe und Zündquelle, Maßnahme Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Hitze unter dem Blechdach, Trinkpausen und Aufenthalt begrenzen passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kippen der Gestelle auf Böcken oder Quetschen wird nicht gemeint; Fahrzeug-Kippen betrifft Fahrzeuge."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Halten und Drehen der Gestelle, Hebehilfe und Tätigkeitswechsel passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: In der Nähe läuft ein Gabelstapler."
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "unbegruendet",
+   "grund": "Kippende Gestelle sind kein kippendes Fahrzeug, falsche Zuordnung."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Gestelle werden mit dem Hallenkran herangebracht."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Der Boden ist Schotter und ungleich."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Nebel über den Hof, das Ganze riecht stark."
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Arbeit im Freien bei Wind, Regen und Sonne."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Druckluftpistole und Kompressor, Unterweisung und Betriebsanweisung gehören dazu."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Protokoll: Eimer mit Lösungsmittel steht offen neben dem Arbeitsplatz."
+  }
+ ]
+}
