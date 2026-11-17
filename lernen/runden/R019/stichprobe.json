@@ -1,0 +1,12 @@
+{"runde": "R019", "eintraege": [
+{"kennung": "R019-01", "nr": 1, "urteil": "bestaetigt", "grund": "Berstende Scheibe und abspringende Teile der Handflex sind genau die Gefahr; Schutzhaube und Schutzbrille passen."},
+{"kennung": "R019-02", "nr": 2, "urteil": "zweifelhaft", "grund": "Die Sammelgefährdung 'gefährliche Arbeitsweise' nennt weder Quetschen der Hände noch herabstürzende Teile, und 'Arbeit unterbrechen, Arbeitsweise festlegen' trifft die Ursache (Gurte, Schieben) nicht konkret."},
+{"kennung": "R019-03", "nr": 6, "urteil": "bestaetigt", "grund": "Zwangshaltung gebückt oder über Kopf ist dieselbe Gefahr; Arbeitshöhe und Erreichbarkeit gestalten passt."},
+{"kennung": "R019-05", "nr": 4, "urteil": "bestaetigt", "grund": "Staubablagerung an den Absaugstutzen mit Brand- und Staubexplosionsgefahr ist dieselbe Gefahr; Reinigungsplan passt."},
+{"kennung": "R019-06", "nr": 6, "urteil": "bestaetigt", "grund": "Ausrutschen auf der Ölpfütze ist dieselbe Gefahr; unverzügliches Beseitigen der Verunreinigung passt."},
+{"kennung": "R019-09", "nr": 1, "urteil": "bestaetigt", "grund": "Schnitt an scharfen Bandkanten beim Einfädeln ist dieselbe Gefahr; schnittfeste Handschuhe und Kanten sichern passen."},
+{"kennung": "R019-10", "nr": 6, "urteil": "zweifelhaft", "grund": "Gemeint sind Fehler beim Kranheben unter Termindruck, das System nennt psychische Belastung; nur die Ursache Zeitdruck ist gleich und die Maßnahmen zielen auf psychische Gesundheit, nicht auf sicheres Heben."},
+{"kennung": "R019-12", "nr": 1, "urteil": "bestaetigt", "grund": "Säuredunst durch den verrutschten Absaugdeckel ist dieselbe Gefahr; Absaugung instand setzen und prüfen passt."},
+{"kennung": "R019-13", "nr": 6, "urteil": "bestaetigt", "grund": "Schwaches Licht mit fehlender Leuchte ist dieselbe Gefahr; Leuchte instand setzen passt."},
+{"kennung": "R019-15", "nr": 4, "urteil": "bestaetigt", "grund": "Kälte und Zugluft bei offenem Tor ist dieselbe Gefahr; arbeitsplatzbezogenes Heizen und Kälteschutz passen."}
+]}
