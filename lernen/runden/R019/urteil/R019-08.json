@@ -1,0 +1,87 @@
+{
+ "id": "R019-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Hand zwischen Stößel; Lichtgitter prüfen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kippende Drahtrolle wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "grund": "Kühlschmierstoff spritzt auf Haut; Hautschutz und Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Der einzige passende Eintrag ist schon der Spritzgefahr zugeordnet."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Presse gibt viel Wärme ab; Abschirmung und Lüftung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Kaltumformpresse ist typisch laut."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Behälter werden von Hand geleert."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "typisch",
+   "grund": "Kühlschmierstoff spritzt und läuft."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "unbegruendet",
+   "grund": "Nur Hubwagen zum Einsetzen der Rollen."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Schacht wird mit Druckluft gereinigt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kaltumformpresse."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "300-kg-Rollen mit dem Hubwagen."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Nur kippende Rolle genannt, keine lose Lagerung."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Umhausung offen, Lichtschranke verschmutzt."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Griff in den Schacht ohne Stopp."
+  }
+ ]
+}

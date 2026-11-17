@@ -1,0 +1,98 @@
+{
+ "id": "R019-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Stapler rückwärts an der Rampe; Wege trennen und Sicht schaffen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel aus demselben Anlass: Teile per Hand auf den Lkw geschoben; sichere Arbeitsweise festlegen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Schweißrauch beim Heften."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag meint Heben und Umsetzen von Hand; Ziehen und Schieben ist eine andere Belastung."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kalte zugige Halle; Heizen und Kleidung passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Enger, zugestellter Gang; Verkehrswege freihalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Säge und Schleifen sind typisch laut."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Ablängen auf der Säge."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Gesägte Rohre mit Graten."
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "urteil": "typisch",
+   "grund": "Schweißen am Platz."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Heftschweißen mit Funken und heißen Teilen."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Schweißen und Schleifen mit Funkenflug."
+  },
+  {
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "urteil": "typisch",
+   "grund": "Nähte werden nachgeschliffen."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "unbegruendet",
+   "grund": "Keine drehende Spindel oder Bohrer im Protokoll."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "typisch",
+   "grund": "Nähte werden nachgeschliffen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Säge wird vom Schweißer selbst gerüstet."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "Geländer liegen auf einem Wagen und werden per Hand geschoben."
+  }
+ ]
+}

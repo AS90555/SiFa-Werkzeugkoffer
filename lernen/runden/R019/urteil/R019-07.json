@@ -1,0 +1,68 @@
+{
+ "id": "R019-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Hand am Sägeblatt, Schutzhaube einstellen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kein Eintrag meint das Abrutschen schwerer Bretter vom Rollengang."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Holzstaub beim Sägen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Es ist laut."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kühle zugige Halle, Kleidung gegen Kälte."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Sägespäne und Rinde am Boden."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Holzstaub beim Sägen."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Rollengang hat Einzugsstellen."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Reinigung mit Gebläse."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kreissäge und Kappsäge mit Pedal."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Spalt an der Haube recht weit."
+  }
+ ]
+}

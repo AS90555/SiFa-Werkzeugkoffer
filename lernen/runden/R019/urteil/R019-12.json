@@ -1,0 +1,62 @@
+{
+ "id": "R019-12",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Verrutschter Absaugdeckel, Dunst zieht in die Halle; Absaugung instand setzen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Säure am beheizten Becken; säurefeste Handschuhe, Schutzbrille, Schürze passen (Verätzung)."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser, glitschiger Boden vor der Maschine."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Drahtreste am Auslauf (eigener Mangel-Eintrag); Verkehrswege freihalten."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen der Hände beim Anhängen der Körbe; kein Eintrag meint diese Gefahr."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Ziehsteine werden von Hand an der Maschine gewechselt."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Körbe mit Draht hängen am Kran."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Drahtziehmaschine."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Keine lose liegenden Rollen oder Stapel beschrieben; Draht kommt als Ring vom Haspel."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Offene Wanne mit Säure, Säure aus Kanister."
+  }
+ ]
+}

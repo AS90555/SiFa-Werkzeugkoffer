@@ -1,0 +1,83 @@
+{
+ "id": "R019-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel aus demselben Anlass: Nachgreifen bei laufendem Band; Arbeit unterbrechen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Mangel: Stapel ungesichert an den Gängen; Last sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Heftiger Holzstaub."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Staubexplosion",
+   "grund": "Dicke Staubschicht an den Absaugstutzen; Reinigungsplan passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Dauerlärm an der Schleifstraße."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Platten von dreißig bis fünfzig Kilo; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Schleifbänder als laufendes Werkzeug."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Rollenband und Schleifband haben Einzugsstellen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Schwere Platten werden abgenommen."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Reinigung mit Druckluft."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Drei Schleifmaschinen."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Gabelstapler im Plattenlager."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Beleuchtung im Lager schwach."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "An zwei Stutzen fehlt die Klappe."
+  }
+ ]
+}

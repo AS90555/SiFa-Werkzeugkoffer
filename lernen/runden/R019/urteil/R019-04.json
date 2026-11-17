@@ -1,0 +1,97 @@
+{
+ "id": "R019-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel: Arbeit am Eisen ohne Schutzscheibe."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Mangel: Steckdosenleiste liegt in den Spänen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Holzstaub in großer Menge, Absaugung."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Offene Dosen mit Öl und Lösemittel; Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laut beim Schleifen; Gehörschutz passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Krebs der Nase durch Hartholzstaub",
+   "urteil": "berechtigt",
+   "grund": "Eiche, Buche und Nussbaum werden bearbeitet."
+  },
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "urteil": "typisch",
+   "grund": "Holzbearbeitung mit Splittern."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Staub in großer Menge, Späne am Boden."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Bandschleifer mit Einzugsstelle."
+  },
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "urteil": "berechtigt",
+   "grund": "Öle, Wachse und Lösemittel."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Werkstücke bis vierzig Zentimeter, kein Heben beschrieben."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Lösemittel zur Reinigung und Öle."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Boden ist mit Spänen bedeckt."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Keine schweren Teile beschrieben."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Drechselbank und Bandschleifer."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Öle und Wachse stehen in offenen Dosen."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Absaugung funktioniert nur halb."
+  }
+ ]
+}

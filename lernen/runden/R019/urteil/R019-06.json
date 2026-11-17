@@ -1,0 +1,68 @@
+{
+ "id": "R019-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel: Verkleidung offen, Schutzgitter fehlt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Gehäuse am Kran, Hebezug hängt schief."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Mangel: Kabelkanal offen auf dem Boden."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Mangel: Kabine ohne Absaugung."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Schrauben über Kopf, Arbeitshöhe gestalten passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Mangel: Ölpfütze auf dem Boden."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Im Sommer warm, im Winter zieht es an der Tür."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Prüfstand und Drehschrauber."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Teile eingeölt, Öl wird nachgefüllt."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Gereinigt wird mit Lappen bei eingeölten Teilen."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Den ganzen Tag wird mit dem Drehschrauber geschraubt."
+  }
+ ]
+}

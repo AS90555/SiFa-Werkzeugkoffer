@@ -1,0 +1,73 @@
+{
+ "id": "R019-10",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Lücke im Geländer und fehlende Sicherungsseile; Absturzsicherung, Gurt in der Hubarbeitsbühne."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Einklemmen der Hände beim Einschieben mit Hammer und Dorn; kein Eintrag meint Quetschen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Schlagschrauber sehr laut; Lärmminderung und Gehörschutz passen (Vibration separat)."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Arme über Kopf, Körperhaltung beim Nachziehen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "grund": "Wind, Korb pendelt; Schutz gegen Witterungseinflüsse bei Arbeit im Freien."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Der Bauleiter drängt den Kranfahrer; Hektik und Termindruck."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Schlagschrauber vibriert in den Händen, Drehmomentschlüssel."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "unbegruendet",
+   "grund": "Keine Schnittgefahr im Protokoll."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Träger hängt am Autokran, Monteure schieben ihn ein."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Hinweis auf Personen unter der Bühne."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Schlagschrauber, Hubarbeitsbühne und Kran sind kraftbetriebene Geräte."
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "typisch",
+   "grund": "Hubarbeitsbühne wird vom Kranfahrer neben den Stützen aufgestellt; Standsicherheit gehört dazu."
+  }
+ ]
+}

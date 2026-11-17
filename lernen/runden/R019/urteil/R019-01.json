@@ -1,0 +1,109 @@
+{
+ "id": "R019-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Getroffen werden von Klammer oder Teil",
+   "grund": "Abspringende Teile und berstende Scheibe der Handflex; Schutzhaube und Schutzbrille passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Schweißrauch beim MAG-Heften, Absaugung als Maßnahme."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "grund": "Gasflasche neben dem Tisch, Sicherung gegen Umfallen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Warme verzinkte Teile; hitzebeständige Handschuhe und Ablageplatz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Eingerissene Schweißschutzvorhänge; Abschirmen zu Nachbarplätzen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Dürftige Beleuchtung; der Hitzeanteil steht unter den Zusatzfunden."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "80-kg-Rahmen von Hand zu zweit gehoben; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Handflex und Schweißen sind typisch laut."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Handflex ist offenes Werkzeug."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Profilzuschnitte mit Graten und Kanten."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Schweißen und Schleifen bringen Funkenflug."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Rahmen werden mit dem Hallenkran umgesetzt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Boden ist mit Schlacke und Metallresten übersät."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "80-kg-Rahmen werden von Hand abgesetzt."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Geschliffen wird ohne Absaugung."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Halle im Sommer stark aufgeheizt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Geräte, Unterweisung und Betriebsanweisung."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Schweißschutzvorhänge sind teils eingerissen."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Geschliffen wird ohne Absaugung."
+  }
+ ]
+}

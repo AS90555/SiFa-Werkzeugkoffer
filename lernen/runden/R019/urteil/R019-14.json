@@ -1,0 +1,88 @@
+{
+ "id": "R019-14",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Kettenbremse klemmt leicht; Schutzeinrichtung wirksam machen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Balken rollt weg; Last gegen Rollen sichern."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Beide Maschinen laufen gleichzeitig, man muss schreien."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Hand-Arm-Vibration; der Eintrag unter Rückfragen meint gleichförmige Arbeit, nicht Vibration."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Balken von Hand angehoben und getragen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Es staubt; Staubanteil der Wahrheit, Absaugung und Sauger passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "urteil": "berechtigt",
+   "grund": "Oft in gebückter Haltung."
+  },
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "urteil": "typisch",
+   "grund": "Handabbund von Konstruktionsholz mit Kettensäge."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Kette wird nachgeschärft, Maschinen gerüstet."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "unbegruendet",
+   "grund": "Sägemehl im Freien, kein Anlass für Staubexplosion."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Motorsäge und Kettenstemmer mit Handführung."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden ist matschig, bei Regen steht Wasser."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Benzinbetriebene Motorsäge, Holzschutzgrundierung."
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "urteil": "berechtigt",
+   "grund": "Arbeit auf dem Hof, bei Regen steht Wasser."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Motorsäge und Kettenstemmer."
+  }
+ ]
+}

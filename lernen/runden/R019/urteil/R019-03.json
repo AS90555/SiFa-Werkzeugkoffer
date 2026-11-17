@@ -1,0 +1,88 @@
+{
+ "id": "R019-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Arbeit von Leitern; Bühne vor Leiter wählen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Kanal über Kopf gehängt; Bereich darunter absperren passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Scharfe Blechkanten; Schnittschutz passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Mangel: Kabel der Baustellenlampe über den Boden; beschädigte Betriebsmittel entziehen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Staub",
+   "grund": "Mineralwollestaub; Aufsaugen statt Abblasen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Gebücktes Arbeiten über Kopf."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Nibbelmaschine und Blechschere sind laut."
+  },
+  {
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "urteil": "typisch",
+   "grund": "Nibbelmaschine und Akkuschrauber."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Kanäle bis zwanzig Kilo."
+  },
+  {
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "urteil": "unbegruendet",
+   "grund": "Funken oder Splitter werden nicht beschrieben."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel läuft über den Boden."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Absetzen schwerer Teile von Hand beschrieben."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Maschinen und Geräte im Einsatz."
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "typisch",
+   "grund": "Fahrbare Arbeitsbühne im Rohbau."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Arbeit von Leitern, die an der Wand stehen."
+  }
+ ]
+}

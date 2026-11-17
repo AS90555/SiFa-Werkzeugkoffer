@@ -1,0 +1,74 @@
+{
+ "id": "R019-11",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Leiter nicht festgemacht; Leitern nur für kurze Arbeiten, Leitern prüfen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel unverankerter Gerüstabschnitt, gleicher Anlass; Arbeit unterbrechen und sichere Arbeitsweise festlegen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Gabelstapler, Sicht durch Säule versperrt; Sicht schaffen, Wege trennen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Last fällt, rutscht oder trifft Personen",
+   "grund": "Bauteile werden über Kopf gereicht; Bereich darunter absperren."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Ölflecken und Restrohre am Boden."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Rahmen von vierzig Kilo getragen; Hebehilfe, Belastung bewerten."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Maschinenlärm der Förderanlage."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "urteil": "unbegruendet",
+   "grund": "Paletten werden nur mit dem Stapler herangefahren, kein Kippen genannt."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "berechtigt",
+   "grund": "Die Rahmen werden von Hand aufeinander gesetzt."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Die Beleuchtung in der hinteren Ecke ist schwach."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "urteil": "typisch",
+   "grund": "Bauteile werden über Kopf gereicht, Kupplungen von Hand angezogen."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Helme trägt nur einer."
+  }
+ ]
+}

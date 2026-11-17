@@ -1,0 +1,78 @@
+{
+ "id": "R019-15",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Vakuumheber am Kran; Warneinrichtung bei Unterdruckabfall, Prüfung."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Obere Scheiben mit der Leiter holen; Leitermaßnahmen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Kabel quer im Gang; Stolperstellen beseitigen (Stromschlag separat)."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Tor steht auf, es zieht und ist kalt; Heizen, Kälteschutz."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Vorgegebener Takt, Druck vom Vorarbeiter."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Weit vorgebeugt beim Ausrichten."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Scheibe rund vierzig Kilo, von Hand gedreht und ausgerichtet."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Isolierglas, Glasreste."
+  },
+  {
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "urteil": "typisch",
+   "grund": "Glaseinheiten stehen in offenen Gestellen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Absetzen von Hand auf Unterlagen beschrieben."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Keine Arbeit über Personen beschrieben."
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "urteil": "berechtigt",
+   "grund": "Stromkabel liegt quer über den Boden des Gangs."
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "urteil": "berechtigt",
+   "grund": "Die Prüfplakette fehlt am Sauggerät."
+  }
+ ]
+}

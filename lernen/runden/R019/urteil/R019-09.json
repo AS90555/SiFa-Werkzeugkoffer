@@ -1,0 +1,72 @@
+{
+ "id": "R019-09",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Scharfe Bandkanten beim Einfädeln; Handschuhe und Kanten sichern passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Zwei Leute unter der hängenden Last beim Walzenwechsel; Maßnahme niemand unter der Last passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Walzölnebel in der Luft; Erfassen und Lüften passt zur Ursache."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öllachen und glatte Gitterroste; Verunreinigungen beseitigen, rutschhemmender Boden."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Maschine; Lärmminderung und Gehörschutz."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "unbegruendet",
+   "grund": "Coil wird mit dem Kran gehoben, nicht von Hand."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Walzenwechsel und Reinigung an der Walzanlage."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Walzanlage mit Bedienpult."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Keine lose liegenden Rollen oder Stapel beschrieben."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Das Walzöl spritzt."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Zwei Leute stehen direkt unter der hängenden Last."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Die Ölabscheider sind alt."
+  }
+ ]
+}

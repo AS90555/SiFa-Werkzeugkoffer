@@ -1,0 +1,68 @@
+{
+ "id": "R019-13",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Schutzhaube hochgeklappt; Arbeitsmittel erst mit wirksamer Schutzeinrichtung verwenden."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Rückschlag des Werkstücks, Schutzhaube und Spaltkeil richtig eingestellt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Späne und Verschnitt am Boden."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwere Platten allein heben; Auflagetische, zu zweit handhaben."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Staub geht in die Luft; Absaugung an der Entstehungsstelle."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Schwaches Licht, Leuchte fehlt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Formatkreissäge ist laut."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Holzstaub, der in der Luft liegt, und Kehren mit dem Besen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Absetzen von Hand auf Unterlagen beschrieben."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Säge, vom Schreiner selbst eingerichtet."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Die Absaugung am Tisch ist klein, Staub geht in die Luft."
+  }
+ ]
+}
