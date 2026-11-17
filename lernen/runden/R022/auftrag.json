@@ -1,0 +1,104 @@
+{
+ "runde": "R022",
+ "art": "pruef",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R022-01",
+   "auftrag": "a249",
+   "branche": "Kältetechnik",
+   "bereich": "Kälteanlage im Supermarkt warten"
+  },
+  {
+   "kennung": "R022-02",
+   "auftrag": "a233",
+   "branche": "Karosseriebau",
+   "bereich": "Punktschweißzange am Balancer"
+  },
+  {
+   "kennung": "R022-03",
+   "auftrag": "a255",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Unterbodenschutz auftragen in der Grube"
+  },
+  {
+   "kennung": "R022-04",
+   "auftrag": "a229",
+   "branche": "Medizintechnik",
+   "bereich": "Reinraum und Lasermarkieren"
+  },
+  {
+   "kennung": "R022-05",
+   "auftrag": "a240",
+   "branche": "Schmiede",
+   "bereich": "Freiformschmieden am Manipulator"
+  },
+  {
+   "kennung": "R022-06",
+   "auftrag": "a259",
+   "branche": "Tischlerei",
+   "bereich": "Absauganlage und Spänebunker reinigen"
+  },
+  {
+   "kennung": "R022-07",
+   "auftrag": "a245",
+   "branche": "Schlosserei",
+   "bereich": "Kantbank und Schweißtisch in der Werkstatt"
+  },
+  {
+   "kennung": "R022-08",
+   "auftrag": "a221",
+   "branche": "Maschinenbau",
+   "bereich": "Instandhaltung: Getriebe tauschen mit Kettenzug"
+  },
+  {
+   "kennung": "R022-09",
+   "auftrag": "a218",
+   "branche": "Holzhausbau",
+   "bereich": "Wandelemente aufrichten auf der Baustelle"
+  },
+  {
+   "kennung": "R022-10",
+   "auftrag": "a260",
+   "branche": "Möbel in Serie",
+   "bereich": "Polsterei mit Druckluftklammerer"
+  },
+  {
+   "kennung": "R022-11",
+   "auftrag": "a248",
+   "branche": "Industriemontage",
+   "bereich": "Silo innen inspizieren"
+  },
+  {
+   "kennung": "R022-12",
+   "auftrag": "a230",
+   "branche": "Gerätebau",
+   "bereich": "Lager mit Regalbediengerät und Kommissionieren"
+  },
+  {
+   "kennung": "R022-13",
+   "auftrag": "a239",
+   "branche": "Galvanik",
+   "bereich": "Hartverchromen und Badwartung"
+  },
+  {
+   "kennung": "R022-14",
+   "auftrag": "a252",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Reifenservice und Wuchten in der Saison"
+  },
+  {
+   "kennung": "R022-15",
+   "auftrag": "a241",
+   "branche": "Stahlbau",
+   "bereich": "Strahlen und Grundieren großer Träger"
+  },
+  {
+   "kennung": "R022-16",
+   "auftrag": "a223",
+   "branche": "Maschinenbau",
+   "bereich": "Hydraulikaggregat prüfen und befüllen"
+  }
+ ]
+}

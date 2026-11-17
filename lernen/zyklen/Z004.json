@@ -16,7 +16,8 @@
  },
  "runden": [
   "R020",
-  "R021"
+  "R021",
+  "R022"
  ],
  "versuche": {
   "R020:sprecher": 1,
@@ -26,9 +27,12 @@
   "R021:sprecher": 1,
   "R021:uebersetzer": 1,
   "R021:schiedsrichter": 1,
-  "R021:lueckenschliesser": 1
+  "R021:lueckenschliesser": 1,
+  "R022:sprecher": 1
  },
- "hinweise": [],
+ "hinweise": [
+  "Vor Runde 3: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen."
+ ],
  "belegquoteZuBeginn": 25,
  "fertig": false
 }
