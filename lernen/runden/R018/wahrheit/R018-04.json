@@ -1,0 +1,8 @@
+{"id":"R018-04","branche":"Kettenfertigung","arbeitsplatz":"Biegen und Schweißen von Kettengliedern","gefaehrdungen":[
+{"text":"Beim Nachlegen des Drahts vor dem Biegekopf können Finger und Hände erfasst und gequetscht werden, wenn die Maschine wieder anläuft.","faktor":1,"anlass":"Zum Nachlegen des Drahts greift der Bediener direkt in den Bereich vor dem Biegekopf, während die Maschine nur kurz stehen bleibt."},
+{"text":"Funkenflug beim Abbrennen kann Kartons und Pappe in der Nähe entzünden und einen Brand auslösen.","faktor":5,"anlass":"Beim Abbrennen fliegen Funken, daneben stehen Kartons mit Pappe."},
+{"text":"Heiß abgelegte Glieder können beim Greifen und Sortieren zu Verbrennungen an den Händen führen.","faktor":6,"anlass":"Die frisch geschweißten Glieder fallen heiß in den Behälter"},
+{"text":"Das Blitzen beim Schweißen kann die Augen blenden und die Sehkraft beim Hinsehen beeinträchtigen.","faktor":7,"anlass":"das Blitzen blendet, wenn man kurz hinsieht."},
+{"text":"Das Heben der etwa zwanzig Kilogramm schweren Kisten kann den Rücken belasten.","faktor":9,"anlass":"Die Kisten mit fertigen Ketten wiegen etwa zwanzig Kilogramm"},
+{"text":"Hitze in der Halle im Sommer belastet den Kreislauf und lässt die Konzentration nachlassen, was Fehler und Unfälle begünstigt.","faktor":8,"anlass":"Im Sommer wird es in der Halle sehr warm"}
+]}
