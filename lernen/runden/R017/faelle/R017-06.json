@@ -1,0 +1,29 @@
+{"id":"R017-06","name":"R017-06","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Gitterroste schneiden und schweißen","bereich":"Metallbau","personen":2,"umgebung":["laerm_umgebung","zwangshaltung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"trennschleifen","ausfuehrung":"handmaschine","material":["metallwerkstueck"]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["metallwerkstueck"]},
+   {"vorgang":"schweissen","ausfuehrung":"schweissgeraet","material":["metallwerkstueck","inertgas"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["metallspaene","blechabfall"]}
+  ]}],
+ "wuensche":[
+  {"text":"Pro Tag werden etwa dreißig Roste zugeschnitten","fehlt":"Keine Angabe für Stückzahl je Tag beim Trennschleifen"},
+  {"text":"Der Rost lagert im Freien neben dem Tor","fehlt":"Lagern von Rosten im Freien ohne Angabe zur Stapelung; Schritt weggelassen"},
+  {"text":"Der Schweißer steht ohne Trennwand direkt neben einem Kollegen","fehlt":"Keine Umgebung für Nachbararbeitsplatz beim Schweißen (Strahlung, Funken)"}
+ ],
+ "maengel":[
+  {"text":"die Scheibe ist abgenutzt","art":"arbeitsmittel_defekt","gegenstand":"Trennscheibe der Handflex"},
+  {"text":"die Schutzhaube sitzt schief","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Handflex"},
+  {"text":"der Schweißer steht ohne Trennwand direkt neben einem Kollegen","art":"schutzeinrichtung","gegenstand":"Trennwand am Schweißplatz"},
+  {"text":"ist aber in Turnschuhen unterwegs","art":"psa","gegenstand":"Sicherheitsschuhe"},
+  {"text":"die Bank ist zu niedrig","art":"einrichtung","gegenstand":"Werkbank"},
+  {"text":"Der Schleifstaub vom Grat liegt überall auf dem Boden","art":"weg_boden","gegenstand":"Boden am Arbeitsplatz"},
+  {"text":"der Schrott bleibt liegen","art":"weg_boden","gegenstand":"Schrott am Platz"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Zugeschnitten wird mit einer Handflex","sicher":true},
+  {"schritt":2,"stelle":"werden mit dem Hallenkran angehoben, wenn sie über einen Meter zwanzig sind","sicher":true},
+  {"schritt":3,"stelle":"Geschweißt wird mit einem Schutzgasgerät","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird der Platz ... mit dem Besen","sicher":true}
+ ]}

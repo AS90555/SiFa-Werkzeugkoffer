@@ -1,0 +1,36 @@
+{"id":"R017-03","name":"R017-03","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"zweikomponentiger Lack","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Härter aus zweitem Kanister","material":"lack","sdb":null,"h":[]},
+  {"id":"s3","name":"Lösungsmittel zum Reinigen der Pistolen","material":"loesemittel","sdb":null,"h":[]}
+ ],
+ "stationen":[{"nr":1,"name":"Lackieren großer Stahlgestelle","bereich":"Lackieren großer Gestelle im Freien","personen":2,"umgebung":["aussen","witterung","boden","hitze","fahrverkehr"],"angaben":{},
+  "schritte":[
+   {"vorgang":"lackieren","ausfuehrung":"handmaschine","material":["lack","nebel_aerosol","daempfe_loesemittel"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["lack"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
+   {"vorgang":"bewegen","ausfuehrung":"gabelstapler","material":[]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["loesemittel","lackreste"]}
+  ]}],
+ "wuensche":[
+  {"text":"Gespritzt wird von Hand mit einer Druckluftpistole an einem Schlauch","fehlt":"Ausführung Druckluft-Spritzpistole; handmaschine nur ungefähr"},
+  {"text":"einer hält das Gestell und dreht es mit einer Kurbel","fehlt":"Material Stahlgestell, drei mal zwei Meter; Vorgang Drehen und Halten mit Kurbel"},
+  {"text":"Stahlgestelle ... die mit dem Hallenkran herangebracht werden","fehlt":"Material Stahlgestell (Maschinenrahmen)"},
+  {"text":"Getrocknet wird einen Tag im Freien, bei Regen werden die Teile unter Plane gestellt","fehlt":"Vorgang Trocknen im Freien, Abdecken mit Plane"},
+  {"text":"Der Kompressor steht unter einem Blechdach neben der Wand","fehlt":"Druckluftanlage als Arbeitsmittel; Lärm nicht genannt, daher keine Umgebung Lärm"},
+  {"text":"Gerüstet wird vom Lackierer selbst, er stellt die Viskosität ein","fehlt":"Vorgang Rüsten an Spritzgerät ohne beschriebenen Eingriff; kein Schritt"},
+  {"text":"Bei Wind weht der Nebel über den Hof, dann sieht man kaum noch das Tor zur Straße","fehlt":"Sprühnebel in der Umgebung mit Sichtbehinderung und Fremdbetroffenheit"}
+ ],
+ "maengel":[
+  {"text":"Gereinigt werden die Pistolen mit einem Lösungsmittel in einem Eimer, der offen neben dem Arbeitsplatz steht","art":"stoff_lagerung","gegenstand":"offener Eimer mit Lösungsmittel"},
+  {"text":"Der Boden ist Schotter und ungleich","art":"weg_boden","gegenstand":"Schotterboden am Arbeitsplatz"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Gespritzt wird von Hand mit einer Druckluftpistole","sicher":false},
+  {"schritt":2,"stelle":"zweikomponentiger Lack, der aus einem Gebinde angemischt wird, der Härter kommt aus einem zweiten Kanister","sicher":true},
+  {"schritt":3,"stelle":"einer hält das Gestell und dreht es mit einer Kurbel","sicher":false},
+  {"schritt":4,"stelle":"die mit dem Hallenkran herangebracht werden","sicher":true},
+  {"schritt":5,"stelle":"gibt ein Gabelstapler, der die Teile heranbringt","sicher":false},
+  {"schritt":6,"stelle":"Gereinigt werden die Pistolen mit einem Lösungsmittel in einem Eimer","sicher":true}
+ ]}

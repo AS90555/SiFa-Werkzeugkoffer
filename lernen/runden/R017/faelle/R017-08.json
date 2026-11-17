@@ -1,0 +1,26 @@
+{"id":"R017-08","name":"R017-08","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Bremsenreiniger","material":"kaltreiniger","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Abgasuntersuchung Stellplatz drei","bereich":"Werkstatt","personen":2,"umgebung":["gefaelle","dunkel","laerm_umgebung","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"pruefen","ausfuehrung":"von_hand","material":["abgase","elektro_betriebsmittel"]},
+   {"vorgang":"probelauf","ausfuehrung":"von_hand","material":["abgase"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["kaltreiniger"]}
+  ]}],
+ "wuensche":[
+  {"text":"Das Fahrzeug fährt man vorher über eine Rampe rein","fehlt":"Kein Vorgang für Fahrzeug einfahren oder rangieren; Schritt weggelassen"},
+  {"text":"etwa acht Fahrzeuge, eine Viertelstunde pro Wagen","fehlt":"Keine Angabe für Fahrzeuge je Tag oder Dauer"},
+  {"text":"Der Mechaniker steht hinter dem Auto und sitzt teils im Fahrzeug am Lenkrad","fehlt":"Keine Umgebung für Aufenthalt hinter oder im laufenden Fahrzeug"}
+ ],
+ "maengel":[
+  {"text":"eine Absaugung an der Decke, die schon lange nicht mehr richtig zieht","art":"lueftung","gegenstand":"Abgasabsaugung"},
+  {"text":"Keile liegen aber irgendwo auf dem Boden","art":"last_ungesichert","gegenstand":"Unterlegkeile am Fahrzeug"},
+  {"text":"Die Kabel vom Messgerät liegen quer über den Boden zur Steckdose","art":"elektrik","gegenstand":"Kabel des Messgeräts"},
+  {"text":"eine Verlängerung hängt an einer Ecke nach unten","art":"elektrik","gegenstand":"Verlängerungsleitung"},
+  {"text":"der eine ist defekt, der andere hängt schief","art":"arbeitsmittel_defekt","gegenstand":"Heizstrahler"},
+  {"text":"am Rand ist es dunkel","art":"beleuchtung","gegenstand":"Beleuchtung am Rand der Halle"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Hier wird die Abgasuntersuchung gemacht, Kabel vom Messgerät","sicher":false},
+  {"schritt":2,"stelle":"der Probelauf gefahren. Der Motor läuft dabei im Stand","sicher":false},
+  {"schritt":3,"stelle":"Gereinigt wird der Platz am Feierabend mit Lappen und Bremsenreiniger","sicher":true}
+ ]}

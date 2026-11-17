@@ -1,0 +1,32 @@
+{"id":"R017-05","name":"R017-05","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Epoxid-Polyester-Pulver","material":"pulverlack","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Pulverlackierung kleine Teile","bereich":"Pulverlackierung","personen":2,"umgebung":["laerm_umgebung","dunkel","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["blech"]},
+   {"vorgang":"pulverbeschichten","ausfuehrung":"handmaschine","material":["pulverlack"]},
+   {"vorgang":"einbrennen","ausfuehrung":"von_hand","material":["heisses_maschinenteil","heisses_werkstueck"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["heisses_werkstueck"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage","pulverlack"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Der Staubsauger ist nicht für solchen Staub ausgelegt","fehlt":"Kein Vorgang oder Merkmal für ungeeignetes Reinigungsgerät bei brennbarem Staub"},
+  {"text":"Die Luft ist warm und staubig","fehlt":"Keine Umgebung für warme, staubige Hallenluft ohne Hitze- oder Schwüleangabe"}
+ ],
+ "maengel":[
+  {"text":"die Behälter stehen offen neben der Kabine","art":"stoff_lagerung","gegenstand":"Pulverbehälter"},
+  {"text":"die sind dünn und teils eingerissen","art":"psa","gegenstand":"Handschuhe am Ofen"},
+  {"text":"einem Staubsauger, der nicht für solchen Staub ausgelegt ist","art":"arbeitsweise","gegenstand":"Staubsauger bei der Kabinenreinigung"},
+  {"text":"eine Schulung dafür habe ich nicht gesehen","art":"organisation","gegenstand":"Filterwechsel"},
+  {"text":"Die Beleuchtung ist eher schwach, in den Ecken des Raumes ist es dunkel","art":"beleuchtung","gegenstand":"Raumbeleuchtung"},
+  {"text":"Die Lüftung in der Halle ist alt","art":"lueftung","gegenstand":"Hallenlüftung"},
+  {"text":"Der Boden am Ofenausgang ist nass von Kühlwasser","art":"weg_boden","gegenstand":"Boden am Ofenausgang"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Teile kommen von Hand aus den Gestellen, werden auf Haken gehängt","sicher":true},
+  {"schritt":2,"stelle":"Die elektrostatische Pistole wird manuell geführt","sicher":false},
+  {"schritt":3,"stelle":"Danach geht es in den Einbrennofen, der auf etwa zweihundert Grad läuft","sicher":false},
+  {"schritt":4,"stelle":"Die Teile werden mit Handschuhen aus dem Ofen gezogen","sicher":true},
+  {"schritt":5,"stelle":"Gereinigt wird die Kabine einmal pro Woche mit Druckluft und einem Staubsauger","sicher":true},
+  {"schritt":6,"stelle":"Die Filterpatronen wechselt der Schichtführer","sicher":true}
+ ]}

@@ -1,0 +1,25 @@
+{"id":"R017-02","name":"R017-02","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Maschinenumzug mit Hubwagen und Kran","bereich":"Industriemontage, Maschinen mit Hubwagen und Kran","personen":4,"umgebung":["laerm_umgebung","fahrverkehr","boden"],"angaben":{},
+  "schritte":[
+   {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":["schweres_geraet"]},
+   {"vorgang":"ziehen_schieben","ausfuehrung":"handhubwagen","material":["schweres_geraet"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"eine Verpackungsmaschine, gut zwölf Tonnen schwer, auf einem Stahlrahmen mit Rollen darunter","fehlt":"Material Maschine mit Rollrahmen und 12 t Masse; schweres_geraet nur ungefähr"},
+  {"text":"Der Hubwagen ist ein handgeführter Scherenhubwagen, den man vor sich herschiebt","fehlt":"Ausführung Scherenhubwagen (nicht Handhubwagen ohne Hub); Hubwagen für 12 t"},
+  {"text":"Die Rollen werden zwischendurch von Hand untergeschoben","fehlt":"Vorgang Rollen unterschieben, Unterlegen an angehobener Last; Material Rolle"},
+  {"text":"Die Leute reden über Funk","fehlt":"Verständigung über Funk bei Lärm"}
+ ],
+ "maengel":[
+  {"text":"Die Rollen werden zwischendurch von Hand untergeschoben, dabei liegen die Finger zwischen Maschinenfuß und Boden","art":"arbeitsweise","gegenstand":"Unterschieben der Rollen unter die angehobene Maschine"},
+  {"text":"Die Kranfernbedienung hängt an einem langen Kabel, das quer über den Hallenboden liegt","art":"elektrik","gegenstand":"Kabel der Kranfernbedienung"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"einer am Kran, einer gibt die Zeichen; Traggestell mit vier Schlaufen aus Rundschlingen","sicher":false},
+  {"schritt":2,"stelle":"dann mit dem Kran in die Luft gehoben und durch das Tor gefahren","sicher":true},
+  {"schritt":3,"stelle":"zuerst mit einem Hubwagen ein Stück angehoben","sicher":false},
+  {"schritt":4,"stelle":"Die Rollen werden zwischendurch von Hand untergeschoben","sicher":false}
+ ]}

@@ -1,0 +1,27 @@
+{"id":"R017-04","name":"R017-04","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Rollenprüfstand","bereich":"Endkontrolle, Rollenprüfstand","personen":2,"umgebung":["laerm_umgebung","zeitdruck","taktarbeit","boden","eng"],"angaben":{},
+  "schritte":[
+   {"vorgang":"probelauf","ausfuehrung":"von_hand","material":["abgase"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"bildschirmarbeit","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["oel_schmierstoff"]}
+  ]}],
+ "wuensche":[
+  {"text":"Ein Fahrer fährt das Fahrzeug auf den Rollenprüfstand ... Gefahren wird bis zu hundert Stundenkilometer","fehlt":"Ausführung Fahrzeug auf Rollenprüfstand; Material Fahrzeug; Vorgang nur ungefähr als Probelauf"},
+  {"text":"stellt es hinten mit einer Gurtsicherung fest","fehlt":"Vorgang Fahrzeug sichern mit Gurt auf dem Prüfstand"},
+  {"text":"Zwischen den Prüfungen steigt der Fahrer ständig aus und ein","fehlt":"Vorgang Ein- und Aussteigen, häufig wiederholt"},
+  {"text":"die Rollen laufen laut und das Fahrzeug vibriert","fehlt":"Umgebung Vibration"},
+  {"text":"Gerüstet wird vom Prüfstandsverantwortlichen, der die Rollen einstellt","fehlt":"Rüsten an der Prüfstandsanlage ohne beschriebenen Eingriff; kein Schritt"}
+ ],
+ "maengel":[
+  {"text":"Die Abgase ziehen nicht immer komplett ab, man riecht sie im Raum","art":"lueftung","gegenstand":"Abgasabzug am Rollenprüfstand"},
+  {"text":"Die Bodenmatten sind ölverschmiert","art":"weg_boden","gegenstand":"Bodenmatten am Prüfstand"},
+  {"text":"der Abstand zwischen den Fahrzeugen auf dem Hof ist knapp","art":"weg_boden","gegenstand":"Abstände zwischen den Fahrzeugen"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Ein Fahrer fährt das Fahrzeug auf den Rollenprüfstand ... Gefahren wird bis zu hundert Stundenkilometer","sicher":false},
+  {"schritt":2,"stelle":"stellt es hinten mit einer Gurtsicherung fest","sicher":false},
+  {"schritt":3,"stelle":"Eine zweite Person sitzt am Pult hinter einer Glasscheibe und liest Werte vom Bildschirm ab","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird der Boden einmal pro Woche mit dem Besen","sicher":false}
+ ]}

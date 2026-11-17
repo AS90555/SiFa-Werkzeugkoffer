@@ -1,0 +1,33 @@
+{"id":"R017-01","name":"R017-01","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Imprägnierlösung (wässrige Salzlösung, aus Pulver angesetzt)","material":"impraegnierung","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Kesseldruckanlage, Beschicken und Entleeren","bereich":"Holzimprägnierung","personen":2,"umgebung":["boden","kalt","fahrverkehr"],"angaben":{},
+  "schritte":[
+   {"vorgang":"verpacken","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"bewegen","ausfuehrung":"gabelstapler","material":[]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"vollautomat","material":["impraegnierung"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["impraegnierung"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Die Pakete werden von Hand mit Gurten zu einer Einheit verbunden","fehlt":"Material Holzpaket (kein Kantelpaket belegt); Vorgang Umreifen passt nur ungefähr"},
+  {"text":"der Stapler sie in den Kessel schiebt / die Pakete fährt der Stapler wieder heraus","fehlt":"Material Holzpaket; Antrieb des Staplers unbekannt"},
+  {"text":"Die Handräder der Tür sind schwergängig, dafür muss man sich mit dem ganzen Körper dagegenlehnen","fehlt":"Vorgang Tür verschließen und öffnen mit hoher Körperkraft; Material Druckbehälter-Tür"},
+  {"text":"Die Pakete werden nach dem Trocknen im Freien gestapelt, dort liegt Holzstaub am Boden","fehlt":"Ausführung unbekannt (wer oder womit gestapelt wird); Schritt weggelassen, Umgebung Außengelände nicht eindeutig zur Station"},
+  {"text":"Zum Entleeren wird die Lösung über eine Pumpe in einen Vorratsbehälter gepumpt","fehlt":"eigener Vorgang Abpumpen, Pumpen und Rohrleitungen; Druck- und Vakuumbetrieb der Kammer"},
+  {"text":"Gereinigt wird der Boden mit dem Schlauch","fehlt":"Vorgang Reinigen mit Wasserschlauch, Material Nässe; Zuordnung unsicher"},
+  {"text":"Ein Kessel mit Tür an der Stirnseite, die man über ein Handrad verschließt","fehlt":"Druckbehälter als Anlage mit Druck und Vakuum"}
+ ],
+ "maengel":[
+  {"text":"Die Pumpe und das Steuerpult hängen an Kabeln, die über den nassen Boden laufen","art":"elektrik","gegenstand":"Kabel von Pumpe und Steuerpult"},
+  {"text":"Der Boden ist ständig nass, Pfützen stehen auf dem Rost","art":"weg_boden","gegenstand":"Boden vor der Kesseldruckanlage"},
+  {"text":"Die Handräder der Tür sind schwergängig","art":"arbeitsmittel_defekt","gegenstand":"Handrad der Kesseltür"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Pakete werden von Hand mit Gurten zu einer Einheit verbunden","sicher":false},
+  {"schritt":2,"stelle":"bevor der Stapler sie in den Kessel schiebt","sicher":false},
+  {"schritt":3,"stelle":"einer bedient die Anlage am Steuerpult ... die Anlage läuft nach Programm, Vakuum, Druck","sicher":true},
+  {"schritt":4,"stelle":"Danach wird die Tür verschlossen ... öffnet der Mitarbeiter die Tür; Handräder schwergängig","sicher":false},
+  {"schritt":5,"stelle":"angesetzt aus Pulver in großen Säcken, das wird in einem Behälter neben der Anlage angerührt","sicher":true},
+  {"schritt":6,"stelle":"Gereinigt wird der Boden mit dem Schlauch","sicher":false}
+ ]}

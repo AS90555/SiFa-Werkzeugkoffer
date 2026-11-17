@@ -1,0 +1,29 @@
+{"id":"R017-07","name":"R017-07","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Leim","material":"leim","sdb":null,"h":[]},{"id":"s2","name":"Lösemittel zum Reinigen","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Furnierpresse","bereich":"Tischlerei","personen":3,"umgebung":["hitze","stickig","boden","fahrverkehr","zwangshaltung"],"angaben":{},
+  "schritte":[
+   {"vorgang":"leimen","ausfuehrung":"von_hand","material":["leim","kantenmaterial","plattenware","daempfe_loesemittel"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["plattenware"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"presse","material":["plattenware","leim"]},
+   {"vorgang":"bewegen","ausfuehrung":"gabelstapler","material":["plattenware"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["loesemittel","leim","daempfe_loesemittel"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"zwei Hilfskräfte am Band zuarbeiten","fehlt":"Tätigkeit der Hilfskräfte am Band nicht beschrieben; Schritt weggelassen"}
+ ],
+ "maengel":[
+  {"text":"der Taster für die Schutzeinrichtung klemmt manchmal","art":"schutzeinrichtung","gegenstand":"Taster der Schutzeinrichtung an der Presse"},
+  {"text":"die Fenster sind zu","art":"lueftung","gegenstand":"Lüftung am Leimauftrag"},
+  {"text":"Lösemittel aus einer Flasche, die offen auf dem Tisch steht","art":"stoff_lagerung","gegenstand":"Lösemittelflasche"},
+  {"text":"Der Boden ist mit Holzspänen belegt","art":"weg_boden","gegenstand":"Boden an der Presse"},
+  {"text":"zu zweit wird gerufen, ohne Hilfsmittel","art":"hilfsmittel","gegenstand":"Heben der Platten"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Das Furnier wird von Hand mit Leim bestrichen, der mit einer Rolle aufgetragen wird","sicher":true},
+  {"schritt":2,"stelle":"die Platten werden über Kopf in die Presse gehoben","sicher":true},
+  {"schritt":3,"stelle":"Die Presse fährt ein, der Schichtführer drückt den Start mit beiden Händen","sicher":false},
+  {"schritt":4,"stelle":"werden die Platten mit dem Gabelstapler herausgenommen","sicher":true},
+  {"schritt":5,"stelle":"Gereinigt wird der Leimauftrag am Ende der Schicht mit Lösemittel","sicher":true},
+  {"schritt":6,"stelle":"Holzspänen belegt, die man ständig wegkehrt","sicher":true}
+ ]}
