@@ -1,0 +1,69 @@
+{
+ "id": "R022-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel: Fahrer sieht von oben nicht, was unten passiert; Arbeit unterbrechen, sichere Arbeitsweise festlegen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Sprühnebel auf Haut und Atemwege; Hautkontakt vermeiden, Handschuhe passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Lösungsmitteldämpfe offen in der Grube; Lüftung bzw. Erfassung passt, nur Tor als Lüftung."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Mangel: ungeordnet abgestellte Lappen, Behälter von Zündquellen fernhalten; die Maßnahmen passen nur teilweise zur Selbstentzündung."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Mangel: nur eine Leuchtstoffröhre und Handlampe; Beleuchtung instand setzen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Gebückt oder liegend; Zwangshaltung bewerten und Arbeitshöhe gestalten."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Mangel: loses Gitter über der Grube; Absturzsicherung und Sperren passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Sprühnebel setzt sich auf Haut und Kleidung."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Offenes Lösungsmittel und Lappen im Protokoll."
+  },
+  {
+   "gefaehrdung": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät",
+   "urteil": "berechtigt",
+   "grund": "Er ist allein in der zwei Meter tiefen Grube."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Druckpistole und Kompressor sind kraftbetrieben, Unterweisung und Betriebsanweisung typisch."
+  }
+ ]
+}

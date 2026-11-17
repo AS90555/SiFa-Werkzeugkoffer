@@ -1,0 +1,63 @@
+{
+ "id": "R022-10",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Getroffen werden von Klammer oder Teil",
+   "grund": "Finger nah an der Mündung des Klammerers; Hand aus der Schusslinie passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Kleberdämpfe ohne Lüftung; Lüftung instand setzen und prüfen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Offen stehender Sprühkleber; Behälter schließen und Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Kompressoren, Anschreien nötig; Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Körperliches Stemmen und Ziehen in Zwangshaltung; Montagetisch und mechanische Hilfe passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Feste Stückzahl bis Schichtende; Maßnahme Arbeitsabläufe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Das Wechseln der Klammer durch den Meister reicht nicht als Anlass für Sonderbetrieb."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Es wird kein schweres Teil abgesetzt und keine Quetschstelle beschrieben."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Beim Ausblasen der Schaumreste geht sichtbarer feiner Staub in die Luft."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Finger nah an der Mündung und Ausblasen mit Druckluft sind als Arbeitsweise genannt."
+  }
+ ]
+}

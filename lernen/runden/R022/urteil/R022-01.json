@@ -1,0 +1,84 @@
+{
+ "id": "R022-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "grund": "Mangel: Druckluft am Verdampfer ohne Schutzbrille, Maßnahme Schutzausrüstung benutzen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Ersticken durch Gase, die den Sauerstoff verdrängen",
+   "grund": "Austretendes Kältemittel verdrängt im engen Raum die Luft; Lüftung und Messen passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Mangel: Altöl im Kanister ohne Deckel, Maßnahme Behälter geschlossen halten."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Propan-Brenner und Gasflasche; Zündquellen fernhalten und Explosionsschutz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heiße Rohre über 80 Grad; hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Warmer enger Raum mit schwacher Lüftung; Lüftung und Trinkpausen passen."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "grund": "30-kg-Flasche auf der Sackkarre; Ziehen und Schieben mit Transportmitteln passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Lärm."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Wartung einer im Dauerbetrieb laufenden Anlage, typisch für Instandhaltung."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "berechtigt",
+   "grund": "Kältemittelflasche mit Ventil auf der Sackkarre und Propanflasche im Gang."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "typisch",
+   "grund": "Verdampfer wird mit Bürste und Druckluft gereinigt, dabei wird Staub aufgewirbelt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Boden unter der Anlage mit Öl und Wasser, enger Raum, Gasflasche im Gang."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Altöl und Kältemittel; Boden wird mit ölgetränktem Lappen gewischt."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Lüftung ist nur ein kleiner Ventilator; beim Löten entstehen Dämpfe."
+  }
+ ]
+}

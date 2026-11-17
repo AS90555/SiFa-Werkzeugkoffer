@@ -1,0 +1,72 @@
+{
+ "id": "R022-14",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen des Helfers beim Absenken: der einzige passende Eintrag ist der Reifenmaschine zugeordnet; Kippen des Fahrzeugs ist eine andere Gefahr."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Hand im Bereich der Reifenmontiermaschine; Auslösung nur bei freiem Bereich und Schutzeinrichtung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Bremsenreiniger-Dämpfe; Erfassen oder Lüften passt (Hautkontakt gesondert unter Schutzausrüstung)."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Schlagschrauber laut; Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Räder 20 bis 25 kg, etwa 60 pro Schicht; Hebehilfe und Tätigkeitswechsel passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Druckluftschlagschrauber, wiederholtes Lösen der Radmuttern."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Auf dem Boden liegt Öl."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "Die Luft in der Halle ist stickig."
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "typisch",
+   "grund": "Pkw auf Hebebühne mit Säulen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Reifenmontiermaschine, Wuchtmaschine, Hebebühne; Azubi im Betrieb."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Bremsenreiniger ohne Handschuhe."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Luft in der Halle ist nach dem Reinigen stickig."
+  }
+ ]
+}

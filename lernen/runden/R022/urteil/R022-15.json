@@ -1,0 +1,82 @@
+{
+ "id": "R022-15",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Hallenkran hebt bis zu sechs Meter lange Träger; Niemand unter der Last und Anschlagmittel prüfen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Strahlen so laut, dass man zurufen muss; Gehörschutz passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Lösemitteldämpfe beim Spritzen; Erfassen oder Lüften passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "rueckfrage",
+   "system": null,
+   "grund": "Brand durch Lösemitteldämpfe steht nur unter den Rückfragen (Brand oder Explosion durch entzündbare Stoffe oder Gase)."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Arbeitsbühne drei Meter und Leiter; Bühne vor Leiter, Absturzsicherung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Halle im Winter kalt und zugig, Tor oft offen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Schlauch liegt quer über den Hallenboden."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Strahlstaub zieht durch die Halle."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "unbegruendet",
+   "grund": "Strahlkorn und Strahlstaub sind nicht als brennbar beschrieben."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt kein Werkzeug oder Bauteil über Personen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Strahlanlage und Spritzpistole als kraftbetriebene Anlage."
+  },
+  {
+   "gefaehrdung": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "urteil": "berechtigt",
+   "grund": "Strahlschlauch mit Druckluft und Stahlkorn, Airless-Pistole."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Strahlen ohne richtige Kabine direkt am Träger."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Lüftung nur an der Hallentür, Dämpfe ziehen durch den Raum."
+  }
+ ]
+}

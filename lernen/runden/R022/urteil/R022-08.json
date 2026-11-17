@@ -1,0 +1,67 @@
+{
+ "id": "R022-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Getriebe am Handkettenzug; Anschlagmittel prüfen und Niemand unter der Last passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unerwarteter Anlauf im Sonderbetrieb",
+   "grund": "Schloss am Hauptschalter fehlt; Abschalten und gegen Wiedereinschalten sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Getriebeöl auf ungeschützten Händen; Handschuhe und Hautschutzplan passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Überlastung von Rücken und Gelenken durch Heben und Schieben; kein passender Eintrag in der Systemliste."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Mangel: einer der zwei Scheinwerfer flackert; Beleuchtung instand setzen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Gabelstapler fährt im Nebenbereich zwischen den Regalen."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Die Halle ist im Winter kalt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Getriebeöl liegt am Boden."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Ölgetränkte Lappen beim Reinigen, typisch brandgefährlich."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Schild mit dem Schloss am Hauptschalter fehlt."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Monteur steht mit ungeschützten Händen im Öl."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "R022-12",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Gittertür offen, während das Gerät im selben Gang fährt; derselbe Anlass als Mangel erfasst."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Geländer nur auf einer Seite geschlossen; Absturzsicherung passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Umreifungsbänder und Karton am Boden als Mangel erfasst."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Offenes Ladegerät mit Kabel am Boden als Mangel erfasst."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Kartons bis 25 kg; Hebehilfe und Tätigkeitswechsel passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Zeitvorgabe am Bildschirm mit Zähler; Arbeitsabläufe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Freigabe und Start am Morgen sind kein Sonderbetrieb."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Staplerfahrer, Hubwagen und Regalbediengerät im Gang."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "typisch",
+   "grund": "Ladegerät für die Hubwagenbatterie; Wasserstoff beim Laden gehört typischerweise dazu."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Paletten und Kartons in zwölf Metern Regalhöhe."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel des Ladegeräts liegt über dem Boden, Kartonreste am Boden."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Regalbediengerät mit Software, kraftbetriebene Maschine."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "typisch",
+   "grund": "Beladene Paletten auf dem Hubwagen."
+  }
+ ]
+}

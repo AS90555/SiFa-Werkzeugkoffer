@@ -1,0 +1,63 @@
+{
+ "id": "R022-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen zwischen Werkstück und Greifzange; die Maßnahmen des Systems betreffen Hammer und Amboss."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Trennmittelnebel steht in der Luft; Erfassen oder Lüften passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Zunder und Funken; brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Glühender Rohling; hitzebeständige Handschuhe und Ablageplatz passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Hammerlärm; Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Hitze unter dem Dach; Lüftung und Trinkpausen passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Werkstücke von zehn bis achtzig Kilo."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hammer und Manipulator sind kraftbetrieben."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Hammer und Amboss typisch am Freiformhammer."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Schutzbrille hängt am Eingang, mehrere tragen sie nur halb."
+  }
+ ]
+}

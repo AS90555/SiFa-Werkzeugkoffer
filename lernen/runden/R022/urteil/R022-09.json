@@ -1,0 +1,68 @@
+{
+ "id": "R022-09",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Hände zwischen Last und Bodenschwelle beim Führen; Positionierhilfen und Verständigung passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Schlauch und Paletten im Weg sind als Mangel mit Maßnahme Verkehrswege freihalten erfasst."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Getroffen werden von Klammer oder Teil",
+   "grund": "Druckluftnagler: Klammer trifft die Hand; Auslösesicherung und Hand aus der Schusslinie passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Kranlast über dem nicht abgesperrten Bereich; Maßnahme niemand unter der Last passt zur Ursache."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Schlamm und Nässe sind im Mangel-Eintrag ausdrücklich erfasst; Verkehrswege und Verunreinigungen beseitigen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Zeitdruck wegen gemietetem Kran; Maßnahme Arbeitsabläufe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Im Protokoll gibt es keinen Sonderbetrieb oder eine Störungsbeseitigung."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "berechtigt",
+   "grund": "Holzbau, Späne bleiben liegen und werden mit Besen gereinigt."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine brennbare Staubschicht oder Zündquelle über Späne hinaus."
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "urteil": "berechtigt",
+   "grund": "Baustelle im Freien, Regen, aufgeweichte Erde, rutschig."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Nicht alle haben Handschuhe an."
+  }
+ ]
+}

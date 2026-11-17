@@ -1,0 +1,51 @@
+{
+ "id": "R022-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Laserstrahlung ist in der Systemliste nicht enthalten."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Rauch beim Markieren; Erfassen an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Isopropanol auf Haut; Handschuhe und Hautschutzplan passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Getränkte Tücher im Eimer; Maßnahmen zu Lappen und Sammelbehälter passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "urteil": "berechtigt",
+   "grund": "Isopropanol wird als Reiniger verwendet."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine Quetschstelle."
+  },
+  {
+   "gefaehrdung": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät",
+   "urteil": "berechtigt",
+   "grund": "Sie arbeitet allein, ein Kollege schaut nur alle zwei Stunden."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Lasermarkiergerät ist eine kraftbetriebene Maschine."
+  }
+ ]
+}

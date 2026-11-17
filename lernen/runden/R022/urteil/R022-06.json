@@ -1,0 +1,78 @@
+{
+ "id": "R022-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Leiter am Bunker; Leiter nur für kurze Arbeiten und Standhöhe passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Mangel: Kabel im Späneschutt; beschädigte Betriebsmittel instand setzen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Abklopfen und Druckluft; Abblasen nicht zulässig passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Brand oder Staubexplosion",
+   "grund": "Aufgewirbelter Holzstaub; Zündquellen vermeiden und Funkenlöschung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Mangel: Leuchte kaputt; Beleuchtung instand setzen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schaufeln schwerer Späne den ganzen Vormittag; Tätigkeitswechsel und Hebehilfe passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Lärm."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Reinigen im Bunker an einer Absauganlage, Schalter am Motor."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel im Späneschutt am Boden."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Schaufeln den ganzen Vormittag, Schaufel für Schaufel."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Staub stiebt beim Abklopfen und wird mit Druckluft ausgeblasen."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Keine Last über Personen im Protokoll."
+  },
+  {
+   "gefaehrdung": "Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar",
+   "urteil": "berechtigt",
+   "grund": "Feuerlöscher hängt nicht am Bunker, der nächste ist zwanzig Meter entfernt."
+  }
+ ]
+}

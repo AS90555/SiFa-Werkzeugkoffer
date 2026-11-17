@@ -1,0 +1,94 @@
+{
+ "id": "R022-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen durch nachgebende Zange; die Maßnahmen des Systems (Sicherheitsschuhe, Unterlagen) passen nicht zur Ursache."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Mangel: Kabel am Boden, Maßnahme beschädigte Betriebsmittel instand setzen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Geruch nach verbranntem Lack; Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Funken und Spritzer auf Haut; Funkenflug abschirmen und schwer entflammbare Kleidung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lauter Schweißvorgang; Gehörschutz-Maßnahmen passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Bleche bis 15 kg von Hand einlegen; Leitmerkmalmethode und Hebehilfe passen."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Mangel: Kühlwasser in Schläuchen über den Boden, Verunreinigungen beseitigen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Stahlbleche von Hand eingelegt, scharfe Kanten typisch."
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "urteil": "unbegruendet",
+   "grund": "Punktschweißen ohne Lichtbogen, im Protokoll nichts dazu."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Funken fliegen ab und zu."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Rund vierhundert Punkte pro Schicht."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Teile werden von Hand eingelegt und abgesetzt."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Spritzschutz wird mit Druckluft gereinigt."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Es riecht nach verbranntem Lack."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Nur auf einer Seite ein Vorhang, die anderen Seiten sind offen."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Gehörschutz trägt er nur, wenn er dran denkt."
+  }
+ ]
+}

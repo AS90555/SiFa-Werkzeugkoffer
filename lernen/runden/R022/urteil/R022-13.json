@@ -1,0 +1,62 @@
+{
+ "id": "R022-13",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Säurenebel am Bad, schwacher Luftzug; Erfassen und Lüften passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Verbrühen am heißen Bad wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Offene Stromkabel zu den Anoden als Mangel erfasst."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Quetschen der Hand zwischen Traverse und Wannenkante ist nicht aufgeführt; Last fällt herab meint etwas anderes."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Nasser, glatter Boden und verschmutzte Rinne als Mangel erfasst."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Werkstücke an der Traverse werden mit dem Hebezug ins Bad gesenkt."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Abdeckung aus Kunststoffkugeln fehlt an zwei Stellen."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Absaugung schwach, es riecht deutlich nach Säure."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Kabel liegen über dem Boden, Boden nass."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Schutzbrille hängt am Haken und wird nicht durchgehend getragen."
+  }
+ ]
+}

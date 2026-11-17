@@ -1,0 +1,57 @@
+{
+ "id": "R022-16",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "grund": "Prüfdruck 250 bar, Schlauch mit Scheuerstellen; Schläuche prüfen und Prüfling abschirmen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Hautkontakt beim Nachfüllen von Hydrauliköl; Handschuhe und Hautschutzplan passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Offener Schaltschrank als Mangel erfasst."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heißes Gehäuse nach dem Lauf; hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Ölflecken am Boden als Mangel erfasst."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Kanister von der Palette holen und von Hand nachgießen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Öl läuft über, Ölflecken, Kollegen gehen am Durchgang vorbei."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Aggregat mit Pumpe und Elektromotor wird eingeschaltet, Prüfung allein."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Schlauch hat erkennbare Scheuerstellen."
+  }
+ ]
+}

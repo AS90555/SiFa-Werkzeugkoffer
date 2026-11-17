@@ -1,0 +1,64 @@
+{
+ "id": "R022-11",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Leiterabsturz: Maßnahmen von Stolpern und Silo-Eintrag betreffen Verkehrsflächen bzw. Erlaubnisschein, nicht die steile Leiter."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verschüttung, Sauerstoffmangel oder Absturz in Silos, Behältern und engen Räumen",
+   "grund": "Nachrutschendes Schüttgut im Silo; Erlaubnisschein und Sicherungsposten passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kopfstoßen am engen Mannloch wird von keinem Eintrag gemeint."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Verlängerungskabel auf der Einstiegskante als Mangel erfasst; beschädigte Betriebsmittel entziehen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Aufgewirbelter Pulverstaub und Augenreizung sind nicht als Gefährdung aufgeführt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Ungelüftet und ungemessen; Lüftung instand setzen und Wirksamkeit prüfen passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Fehlende Rettungsausrüstung wird von keiner Maßnahme gemeint; Sicherungsposten allein reicht nicht."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Man arbeitet im Halbdunkel."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "Gelüftet wird nicht, die Luft wird nicht gemessen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Sprossen mit Kalkstaub überzogen, steile Leiter."
+  }
+ ]
+}

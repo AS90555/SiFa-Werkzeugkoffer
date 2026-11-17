@@ -1,0 +1,83 @@
+{
+ "id": "R022-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Quetschen und Scheren an bewegten Teilen",
+   "grund": "Abkantpresse ohne Lichtschranke; Schutzeinrichtung wirksam, Lichtgitter passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Schweißperlen und heiße Teile; Handschuhe und Schutzkleidung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Zuschauer ohne Schutz beim Lichtbogen; Abschirmen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Schweißrauch",
+   "grund": "Absaugung nicht eingeschaltet; Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Schweißperlen und Ölfleck am Boden; brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Bleche von vierzig Kilo; Hebehilfe passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "berechtigt",
+   "grund": "Nebenan läuft die Schleifmaschine, man muss nah ran, um sich zu verständigen."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Blechbearbeitung mit Kanten und Spänen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hydraulische Abkantpresse ist kraftbetrieben."
+  },
+  {
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "urteil": "berechtigt",
+   "grund": "Gasflaschen stehen an der Wand und sind mit Kette gesichert."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Schweißperlen, Späne und Ölfleck auf dem Boden."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Vorne an der Maschine ist keine Lichtschranke."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Kollegen schauen oft ohne Schutz zu."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Absaugung seit Monaten nicht eingeschaltet."
+  }
+ ]
+}
