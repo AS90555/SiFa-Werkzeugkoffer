@@ -1,0 +1,18 @@
+{"id":"R022-04","name":"R022-04","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Isopropanol","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Lasermarkiergerät im Reinraum","bereich":"Reinraum Medizintechnik","personen":1,"umgebung":["alleinarbeit"],"angaben":{},
+  "schritte":[
+   {"vorgang":"positionieren_hand","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"halbautomat","material":["metallwerkstueck","prozessrauch"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["loesemittel","oelige_lappen"]}]}],
+ "wuensche":[
+  {"text":"markiert ein Faserlaser die Beschriftung, hinter dem Glas ist das Laserlicht unsichtbar","fehlt":"Material Laserstrahlung, unsichtbar, mit Schutzgehäuse"},
+  {"text":"Justiert und gerüstet wird das Gerät von einem Techniker, der von außen durch eine Wartungsklappe arbeitet","fehlt":"Schritt Rüsten oder Justieren durch Fremdperson; Tätigkeit nicht ihre eigene, nicht angelegt"},
+  {"text":"Der Filter wird alle drei Monate gewechselt","fehlt":"Wer wechselt den Filter, und wie; Schritt nicht angelegt"},
+  {"text":"Ein Kollege schaut alle zwei Stunden in den Raum.","fehlt":"Angabe zum Überwachungsintervall bei Alleinarbeit"}],
+ "maengel":[],
+ "zuordnung":[
+  {"schritt":1,"stelle":"sie legt sie von Hand in die Vorrichtung","sicher":false},
+  {"schritt":2,"stelle":"Pro Teil markiert ein Faserlaser die Beschriftung, das dauert kurz, alle paar Minuten ein neues Teil. Beim Markieren entsteht Rauch","sicher":true},
+  {"schritt":3,"stelle":"Zur Reinigung der Teile und der Haube nimmt sie Isopropanol aus einer Sprühflasche. Die Tücher sammelt sie danach in einem Eimer","sicher":true}]}

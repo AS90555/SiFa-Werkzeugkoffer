@@ -1,0 +1,23 @@
+{"id":"R022-03","name":"R022-03","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Wachs-Bitumen-Unterbodenschutz","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"Lösungsmittel für die Pistole","material":"loesemittel","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Unterbodenschutz in der Montagegrube","bereich":"Kfz-Werkstatt, Montagegrube","personen":1,"umgebung":["bodenoeffnung","zwangshaltung","dunkel","alleinarbeit"],"angaben":{},
+  "schritte":[
+   {"vorgang":"spruehen","ausfuehrung":"handmaschine","material":["lack","nebel_aerosol"]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":["lackreste","loesemittel"]}]}],
+ "wuensche":[
+  {"text":"Den Unterbodenschutz sprüht er von Hand mit einer Druckpistole auf","fehlt":"Material Unterbodenschutz aus Wachs und Bitumen (nur Lack als Näherung); Ausführung Druckluft-Spritzpistole"},
+  {"text":"Den Wagen fährt ein Kollege oben auf die Bühne über der Grube","fehlt":"Vorgang Fahrzeug über der Grube bewegen oder abstellen; Tätigkeit des Kollegen, nicht angelegt"},
+  {"text":"Die Grube hat nur eine Leuchtstoffröhre am Rand und eine Handlampe","fehlt":"Pegel der Beleuchtung nicht genannt"},
+  {"text":"Der Mann ist meistens gebückt oder liegt auf einer Rollliege","fehlt":"Kein Vorgang für die Arbeit am Fahrzeugunterboden (Montieren, Prüfen) beschrieben"}],
+ "maengel":[
+  {"text":"Auf der Grube liegt ein Gitter, das ist teilweise lose.","art":"absturzsicherung","gegenstand":"Gitterabdeckung der Montagegrube"},
+  {"text":"Das Lösungsmittel für die Pistole steht offen auf dem Grubenboden.","art":"stoff_lagerung","gegenstand":"offenes Lösungsmittel"},
+  {"text":"Gelüftet wird über das Tor, ein Absauggerät gibt es nicht.","art":"lueftung","gegenstand":"Absaugung in der Grube"},
+  {"text":"Die Grube hat nur eine Leuchtstoffröhre am Rand und eine Handlampe.","art":"beleuchtung","gegenstand":"Beleuchtung in der Grube"},
+  {"text":"die Lappen stellt er ungeordnet an die Wand","art":"stoff_lagerung","gegenstand":"gebrauchte Putzlappen"},
+  {"text":"der sieht von oben nicht immer, was unten passiert","art":"arbeitsweise","gegenstand":"Fahrzeug wird über der Grube bewegt, ohne Sicht nach unten"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"sprüht er von Hand mit einer Druckpistole auf, der Schlauch hängt an einem Eimer mit zwanzig Litern","sicher":false},
+  {"schritt":2,"stelle":"Die Pistole wird jeden Abend mit einem Lappen ausgewischt","sicher":false}]}

@@ -1,0 +1,30 @@
+{"id":"R022-10","name":"R022-10","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Sprühkleber","material":"spruehdose","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Sitzfläche polstern","bereich":"Polsterei, Serienfertigung","personen":3,"umgebung":["halle","laerm_umgebung","taktarbeit"],"angaben":{},
+  "schritte":[
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["rahmen"]},
+   {"vorgang":"eintreiben","ausfuehrung":"druckluft_klammergeraet","material":["rahmen"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"druckluft_klammergeraet","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"legen Schaumstoffplatten auf, ziehen den Bezugsstoff darüber","fehlt":"Material Schaumstoff und Bezugsstoff; Rahmen nur als nächstliegendes Material"},
+  {"text":"Der Sprühkleber für die Verbindung steht offen auf der Bank","fehlt":"Schritt Sprühkleber auftragen: Anwendung nicht beschrieben; Material Sprühkleber fehlt (Sprühdose nur für Schmier- und Trennmittel)"},
+  {"text":"beim Ausblasen der Schaumreste mit Druckluft geht feiner Staub in die Luft","fehlt":"Material Schaumstaub oder Schaumreste"},
+  {"text":"Die Sitzfläche wird per Hand um die Ecken gezogen, dafür stemmen sich die Leute mit dem ganzen Körper gegen den Rahmen","fehlt":"Angabe Last oder Kraftaufwand; Zwangshaltung nicht ausdrücklich genannt"},
+  {"text":"Gereinigt wird am Schichtende mit Besen und Druckluftpistole","fehlt":"Material Schaumreste und Staub"}
+ ],
+ "maengel":[
+  {"text":"Der Sprühkleber für die Verbindung steht offen auf der Bank","art":"stoff_lagerung","gegenstand":"Sprühkleber"},
+  {"text":"Lüftung über dem Platz gibt es keine","art":"lueftung","gegenstand":"Lüftung am Arbeitsplatz"},
+  {"text":"stecken die Finger oft nah an der Mündung","art":"arbeitsweise","gegenstand":"Finger an der Mündung des Klammerers"},
+  {"text":"beim Ausblasen der Schaumreste mit Druckluft geht feiner Staub in die Luft","art":"arbeitsweise","gegenstand":"Abblasen mit Druckluft"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"legen Schaumstoffplatten auf, ziehen den Bezugsstoff darüber","sicher":false},
+  {"schritt":2,"stelle":"heften ihn mit dem Druckluftklammerer am Rahmen fest","sicher":true},
+  {"schritt":3,"stelle":"beim Ausblasen der Schaumreste mit Druckluft","sicher":true},
+  {"schritt":4,"stelle":"Rüsten macht der Meister, er wechselt die Klammer und stellt den Druck ein","sicher":true},
+  {"schritt":5,"stelle":"Gereinigt wird am Schichtende mit Besen","sicher":true}
+ ]}

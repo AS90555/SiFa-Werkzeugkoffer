@@ -1,0 +1,23 @@
+{"id":"R022-02","name":"R022-02","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Punktschweißstation Karosserie","bereich":"Karosseriefertigung","personen":1,"umgebung":["laerm_umgebung","funkenflug","boden"],"angaben":{"last_kg":15,"gleichfoermig":true},
+  "schritte":[
+   {"vorgang":"schweissen","ausfuehrung":"schweissgeraet","material":["blech","prozessrauch"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["blech"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"Punktschweißzange, die an einem Balancer hängt; Servozange","fehlt":"Ausführung Schweißzange am Balancer (nur Schweißgerät von Hand als Näherung); Material Strom und Spritzer"},
+  {"text":"zwei Kollegen bringen Bleche und stapeln fertige Teile","fehlt":"Schritte der Kollegen (Zubringen, Stapeln) gehören zu anderen Arbeitsplätzen und wurden nicht angelegt"},
+  {"text":"die Instandhaltung rüstet die Anlage um","fehlt":"Rüsten durch Fremdpersonal; Schritt nicht angelegt, da die Tätigkeit nicht beschrieben ist"},
+  {"text":"Der Schweißtrafo steht im Schrank neben der Station","fehlt":"Material elektrische Anlage am Arbeitsplatz ohne beschriebene Tätigkeit"}],
+ "maengel":[
+  {"text":"Gehörschutz trägt er nur, wenn er dran denkt.","art":"psa","gegenstand":"Gehörschutz"},
+  {"text":"Auf einer Seite gibt es einen Vorhang aus Schweißerfolie, die anderen Seiten sind offen.","art":"schutzeinrichtung","gegenstand":"Abschirmung gegen Schweißlicht und Funken"},
+  {"text":"Das Kühlwasser läuft in Schläuchen über den Boden.","art":"weg_boden","gegenstand":"Kühlwasserschläuche am Boden"},
+  {"text":"die Kabel laufen am Boden entlang","art":"elektrik","gegenstand":"Kabel am Boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"hier wird mit einer Punktschweißzange gearbeitet, die an einem Balancer hängt","sicher":false},
+  {"schritt":2,"stelle":"Die Bleche sind Stahl, die Teile etwa einen Meter lang, bis zu fünfzehn Kilo schwer, sie werden von Hand eingelegt","sicher":true},
+  {"schritt":3,"stelle":"Die Elektroden tauscht er selbst mit Zange und Fräser","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird der Spritzschutz mit Druckluft am Nachmittag","sicher":false}]}

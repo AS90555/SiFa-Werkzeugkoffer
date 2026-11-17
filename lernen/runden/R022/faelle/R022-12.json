@@ -1,0 +1,29 @@
+{"id":"R022-12","name":"R022-12","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Kommissionieren im Hochregallager","bereich":"Hochregallager mit Regalbediengerät","personen":3,"umgebung":["lager","fahrverkehr","gefahrbereich","taktarbeit","boden"],"angaben":{"last_kg":25},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["packgut"]},
+   {"vorgang":"ziehen_schieben","ausfuehrung":"mitgaenger_elektro","material":["palette_gestapelt"]},
+   {"vorgang":"lagern_regal","ausfuehrung":"vollautomat","material":["palette_gestapelt"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["packmittel"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"vollautomat","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Für die oberen Ebenen steht man auf einer Plattform knapp zwei Meter über dem Boden","fehlt":"Schritt Höhenarbeit: Ausführung Plattform am Regal fehlt"},
+  {"text":"ein Staplerfahrer","fehlt":"Tätigkeit des Staplerfahrers nicht beschrieben, daher kein Schritt"},
+  {"text":"Zeit pro Position, Zähler zeigt, wie viele Positionen noch fehlen","fehlt":"Zeitvorgabe je Position; als Taktarbeit gewählt"},
+  {"text":"stellen sie auf eine Palette auf dem Hubwagen","fehlt":"Art des Hubwagens nicht genannt, elektrisch nur aus der Batterie geschlossen"}
+ ],
+ "maengel":[
+  {"text":"das Geländer ist nur auf einer Seite geschlossen","art":"absturzsicherung","gegenstand":"Geländer der Plattform"},
+  {"text":"Die Gasse ist durch eine Gittertür verbunden, die oft offen steht, während das Gerät im selben Gang fährt","art":"schutzeinrichtung","gegenstand":"Gittertür zur Gasse"},
+  {"text":"Am Boden liegen Umreifungsbänder und ein angebrochener Karton","art":"weg_boden","gegenstand":"Gangboden"},
+  {"text":"Das Ladegerät für die Hubwagenbatterie steht offen neben dem Gang, das Kabel liegt über den Boden","art":"elektrik","gegenstand":"Ladegerät und Kabel"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Kommissionierer ziehen Kartons aus dem Regal, die bis zu 25 Kilogramm schwer sind","sicher":true},
+  {"schritt":2,"stelle":"stellen sie auf eine Palette auf dem Hubwagen","sicher":false},
+  {"schritt":3,"stelle":"Das Gerät holt Paletten aus den Fächern und setzt sie an der Übergabe ab","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird am Feierabend mit dem Besen, Staub und Kartonreste fegt man aus dem Gang","sicher":true},
+  {"schritt":5,"stelle":"Rüsten macht der Lagerleiter, der das Regalbediengerät am Morgen freigibt und die Software startet","sicher":false}
+ ]}

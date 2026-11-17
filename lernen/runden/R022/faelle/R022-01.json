@@ -1,0 +1,37 @@
+{"id":"R022-01","name":"R022-01","betrieb":{},"angaben":{},
+ "stoffe":[
+  {"id":"s1","name":"Kältemittel","material":"kaeltemittel","sdb":null,"h":[]},
+  {"id":"s2","name":"Altöl","material":"oel_schmierstoff","sdb":null,"h":[]},
+  {"id":"s3","name":"Propan","material":"brenngas","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Wartung Kälteanlage im Technikraum","bereich":"Technikraum hinter dem Verkaufsraum","personen":1,"umgebung":["eng","sommerwaerme"],"angaben":{"last_kg":30},
+  "schritte":[
+   {"vorgang":"pruefen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["kaeltemittel"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["kaeltemittel"]},
+   {"vorgang":"ziehen_schieben","ausfuehrung":"von_hand","material":["kaeltemittel"]},
+   {"vorgang":"loeten_brennschneiden","ausfuehrung":"schweissgeraet","material":["brenngas","heisses_maschinenteil"]},
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":["heisses_maschinenteil"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["oel_schmierstoff","oelige_lappen"]}]}],
+ "wuensche":[
+  {"text":"liest er am Bedienfeld die Betriebswerte ab","fehlt":"Material für Kälteanlage im Betrieb (Kältekreislauf unter Druck); Schritt ohne Material"},
+  {"text":"Zum Nachfüllen und Absaugen nimmt er eine Kältemittelflasche mit Ventil","fehlt":"Vorgang Kältemittel nachfüllen oder absaugen; hier nur als Umfüllen angenähert"},
+  {"text":"ein Kollege hält zeitweise die Leiter","fehlt":"Es ist nicht beschrieben, was auf der Leiter getan wird; kein Schritt Arbeiten in der Höhe angelegt"},
+  {"text":"Die Rohrleitungen sind teilweise sehr heiß, auf der Druckseite weit über achtzig Grad","fehlt":"Material heiße Rohrleitung (nur heißes Maschinenteil als Näherung)"},
+  {"text":"Die Filtertrockner tauscht er von Hand mit Schlüssel und Zange","fehlt":"Vorgang Bauteil tauschen oder instand setzen an Kälteanlage"},
+  {"text":"Die Anlage läuft im Dauerbetrieb, gewartet wird alle drei Monate","fehlt":"Angabe zur Häufigkeit der Wartung"}],
+ "maengel":[
+  {"text":"Der Verdampfer wird mit einer Bürste und Druckluft gereinigt, meistens ohne Schutzbrille.","art":"psa","gegenstand":"Schutzbrille beim Reinigen mit Druckluft"},
+  {"text":"Altöl steht in einem Kanister in der Ecke, der Deckel ist nicht drauf.","art":"stoff_lagerung","gegenstand":"Altölkanister ohne Deckel"},
+  {"text":"die Lüftung ist ein kleiner Ventilator","art":"lueftung","gegenstand":"Lüftung im Technikraum"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"liest er am Bedienfeld die Betriebswerte ab","sicher":false},
+  {"schritt":2,"stelle":"schließt er das Manometer-Set an die Serviceventile an","sicher":false},
+  {"schritt":3,"stelle":"Zum Nachfüllen und Absaugen nimmt er eine Kältemittelflasche","sicher":false},
+  {"schritt":4,"stelle":"Kältemittelflasche mit Ventil, die auf einer Sackkarre steht. Die Flasche wiegt etwa dreißig Kilogramm","sicher":true},
+  {"schritt":5,"stelle":"Zum Löten an den Kupferleitungen holt er einen Propan-Brenner","sicher":true},
+  {"schritt":6,"stelle":"Die Filtertrockner tauscht er von Hand mit Schlüssel und Zange","sicher":false},
+  {"schritt":7,"stelle":"Der Verdampfer wird mit einer Bürste und Druckluft gereinigt","sicher":false},
+  {"schritt":8,"stelle":"Der Verdampfer wird mit einer Bürste und Druckluft gereinigt","sicher":false},
+  {"schritt":9,"stelle":"wischt er den Boden unter der Anlage mit einem Lappen auf, der Öl und Wasser aufnimmt","sicher":true}]}

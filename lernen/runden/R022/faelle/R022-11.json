@@ -1,0 +1,24 @@
+{"id":"R022-11","name":"R022-11","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Silo von innen inspizieren","bereich":"Stahlsilo, stillgelegt","personen":2,"umgebung":["silo","eng","dunkel","stickig"],"angaben":{"einstieg":true},
+  "schritte":[
+   {"vorgang":"pruefen","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"reinigen_hand","ausfuehrung":"von_hand","material":[]}
+  ]}],
+ "wuensche":[
+  {"text":"Innen geht es über eine steile Leiter zwei Stockwerke nach unten","fehlt":"Vorgang Auf- und Absteigen auf Leiter im Behälter; Höhenarbeit nur mit Ausführung Leiter nicht sicher"},
+  {"text":"ein weißes, feines Pulver, das beim Berühren nachrutscht; Kalkstaub","fehlt":"Material Kalkstaub oder Restpulver; Stoff nicht eindeutig benannt, daher nicht unter stoffe"},
+  {"text":"Es gibt keine Rettungsausrüstung, das Seil liegt zusammengerollt im Auto","fehlt":"passende Mangelart für fehlende Rettungsausrüstung bei Behältereinstieg"},
+  {"text":"Für die Montage kommen später Schweißer rein, dafür werden die Wände gereinigt","fehlt":"Schweißen ist nicht Teil dieses Protokolls, nur Hinweis"},
+  {"text":"Rüsten macht die Betriebsschlosserei, die morgens den Einstieg freigibt","fehlt":"kein Vorgang an einer Maschine beschrieben, daher kein Schritt"}
+ ],
+ "maengel":[
+  {"text":"Die Lampe hängt an einem Verlängerungskabel, das über den Einstieg läuft und dort auf der Kante liegt","art":"elektrik","gegenstand":"Verlängerungskabel der Lampe"},
+  {"text":"Gelüftet wird nicht, der Lüfter steht im Vorraum und läuft nur, wenn jemand daran denkt, die Luft wird nicht gemessen","art":"lueftung","gegenstand":"Lüfter am Silo"},
+  {"text":"Es gibt keine Rettungsausrüstung, das Seil liegt zusammengerollt im Auto"},
+  {"text":"die Sprossen sind teils mit Kalkstaub überzogen"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Heute geht es um die Inspektion eines Silos im Inneren","sicher":true},
+  {"schritt":2,"stelle":"Die Reinigung macht die eigene Mannschaft mit Schaufel und Besen","sicher":true}
+ ]}

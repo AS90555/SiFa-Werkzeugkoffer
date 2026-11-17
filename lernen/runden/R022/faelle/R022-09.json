@@ -1,0 +1,37 @@
+{"id":"R022-09","name":"R022-09","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Holzwandelemente aufrichten","bereich":"Baustelle Rohbau Einfamilienhaus","personen":4,"umgebung":["aussen","witterung","boden","betriebsfremde","zeitdruck"],"angaben":{},
+  "schritte":[
+   {"vorgang":"anschlagen","ausfuehrung":"hebezeug","material":[]},
+   {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
+   {"vorgang":"positionieren_hand","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"montieren","ausfuehrung":"von_hand","material":[]},
+   {"vorgang":"eintreiben","ausfuehrung":"druckluft_klammergeraet","material":[]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"hebezeug","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"vorgefertigte Holzwandelemente, gut zwei Meter hoch, sechs Meter lang, rund 400 Kilogramm","fehlt":"Material Wandelement oder Holzbauelement; Rahmen passt nicht (Flügel, Verbreiterung)"},
+  {"text":"Winkel werden mit dem Druckluftnagler eingeschossen","fehlt":"Ausführung Druckluftnagler (nur Klammergerät vorhanden)"},
+  {"text":"Das Gelände ist nicht abgesperrt, Nachbarn und Passanten gehen am Zaun entlang","fehlt":"Mangelart Absperrung der Baustelle"},
+  {"text":"Mobilkran, einer bedient den Mobilkran, einer gibt Zeichen vom Boden aus","fehlt":"Ausführung Mobilkran; Einweisen und Zeichengeben als eigener Vorgang"},
+  {"text":"Das Element ... 400 Kilogramm schwer, Kran hebt es mit Gurten","fehlt":"Angabe Last wird nicht von Hand gehoben, daher last_kg nicht eingetragen"},
+  {"text":"Die Erde ist aufgeweicht, im Graben liegt noch Wasser, Arbeiter stehen im Schlamm","fehlt":"Umgebung Graben oder Schlamm (nur Boden gewählt)"}
+ ],
+ "maengel":[
+  {"text":"Der Schlauch liegt quer über den Boden","art":"weg_boden","gegenstand":"Druckluftschlauch"},
+  {"text":"Über den Gerüstboden stehen Paletten mit Holzresten und Schachteln Dübel, ein Teil davon liegt im Weg","art":"weg_boden","gegenstand":"Gerüstboden"},
+  {"text":"die Arbeiter stehen zum Teil im Schlamm","art":"weg_boden","gegenstand":"aufgeweichter Boden"},
+  {"text":"nicht alle haben Handschuhe an","art":"psa","gegenstand":"Handschuhe"},
+  {"text":"die Späne bleiben liegen","art":"weg_boden","gegenstand":"Späne am Arbeitsplatz"},
+  {"text":"Das Gelände ist nicht abgesperrt, Nachbarn und Passanten gehen am Zaun entlang"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Der Kran hebt es mit Gurten an","sicher":true},
+  {"schritt":2,"stelle":"Der Kran hebt es mit Gurten an","sicher":true},
+  {"schritt":3,"stelle":"führen es mit Hand an die Bodenschwelle und ziehen es mit Seilen in Position","sicher":true},
+  {"schritt":4,"stelle":"Zum Ausrichten schlagen sie mit dem Gummihammer nach","sicher":false},
+  {"schritt":5,"stelle":"die Winkel werden mit dem Druckluftnagler eingeschossen","sicher":false},
+  {"schritt":6,"stelle":"reinigen sie mit Besen den Platz, die Späne bleiben liegen","sicher":true},
+  {"schritt":7,"stelle":"Rüsten macht der Vorarbeiter, der morgens die Gurte prüft und den Kran aufbaut","sicher":false}
+ ]}
