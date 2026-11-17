@@ -1,0 +1,121 @@
+{
+ "id": "R022-13",
+ "name": "R022-13",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Chromsäure",
+   "material": "galvanik_chemikalien",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s2",
+   "name": "Zusätze für das Chrombad",
+   "material": "galvanik_chemikalien",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Hartverchromung",
+   "bereich": "Galvanik",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "eng"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck",
+      "nebel_aerosol"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "galvanik_chemikalien"
+     ]
+    },
+    {
+     "vorgang": "entleeren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "galvanik_chemikalien"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Bad ist auf etwa fünfzig Grad beheizt.",
+   "fehlt": "Kein Material oder keine Umgebung für ein warmes Bad ohne Dampf."
+  },
+  {
+   "text": "Sie greift mit der Hand direkt über den Badrand, der Platz zwischen Traverse und Wannenkante ist knapp.",
+   "fehlt": "Kein Vorgang für das Einhängen von Werkstücken an eine Traverse von Hand."
+  },
+  {
+   "text": "Das Rüsten der Anlage und das Reinigen der Becken macht ein Kollege aus der Instandhaltung.",
+   "fehlt": "Nur der Satz, keine beschriebene Tätigkeit an der Anlage; deshalb kein Schritt."
+  },
+  {
+   "text": "Im Schichtbetrieb sind zwei Personen am Platz.",
+   "fehlt": "Schichtbetrieb ist in den Stammdaten nicht vorgesehen."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Abdeckung aus losen Kunststoffkugeln fehlt an zwei Stellen.",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Kugelabdeckung des Chrombads"
+  },
+  {
+   "text": "Der Luftzug an der Badkante wirkt schwach, es riecht deutlich nach Säure.",
+   "art": "lueftung",
+   "gegenstand": "Absaugung am Chrombad"
+  },
+  {
+   "text": "die Stromkabel liegen offen über den Boden zu den Anoden",
+   "art": "elektrik",
+   "gegenstand": "Stromkabel zu den Anoden"
+  },
+  {
+   "text": "Der Boden vor den Becken ist nass und glatt, die Ablaufrinne ist verschmutzt.",
+   "art": "weg_boden",
+   "gegenstand": "Boden vor den Becken"
+  },
+  {
+   "text": "die Schutzbrille hängt am Haken und wird nicht durchgehend getragen",
+   "art": "psa",
+   "gegenstand": "Schutzbrille"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "senkt sie mit dem Hebezug ins Bad. Über der Oberfläche steht ein sichtbarer Nebel.",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "misst der Badwart Konzentration und Temperatur mit einer Handprobe",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "gibt er Chromsäure und Zusätze nach und öffnet dafür einen Sack mit Pulver, den er von Hand ins Becken schüttet",
+   "sicher": true
+  }
+ ]
+}

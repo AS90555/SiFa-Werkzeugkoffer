@@ -1,0 +1,29 @@
+{"id":"R022-07","name":"R022-07","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Kantbank","bereich":"Blechbearbeitung","personen":1,"umgebung":["werkstatt","laerm_umgebung"],"angaben":{"last_kg":40},
+   "schritte":[
+    {"vorgang":"umformen","ausfuehrung":"presse","material":["blech"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["blech"]},
+    {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]}
+   ]},
+  {"nr":2,"name":"Schweißtisch","bereich":"Blechbearbeitung","personen":1,"umgebung":["werkstatt","laerm_umgebung","boden"],"angaben":{},
+   "schritte":[
+    {"vorgang":"schweissen","ausfuehrung":"schweissgeraet","material":["blech","druckgasflasche"]}
+   ]}],
+ "wuensche":[
+  {"text":"Das Blech wird von Hand eingelegt und mit dem Fuß ausgelöst, der Fußschalter liegt auf dem Boden","fehlt":"Keine eigene Ausführung für Abkantpresse mit Fußschalter; als Presse geführt"},
+  {"text":"dort schweißt man mit einem MAG-Gerät","fehlt":"Schweißrauch ist nicht ausdrücklich genannt; kein Material Prozessrauch eingetragen"}
+ ],
+ "maengel":[
+  {"text":"Hinter dem Werkzeug ist ein Gitter, vorne an der Maschine ist keine Lichtschranke.","art":"schutzeinrichtung","gegenstand":"Schutzeinrichtung vorne an der Kantbank"},
+  {"text":"die Kollegen daneben schauen oft ohne Schutz zu, wenn der Lichtbogen brennt","art":"psa","gegenstand":"Augen- und Gesichtsschutz der Zuschauer am Schweißtisch"},
+  {"text":"Eine Absaugung hängt über dem Tisch, sie ist seit Monaten nicht eingeschaltet.","art":"lueftung","gegenstand":"Absaugung am Schweißtisch"},
+  {"text":"Auf dem Boden liegen Schweißperlen und Späne vom Schleifen, und neben dem Tisch ist ein Ölfleck.","art":"weg_boden","gegenstand":"Boden am Schweißtisch"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Das Blech wird von Hand eingelegt und mit dem Fuß ausgelöst","sicher":true},
+  {"schritt":2,"stelle":"Die Bleche hebt man zu zweit, ein Stück wiegt schnell vierzig Kilo","sicher":true},
+  {"schritt":3,"stelle":"das Werkzeug an der Kantbank wechselt der Schlosser selbst","sicher":true},
+  {"schritt":4,"stelle":"dort schweißt man mit einem MAG-Gerät; Gasflaschen für Schutzgas","sicher":true}
+ ]}

@@ -1,0 +1,147 @@
+{
+ "id": "R022-14",
+ "name": "R022-14",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Bremsenreiniger",
+   "material": "spruehdose",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Reifen wechseln und Wuchten",
+   "bereich": "Reifenservice",
+   "personen": 4,
+   "umgebung": [
+    "laerm_umgebung",
+    "stickig",
+    "boden"
+   ],
+   "angaben": {
+    "last_kg": 25,
+    "griffe_tag": 60
+   },
+   "schritte": [
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "kleben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "spruehdose",
+      "daempfe_loesemittel",
+      "fahrzeugrad"
+     ]
+    },
+    {
+     "vorgang": "senken",
+     "ausfuehrung": "hebebuehne",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Zum Aufpumpen nutzt man eine Druckluftpistole an der Felge, der Druck steigt auf etwa drei Bar, dabei wird der Reifen manchmal laut.",
+   "fehlt": "Kein Vorgang für das Aufpumpen von Reifen."
+  },
+  {
+   "text": "auf der einen steht ein Pkw",
+   "fehlt": "Kein Material für ein Fahrzeug auf der Hebebühne."
+  },
+  {
+   "text": "Im Saisonbetrieb arbeiten hier drei Personen, dazu ein Auszubildender.",
+   "fehlt": "Alter des Auszubildenden nicht genannt, daher keine Angabe zu Jugendlichen; Saisonbetrieb ist keine Umgebung."
+  },
+  {
+   "text": "Der Auszubildende steht meist neben der Hebebühne und reicht Schrauben an.",
+   "fehlt": "Aufenthalt im Gefahrbereich der Hebebühne wird nicht ausdrücklich als Gefahrbereich genannt."
+  },
+  {
+   "text": "Die Werkzeuge rüstet und pflegt der Werkstattmeister am Ende des Tages.",
+   "fehlt": "Nur der Satz, keine beschriebene Tätigkeit; deshalb kein Schritt."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Zum Reinigen der Felgen und Bremsscheiben nutzt er Bremsenreiniger aus der Sprühdose, ohne Handschuhe",
+   "art": "psa",
+   "gegenstand": "Handschuhe beim Bremsenreiniger"
+  },
+  {
+   "text": "die Luft in der Halle ist danach stickig",
+   "art": "lueftung",
+   "gegenstand": "Hallenluft nach dem Reinigen"
+  },
+  {
+   "text": "Auf dem Boden liegt Öl.",
+   "art": "weg_boden",
+   "gegenstand": "Hallenboden"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "löst die Radmuttern mit einem Druckluftschlagschrauber",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "setzt das Rad auf den Wagen, zieht es ab und rollt es zur Reifenmontiermaschine. Die Räder wiegen zwischen zwanzig und fünfundzwanzig Kilo, etwa sechzig Räder",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Reifen wird dort mit einem Hebel über die Felge gedrückt, die Maschine läuft elektrisch und hat ein Pedal",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "ein Mitarbeiter klebt die Wuchtgewichte von Hand an",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Zum Reinigen der Felgen und Bremsscheiben nutzt er Bremsenreiniger aus der Sprühdose",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "Die Hebebühne wird zum Absenken mit dem Fuß bedient.",
+   "sicher": false
+  }
+ ]
+}

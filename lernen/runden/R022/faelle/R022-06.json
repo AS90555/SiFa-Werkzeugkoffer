@@ -1,0 +1,26 @@
+{"id":"R022-06","name":"R022-06","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Spänebunker neben dem Absauggebläse","bereich":"Absaugung","personen":2,"umgebung":["aussen","boden","dunkel"],"angaben":{"gleichfoermig":true},
+  "schritte":[
+   {"vorgang":"sonderbetrieb","ausfuehrung":"absauganlage","material":["anlage","holzstaub"]},
+   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["holzstaub"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage","holzstaub"]},
+   {"vorgang":"hoehenarbeit","ausfuehrung":"leiter","material":["anlage"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["holzstaub"]}
+  ]}],
+ "wuensche":[
+  {"text":"Bunker ist ein Stahlbehälter, etwa drei Meter hoch, unten eine Klappe","fehlt":"Nicht gesagt, ob jemand in den Bunker einsteigt; Angabe einstieg und Umgebung Silo bleiben offen"},
+  {"text":"den Rest bläst man mit Druckluft aus den Ansaugstutzen","fehlt":"Ausführung der Druckluft (Pistole oder Schlauch) nicht genannt; als von Hand geführt"}
+ ],
+ "maengel":[
+  {"text":"Das Kabel des Absaugmotors liegt am Boden im Späneschutt","art":"elektrik","gegenstand":"Kabel des Absaugmotors"},
+  {"text":"Die Leuchte über dem Bunker ist kaputt, das Licht kommt nur vom Tor.","art":"beleuchtung","gegenstand":"Leuchte über dem Bunker"},
+  {"text":"Ein Feuerlöscher hängt nicht am Bunker, der nächste steht etwa zwanzig Meter entfernt.","art":"rettung_verstellt","gegenstand":"Feuerlöscher am Bunker"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Filterschläuche klopft man mit einem Hebel ab, dabei stiebt der Staub in die Luft","sicher":true},
+  {"schritt":2,"stelle":"den Rest bläst man mit Druckluft aus den Ansaugstutzen","sicher":false},
+  {"schritt":3,"stelle":"feuchte Späne, die man mit einem Schaber von Hand losmacht","sicher":true},
+  {"schritt":4,"stelle":"einer steht oben auf einer Leiter an der Seite des Bunkers","sicher":true},
+  {"schritt":5,"stelle":"Die Späne schaufelt man in einen Container ... Schaufel für Schaufel","sicher":true}
+ ]}

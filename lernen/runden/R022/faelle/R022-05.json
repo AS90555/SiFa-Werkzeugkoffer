@@ -1,0 +1,25 @@
+{"id":"R022-05","name":"R022-05","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"grafithaltiges Trennmittel aus der Sprühdose","material":"spruehdose","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Hammer mit Manipulator","bereich":"Freiformschmieden","personen":2,"umgebung":["halle","laerm_umgebung","funkenflug","sommerwaerme"],"angaben":{},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck","heisses_werkstueck"]},
+   {"vorgang":"schmieden","ausfuehrung":"schmiedehammer","material":["metallwerkstueck","heisses_werkstueck"]},
+   {"vorgang":"spruehen","ausfuehrung":"von_hand","material":["spruehdose","nebel_aerosol"]},
+   {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]}
+  ]}],
+ "wuensche":[
+  {"text":"Der Manipulator ist ein Gerät mit einer Greifzange am Ende eines Auslegers, bedient über ein Pult in der Hand eines Kollegen am Boden.","fehlt":"Ausführung Manipulator (Greifzange am Ausleger, Pultsteuerung); Schritt weggelassen"},
+  {"text":"Rundstäbe und Blöcke aus Stahl, meist zwischen zehn und achtzig Kilo","fehlt":"Angabe nur als Spanne genannt, kein einzelnes Gewicht je Griff; last_kg offen"},
+  {"text":"Der Rohling wird im Gasofen auf rund eintausendzweihundert Grad gebracht und mit der Zange herausgeholt","fehlt":"Eigener Vorgang für Entnehmen aus dem Schmiedeofen mit Zange; hier als Handhaben von Hand und Schmieden geführt"},
+  {"text":"Zunder und Funken fliegen über den Boden","fehlt":"Keine eigene Umgebung für Zunder auf dem Boden; nur Funkenflug gewählt"}
+ ],
+ "maengel":[
+  {"text":"Die Schutzbrille hängt am Eingang, mehrere Kollegen tragen sie nur halb.","art":"psa","gegenstand":"Schutzbrille"},
+  {"text":"ein Ventilator hängt schief an der Wand","gegenstand":"Ventilator"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"dann mit der Zange herausgeholt","sicher":true},
+  {"schritt":2,"stelle":"Der Freiformhammer arbeitet mit Druckluft und schlägt im schnellen Takt","sicher":true},
+  {"schritt":3,"stelle":"Geschmiert wird das Gesenk mit einem grafithaltigen Trennmittel aus der Sprühdose, der Nebel steht danach in der Luft","sicher":true},
+  {"schritt":4,"stelle":"Die Zangen und Gesenke wechselt der Vorarbeiter am Wochenende","sicher":true}
+ ]}

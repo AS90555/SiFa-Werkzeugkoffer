@@ -1,0 +1,121 @@
+{
+ "id": "R022-15",
+ "name": "R022-15",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Zweikomponenten-Epoxidharz",
+   "material": "lack",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Strahlen und Grundieren großer Träger",
+   "bereich": "Strahlen und Grundieren großer Träger",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung",
+    "kalt",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "strahlen",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "stahlprofil",
+      "strahlmittel"
+     ]
+    },
+    {
+     "vorgang": "spruehen",
+     "ausfuehrung": "hochdruckgeraet",
+     "material": [
+      "lack",
+      "daempfe_loesemittel"
+     ]
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "leiter",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Mitarbeiter steigt dabei auf eine fahrbare Arbeitsbühne, etwa drei Meter hoch, oder klettert auf eine Leiter.",
+   "fehlt": "Fahrbare Arbeitsbühne ist keine Ausführung (nur Hubarbeitsbühne und Leiter); nur die Leiter ist als Schritt angelegt."
+  },
+  {
+   "text": "hält die Düse mit beiden Händen",
+   "fehlt": "Keine passende Ausführung für einen Strahlschlauch mit Druckluft; handmaschine ist nur die nächste Näherung."
+  },
+  {
+   "text": "Das Rüsten und Warten der Strahlanlage übernimmt der Meister.",
+   "fehlt": "Nur der Satz, keine beschriebene Tätigkeit; deshalb kein Schritt."
+  },
+  {
+   "text": "Am Platz arbeiten zwei Personen im Wechsel.",
+   "fehlt": "Wechselbetrieb ist in den Stammdaten nicht vorgesehen."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "der Mitarbeiter steht ohne richtige Kabine direkt am Träger",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Strahlkabine"
+  },
+  {
+   "text": "Der Strahlstaub zieht durch die Halle und setzt sich auf dem Boden ab.",
+   "art": "lueftung",
+   "gegenstand": "Absaugung beim Strahlen"
+  },
+  {
+   "text": "eine Lüftung ist nur an der Hallentür",
+   "art": "lueftung",
+   "gegenstand": "Lüftung am Spritzplatz"
+  },
+  {
+   "text": "der Schlauch liegt quer über den Hallenboden",
+   "art": "weg_boden",
+   "gegenstand": "Druckluftschlauch des Kompressors"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "ein Hallenkran hebt sie an",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Gestrahlt wird mit Druckluft und Stahlkorn aus einem Strahlschlauch",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "ein Zweikomponenten-Epoxidharz mit einer Airless-Pistole aufgetragen, die Dämpfe der Lösemittel ziehen durch den Raum",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "steigt dabei auf eine fahrbare Arbeitsbühne, etwa drei Meter hoch, oder klettert auf eine Leiter",
+   "sicher": false
+  }
+ ]
+}

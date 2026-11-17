@@ -1,0 +1,126 @@
+{
+ "id": "R022-08",
+ "name": "R022-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Getriebe am Förderbandantrieb",
+   "bereich": "Instandhaltung",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "kalt",
+    "boden",
+    "dunkel",
+    "fahrverkehr"
+   ],
+   "angaben": {
+    "last_kg": 180
+   },
+   "schritte": [
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff",
+      "oelige_lappen"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "der andere an der Steuerung",
+   "fehlt": "Nicht beschrieben, was an der Steuerung getan wird; Schritt Elektroarbeiten weggelassen"
+  },
+  {
+   "text": "Das Schmierfett kommt aus der Kartusche; Getriebeöl",
+   "fehlt": "Öl und Fett sind kein Gefahrstoff-Stammdatum, daher nicht unter stoffe; nur als Material im Schritt geführt, Fett einbringen ohne passenden Vorgang"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Hauptschalter der Anlage ist zwar ausgeschaltet, aber das Schild mit dem Schloss fehlt.",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schloss und Schild am Hauptschalter"
+  },
+  {
+   "text": "Am Boden liegt Getriebeöl, das beim Ablassen aus der Wanne gelaufen ist",
+   "art": "weg_boden",
+   "gegenstand": "Boden mit ausgelaufenem Getriebeöl"
+  },
+  {
+   "text": "der Monteur steht mit ungeschützten Händen darin",
+   "art": "psa",
+   "gegenstand": "Handschutz beim Umgang mit Getriebeöl"
+  },
+  {
+   "text": "zwei Scheinwerfer geben das Licht, einer flackert",
+   "art": "beleuchtung",
+   "gegenstand": "flackernder Scheinwerfer"
+  },
+  {
+   "text": "die Schlüssel sind nicht beschriftet",
+   "gegenstand": "Werkzeugschlüssel in der Kiste"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "hier wird ein Getriebe an einem Förderbandantrieb getauscht",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Schrauben werden mit dem Drehmomentschlüssel gelöst",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Kette wird um das Getriebe gelegt",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gehoben wird mit einem Handkettenzug ... bis es vom Fundament hochkommt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Zum Reinigen nimmt man Lappen und Bindemittel",
+   "sicher": true
+  }
+ ]
+}

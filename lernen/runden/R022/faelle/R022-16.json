@@ -1,0 +1,96 @@
+{
+ "id": "R022-16",
+ "name": "R022-16",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Hydraulikaggregat prüfen und befüllen",
+   "bereich": "Hydraulikaggregat prüfen und befüllen",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "druckpruefen",
+     "ausfuehrung": "hochdruckgeraet",
+     "material": [
+      "oel_schmierstoff",
+      "heisses_maschinenteil"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "daneben steht ein Tank mit etwa zweihundert Litern",
+   "fehlt": "Kein Material für einen Öltank."
+  },
+  {
+   "text": "Der Prüfplatz liegt an einem Durchgang, Kollegen gehen hier mit Kisten vorbei.",
+   "fehlt": "Keine Umgebung für Fußgängerverkehr am Prüfplatz; nur die Halle mit Arbeitsplätzen in der Nähe gewählt."
+  },
+  {
+   "text": "Das Rüsten der Prüfeinrichtung und das Auffüllen des Tanks übernimmt der Monteur",
+   "fehlt": "Nur der Satz, keine beschriebene Tätigkeit an der Anlage; deshalb kein Schritt."
+  },
+  {
+   "text": "Das Gehäuse ist nach dem Lauf warm, man spürt die Hitze an der Oberfläche.",
+   "fehlt": "Kein Material für ein warmes Aggregatgehäuse; heisses_maschinenteil nur als Näherung."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Dabei läuft gelegentlich etwas über, auf dem Boden stehen Ölflecken.",
+   "art": "weg_boden",
+   "gegenstand": "Boden am Aggregat"
+  },
+  {
+   "text": "der Schlauch hat erkennbare Scheuerstellen",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Prüfschlauch"
+  },
+  {
+   "text": "Der Schaltschrank neben dem Motor steht offen, die Abdeckung liegt daneben auf dem Boden.",
+   "art": "elektrik",
+   "gegenstand": "Schaltschrank am Motor"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "holt der Monteur einen Kanister Hydrauliköl von der Palette",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "setzt einen Trichter auf den Einfüllstutzen und gießt von Hand nach",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "der Druck auf etwa zweihundertfünfzig Bar hochgefahren und am Manometer abgelesen",
+   "sicher": false
+  }
+ ]
+}
