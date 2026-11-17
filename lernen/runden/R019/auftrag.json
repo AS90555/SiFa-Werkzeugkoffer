@@ -1,0 +1,104 @@
+{
+ "runde": "R019",
+ "art": "pruef",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R019-01",
+   "auftrag": "a194",
+   "branche": "Anhängerbau",
+   "bereich": "Fahrgestell schweißen und verzinkte Teile"
+  },
+  {
+   "kennung": "R019-02",
+   "auftrag": "a203",
+   "branche": "Metallbau",
+   "bereich": "Geländer schweißen und verzinken lassen, Verladen"
+  },
+  {
+   "kennung": "R019-03",
+   "auftrag": "a210",
+   "branche": "Lüftungsbau",
+   "bereich": "Kanäle montieren in der Zwischendecke"
+  },
+  {
+   "kennung": "R019-04",
+   "auftrag": "a177",
+   "branche": "Drechslerei",
+   "bereich": "Drechselbank und Schleifen"
+  },
+  {
+   "kennung": "R019-05",
+   "auftrag": "a181",
+   "branche": "Plattenwerk",
+   "bereich": "Schleifstraße und Plattenlager"
+  },
+  {
+   "kennung": "R019-06",
+   "auftrag": "a185",
+   "branche": "Getriebebau",
+   "bereich": "Montage und Prüfstand mit Öl"
+  },
+  {
+   "kennung": "R019-07",
+   "auftrag": "a168",
+   "branche": "Sägewerk",
+   "bereich": "Besäumen und Kappen am Rollengang"
+  },
+  {
+   "kennung": "R019-08",
+   "auftrag": "a188",
+   "branche": "Schraubenfabrik",
+   "bereich": "Kaltumformpresse und Gewinderollen"
+  },
+  {
+   "kennung": "R019-09",
+   "auftrag": "a201",
+   "branche": "Walzwerk",
+   "bereich": "Kaltwalzen und Coil-Handling"
+  },
+  {
+   "kennung": "R019-10",
+   "auftrag": "a204",
+   "branche": "Stahlbau",
+   "bereich": "Schrauben hochfester Verbindungen in der Höhe"
+  },
+  {
+   "kennung": "R019-11",
+   "auftrag": "a212",
+   "branche": "Gerüstbau für Industrieanlagen",
+   "bereich": "Auf- und Abbau in der Halle"
+  },
+  {
+   "kennung": "R019-12",
+   "auftrag": "a200",
+   "branche": "Ziehwerk",
+   "bereich": "Drahtziehmaschine und Beizen"
+  },
+  {
+   "kennung": "R019-13",
+   "auftrag": "a173",
+   "branche": "Tischlerei",
+   "bereich": "Formatkreissäge, Zuschnitt großer Platten allein"
+  },
+  {
+   "kennung": "R019-14",
+   "auftrag": "a171",
+   "branche": "Zimmerei",
+   "bereich": "Abbinden von Hand mit Kettensäge und Kettenstemmer"
+  },
+  {
+   "kennung": "R019-15",
+   "auftrag": "a178",
+   "branche": "Fenster in Serie",
+   "bereich": "Glaslager und Verglasen mit Sauggerät"
+  },
+  {
+   "kennung": "R019-16",
+   "auftrag": "a202",
+   "branche": "Oberflächentechnik",
+   "bereich": "Gleitschleifen und Trocknen"
+  }
+ ]
+}
