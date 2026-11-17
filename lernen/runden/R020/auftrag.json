@@ -1,0 +1,56 @@
+{
+ "runde": "R020",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R020-01",
+   "auftrag": "a227",
+   "branche": "Leiterplattenfertigung",
+   "bereich": "Ätzen und Galvanik"
+  },
+  {
+   "kennung": "R020-02",
+   "auftrag": "a251",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Hochvoltsystem eines Elektrofahrzeugs freischalten"
+  },
+  {
+   "kennung": "R020-03",
+   "auftrag": "a236",
+   "branche": "Gießerei",
+   "bereich": "Schmelzbetrieb am Induktionsofen"
+  },
+  {
+   "kennung": "R020-04",
+   "auftrag": "a263",
+   "branche": "Plattenwerk",
+   "bereich": "Instandhaltung an der Kontipresse"
+  },
+  {
+   "kennung": "R020-05",
+   "auftrag": "a219",
+   "branche": "Parkettfabrik",
+   "bereich": "Stäbe sortieren am Band"
+  },
+  {
+   "kennung": "R020-06",
+   "auftrag": "a246",
+   "branche": "Heizungsbau",
+   "bereich": "Wartung von Gaskesseln beim Kunden"
+  },
+  {
+   "kennung": "R020-07",
+   "auftrag": "a234",
+   "branche": "Fahrzeugbau",
+   "bereich": "Batteriemontage für Elektrofahrzeuge"
+  },
+  {
+   "kennung": "R020-08",
+   "auftrag": "a258",
+   "branche": "Bootsbau",
+   "bereich": "Mast und Rigg montieren in der Höhe"
+  }
+ ]
+}
