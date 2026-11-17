@@ -483,23 +483,35 @@
    {
     "id": "R12-M1",
     "art": "O",
-    "text": "Belastung mit der Leitmerkmalmethode bewerten"
+    "text": "Belastung mit der Leitmerkmalmethode bewerten",
+    "beleg": {
+     "quelle": "bauau-lmm",
+     "stelle": "Anwendungsbereich der LMM-HHT, Absatz 1"
+    }
    },
    {
     "id": "R12-M2",
     "art": "T",
-    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+    "text": "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 2 Abs. 1"
+    }
    },
    {
     "id": "R12-M3",
     "art": "O",
-    "text": "Tätigkeitswechsel"
+    "text": "Tätigkeitswechsel",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.4.5, Organisatorische Maßnahmen"
+    }
    }
   ],
   "quellen": [
    {
     "id": "bauau-lmm",
-    "stelle": "Handlungsanleitung LMM-HHT, Abschnitt Vorgehen (Achtung); Hinweis „Achtung“ am Ende der Zielstellung, Satz 1"
+    "stelle": "Anwendungsbereich der LMM-HHT, Absatz 1; Anwendungsbereich, Abs. 1"
    },
    {
     "id": "lasthandhabv",
@@ -507,12 +519,18 @@
    },
    {
     "id": "dguv-r109-606",
-    "stelle": "Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen; Abschnitt 3.4.5, Organisatorische Maßnahmen"
+    "stelle": "Abschnitt 3.4.5, Organisatorische Maßnahmen; Abschnitt 3.4.5 Heben und Tragen, Organisatorische Maßnahmen"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B004",
+   "datum": "2026-11-17",
+   "pruefungen": 2,
+   "fingerabdruck": "f49a2409b30070ec"
+  }
  },
  {
   "id": "R13",
@@ -1656,18 +1674,28 @@
    {
     "id": "R41-M1",
     "art": "O",
-    "text": "Einstufung nach Sicherheitsdatenblatt, Maßnahmen danach"
+    "text": "Einstufung nach Sicherheitsdatenblatt, Maßnahmen danach",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 1 Satz 2 Nr. 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": "§ 6"
+    "stelle": "§ 6 Abs. 1 Satz 2 Nr. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B004",
+   "datum": "2026-11-17",
+   "pruefungen": 2,
+   "fingerabdruck": "f09f1f6c7f1d923b"
+  }
  },
  {
   "id": "R42",
@@ -2679,23 +2707,37 @@
    {
     "id": "R71-M1",
     "art": "T",
-    "text": "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten"
+    "text": "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "beleg": {
+     "quelle": "asr-a3-5",
+     "stelle": "Abschnitt 4.2 Abs. 2, erster Spiegelstrich"
+    }
    },
    {
     "id": "R71-M2",
     "art": "P",
-    "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
+    "text": "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte",
+    "beleg": {
+     "quelle": "asr-a3-5",
+     "stelle": "Abschnitt 4.2 Abs. 2, dritter Spiegelstrich (nach technischen und organisatorischen Maßnahmen)"
+    }
    }
   ],
   "quellen": [
    {
     "id": "asr-a3-5",
-    "stelle": null
+    "stelle": "Abschnitt 4.2 Abs. 2, erster Spiegelstrich; Punkt 4.2 Abs. 2 erster Anstrich; Abschnitt 4.2 Abs. 2, dritter Spiegelstrich (nach technischen und organisatorischen Maßnahmen); Punkt 4.2 Abs. 2 zweiter und dritter Anstrich"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B004",
+   "datum": "2026-11-17",
+   "pruefungen": 2,
+   "fingerabdruck": "d0e8b1fb859810ef"
+  }
  },
  {
   "id": "R72",

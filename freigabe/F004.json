@@ -1,0 +1,21 @@
+{
+ "paket": "F004",
+ "status": "offen",
+ "eintraege": [
+  {
+   "id": "R41",
+   "art": "regel",
+   "fingerabdruck": "f09f1f6c7f1d923b"
+  },
+  {
+   "id": "R71",
+   "art": "regel",
+   "fingerabdruck": "d0e8b1fb859810ef"
+  },
+  {
+   "id": "P19",
+   "art": "pflicht",
+   "fingerabdruck": "c46563d8db3a7e9e"
+  }
+ ]
+}

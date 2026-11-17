@@ -427,11 +427,17 @@
   "quellen": [
    {
     "id": "dguv-v3",
-    "stelle": null
+    "stelle": "§ 5 Abs. 1 Nr. 1"
    }
   ],
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B004",
+   "datum": "2026-11-17",
+   "pruefungen": 2,
+   "fingerabdruck": "c46563d8db3a7e9e"
+  }
  },
  {
   "id": "P20",
