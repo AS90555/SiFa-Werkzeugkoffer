@@ -1,0 +1,28 @@
+{
+ "runde": "R021",
+ "uebernommen": {
+  "merkmale": [
+   "m.oelbad"
+  ],
+  "gefaehrdungen": [],
+  "stammdaten": [
+   "material/oelbad_offen",
+   "material/hochspannungspruefgeraet"
+  ],
+  "woerter": [
+   "ölbad, abschrecköl, abschreckbad, erodieröl",
+   "hochspannungsprüfgerät, hochspannungsprüfung",
+   "montageschaum, bauschaum",
+   "putzstaub, mauerwerk",
+   "propan, propangas",
+   "durchlaufofen, härteofen",
+   "stapelleisten, zwischenleisten"
+  ],
+  "regeln": [
+   "R139 Offenes Ölbad: Brand"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 30
+}

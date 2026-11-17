@@ -753,6 +753,21 @@
     "m.gefahrstoff",
     "m.entzuendbar_bekannt"
    ]
+  },
+  {
+   "id": "oelbad_offen",
+   "name": "Offenes Ölbad: Abschrecköl, Erodieröl",
+   "merkmale": [
+    "m.oel",
+    "m.oelbad"
+   ]
+  },
+  {
+   "id": "hochspannungspruefgeraet",
+   "name": "Hochspannungs-Prüfgerät mit Prüfspannung im Kilovoltbereich",
+   "merkmale": [
+    "m.spannungsfuehrend"
+   ]
   }
  ],
  "vorgang": [

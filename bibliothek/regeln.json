@@ -5200,5 +5200,37 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R139",
+  "name": "Offenes Ölbad: Brand",
+  "wenn": "m.oelbad",
+  "entsteht": "Brennbares Öl in einem offenen Bad wird heiß oder ist Funken ausgesetzt; es dampft, kann Feuer fangen und brennt dann weiter, auch wenn das Bad ohne Aufsicht läuft",
+  "gefaehrdung": "g-brand-ex-stoff",
+  "massnahmen": [
+   {
+    "id": "R139-M1",
+    "art": "T",
+    "text": "Bad abdecken oder mit selbsttätiger Löscheinrichtung und Temperaturüberwachung ausrüsten"
+   },
+   {
+    "id": "R139-M2",
+    "art": "O",
+    "text": "Zündquellen vom Bad fernhalten, Löschmittel bereithalten und den Betrieb ohne Aufsicht festlegen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

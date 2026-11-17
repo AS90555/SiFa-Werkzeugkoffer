@@ -1,0 +1,39 @@
+{"runde": "R021",
+ "merkmale": [{"id": "m.oelbad", "name": "Offenes Ölbad mit brennbarem Öl: Abschreckbad, Erodiertank"}],
+ "gefaehrdungen": [],
+ "stammdaten": [
+  {"typ": "material", "id": "oelbad_offen", "name": "Offenes Ölbad: Abschrecköl, Erodieröl", "merkmale": ["m.oel", "m.oelbad"],
+   "anlass": [{"kennung": "R021-06", "stelle": "Am Ende fallen die Teile in ein Ölbad, das abschreckt."}]},
+  {"typ": "material", "id": "hochspannungspruefgeraet", "name": "Hochspannungs-Prüfgerät mit Prüfspannung im Kilovoltbereich", "merkmale": ["m.spannungsfuehrend"],
+   "anlass": [{"kennung": "R021-01", "stelle": "einem Prüfgerät, das Spannungen bis etwa zwei Kilovolt erzeugt"}]}
+ ],
+ "woerter": [
+  {"worte": ["ölbad", "abschrecköl", "abschreckbad", "erodieröl"], "material": ["oelbad_offen"]},
+  {"worte": ["hochspannungsprüfgerät", "hochspannungsprüfung"], "material": ["hochspannungspruefgeraet"]},
+  {"worte": ["montageschaum", "bauschaum"], "material": ["kleber_1k"]},
+  {"worte": ["putzstaub", "mauerwerk"], "material": ["stein_komposit"]},
+  {"worte": ["propan", "propangas"], "material": ["druckgasflasche"]},
+  {"worte": ["durchlaufofen", "härteofen"], "material": ["heisses_maschinenteil"]},
+  {"worte": ["stapelleisten", "zwischenleisten"], "material": ["glasleiste"]}
+ ],
+ "regeln": [
+  {"name": "Offenes Ölbad: Brand", "wenn": "m.oelbad",
+   "entsteht": "Brennbares Öl in einem offenen Bad wird heiß oder ist Funken ausgesetzt; es dampft, kann Feuer fangen und brennt dann weiter, auch wenn das Bad ohne Aufsicht läuft",
+   "gefaehrdung": "g-brand-ex-stoff",
+   "massnahmen": [
+    {"art": "T", "text": "Bad abdecken oder mit selbsttätiger Löscheinrichtung und Temperaturüberwachung ausrüsten"},
+    {"art": "O", "text": "Zündquellen vom Bad fernhalten, Löschmittel bereithalten und den Betrieb ohne Aufsicht festlegen"}
+   ],
+   "quellen": ["gefstoffv", "arbschg"],
+   "anlass": [
+    {"kennung": "R016-04", "stelle": "Die Maschine läuft oft über Nacht ohne Aufsicht"},
+    {"kennung": "R021-06", "stelle": "Das Öl ist dunkel und dampft"}
+   ]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Brand bei Durchschlag eines Prüflings im Prüffeld", "grund": "Einzelfall", "anlass": [{"kennung": "R021-01", "stelle": "riecht es leicht nach verbranntem Isoliermaterial"}]},
+  {"thema": "Verkehrsunfall bei der Probefahrt im Straßenverkehr", "grund": "Einzelfall", "anlass": [{"kennung": "R021-03", "stelle": "über die Straße zur Hauptstraße, wo viel Verkehr ist"}]},
+  {"thema": "Kippen eines schweren Stapels beim Schichten", "grund": "Einzelfall", "anlass": [{"kennung": "R021-05", "stelle": "ein Stapel wiegt grob eine Tonne"}]},
+  {"thema": "Absturz von wackeligem Bock", "grund": "Einzelfall; Leiter ist vorhanden, Wort Bock zu kurz fürs Wörterbuch", "anlass": [{"kennung": "R021-07", "stelle": "Man arbeitet auf einer Leiter und auf einem Bock"}]}
+ ],
+ "erledigt": ["Brand durch Mineralöl und Funken bei unbeaufsichtigtem Lauf der Erodiermaschine"]}

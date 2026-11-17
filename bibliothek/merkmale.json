@@ -139,5 +139,6 @@
  "m.schwer": "Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist",
  "u.vibration": "Hand-Arm-Vibration: Griffe oder Werkzeug vibrieren spürbar",
  "v.positionieren_hand": "Last von Hand einschieben, einhängen oder ausrichten, Hände an der Last",
- "m.mineralfaser": "Mineralwolle und Dämmwolle: Fasern und Faserstaub"
+ "m.mineralfaser": "Mineralwolle und Dämmwolle: Fasern und Faserstaub",
+ "m.oelbad": "Offenes Ölbad mit brennbarem Öl: Abschreckbad, Erodiertank"
 }

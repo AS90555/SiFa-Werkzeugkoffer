@@ -2099,5 +2099,70 @@
   ],
   "vorgang": "senken",
   "ausfuehrung": "hubsenkstation"
+ },
+ {
+  "worte": [
+   "ölbad",
+   "abschrecköl",
+   "abschreckbad",
+   "erodieröl"
+  ],
+  "material": [
+   "oelbad_offen"
+  ]
+ },
+ {
+  "worte": [
+   "hochspannungsprüfgerät",
+   "hochspannungsprüfung"
+  ],
+  "material": [
+   "hochspannungspruefgeraet"
+  ]
+ },
+ {
+  "worte": [
+   "montageschaum",
+   "bauschaum"
+  ],
+  "material": [
+   "kleber_1k"
+  ]
+ },
+ {
+  "worte": [
+   "putzstaub",
+   "mauerwerk"
+  ],
+  "material": [
+   "stein_komposit"
+  ]
+ },
+ {
+  "worte": [
+   "propan",
+   "propangas"
+  ],
+  "material": [
+   "druckgasflasche"
+  ]
+ },
+ {
+  "worte": [
+   "durchlaufofen",
+   "härteofen"
+  ],
+  "material": [
+   "heisses_maschinenteil"
+  ]
+ },
+ {
+  "worte": [
+   "stapelleisten",
+   "zwischenleisten"
+  ],
+  "material": [
+   "glasleiste"
+  ]
  }
 ]

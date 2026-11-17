@@ -154,16 +154,6 @@
   ]
  },
  {
-  "thema": "Brand durch Mineralöl und Funken bei unbeaufsichtigtem Lauf der Erodiermaschine",
-  "seit": "R016",
-  "anlass": [
-   {
-    "kennung": "R016-04",
-    "stelle": "Die Maschine läuft oft über Nacht ohne Aufsicht"
-   }
-  ]
- },
- {
   "thema": "Schwingendes Rohr beim Einheben mit dem Bagger in den Graben",
   "seit": "R016",
   "anlass": [
@@ -270,6 +260,46 @@
    {
     "kennung": "R020-01",
     "stelle": "teilweise ohne Auffangwanne"
+   }
+  ]
+ },
+ {
+  "thema": "Brand bei Durchschlag eines Prüflings im Prüffeld",
+  "seit": "R021",
+  "anlass": [
+   {
+    "kennung": "R021-01",
+    "stelle": "riecht es leicht nach verbranntem Isoliermaterial"
+   }
+  ]
+ },
+ {
+  "thema": "Verkehrsunfall bei der Probefahrt im Straßenverkehr",
+  "seit": "R021",
+  "anlass": [
+   {
+    "kennung": "R021-03",
+    "stelle": "über die Straße zur Hauptstraße, wo viel Verkehr ist"
+   }
+  ]
+ },
+ {
+  "thema": "Kippen eines schweren Stapels beim Schichten",
+  "seit": "R021",
+  "anlass": [
+   {
+    "kennung": "R021-05",
+    "stelle": "ein Stapel wiegt grob eine Tonne"
+   }
+  ]
+ },
+ {
+  "thema": "Absturz von wackeligem Bock",
+  "seit": "R021",
+  "anlass": [
+   {
+    "kennung": "R021-07",
+    "stelle": "Man arbeitet auf einer Leiter und auf einem Bock"
    }
   ]
  }
