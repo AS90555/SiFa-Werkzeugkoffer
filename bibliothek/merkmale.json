@@ -140,5 +140,8 @@
  "u.vibration": "Hand-Arm-Vibration: Griffe oder Werkzeug vibrieren spürbar",
  "v.positionieren_hand": "Last von Hand einschieben, einhängen oder ausrichten, Hände an der Last",
  "m.mineralfaser": "Mineralwolle und Dämmwolle: Fasern und Faserstaub",
- "m.oelbad": "Offenes Ölbad mit brennbarem Öl: Abschreckbad, Erodiertank"
+ "m.oelbad": "Offenes Ölbad mit brennbarem Öl: Abschreckbad, Erodiertank",
+ "a.fuehrungsgeraet": "Balancer oder Manipulator mit Zange oder Greifzange, von Hand oder Pult geführt",
+ "v.aufpumpen": "Reifen oder Behälter mit Druckluft aufpumpen",
+ "u.enger_durchstieg": "Enger Durchstieg: Mannloch, Kabinenöffnung, zwischen Gehänge und Wand"
 }

@@ -5232,5 +5232,143 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R140",
+  "name": "Zange oder Greifzange am Balancer oder Manipulator",
+  "wenn": "a.fuehrungsgeraet",
+  "entsteht": "Hände liegen beim Führen oder Einlegen zwischen Zange und Werkstück oder Gerät; die Zange kann nachgeben oder das Werkstück verrutschen, und Finger oder Hand werden gequetscht",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R140-M1",
+    "art": "T",
+    "text": "Griffe und Führung so gestalten, dass die Hände nicht in den Schließbereich der Zange reichen; Zweihandbedienung oder Zustimmschalter prüfen"
+   },
+   {
+    "id": "R140-M2",
+    "art": "O",
+    "text": "Hände nur an den Griffen führen, Werkstück erst loslassen und Zange erst bewegen, wenn alle Beteiligten Sicht und Zuruf haben; unterweisen"
+   },
+   {
+    "id": "R140-M3",
+    "art": "P",
+    "text": "Geeignete Schutzhandschuhe tragen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r100-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R141",
+  "name": "Reifen aufpumpen mit Druckluft",
+  "wenn": "v.aufpumpen",
+  "entsteht": "Beim Aufpumpen kann der Reifen platzen oder der Reifensitz auf der Felge nachgeben; Teile und Druck treffen die Person",
+  "gefaehrdung": "g-druck",
+  "massnahmen": [
+   {
+    "id": "R141-M1",
+    "art": "T",
+    "text": "Reifen in einem Schutzkäfig oder mit Aufpumpvorrichtung und Sicherheitsabstand aufpumpen"
+   },
+   {
+    "id": "R141-M2",
+    "art": "O",
+    "text": "Reifen und Felge vor dem Aufpumpen auf Schäden und richtigen Sitz prüfen, Fülldruck vorgeben und unterweisen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r109-009",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R142",
+  "name": "Enger Durchstieg",
+  "wenn": "u.enger_durchstieg",
+  "entsteht": "Beim Durchsteigen oder Durchzwängen durch eine enge Öffnung stoßen Kopf oder Körper an; man kann sich verletzen oder einklemmen, besonders mit Gerät",
+  "gefaehrdung": "g-anstossen-eng",
+  "massnahmen": [
+   {
+    "id": "R142-M1",
+    "art": "T",
+    "text": "Öffnung und Bewegungsfläche vergrößern oder Kanten polstern und kennzeichnen, wo es möglich ist"
+   },
+   {
+    "id": "R142-M2",
+    "art": "O",
+    "text": "Gerät getrennt hereinreichen, nur mit Sicherungsposten durchsteigen und unterweisen"
+   },
+   {
+    "id": "R142-M3",
+    "art": "P",
+    "text": "Kopfschutz tragen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbstaettv",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r113-004",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R143",
+  "name": "Schwere Einzellast auch am Hebezeug von Hand geführt",
+  "wenn": "m.schwer",
+  "entsteht": "Eine schwere Einzellast muss trotz Hebezeug von Hand angehoben, geschoben oder ausgerichtet werden; Rücken und Gelenke werden überlastet",
+  "gefaehrdung": "g-heben-tragen",
+  "massnahmen": [
+   {
+    "id": "R143-M1",
+    "art": "T",
+    "text": "Hebezeug oder Hebehilfe so einsetzen, dass die Last auch beim Ausrichten und Absetzen nicht von Hand getragen werden muss"
+   },
+   {
+    "id": "R143-M2",
+    "art": "O",
+    "text": "Schwere Last mit mehreren Personen bewegen, Ablauf vorher abstimmen und in Heben und Tragen unterweisen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

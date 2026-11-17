@@ -2164,5 +2164,44 @@
   "material": [
    "glasleiste"
   ]
+ },
+ {
+  "worte": [
+   "balancer",
+   "servozange",
+   "punktschweißzange",
+   "manipulator",
+   "greifzange"
+  ],
+  "ausfuehrung": "balancer_zange"
+ },
+ {
+  "worte": [
+   "aufpumpen",
+   "reifenkäfig"
+  ],
+  "vorgang": "aufpumpen",
+  "material": [
+   "fahrzeugrad"
+  ]
+ },
+ {
+  "worte": [
+   "mannloch",
+   "einstiegsluke"
+  ],
+  "umgebung": [
+   "enger_durchstieg",
+   "silo"
+  ]
+ },
+ {
+  "worte": [
+   "stirnradgetriebe",
+   "schneckengetriebe"
+  ],
+  "material": [
+   "getriebe_schwer"
+  ]
  }
 ]

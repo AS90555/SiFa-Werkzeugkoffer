@@ -313,5 +313,10 @@
   "id": "g-hand-arm-vibration",
   "faktor": 7,
   "name": "Hand-Arm-Vibrationen schädigen auf Dauer Durchblutung und Nerven der Hände"
+ },
+ {
+  "id": "g-anstossen-eng",
+  "faktor": 1,
+  "name": "Anstoßen oder Einklemmen beim Durchstieg durch enge Öffnungen"
  }
 ]

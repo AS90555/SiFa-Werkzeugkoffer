@@ -768,6 +768,13 @@
    "merkmale": [
     "m.spannungsfuehrend"
    ]
+  },
+  {
+   "id": "getriebe_schwer",
+   "name": "Schweres Getriebe oder Antriebsblock",
+   "merkmale": [
+    "m.schwer"
+   ]
   }
  ],
  "vorgang": [
@@ -1292,6 +1299,13 @@
    "merkmale": [
     "v.positionieren_hand"
    ]
+  },
+  {
+   "id": "aufpumpen",
+   "name": "Reifen aufpumpen mit Druckluft",
+   "merkmale": [
+    "v.aufpumpen"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -1540,6 +1554,14 @@
    "merkmale": [
     "a.handwerkzeug_klinge"
    ]
+  },
+  {
+   "id": "balancer_zange",
+   "name": "Balancer oder Manipulator mit Zange oder Greifzange",
+   "merkmale": [
+    "a.fuehrungsgeraet",
+    "a.maschine"
+   ]
   }
  ],
  "umgebung": [
@@ -1763,6 +1785,13 @@
    "name": "Griffe oder Werkzeug vibrieren",
    "merkmale": [
     "u.vibration"
+   ]
+  },
+  {
+   "id": "enger_durchstieg",
+   "name": "Enger Durchstieg, Mannloch oder enge Kabinenöffnung",
+   "merkmale": [
+    "u.enger_durchstieg"
    ]
   }
  ]

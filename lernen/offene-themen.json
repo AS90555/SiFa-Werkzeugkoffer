@@ -124,16 +124,6 @@
   ]
  },
  {
-  "thema": "Reifen aufpumpen im Käfig",
-  "seit": "R015",
-  "anlass": [
-   {
-    "kennung": "R015-01",
-    "stelle": "Die Reifen pumpen wir in einem Käfig"
-   }
-  ]
- },
- {
   "thema": "Ionisierende Strahlung bei der Röntgenprüfung",
   "seit": "R016",
   "anlass": [
@@ -160,16 +150,6 @@
    {
     "kennung": "R016-07",
     "stelle": "werden vom Bagger am Rand eingehoben"
-   }
-  ]
- },
- {
-  "thema": "Anstoßen und Einklemmen in enger Lackierkabine zwischen Gehängen und Wand",
-  "seit": "R016",
-  "anlass": [
-   {
-    "kennung": "R016-03",
-    "stelle": "der Bediener muss sich einmal um eine Tür herumzwängen"
    }
   ]
  },
@@ -234,16 +214,6 @@
   ]
  },
  {
-  "thema": "Heben und Umsetzen schwerer Geländer von Hand ohne genaues Gewicht",
-  "seit": "R019",
-  "anlass": [
-   {
-    "kennung": "R019-02",
-    "stelle": "wiegen mehrere Zentner"
-   }
-  ]
- },
- {
   "thema": "Gabelhubwagen ohne Angabe zum Antrieb",
   "seit": "R020",
   "anlass": [
@@ -300,6 +270,66 @@
    {
     "kennung": "R021-07",
     "stelle": "Man arbeitet auf einer Leiter und auf einem Bock"
+   }
+  ]
+ },
+ {
+  "thema": "Laserstrahlung im Schutzgehäuse",
+  "seit": "R022",
+  "anlass": [
+   {
+    "kennung": "R022-04",
+    "stelle": "hinter dem Glas ist das Laserlicht unsichtbar"
+   }
+  ]
+ },
+ {
+  "thema": "Verbrühen am heißen Bad beim Einhängen",
+  "seit": "R022",
+  "anlass": [
+   {
+    "kennung": "R022-13",
+    "stelle": "Das Bad ist auf etwa fünfzig Grad beheizt"
+   }
+  ]
+ },
+ {
+  "thema": "Quetschen eines Helfers beim Absenken der Hebebühne",
+  "seit": "R022",
+  "anlass": [
+   {
+    "kennung": "R022-14",
+    "stelle": "Der Auszubildende steht meist neben der Hebebühne und reicht Schrauben an"
+   }
+  ]
+ },
+ {
+  "thema": "Fehlende Rettungsausrüstung beim Behältereinstieg",
+  "seit": "R022",
+  "anlass": [
+   {
+    "kennung": "R022-11",
+    "stelle": "Es gibt keine Rettungsausrüstung"
+   }
+  ]
+ },
+ {
+  "thema": "Aufwirbelndes feines Restpulver im Silo",
+  "seit": "R022",
+  "anlass": [
+   {
+    "kennung": "R022-11",
+    "stelle": "ein weißes, feines Pulver"
+   }
+  ]
+ },
+ {
+  "thema": "Absturz auf steiler Leiter im Behälter",
+  "seit": "R022",
+  "anlass": [
+   {
+    "kennung": "R022-11",
+    "stelle": "Innen geht es über eine steile Leiter zwei Stockwerke nach unten"
    }
   ]
  }

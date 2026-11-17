@@ -1,0 +1,34 @@
+{
+ "runde": "R022",
+ "uebernommen": {
+  "merkmale": [
+   "a.fuehrungsgeraet",
+   "v.aufpumpen",
+   "u.enger_durchstieg"
+  ],
+  "gefaehrdungen": [
+   "g-anstossen-eng"
+  ],
+  "stammdaten": [
+   "ausfuehrung/balancer_zange",
+   "vorgang/aufpumpen",
+   "umgebung/enger_durchstieg",
+   "material/getriebe_schwer"
+  ],
+  "woerter": [
+   "balancer, servozange, punktschweißzange, manipulator, greifzange",
+   "aufpumpen, reifenkäfig",
+   "mannloch, einstiegsluke",
+   "stirnradgetriebe, schneckengetriebe"
+  ],
+  "regeln": [
+   "R140 Zange oder Greifzange am Balancer oder Manipulator",
+   "R141 Reifen aufpumpen mit Druckluft",
+   "R142 Enger Durchstieg",
+   "R143 Schwere Einzellast auch am Hebezeug von Hand geführt"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 33
+}
