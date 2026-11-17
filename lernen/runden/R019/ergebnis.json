@@ -1,0 +1,230 @@
+{
+ "runde": "R019",
+ "blind": true,
+ "regeln": 135,
+ "quote": 93,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 73,
+  "schritte": 78,
+  "maengel": 63
+ },
+ "faelle": [
+  {
+   "id": "R019-01",
+   "arbeitsplatz": "Fahrgestell schweißen und verzinkte Teile",
+   "branche": "Anhängerbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-02",
+   "arbeitsplatz": "Geländer schweißen und verzinken lassen, Verladen",
+   "branche": "Metallbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-03",
+   "arbeitsplatz": "Kanäle montieren in der Zwischendecke",
+   "branche": "Lüftungsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-04",
+   "arbeitsplatz": "Drechselbank und Schleifen",
+   "branche": "Drechslerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-05",
+   "arbeitsplatz": "Schleifstraße und Plattenlager",
+   "branche": "Plattenwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-06",
+   "arbeitsplatz": "Montage und Prüfstand mit Öl",
+   "branche": "Getriebebau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-07",
+   "arbeitsplatz": "Besäumen und Kappen am Rollengang",
+   "branche": "Sägewerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-08",
+   "arbeitsplatz": "Kaltumformpresse und Gewinderollen",
+   "branche": "Schraubenfabrik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-09",
+   "arbeitsplatz": "Kaltwalzgerüst mit Coil-Wagen und Abhaspelung",
+   "branche": "Walzwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-10",
+   "arbeitsplatz": "Montagebühne am Hallenrahmen im Obergeschoss",
+   "branche": "Stahlbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-11",
+   "arbeitsplatz": "Gerüststelle in der Produktionshalle bei laufendem Betrieb",
+   "branche": "Gerüstbau für Industrieanlagen",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-12",
+   "arbeitsplatz": "Drahtziehmaschine mit Beizbecken",
+   "branche": "Ziehwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-13",
+   "arbeitsplatz": "Formatkreissäge, Zuschnitt großer Platten allein",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-14",
+   "arbeitsplatz": "Abbinden von Hand mit Kettensäge und Kettenstemmer",
+   "branche": "Zimmerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-15",
+   "arbeitsplatz": "Glaslager und Verglasen mit Sauggerät",
+   "branche": "Fenster in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R019-16",
+   "arbeitsplatz": "Gleitschleifen und Trocknen",
+   "branche": "Oberflächentechnik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 29,
+   "verfehlt": 4
+  },
+  "2": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 13,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "6": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 9,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 6,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 10,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 7,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 93,
+  "getroffen": 87,
+  "rueckfrage": 0,
+  "verfehlt": 7,
+  "unbegruendet": 0,
+  "zBerechtigt": 47,
+  "zTypisch": 57,
+  "zUnbegruendet": 18
+ }
+}

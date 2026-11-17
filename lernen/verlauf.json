@@ -1041,5 +1041,65 @@
    }
   },
   "geschlossen": true
+ },
+ {
+  "runde": "R019",
+  "art": "pruef",
+  "datum": "2026-11-17",
+  "plaetze": 16,
+  "blind": true,
+  "feld": "bghm",
+  "mass": "schiedsrichter",
+  "quote": 93,
+  "getroffen": 87,
+  "gewertet": 94,
+  "wahrheitUnbegruendet": 0,
+  "zusatzBerechtigt": 47,
+  "zusatzTypisch": 57,
+  "zusatzUnbegruendet": 18,
+  "regeln": 135,
+  "jeFaktor": {
+   "1": {
+    "getroffen": 29,
+    "verfehlt": 4
+   },
+   "2": {
+    "getroffen": 4,
+    "verfehlt": 0
+   },
+   "3": {
+    "getroffen": 13,
+    "verfehlt": 1
+   },
+   "5": {
+    "getroffen": 3,
+    "verfehlt": 0
+   },
+   "6": {
+    "getroffen": 4,
+    "verfehlt": 0
+   },
+   "7": {
+    "getroffen": 9,
+    "verfehlt": 1
+   },
+   "8": {
+    "getroffen": 6,
+    "verfehlt": 0
+   },
+   "9": {
+    "getroffen": 10,
+    "verfehlt": 1
+   },
+   "10": {
+    "getroffen": 2,
+    "verfehlt": 0
+   },
+   "11": {
+    "getroffen": 7,
+    "verfehlt": 0
+   }
+  },
+  "geschlossen": false
  }
 ]
