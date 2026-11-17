@@ -1,8 +1,6 @@
 {"id":"R022-01","name":"R022-01","betrieb":{},"angaben":{},
  "stoffe":[
-  {"id":"s1","name":"Kältemittel","material":"kaeltemittel","sdb":null,"h":[]},
-  {"id":"s2","name":"Altöl","material":"oel_schmierstoff","sdb":null,"h":[]},
-  {"id":"s3","name":"Propan","material":"brenngas","sdb":null,"h":[]}],
+  {"id":"s1","name":"Propan","material":"brenngas","sdb":null,"h":[]}],
  "stationen":[{"nr":1,"name":"Wartung Kälteanlage im Technikraum","bereich":"Technikraum hinter dem Verkaufsraum","personen":1,"umgebung":["eng","sommerwaerme"],"angaben":{"last_kg":30},
   "schritte":[
    {"vorgang":"pruefen","ausfuehrung":"von_hand","material":[]},
@@ -15,6 +13,8 @@
    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage"]},
    {"vorgang":"kehren","ausfuehrung":"von_hand","material":["oel_schmierstoff","oelige_lappen"]}]}],
  "wuensche":[
+  {"text":"Kältemittelflasche mit Ventil","fehlt":"Kältemittel als Stoff mit Datenblatt; Material kaeltemittel ist kein Gefahrstoff-Stammdatum"},
+  {"text":"Altöl steht in einem Kanister in der Ecke","fehlt":"Altöl als Stoff mit Datenblatt; Material oel_schmierstoff ist kein Gefahrstoff-Stammdatum"},
   {"text":"liest er am Bedienfeld die Betriebswerte ab","fehlt":"Material für Kälteanlage im Betrieb (Kältekreislauf unter Druck); Schritt ohne Material"},
   {"text":"Zum Nachfüllen und Absaugen nimmt er eine Kältemittelflasche mit Ventil","fehlt":"Vorgang Kältemittel nachfüllen oder absaugen; hier nur als Umfüllen angenähert"},
   {"text":"ein Kollege hält zeitweise die Leiter","fehlt":"Es ist nicht beschrieben, was auf der Leiter getan wird; kein Schritt Arbeiten in der Höhe angelegt"},
