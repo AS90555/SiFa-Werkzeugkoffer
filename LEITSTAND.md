@@ -1,15 +1,16 @@
 # Leitstand
 
-Stand nach R022 und Beleg-Lauf B004. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R022 und Beleg-Lauf B005. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
 1. **Beleg-Lauf B004 zusammenführen:** `node beleg/zusammenfuehren.js B004`, Bericht ansehen, dann mit `--uebernehmen`.
-2. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
+2. **Beleg-Lauf B005 zusammenführen:** `node beleg/zusammenfuehren.js B005`, Bericht ansehen, dann mit `--uebernehmen`.
+3. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
 
 ## Wartet auf Andre
 
-Nichts.
+- **Freigabe-Paket F005:** 2 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F005.md`.
 
 ## Hinweise
 
@@ -26,7 +27,7 @@ Nichts.
 | Wörterbuch | 221 |
 | Regeln doppelt belegt | 35 von 144 (24 %) |
 | Regeln nur einfach geprüft | 6 |
-| Pflichten doppelt belegt | 19 von 20 |
+| Pflichten doppelt belegt | 20 von 20 |
 | Von Andre freigegeben | 34 Regeln, 19 Pflichten |
 | Freie Aufträge im Abdeckungsplan | 49 von 263 |
 
@@ -65,3 +66,4 @@ Nichts.
 | B002 | 36 | 15 | 19 | 2 | 0 | übernommen |
 | B003 | 36 | 21 | 14 | 1 | 0 | übernommen |
 | B004 | 20 | 4 | 16 | 0 | 0 | wartet auf Zusammenführen |
+| B005 | 19 | 1 | 18 | 0 | 0 | wartet auf Zusammenführen |

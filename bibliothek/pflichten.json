@@ -562,14 +562,16 @@
   "quellen": [
    {
     "id": "dguv-v52",
-    "stelle": null
-   },
-   {
-    "id": "betrsichv",
-    "stelle": null
+    "stelle": "§ 26 Abs. 1"
    }
   ],
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-17",
+   "pruefungen": 2,
+   "fingerabdruck": "017f6d8c46d7b709"
+  }
  }
 ]
