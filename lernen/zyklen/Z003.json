@@ -1,0 +1,28 @@
+{
+ "id": "Z003",
+ "begonnen": "2026-11-17",
+ "plan": [
+  "lern",
+  "lern",
+  "pruef"
+ ],
+ "modelle": {
+  "hinweis": "Welches Modell welche Rolle übernimmt. Immer das kleinste, das die Eichprobe besteht (docs/05_Lernkreislauf.md). haiku ist das kleinste, sonnet das mittlere.",
+  "sprecher": "haiku",
+  "uebersetzer": "sonnet",
+  "schiedsrichter": "sonnet",
+  "lueckenschliesser": "sonnet",
+  "stichprobe": "sonnet"
+ },
+ "runden": [
+  "R017"
+ ],
+ "versuche": {
+  "R017:sprecher": 1
+ },
+ "hinweise": [
+  "Vor Runde 1: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen."
+ ],
+ "belegquoteZuBeginn": 25,
+ "fertig": false
+}

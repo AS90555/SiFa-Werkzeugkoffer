@@ -1,0 +1,56 @@
+{
+ "runde": "R017",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R017-01",
+   "auftrag": "a169",
+   "branche": "Holzimprägnierung",
+   "bereich": "Kesseldruckanlage, Beschicken und Entleeren"
+  },
+  {
+   "kennung": "R017-02",
+   "auftrag": "a211",
+   "branche": "Industriemontage",
+   "bereich": "Maschinenumzug mit Hubwagen und Kran"
+  },
+  {
+   "kennung": "R017-03",
+   "auftrag": "a184",
+   "branche": "Maschinenbau",
+   "bereich": "Lackieren großer Gestelle im Freien"
+  },
+  {
+   "kennung": "R017-04",
+   "auftrag": "a195",
+   "branche": "Fahrzeugbau",
+   "bereich": "Endkontrolle und Rollenprüfstand"
+  },
+  {
+   "kennung": "R017-05",
+   "auftrag": "a190",
+   "branche": "Gerätebau",
+   "bereich": "Pulverlackierung kleiner Teile"
+  },
+  {
+   "kennung": "R017-06",
+   "auftrag": "a207",
+   "branche": "Schlosserei",
+   "bereich": "Gitterroste zuschneiden und schweißen"
+  },
+  {
+   "kennung": "R017-07",
+   "auftrag": "a174",
+   "branche": "Tischlerei",
+   "bereich": "Furnierpresse und Leimauftrag"
+  },
+  {
+   "kennung": "R017-08",
+   "auftrag": "a215",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Abgasuntersuchung und Probelauf in der Halle"
+  }
+ ]
+}
