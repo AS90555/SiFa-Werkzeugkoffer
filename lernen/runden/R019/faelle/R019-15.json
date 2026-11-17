@@ -1,0 +1,23 @@
+{"id":"R019-15","name":"R019-15","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Übergabeplatz Glaseinheiten","bereich":"Glaslager","personen":2,"umgebung":["halle","kalt","taktarbeit","zeitdruck","zwangshaltung","boden"],"angaben":{"last_kg":40},
+  "schritte":[
+   {"vorgang":"hoehenarbeit","ausfuehrung":"leiter","material":["glaspaket"]},
+   {"vorgang":"heben","ausfuehrung":"vakuumheber","material":["isolierglas","elektro_betriebsmittel"]},
+   {"vorgang":"einsetzen","ausfuehrung":"von_hand","material":["isolierglas","rahmen"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":[]}]}],
+ "wuensche":[
+  {"text":"die oberen Scheiben holt man mit der Leiter aus dem Gestell","fehlt":"Kein Vorgang für Entnehmen aus dem Gestell; hilfsweise Arbeiten in der Höhe mit Leiter"},
+  {"text":"Glasreste kommen in den Container","fehlt":"Material Glasbruch oder Glasreste fehlt"},
+  {"text":"Eingerichtet wird der Stand von der Vorarbeiterin","fehlt":"Kein Schritt, da nicht beschrieben ist, was beim Einrichten getan wird"},
+  {"text":"Die Scheibe wird über dem Rahmen gedreht und mit der Hand ausgerichtet","fehlt":"Vorgang Ausrichten von Hand ist hilfsweise Einsetzen, Fügen"}],
+ "maengel":[
+  {"text":"Die Anzeige am Sauggerät leuchtet gelb","gegenstand":"Sauggerät"},
+  {"text":"die Prüfplakette fehlt","art":"organisation","gegenstand":"Sauggerät, Vakuumheber"},
+  {"text":"Das Stromkabel liegt quer über den Boden des Gangs","art":"elektrik"},
+  {"text":"Das Stromkabel liegt quer über den Boden des Gangs","art":"weg_boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"die oberen Scheiben holt man mit der Leiter aus dem Gestell","sicher":false},
+  {"schritt":2,"stelle":"Angehoben wird mit einem elektrischen Sauggerät, einem Vakuumheber an einem Kran","sicher":true},
+  {"schritt":3,"stelle":"Die Scheibe wird über dem Rahmen gedreht und mit der Hand ausgerichtet","sicher":false},
+  {"schritt":4,"stelle":"gereinigt wird der Boden mit dem Besen","sicher":true}]}

@@ -1,0 +1,128 @@
+{
+ "id": "R019-01",
+ "name": "R019-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Fahrgestellbau, Chassis schweißen",
+   "bereich": "Fahrgestellbau",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "dunkel",
+    "sommerwaerme"
+   ],
+   "angaben": {
+    "last_kg": 80
+   },
+   "schritte": [
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "schweissen",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "stahlprofil",
+      "druckgasflasche"
+     ]
+    },
+    {
+     "vorgang": "trennschleifen",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "stahlgestell"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlgestell"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Kisten mit verzinkten Bauteilen vom Zinkbad stehen auf dem Nachbartisch und sind oft noch warm",
+   "fehlt": "Kein Schritt beschrieben, wer die warmen Teile anfasst; Material heißes Werkstück nur bei Handhabung eintragbar"
+  },
+  {
+   "text": "Rüsten und Reinigen macht der Schweißer selbst am Ende der Schicht; Drähte und Gasflaschen wechselt der Lagerist",
+   "fehlt": "Es wird nicht beschrieben, was an der Maschine getan wird; kein Sonderbetrieb-Schritt angelegt"
+  },
+  {
+   "text": "Profile kommen als Zuschnitt vom Lager auf einem Rollwagen",
+   "fehlt": "Kein Schritt für das Anliefern genannt, keine Ausführung zugeordnet"
+  },
+  {
+   "text": "Einschichtbetrieb, zeitweise hilft ein Helfer beim Anreichen",
+   "fehlt": "Schichtbetrieb und wechselnde Personenzahl sind in den Stammdaten nicht vorgesehen; 2 Schweißer als Personenzahl eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Schweißschutzvorhänge sind teils eingerissen",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schweißschutzvorhänge"
+  },
+  {
+   "text": "der Boden ist mit Schlacke und Metallresten übersät",
+   "art": "weg_boden",
+   "gegenstand": "Boden am Arbeitsplatz"
+  },
+  {
+   "text": "Geschliffen wird mit der Handflex, ohne Absaugung",
+   "art": "lueftung",
+   "gegenstand": "Absaugung beim Schleifen"
+  },
+  {
+   "text": "Die Beleuchtung ist eher dürftig",
+   "art": "beleuchtung",
+   "gegenstand": "Arbeitsplatzbeleuchtung"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "ausgerichtet und mit Spanneisen fixiert",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Geheftet wird von Hand mit dem MAG-Schweißgerät ... Schutzgas aus einer großen Flasche",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Geschliffen wird mit der Handflex",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "mit dem Hallenkran umgesetzt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "oft auch zu zweit von Hand gehoben",
+   "sicher": true
+  }
+ ]
+}

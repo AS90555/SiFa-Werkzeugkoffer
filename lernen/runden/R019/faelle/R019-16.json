@@ -1,0 +1,28 @@
+{"id":"R019-16","name":"R019-16","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Gleitschleifkompound","material":"lack","sdb":null,"h":[]},
+  {"id":"s2","name":"alkalisches Reinigungsmittel","material":"beize_saeure","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Trommelgleitschleifmaschine mit Trockner","bereich":"Gleitschleifen und Trocknen","personen":1,"umgebung":["werkstatt","laerm_umgebung","boden"],"angaben":{"last_kg":50},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["stein_komposit"]},
+   {"vorgang":"maschine_bedienen","ausfuehrung":"halbautomat","material":["metallwerkstueck","stein_komposit"]},
+   {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["beize_saeure"]},
+   {"vorgang":"einbrennen","ausfuehrung":"von_hand","material":["heisses_werkstueck","heisses_maschinenteil"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"hochdruckreiniger","material":["anlage"]}]}],
+ "wuensche":[
+  {"text":"eine zweite kommt zum Be- und Entladen dazu","fehlt":"Personenzahl 1 gesetzt, zweite Person nur zeitweise"},
+  {"text":"Schleifkörpern aus Keramik","fehlt":"Material Schleifkörper fehlt, hilfsweise Stein, Keramik gewählt"},
+  {"text":"Dem Wasser wird ein Gleitschleifkompound zugegeben","fehlt":"Material Gleitschleifkompound fehlt, hilfsweise Stoff mit Material Lack geführt, kein Schritt"},
+  {"text":"Der Trockner läuft auf neunzig Grad","fehlt":"Vorgang Trocknen im Trockner, hilfsweise Einbrennen, Trocknen im Ofen"},
+  {"text":"Eingerichtet wird die Maschine vom Meister","fehlt":"Kein Schritt, da nicht beschrieben ist, was beim Einrichten getan wird"}],
+ "maengel":[
+  {"text":"das offen auf dem Rand des Beckens steht","art":"stoff_lagerung","gegenstand":"alkalisches Reinigungsmittel"},
+  {"text":"Die Trommel läuft nach dem Abschalten noch nach","art":"schutzeinrichtung","gegenstand":"Trommel ohne Zuhaltung"},
+  {"text":"die Abdeckung ist lose","art":"schutzeinrichtung","gegenstand":"Abdeckung der Trommel"},
+  {"text":"Der Boden ist ständig nass und mit Schleifschlamm bedeckt","art":"weg_boden"},
+  {"text":"die Türen haben kein Schutzgitter, und man fasst die Teile direkt nach dem Ausschleusen an","art":"schutzeinrichtung","gegenstand":"Türen des Trockners"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Körper kommen in Fässern mit fünfzig Kilo an, sie werden per Hand in die Trommel gekippt","sicher":true},
+  {"schritt":2,"stelle":"Die Trommel dreht sich mit Schleifkörpern aus Keramik, dazwischen Metallteile","sicher":false},
+  {"schritt":3,"stelle":"zum Entfetten ein alkalisches Reinigungsmittel","sicher":false},
+  {"schritt":4,"stelle":"Der Trockner läuft auf neunzig Grad ... man fasst die Teile direkt nach dem Ausschleusen an","sicher":false},
+  {"schritt":5,"stelle":"gereinigt wird am Ende der Schicht mit dem Hochdruckreiniger","sicher":true}]}

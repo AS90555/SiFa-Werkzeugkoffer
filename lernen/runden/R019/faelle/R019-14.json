@@ -1,0 +1,26 @@
+{"id":"R019-14","name":"R019-14","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Benzin für die Motorsäge","material":"benzin","sdb":null,"h":[]},
+  {"id":"s2","name":"grünliche Holzschutzgrundierung","material":"impraegnierung","sdb":null,"h":[]}],
+ "stationen":[{"nr":1,"name":"Abbundplatz Handabbund","bereich":"Zimmerei","personen":2,"umgebung":["aussen","witterung","boden","laerm_umgebung","zwangshaltung"],"angaben":{"last_kg":80},
+  "schritte":[
+   {"vorgang":"saegen","ausfuehrung":"handmaschine","material":["kantel","impraegnierung","benzin","holzstaub"]},
+   {"vorgang":"hobeln_fraesen_bohren","ausfuehrung":"handmaschine","material":["kantel","impraegnierung","holzstaub"]},
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["kantel","impraegnierung"]},
+   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"Die Griffe vibrieren spürbar bis in die Arme","fehlt":"Keine Umgebung oder Angabe für Hand-Arm-Vibration"},
+  {"text":"Balken sechzehn mal vierundzwanzig Zentimeter, bis fünf Meter lang","fehlt":"Material Konstruktionsholz-Balken fehlt, hilfsweise Kantel gewählt"},
+  {"text":"Die Balken sind mit einer grünlichen Holzschutzgrundierung gestrichen, die noch feucht ist","fehlt":"Kein Schritt für das Streichen beschrieben; Grundierung nur als Stoff am Material geführt"},
+  {"text":"Die Balken werden zum Drehen von Hand angehoben und hin und her getragen","fehlt":"Griffe je Stunde nicht genannt"},
+  {"text":"Gerüstet wird am Morgen","fehlt":"Kein Schritt, da nicht beschrieben ist, was beim Rüsten getan wird"}],
+ "maengel":[
+  {"text":"Sie liegen nur lose auf zwei Böcken, und der Balken rollt beim Ansetzen der Säge gern weg","art":"last_ungesichert","gegenstand":"Balken auf Böcken"},
+  {"text":"die Kettenbremse klemmt leicht","art":"schutzeinrichtung","gegenstand":"Kettenbremse der Motorsäge"},
+  {"text":"Der Boden ist matschig, bei Regen steht hier Wasser","art":"weg_boden"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"einer führt die Kettensäge ... benzinbetriebene Motorsäge","sicher":true},
+  {"schritt":2,"stelle":"Für die Zapfenlöcher kommt der elektrische Kettenstemmer zum Einsatz","sicher":false},
+  {"schritt":3,"stelle":"Die Balken werden zum Drehen von Hand angehoben und hin und her getragen","sicher":true},
+  {"schritt":4,"stelle":"die Kette wird vom Gesellen nachgeschärft","sicher":false},
+  {"schritt":5,"stelle":"Am Ende des Tages wird mit der Schaufel das Sägemehl zusammengeschoben","sicher":true}]}

@@ -1,0 +1,22 @@
+{"id":"R019-13","name":"R019-13","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[{"nr":1,"name":"Formatkreissäge","bereich":"Zuschnitt","personen":1,"umgebung":["boden","dunkel"],"angaben":{"griffe_tag":30},
+  "schritte":[
+   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["plattenware"]},
+   {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["plattenware","holzstaub"]},
+   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub"]}]}],
+ "wuensche":[
+  {"text":"Hier arbeitet eine Person allein, es kommt nur ab und zu jemand zum Abholen","fehlt":"Unklar, ob außer Ruf- und Sichtweite; Umgebung Alleinarbeit nicht gewählt"},
+  {"text":"ein Stapel wiegt schnell über dreißig Kilo","fehlt":"Gewicht je Griff (einzelne Platte) nicht genannt, last_kg offen"},
+  {"text":"Eingerichtet wird die Säge vom Schreiner selbst","fehlt":"Kein Schritt, da nicht beschrieben ist, was beim Einrichten getan wird"},
+  {"text":"Die Skala am Anschlag ist verschmiert und kaum lesbar","fehlt":"Mangelart für schlecht lesbare Skala fehlt"}],
+ "maengel":[
+  {"text":"Die Schutzhaube über dem Sägeblatt ist hochgeklappt, weil sie beim Schneiden stört","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Formatkreissäge"},
+  {"text":"Der Spaltkeil sitzt sichtbar schief","art":"schutzeinrichtung","gegenstand":"Spaltkeil der Formatkreissäge"},
+  {"text":"Auf dem Boden liegen Späne und Schnittreste, und man steht beim Schieben oft auf einem Verschnittstück","art":"weg_boden"},
+  {"text":"Die Absaugung am Tisch ist klein, ein Großteil des Staubs geht in die Luft","art":"lueftung","gegenstand":"Absaugung am Tisch"},
+  {"text":"Das Licht ist eher schwach, an der Decke fehlt eine Leuchte","art":"beleuchtung"}],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Die Platte wird vom Stapel gezogen, über den Tisch gehoben und an den Parallelanschlag geschoben","sicher":true},
+  {"schritt":2,"stelle":"Die Säge hat ein großes Sägeblatt ... der Schiebeschlitten wird von Hand geführt","sicher":true},
+  {"schritt":3,"stelle":"gereinigt wird am Ende der Schicht mit dem Besen","sicher":true}]}

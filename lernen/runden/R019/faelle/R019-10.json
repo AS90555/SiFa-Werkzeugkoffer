@@ -1,0 +1,118 @@
+{
+ "id": "R019-10",
+ "name": "R019-10",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Stahlbau Hauptträger Obergeschoss",
+   "bereich": "Baustelle Stahlhalle",
+   "personen": 2,
+   "umgebung": [
+    "witterung",
+    "laerm_umgebung",
+    "zwangshaltung",
+    "zeitdruck"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "hubarbeitsbuehne",
+     "material": []
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": []
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Stahlträger werden vom Autokran eingehoben.",
+   "fehlt": "Keine Ausführung Autokran oder Mobilkran; als Kran/Hebezeug abgebildet."
+  },
+  {
+   "text": "Der Schlagschrauber ist sehr laut und vibriert in den Händen.",
+   "fehlt": "Keine Angabe oder Umgebung für Hand-Arm-Vibration."
+  },
+  {
+   "text": "Dann werden die hochfesten Schrauben eingesetzt",
+   "fehlt": "Kein Material für Schrauben und Verbindungsmittel."
+  },
+  {
+   "text": "Gegen Mittag weht es stärker, der Korb pendelt leicht.",
+   "fehlt": "Kein eigener Zustand für Wind auf der Hubarbeitsbühne; nur Umgebung Witterung."
+  },
+  {
+   "text": "Zu zweit arbeiten die Monteure auf einer Hubarbeitsbühne, die der Kranfahrer neben den Stützen positioniert.",
+   "fehlt": "Keine Umgebung für Baustelle und Zusammenarbeit mit Kranfahrer; Baustelle ist kein Bereich in den Stammdaten."
+  },
+  {
+   "text": "Die Schrauben liegen lose in einem Kübel am Boden",
+   "fehlt": "Kein klarer Mangel oder Material; Absturzgefahr herabfallender Teile nicht abbildbar."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Korb der Hubarbeitsbühne hat an einer Seite eine Lücke im Geländer, weil dort noch Material steht.",
+   "art": "absturzsicherung",
+   "gegenstand": "Geländer des Korbs der Hubarbeitsbühne"
+  },
+  {
+   "text": "Sicherungsseile fehlen an der Bühne.",
+   "art": "absturzsicherung",
+   "gegenstand": "Sicherungsseile an der Hubarbeitsbühne"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Zu zweit arbeiten die Monteure auf einer Hubarbeitsbühne",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Stahlträger werden vom Autokran eingehoben",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "schieben die Monteure den Träger mit dem Hammer und dem Dorn in die Löcher",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "zuerst mit dem Schlagschrauber, einem Druckluftgerät, vorgezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "danach mit dem Drehmomentschlüssel auf das Sollmoment gebracht",
+   "sicher": true
+  }
+ ]
+}

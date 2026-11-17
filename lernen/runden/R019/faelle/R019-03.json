@@ -1,0 +1,130 @@
+{
+ "id": "R019-03",
+ "name": "R019-03",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Lüftungskanäle in der Zwischendecke",
+   "bereich": "Rohbau Bürogebäude, Zwischendecke",
+   "personen": 2,
+   "umgebung": [
+    "zwangshaltung",
+    "eng",
+    "boden"
+   ],
+   "angaben": {
+    "last_kg": 20
+   },
+   "schritte": [
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "hubarbeitsbuehne",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "leiter",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "zerspanen_metall",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "blech"
+     ]
+    },
+    {
+     "vorgang": "kleben",
+     "ausfuehrung": "von_hand"
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Abdichtungsmasse wird aus Kartuschen mit der Handpresse gedrückt",
+   "fehlt": "Kein passendes Material für Dichtmasse in den Stammdaten; Schritt ohne Material, Stoff nicht eingetragen"
+  },
+  {
+   "text": "Staub von Mineralwolle fällt von oben herunter, weil Dämmmatten daneben liegen",
+   "fehlt": "Kein Material oder Stoff für Mineralwollstaub"
+  },
+  {
+   "text": "Die Beleuchtung ist eine Baustellenlampe, die an einem Kabel hängt",
+   "fehlt": "Keine ausdrückliche Aussage zu schwach; Umgebung dunkel nicht gewählt"
+  },
+  {
+   "text": "Der Platz liegt im Rohbau eines Bürogebäudes, ein Helfer am Boden",
+   "fehlt": "Baustelle als Umgebung und Helfer nicht in Stammdaten; 2 Monteure eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "einem Kabel hängt, das über den Boden läuft",
+   "art": "elektrik",
+   "gegenstand": "Kabel der Baustellenlampe auf dem Boden"
+  },
+  {
+   "text": "Die Leitern stehen einfach an der Wand",
+   "gegenstand": "Leitern ohne erkennbare Sicherung"
+  },
+  {
+   "text": "Gearbeitet wird von einer fahrbaren Arbeitsbühne, zum Teil aber auch von Leitern, weil die Bühne nicht überall hinkommt",
+   "art": "arbeitsweise",
+   "gegenstand": "Arbeit von Leitern in der Zwischendecke"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "von einer fahrbaren Arbeitsbühne",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "zum Teil aber auch von Leitern",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Rundkanäle aus verzinktem Blech auf Gewindestangen gehängt und mit Schellen verbunden",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Geschnitten wird das Blech mit der Blechschere und einer Nibbelmaschine",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Bohrungen macht man mit dem Akkuschrauber",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Abdichtungsmasse wird aus Kartuschen mit der Handpresse gedrückt",
+   "sicher": false
+  }
+ ]
+}

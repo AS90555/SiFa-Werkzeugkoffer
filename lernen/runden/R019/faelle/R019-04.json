@@ -1,0 +1,142 @@
+{
+ "id": "R019-04",
+ "name": "R019-04",
+ "betrieb": {},
+ "angaben": {
+  "hartholz": true
+ },
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Öle und Wachse für die Oberflächen",
+   "material": "holzoel",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s2",
+   "name": "Lösemittel für die Reinigung",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Drechselwerkstatt",
+   "bereich": "Holzdrechselei",
+   "personen": 2,
+   "umgebung": [
+    "boden",
+    "laerm_umgebung"
+   ],
+   "angaben": {
+    "hartholz": true
+   },
+   "schritte": [
+    {
+     "vorgang": "schleifen",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "massivholzteil",
+      "holzstaub"
+     ]
+    },
+    {
+     "vorgang": "schleifen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "massivholzteil",
+      "holzstaub"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Standdrechselbank, Holz zwischen Spitzen mit Drehmeißeln bearbeitet, hohe Drehzahl, Hand am Eisen",
+   "fehlt": "Kein Vorgang für Drechseln von Holz; Schritt weggelassen"
+  },
+  {
+   "text": "Das Werkzeug schärft er an einer Schleifscheibe am Tisch",
+   "fehlt": "Kein Vorgang für Werkzeug schärfen"
+  },
+  {
+   "text": "Öle und Wachse für die Oberflächen stehen in offenen Dosen",
+   "fehlt": "Auftragen der Öle und Wachse nicht beschrieben, daher kein Schritt"
+  },
+  {
+   "text": "Die Bank rüstet der Drechsler selbst",
+   "fehlt": "Nicht beschrieben, was getan wird; kein Sonderbetrieb-Schritt"
+  },
+  {
+   "text": "Späne fliegen durch den Raum",
+   "fehlt": "Kein Merkmal für Späneflug"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "man arbeitet fast nur mit der Hand am Eisen, ohne Schutzscheibe",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzscheibe der Drechselbank"
+  },
+  {
+   "text": "Eine Absaugung hängt am Rand, funktioniert aber nur halb",
+   "art": "lueftung",
+   "gegenstand": "Absaugung der Drechselbank"
+  },
+  {
+   "text": "Öle und Wachse für die Oberflächen stehen in offenen Dosen auf dem Regal, dazu Lösemittel",
+   "art": "stoff_lagerung",
+   "gegenstand": "offene Dosen mit Öl, Wachs und Lösemittel"
+  },
+  {
+   "text": "Der Boden ist mit Spänen bedeckt",
+   "art": "weg_boden",
+   "gegenstand": "Boden mit Spänen"
+  },
+  {
+   "text": "die Steckdosenleiste liegt dort, wo die Späne liegen",
+   "art": "elektrik",
+   "gegenstand": "Steckdosenleiste auf dem Boden"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "geschliffen, am Bandschleifer",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "per Hand mit Schleifpapier und Schleifschwamm",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Lösemittel für die Reinigung",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Zum Schichtende wird gekehrt",
+   "sicher": true
+  }
+ ]
+}

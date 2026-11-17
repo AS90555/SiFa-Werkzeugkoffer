@@ -1,0 +1,157 @@
+{
+ "id": "R019-12",
+ "name": "R019-12",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Beizsäure",
+   "material": "beize_saeure",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Drahtziehmaschine und Beizbecken",
+   "bereich": "Drahtziehen",
+   "personen": 2,
+   "umgebung": [
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "rohr_rundmaterial"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "rohr_rundmaterial"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "beize_saeure"
+     ]
+    },
+    {
+     "vorgang": "beizen",
+     "ausfuehrung": "tauchbad",
+     "material": [
+      "beize_saeure"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "beize_saeure"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Draht kommt als Ring vom Haspel, wird vorne angespitzt und mit der Zange durch den Ziehstein gefädelt, dann auf die Trommel gewickelt.",
+   "fehlt": "Kein Vorgang für Drahtziehen; Material Draht fehlt (Rohre, Rundstahl, Coils nur näherungsweise); Schnittgefahr durch angespitzten Draht nicht abbildbar."
+  },
+  {
+   "text": "Die Maschine läuft mit Ziehmittel, es tropft und spritzt",
+   "fehlt": "Zusammensetzung des Ziehmittels unbekannt, nur als Öl und Schmierstoff eingetragen."
+  },
+  {
+   "text": "Beim Nachfüllen gießt man die Säure aus einem Kanister, ... der Dunst zieht in die Halle.",
+   "fehlt": "Kein sicheres Material für Säuredunst; nebel_aerosol und daempfe_loesemittel passen nicht eindeutig."
+  },
+  {
+   "text": "eine offene Wanne mit Säure, die beheizt wird",
+   "fehlt": "Kein Material oder Merkmal für beheiztes Säurebad."
+  },
+  {
+   "text": "Die Körbe mit dem Draht hängen am Kran und werden von Hand angehängt.",
+   "fehlt": "Material Drahtkorb fehlt; als Rundmaterial abgebildet."
+  },
+  {
+   "text": "Das Spülbecken daneben ist voll.",
+   "fehlt": "Unklar, was voll bedeutet; weder Vorgang noch Mangel sicher zuzuordnen."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "der Boden davor ist nass und glitschig",
+   "art": "weg_boden",
+   "gegenstand": "Boden vor der Drahtziehmaschine"
+  },
+  {
+   "text": "Am Auslauf liegt ein Haufen Drahtreste, die sich um die Füße wickeln können.",
+   "art": "weg_boden",
+   "gegenstand": "Drahtreste am Auslauf"
+  },
+  {
+   "text": "Hinten steht das Beizbecken, eine offene Wanne mit Säure",
+   "art": "stoff_lagerung",
+   "gegenstand": "offenes Beizbecken"
+  },
+  {
+   "text": "der Deckel der Absaugung ist verrutscht und der Dunst zieht in die Halle",
+   "art": "lueftung",
+   "gegenstand": "Absaugung am Beizbecken"
+  },
+  {
+   "text": "wobei die Beize am Boden verteilt wird",
+   "art": "weg_boden",
+   "gegenstand": "Boden mit verteilter Beize"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "mit der Zange durch den Ziehstein gefädelt, dann auf die Trommel gewickelt",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Ziehsteine ... werden von Hand gewechselt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Körbe mit dem Draht hängen am Kran und werden von Hand angehängt",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Beim Nachfüllen gießt man die Säure aus einem Kanister",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Beizbecken, eine offene Wanne mit Säure",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Bei der Reinigung spritzt man mit dem Schlauch",
+   "sicher": true
+  }
+ ]
+}

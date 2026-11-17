@@ -1,0 +1,111 @@
+{
+ "id": "R019-02",
+ "name": "R019-02",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Geländerbau und Verladen",
+   "bereich": "Geländerbau",
+   "personen": 1,
+   "umgebung": [
+    "eng",
+    "fahrverkehr",
+    "kalt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "saegen_metall",
+     "ausfuehrung": "stationaer_handvorschub",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "schweissen",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "trennschleifen",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "stahlprofil"
+     ]
+    },
+    {
+     "vorgang": "ziehen_schieben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlprofil"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Teile werden per Hand auf den Lkw geschoben und mit Gurten gesichert",
+   "fehlt": "Kein Vorgang für Verladen und Ladungssichern mit Gurten; nur das Schieben als Näherung eingetragen"
+  },
+  {
+   "text": "Geländer bis zu sechs Meter lang, wiegen mehrere Zentner",
+   "fehlt": "Kein genaues Gewicht genannt, daher keine Angabe last_kg"
+  },
+  {
+   "text": "Die Säge rüstet der Schweißer selbst, Gurte und Stapelhilfen hält der Vorarbeiter bereit",
+   "fehlt": "Es wird nicht beschrieben, was beim Rüsten getan wird; kein Sonderbetrieb-Schritt"
+  },
+  {
+   "text": "Gearbeitet wird im Zweischichtbetrieb, zeitweise hilft ein Mitarbeiter",
+   "fehlt": "Schichtbetrieb und wechselnde Personenzahl nicht in den Stammdaten"
+  },
+  {
+   "text": "Das Schweißgerät arbeitet mit Mantelgas",
+   "fehlt": "Keine Flasche oder Lagerung genannt, daher kein Material Druckgasflasche eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "der Gang zur Rampe ist teilweise zugestellt",
+   "art": "weg_boden",
+   "gegenstand": "Gang zur Rampe"
+  },
+  {
+   "text": "Stapel mit Rohren stehen an der Seite",
+   "gegenstand": "Rohrstapel am Rand des Arbeitsplatzes"
+  },
+  {
+   "text": "Zum Verladen fährt ein Gabelstapler rückwärts an die Rampe, die Teile werden per Hand auf den Lkw geschoben",
+   "art": "arbeitsweise",
+   "gegenstand": "Handverladen neben rückwärts fahrendem Stapler"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "werden auf der Säge abgelängt",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Heften geschieht mit einem Schweißgerät, das mit Mantelgas arbeitet, von Hand",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Danach werden die Nähte nachgeschliffen",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "die Teile werden per Hand auf den Lkw geschoben",
+   "sicher": false
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "R019-09",
+ "name": "R019-09",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Walzgerüst Kaltwalzen",
+   "bereich": "Kaltwalzen",
+   "personen": 4,
+   "umgebung": [
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "bandstahl"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "bandstahl"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "bandstahl",
+      "oel_schmierstoff",
+      "nebel_aerosol"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "anlage",
+      "schweres_geraet"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "oel_schmierstoff"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Eingangsende des Bandes ist scharf, die Kanten stehen teilweise ab, und man greift beim Einfädeln direkt daran.",
+   "fehlt": "Kein Material oder keine Angabe für scharfe Kanten und Schnittgefahr; Einfädeln ist als Handhaben von Hand nur näherungsweise abgebildet."
+  },
+  {
+   "text": "Am Auslauf wird das Band zu einem neuen Coil aufgehaspelt, dabei läuft es mit ordentlich Tempo, und die Bandkante flattert.",
+   "fehlt": "Kein Vorgang für Walzen oder Auf- und Abhaspeln, keine Angabe für bewegtes, flatterndes Band."
+  },
+  {
+   "text": "Das Band kommt als Coil mit etwa zwölf Tonnen auf einem Wagen an.",
+   "fehlt": "Keine passende Angabe für die Last eines Krans (last_kg gilt je Griff von Hand), Gewicht nicht eingetragen."
+  },
+  {
+   "text": "Walzenwechsel macht der Instandhalter mit dem Kran.",
+   "fehlt": "Kein Vorgang Walzenwechsel; als Werkzeugwechsel mit Hebezeug abgebildet."
+  },
+  {
+   "text": "Gereinigt wird mit Lappen und Wasserstrahl.",
+   "fehlt": "Wasserstrahl ohne Druckangabe, daher keine Ausführung Hochdruckreiniger gewählt."
+  },
+  {
+   "text": "Das Walzöl spritzt, man sieht einen feinen Nebel in der Luft",
+   "fehlt": "Walzöl ist als Stoff mit Datenblatt nicht anlegbar, denn Öl und Schmierstoff ist kein Gefahrstoff-Stammdatum; nur als Material der Schritte eingetragen."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Auf dem Boden vor dem Gerüst stehen Öllachen, und die Gitterroste sind teilweise glatt.",
+   "art": "weg_boden",
+   "gegenstand": "Boden und Gitterroste vor dem Gerüst"
+  },
+  {
+   "text": "der Boden in der Ecke ist voll Schrott",
+   "art": "weg_boden",
+   "gegenstand": "Boden in der Ecke"
+  },
+  {
+   "text": "die Ölabscheider sind alt",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Ölabscheider"
+  },
+  {
+   "text": "dabei stehen zwei Leute direkt unter der hängenden Last",
+   "art": "arbeitsweise",
+   "gegenstand": "Personen unter hängender Last beim Walzenwechsel"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "wird mit dem Kran vom Wagen auf die Abhaspelung gehoben",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "dann in das Gerüst eingefädelt ... man greift beim Einfädeln direkt daran",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Am Auslauf wird das Band zu einem neuen Coil aufgehaspelt; Das Walzöl spritzt, man sieht einen feinen Nebel",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Walzenwechsel macht der Instandhalter mit dem Kran",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird mit Lappen und Wasserstrahl",
+   "sicher": true
+  }
+ ]
+}

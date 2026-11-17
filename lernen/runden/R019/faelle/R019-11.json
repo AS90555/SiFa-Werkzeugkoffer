@@ -1,0 +1,146 @@
+{
+ "id": "R019-11",
+ "name": "R019-11",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Gerüststellen an Förderanlage",
+   "bereich": "Produktionshalle",
+   "personen": 4,
+   "umgebung": [
+    "halle",
+    "fahrverkehr",
+    "laerm_umgebung",
+    "boden",
+    "dunkel",
+    "zwangshaltung"
+   ],
+   "angaben": {
+    "last_kg": 40
+   },
+   "schritte": [
+    {
+     "vorgang": "bewegen",
+     "ausfuehrung": "gabelstapler",
+     "material": [
+      "palette_gestapelt"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlgestell"
+     ]
+    },
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlgestell"
+     ]
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "leiter",
+     "material": []
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "stahlgestell"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Rahmen aus Stahl und die Gerüstbeläge aus Holz liegen auf Paletten",
+   "fehlt": "Kein Material für Gerüstbeläge aus Holz."
+  },
+  {
+   "text": "Gerüst gestellt ... Abgebaut wird am Ende der Schicht in umgekehrter Reihenfolge",
+   "fehlt": "Kein Vorgang für Gerüstauf- und -abbau; als Montieren und Handhaben abgebildet."
+  },
+  {
+   "text": "Die Kupplungen werden von Hand angezogen",
+   "fehlt": "Keine Zuordnung zu Verschrauben, da Gerüstkupplungen und Material fehlen."
+  },
+  {
+   "text": "Ein Abschnitt des Gerüsts ist noch unverankert, weil die Leitungsbrücke direkt daneben verläuft und die Wand fehlt.",
+   "fehlt": "Kein Material oder Merkmal für nicht standsicheres Gerüst."
+  },
+  {
+   "text": "der Betrieb weiterläuft, während ein Gerüst ... gestellt wird",
+   "fehlt": "Umgebung Fremdfirma nicht gewählt, da das Protokoll nicht sagt, dass die Gerüstbauer eine Fremdfirma sind."
+  },
+  {
+   "text": "bei Wartung an einer Förderanlage",
+   "fehlt": "Anlage in Wartung wird nur als Umgebung (Lärm) genannt, kein Schritt an der Anlage."
+  }
+ ],
+ "maengel": [
+  {
+   "text": "dazu steht man oft auf einer Leiter, die man nicht festgemacht hat",
+   "art": "absturzsicherung",
+   "gegenstand": "Leiter ohne Sicherung"
+  },
+  {
+   "text": "Ein Abschnitt des Gerüsts ist noch unverankert",
+   "art": "arbeitsweise",
+   "gegenstand": "unverankerter Gerüstabschnitt"
+  },
+  {
+   "text": "der Fahrer sieht die Männer nicht gut, weil eine Säule die Sicht versperrt",
+   "art": "arbeitsweise",
+   "gegenstand": "Gabelstapler im Gerüstbereich bei verdeckter Sicht"
+  },
+  {
+   "text": "Auf dem Boden liegen Ölflecken und Restrohre",
+   "art": "weg_boden",
+   "gegenstand": "Boden in der Halle"
+  },
+  {
+   "text": "die Beleuchtung in der hinteren Ecke ist schwach",
+   "art": "beleuchtung",
+   "gegenstand": "Beleuchtung hintere Ecke"
+  },
+  {
+   "text": "Helme trägt aber nur einer.",
+   "art": "psa",
+   "gegenstand": "Helme"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "auf Paletten am Hallenrand und werden mit einem Stapler herangefahren",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Rahmen wiegen um die vierzig Kilo, die Männer tragen sie zu zweit zur Stelle",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "setzen sie aufeinander. Die Kupplungen werden von Hand angezogen",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "dazu steht man oft auf einer Leiter",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "werden die Bauteile über Kopf vom Gerüst gereicht",
+   "sicher": true
+  }
+ ]
+}
