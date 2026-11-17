@@ -1,0 +1,56 @@
+{
+ "runde": "R021",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R021-01",
+   "auftrag": "a226",
+   "branche": "Elektrogerätebau",
+   "bereich": "Prüffeld mit Hochspannungsprüfung"
+  },
+  {
+   "kennung": "R021-02",
+   "auftrag": "a243",
+   "branche": "Stahlbau",
+   "bereich": "Brennschneiden von Blechen auf der Anlage"
+  },
+  {
+   "kennung": "R021-03",
+   "auftrag": "a254",
+   "branche": "Motorradwerkstatt",
+   "bereich": "Vergaser reinigen und Probefahrt"
+  },
+  {
+   "kennung": "R021-04",
+   "auftrag": "a250",
+   "branche": "Aufzugsbau",
+   "bereich": "Wartung im Maschinenraum"
+  },
+  {
+   "kennung": "R021-05",
+   "auftrag": "a217",
+   "branche": "Sägewerk",
+   "bereich": "Schnittholz stapeln und trocknen in der Kammer"
+  },
+  {
+   "kennung": "R021-06",
+   "auftrag": "a235",
+   "branche": "Zulieferer",
+   "bereich": "Härterei mit Durchlaufofen"
+  },
+  {
+   "kennung": "R021-07",
+   "auftrag": "a257",
+   "branche": "Tischlerei",
+   "bereich": "Fenster einbauen beim Kunden mit Schaum"
+  },
+  {
+   "kennung": "R021-08",
+   "auftrag": "a261",
+   "branche": "Fenster in Serie",
+   "bereich": "Beschlagmontage am Band"
+  }
+ ]
+}
