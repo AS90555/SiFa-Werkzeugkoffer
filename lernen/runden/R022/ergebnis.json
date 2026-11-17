@@ -1,0 +1,230 @@
+{
+ "runde": "R022",
+ "blind": true,
+ "regeln": 140,
+ "quote": 87,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 67,
+  "schritte": 71,
+  "maengel": 60
+ },
+ "faelle": [
+  {
+   "id": "R022-01",
+   "arbeitsplatz": "Kälteanlage im Supermarkt warten",
+   "branche": "Kältetechnik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-02",
+   "arbeitsplatz": "Punktschweißzange am Balancer",
+   "branche": "Karosseriebau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-03",
+   "arbeitsplatz": "Unterbodenschutz auftragen in der Grube",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-04",
+   "arbeitsplatz": "Reinraum und Lasermarkieren",
+   "branche": "Medizintechnik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-05",
+   "arbeitsplatz": "Freiformschmieden am Manipulator",
+   "branche": "Schmiede",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-06",
+   "arbeitsplatz": "Absauganlage und Spänebunker reinigen",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-07",
+   "arbeitsplatz": "Kantbank und Schweißtisch in der Werkstatt",
+   "branche": "Schlosserei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-08",
+   "arbeitsplatz": "Instandhaltung: Getriebe tauschen mit Kettenzug",
+   "branche": "Maschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-09",
+   "arbeitsplatz": "Wandelemente aufrichten auf der Baustelle",
+   "branche": "Holzhausbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-10",
+   "arbeitsplatz": "Polsterei mit Druckluftklammerer",
+   "branche": "Möbel in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-11",
+   "arbeitsplatz": "Silo innen inspizieren",
+   "branche": "Industriemontage",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-12",
+   "arbeitsplatz": "Lager mit Regalbediengerät und Kommissionieren",
+   "branche": "Gerätebau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-13",
+   "arbeitsplatz": "Hartverchromen und Badwartung",
+   "branche": "Galvanik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-14",
+   "arbeitsplatz": "Reifenservice und Wuchten in der Saison",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-15",
+   "arbeitsplatz": "Strahlen und Grundieren großer Träger",
+   "branche": "Stahlbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R022-16",
+   "arbeitsplatz": "Hydraulikaggregat prüfen und befüllen",
+   "branche": "Maschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 19,
+   "verfehlt": 6
+  },
+  "2": {
+   "getroffen": 7,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 16,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 7,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "8": {
+   "getroffen": 7,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 8,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 3,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 87,
+  "getroffen": 81,
+  "rueckfrage": 1,
+  "verfehlt": 11,
+  "unbegruendet": 0,
+  "zBerechtigt": 51,
+  "zTypisch": 24,
+  "zUnbegruendet": 12
+ }
+}

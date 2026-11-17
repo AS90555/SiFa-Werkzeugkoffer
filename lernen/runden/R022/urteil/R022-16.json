@@ -39,11 +39,6 @@
    "grund": "Kanister von der Palette holen und von Hand nachgießen."
   },
   {
-   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
-   "urteil": "berechtigt",
-   "grund": "Öl läuft über, Ölflecken, Kollegen gehen am Durchgang vorbei."
-  },
-  {
    "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
    "urteil": "typisch",
    "grund": "Aggregat mit Pumpe und Elektromotor wird eingeschaltet, Prüfung allein."

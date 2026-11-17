@@ -30,10 +30,12 @@
   "R021:lueckenschliesser": 1,
   "R022:sprecher": 1,
   "R022:uebersetzer": 1,
-  "R022:schiedsrichter": 1
+  "R022:schiedsrichter": 1,
+  "R022:stichprobe": 1
  },
  "hinweise": [
-  "Vor Runde 3: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen."
+  "Vor Runde 3: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen.",
+  "Stopp-Regel: Die Quote ist von 93 % (R019) auf 87 % (R022) gefallen. Vor dem nächsten Zyklus die Ursache klären."
  ],
  "belegquoteZuBeginn": 25,
  "fertig": false

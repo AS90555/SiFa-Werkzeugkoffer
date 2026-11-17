@@ -72,11 +72,6 @@
    "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
    "urteil": "berechtigt",
    "grund": "Strahlen ohne richtige Kabine direkt am Träger."
-  },
-  {
-   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
-   "urteil": "berechtigt",
-   "grund": "Lüftung nur an der Hallentür, Dämpfe ziehen durch den Raum."
   }
  ]
 }
