@@ -1,0 +1,65 @@
+{
+ "runde": "R022",
+ "eintraege": [
+  {
+   "kennung": "R022-01",
+   "nr": 1,
+   "urteil": "bestaetigt",
+   "grund": "Druckluft am Verdampfer ohne Schutzbrille ist derselbe Mangel; Schutzausrüstung bereitstellen und benutzen passt."
+  },
+  {
+   "kennung": "R022-02",
+   "nr": 3,
+   "urteil": "bestaetigt",
+   "grund": "Rauch von verbranntem Lack beim Schweißen ist Schweißrauch; Absaugung an der Entstehungsstelle passt."
+  },
+  {
+   "kennung": "R022-03",
+   "nr": 4,
+   "urteil": "zweifelhaft",
+   "grund": "Ursache ist Selbstentzündung ölgetränkter Lappen; Behälter schließen und Zündquellen fernhalten trifft die Selbstentzündung nur teilweise."
+  },
+  {
+   "kennung": "R022-05",
+   "nr": 3,
+   "urteil": "bestaetigt",
+   "grund": "Zunder und Funken entzünden Brennbares; Brennbares aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "kennung": "R022-06",
+   "nr": 5,
+   "urteil": "bestaetigt",
+   "grund": "Defekte Leuchte führt zu schlechter Sicht im Bunkerbereich; Leuchte instand setzen passt."
+  },
+  {
+   "kennung": "R022-08",
+   "nr": 1,
+   "urteil": "zweifelhaft",
+   "grund": "Gemeint sind Kippen oder Abrutschen beim Anheben mit Quetschen von Händen und Füßen, nicht ein Herabfallen unter der schwebenden Last; Maßnahmen passen nur zum Teil."
+  },
+  {
+   "kennung": "R022-09",
+   "nr": 5,
+   "urteil": "bestaetigt",
+   "grund": "Ausrutschen auf nassem Schlamm ist Rutschen; Verunreinigungen beseitigen und rutschhemmende Schuhe passen."
+  },
+  {
+   "kennung": "R022-11",
+   "nr": 2,
+   "urteil": "bestaetigt",
+   "grund": "Nachrutschendes Material verschüttet die Person im Silo; Erlaubnisschein und Sicherungsposten passen."
+  },
+  {
+   "kennung": "R022-12",
+   "nr": 6,
+   "urteil": "bestaetigt",
+   "grund": "Zeitvorgabe mit Zähler ist Zeitdruck; Arbeitsabläufe so gestalten passt zur Ursache."
+  },
+  {
+   "kennung": "R022-15",
+   "nr": 1,
+   "urteil": "bestaetigt",
+   "grund": "Pendelnder oder abrutschender Träger am Hallenkran ist eine schwebende Last; Niemand unter der Last und Anschlagmittel prüfen passen."
+  }
+ ]
+}
