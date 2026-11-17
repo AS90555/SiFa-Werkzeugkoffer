@@ -1,0 +1,74 @@
+{
+ "id": "R021-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Strahlungshitze am Einlauf, Maßnahme Abschirmung der Wärmequelle passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Brand von heißem Öl im Abschreckbad: kein Eintrag zu Brand in der Systemliste."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Ölnebel über dem Bad, Maßnahme an der Entstehungsstelle erfassen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Körbe mit zwanzig Kilo von Hand, Maßnahme Hebehilfe passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Teile aus dem heißen Ölbad fischen, Maßnahme Handschuhe und Schutzkleidung passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm der Absaugung am Pult, Maßnahme Lärm am Entstehungsort verringern passt."
+  },
+  {
+   "nr": 7,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öllachen am Boden, Maßnahme Verunreinigungen beseitigen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Die Instandhaltung reinigt das Ölbad und pumpt Schlamm ab."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Die Teile laufen auf einem Stahlband durch den Ofen."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebener Durchlaufofen mit Bedienpult."
+  },
+  {
+   "gefaehrdung": "Ersticken durch Gase, die den Sauerstoff verdrängen",
+   "urteil": "typisch",
+   "grund": "Im Ofen strömt Schutzgas."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Öl wird nachgefüllt und von Hand aus dem Bad gefischt, Hautkontakt ist typisch."
+  }
+ ]
+}

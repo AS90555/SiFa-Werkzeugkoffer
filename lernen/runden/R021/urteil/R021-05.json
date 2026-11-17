@@ -1,0 +1,63 @@
+{
+ "id": "R021-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Stapel kippt: die Maßnahme des Systems betrifft den Wagen auf der Gabel, nicht das Kippen eines Stapels."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Person wird von Fahrzeug angefahren oder überrollt",
+   "grund": "Stapler fährt im Bereich der Kammer, Maßnahme Fahr- und Gehwege trennen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Leisten einzeln von Hand auflegen und abnehmen, Maßnahme Belastung bewerten und Tätigkeitswechsel passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Heiße feuchte Luft beim Öffnen der Tür, Maßnahme Aufenthalt begrenzen und Lüftung passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Staub wirbelt beim Abkehren auf, Maßnahme kein trockenes Kehren passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Brand oder Staubexplosion",
+   "grund": "Staubschicht am Boden, Maßnahme Reinigungsplan passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Handverletzung durch Splitter und Kanten",
+   "urteil": "typisch",
+   "grund": "Bretter werden von Hand geschichtet, Splitter sind bei Schnittholz typisch."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Der Stapler schiebt Rollwagen mit rund einer Tonne Holz in die Kammer."
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "berechtigt",
+   "grund": "An der Decke läuft ein Ventilator, der laut brummt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden ist mit Holzstaub bedeckt."
+  }
+ ]
+}

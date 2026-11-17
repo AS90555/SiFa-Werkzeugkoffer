@@ -1,0 +1,78 @@
+{
+ "id": "R021-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Absturz von Leiter oder Bock: Stolpern und Stürzen meint den Sturz auf gleicher Ebene, nicht den Absturz."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Kontakt mit laufendem Werkzeug",
+   "grund": "Handkreissäge, Maßnahme Schutzhaube und Werkstück fixieren passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Fenster mit fast fünfzig Kilo, Maßnahme Hebehilfe und Last verteilen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "grund": "Montageschaum ohne Handschuhe, gleicher Anlass, Maßnahme Schutzausrüstung bereitstellen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Mineralstaub aus Putz: nichts in der Systemliste meint Mineralstaub."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kälte beim Arbeiten, Maßnahme Kleidung gegen Kälte passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Die Handkreissäge ist typisch laut."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Das Fenster wird mit dem Akkuschrauber von innen und außen verschraubt."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Das Fenster kommt die Treppe hoch, Staub fällt auf den Boden."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Das schwere Fenster wird von Hand ausgerichtet und eingesetzt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Handkreissäge und Akkuschrauber sind kraftbetrieben."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "urteil": "berechtigt",
+   "grund": "Das Fenster kommt auf einer Sackkarre die Treppe hoch."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Die Dose wird im Auto gelagert."
+  }
+ ]
+}

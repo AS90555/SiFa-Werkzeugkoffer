@@ -1,0 +1,68 @@
+{
+ "id": "R021-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Lehnen über das Geländer an der Schachtöffnung, gleicher Anlass, Maßnahme sichere Arbeitsweise festlegen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Steile Leiter ohne Rückenschutz, Maßnahme Absturzsicherung herstellen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öl tropft auf den Boden, Maßnahme Verunreinigungen beseitigen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Ersatzteile von dreißig Kilo über die Treppe, Maßnahme Hebehilfe passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "grund": "Dunkle Ecken bei einer einzelnen Leuchtstoffröhre, Maßnahme Beleuchtung instand setzen passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät",
+   "grund": "Monteur arbeitet allein, Maßnahme Personenschutz bei Alleinarbeit passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Einstellen von Treibscheibe, Steuerung und Bremse bei der Wartung."
+  },
+  {
+   "gefaehrdung": "Belastung durch verbrauchte oder stickige Luft",
+   "urteil": "berechtigt",
+   "grund": "Die Luft ist im Sommer stickig."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Er wischt das Öl mit einem Lappen auf, Hautkontakt mit Öl ist typisch."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine herumliegenden Lappen."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Im Maschinenraum gibt es keine Lüftung außer einem kleinen Fenster."
+  }
+ ]
+}

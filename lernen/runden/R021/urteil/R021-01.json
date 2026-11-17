@@ -1,0 +1,66 @@
+{
+ "id": "R021-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Einfacher Türschalter und verschmierte Lichtschranke sind derselbe Mangel; Maßnahme Schutzeinrichtung wirksam machen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Quer liegende Kabel als Stolperstelle, Maßnahme Stolperstellen beseitigen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Brand bei Durchschlag eines Prüflings: kein Eintrag zu Brand in der Systemliste."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Warme Luft bei unzureichender Lüftung, Maßnahme Lüftung und Trinkpausen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "berechtigt",
+   "grund": "Die Prüferin trägt die Geräte ab und zu selbst zum Tisch."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Das Rüsten der Vorrichtung gibt keinen Anlass für Sonderbetrieb."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Im Protokoll gibt es keine bewegten Teile."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Rund dreihundert Prüfungen am Tag mit Klemmen und Steckern."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "berechtigt",
+   "grund": "Es riecht nach verbranntem Isoliermaterial, wenn ein Gerät durchschlägt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebenes Hochspannungsprüfgerät, Unterweisung und Betriebsanweisung sind zu prüfen."
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "urteil": "berechtigt",
+   "grund": "Kabel liegen quer und sind eingeklemmt, Rollwagen ist darübergefahren."
+  }
+ ]
+}

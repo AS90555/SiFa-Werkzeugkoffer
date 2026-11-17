@@ -1,0 +1,82 @@
+{
+ "id": "R021-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Reinigungsbenzin, Hautkontakt und Dämpfe ohne Handschuhe, Maßnahme Handschuhe nach Sicherheitsdatenblatt passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Offener Behälter mit Benzin, Maßnahme Zündquellen fernhalten passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Abgas in der Halle bei geschlossenem Rolltor, Maßnahme Lüftung instand setzen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Verkehrsunfall bei der Probefahrt: nichts in der Systemliste meint Straßenverkehr mit dem Motorrad."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "grund": "Druckluftschlauch mit losem Stecker, Maßnahme instand setzen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Ausblasen mit Druckluft und laufende Motoren im Stand sind typisch laut."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "typisch",
+   "grund": "Reinigungsbenzin an der Haut ist typisch reizend."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "typisch",
+   "grund": "Düsen werden mit Druckluft ausgeblasen, dabei wird Staub aufgewirbelt."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine Quetschstelle."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Die Neonröhre über der Werkbank flackert."
+  },
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Verkehr, der den Arbeitsplatz kreuzt."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Der Behälter ist nicht abgedeckt."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Handschuhe trägt er beim Reinigen nicht."
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "urteil": "berechtigt",
+   "grund": "Der Feuerlöscher ist seit Jahren nicht geprüft worden."
+  }
+ ]
+}

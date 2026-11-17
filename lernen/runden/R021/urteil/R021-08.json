@@ -1,0 +1,72 @@
+{
+ "id": "R021-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Hand unter den Rahmen greifen bei stockendem Flügel, gleicher Anlass, Maßnahme sichere Arbeitsweise passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Messer zum Folieabziehen, Maßnahme Werkzeug mit Abdeckung der Klinge passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Kisten werden von Hand nachgelegt, Maßnahme Belastung bewerten passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Getaktete Bandarbeit, Maßnahme Arbeitsabläufe gestalten und Belastung erfassen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm von Druckluft und Maschinen, Maßnahme Lärm verringern passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Kein Anlass im Protokoll."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine Holzbearbeitung."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keine Staubschicht."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Jeder schraubt seinen Teil mit dem Druckluftschrauber, ständig gleiche Bewegung."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Das Band läuft und die Flügel werden getaktet geschoben."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt kein abgesetztes schweres Teil."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Druckluftschrauber sind kraftbetrieben, Unterweisung ist zu prüfen."
+  }
+ ]
+}

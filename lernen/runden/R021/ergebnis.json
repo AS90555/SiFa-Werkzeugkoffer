@@ -1,0 +1,150 @@
+{
+ "runde": "R021",
+ "blind": true,
+ "regeln": 139,
+ "quote": 86,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 43,
+  "schritte": 39,
+  "maengel": 28
+ },
+ "faelle": [
+  {
+   "id": "R021-01",
+   "arbeitsplatz": "Prüffeld mit Hochspannungsprüfung",
+   "branche": "Elektrogerätebau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-02",
+   "arbeitsplatz": "Brennschneiden von Blechen auf der Anlage",
+   "branche": "Stahlbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-03",
+   "arbeitsplatz": "Vergaser reinigen und Probefahrt",
+   "branche": "Motorradwerkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-04",
+   "arbeitsplatz": "Wartung im Maschinenraum",
+   "branche": "Aufzugsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-05",
+   "arbeitsplatz": "Trockenkammer für Schnittholz",
+   "branche": "Sägewerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-06",
+   "arbeitsplatz": "Härterei mit Durchlaufofen",
+   "branche": "Zulieferer",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-07",
+   "arbeitsplatz": "Fenstereinbau beim Kunden mit Montageschaum",
+   "branche": "Tischlerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R021-08",
+   "arbeitsplatz": "Beschlagmontage am Band",
+   "branche": "Fenster in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 9,
+   "verfehlt": 2
+  },
+  "2": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 6,
+   "verfehlt": 1
+  },
+  "5": {
+   "getroffen": 4,
+   "verfehlt": 2
+  },
+  "6": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 2,
+   "verfehlt": 1
+  }
+ },
+ "schiedsrichter": {
+  "quote": 86,
+  "getroffen": 38,
+  "rueckfrage": 0,
+  "verfehlt": 6,
+  "unbegruendet": 0,
+  "zBerechtigt": 23,
+  "zTypisch": 21,
+  "zUnbegruendet": 10
+ }
+}

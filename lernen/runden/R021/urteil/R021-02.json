@@ -1,0 +1,87 @@
+{
+ "id": "R021-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funkenflug und Brandschutz, Maßnahme brennbare Stoffe aus dem Funkenbereich entfernen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "grund": "Ungesicherte Flaschen ohne Kappe, Maßnahme Flasche gegen Umfallen sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Verstellter Abzug über dem Tisch, Maßnahme Absaugung instand setzen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heiße Schlacke und heiße Brenner, Maßnahmen heiße Teile ablegen und Schutzkleidung passen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "grund": "Schweißerbrille und Handschuhe werden nicht immer getragen, gleicher Anlass."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Schnittabfälle aus dicken Blechen werden von Hand weggeräumt."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "unbegruendet",
+   "grund": "Kein Anlass im Protokoll."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Scharfkantige Schnittabfälle aus Blech werden von Hand weggeräumt."
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Die Bleche werden mit einem Kran aufgelegt."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Die Halle ist im Winter kalt, im Sommer heiß."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden ist mit Öl und Schneidresten verschmiert."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Brennschneidanlage, Unterweisung und Betriebsanweisung sind zu prüfen."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "berechtigt",
+   "grund": "Die Flaschen stehen ungesichert neben dem Tisch in einer Reihe."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Die Brenner liegen nach dem Schnitt oft noch heiß auf dem Tisch."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Eine Gasflasche hat keine Kappe."
+  }
+ ]
+}
