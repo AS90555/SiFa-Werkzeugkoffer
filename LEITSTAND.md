@@ -9,10 +9,7 @@ Stand nach R022 und Beleg-Lauf B004. Diese Datei schreibt `node lernen/leitstand
 
 ## Wartet auf Andre
 
-- **Freigabe-Paket F001:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F001.md`.
-- **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
-- **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
-- **Freigabe-Paket F004:** 3 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F004.md`.
+Nichts.
 
 ## Hinweise
 
@@ -30,7 +27,7 @@ Stand nach R022 und Beleg-Lauf B004. Diese Datei schreibt `node lernen/leitstand
 | Regeln doppelt belegt | 35 von 144 (24 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 19 von 20 |
-| Von Andre freigegeben | 0 Regeln, 0 Pflichten |
+| Von Andre freigegeben | 34 Regeln, 19 Pflichten |
 | Freie Aufträge im Abdeckungsplan | 49 von 263 |
 
 ## Runden

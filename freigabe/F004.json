@@ -1,6 +1,6 @@
 {
  "paket": "F004",
- "status": "offen",
+ "status": "erledigt",
  "eintraege": [
   {
    "id": "R41",
@@ -17,5 +17,17 @@
    "art": "pflicht",
    "fingerabdruck": "c46563d8db3a7e9e"
   }
- ]
+ ],
+ "von": "Andre",
+ "datum": "2026-11-17",
+ "entscheidung": {
+  "frei": [
+   "R41",
+   "R71",
+   "P19"
+  ],
+  "gesperrt": [],
+  "zurueck": [],
+  "veraltet": []
+ }
 }

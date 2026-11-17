@@ -12,11 +12,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "385dac106d216556"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "385dac106d216556"
   }
  },
@@ -33,11 +39,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "9152c94b77b1da87"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "9152c94b77b1da87"
   }
  },
@@ -54,11 +66,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "bd911aff0f251777"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "bd911aff0f251777"
   }
  },
@@ -75,11 +93,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "831fc63a797ac549"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "831fc63a797ac549"
   }
  },
@@ -99,11 +123,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "fc7328341050149d"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "fc7328341050149d"
   }
  },
@@ -123,11 +153,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "871c195cc0b8f0d1"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "871c195cc0b8f0d1"
   }
  },
@@ -147,11 +183,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "89ca96a1df640b21"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "89ca96a1df640b21"
   }
  },
@@ -171,11 +213,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "e39412289135b215"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "e39412289135b215"
   }
  },
@@ -195,11 +243,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "8f0b70bf996732bb"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "8f0b70bf996732bb"
   }
  },
@@ -216,11 +270,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "73ce212884bd2c97"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "73ce212884bd2c97"
   }
  },
@@ -237,11 +297,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "e883c8135df232c5"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "e883c8135df232c5"
   }
  },
@@ -269,11 +335,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "11a507893eafa56b"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "11a507893eafa56b"
   }
  },
@@ -290,11 +362,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "637b8407aa61c381"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "637b8407aa61c381"
   }
  },
@@ -311,11 +389,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "ae6c7365c2443fe9"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "ae6c7365c2443fe9"
   }
  },
@@ -338,11 +422,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "68dfb01e513f2765"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "68dfb01e513f2765"
   }
  },
@@ -359,11 +449,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "cbc6ee03827114f4"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "cbc6ee03827114f4"
   }
  },
@@ -389,11 +485,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "49468491a65fd14d"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "49468491a65fd14d"
   }
  },
@@ -410,11 +512,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "0d061ac8ef9578a6"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "0d061ac8ef9578a6"
   }
  },
@@ -431,11 +539,17 @@
    }
   ],
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B004",
    "datum": "2026-11-17",
    "pruefungen": 2,
+   "fingerabdruck": "c46563d8db3a7e9e"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F004",
    "fingerabdruck": "c46563d8db3a7e9e"
   }
  },

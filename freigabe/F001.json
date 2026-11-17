@@ -1,6 +1,6 @@
 {
  "paket": "F001",
- "status": "offen",
+ "status": "erledigt",
  "eintraege": [
   {
    "id": "R01",
@@ -77,5 +77,29 @@
    "art": "pflicht",
    "fingerabdruck": "871c195cc0b8f0d1"
   }
- ]
+ ],
+ "von": "Andre",
+ "datum": "2026-11-17",
+ "entscheidung": {
+  "frei": [
+   "R01",
+   "R03",
+   "R09",
+   "R10",
+   "R13",
+   "R17",
+   "R18",
+   "R22",
+   "R54",
+   "P01",
+   "P02",
+   "P03",
+   "P04",
+   "P05",
+   "P06"
+  ],
+  "gesperrt": [],
+  "zurueck": [],
+  "veraltet": []
+ }
 }

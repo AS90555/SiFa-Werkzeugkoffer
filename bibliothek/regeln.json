@@ -24,11 +24,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "bd96cc51e7b93077"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "bd96cc51e7b93077"
   }
  },
@@ -57,11 +63,17 @@
   ],
   "verbindlichkeit": "empfehlung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "34b933ef5399c351"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "34b933ef5399c351"
   }
  },
@@ -109,11 +121,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "0bd52031ce380b2a"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "0bd52031ce380b2a"
   }
  },
@@ -347,11 +365,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "cab834960bdcdbd5"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "cab834960bdcdbd5"
   }
  },
@@ -398,11 +422,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "460c695b0d755690"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "460c695b0d755690"
   }
  },
@@ -452,11 +482,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "897897e6899aca7e"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "897897e6899aca7e"
   }
  },
@@ -562,11 +598,17 @@
   ],
   "verbindlichkeit": "empfehlung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "cb25fe7a63e6057b"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "cb25fe7a63e6057b"
   }
  },
@@ -679,11 +721,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "48fdfebae118ca48"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "48fdfebae118ca48"
   }
  },
@@ -726,11 +774,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "aa482d18ceabd2a2"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "aa482d18ceabd2a2"
   }
  },
@@ -782,11 +836,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "3d887ecef292963b"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "3d887ecef292963b"
   }
  },
@@ -948,11 +1008,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "df10b376ab0095c7"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "df10b376ab0095c7"
   }
  },
@@ -1115,11 +1181,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "277a754e9ae43dba"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "277a754e9ae43dba"
   }
  },
@@ -1689,11 +1761,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B004",
    "datum": "2026-11-17",
    "pruefungen": 2,
+   "fingerabdruck": "f09f1f6c7f1d923b"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F004",
    "fingerabdruck": "f09f1f6c7f1d923b"
   }
  },
@@ -1740,11 +1818,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "3e240c5b697fed6f"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "3e240c5b697fed6f"
   }
  },
@@ -2028,11 +2112,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "c6c7807403d5c5ca"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "c6c7807403d5c5ca"
   }
  },
@@ -2156,11 +2246,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "6801ffcfbe4d9cc3"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F001",
    "fingerabdruck": "6801ffcfbe4d9cc3"
   }
  },
@@ -2731,11 +2827,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B004",
    "datum": "2026-11-17",
    "pruefungen": 2,
+   "fingerabdruck": "d0e8b1fb859810ef"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F004",
    "fingerabdruck": "d0e8b1fb859810ef"
   }
  },
@@ -2773,7 +2875,7 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "braucht": [
    "laerm_db"
   ],
@@ -2781,6 +2883,12 @@
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "4a4c192c8ec3fb48"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "4a4c192c8ec3fb48"
   }
  },
@@ -2972,11 +3080,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "e9046af045499d90"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "e9046af045499d90"
   }
  },
@@ -3200,11 +3314,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "1c2a36a3cb0def99"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "1c2a36a3cb0def99"
   }
  },
@@ -3390,11 +3510,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "3cddb236368e6f1c"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "3cddb236368e6f1c"
   }
  },
@@ -3583,11 +3709,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "be34b39de4dad0ac"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "be34b39de4dad0ac"
   }
  },
@@ -3629,11 +3761,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "7b50aee30b734edf"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "7b50aee30b734edf"
   }
  },
@@ -3684,11 +3822,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "2420037f83e8ce48"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "2420037f83e8ce48"
   }
  },
@@ -3726,11 +3870,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "f459862ae8756925"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "f459862ae8756925"
   }
  },
@@ -3800,11 +3950,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "f29168a08292cb4b"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "f29168a08292cb4b"
   }
  },
@@ -3842,11 +3998,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "cbb57f40697678de"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "cbb57f40697678de"
   }
  },
@@ -3888,11 +4050,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "1746f396512e80c6"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "1746f396512e80c6"
   }
  },
@@ -3921,11 +4089,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "e68e86e68c2d05fa"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "e68e86e68c2d05fa"
   }
  },
@@ -3954,11 +4128,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "66368d655665e7a2"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "66368d655665e7a2"
   }
  },
@@ -3987,11 +4167,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "d764ff7b5a3cc4b3"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "d764ff7b5a3cc4b3"
   }
  },
@@ -4020,11 +4206,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "1f58d2633180793c"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "1f58d2633180793c"
   }
  },
@@ -4075,11 +4267,17 @@
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "e9140e2f6f506038"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F003",
    "fingerabdruck": "e9140e2f6f506038"
   }
  },
@@ -4117,11 +4315,17 @@
   ],
   "verbindlichkeit": "vermutungswirkung",
   "beleg": "geprueft",
-  "freigabe": "entwurf",
+  "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
    "datum": "2026-11-12",
    "pruefungen": 2,
+   "fingerabdruck": "f9c1a33b44cbdd93"
+  },
+  "freigegeben": {
+   "von": "Andre",
+   "datum": "2026-11-17",
+   "paket": "F002",
    "fingerabdruck": "f9c1a33b44cbdd93"
   }
  },
