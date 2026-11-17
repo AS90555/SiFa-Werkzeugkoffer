@@ -1,0 +1,107 @@
+{
+ "id": "R020-02",
+ "name": "R020-02",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Elektroauto auf der Hebebühne",
+   "bereich": "Kfz-Werkstatt",
+   "personen": 2,
+   "umgebung": [
+    "kalt",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "elektroarbeiten",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "hochvoltbatterie"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "hochvoltbatterie"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "dafür klappt er die Rückbank nach vorn",
+   "fehlt": "Schritt Rückbank klappen (Material Fahrzeugsitz) nicht angelegt"
+  },
+  {
+   "text": "Elektroauto auf der Hebebühne",
+   "fehlt": "Arbeit am angehobenen Fahrzeug unter dem Unterboden nicht als Schritt beschrieben"
+  },
+  {
+   "text": "Gemessen wird mit einem Multimeter",
+   "fehlt": "Vorgang Spannungsfreiheit feststellen"
+  },
+  {
+   "text": "Am Boden unter der Bühne liegt Öl",
+   "fehlt": "Material Öl am Boden bei Kehren nicht eindeutig"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Kontakte sehen leicht angeschmort aus",
+   "art": "elektrik",
+   "gegenstand": "Service-Stecker"
+  },
+  {
+   "text": "an einer Stelle ist die Ummantelung aufgescheuert",
+   "art": "elektrik",
+   "gegenstand": "orange Hochvolt-Leitung"
+  },
+  {
+   "text": "Die Handschuhe für Hochspannung liegen im Schrank, zum Fahrzeug trägt er nur Arbeitshandschuhe aus Baumwolle",
+   "art": "psa",
+   "gegenstand": "Handschuhe für Hochspannung"
+  },
+  {
+   "text": "Am Boden unter der Bühne liegt Öl und ein Wischlappen",
+   "art": "weg_boden",
+   "gegenstand": "Boden unter der Hebebühne"
+  },
+  {
+   "text": "über der Bühne flackert eine Röhre",
+   "art": "beleuchtung",
+   "gegenstand": "Leuchtröhre über der Bühne"
+  },
+  {
+   "text": "er schaut dabei auf sein Handy statt auf die Uhr an der Wand",
+   "gegenstand": "Wartezeit nach Freischalten"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "zieht der Mechaniker zuerst den Service-Stecker unter der Rücksitzbank",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Gemessen wird mit einem Multimeter",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gereinigt wird abends mit dem Besen",
+   "sicher": true
+  }
+ ]
+}

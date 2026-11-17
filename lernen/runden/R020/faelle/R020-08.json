@@ -1,0 +1,140 @@
+{
+ "id": "R020-08",
+ "name": "R020-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "zweikomponentiges Epoxidharz",
+   "material": "kleber_2k",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s2",
+   "name": "Aceton",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Mastsetzen am Segelboot",
+   "bereich": "Werftgelände Außenplatz",
+   "personen": 3,
+   "umgebung": [
+    "aussen",
+    "witterung",
+    "kalt",
+    "freileitung",
+    "zwangshaltung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    },
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "hubarbeitsbuehne",
+     "material": []
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "beschlag"
+     ]
+    },
+    {
+     "vorgang": "kleben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kleber_2k"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Mast aus Aluminium ist knapp sechzehn Meter lang und wiegt gut neunzig Kilo",
+   "fehlt": "Material Mast oder Langgut aus Aluminium; Aluminiumprofil passt nicht sicher, Schritte ohne Material"
+  },
+  {
+   "text": "Schräg über dem Platz verläuft eine Freileitung",
+   "fehlt": "Nichts, als Umgebung gesetzt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Eine Absturzsicherung ist an der Hebebühne nicht zu sehen, die Brüstung hat eine Lücke",
+   "art": "absturzsicherung",
+   "gegenstand": "Brüstung der Hebebühne"
+  },
+  {
+   "text": "Helme trägt nur einer",
+   "art": "psa",
+   "gegenstand": "Schutzhelm"
+  },
+  {
+   "text": "Der Pinsel liegt offen auf dem Boden",
+   "art": "stoff_lagerung",
+   "gegenstand": "Pinsel mit Epoxidharz"
+  },
+  {
+   "text": "Aceton aus einer offenen Dose",
+   "art": "stoff_lagerung",
+   "gegenstand": "Aceton in offener Dose"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Er wird vom Kran angehoben, langsam an die Position geschwenkt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "einer hält unten die Leinen",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "von der Hebebühne aus eingesetzt und festgeschraubt",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die Wanten werden mit Ratschenschlüsseln und Gabelschlüsseln an den Beschlägen verschraubt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Die Beschläge werden mit einem zweikomponentigen Epoxidharz eingeklebt",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "Zum Reinigen wird Aceton genommen",
+   "sicher": true
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "R020-04",
+ "name": "R020-04",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Kontipresse",
+   "bereich": "Plattenwerk",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "hoehenarbeit",
+     "ausfuehrung": "leiter",
+     "material": []
+    },
+    {
+     "vorgang": "bewegen",
+     "ausfuehrung": "gabelstapler",
+     "material": [
+      "bandstahl"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Den Schraubenschlüssel und die Hebeschlinge holt der Helfer aus dem Container",
+   "fehlt": "Verwendung der Hebeschlinge nicht beschrieben, Schritt Anschlagen nicht angelegt"
+  },
+  {
+   "text": "die Platten stapelt der Stapler dann von Hand ab",
+   "fehlt": "Widersprüchliche Angabe, Schritt Stapeln nicht angelegt"
+  },
+  {
+   "text": "Die Heizplatten sind mit Thermalöl beheizt, die Leitungen laufen auf Gerüsthöhe",
+   "fehlt": "Material heißes Thermalöl und heiße Leitungen"
+  },
+  {
+   "text": "Das Band wird später mit dem Stapler herangefahren",
+   "fehlt": "Stahlband der Presse als Material nicht eindeutig; Antrieb des Staplers unbekannt"
+  },
+  {
+   "text": "Thermalöl",
+   "fehlt": "Gefahrstoff Thermalöl: kein passendes Stoff-Material in den Stammdaten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Leiter zur Plattform hat keinen Handlauf auf der letzten Stufe",
+   "art": "absturzsicherung",
+   "gegenstand": "Leiter zur Plattform"
+  },
+  {
+   "text": "der Hauptschalter ist aus, aber die Sicherung am Schaltschrank ist nicht abgeschlossen",
+   "gegenstand": "Freischaltung der Anlage"
+  },
+  {
+   "text": "Späne und Staub liegen auf der Plattform",
+   "art": "weg_boden",
+   "gegenstand": "Plattform an der Presse"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "um die Abstreiferleiste auszutauschen",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Der Schlosser steigt auf die Plattform neben dem Band",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Das Band wird später mit dem Stapler herangefahren",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gereinigt wird der Bereich abends mit dem Besen, die Späne kommen in die Mulde",
+   "sicher": true
+  }
+ ]
+}

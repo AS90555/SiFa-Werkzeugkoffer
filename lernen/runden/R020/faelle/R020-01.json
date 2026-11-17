@@ -1,0 +1,166 @@
+{
+ "id": "R020-01",
+ "name": "R020-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Ätzlösung",
+   "material": "beize_saeure",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Ätzlinie",
+   "bereich": "Ätzen und Galvanik",
+   "personen": 2,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "positionieren_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "beizen",
+     "ausfuehrung": "durchlaufmaschine",
+     "material": [
+      "beize_saeure"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "hochdruckreiniger",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "werkzeug_wechseln",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Galvanikbad",
+   "bereich": "Ätzen und Galvanik",
+   "personen": 1,
+   "umgebung": [
+    "boden",
+    "blendung"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "einer legt die Platinen auf Gestelle",
+   "fehlt": "Material Platine oder Leiterplatte"
+  },
+  {
+   "text": "Die Platinen werden von Hand aus dem Stapel genommen und in die Aufnahme gelegt, das Band läuft etwa alle halbe Minute weiter",
+   "fehlt": "Vorgang Auflegen an der Durchlaufanlage; Ausführung Durchlaufmaschine für Ätzlinie nicht eindeutig"
+  },
+  {
+   "text": "Galvanikbad, offene Wannen ... mit Kupfersulfatlösung",
+   "fehlt": "Vorgang Galvanisieren, Material Galvanikbad oder Kupfersulfatlösung"
+  },
+  {
+   "text": "Den Schaum abschöpfen und Chemikalien nachdosieren macht der Vorarbeiter von Hand",
+   "fehlt": "Vorgang Schaum abschöpfen; Material Kupfersulfatlösung"
+  },
+  {
+   "text": "Stromkabel der Gleichrichter",
+   "fehlt": "Material Gleichrichter und Galvanikstrom"
+  },
+  {
+   "text": "Im Lager neben der Anlage stehen Kanister mit Wasserstoffperoxid",
+   "fehlt": "Material Oxidationsmittel; Schritt Lagern von Kanistern nicht angelegt"
+  },
+  {
+   "text": "Die Halle ist warm",
+   "fehlt": "Umgebung warm ohne Hitze nicht eindeutig"
+  },
+  {
+   "text": "Kupfersulfatlösung, Wasserstoffperoxid",
+   "fehlt": "Gefahrstoff-Material für Kupfersulfat und Wasserstoffperoxid in den Stammdaten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Haube ist bei Gestellwechsel offen, dann steigt ein deutlicher Geruch nach Säure auf",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Haube der Ätzlinie"
+  },
+  {
+   "text": "Die Stromkabel der Gleichrichter hängen teils lose über dem Wannenrand",
+   "art": "elektrik",
+   "gegenstand": "Stromkabel der Gleichrichter"
+  },
+  {
+   "text": "Der Boden davor ist feucht, Gummimatten liegen nur an einer Stelle",
+   "art": "weg_boden",
+   "gegenstand": "Boden vor dem Galvanikbad"
+  },
+  {
+   "text": "er trägt Handschuhe, aber keine Schürze",
+   "art": "psa",
+   "gegenstand": "Schürze des Vorarbeiters"
+  },
+  {
+   "text": "die Dämpfe ziehen trotzdem bis zum Pausenraum",
+   "art": "lueftung",
+   "gegenstand": "Abluft"
+  },
+  {
+   "text": "Kanister mit Wasserstoffperoxid, teilweise ohne Auffangwanne",
+   "art": "stoff_lagerung",
+   "gegenstand": "Kanister Wasserstoffperoxid"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Platinen werden von Hand aus dem Stapel genommen und in die Aufnahme gelegt",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "horizontale Durchlaufmaschine, die Ätzlösung wird über Düsen auf die Platinen gespritzt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Reinigung der Düsen passiert am Wochenende mit dem Hochdruckreiniger",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Düsen wechseln macht die Instandhaltung mit dem Schraubenschlüssel",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Chemikalien nachdosieren macht der Vorarbeiter von Hand",
+   "sicher": false
+  }
+ ]
+}

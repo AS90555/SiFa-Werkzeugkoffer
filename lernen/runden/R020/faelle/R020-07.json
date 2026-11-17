@@ -1,0 +1,140 @@
+{
+ "id": "R020-07",
+ "name": "R020-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s2",
+   "name": "Abdichtmasse",
+   "material": "kleber_1k",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s3",
+   "name": "Spiritus",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Einbau Hochvolt-Batterie",
+   "bereich": "Montagehalle",
+   "personen": 2,
+   "umgebung": [
+    "taktarbeit",
+    "zeitdruck",
+    "zwangshaltung",
+    "kalt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "senken",
+     "ausfuehrung": "hubsenkstation",
+     "material": [
+      "hochvoltbatterie"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "hochvoltbatterie"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "elektroarbeiten",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "hochvoltbatterie"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "loesemittel"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Batteriepaket kommt auf einem Gabelhubwagen herein, wiegt gut dreihundert Kilo",
+   "fehlt": "Gabelhubwagen ohne Angabe zum Antrieb, Ausführung nicht sicher, Schritt weggelassen"
+  },
+  {
+   "text": "Abdichtmasse für die Dichtflächen wird mit einer Pistole aufgetragen",
+   "fehlt": "Material Dichtmasse und Vorgang Auftragen mit Kartuschenpistole fehlen; Schritt weggelassen"
+  },
+  {
+   "text": "Danach werden die Kühlmittelschläuche angesteckt",
+   "fehlt": "Vorgang Schläuche anstecken nicht eigens vorhanden, zusammen mit Nachfüllen unter Umfüllen"
+  },
+  {
+   "text": "Gerüstet wird die Vorrichtung von der Instandhaltung",
+   "fehlt": "Keine Beschreibung, was beim Rüsten getan wird, kein Schritt"
+  },
+  {
+   "text": "Kühlflüssigkeit aus einem Gemisch auf Glykolbasis",
+   "fehlt": "Material Kühlmittel als Gefahrstoff fehlt; Stoff deshalb nicht unter stoffe eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Am Hubtisch fehlt auf einer Seite ein Anschlag",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Anschlag am Hubtisch"
+  },
+  {
+   "text": "eine Prüfung mit Messgerät sehe ich nicht",
+   "art": "arbeitsweise",
+   "gegenstand": "Hochvolt-Leitungen ohne Spannungsprüfung einstecken"
+  },
+  {
+   "text": "eine Schutzbrille sehe ich bei keinem",
+   "art": "psa",
+   "gegenstand": "Schutzbrille"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Hubtisch fährt es hoch, bis es unter dem Fahrzeugboden sitzt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Schrauben werden mit einem Akku-Drehmomentschrauber angezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "dafür wird Kühlflüssigkeit aus einem Gemisch auf Glykolbasis nachgefüllt",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die orangen Hochvolt-Leitungen werden zuletzt eingesteckt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Reinigen macht der Werker mit Papier und Spiritus",
+   "sicher": true
+  }
+ ]
+}

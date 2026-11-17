@@ -1,0 +1,115 @@
+{
+ "id": "R020-05",
+ "name": "R020-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Sortierband Parkettstäbe",
+   "bereich": "Hobelei",
+   "personen": 2,
+   "umgebung": [
+    "laerm_umgebung",
+    "zwangshaltung"
+   ],
+   "angaben": {
+    "hartholz": true,
+    "last_kg": 1.5,
+    "griffe_h": 1800
+   },
+   "schritte": [
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "stetigfoerderer",
+     "material": [
+      "holzstaub"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "palette_gestapelt"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "palette_gestapelt"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Parkettstäbe, gut zwei Meter lang, direkt aus der Hobelmaschine",
+   "fehlt": "Material Parkettstab oder Holzstab ohne Splitterneigung; Stab nur als Glasleiste/Kantel nicht passend"
+  },
+  {
+   "text": "Volle Boxen werden mit dem Hubwagen weggefahren",
+   "fehlt": "Hubwagen ohne Angabe, ob mit oder ohne Antrieb: Ausführung nicht sicher, Schritt weggelassen"
+  },
+  {
+   "text": "Das Licht kommt von oben, hinten ist es dunkler",
+   "fehlt": "Keine ausdrückliche schwache Beleuchtung, Umgebung dunkel nicht gesetzt"
+  },
+  {
+   "text": "etwa dreißig pro Minute kommen durch",
+   "fehlt": "Kein ausdrücklicher Takt oder Stückzahlvorgabe für den Menschen, Taktarbeit nicht gesetzt"
+  },
+  {
+   "text": "Umrüsten macht der Schichtführer",
+   "fehlt": "Keine Beschreibung, was beim Umrüsten getan wird, kein Schritt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Das Band hat an der Einlaufseite einen Spalt, an dem sich schon Finger eingeklemmt haben soll, die Abdeckung fehlt dort",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Abdeckung am Sortierband, Einlaufseite"
+  },
+  {
+   "text": "Schutzbrillen sehe ich nur bei einer Person",
+   "art": "psa",
+   "gegenstand": "Schutzbrille"
+  },
+  {
+   "text": "Am Schichtende wird mit Druckluft abgeblasen, dabei wirbelt der Staub hoch",
+   "art": "arbeitsweise",
+   "gegenstand": "Abblasen mit Druckluft"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Die Person an der Einlaufseite nimmt die Stäbe vom Rollenband",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "sortiert sie nach Sorte und Länge in Gitterboxen",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Volle Boxen werden von Hand auf eine Palette gesetzt",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Am Schichtende wird mit Druckluft abgeblasen",
+   "sicher": true
+  }
+ ]
+}

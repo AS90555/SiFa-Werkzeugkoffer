@@ -1,0 +1,142 @@
+{
+ "id": "R020-03",
+ "name": "R020-03",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Induktionsofen",
+   "bereich": "Schmelzbetrieb",
+   "personen": 3,
+   "umgebung": [
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "induktionsanlage"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallschmelze"
+     ]
+    },
+    {
+     "vorgang": "giessen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallschmelze",
+      "prozessrauch"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Das Material ist Stahlschrott, teilweise noch ölig und feucht",
+   "fehlt": "Material Stahlschrott"
+  },
+  {
+   "text": "einer bedient den Ofen über das Pult",
+   "fehlt": "Ausführung bedienter Ofen eindeutig nicht vorhanden"
+  },
+  {
+   "text": "Der Tiegel wird mit Druckluft ausgeblasen",
+   "fehlt": "Ausführung Druckluftpistole"
+  },
+  {
+   "text": "Gereinigt wird der Ofen zwischen den Schichten",
+   "fehlt": "Ob dabei Sonderbetrieb an der Anlage vorliegt, bleibt offen"
+  },
+  {
+   "text": "Kühlung läuft über einen Rückkühler auf dem Dach",
+   "fehlt": "Material Kühlkreislauf"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Schläuche liegen am Boden, einer davon ist geflickt",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Kühlschlauch"
+  },
+  {
+   "text": "Der Boden ist vom Schrott voller Späne und Wasserlachen von der Kühlung",
+   "art": "weg_boden",
+   "gegenstand": "Hallenboden am Ofen"
+  },
+  {
+   "text": "Das Material ist Stahlschrott, teilweise noch ölig und feucht",
+   "art": "arbeitsweise",
+   "gegenstand": "feuchter Schrott im Ofen"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "einer bedient den Ofen über das Pult",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "Charge wird mit einem Schrottkorb per Kran eingesetzt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "der flüssige Stahl mit einer Pfanne im Kran zur Gießlinie gefahren",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Schlacke wird mit einem langen Eisenhaken von Hand abgezogen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird der Ofen zwischen den Schichten",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "die Ausmauerung prüft der Instandhalter nach Plan",
+   "sicher": true
+  },
+  {
+   "schritt": 7,
+   "stelle": "der Tiegel wird mit Druckluft ausgeblasen",
+   "sicher": false
+  }
+ ]
+}
