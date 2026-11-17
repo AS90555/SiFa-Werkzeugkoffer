@@ -1942,5 +1942,79 @@
   "material": [
    "fensterelement"
   ]
+ },
+ {
+  "worte": [
+   "vibriert",
+   "vibrieren",
+   "vibrationen"
+  ],
+  "umgebung": [
+   "vibration"
+  ]
+ },
+ {
+  "worte": [
+   "einschieben",
+   "anhängen",
+   "einhängen",
+   "angehängt"
+  ],
+  "vorgang": "positionieren_hand"
+ },
+ {
+  "worte": [
+   "mineralwolle",
+   "dämmwolle",
+   "dämmmatten",
+   "glaswolle",
+   "steinwolle"
+  ],
+  "material": [
+   "mineralwolle"
+  ]
+ },
+ {
+  "worte": [
+   "säuredunst",
+   "beizdunst"
+  ],
+  "material": [
+   "prozessrauch"
+  ]
+ },
+ {
+  "worte": [
+   "ölgeruch",
+   "öldämpfe"
+  ],
+  "material": [
+   "nebel_aerosol"
+  ]
+ },
+ {
+  "worte": [
+   "autokran",
+   "mobilkran"
+  ],
+  "ausfuehrung": "hebezeug"
+ },
+ {
+  "worte": [
+   "glasbruch",
+   "glasreste"
+  ],
+  "material": [
+   "isolierglas"
+  ]
+ },
+ {
+  "worte": [
+   "dichtmasse",
+   "kartuschen"
+  ],
+  "material": [
+   "kleber_1k"
+  ]
  }
 ]

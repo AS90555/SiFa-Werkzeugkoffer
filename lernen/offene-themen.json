@@ -70,16 +70,6 @@
   ]
  },
  {
-  "thema": "Hand-Arm-Vibration durch Handschleifmaschinen",
-  "seit": "R013",
-  "anlass": [
-   {
-    "kennung": "R013-09",
-    "stelle": "Die Handschleifmaschinen vibrieren stark"
-   }
-  ]
- },
- {
   "thema": "Wasserstoff und Kurzschluss bei Altbatterien ohne Lüftung",
   "seit": "R013",
   "anlass": [
@@ -224,16 +214,6 @@
   ]
  },
  {
-  "thema": "Mineralfasern der Dämmwolle auf Haut und Atemwegen",
-  "seit": "R018",
-  "anlass": [
-   {
-    "kennung": "R018-08",
-    "stelle": "Dämmwolle klebt an den Händen"
-   }
-  ]
- },
- {
   "thema": "Dämpfe und Hautkontakt bei Schmelzkleber",
   "seit": "R018",
   "anlass": [
@@ -250,6 +230,36 @@
    {
     "kennung": "R018-02",
     "stelle": "das Werkzeug liegt lose im Korb"
+   }
+  ]
+ },
+ {
+  "thema": "Kippende schwere Drahtrolle quetscht Füße oder Hände",
+  "seit": "R019",
+  "anlass": [
+   {
+    "kennung": "R019-08",
+    "stelle": "Die Drahtrollen sind schwer, rund 300 Kilo, die setzt man mit dem Hubwagen ein"
+   }
+  ]
+ },
+ {
+  "thema": "Schweres Brett rutscht vom Rollengang",
+  "seit": "R019",
+  "anlass": [
+   {
+    "kennung": "R019-07",
+    "stelle": "einzelne wiegen bis zu vierzig Kilo"
+   }
+  ]
+ },
+ {
+  "thema": "Heben und Umsetzen schwerer Geländer von Hand ohne genaues Gewicht",
+  "seit": "R019",
+  "anlass": [
+   {
+    "kennung": "R019-02",
+    "stelle": "wiegen mehrere Zentner"
    }
   ]
  }

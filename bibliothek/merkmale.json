@@ -136,5 +136,8 @@
  "m.uv_strahler": "UV-Strahler oder UV-Lampe als Strahlungsquelle",
  "u.freileitung": "Freileitung oder andere spannungsführende Leitung in Reichweite von Kran, Ausleger oder Bühne",
  "m.pyrotechnik": "Pyrotechnisches Teil, das unbeabsichtigt auslösen kann: Airbagmodul, Gurtstraffer",
- "m.schwer": "Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist"
+ "m.schwer": "Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist",
+ "u.vibration": "Hand-Arm-Vibration: Griffe oder Werkzeug vibrieren spürbar",
+ "v.positionieren_hand": "Last von Hand einschieben, einhängen oder ausrichten, Hände an der Last",
+ "m.mineralfaser": "Mineralwolle und Dämmwolle: Fasern und Faserstaub"
 }

@@ -5009,5 +5009,108 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R135",
+  "name": "Hand-Arm-Vibration an handgeführten Werkzeugen",
+  "wenn": "u.vibration",
+  "entsteht": "Vibrierende Griffe übertragen Schwingungen über Stunden in Hände und Arme",
+  "gefaehrdung": "g-hand-arm-vibration",
+  "massnahmen": [
+   {
+    "id": "R135-M1",
+    "art": "T",
+    "text": "Vibrationsarme Geräte einsetzen, Werkzeuge und Einsatzwerkzeuge regelmäßig warten und erneuern"
+   },
+   {
+    "id": "R135-M2",
+    "art": "O",
+    "text": "Arbeitszeit mit vibrierenden Geräten begrenzen, Tätigkeiten abwechseln, Beschäftigte unterweisen"
+   },
+   {
+    "id": "R135-M3",
+    "art": "O",
+    "text": "Gefährdung beurteilen, Vorsorge anbieten"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "laermvibv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R136",
+  "name": "Einklemmen der Hände beim Positionieren von Hand",
+  "wenn": "v.positionieren_hand",
+  "entsteht": "Hände liegen beim Einschieben, Einhängen oder Ausrichten zwischen Last und festem Teil",
+  "gefaehrdung": "g-quetschen",
+  "massnahmen": [
+   {
+    "id": "R136-M1",
+    "art": "T",
+    "text": "Einführ- und Positionierhilfen verwenden, damit die Hände nicht zwischen Last und festem Teil liegen"
+   },
+   {
+    "id": "R136-M2",
+    "art": "O",
+    "text": "Last erst führen, wenn sie ruhig hängt oder liegt; Verständigung zwischen den Beteiligten festlegen; unterweisen"
+   },
+   {
+    "id": "R136-M3",
+    "art": "P",
+    "text": "Geeignete Schutzhandschuhe tragen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "arbschg",
+    "stelle": null
+   },
+   {
+    "id": "betrsichv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R137",
+  "name": "Mineralfasern reizen Haut und Augen",
+  "wenn": "m.mineralfaser",
+  "entsteht": "Fasern und Faserstaub setzen sich auf Haut, Augen und Kleidung",
+  "gefaehrdung": "g-haut-augen",
+  "massnahmen": [
+   {
+    "id": "R137-M1",
+    "art": "T",
+    "text": "Material abdecken oder getrennt lagern, damit kein Faserstaub herabfällt"
+   },
+   {
+    "id": "R137-M2",
+    "art": "O",
+    "text": "Betriebsanweisung und Unterweisung, Hautschutz und Reinigung nach der Arbeit"
+   },
+   {
+    "id": "R137-M3",
+    "art": "P",
+    "text": "Schutzhandschuhe, Schutzbrille und geeignete Kleidung tragen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "gefstoffv",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

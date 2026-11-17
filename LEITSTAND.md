@@ -1,10 +1,10 @@
 # Leitstand
 
-Stand nach R018 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R019 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Beleg-Lauf starten** (Stopp-Regel: erst 24 % der Regeln sind doppelt belegt, Ziel mindestens 25 % vor der nächsten Lernrunde): `node beleg/vorbereiten.js`.
+1. **Beleg-Lauf starten** (Stopp-Regel: erst 23 % der Regeln sind doppelt belegt, Ziel mindestens 25 % vor der nächsten Lernrunde): `node beleg/vorbereiten.js`.
 
 ## Wartet auf Andre
 
@@ -12,24 +12,20 @@ Stand nach R018 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 - **Freigabe-Paket F002:** 15 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F002.md`.
 - **Freigabe-Paket F003:** 21 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F003.md`.
 
-## Hinweise
-
-- Stopp-Regel: Die Quote ist von 92 % (R013) auf 74 % (R016) gefallen. Erst die Ursache klären, dann weiter füttern.
-
 ## Kennzahlen
 
 | Größe | Wert |
 | --- | --- |
-| Regeln | 135 |
+| Regeln | 138 |
 | Organisationspflichten | 20 |
-| Gefährdungen | 62 |
-| Stammdaten | 230 |
-| Wörterbuch | 193 |
-| Regeln doppelt belegt | 32 von 135 (24 %) |
+| Gefährdungen | 63 |
+| Stammdaten | 233 |
+| Wörterbuch | 201 |
+| Regeln doppelt belegt | 32 von 138 (23 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 18 von 20 |
 | Von Andre freigegeben | 0 Regeln, 0 Pflichten |
-| Freie Aufträge im Abdeckungsplan | 49 von 215 |
+| Freie Aufträge im Abdeckungsplan | 33 von 215 |
 
 ## Runden
 
@@ -53,6 +49,7 @@ Stand nach R018 und Beleg-Lauf B003. Diese Datei schreibt `node lernen/leitstand
 | R016 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 74 % | 58 von 78 | 38 | 32 | 17 | ja |
 | R017 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 87 % | 41 von 47 | 35 | 12 | 8 | ja |
 | R018 | Lernrunde, bghm | 8 | blind, Schiedsrichter | 83 % | 39 von 47 | 18 | 29 | 4 | ja |
+| R019 | Prüfrunde, bghm | 16 | blind, Schiedsrichter | 93 % | 87 von 94 | 47 | 57 | 18 | ja |
 
 ## Beleg-Läufe
 

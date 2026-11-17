@@ -1,0 +1,82 @@
+{"runde": "R019",
+ "merkmale": [
+  {"id": "u.vibration", "name": "Hand-Arm-Vibration: Griffe oder Werkzeug vibrieren spürbar"},
+  {"id": "v.positionieren_hand", "name": "Last von Hand einschieben, einhängen oder ausrichten, Hände an der Last"},
+  {"id": "m.mineralfaser", "name": "Mineralwolle und Dämmwolle: Fasern und Faserstaub"}
+ ],
+ "gefaehrdungen": [
+  {"id": "g-hand-arm-vibration", "faktor": 7, "name": "Hand-Arm-Vibrationen schädigen auf Dauer Durchblutung und Nerven der Hände",
+   "anlass": [
+    {"kennung": "R013-09", "stelle": "Die Handschleifmaschinen vibrieren stark"},
+    {"kennung": "R019-14", "stelle": "die Griffe vibrieren spürbar bis in die Arme"}
+   ]}
+ ],
+ "stammdaten": [
+  {"typ": "umgebung", "id": "vibration", "name": "Griffe oder Werkzeug vibrieren", "merkmale": ["u.vibration"],
+   "anlass": [{"kennung": "R019-14", "stelle": "die Griffe vibrieren spürbar bis in die Arme"}, {"kennung": "R019-10", "stelle": "vibriert in den Händen"}]},
+  {"typ": "vorgang", "id": "positionieren_hand", "name": "Von Hand einschieben, einhängen, ausrichten", "merkmale": ["v.positionieren_hand"],
+   "anlass": [{"kennung": "R019-10", "stelle": "schieben die Monteure den Träger mit dem Hammer und dem Dorn in die Löcher"}, {"kennung": "R019-12", "stelle": "werden von Hand angehängt"}]},
+  {"typ": "material", "id": "mineralwolle", "name": "Mineralwolle, Dämmwolle, Dämmmatten", "merkmale": ["m.mineralfaser"],
+   "anlass": [{"kennung": "R019-03", "stelle": "Staub von Mineralwolle fällt von oben herunter"}, {"kennung": "R018-08", "stelle": "Dämmwolle klebt an den Händen"}]}
+ ],
+ "woerter": [
+  {"worte": ["vibriert", "vibrieren", "vibrationen"], "umgebung": ["vibration"]},
+  {"worte": ["einschieben", "anhängen", "einhängen", "angehängt"], "vorgang": "positionieren_hand"},
+  {"worte": ["mineralwolle", "dämmwolle", "dämmmatten", "glaswolle", "steinwolle"], "material": ["mineralwolle"]},
+  {"worte": ["säuredunst", "beizdunst"], "material": ["prozessrauch"]},
+  {"worte": ["ölgeruch", "öldämpfe"], "material": ["nebel_aerosol"]},
+  {"worte": ["autokran", "mobilkran"], "ausfuehrung": "hebezeug"},
+  {"worte": ["glasbruch", "glasreste"], "material": ["isolierglas"]},
+  {"worte": ["dichtmasse", "kartuschen"], "material": ["kleber_1k"]}
+ ],
+ "regeln": [
+  {"name": "Hand-Arm-Vibration an handgeführten Werkzeugen", "wenn": "u.vibration",
+   "entsteht": "Vibrierende Griffe übertragen Schwingungen über Stunden in Hände und Arme",
+   "gefaehrdung": "g-hand-arm-vibration",
+   "massnahmen": [
+    {"art": "T", "text": "Vibrationsarme Geräte einsetzen, Werkzeuge und Einsatzwerkzeuge regelmäßig warten und erneuern"},
+    {"art": "O", "text": "Arbeitszeit mit vibrierenden Geräten begrenzen, Tätigkeiten abwechseln, Beschäftigte unterweisen"},
+    {"art": "O", "text": "Gefährdung beurteilen, Vorsorge anbieten"}
+   ],
+   "quellen": ["laermvibv"],
+   "anlass": [
+    {"kennung": "R013-09", "stelle": "Die Handschleifmaschinen vibrieren stark"},
+    {"kennung": "R019-14", "stelle": "die Griffe vibrieren spürbar bis in die Arme"}
+   ]},
+  {"name": "Einklemmen der Hände beim Positionieren von Hand", "wenn": "v.positionieren_hand",
+   "entsteht": "Hände liegen beim Einschieben, Einhängen oder Ausrichten zwischen Last und festem Teil",
+   "gefaehrdung": "g-quetschen",
+   "massnahmen": [
+    {"art": "T", "text": "Einführ- und Positionierhilfen verwenden, damit die Hände nicht zwischen Last und festem Teil liegen"},
+    {"art": "O", "text": "Last erst führen, wenn sie ruhig hängt oder liegt; Verständigung zwischen den Beteiligten festlegen; unterweisen"},
+    {"art": "P", "text": "Geeignete Schutzhandschuhe tragen"}
+   ],
+   "quellen": ["arbschg", "betrsichv"],
+   "anlass": [
+    {"kennung": "R019-10", "stelle": "schieben die Monteure den Träger mit dem Hammer und dem Dorn in die Löcher"},
+    {"kennung": "R019-12", "stelle": "werden von Hand angehängt"}
+   ]},
+  {"name": "Mineralfasern reizen Haut und Augen", "wenn": "m.mineralfaser",
+   "entsteht": "Fasern und Faserstaub setzen sich auf Haut, Augen und Kleidung",
+   "gefaehrdung": "g-haut-augen",
+   "massnahmen": [
+    {"art": "T", "text": "Material abdecken oder getrennt lagern, damit kein Faserstaub herabfällt"},
+    {"art": "O", "text": "Betriebsanweisung und Unterweisung, Hautschutz und Reinigung nach der Arbeit"},
+    {"art": "P", "text": "Schutzhandschuhe, Schutzbrille und geeignete Kleidung tragen"}
+   ],
+   "quellen": ["gefstoffv"],
+   "anlass": [
+    {"kennung": "R019-03", "stelle": "Staub von Mineralwolle fällt von oben herunter"},
+    {"kennung": "R018-08", "stelle": "Dämmwolle klebt an den Händen"}
+   ]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Kippende schwere Drahtrolle quetscht Füße oder Hände", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R019-08", "stelle": "Die Drahtrollen sind schwer, rund 300 Kilo, die setzt man mit dem Hubwagen ein"}]},
+  {"thema": "Schweres Brett rutscht vom Rollengang", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R019-07", "stelle": "einzelne wiegen bis zu vierzig Kilo"}]},
+  {"thema": "Heben und Umsetzen schwerer Geländer von Hand ohne genaues Gewicht", "grund": "Einzelfall",
+   "anlass": [{"kennung": "R019-02", "stelle": "wiegen mehrere Zentner"}]}
+ ],
+ "erledigt": ["Hand-Arm-Vibration durch Handschleifmaschinen", "Mineralfasern der Dämmwolle auf Haut und Atemwegen"]
+}

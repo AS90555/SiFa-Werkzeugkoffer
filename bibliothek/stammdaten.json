@@ -724,6 +724,13 @@
     "m.schwer",
     "m.sperrig"
    ]
+  },
+  {
+   "id": "mineralwolle",
+   "name": "Mineralwolle, Dämmwolle, Dämmmatten",
+   "merkmale": [
+    "m.mineralfaser"
+   ]
   }
  ],
  "vorgang": [
@@ -1241,6 +1248,13 @@
    "id": "druckpruefen",
    "name": "Druckprüfung, Abdrücken, Dichtheitsprüfung unter Druck",
    "merkmale": []
+  },
+  {
+   "id": "positionieren_hand",
+   "name": "Von Hand einschieben, einhängen, ausrichten",
+   "merkmale": [
+    "v.positionieren_hand"
+   ]
   }
  ],
  "ausfuehrung": [
@@ -1705,6 +1719,13 @@
    "name": "Freileitung in der Nähe",
    "merkmale": [
     "u.freileitung"
+   ]
+  },
+  {
+   "id": "vibration",
+   "name": "Griffe oder Werkzeug vibrieren",
+   "merkmale": [
+    "u.vibration"
    ]
   }
  ]

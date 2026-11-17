@@ -308,5 +308,10 @@
   "id": "g-pyrotechnik",
   "faktor": 5,
   "name": "Unbeabsichtigtes Auslösen pyrotechnischer Teile"
+ },
+ {
+  "id": "g-hand-arm-vibration",
+  "faktor": 7,
+  "name": "Hand-Arm-Vibrationen schädigen auf Dauer Durchblutung und Nerven der Hände"
  }
 ]

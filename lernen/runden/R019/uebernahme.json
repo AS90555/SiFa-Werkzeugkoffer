@@ -1,0 +1,36 @@
+{
+ "runde": "R019",
+ "uebernommen": {
+  "merkmale": [
+   "u.vibration",
+   "v.positionieren_hand",
+   "m.mineralfaser"
+  ],
+  "gefaehrdungen": [
+   "g-hand-arm-vibration"
+  ],
+  "stammdaten": [
+   "umgebung/vibration",
+   "vorgang/positionieren_hand",
+   "material/mineralwolle"
+  ],
+  "woerter": [
+   "vibriert, vibrieren, vibrationen",
+   "einschieben, anhängen, einhängen, angehängt",
+   "mineralwolle, dämmwolle, dämmmatten, glaswolle, steinwolle",
+   "säuredunst, beizdunst",
+   "ölgeruch, öldämpfe",
+   "autokran, mobilkran",
+   "glasbruch, glasreste",
+   "dichtmasse, kartuschen"
+  ],
+  "regeln": [
+   "R135 Hand-Arm-Vibration an handgeführten Werkzeugen",
+   "R136 Einklemmen der Hände beim Positionieren von Hand",
+   "R137 Mineralfasern reizen Haut und Augen"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 26
+}
