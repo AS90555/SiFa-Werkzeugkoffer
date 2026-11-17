@@ -1,33 +1,159 @@
-{"id":"R018-05","name":"R018-05","betrieb":{},"angaben":{},
- "stoffe":[
-  {"id":"s1","name":"Kaltharz-Bindemittel aus zwei Komponenten","sdb":null,"h":[]},
-  {"id":"s2","name":"Aushärtegas aus dem Behälter","sdb":null,"h":[]}],
- "stationen":[{"nr":1,"name":"Kernschießmaschine","bereich":"Kernmacherei mit Kaltharz","personen":2,"umgebung":["hitze","laerm_umgebung","boden"],"angaben":{"gleichfoermig":true,"last_kg":25},
-  "schritte":[
-   {"vorgang":"entleeren","ausfuehrung":"von_hand","material":["formsand","daempfe_loesemittel"]},
-   {"vorgang":"maschine_bedienen","ausfuehrung":"halbautomat","material":["formsand"]},
-   {"vorgang":"entleeren","ausfuehrung":"von_hand","material":["formsand"]},
-   {"vorgang":"handhaben","ausfuehrung":"von_hand","material":[]},
-   {"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]},
-   {"vorgang":"heben","ausfuehrung":"hebezeug","material":[]},
-   {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage","formsand"]},
-   {"vorgang":"kehren","ausfuehrung":"von_hand","material":["formsand"]}]}],
- "wuensche":[
-  {"text":"Bindemittel aus zwei Komponenten, Kaltharz","fehlt":"Material für Kaltharz-Bindemittel (Kanister, Gefahrstoff mit zwei Komponenten)"},
-  {"text":"Zum Aushärten wird ein Gas aus einem Behälter über einen Schlauch an die Form geführt","fehlt":"Vorgang Begasen oder Aushärten mit Gas und Material Härtergas; Behälter ist keine Druckgasflasche im Sinn der Stammdaten"},
-  {"text":"Die fertigen Kerne nimmt er mit der Hand aus dem Werkzeug und stellt sie auf Wagen","fehlt":"Material Sandkern (frisch gefertigter Kern)"},
-  {"text":"Der Raum ist warm und staubig","fehlt":"Umgebung Staub oder Staubbelastung der Raumluft"},
-  {"text":"dafür wird ein Kran über die Halle gefahren","fehlt":"Material Werkzeug oder Form (schweres Kernschießwerkzeug) für das Umrüsten mit Kran"},
-  {"text":"Die Bindemittelkanister stehen im Regal hinter der Maschine","fehlt":"Kein Schritt beschrieben, nur Lagerort"},
-  {"text":"pro Schicht sind das etwa tausend Kerne","fehlt":"Anzahl Griffe je Stunde oder Tag nicht ableitbar (Schichtzahl am Tag und Dauer unbekannt)"}],
- "maengel":[
-  {"text":"Der Schlauch der Gasstation liegt am Boden","art":"weg_boden","gegenstand":"Schlauch der Gasstation"}],
- "zuordnung":[
-  {"schritt":1,"stelle":"gibt den Quarzsand von Hand in den Mischer, dazu Bindemittel aus zwei Komponenten ... es riecht deutlich nach Lösemitteln","sicher":true},
-  {"schritt":2,"stelle":"fährt er die Maschine, der Sand wird mit Druckluft in das Werkzeug geschossen","sicher":false},
-  {"schritt":3,"stelle":"Der Helfer schüttet Säcke mit Sand, je etwa fünfundzwanzig Kilo, in den Trichter","sicher":true},
-  {"schritt":4,"stelle":"Die fertigen Kerne nimmt er mit der Hand aus dem Werkzeug und stellt sie auf Wagen","sicher":true},
-  {"schritt":5,"stelle":"Der Kernmacher rüstet die Werkzeuge selbst um","sicher":true},
-  {"schritt":6,"stelle":"dafür wird ein Kran über die Halle gefahren","sicher":false},
-  {"schritt":7,"stelle":"Gereinigt wird mit Druckluftpistole","sicher":false},
-  {"schritt":8,"stelle":"Gereinigt wird mit ... Besen","sicher":false}]}
+{
+ "id": "R018-05",
+ "name": "R018-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Kernschießmaschine",
+   "bereich": "Kernmacherei mit Kaltharz",
+   "personen": 2,
+   "umgebung": [
+    "hitze",
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {
+    "gleichfoermig": true,
+    "last_kg": 25
+   },
+   "schritte": [
+    {
+     "vorgang": "entleeren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "formsand",
+      "daempfe_loesemittel"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "halbautomat",
+     "material": [
+      "formsand"
+     ]
+    },
+    {
+     "vorgang": "entleeren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "formsand"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "formsand"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "formsand"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Bindemittel aus zwei Komponenten, Kaltharz",
+   "fehlt": "Stoff und Material für Kaltharz-Bindemittel (zwei Komponenten, Kanister); als Stoff nicht eintragbar, da kein passendes Material existiert"
+  },
+  {
+   "text": "Zum Aushärten wird ein Gas aus einem Behälter über einen Schlauch an die Form geführt",
+   "fehlt": "Vorgang Begasen oder Aushärten mit Gas und Material Härtergas; Behälter ist keine Druckgasflasche im Sinn der Stammdaten; Härtergas als Stoff nicht eintragbar, da kein passendes Material existiert"
+  },
+  {
+   "text": "Die fertigen Kerne nimmt er mit der Hand aus dem Werkzeug und stellt sie auf Wagen",
+   "fehlt": "Material Sandkern (frisch gefertigter Kern)"
+  },
+  {
+   "text": "Der Raum ist warm und staubig",
+   "fehlt": "Umgebung Staub oder Staubbelastung der Raumluft"
+  },
+  {
+   "text": "dafür wird ein Kran über die Halle gefahren",
+   "fehlt": "Material Werkzeug oder Form (schweres Kernschießwerkzeug) für das Umrüsten mit Kran"
+  },
+  {
+   "text": "Die Bindemittelkanister stehen im Regal hinter der Maschine",
+   "fehlt": "Kein Schritt beschrieben, nur Lagerort"
+  },
+  {
+   "text": "pro Schicht sind das etwa tausend Kerne",
+   "fehlt": "Anzahl Griffe je Stunde oder Tag nicht ableitbar (Schichtzahl am Tag und Dauer unbekannt)"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Schlauch der Gasstation liegt am Boden",
+   "art": "weg_boden",
+   "gegenstand": "Schlauch der Gasstation"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "gibt den Quarzsand von Hand in den Mischer, dazu Bindemittel aus zwei Komponenten ... es riecht deutlich nach Lösemitteln",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "fährt er die Maschine, der Sand wird mit Druckluft in das Werkzeug geschossen",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Der Helfer schüttet Säcke mit Sand, je etwa fünfundzwanzig Kilo, in den Trichter",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die fertigen Kerne nimmt er mit der Hand aus dem Werkzeug und stellt sie auf Wagen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Der Kernmacher rüstet die Werkzeuge selbst um",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "dafür wird ein Kran über die Halle gefahren",
+   "sicher": false
+  },
+  {
+   "schritt": 7,
+   "stelle": "Gereinigt wird mit Druckluftpistole",
+   "sicher": false
+  },
+  {
+   "schritt": 8,
+   "stelle": "Gereinigt wird mit ... Besen",
+   "sicher": false
+  }
+ ]
+}
