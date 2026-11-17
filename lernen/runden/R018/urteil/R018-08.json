@@ -1,0 +1,48 @@
+{
+ "id": "R018-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Dachelement von 1,5 t am Kran; Niemand unter der Last, Anschlagmittel prüfen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel vor Ort nennt den Kranführer ohne Sicht auf die Last; sichere Arbeitsweise festlegen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Passanten im Schwenkbereich: Schwebende Last ist schon dem ersten Punkt zugeordnet, kein weiterer Eintrag zu Absperrung."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Mineralfasern der Dämmwolle: kein Eintrag meint Fasern oder Hautreizung."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "grund": "Sonne voll auf dem Platz; Schutz im Freien oder persönliche Schutzausrüstung."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Matschiger Boden nach Regen; Verunreinigungen beseitigen, rutschhemmende Schuhe."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "berechtigt",
+   "grund": "Die Folie wird mit einer Schere geschnitten."
+  }
+ ]
+}

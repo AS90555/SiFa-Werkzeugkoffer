@@ -1,0 +1,62 @@
+{
+ "id": "R018-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Mangel vor Ort nennt Dämpfe, zu schwache Lüftung, fehlende Absaugung; Absaugung instand setzen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Hautkontakt mit Kleber und Reiniger; Schutzhandschuhe und Hautschutzplan passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Lappen mit Reiniger in offener Tonne; Maßnahme: Lappen in verschließbaren, nicht brennbaren Behälter."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Überkopfarbeit mit verdrehtem Hals; Arbeitshöhe und Zwangshaltungen vermeiden."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Takt von 90 Sekunden und Druck des Schichtführers."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Etwa vierzig Meter Raupe je Fahrzeug im Takt, immer gleiche Bewegung."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Druckluftpistole ist ein kraftbetriebenes Arbeitsmittel."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Wer hinterherhinkt, bekommt Ärger mit dem Schichtführer."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Manche Kollegen arbeiten ohne Handschuhe."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Lappen mit Reiniger in offener Tonne."
+  }
+ ]
+}

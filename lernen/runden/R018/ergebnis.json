@@ -1,0 +1,150 @@
+{
+ "runde": "R018",
+ "blind": true,
+ "regeln": 131,
+ "quote": 83,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 41,
+  "schritte": 39,
+  "maengel": 26
+ },
+ "faelle": [
+  {
+   "id": "R018-01",
+   "arbeitsplatz": "Kantenanleimmaschine mit Schmelzkleber",
+   "branche": "Möbel in Serie",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-02",
+   "arbeitsplatz": "Montage vom Hubsteiger",
+   "branche": "Fassadenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-03",
+   "arbeitsplatz": "Kleben und Abdichten mit Pistole",
+   "branche": "Karosseriebau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-04",
+   "arbeitsplatz": "Biegen und Schweißen von Kettengliedern",
+   "branche": "Kettenfertigung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-05",
+   "arbeitsplatz": "Kernschießmaschine in der Kernmacherei mit Kaltharz",
+   "branche": "Gießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-06",
+   "arbeitsplatz": "Hydraulikpresse zum Richten von Wellen neben dem Gasofen der Wärmebehandlung",
+   "branche": "Maschinenbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-07",
+   "arbeitsplatz": "Karosseriewerkstatt mit Bühnen, Richtrahmen und Arbeitsplatz für Airbagteile und Glasbruch",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R018-08",
+   "arbeitsplatz": "Außenlager mit Kran für das Verladen von Dachelementen auf den Lkw",
+   "branche": "Holzhausbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 12,
+   "verfehlt": 2
+  },
+  "2": {
+   "getroffen": 0,
+   "verfehlt": 1
+  },
+  "3": {
+   "getroffen": 5,
+   "verfehlt": 2
+  },
+  "5": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "6": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 5,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 5,
+   "verfehlt": 1
+  },
+  "10": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 1,
+   "verfehlt": 2
+  }
+ },
+ "schiedsrichter": {
+  "quote": 83,
+  "getroffen": 39,
+  "rueckfrage": 0,
+  "verfehlt": 8,
+  "unbegruendet": 0,
+  "zBerechtigt": 18,
+  "zTypisch": 29,
+  "zUnbegruendet": 4
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "R018-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel vor Ort nennt das weite Lehnen über die Brüstung bei schwankendem Korb; sichere Arbeitsweise festlegen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kippen des Hubsteigers bei nachgebenden Bohlen: kein Eintrag meint das Kippen."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Herabfallendes Werkzeug auf Passanten: kein Eintrag meint das; Absperrmangel hat anderen Anlass und Maßnahme."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Freileitung, Stromschlag: kein Eintrag zu Elektrizität."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kälte und Nässe, Kleidung gegen Kälte als Maßnahme."
+  },
+  {
+   "nr": 6,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Heben der Fenster: kein Heben-Eintrag, Schwebende Last meint anderes."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "urteil": "berechtigt",
+   "grund": "Fenster hängen am Kranhaken."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "unbegruendet",
+   "grund": "Akkuschrauber genannt, aber keine gleichförmige Dauerarbeit beschrieben."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "typisch",
+   "grund": "Unebener Schotter, nasse Bohlen."
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "urteil": "berechtigt",
+   "grund": "Es ist kalt und nass, am Vormittag hat es geregnet."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Hubsteiger und Kran sind kraftbetriebene Maschinen, Einweisung nur durch den Vorarbeiter."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Abgesperrt ist der Bereich nur mit einem Band, Passanten gehen darunter her."
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "urteil": "berechtigt",
+   "grund": "Ein schriftliches Abstützprotokoll gibt es nicht."
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "id": "R018-07",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Pyrotechnische Airbagmodule: kein Eintrag meint das."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funkenschlag mit offenen Klebern; brennbare Stoffe aus dem Funkenbereich entfernen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Mangel vor Ort nennt offen stehende Stoffe; Behälter geschlossen halten passt zu den Dämpfen am offenen Lager."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Schnitt- und Stichverletzung",
+   "grund": "Glasbruch in Kisten; scharfe Kanten, Schnittschutzhandschuhe."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel vor Ort nennt den Richtrahmen ohne Schutzkorb."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Kalte Halle, Tür offen; Heizen und Kleidung gegen Kälte."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Druckluft-Schlagschrauber, Richten, Trennen."
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "urteil": "typisch",
+   "grund": "Abschrauben und Heben von Stoßfängern und Kotflügeln."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "typisch",
+   "grund": "Schlagschrauber, immer gleiche Bewegung."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "urteil": "berechtigt",
+   "grund": "Blechteile werden mit dem Schweißgerät getrennt."
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "urteil": "typisch",
+   "grund": "Schweißgerät ohne Hinweis auf Abschirmung."
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "urteil": "typisch",
+   "grund": "Funkenschlag beim Trennen."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Kein Anlass im Protokoll für das Absetzen schwerer Teile."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Glassplitter und Staub werden mit Druckluft abgeblasen."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "typisch",
+   "grund": "Trennen und Kleben setzen Gefahrstoffe frei, Lösemittel im Raum."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Druckluft-Schlagschrauber und Richtrahmen sind kraftbetrieben."
+  }
+ ]
+}

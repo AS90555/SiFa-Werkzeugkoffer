@@ -1,0 +1,78 @@
+{
+ "id": "R018-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "grund": "Mangel vor Ort nennt das seitliche Eingreifen bei laufender Maschine, Maßnahme: Arbeit unterbrechen, sichere Arbeitsweise festlegen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Fräsen-Lärm, Gehörschutz und Lärmminderung passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Kessel mit 200 Grad, heiße Teile; Hitzeschutzhandschuhe und Ablageplatz passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Kleberdämpfe und Hautkontakt beim Reinigen: kein Eintrag dazu (Holzstaub meint anderes)."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Heben von 15 bis 20 kg Platten; Hebehilfe und Tätigkeitswechsel passen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Boden mit Kleberresten und Staub; Verunreinigungen beseitigen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "berechtigt",
+   "grund": "Staub und Späne am Boden, Fräsen schneiden Überstand ab."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Staub und Späne mit 200 Grad heißem Kleber; Fachkraft prüft das."
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "urteil": "typisch",
+   "grund": "Fräsköpfe werden von Hand getauscht, scharfe Messer."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Rüsten und Klemmerlösen an der Maschine."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "typisch",
+   "grund": "Förderband, Walzen und Vorschub; Hand greift in die Maschine."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Fräsköpfe und Platten werden von Hand gesetzt."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Maschine, Unterweisung und Betriebsanweisung."
+  }
+ ]
+}

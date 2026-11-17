@@ -1,0 +1,88 @@
+{
+ "id": "R018-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Mangel vor Ort nennt das Eingreifen vor den Biegekopf bei kurz stehender Maschine; Schutzeinrichtung wirksam machen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Funken und Pappe; brennbare Stoffe aus dem Funkenbereich entfernen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heiße Glieder im Behälter; Handschuhe und Ablageplatz."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Augen- und Hautschaden durch optische Strahlung",
+   "grund": "Blitzen beim Schweißen; Schweißerschutzschild und Abschirmung."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Kisten mit 20 kg von Hand zur Palette; Hebehilfe, Tätigkeitswechsel."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Hitze im Sommer in der Halle; Lüftung, Trinkpausen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "urteil": "typisch",
+   "grund": "Stanzkopf taktet, man hört es klappern; Biegeautomat."
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Eingriff beim Nachlegen, Instandhaltung und Störungsbeseitigung."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "berechtigt",
+   "grund": "Stanzkopf taktet, Hand im Bereich vor dem Biegekopf."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Biegeautomat ist eine kraftbetriebene Maschine."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "unbegruendet",
+   "grund": "Keine lose liegenden Rollen oder Stapel im Protokoll, nur die Drahtrolle."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "urteil": "typisch",
+   "grund": "Abbrennstumpfschweißen erzeugt Rauch."
+  },
+  {
+   "gefaehrdung": "Augenbeschwerden durch Blendung und Spiegelungen",
+   "urteil": "unbegruendet",
+   "grund": "Das Blitzen ist Strahlung des Schweißens, kein Blendungsproblem im Sinn dieses Eintrags."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Kartons mit Pappe stehen neben dem Funkenflug."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "typisch",
+   "grund": "Beim Abbrennen entstehen Rauch und Gase, Fenster lassen sich kaum öffnen."
+  }
+ ]
+}

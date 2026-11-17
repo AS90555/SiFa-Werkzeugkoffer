@@ -1,0 +1,73 @@
+{
+ "id": "R018-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Lösemittelgeruch und Gas zum Aushärten; an der Entstehungsstelle erfassen oder lüften."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Mangel vor Ort nennt den Gasschlauch am Boden."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Kran beim Umrüsten; Anschlagmittel prüfen, nicht unter der Last aufhalten."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Kerne von Hand entnehmen, 25-kg-Säcke schütten; Hebehilfe, Tätigkeitswechsel."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Belastung durch Kälte, Hitze oder Zugluft",
+   "grund": "Raum warm; Abschirmung, Lüftung, Trinkpausen."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Absaugung, kaum Verständigung; Gehörschutz und Lärmminderung."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Umrüsten der Werkzeuge an der Maschine."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "typisch",
+   "grund": "Kerne werden von Hand aus dem Werkzeug genommen."
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "urteil": "berechtigt",
+   "grund": "Etwa tausend Kerne je Schicht, immer gleiche Handbewegung."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Der Raum ist staubig, gereinigt wird mit Druckluftpistole."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kernschießmaschine mit Druckluft ist kraftbetrieben."
+  },
+  {
+   "gefaehrdung": "Lungenerkrankung durch mineralischen Staub mit Quarzanteil",
+   "urteil": "berechtigt",
+   "grund": "Quarzsand wird von Hand eingefüllt, Raum staubig."
+  }
+ ]
+}
