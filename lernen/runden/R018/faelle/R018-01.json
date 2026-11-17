@@ -1,0 +1,121 @@
+{
+ "id": "R018-01",
+ "name": "R018-01",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Kantenanleimmaschine",
+   "bereich": "Kantenanleimung",
+   "personen": 2,
+   "umgebung": [
+    "halle",
+    "laerm_umgebung",
+    "boden",
+    "eng"
+   ],
+   "angaben": {
+    "last_kg": 20
+   },
+   "schritte": [
+    {
+     "vorgang": "kantenanleimen",
+     "ausfuehrung": "durchlaufmaschine",
+     "material": [
+      "plattenware",
+      "kantenmaterial",
+      "schmelzkleber"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "plattenware"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "schneidwerkzeug"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "schmelzkleber"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Weg zum Notausgang ist eng",
+   "fehlt": "Unklar, ob der Fluchtweg verstellt ist; nur als Enge und Stolperstelle gewählt"
+  },
+  {
+   "text": "Plattenreste und Späne neben der Maschine",
+   "fehlt": "Kein Material Plattenreste/Späne im Schritt gesetzt, nur Umgebung Boden"
+  },
+  {
+   "text": "Granulat in einem Kessel bei ungefähr zweihundert Grad",
+   "fehlt": "Schmelzkleber ist kein Gefahrstoff-Stammdatum; kein Stoff eingetragen"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "greift der Maschinenführer seitlich in die Maschine, während sie noch läuft",
+   "art": "arbeitsweise",
+   "gegenstand": "Kantenanleimmaschine"
+  },
+  {
+   "text": "der Boden ist mit Kleberresten und Staub überzogen",
+   "art": "weg_boden"
+  },
+  {
+   "text": "Neben der Maschine liegen Plattenreste und Späne, der Weg zum Notausgang ist eng, und man stolpert schnell über die Kanten",
+   "art": "weg_boden"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Werkstücke ... werden einzeln auf das Förderband gelegt; Kunststoffkante, Schmelzkleber, Fräsaggregate",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "ein zweiter Kollege belädt von der Palette nebenan; Platten fünfzehn bis zwanzig Kilogramm",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Wenn sich ein Stück verklemmt, greift der Maschinenführer seitlich in die Maschine",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Gerüstet wird bei jedem Farbwechsel, Fräsköpfe und Kantenrolle von Hand getauscht",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird am Schichtende, der Kleber wird mit dem Spachtel vom Band gekratzt",
+   "sicher": true
+  }
+ ]
+}

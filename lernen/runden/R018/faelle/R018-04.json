@@ -1,0 +1,22 @@
+{"id":"R018-04","name":"R018-04","betrieb":{},"angaben":{},
+"stoffe":[],
+"stationen":[
+{"nr":1,"name":"Biegeautomat","bereich":"Kettenfertigung","personen":1,"umgebung":["halle","sommerwaerme"],"angaben":{},
+"schritte":[
+{"vorgang":"umformen","ausfuehrung":"presse","material":["rohr_rundmaterial"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]},
+{"nr":2,"name":"Abbrennstumpfschweißer","bereich":"Kettenfertigung","personen":2,"umgebung":["halle","blendung","funkenflug","sommerwaerme"],"angaben":{},
+"schritte":[
+{"vorgang":"schweissen","ausfuehrung":"halbautomat","material":["metallwerkstueck","heisses_werkstueck"]},
+{"vorgang":"sonderbetrieb","ausfuehrung":"von_hand","material":["anlage"]}]},
+{"nr":3,"name":"Kisten zur Palette","bereich":"Kettenfertigung","personen":1,"umgebung":["halle","sommerwaerme"],"angaben":{"last_kg":20},
+"schritte":[
+{"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck"]}]}],
+"wuensche":[{"text":"Die Glieder kommen dann per Hand zum Schweißen","fehlt":"Vorgang Zählen und Einlegen in Kisten fehlt; Material fertige Kette fehlt"},{"text":"Der Schweißer blitzt bei jedem Schweißvorgang","fehlt":"Strahlung Schweißblitz; nur Umgebung Blendung gewählt"}],
+"maengel":[{"text":"greift der Bediener direkt in den Bereich vor dem Biegekopf, während die Maschine nur kurz stehen bleibt","art":"schutzeinrichtung","gegenstand":"Biegeautomat Biegekopf"},{"text":"Beim Abbrennen fliegen Funken, daneben stehen Kartons mit Pappe","art":"stoff_lagerung","gegenstand":"Kartons neben Schweißfunken"},{"text":"die Fenster lassen sich kaum öffnen","art":"lueftung"}],
+"zuordnung":[
+{"schritt":1,"stelle":"Biegeautomat, der aus einer Drahtrolle von etwa sechs Millimetern Stahl die offenen Glieder formt","sicher":true},
+{"schritt":2,"stelle":"Am Schichtende werden die Maschinen gesäubert (Biegeautomat)","sicher":false},
+{"schritt":3,"stelle":"Abbrennstumpfschweißer, der zweite Kollege legt sie ein und nimmt sie ab","sicher":true},
+{"schritt":4,"stelle":"Am Schichtende werden die Maschinen von Schweißspritzern und Zunder gesäubert","sicher":true},
+{"schritt":5,"stelle":"Kisten mit fertigen Ketten wiegen etwa zwanzig Kilogramm und werden von Hand zur Palette gebracht","sicher":true}]}

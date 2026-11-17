@@ -1,0 +1,108 @@
+{
+ "id": "R018-02",
+ "name": "R018-02",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Fenstermontage vom Hubsteiger",
+   "bereich": "Baustelle Fassade",
+   "personen": 3,
+   "umgebung": [
+    "aussen",
+    "witterung",
+    "kalt",
+    "boden",
+    "betriebsfremde"
+   ],
+   "angaben": {
+    "last_kg": 80
+   },
+   "schritte": [
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    },
+    {
+     "vorgang": "einsetzen",
+     "ausfuehrung": "hubarbeitsbuehne",
+     "material": []
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Fenster wiegen sechzig bis achtzig Kilogramm",
+   "fehlt": "Material Fensterelement fehlt in den Stammdaten"
+  },
+  {
+   "text": "Dichtmasse aus der Kartusche",
+   "fehlt": "Schritt Abdichten und Material Dichtmasse fehlen; Stoff ohne Material eingetragen; Stoff nicht eintragbar, da Material fehlt"
+  },
+  {
+   "text": "Auf der anderen Straßenseite verläuft eine Freileitung, der Abstand zum Ausleger ist nach Augenmaß nicht groß",
+   "fehlt": "Umgebung oder Vorgang Nähe zu Freileitung fehlt"
+  },
+  {
+   "text": "Abgesperrt ist der Bereich nur mit einem Band, Passanten gehen direkt darunter her",
+   "fehlt": "Absperrung Gefahrbereich; Umgebung betriebsfremde Personen gewählt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Zum Einsetzen lehnen sich die Monteure weit über die Brüstung, der Korb schwankt dabei leicht",
+   "art": "arbeitsweise",
+   "gegenstand": "Arbeitskorb Hubsteiger"
+  },
+  {
+   "text": "das Werkzeug liegt lose im Korb",
+   "art": "arbeitsweise",
+   "gegenstand": "Werkzeug im Korb"
+  },
+  {
+   "text": "Die Bohlen unter den Stützen sind feucht und stellenweise nachgegeben",
+   "art": "arbeitsweise",
+   "gegenstand": "Abstützung Hubsteiger"
+  },
+  {
+   "text": "Abgesperrt ist der Bereich nur mit einem Band, Passanten gehen direkt darunter her",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Absperrung"
+  },
+  {
+   "text": "ein schriftliches Abstützprotokoll gibt es nicht",
+   "art": "organisation"
+  },
+  {
+   "text": "Auf der anderen Straßenseite verläuft eine Freileitung, der Abstand zum Ausleger ist nach Augenmaß nicht groß",
+   "art": "arbeitsweise",
+   "gegenstand": "Abstand zur Freileitung"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "gibt die Elemente an den Kranhaken; am Kran angehängt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "vom Korb aus in die Öffnung geschoben; Hubsteiger mit Korb",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Gearbeitet wird mit Akkuschrauber",
+   "sicher": true
+  }
+ ]
+}

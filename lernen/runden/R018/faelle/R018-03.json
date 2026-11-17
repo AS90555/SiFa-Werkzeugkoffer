@@ -1,0 +1,111 @@
+{
+ "id": "R018-03",
+ "name": "R018-03",
+ "betrieb": {},
+ "angaben": {
+  "gleichfoermig": true
+ },
+ "stoffe": [
+  {
+   "id": "s3",
+   "name": "Reiniger für die Pistole",
+   "material": "lackreste",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Montageplatz Kleben und Abdichten",
+   "bereich": "Karosseriehalle",
+   "personen": 1,
+   "umgebung": [
+    "halle",
+    "zwangshaltung",
+    "taktarbeit",
+    "zeitdruck"
+   ],
+   "angaben": {
+    "gleichfoermig": true
+   },
+   "schritte": [
+    {
+     "vorgang": "kleben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "daempfe_loesemittel"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oelige_lappen"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "lackreste"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Fahrzeugrohbau steht auf einem Gestell, die Höhe lässt sich verstellen",
+   "fehlt": "Material Fahrzeugrohbau fehlt"
+  },
+  {
+   "text": "Dichtmasse und Klebstoff aus 310-Milliliter-Kartuschen",
+   "fehlt": "Material Dichtmasse/Klebstoff in Kartusche und Vorgang Abdichten fehlen; Stoffe ohne Material; Stoffe nicht eintragbar, da Material fehlt"
+  },
+  {
+   "text": "leere Kartuschen und Papier auf einer Palette",
+   "fehlt": "Material Abfall Kartuschen und Papier, Brandlast"
+  },
+  {
+   "text": "Druckluftpistole für Kartuschen",
+   "fehlt": "Ausführung Kartuschenpistole mit Druckluft; handmaschine gewählt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "die Hallenlüftung reicht hier nicht aus, eine Absaugung gibt es am Platz nicht",
+   "art": "lueftung"
+  },
+  {
+   "text": "Manche Kollegen arbeiten ohne Handschuhe, weil die Hände sonst schwitzen",
+   "art": "psa"
+  },
+  {
+   "text": "der Lappen mit dem Reiniger liegt danach in einer offenen Tonne neben dem Platz",
+   "art": "stoff_lagerung",
+   "gegenstand": "offene Tonne mit Lappen"
+  },
+  {
+   "text": "wer hinterherhinkt, bekommt Ärger mit dem Schichtführer",
+   "art": "arbeitsweise"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Man zieht Raupen entlang der Falze und Bleche; Dichtmasse riecht stark süßlich",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Pistole wird vor dem Wechsel der Kartusche mit einem Lappen gereinigt",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Am Schichtende werden Pistole und Mischrohre gereinigt und die Reste im Behälter entsorgt",
+   "sicher": false
+  }
+ ]
+}
