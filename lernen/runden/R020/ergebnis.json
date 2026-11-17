@@ -1,0 +1,150 @@
+{
+ "runde": "R020",
+ "blind": true,
+ "regeln": 138,
+ "quote": 95,
+ "summe": {
+  "getroffen": 0,
+  "nachfrage": 0,
+  "uebersehen": 0,
+  "ohneEintrag": 0,
+  "zusaetzlich": 0,
+  "wuensche": 38,
+  "schritte": 39,
+  "maengel": 33
+ },
+ "faelle": [
+  {
+   "id": "R020-01",
+   "arbeitsplatz": "Ätzlinie und Galvanikbad",
+   "branche": "Leiterplattenfertigung",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-02",
+   "arbeitsplatz": "Elektroauto auf der Hebebühne, Hochvoltsystem freischalten",
+   "branche": "Kfz-Werkstatt",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-03",
+   "arbeitsplatz": "Induktionsofen im Schmelzbetrieb",
+   "branche": "Gießerei",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-04",
+   "arbeitsplatz": "Kontipresse bei Instandhaltungsarbeiten",
+   "branche": "Plattenwerk",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-05",
+   "arbeitsplatz": "Stäbe sortieren am Band",
+   "branche": "Parkettfabrik",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-06",
+   "arbeitsplatz": "Wartung von Gaskesseln beim Kunden",
+   "branche": "Heizungsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-07",
+   "arbeitsplatz": "Batteriemontage für Elektrofahrzeuge",
+   "branche": "Fahrzeugbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  },
+  {
+   "id": "R020-08",
+   "arbeitsplatz": "Mast und Rigg montieren in der Höhe",
+   "branche": "Bootsbau",
+   "getroffen": 0,
+   "nachfrage": 0,
+   "uebersehen": 0,
+   "ohneEintrag": 0,
+   "zusaetzlich": 0
+  }
+ ],
+ "jeFaktor": {
+  "1": {
+   "getroffen": 9,
+   "verfehlt": 0
+  },
+  "2": {
+   "getroffen": 7,
+   "verfehlt": 0
+  },
+  "3": {
+   "getroffen": 7,
+   "verfehlt": 0
+  },
+  "5": {
+   "getroffen": 1,
+   "verfehlt": 1
+  },
+  "6": {
+   "getroffen": 2,
+   "verfehlt": 1
+  },
+  "7": {
+   "getroffen": 3,
+   "verfehlt": 0
+  },
+  "8": {
+   "getroffen": 1,
+   "verfehlt": 0
+  },
+  "9": {
+   "getroffen": 4,
+   "verfehlt": 0
+  },
+  "10": {
+   "getroffen": 2,
+   "verfehlt": 0
+  },
+  "11": {
+   "getroffen": 1,
+   "verfehlt": 0
+  }
+ },
+ "schiedsrichter": {
+  "quote": 95,
+  "getroffen": 37,
+  "rueckfrage": 1,
+  "verfehlt": 1,
+  "unbegruendet": 0,
+  "zBerechtigt": 33,
+  "zTypisch": 14,
+  "zUnbegruendet": 3
+ }
+}

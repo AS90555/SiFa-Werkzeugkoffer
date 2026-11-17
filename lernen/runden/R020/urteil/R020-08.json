@@ -1,0 +1,78 @@
+{
+ "id": "R020-08",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Mast am Kran; Niemand unter der schwebenden Last passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Freileitung über dem Platz; Abstand klären, abschalten, Einweiser passen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "grund": "Epoxidharz und Aceton, Dämpfe, Hautkontakt; Einstufung und Hautschutz passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "grund": "Regen, Wind, Nässe; Arbeitsplätze im Freien schützen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Arbeit mit einem Arm über Kopf; Arbeitshöhe und Erreichbarkeit gestalten passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Lücke in der Brüstung, keine Absturzsicherung; Mangel-Eintrag Absturzsicherung herstellen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Die Leute frieren schon."
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "urteil": "berechtigt",
+   "grund": "Epoxidharz und Aceton mit Hautkontakt und Dämpfen."
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "urteil": "berechtigt",
+   "grund": "Aceton aus einer offenen Dose."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Einer hält unten die Leinen, oben wird mit Werkzeug gearbeitet."
+  },
+  {
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "urteil": "typisch",
+   "grund": "Hubarbeitsbühne im Freien bei böigem Wind."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Helme trägt nur einer."
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "urteil": "berechtigt",
+   "grund": "Pinsel liegt offen auf dem Boden, Aceton aus einer offenen Dose."
+  }
+ ]
+}

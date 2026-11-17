@@ -1,0 +1,41 @@
+{
+ "id": "R020-02",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "grund": "Hochspannungshandschuhe liegen im Schrank, nur Baumwollhandschuhe; Schutzausrüstung bereitstellen und benutzen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Aufgescheuerte Hochvolt-Leitung; Eintrag aus Mangel, Maßnahme beschädigtes Betriebsmittel entziehen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Restspannung, Wartezeit; spannungsfreien Zustand herstellen und sicherstellen passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Öl und Wischlappen am Boden unter der Bühne; Verunreinigungen beseitigen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Ein Tor steht offen, es zieht."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Über der Bühne flackert eine Röhre."
+  }
+ ]
+}

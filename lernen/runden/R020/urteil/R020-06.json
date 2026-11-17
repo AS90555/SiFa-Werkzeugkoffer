@@ -1,0 +1,88 @@
+{
+ "id": "R020-06",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Säurehaltiges Reinigungsmittel; Handschuhe, Schutzbrille, Augenspülung passen."
+  },
+  {
+   "nr": 2,
+   "urteil": "rueckfrage",
+   "system": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "grund": "Gasaustritt und Explosion steht nur unter den Rückfragen."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Heißes Gehäuse und Rohre; hitzebeständige Handschuhe passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Kabel und Steckdosenleiste am Boden; Mangel-Eintrag beschädigte Betriebsmittel entziehen."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "grund": "Schwerer Brenner einhändig gehoben; Hebehilfe passt."
+  },
+  {
+   "nr": 6,
+   "urteil": "getroffen",
+   "system": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "grund": "Knappe Zeit, Anrufe, Kunde dabei; Arbeitsabläufe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Wartung mit abgeschraubten Abdeckungen am Kessel."
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "urteil": "berechtigt",
+   "grund": "Der Raum ist klein, kalt und feucht."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Das Kabel läuft über den Boden zu einer Steckdosenleiste auf dem Boden."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Absetzen von Teilen ist im Protokoll nicht beschrieben."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "typisch",
+   "grund": "Säurereiniger und Gasarbeit im kleinen Raum."
+  },
+  {
+   "gefaehrdung": "Unfall oder Fehlgriff durch unzureichende Beleuchtung",
+   "urteil": "berechtigt",
+   "grund": "Licht nur von einer Deckenlampe und einer Taschenlampe."
+  },
+  {
+   "gefaehrdung": "Störender Lärm beeinträchtigt Konzentration und Verständigung",
+   "urteil": "unbegruendet",
+   "grund": "Das Protokoll nennt keinen Lärm."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Hebt den Brenner einhändig und stützt sich mit dem Knie an der Rohrleitung ab, Werkzeug auf dem Kessel."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Eine Schutzbrille sehe ich nicht."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "R020-05",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "grund": "Spalt ohne Abdeckung, Finger eingeklemmt; Maßnahme Schutzeinrichtung wirksam machen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Atemwegserkrankung durch Holzstaub",
+   "grund": "Abblasen mit Druckluft wirbelt Holzstaub auf; Abblasen nicht zulässig passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Laute Halle, Verständigung mit Handzeichen; Gehörschutz passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "grund": "Ständiges Bücken zu unteren Fächern; Arbeitshöhe gestalten passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Gehobelter Holzstaub, Abblasen am Schichtende."
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "urteil": "berechtigt",
+   "grund": "Das Band hat an der Einlaufseite einen Spalt, Finger eingeklemmt."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "berechtigt",
+   "grund": "Am Schichtende wird mit Druckluft abgeblasen, der Staub wirbelt hoch."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Abblasen mit Druckluft am Schichtende."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Schutzbrillen sehe ich nur bei einer Person."
+  }
+ ]
+}

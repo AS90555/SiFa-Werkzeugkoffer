@@ -1,0 +1,56 @@
+{
+ "id": "R020-04",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Absturz aus der Höhe",
+   "grund": "Leiter ohne Handlauf an der letzten Stufe; Mangel-Eintrag Absturzsicherung herstellen."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Unerwarteter Anlauf im Sonderbetrieb",
+   "grund": "Sicherung nicht abgeschlossen; Abschalten und gegen Wiedereinschalten sichern passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "verfehlt",
+   "system": null,
+   "grund": "Keine Gefährdung der Liste meint Verbrennung an Heizplatten oder Thermalöl."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Halle laut; Gehörschutz und Lärmminderung passen."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "urteil": "berechtigt",
+   "grund": "Das Band wird später mit dem Stapler herangefahren."
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "urteil": "berechtigt",
+   "grund": "Späne und Staub liegen auf der Plattform, gereinigt wird mit dem Besen."
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "urteil": "typisch",
+   "grund": "Spanplattenwerk mit Holzstaubablagerungen."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Späne und Staub liegen auf der Plattform."
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "urteil": "typisch",
+   "grund": "Hebeschlinge, Werkzeug auf der Plattform und Platten abstapeln."
+  }
+ ]
+}

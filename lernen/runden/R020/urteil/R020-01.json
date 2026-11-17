@@ -1,0 +1,77 @@
+{
+ "id": "R020-01",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Einzug von Hand oder Arm",
+   "grund": "Einzugsgefahr beim Einlegen von Hand an der Aufnahme; Maßnahme Werkstück mit Abstand anlegen passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Elektrischer Schlag, Störlichtbogen",
+   "grund": "Lose Gleichrichterkabel am Wannenrand, Maßnahme beschädigte Betriebsmittel entziehen passt."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "grund": "Säurespritzer auf Haut und Augen; Schürze und Augenspülung passen."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "grund": "Dämpfe ziehen bis zum Pausenraum; Lüftung instand setzen passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "grund": "Wasserstoffperoxid-Kanister ohne Auffangwanne, falsch gelagerter Stoff."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "urteil": "typisch",
+   "grund": "Düsenwechsel durch Instandhaltung mit Schraubenschlüssel an einer Anlage."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebene Durchlaufanlage mit Bedienung."
+  },
+  {
+   "gefaehrdung": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "urteil": "berechtigt",
+   "grund": "Düsen werden am Wochenende mit dem Hochdruckreiniger gereinigt."
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "urteil": "unbegruendet",
+   "grund": "Last zwischen festem Teil ist im Protokoll nicht beschrieben, der Einzug ist schon zugeordnet."
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "urteil": "berechtigt",
+   "grund": "Der Boden vor den Wannen ist feucht, Gummimatten nur an einer Stelle."
+  },
+  {
+   "gefaehrdung": "Augenbeschwerden durch Blendung und Spiegelungen",
+   "urteil": "berechtigt",
+   "grund": "Das Licht über den Wannen ist grell."
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "urteil": "berechtigt",
+   "grund": "Die Haube ist bei Gestellwechsel offen."
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "urteil": "berechtigt",
+   "grund": "Der Vorarbeiter trägt Handschuhe, aber keine Schürze."
+  }
+ ]
+}

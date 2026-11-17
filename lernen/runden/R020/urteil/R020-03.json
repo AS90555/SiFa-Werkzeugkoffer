@@ -1,0 +1,67 @@
+{
+ "id": "R020-03",
+ "wahrheit": [
+  {
+   "nr": 1,
+   "urteil": "getroffen",
+   "system": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "grund": "Spritzer beim Schlackeabziehen; hitzebeständige Schutzkleidung passt."
+  },
+  {
+   "nr": 2,
+   "urteil": "getroffen",
+   "system": "Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit",
+   "grund": "Feuchter, öliger Schrott; Einsatzmaterial nur trocken passt genau."
+  },
+  {
+   "nr": 3,
+   "urteil": "getroffen",
+   "system": "Schwebende Last fällt herab",
+   "grund": "Schrottkorb am Kran; Niemand unter der Last passt."
+  },
+  {
+   "nr": 4,
+   "urteil": "getroffen",
+   "system": "Gehörschaden durch Lärm",
+   "grund": "Lärm von Kran und Pumpen; Gehörschutz passt."
+  },
+  {
+   "nr": 5,
+   "urteil": "getroffen",
+   "system": "Stolpern, Rutschen, Stürzen",
+   "grund": "Späne und Wasserlachen am Boden; Verunreinigungen beseitigen passt."
+  }
+ ],
+ "zusaetzlich": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "urteil": "typisch",
+   "grund": "Der Tiegel wird mit Druckluft ausgeblasen."
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "urteil": "typisch",
+   "grund": "Die Pfanne dampft, Schmelzen mit öligem Schrott erzeugt Rauch und Dämpfe."
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "urteil": "typisch",
+   "grund": "Kraftbetriebener Ofen und Kran mit Bedienpult."
+  },
+  {
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "urteil": "typisch",
+   "grund": "Induktionsofen mit Pult und Rückkühler ist elektrische Großanlage."
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "urteil": "berechtigt",
+   "grund": "Das Material ist teilweise noch ölig und feucht."
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "urteil": "berechtigt",
+   "grund": "Einer der Kühlschläuche ist geflickt."
+  }
+ ]
+}
