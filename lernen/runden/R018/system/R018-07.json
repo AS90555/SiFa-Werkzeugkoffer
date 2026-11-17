@@ -1,0 +1,180 @@
+{
+ "id": "R018-07",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einsatz höhenverstellbarer Montagetische prüfen",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+   ],
+   "entsteht": [
+    "Last, Zwangshaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
+    "Schrauber mit Abschaltkupplung",
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+   ],
+   "entsteht": [
+    "Gleichförmige Bewegung, Drehmoment",
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Werkzeug mit Abdeckung der Klinge",
+    "Schnittschutzhandschuhe und Unterarmschutz"
+   ],
+   "entsteht": [
+    "Offene Klinge",
+    "Scharfe Kanten, Bruch"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Emissionsarmes Verfahren und Zusatzwerkstoff wählen",
+    "Absaugung an der Entstehungsstelle, nachgeführt",
+    "Atemschutz, wenn die Absaugung nicht ausreicht"
+   ],
+   "entsteht": [
+    "Schweißrauch und Gase"
+   ]
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schweißplatz zu Nachbarplätzen abschirmen",
+    "Schweißerschutzschild und bedeckende Kleidung"
+   ],
+   "entsteht": [
+    "Ultraviolette und sichtbare Strahlung des Lichtbogens"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung",
+    "Funkenflug abschirmen: Stellwände, Vorhänge, Funkenrichtung von Personen weg",
+    "Schwer entflammbare Kleidung, Handschuhe und Schutzbrille tragen, auch Personen daneben"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer",
+    "Funken, Zunder und heiße Partikel treffen Haut oder Kleidung"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "Feuerlöscher griffbereit",
+    "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+   ],
+   "entsteht": [
+    "Funken und glühende Partikel"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsschuhe",
+    "Auf Unterlagen absetzen, Finger nicht unter die Last"
+   ],
+   "entsteht": [
+    "Schweres Teil wird von Hand abgesetzt"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Saugen statt Abblasen",
+    "Schutzbrille"
+   ],
+   "entsteht": [
+    "Aufgewirbelter Staub, wegfliegende Teile"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Der Richtrahmen hat keinen Schutzkorb"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Stoffe wie Kleber und Grundierung stehen offen herum"
+   ]
+  }
+ ],
+ "rueckfragen": []
+}

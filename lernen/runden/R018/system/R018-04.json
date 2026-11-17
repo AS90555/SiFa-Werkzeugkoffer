@@ -1,0 +1,197 @@
+{
+ "id": "R018-04",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen",
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie",
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung",
+    "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken",
+    "Wiederkehrende Prüfung",
+    "Auslösung nur bei freiem Bereich",
+    "Schutzeinrichtung geprüft"
+   ],
+   "entsteht": [
+    "Schließbewegung mit hoher Kraft",
+    "Arbeitstakt bei Hand im Bereich"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen",
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen",
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur",
+    "Wärmestrahlung, hohe Raumtemperatur",
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden",
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine",
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Runde Lasten gegen Wegrollen sichern: Keile, Rungen, Lagergestelle",
+    "Nicht vor oder auf ungesicherten Stapeln aufhalten"
+   ],
+   "entsteht": [
+    "Stämme, Rohre oder Rollen liegen lose oder im Stapel"
+   ]
+  },
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Emissionsarmes Verfahren und Zusatzwerkstoff wählen",
+    "Absaugung an der Entstehungsstelle, nachgeführt",
+    "Atemschutz, wenn die Absaugung nicht ausreicht"
+   ],
+   "entsteht": [
+    "Schweißrauch und Gase"
+   ]
+  },
+  {
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schweißplatz zu Nachbarplätzen abschirmen",
+    "Schweißerschutzschild und bedeckende Kleidung"
+   ],
+   "entsteht": [
+    "Ultraviolette und sichtbare Strahlung des Lichtbogens"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung",
+    "Funkenflug abschirmen: Stellwände, Vorhänge, Funkenrichtung von Personen weg",
+    "Schwer entflammbare Kleidung, Handschuhe und Schutzbrille tragen, auch Personen daneben"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer",
+    "Funken, Zunder und heiße Partikel treffen Haut oder Kleidung"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "Feuerlöscher griffbereit",
+    "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+   ],
+   "entsteht": [
+    "Funken und glühende Partikel"
+   ]
+  },
+  {
+   "gefaehrdung": "Augenbeschwerden durch Blendung und Spiegelungen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Störende Blendung und Reflexionen am Arbeitsplatz minimieren",
+    "Am Bildschirmarbeitsplatz störende Blendungen, Reflexionen und Spiegelungen vermeiden"
+   ],
+   "entsteht": [
+    "Störende Blendung am Arbeitsplatz oder Bildschirm"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: greift der Bediener direkt in den Bereich vor dem Biegekopf, während die Maschine nur kurz stehen bleibt"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Beim Abbrennen fliegen Funken, daneben stehen Kartons mit Pappe"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Fenster lassen sich kaum öffnen"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "id": "R018-08",
+ "name": "R018-08",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Verladen der Dachelemente mit dem Kran",
+   "bereich": "Außenlager, Dachelemente mit dem Kran verladen",
+   "personen": 2,
+   "umgebung": [
+    "aussen",
+    "witterung",
+    "boden",
+    "betriebsfremde"
+   ],
+   "angaben": {
+    "last_kg": 1500
+   },
+   "schritte": [
+    {
+     "vorgang": "anschlagen",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": []
+    },
+    {
+     "vorgang": "verpacken",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "packmittel"
+     ]
+    },
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "messer",
+     "material": [
+      "packmittel"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Dachelemente aus Holz und Dämmung ... jedes wiegt rund eineinhalb Tonnen und ist bis zu zwölf Meter lang",
+   "fehlt": "Material Dachelement oder Holzbauelement (groß, schwer, sperrig)"
+  },
+  {
+   "text": "Dämmwolle klebt an den Händen",
+   "fehlt": "Material Dämmwolle, Mineralwolle"
+  },
+  {
+   "text": "Die Folie wird mit einer Schere geschnitten",
+   "fehlt": "Ausführung Schere; messer nur ungefähr"
+  },
+  {
+   "text": "Gereinigt wird der Platz mit dem Radlader",
+   "fehlt": "Vorgang Reinigen mit Radlader oder Fahrzeug"
+  },
+  {
+   "text": "die Ketten prüft der Kranführer einmal im Monat",
+   "fehlt": "Ausführung und Material für die Sichtprüfung der Anschlagketten"
+  },
+  {
+   "text": "Die Ladefläche ist eine Plane mit Holzpaletten",
+   "fehlt": "Umgebung oder Material Ladefläche eines Lkw"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Kranführer steht meist seitlich, nicht mit Sicht auf die Last",
+   "art": "arbeitsweise",
+   "gegenstand": "Standort des Kranführers ohne Sicht auf die Last"
+  },
+  {
+   "text": "teilweise liegt Schalungsmaterial verstreut",
+   "art": "weg_boden",
+   "gegenstand": "Schalungsmaterial auf der Ladefläche"
+  },
+  {
+   "text": "ein Lkw parkt quer zur Zufahrt",
+   "art": "weg_boden",
+   "gegenstand": "Zufahrt"
+  },
+  {
+   "text": "Der Platz ist nicht abgesperrt, Passanten gehen am Zaun entlang",
+   "gegenstand": "Absperrung des Platzes"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Der Anschläger hängt die Ketten an die Lastaufnahmemittel",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "dann hebt der Kran das Element mit einer Funkfernsteuerung auf den Lkw",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Elemente werden mit Folie abgedeckt",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "die Folie wird mit einer Schere geschnitten",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "die Ketten prüft der Kranführer einmal im Monat",
+   "sicher": false
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "id": "R018-06",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel",
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel"
+   ],
+   "entsteht": [
+    "Körperliche Belastung",
+    "Körperliche Belastung"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Niemand unter der schwebenden Last",
+    "Anschlagmittel vor Gebrauch prüfen",
+    "Wiederkehrende Prüfung des Hebezeugs"
+   ],
+   "entsteht": [
+    "Schwebende Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschirmung der Wärmequelle, Lüftung",
+    "Trinkpausen, Aufenthalt begrenzen"
+   ],
+   "entsteht": [
+    "Wärmestrahlung, hohe Raumtemperatur"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille",
+    "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken",
+    "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille",
+    "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken"
+   ],
+   "entsteht": [
+    "Hautkontakt beim Nachfüllen, Schmieren und Reinigen, Spritzer",
+    "Hautkontakt beim Nachfüllen, Schmieren und Reinigen, Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen"
+   ],
+   "entsteht": [
+    "Lärm"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung",
+    "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken",
+    "Wiederkehrende Prüfung"
+   ],
+   "entsteht": [
+    "Schließbewegung mit hoher Kraft"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Schutzgitter an der Seite sind offen, weil sie beim Einlegen im Weg sind"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Öl-Wanne hat keine Abdeckung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch ein beschädigtes oder abgenutztes Arbeitsmittel",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel mit Mängeln, die die Sicherheit beeinträchtigen, nicht verwenden und instand setzen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Die Ofentür hat einen Riss im Dichtungsrahmen, es strömt heiße Luft heraus"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

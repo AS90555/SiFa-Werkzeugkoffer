@@ -1,0 +1,132 @@
+{
+ "id": "R018-03",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Psychische Belastung durch Zeitdruck, Störungen, Arbeitsmenge",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit und Arbeitsabläufe so gestalten, dass eine Gefährdung der psychischen Gesundheit möglichst vermieden wird",
+    "Psychische Belastung in der Gefährdungsbeurteilung erfassen"
+   ],
+   "entsteht": [
+    "Arbeiten in Hektik"
+   ]
+  },
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+   ],
+   "entsteht": [
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Am Arbeitsplatz nur die für den Arbeitsgang angemessene Menge bereithalten, in der Regel den Tages- oder Schichtbedarf",
+    "Beim Ab- und Umfüllen entzündbarer Flüssigkeiten erden",
+    "Zündquellen fernhalten, Explosionsschutz prüfen",
+    "Benutzte Lappen in einem nicht brennbaren, verschließbaren Sammelbehälter ablegen",
+    "Lappen nicht liegen lassen oder zusammenknüllen, Behälter regelmäßig leeren und die Entsorgung festlegen"
+   ],
+   "entsteht": [
+    "Entzündbare Flüssigkeit, Dämpfe",
+    "Mit Öl, Reiniger oder Lösemittel getränkte Lappen liegen herum oder werden zusammengeknüllt; in Haufen können sie sich erhitzen und Feuer fangen"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "An der Entstehungsstelle erfassen oder wirksam lüften",
+    "Höhe der Exposition ermitteln"
+   ],
+   "entsteht": [
+    "Gefahrstoff entsteht bei der Tätigkeit"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden",
+    "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+   ],
+   "entsteht": [
+    "Langes Arbeiten in ungünstiger Körperhaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille",
+    "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken"
+   ],
+   "entsteht": [
+    "Hautkontakt beim Nachfüllen, Schmieren und Reinigen, Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: wer hinterherhinkt, bekommt Ärger mit dem Schichtführer"
+   ]
+  },
+  {
+   "gefaehrdung": "Einatmen von Gasen, Rauchen oder Dämpfen aus dem Verfahren",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Lüftung oder Absaugung instand setzen und die Wirksamkeit prüfen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: die Hallenlüftung reicht hier nicht aus, eine Absaugung gibt es am Platz nicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung oder Erkrankung, weil die vorgesehene Schutzausrüstung nicht benutzt wird oder nicht passt",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Geeignete Schutzausrüstung bereitstellen und für die Benutzung sorgen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Manche Kollegen arbeiten ohne Handschuhe, weil die Hände sonst schwitzen"
+   ]
+  },
+  {
+   "gefaehrdung": "Kontakt, Verwechslung oder Brand durch offene, unbeschriftete oder falsch gelagerte Stoffe",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Behälter geschlossen halten, eindeutig kennzeichnen und von Zündquellen fernhalten"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der Lappen mit dem Reiniger liegt danach in einer offenen Tonne neben dem Platz"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+  "Schädigung des ungeborenen Kindes"
+ ]
+}

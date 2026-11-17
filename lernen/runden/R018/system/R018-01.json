@@ -1,0 +1,170 @@
+{
+ "id": "R018-01",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Absaugung an der Entstehungsstelle",
+    "Grenzwert einhalten: 2 mg/m³ bei Hartholz oder Mischstaub, sonst 10 mg/m³ einatembarer Staub",
+    "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen",
+    "Maschine nur mit eingeschalteter Absaugung betreiben"
+   ],
+   "entsteht": [
+    "Holzstaub",
+    "Absaugung fehlt, ist abgeschaltet oder wirkt nicht mehr"
+   ]
+  },
+  {
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Über 80 dB(A): Gehörschutz bereitstellen, wenn die Lärmminderung den Wert nicht einhält; Vorsorge anbieten",
+    "Ab 85 dB(A): Gehörschutz muss getragen werden, Pflichtvorsorge",
+    "Über 85 dB(A): Lärmbereich kennzeichnen",
+    "Lärm am Entstehungsort verhindern oder verringern, zum Beispiel durch Kapselung oder Abschirmung",
+    "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+   ],
+   "entsteht": [
+    "Lärm",
+    "Lärm von Nachbarplätzen und Aggregaten"
+   ]
+  },
+  {
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Belastung mit der Leitmerkmalmethode bewerten",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen",
+    "Tätigkeitswechsel",
+    "Einsatz höhenverstellbarer Montagetische prüfen",
+    "Hebehilfe oder andere mechanische Ausrüstung einsetzen"
+   ],
+   "entsteht": [
+    "Körperliche Belastung",
+    "Last, Zwangshaltung"
+   ]
+  },
+  {
+   "gefaehrdung": "Unerwarteter Anlauf im Sonderbetrieb",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Abschalten und gegen Wiedereinschalten sichern",
+    "Instandhaltung nur durch fachkundige, beauftragte und unterwiesene Beschäftigte",
+    "Für Instandhaltungsarbeiten sichere Arbeitsverfahren festlegen, wenn die Bedingungen vom Normalzustand abweichen"
+   ],
+   "entsteht": [
+    "Schutz aufgehoben, gespeicherte Energie"
+   ]
+  },
+  {
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Reinigungsplan",
+    "Zündquellen vermeiden"
+   ],
+   "entsteht": [
+    "Brennbare Staubschicht"
+   ]
+  },
+  {
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Schnittschutzhandschuhe",
+    "Transportwagen und Aufnahmevorrichtung"
+   ],
+   "entsteht": [
+    "Scharfe Messer, schwere Köpfe"
+   ]
+  },
+  {
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fester, gekennzeichneter Ablageplatz für heiße Teile",
+    "Hitzebeständige Handschuhe und Schutzkleidung"
+   ],
+   "entsteht": [
+    "Heiße Teile und Spritzer"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen",
+    "Bewegungsflächen und Verkehrswege freihalten"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+    "Anstoßen und Stolpern an verstellten Flächen"
+   ]
+  },
+  {
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Einzugsstelle so weit wie möglich verdeckt",
+    "Werkstück mit Abstand anlegen, nicht nachgreifen"
+   ],
+   "entsteht": [
+    "Einzugsstelle an den Walzen"
+   ]
+  },
+  {
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Sicherheitsschuhe",
+    "Auf Unterlagen absetzen, Finger nicht unter die Last"
+   ],
+   "entsteht": [
+    "Schweres Teil wird von Hand abgesetzt"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: greift der Maschinenführer seitlich in die Maschine, während sie noch läuft"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen",
+    "Verkehrswege freihalten und Verunreinigungen unverzüglich beseitigen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: der Boden ist mit Kleberresten und Staub überzogen",
+    "Mangel vor Ort: Neben der Maschine liegen Plattenreste und Späne, der Weg zum Notausgang ist eng, und man stolpert schnell über die Kanten"
+   ]
+  }
+ ],
+ "rueckfragen": [
+  "Krebs der Nase durch Hartholzstaub",
+  "Hand-Arm-Beschwerden durch gleichförmige Arbeit"
+ ]
+}

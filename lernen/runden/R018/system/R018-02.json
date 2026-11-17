@@ -1,0 +1,115 @@
+{
+ "id": "R018-02",
+ "gefaehrdungen": [
+  {
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
+    "Schrauber mit Abschaltkupplung",
+    "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+   ],
+   "entsteht": [
+    "Gleichförmige Bewegung, Drehmoment",
+    "Immer gleiche Bewegung in hoher Zahl"
+   ]
+  },
+  {
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Niemand unter der schwebenden Last",
+    "Anschlagmittel vor Gebrauch prüfen",
+    "Wiederkehrende Prüfung des Hebezeugs"
+   ],
+   "entsteht": [
+    "Schwebende Last"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
+    "Wenn technische und organisatorische Maßnahmen nicht ausreichen: geeignete Kleidung gegen Kälte"
+   ],
+   "entsteht": [
+    "Niedrige Temperatur, Zugluft"
+   ]
+  },
+  {
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "Stolperstellen beseitigen oder kennzeichnen",
+    "Rutschhemmende Sicherheitsschuhe",
+    "Verkehrswege freihalten",
+    "Rutschhemmenden Fußboden vorsehen"
+   ],
+   "entsteht": [
+    "Späne, Öl, Pulver, Kabel, Kanten am Boden"
+   ]
+  },
+  {
+   "gefaehrdung": "Belastung und Unfallgefahr durch Witterung im Freien",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsplätze im Freien gegen Witterungseinflüsse schützen oder geeignete persönliche Schutzausrüstung bereitstellen"
+   ],
+   "entsteht": [
+    "Nässe, Wind, Sonne, Glätte"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "Maschine nur bestimmungsgemäß verwenden"
+   ],
+   "entsteht": [
+    "Bedienfehler, Arbeiten ohne Kenntnis der Maschine"
+   ]
+  },
+  {
+   "gefaehrdung": "Unfall durch eine gefährliche Arbeitsweise oder Lage",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen",
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen",
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen",
+    "Arbeit unterbrechen, sichere Arbeitsweise festlegen und unterweisen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Zum Einsetzen lehnen sich die Monteure weit über die Brüstung, der Korb schwankt dabei leicht",
+    "Mangel vor Ort: das Werkzeug liegt lose im Korb",
+    "Mangel vor Ort: Die Bohlen unter den Stützen sind feucht und stellenweise nachgegeben",
+    "Mangel vor Ort: Auf der anderen Straßenseite verläuft eine Freileitung, der Abstand zum Ausleger ist nach Augenmaß nicht groß"
+   ]
+  },
+  {
+   "gefaehrdung": "Verletzung an einer Gefahrstelle, weil die Schutzeinrichtung fehlt oder unwirksam ist",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Arbeitsmittel erst wieder verwenden, wenn die Schutzeinrichtung vorhanden und wirksam ist"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: Abgesperrt ist der Bereich nur mit einem Band, Passanten gehen direkt darunter her"
+   ]
+  },
+  {
+   "gefaehrdung": "Gefährdung durch fehlende Unterweisung, Prüfung, Anweisung oder Kennzeichnung",
+   "status": "trifft zu",
+   "massnahmen": [
+    "Fehlende Unterweisung, Prüfung, Betriebsanweisung oder Kennzeichnung nachholen"
+   ],
+   "entsteht": [
+    "Mangel vor Ort: ein schriftliches Abstützprotokoll gibt es nicht"
+   ]
+  }
+ ],
+ "rueckfragen": []
+}

@@ -1,0 +1,148 @@
+{
+ "id": "R018-06",
+ "name": "R018-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Gasofen und Ölbad",
+   "bereich": "Wärmebehandlung, Härten von Wellen",
+   "personen": 1,
+   "umgebung": [
+    "hitze"
+   ],
+   "angaben": {
+    "last_kg": 80
+   },
+   "schritte": [
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisses_werkstueck",
+      "oel_schmierstoff",
+      "prozessrauch"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Hydraulikpresse zum Richten",
+   "bereich": "Richten von Wellen mit der Presse",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {
+    "last_kg": 80
+   },
+   "schritte": [
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "umformen",
+     "ausfuehrung": "presse",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "nach einer halben Stunde mit der Zange herausgeholt",
+   "fehlt": "Vorgang Härten oder Wärmebehandeln im Gasofen (einbrennen passt nur ungefähr); Ausführung Zange (Handwerkzeug zum Greifen heißer Teile)"
+  },
+  {
+   "text": "in ein Ölbad gelegt. Das ist eine offene Wanne mit Härteöl, die dampft",
+   "fehlt": "Vorgang Abschrecken im Ölbad und Ausführung Ölbad; Härteöl ist als Stoff nur über Material Öl eingetragen; Härteöl als Stoff nicht eintragbar, da Material Öl kein Gefahrstoff-Stammdatum ist"
+  },
+  {
+   "text": "Danach kommen die Wellen auf einen Rollbock zur Presse",
+   "fehlt": "Nicht beschrieben, wer den Rollbock schiebt; Schritt Ziehen oder Schieben nicht sicher zuordenbar"
+  },
+  {
+   "text": "Der Stempel fährt herunter und drückt die Welle gerade",
+   "fehlt": "Vorgang Richten unter der Presse: umformen nur ungefähr; montieren (Richten) ebenfalls möglich"
+  },
+  {
+   "text": "Die Vorrichtungen für das Richten werden vom Vorarbeiter umgerüstet",
+   "fehlt": "Rüsten nur genannt, nicht beschrieben, was an der Maschine getan wird; deshalb kein Schritt"
+  },
+  {
+   "text": "Pro Schicht sind das etwa vierzig Wellen",
+   "fehlt": "Griffe je Stunde oder je Tag nicht ableitbar (Zahl der Schichten unbekannt)"
+  },
+  {
+   "text": "Mit dem Kran werden sie in den Ofen gesetzt",
+   "fehlt": "Wer den Kran bedient, ist nicht genannt; Schritt ohne Personenangabe"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Öl-Wanne hat keine Abdeckung",
+   "art": "stoff_lagerung",
+   "gegenstand": "Wanne mit Härteöl"
+  },
+  {
+   "text": "Die Schutzgitter an der Seite sind offen, weil sie beim Einlegen im Weg sind",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzgitter der Presse"
+  },
+  {
+   "text": "Die Ofentür hat einen Riss im Dichtungsrahmen, es strömt heiße Luft heraus",
+   "art": "arbeitsmittel_defekt",
+   "gegenstand": "Ofentür des Gasofens"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Mit dem Kran werden sie in den Ofen gesetzt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "nach einer halben Stunde mit der Zange herausgeholt und in ein Ölbad gelegt",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "dort werden sie auf zwei Auflagen gelegt",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Der Stempel fährt herunter und drückt die Welle gerade, bedient wird die Presse über einen Zweihandtaster",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "gereinigt wird mit Ölbindemittel und Besen",
+   "sicher": false
+  }
+ ]
+}

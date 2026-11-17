@@ -1,0 +1,151 @@
+{
+ "id": "R018-07",
+ "name": "R018-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Grundierung",
+   "material": "lack",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s2",
+   "name": "Lösemittel im Kanister",
+   "material": "loesemittel",
+   "sdb": null,
+   "h": []
+  },
+  {
+   "id": "s3",
+   "name": "Kleber",
+   "material": "kleber_1k",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Unfallinstandsetzung an Hebebühne und Richtrahmen",
+   "bereich": "Karosseriewerkstatt, Airbagteile und Glasbruch",
+   "personen": 4,
+   "umgebung": [
+    "kalt",
+    "funkenflug"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "blechteil"
+     ]
+    },
+    {
+     "vorgang": "pruefen",
+     "ausfuehrung": "von_hand",
+     "material": []
+    },
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "messer",
+     "material": [
+      "fahrzeugscheibe"
+     ]
+    },
+    {
+     "vorgang": "schweissen",
+     "ausfuehrung": "schweissgeraet",
+     "material": [
+      "blechteil",
+      "prozessrauch"
+     ]
+    },
+    {
+     "vorgang": "abblasen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "fahrzeugscheibe"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Ein beschädigtes Fahrzeug wird auf die Bühne gefahren",
+   "fehlt": "Vorgang Fahrzeug auf Hebebühne fahren und anheben; Hebebühne ist nur als Ausführung vorhanden"
+  },
+  {
+   "text": "Bei Airbagmodulen wird der Schaden am Lenkrad oder Armaturenbrett angesehen, die Airbag-Teile liegen dann in einem Karton im Regal",
+   "fehlt": "Material Airbagmodul oder Airbag-Teile (pyrotechnisch)"
+  },
+  {
+   "text": "Die Scheibe wird mit einer Schneidevorrichtung herausgetrennt",
+   "fehlt": "Ausführung Schneidevorrichtung für Scheiben; messer nur ungefähr"
+  },
+  {
+   "text": "das Glas liegt in Kisten am Boden",
+   "fehlt": "Material Glasbruch, Glassplitter"
+  },
+  {
+   "text": "sie blasen Glassplitter und Staub von der Bühne",
+   "fehlt": "Material Glassplitter und Staub; fahrzeugscheibe nur ungefähr"
+  },
+  {
+   "text": "Der Richtrahmen hat keinen Schutzkorb",
+   "fehlt": "Kein Schritt Richten am Richtrahmen beschrieben"
+  },
+  {
+   "text": "Die Bühnen rüstet der Meister um, die Prüfung und Reinigung macht der Lehrling",
+   "fehlt": "Rüsten, Prüfen und Reinigen nur genannt, nicht beschrieben, was getan wird; deshalb kein Schritt"
+  },
+  {
+   "text": "Stoffe wie Kleber und Grundierung stehen offen herum",
+   "fehlt": "Art des Klebers (Einkomponenten oder Zweikomponenten) unbekannt, kleber_1k nur ungefähr"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Stoffe wie Kleber und Grundierung stehen offen herum",
+   "art": "stoff_lagerung",
+   "gegenstand": "Kleber und Grundierung"
+  },
+  {
+   "text": "Der Richtrahmen hat keinen Schutzkorb",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzkorb des Richtrahmens"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "Stoßfänger und Kotflügel abgeschraubt, oft mit Druckluft-Schlagschrauber",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Bei Airbagmodulen wird der Schaden am Lenkrad oder Armaturenbrett angesehen",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Scheibe wird mit einer Schneidevorrichtung herausgetrennt",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Blechteile werden mit dem Schweißgerät getrennt, dabei fliegt Funkenschlag",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird mit Druckluft, sie blasen Glassplitter und Staub von der Bühne",
+   "sicher": true
+  }
+ ]
+}
