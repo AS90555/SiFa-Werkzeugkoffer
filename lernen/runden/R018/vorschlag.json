@@ -1,0 +1,74 @@
+{"runde": "R018",
+ "merkmale": [
+  {"id": "u.freileitung", "name": "Freileitung oder andere spannungsführende Leitung in Reichweite von Kran, Ausleger oder Bühne"},
+  {"id": "m.pyrotechnik", "name": "Pyrotechnisches Teil, das unbeabsichtigt auslösen kann: Airbagmodul, Gurtstraffer"},
+  {"id": "m.schwer", "name": "Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist"}
+ ],
+ "gefaehrdungen": [
+  {"id": "g-pyrotechnik", "faktor": 5, "name": "Unbeabsichtigtes Auslösen pyrotechnischer Teile",
+   "anlass": [{"kennung": "R012-01", "stelle": "Beim Airbag-Arbeiten, das hier auch gemacht wird"}, {"kennung": "R018-07", "stelle": "Bei Airbagmodulen wird der Schaden am Lenkrad oder Armaturenbrett angesehen"}]}
+ ],
+ "stammdaten": [
+  {"typ": "umgebung", "id": "freileitung", "name": "Freileitung in der Nähe", "merkmale": ["u.freileitung"],
+   "anlass": [{"kennung": "R018-02", "stelle": "Auf der anderen Straßenseite verläuft eine Freileitung"}]},
+  {"typ": "material", "id": "airbagmodul", "name": "Airbagmodul oder Airbag-Teile", "merkmale": ["m.pyrotechnik"],
+   "anlass": [{"kennung": "R018-07", "stelle": "Bei Airbagmodulen wird der Schaden am Lenkrad oder Armaturenbrett angesehen"}]},
+  {"typ": "material", "id": "fensterelement", "name": "Fensterelement, schwer", "merkmale": ["m.schwer", "m.sperrig"],
+   "anlass": [{"kennung": "R018-02", "stelle": "Die Fenster wiegen sechzig bis achtzig Kilogramm"}]}
+ ],
+ "woerter": [
+  {"worte": ["freileitung", "oberleitung"], "umgebung": ["freileitung"]},
+  {"worte": ["airbag", "airbagmodul"], "material": ["airbagmodul"]},
+  {"worte": ["fensterelement", "fensterelemente"], "material": ["fensterelement"]}
+ ],
+ "regeln": [
+  {"name": "Freileitung in Reichweite", "wenn": "u.freileitung",
+   "entsteht": "Ausleger, Kranarm oder Last kommen einer Freileitung zu nahe; Stromschlag oder Lichtbogen",
+   "gefaehrdung": "g-elektrisch",
+   "massnahmen": [
+    {"art": "T", "text": "Freileitung abschalten und erden lassen oder gegen Annäherung sichern, bevor in ihrer Nähe gearbeitet wird"},
+    {"art": "O", "text": "Vor Arbeitsbeginn mit dem Netzbetreiber den einzuhaltenden Abstand klären und dem Bediener sowie dem Einweiser bekanntgeben"},
+    {"art": "O", "text": "Abstand nicht nach Augenmaß schätzen, sondern sichtbar markieren und einen Einweiser einsetzen"}],
+   "quellen": ["dguv-v3", "dguv-v52"],
+   "anlass": [{"kennung": "R011-07", "stelle": "Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm."}, {"kennung": "R018-02", "stelle": "Auf der anderen Straßenseite verläuft eine Freileitung"}]},
+  {"name": "Pyrotechnische Teile", "wenn": "m.pyrotechnik",
+   "entsteht": "Airbagmodule und ähnliche Teile können beim Ausbau, Lagern oder Zerlegen unbeabsichtigt auslösen",
+   "gefaehrdung": "g-pyrotechnik",
+   "massnahmen": [
+    {"art": "T", "text": "Ausgebaute Teile in einem dafür vorgesehenen, gekennzeichneten und gesicherten Behältnis lagern"},
+    {"art": "O", "text": "Nur unterwiesene Personen nach Herstellerangaben an pyrotechnischen Teilen arbeiten lassen"},
+    {"art": "O", "text": "Betriebsanweisung für Ausbau, Lagerung und Entsorgung festlegen"}],
+   "quellen": ["hersteller", "dguv-r109-009", "arbschg"],
+   "anlass": [{"kennung": "R012-01", "stelle": "Beim Airbag-Arbeiten, das hier auch gemacht wird"}, {"kennung": "R018-07", "stelle": "Bei Airbagmodulen wird der Schaden am Lenkrad oder Armaturenbrett angesehen"}]},
+  {"name": "Schwere Last von Hand heben", "wenn": {"alle": ["a.von_hand", "m.schwer"]},
+   "entsteht": "Schwere Einzellasten werden von Hand gehoben, gehalten oder eingesetzt; Rücken und Schultern werden überlastet",
+   "gefaehrdung": "g-heben-tragen",
+   "massnahmen": [
+    {"art": "T", "text": "Hebehilfe oder Hebezeug einsetzen, damit die Last nicht von Hand gehoben werden muss"},
+    {"art": "O", "text": "Last auf mehrere Personen verteilen oder in kleinere Einheiten aufteilen"},
+    {"art": "O", "text": "Beschäftigte in richtigem Heben und Tragen unterweisen"}],
+   "quellen": ["lasthandhabv", "arbschg"],
+   "anlass": [{"kennung": "R013-14", "stelle": "Nachgefüllt wird das Korn aus Säcken"}, {"kennung": "R014-06", "stelle": "die Zylinder sind schwer"}, {"kennung": "R018-02", "stelle": "Die Fenster wiegen sechzig bis achtzig Kilogramm"}]},
+  {"name": "Hubarbeitsbühne kippt bei weichem oder schrägem Untergrund", "wenn": "a.hubarbeitsbuehne",
+   "entsteht": "Bei nachgebendem, unebenem oder abfallendem Untergrund kann die Hubarbeitsbühne kippen und der Korb mit den Personen stürzen",
+   "gefaehrdung": "g-fahrzeug-kippt",
+   "massnahmen": [
+    {"art": "T", "text": "Nur auf ausreichend tragfähigem, ebenem Untergrund aufstellen; Stützen auf geeignete Unterlagen setzen"},
+    {"art": "O", "text": "Standsicherheit vor jedem Einsatz prüfen und das Ergebnis dokumentieren"},
+    {"art": "O", "text": "Bediener nach Herstellerangaben einweisen und beauftragen"}],
+   "quellen": ["betrsichv", "hersteller", "dguv-r100-500"],
+   "anlass": [{"kennung": "R013-05", "stelle": "Die Bühne steht auf dem Hallenboden, der an dieser Stelle leicht abfällt"}, {"kennung": "R018-02", "stelle": "Die Bohlen unter den Stützen sind feucht und stellenweise nachgegeben."}]}
+ ],
+ "nicht_aufgenommen": [
+  {"thema": "Unbeteiligte im Schwenkbereich des Krans", "zu": "Unbeteiligte am Durchgang im Gefahrenbereich einer Säge", "grund": "Regelplatz der Runde erschöpft; vorgemerkt, nächste Runde aufnehmen", "anlass": [{"kennung": "R018-08", "stelle": "Der Platz ist nicht abgesperrt, Passanten gehen am Zaun entlang"}]},
+  {"thema": "Mineralfasern der Dämmwolle auf Haut und Atemwegen", "grund": "Einzelfall", "anlass": [{"kennung": "R018-08", "stelle": "Dämmwolle klebt an den Händen"}]},
+  {"thema": "Dämpfe und Hautkontakt bei Schmelzkleber", "grund": "Einzelfall", "anlass": [{"kennung": "R018-01", "stelle": "im Vorratsbehälter schmilzt der Schmelzkleber"}]},
+  {"thema": "Herabfallendes Werkzeug aus dem Korb auf Passanten", "grund": "Einzelfall", "anlass": [{"kennung": "R018-02", "stelle": "das Werkzeug liegt lose im Korb"}]}
+ ],
+ "erledigt": [
+  "Freileitung über dem Kranarm, Arbeiten in der Nähe von Spannung",
+  "Ungewollte Auslösung des Airbags",
+  "Kippen der Hubarbeitsbühne auf abfallendem Hallenboden",
+  "Heben und Kippen schwerer Säcke beim Nachfüllen",
+  "Heben schwerer Zylinder von Hand"
+ ]}

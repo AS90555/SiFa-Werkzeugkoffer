@@ -709,6 +709,21 @@
    "merkmale": [
     "m.spannungsfuehrend"
    ]
+  },
+  {
+   "id": "airbagmodul",
+   "name": "Airbagmodul oder Airbag-Teile",
+   "merkmale": [
+    "m.pyrotechnik"
+   ]
+  },
+  {
+   "id": "fensterelement",
+   "name": "Fensterelement, schwer",
+   "merkmale": [
+    "m.schwer",
+    "m.sperrig"
+   ]
   }
  ],
  "vorgang": [
@@ -1683,6 +1698,13 @@
    "name": "Warme Halle im Sommer oder aufgeheizte Maschine",
    "merkmale": [
     "u.hitze"
+   ]
+  },
+  {
+   "id": "freileitung",
+   "name": "Freileitung in der Nähe",
+   "merkmale": [
+    "u.freileitung"
    ]
   }
  ]

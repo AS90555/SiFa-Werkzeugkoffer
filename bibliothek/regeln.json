@@ -4848,5 +4848,166 @@
   "verbindlichkeit": "pflicht",
   "beleg": "offen",
   "freigabe": "entwurf"
+ },
+ {
+  "id": "R131",
+  "name": "Freileitung in Reichweite",
+  "wenn": "u.freileitung",
+  "entsteht": "Ausleger, Kranarm oder Last kommen einer Freileitung zu nahe; Stromschlag oder Lichtbogen",
+  "gefaehrdung": "g-elektrisch",
+  "massnahmen": [
+   {
+    "id": "R131-M1",
+    "art": "T",
+    "text": "Freileitung abschalten und erden lassen oder gegen Annäherung sichern, bevor in ihrer Nähe gearbeitet wird"
+   },
+   {
+    "id": "R131-M2",
+    "art": "O",
+    "text": "Vor Arbeitsbeginn mit dem Netzbetreiber den einzuhaltenden Abstand klären und dem Bediener sowie dem Einweiser bekanntgeben"
+   },
+   {
+    "id": "R131-M3",
+    "art": "O",
+    "text": "Abstand nicht nach Augenmaß schätzen, sondern sichtbar markieren und einen Einweiser einsetzen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "dguv-v3",
+    "stelle": null
+   },
+   {
+    "id": "dguv-v52",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R132",
+  "name": "Pyrotechnische Teile",
+  "wenn": "m.pyrotechnik",
+  "entsteht": "Airbagmodule und ähnliche Teile können beim Ausbau, Lagern oder Zerlegen unbeabsichtigt auslösen",
+  "gefaehrdung": "g-pyrotechnik",
+  "massnahmen": [
+   {
+    "id": "R132-M1",
+    "art": "T",
+    "text": "Ausgebaute Teile in einem dafür vorgesehenen, gekennzeichneten und gesicherten Behältnis lagern"
+   },
+   {
+    "id": "R132-M2",
+    "art": "O",
+    "text": "Nur unterwiesene Personen nach Herstellerangaben an pyrotechnischen Teilen arbeiten lassen"
+   },
+   {
+    "id": "R132-M3",
+    "art": "O",
+    "text": "Betriebsanweisung für Ausbau, Lagerung und Entsorgung festlegen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "hersteller",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r109-009",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R133",
+  "name": "Schwere Last von Hand heben",
+  "wenn": {
+   "alle": [
+    "a.von_hand",
+    "m.schwer"
+   ]
+  },
+  "entsteht": "Schwere Einzellasten werden von Hand gehoben, gehalten oder eingesetzt; Rücken und Schultern werden überlastet",
+  "gefaehrdung": "g-heben-tragen",
+  "massnahmen": [
+   {
+    "id": "R133-M1",
+    "art": "T",
+    "text": "Hebehilfe oder Hebezeug einsetzen, damit die Last nicht von Hand gehoben werden muss"
+   },
+   {
+    "id": "R133-M2",
+    "art": "O",
+    "text": "Last auf mehrere Personen verteilen oder in kleinere Einheiten aufteilen"
+   },
+   {
+    "id": "R133-M3",
+    "art": "O",
+    "text": "Beschäftigte in richtigem Heben und Tragen unterweisen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "lasthandhabv",
+    "stelle": null
+   },
+   {
+    "id": "arbschg",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
+ },
+ {
+  "id": "R134",
+  "name": "Hubarbeitsbühne kippt bei weichem oder schrägem Untergrund",
+  "wenn": "a.hubarbeitsbuehne",
+  "entsteht": "Bei nachgebendem, unebenem oder abfallendem Untergrund kann die Hubarbeitsbühne kippen und der Korb mit den Personen stürzen",
+  "gefaehrdung": "g-fahrzeug-kippt",
+  "massnahmen": [
+   {
+    "id": "R134-M1",
+    "art": "T",
+    "text": "Nur auf ausreichend tragfähigem, ebenem Untergrund aufstellen; Stützen auf geeignete Unterlagen setzen"
+   },
+   {
+    "id": "R134-M2",
+    "art": "O",
+    "text": "Standsicherheit vor jedem Einsatz prüfen und das Ergebnis dokumentieren"
+   },
+   {
+    "id": "R134-M3",
+    "art": "O",
+    "text": "Bediener nach Herstellerangaben einweisen und beauftragen"
+   }
+  ],
+  "quellen": [
+   {
+    "id": "betrsichv",
+    "stelle": null
+   },
+   {
+    "id": "hersteller",
+    "stelle": null
+   },
+   {
+    "id": "dguv-r100-500",
+    "stelle": null
+   }
+  ],
+  "verbindlichkeit": "pflicht",
+  "beleg": "offen",
+  "freigabe": "entwurf"
  }
 ]

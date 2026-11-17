@@ -1915,5 +1915,32 @@
   "material": [
    "stahlgestell"
   ]
+ },
+ {
+  "worte": [
+   "freileitung",
+   "oberleitung"
+  ],
+  "umgebung": [
+   "freileitung"
+  ]
+ },
+ {
+  "worte": [
+   "airbag",
+   "airbagmodul"
+  ],
+  "material": [
+   "airbagmodul"
+  ]
+ },
+ {
+  "worte": [
+   "fensterelement",
+   "fensterelemente"
+  ],
+  "material": [
+   "fensterelement"
+  ]
  }
 ]

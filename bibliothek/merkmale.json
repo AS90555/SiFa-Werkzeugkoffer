@@ -133,5 +133,8 @@
  "m.oellappen": "Mit Öl, Reiniger oder Lösemittel getränkte Putzlappen",
  "u.quetschstelle": "Enge Stelle zwischen bewegter Anlage und Wand oder festem Hindernis",
  "m.spannungsfuehrend": "Anlage mit gefährlicher elektrischer Spannung, zum Beispiel Röntgenröhre, Hochfrequenzanlage, Funkenstrecke",
- "m.uv_strahler": "UV-Strahler oder UV-Lampe als Strahlungsquelle"
+ "m.uv_strahler": "UV-Strahler oder UV-Lampe als Strahlungsquelle",
+ "u.freileitung": "Freileitung oder andere spannungsführende Leitung in Reichweite von Kran, Ausleger oder Bühne",
+ "m.pyrotechnik": "Pyrotechnisches Teil, das unbeabsichtigt auslösen kann: Airbagmodul, Gurtstraffer",
+ "m.schwer": "Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist"
 }

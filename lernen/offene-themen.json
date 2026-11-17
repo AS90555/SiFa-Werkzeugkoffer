@@ -50,26 +50,6 @@
   ]
  },
  {
-  "thema": "Freileitung über dem Kranarm, Arbeiten in der Nähe von Spannung",
-  "seit": "R011",
-  "anlass": [
-   {
-    "kennung": "R011-07",
-    "stelle": "Auf der Seite zur Straße hängt eine Freileitung über dem Kranarm."
-   }
-  ]
- },
- {
-  "thema": "Ungewollte Auslösung des Airbags",
-  "seit": "R012",
-  "anlass": [
-   {
-    "kennung": "R012-01",
-    "stelle": "Beim Airbag-Arbeiten, das hier auch gemacht wird"
-   }
-  ]
- },
- {
   "thema": "Nachlaufender Motor nach dem Abschalten",
   "seit": "R012",
   "anlass": [
@@ -86,20 +66,6 @@
    {
     "kennung": "R012-02",
     "stelle": "Es ist warm, der Raum hat kein Fenster."
-   }
-  ]
- },
- {
-  "thema": "Kippen der Hubarbeitsbühne auf abfallendem Hallenboden",
-  "seit": "R013",
-  "anlass": [
-   {
-    "kennung": "R013-05",
-    "stelle": "Die Bühne steht auf dem Hallenboden, der an dieser Stelle leicht abfällt"
-   },
-   {
-    "kennung": "R017-03",
-    "stelle": "Die Gestelle stehen auf Böcken"
    }
   ]
  },
@@ -124,32 +90,12 @@
   ]
  },
  {
-  "thema": "Heben und Kippen schwerer Säcke beim Nachfüllen",
-  "seit": "R013",
-  "anlass": [
-   {
-    "kennung": "R013-14",
-    "stelle": "Nachgefüllt wird das Korn aus Säcken"
-   }
-  ]
- },
- {
   "thema": "Wegspringende Ventilfeder beim Spannen von Hand",
   "seit": "R014",
   "anlass": [
    {
     "kennung": "R014-08",
     "stelle": "die Feder wird von Hand gespannt"
-   }
-  ]
- },
- {
-  "thema": "Heben schwerer Zylinder von Hand",
-  "seit": "R014",
-  "anlass": [
-   {
-    "kennung": "R014-06",
-    "stelle": "die Zylinder sind schwer"
    }
   ]
  },
@@ -170,6 +116,10 @@
    {
     "kennung": "R015-06",
     "stelle": "der Platz liegt am Durchgang"
+   },
+   {
+    "kennung": "R018-08",
+    "stelle": "Der Platz ist nicht abgesperrt, Passanten gehen am Zaun entlang"
    }
   ]
  },
@@ -270,6 +220,36 @@
    {
     "kennung": "R017-04",
     "stelle": "stellt es hinten mit einer Gurtsicherung fest"
+   }
+  ]
+ },
+ {
+  "thema": "Mineralfasern der Dämmwolle auf Haut und Atemwegen",
+  "seit": "R018",
+  "anlass": [
+   {
+    "kennung": "R018-08",
+    "stelle": "Dämmwolle klebt an den Händen"
+   }
+  ]
+ },
+ {
+  "thema": "Dämpfe und Hautkontakt bei Schmelzkleber",
+  "seit": "R018",
+  "anlass": [
+   {
+    "kennung": "R018-01",
+    "stelle": "im Vorratsbehälter schmilzt der Schmelzkleber"
+   }
+  ]
+ },
+ {
+  "thema": "Herabfallendes Werkzeug aus dem Korb auf Passanten",
+  "seit": "R018",
+  "anlass": [
+   {
+    "kennung": "R018-02",
+    "stelle": "das Werkzeug liegt lose im Korb"
    }
   ]
  }

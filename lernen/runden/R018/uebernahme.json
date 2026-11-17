@@ -1,0 +1,32 @@
+{
+ "runde": "R018",
+ "uebernommen": {
+  "merkmale": [
+   "u.freileitung",
+   "m.pyrotechnik",
+   "m.schwer"
+  ],
+  "gefaehrdungen": [
+   "g-pyrotechnik"
+  ],
+  "stammdaten": [
+   "umgebung/freileitung",
+   "material/airbagmodul",
+   "material/fensterelement"
+  ],
+  "woerter": [
+   "freileitung, oberleitung",
+   "airbag, airbagmodul",
+   "fensterelement, fensterelemente"
+  ],
+  "regeln": [
+   "R131 Freileitung in Reichweite",
+   "R132 Pyrotechnische Teile",
+   "R133 Schwere Last von Hand heben",
+   "R134 Hubarbeitsbühne kippt bei weichem oder schrägem Untergrund"
+  ]
+ },
+ "abgelehnt": [],
+ "zurueckgenommen": null,
+ "offeneThemen": 25
+}

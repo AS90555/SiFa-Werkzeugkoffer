@@ -303,5 +303,10 @@
   "id": "g-nebel-dritte",
   "faktor": 3,
   "name": "Gefährdung Dritter außerhalb des Arbeitsplatzes durch verwehten Spritznebel"
+ },
+ {
+  "id": "g-pyrotechnik",
+  "faktor": 5,
+  "name": "Unbeabsichtigtes Auslösen pyrotechnischer Teile"
  }
 ]
