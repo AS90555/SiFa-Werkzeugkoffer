@@ -1,0 +1,7 @@
+{"id":"R018-03","branche":"Karosseriebau","arbeitsplatz":"Kleben und Abdichten mit Pistole","gefaehrdungen":[
+{"text":"Beim Kleben und Abdichten können Dämpfe der Dichtmasse die Atemwege reizen, wenn sie nicht abgesaugt werden.","faktor":3,"anlass":"Die Dichtmasse riecht stark süßlich, die Hallenlüftung reicht hier nicht aus, eine Absaugung gibt es am Platz nicht."},
+{"text":"Ohne Handschuhe kann Klebstoff oder Reiniger die Haut reizen oder eine Allergie auslösen.","faktor":3,"anlass":"Manche Kollegen arbeiten ohne Handschuhe, weil die Hände sonst schwitzen."},
+{"text":"Reinigungslappen mit Lösemittel in einer offenen Tonne und Papier in der Nähe können sich entzünden und einen Brand verursachen.","faktor":5,"anlass":"der Lappen mit dem Reiniger liegt danach in einer offenen Tonne neben dem Platz"},
+{"text":"Beim Arbeiten über Kopf mit verdrehtem Hals können Verspannungen und Schulter- oder Nackenbeschwerden entstehen.","faktor":9,"anlass":"dabei muss man über Kopf arbeiten und den Hals verdreht halten"},
+{"text":"Der enge Takt von neunzig Sekunden kann Stress auslösen, was die Sorgfalt beim Abdichten mindert.","faktor":10,"anlass":"Ein Takt dauert neunzig Sekunden, wer hinterherhinkt, bekommt Ärger mit dem Schichtführer."}
+]}

@@ -1,0 +1,8 @@
+{"id":"R018-02","branche":"Fassadenbau","arbeitsplatz":"Montage vom Hubsteiger","gefaehrdungen":[
+{"text":"Beim Einsetzen der Fenster über die Brüstung kann ein Monteur aus dem Korb stürzen, vor allem wenn der Korb schwankt.","faktor":1,"anlass":"Zum Einsetzen lehnen sich die Monteure weit über die Brüstung, der Korb schwankt dabei leicht."},
+{"text":"Gibt der Untergrund unter den Stützen nach, kann der Hubsteiger kippen, und der Korb mit den Monteuren stürzt mit.","faktor":1,"anlass":"Die Bohlen unter den Stützen sind feucht und stellenweise nachgegeben."},
+{"text":"Das lose im Korb liegende Werkzeug kann beim Arbeiten oder Verlagern herunterfallen und Passanten am Boden treffen.","faktor":1,"anlass":"das Werkzeug liegt lose im Korb"},
+{"text":"Kommt der Ausleger oder ein gehängtes Fenster der Freileitung zu nahe, kann es zu einem Stromschlag oder Lichtbogen kommen.","faktor":2,"anlass":"Auf der anderen Straßenseite verläuft eine Freileitung, der Abstand zum Ausleger ist nach Augenmaß nicht groß."},
+{"text":"Kälte und Nässe machen Boden, Bohlen und Griffe rutschig und lassen die Hände steif werden, was die Sturz- und Fehlergefahr erhöht.","faktor":8,"anlass":"Es ist kalt und nass, am Vormittag hat es geregnet, die Kleidung ist feucht."},
+{"text":"Beim Heben und Einsetzen der schweren Fenster über Kopf können Rücken und Schultern überlastet werden.","faktor":9,"anlass":"Die Fenster wiegen sechzig bis achtzig Kilogramm"}
+]}

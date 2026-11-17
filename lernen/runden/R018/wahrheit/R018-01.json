@@ -1,0 +1,8 @@
+{"id":"R018-01","branche":"Möbel in Serie","arbeitsplatz":"Kantenanleimmaschine mit Schmelzkleber","gefaehrdungen":[
+{"text":"Beim Eingreifen in die laufende Maschine zum Lösen eines Klemmers können Hände und Arme von den Walzen oder dem Vorschub erfasst und gequetscht werden.","faktor":1,"anlass":"Wenn sich ein Stück verklemmt, greift der Maschinenführer seitlich in die Maschine, während sie noch läuft."},
+{"text":"Die Fräsen erzeugen dauerhaft einen hohen Schallpegel, der das Gehör schädigen kann, und Gespräche sind kaum möglich.","faktor":7,"anlass":"Die Fräsen pfeifen, man versteht sich nur mit Zeichen."},
+{"text":"Am heißen Schmelzkleberkessel können Hände oder Arme verbrannt werden, zum Beispiel beim Nachfüllen oder Säubern.","faktor":6,"anlass":"Granulat in einem Kessel bei ungefähr zweihundert Grad"},
+{"text":"Beim Aufschmelzen des Klebers können Dämpfe entstehen, die bei Einatmen die Atemwege reizen, und Hautkontakt mit Kleber beim Reinigen kann die Haut angreifen.","faktor":3,"anlass":"im Vorratsbehälter schmilzt der Schmelzkleber"},
+{"text":"Beim Heben der schweren Platten von der Palette auf das Förderband können Rücken und Schultern überlastet werden.","faktor":9,"anlass":"fünfzehn bis zwanzig Kilogramm"},
+{"text":"Auf dem mit Kleberresten und Staub bedeckten Boden kann man ausrutschen, stolpern und stürzen.","faktor":11,"anlass":"der Boden ist mit Kleberresten und Staub überzogen"}
+]}
