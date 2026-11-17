@@ -1,0 +1,145 @@
+{
+ "id": "R019-06",
+ "name": "R019-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Montage Getriebebau",
+   "bereich": "Getriebebau",
+   "personen": 1,
+   "umgebung": [
+    "zwangshaltung",
+    "boden",
+    "sommerwaerme",
+    "kalt"
+   ],
+   "angaben": {
+    "last_kg": 40,
+    "gleichfoermig": true
+   },
+   "schritte": [
+    {
+     "vorgang": "montieren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "metallwerkstueck",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "heben",
+     "ausfuehrung": "hebezeug",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oelige_lappen"
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Prüfstand Getriebe",
+   "bereich": "Getriebebau",
+   "personen": 1,
+   "umgebung": [
+    "werkstatt"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Der Prüfstand ist eine Kabine mit Motor, der das Getriebe antreibt",
+   "fehlt": "Der Prüfstand-Bedienplatz (Station 2) hat keine zuordenbare Ausführung; der Schritt Bedienen wurde weggelassen"
+  },
+  {
+   "text": "Die Kabine hat keine Absaugung, beim Anlauf riecht es nach Öl",
+   "fehlt": "Material für Öldämpfe oder Ölgeruch in der Atemluft"
+  },
+  {
+   "text": "Die Montage rüstet die Instandhaltung",
+   "fehlt": "Es ist nicht beschrieben, was beim Rüsten getan wird; kein Schritt angelegt"
+  },
+  {
+   "text": "Den ganzen Tag wird über Kopf geschraubt",
+   "fehlt": "Umgebung Zwangshaltung gewählt; Vorgang für Überkopfarbeit mit Handmaschine nicht eindeutig"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Die Verkleidung ist offen, ein Schutzgitter fehlt an der Seite",
+   "art": "schutzeinrichtung",
+   "gegenstand": "Schutzgitter und Verkleidung am Prüfstand"
+  },
+  {
+   "text": "der Kabelkanal liegt offen auf dem Boden",
+   "art": "elektrik",
+   "gegenstand": "Kabelkanal am Prüfstand"
+  },
+  {
+   "text": "auf dem Boden steht eine Pfütze Öl, die liegen geblieben ist",
+   "art": "weg_boden",
+   "gegenstand": "Ölpfütze"
+  },
+  {
+   "text": "Die Kabine hat keine Absaugung",
+   "art": "lueftung",
+   "gegenstand": "Prüfkabine"
+  },
+  {
+   "text": "der Hebezug hängt aber etwas schief"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "einer baut die Getriebe von Hand auf dem Tisch zusammen; Die Teile sind alle eingeölt",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "sie werden mit einem Kran an den Tisch gehoben",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "mit einem druckluftbetriebenen Drehschrauber",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "gereinigt wird am Ende der Schicht mit einem Lappen",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Das Öl wird aus Kanistern nachgefüllt",
+   "sicher": true
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{"id":"R019-05","name":"R019-05","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Schleifstraße Plattenwerk","bereich":"Plattenwerk","personen":2,"umgebung":["laerm_umgebung"],"angaben":{"last_kg":50},
+   "schritte":[
+    {"vorgang":"schleifen","ausfuehrung":"vollautomat","material":["plattenware","holzstaub"]},
+    {"vorgang":"foerdern","ausfuehrung":"stetigfoerderer","material":["plattenware"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["plattenware"]},
+    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage","holzstaub"]}
+   ]},
+  {"nr":2,"name":"Plattenlager","bereich":"Plattenwerk","personen":null,"umgebung":["lager","dunkel"],"angaben":{},
+   "schritte":[
+    {"vorgang":"lagern_gestapelt","ausfuehrung":"gabelstapler","material":["plattenware"]}
+   ]}
+ ],
+ "wuensche":[
+  {"text":"drei Schleifmaschinen hintereinander, jede mit einem breiten Band; Platten kommen auf Rollenband","fehlt":"Ausführung für eine Bandschleif-Durchlaufstraße, bei der die Platten nicht von Hand geführt werden; vollautomat nur als Näherung"},
+  {"text":"Platten ... wiegen je nach Stärke zwischen dreißig und fünfzig Kilo","fehlt":"Angabe für eine Gewichtsspanne; eingetragen ist der Höchstwert 50 kg"},
+  {"text":"Stapel stehen teilweise ungesichert an den Gängen; Gabelstapler stapeln bis unter die Decke","fehlt":"Personenzahl im Lager nicht genannt; Antrieb der Stapler nicht genannt"},
+  {"text":"die Instandhaltung rüstet die Bänder um","fehlt":"Es ist nicht beschrieben, was beim Rüsten an der Maschine getan wird; kein Schritt angelegt"}
+ ],
+ "maengel":[
+  {"text":"Die Absaugung läuft, an zwei Stutzen fehlt aber die Klappe. Der Staub ist heftig, man sieht ihn in der Luft stehen","art":"lueftung","gegenstand":"Absaugstutzen ohne Klappe"},
+  {"text":"Ab und zu bleibt eine Platte schief hängen, dann greifen die Leute von Hand nach, ohne dass das Band angehalten wird","art":"arbeitsweise","gegenstand":"Nachgreifen am laufenden Band"},
+  {"text":"die Stapel stehen teilweise ungesichert an den Gängen","art":"last_ungesichert","gegenstand":"Plattenstapel im Lager"},
+  {"text":"Die Beleuchtung im Lager ist eher schwach","art":"beleuchtung","gegenstand":"Lagerbeleuchtung"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"drei Schleifmaschinen hintereinander, jede mit einem breiten Band, das die Oberfläche der Platten abträgt","sicher":false},
+  {"schritt":2,"stelle":"einer legt auf, der andere nimmt am Auslauf ab (Rollenband)","sicher":true},
+  {"schritt":3,"stelle":"dann greifen die Leute von Hand nach","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird die Schleifstraße einmal die Woche mit Druckluft","sicher":true},
+  {"schritt":5,"stelle":"stapeln Gabelstapler die fertigen Platten bis unter die Decke","sicher":true}
+ ]}

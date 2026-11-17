@@ -1,0 +1,29 @@
+{"id":"R019-07","name":"R019-07","betrieb":{},"angaben":{},
+ "stoffe":[],
+ "stationen":[
+  {"nr":1,"name":"Rollengang Besäumen und Kappen","bereich":"Sägewerk","personen":2,"umgebung":["laerm_umgebung","boden","kalt"],"angaben":{"last_kg":40},
+   "schritte":[
+    {"vorgang":"foerdern","ausfuehrung":"stetigfoerderer","material":["schnittholz"]},
+    {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["schnittholz","holzstaub"]},
+    {"vorgang":"saegen","ausfuehrung":"stationaer_handvorschub","material":["schnittholz","holzstaub"]},
+    {"vorgang":"kehren","ausfuehrung":"von_hand","material":["holzstaub","restholz"]},
+    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage","holzstaub"]},
+    {"vorgang":"werkzeug_wechseln","ausfuehrung":"von_hand","material":["anlage"]}
+   ]}
+ ],
+ "wuensche":[
+  {"text":"Die Kappsäge wird mit dem Fuß über ein Pedal bedient, das Brett hält man dabei von Hand","fehlt":"Das Wörterbuch kennt Kappsäge nur als Vollautomat; hier stationär mit Handvorschub gewählt"}
+ ],
+ "maengel":[
+  {"text":"Die Haube ist mit einem Bügel gesichert, an der Seite ist der Spalt aber recht weit","art":"schutzeinrichtung","gegenstand":"Schutzhaube der Kreissäge"},
+  {"text":"Der Boden ist mit Sägespänen und Rinde bedeckt, das rutscht","art":"weg_boden","gegenstand":"Boden am Rollengang"},
+  {"text":"Hinten türmt sich Abfall, und ständig liegt Holz im Weg auf dem Rollengang","art":"weg_boden","gegenstand":"Abfall und Holz im Verkehrsweg"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"die Bretter muss man von Hand auflegen und ausrichten; Die Rollen laufen automatisch","sicher":true},
+  {"schritt":2,"stelle":"einer steht an der Kreissäge (Besäumen)","sicher":true},
+  {"schritt":3,"stelle":"Die Kappsäge wird mit dem Fuß über ein Pedal bedient, das Brett hält man dabei von Hand","sicher":true},
+  {"schritt":4,"stelle":"Gereinigt wird mit Besen","sicher":true},
+  {"schritt":5,"stelle":"und einem Gebläse","sicher":true},
+  {"schritt":6,"stelle":"Die Sägeblätter wechselt die Schlosserei alle paar Wochen","sicher":false}
+ ]}

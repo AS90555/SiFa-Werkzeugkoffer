@@ -1,0 +1,29 @@
+{"id":"R019-08","name":"R019-08","betrieb":{},"angaben":{},
+ "stoffe":[{"id":"s1","name":"Kühlschmierstoff","material":"kuehlschmierstoff","sdb":null,"h":[]}],
+ "stationen":[
+  {"nr":1,"name":"Kaltumformpresse mit Gewinderoller","bereich":"Schraubenfabrik","personen":1,"umgebung":["hitze"],"angaben":{"last_kg":300},
+   "schritte":[
+    {"vorgang":"umformen","ausfuehrung":"presse","material":["rohr_rundmaterial","metallwerkstueck","kuehlschmierstoff"]},
+    {"vorgang":"ziehen_schieben","ausfuehrung":"handhubwagen","material":["rohr_rundmaterial"]},
+    {"vorgang":"handhaben","ausfuehrung":"von_hand","material":["metallwerkstueck"]},
+    {"vorgang":"abblasen","ausfuehrung":"von_hand","material":["anlage"]},
+    {"vorgang":"anmischen","ausfuehrung":"von_hand","material":["kuehlschmierstoff"]}
+   ]}
+ ],
+ "wuensche":[
+  {"text":"setzt man mit dem Hubwagen ein","fehlt":"Antrieb des Hubwagens nicht genannt; Handhubwagen angenommen, unsicher"},
+  {"text":"Nachgefüllt wird aus Kanistern","fehlt":"Es wird nicht gesagt, was nachgefüllt wird; Kühlschmierstoff vermutet, unsicher"},
+  {"text":"es riecht ölig und stechend, und an den Händen der Leute sieht man Hautrötungen","fehlt":"Material für Dämpfe oder Nebel von Kühlschmierstoff in der Atemluft; Angabe zu Hautschutz und Hautzustand"},
+  {"text":"Die Presse rüstet die Instandhaltung","fehlt":"Es ist nicht beschrieben, was beim Rüsten getan wird; kein Schritt angelegt"}
+ ],
+ "maengel":[
+  {"text":"Vorn ist die Umhausung offen, eine Lichtschranke gibt es, die ist aber verschmutzt","art":"schutzeinrichtung","gegenstand":"Umhausung und Lichtschranke der Presse"},
+  {"text":"wenn ein Teil klemmt, greift sie in den Ausgabeschacht, ohne die Maschine zu stoppen","art":"arbeitsweise","gegenstand":"Eingreifen in den Ausgabeschacht bei laufender Presse"}
+ ],
+ "zuordnung":[
+  {"schritt":1,"stelle":"Draht von der Rolle eingezogen, in der Presse zu Kopf und Schaft geformt, im Gewinderoller bekommt das Teil sein Gewinde","sicher":true},
+  {"schritt":2,"stelle":"Die Drahtrollen sind schwer, rund 300 Kilo, die setzt man mit dem Hubwagen ein","sicher":false},
+  {"schritt":3,"stelle":"werden von Hand geleert","sicher":true},
+  {"schritt":4,"stelle":"gereinigt wird der Schacht nach der Schicht mit einem Druckluftschlauch","sicher":true},
+  {"schritt":5,"stelle":"Nachgefüllt wird aus Kanistern","sicher":false}
+ ]}
