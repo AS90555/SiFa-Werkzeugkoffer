@@ -15,16 +15,19 @@
   "stichprobe": "sonnet"
  },
  "runden": [
-  "R017"
+  "R017",
+  "R018"
  ],
  "versuche": {
   "R017:sprecher": 1,
   "R017:uebersetzer": 1,
   "R017:schiedsrichter": 1,
-  "R017:lueckenschliesser": 1
+  "R017:lueckenschliesser": 1,
+  "R018:sprecher": 1
  },
  "hinweise": [
-  "Vor Runde 1: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen."
+  "Vor Runde 1: Nur noch 32 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen.",
+  "Vor Runde 2: Nur noch 24 freie Arbeitsplätze im Vorrat. Für den nächsten Zyklus braucht es 32; Vorrat auffüllen."
  ],
  "belegquoteZuBeginn": 25,
  "fertig": false

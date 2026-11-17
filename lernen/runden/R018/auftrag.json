@@ -1,0 +1,56 @@
+{
+ "runde": "R018",
+ "art": "lern",
+ "blind": true,
+ "feld": "bghm",
+ "auftraege": [
+  {
+   "kennung": "R018-01",
+   "auftrag": "a179",
+   "branche": "Möbel in Serie",
+   "bereich": "Kantenanleimmaschine mit Schmelzkleber"
+  },
+  {
+   "kennung": "R018-02",
+   "auftrag": "a206",
+   "branche": "Fassadenbau",
+   "bereich": "Montage vom Hubsteiger"
+  },
+  {
+   "kennung": "R018-03",
+   "auftrag": "a197",
+   "branche": "Karosseriebau",
+   "bereich": "Kleben und Abdichten mit Pistole"
+  },
+  {
+   "kennung": "R018-04",
+   "auftrag": "a191",
+   "branche": "Kettenfertigung",
+   "bereich": "Biegen und Schweißen von Kettengliedern"
+  },
+  {
+   "kennung": "R018-05",
+   "auftrag": "a198",
+   "branche": "Gießerei",
+   "bereich": "Kernmacherei mit Kaltharz"
+  },
+  {
+   "kennung": "R018-06",
+   "auftrag": "a183",
+   "branche": "Maschinenbau",
+   "bereich": "Härten und Richten von Wellen mit der Presse"
+  },
+  {
+   "kennung": "R018-07",
+   "auftrag": "a213",
+   "branche": "Kfz-Werkstatt",
+   "bereich": "Unfallinstandsetzung, Airbagteile und Glasbruch"
+  },
+  {
+   "kennung": "R018-08",
+   "auftrag": "a172",
+   "branche": "Holzhausbau",
+   "bereich": "Dachelemente mit dem Kran verladen"
+  }
+ ]
+}
