@@ -1,0 +1,149 @@
+{
+ "id": "R021-07",
+ "name": "R021-07",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "Montageschaum aus der Dose",
+   "material": "kleber_1k",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Fenstereinbau im Altbau beim Kunden",
+   "bereich": "Baustelle beim Kunden",
+   "personen": 2,
+   "umgebung": [
+    "eng",
+    "kalt",
+    "betriebsfremde",
+    "treppe",
+    "boden"
+   ],
+   "angaben": {
+    "last_kg": 50
+   },
+   "schritte": [
+    {
+     "vorgang": "saegen",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "fensterelement"
+     ]
+    },
+    {
+     "vorgang": "ziehen_schieben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "fensterelement"
+     ]
+    },
+    {
+     "vorgang": "positionieren_hand",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "fensterelement"
+     ]
+    },
+    {
+     "vorgang": "kleben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "kleber_1k"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "fensterelement"
+     ]
+    },
+    {
+     "vorgang": "reinigen_hand",
+     "ausfuehrung": "von_hand",
+     "material": []
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "kommt auf einer Sackkarre die Treppe hoch",
+   "fehlt": "Ausführung Sackkarre fehlt, von Hand gewählt"
+  },
+  {
+   "text": "Man arbeitet auf einer Leiter und auf einem Bock",
+   "fehlt": "Arbeiten auf Leiter und Bock beim Einbau sind keinem Schritt eindeutig zuzuordnen, Ausführung Bock fehlt"
+  },
+  {
+   "text": "Montageschaum aufgeschäumt, riecht stark und ist klebrig",
+   "fehlt": "Material Montageschaum (PU-Schaum) fehlt, Einkomponenten-Kleber als nächstes gewählt, Isocyanat unbekannt"
+  },
+  {
+   "text": "Das alte Fenster wird aus dem Mauerwerk herausgetrennt",
+   "fehlt": "Material Mauerwerk, Putzstaub und altes Fenster, Trennen im Mauerwerk"
+  },
+  {
+   "text": "Die Dose wird danach im Auto gelagert, und der Müll kommt in den Sack.",
+   "fehlt": "Kein Vorgang für Lagern und Entsorgen von Dosen auf der Baustelle"
+  },
+  {
+   "text": "Das Fenster wird mit Keilen ausgerichtet",
+   "fehlt": "Material Keile fehlt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Es gibt keine Handschuhe, der Kollege hat nur Arbeitshandschuhe aus Stoff an.",
+   "art": "psa",
+   "gegenstand": "Chemikalienschutzhandschuhe beim Montageschaum"
+  },
+  {
+   "text": "auf einem Bock, der wackelt etwas, wenn man sich auflehnt",
+   "gegenstand": "wackelnder Bock als Arbeitsstandort"
+  },
+  {
+   "text": "Die Dose wird danach im Auto gelagert",
+   "art": "stoff_lagerung",
+   "gegenstand": "Schaumdose im Auto"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "dazu läuft eine Handkreissäge",
+   "sicher": false
+  },
+  {
+   "schritt": 2,
+   "stelle": "kommt auf einer Sackkarre die Treppe hoch, es wiegt fast fünfzig Kilo",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Es wird mit Keilen ausgerichtet",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "in der Fuge mit Montageschaum aufgeschäumt",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "mit Schrauben im Blendrahmen befestigt, mit dem Akkuschrauber",
+   "sicher": true
+  },
+  {
+   "schritt": 6,
+   "stelle": "Gereinigt wird am Ende mit einem Lappen",
+   "sicher": true
+  }
+ ]
+}

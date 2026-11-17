@@ -1,0 +1,123 @@
+{
+ "id": "R021-05",
+ "name": "R021-05",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [
+  {
+   "id": "s1",
+   "name": "gelblicher Anstrich gegen Verfärbung auf dem Holz",
+   "material": "impraegnierung",
+   "sdb": null,
+   "h": []
+  }
+ ],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Trockenkammer Schnittholz",
+   "bereich": "Trocknung",
+   "personen": 2,
+   "umgebung": [
+    "hitze",
+    "laerm_umgebung",
+    "boden",
+    "fahrverkehr"
+   ],
+   "angaben": {},
+   "schritte": [
+    {
+     "vorgang": "bewegen",
+     "ausfuehrung": "gabelstapler",
+     "material": [
+      "wagen_gefuellt"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "schnittholz"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "glasleiste"
+     ]
+    },
+    {
+     "vorgang": "bewegen",
+     "ausfuehrung": "gabelstapler",
+     "material": [
+      "wagen_gefuellt"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Leisten werden einzeln von Hand aufgelegt und wieder abgenommen.",
+   "fehlt": "Kein Material für Stapelleisten, nur Glasleiste, Holzleiste, Stab als nächstes Material"
+  },
+  {
+   "text": "Die Kammer hat eine schwere Tür, und wenn sie aufgeht, schlägt einem heiße, feuchte Luft entgegen.",
+   "fehlt": "Trockenkammer als Anlage und schwere Tür nicht in den Stammdaten; Hitze als Umgebung gewählt"
+  },
+  {
+   "text": "der Schichtführer spritzt mit dem Schlauch ab",
+   "fehlt": "Vorgang Abspritzen mit Wasser, Nassreinigung der Kammer fehlt"
+  },
+  {
+   "text": "ein Stapel wiegt grob eine Tonne",
+   "fehlt": "Last je Griff und Griffe je Stunde nicht genannt, Angabe offen"
+  },
+  {
+   "text": "Drinnen werden die Bretter von Hand zu Stapeln geschichtet",
+   "fehlt": "Kein Vorgang für das Schichten von Stapeln mit Zwischenleisten"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Boden ist mit Holzstaub bedeckt, beim Abkehren wirbelt er auf und hängt in der Luft.",
+   "art": "weg_boden",
+   "gegenstand": "Boden der Trockenkammer mit Holzstaub"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "der Stapler fährt die Wagen vor die Kammer und schiebt sie hinein",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "werden die Bretter von Hand zu Stapeln geschichtet",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "Die Leisten werden einzeln von Hand aufgelegt und wieder abgenommen",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Nach dem Trocknen zieht der Stapler die Wagen wieder heraus",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Reste fegt man mit dem Besen zusammen",
+   "sicher": true
+  }
+ ]
+}

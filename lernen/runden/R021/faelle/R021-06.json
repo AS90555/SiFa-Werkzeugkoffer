@@ -1,0 +1,126 @@
+{
+ "id": "R021-06",
+ "name": "R021-06",
+ "betrieb": {},
+ "angaben": {},
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Durchlaufofen mit Ölbad",
+   "bereich": "Wärmebehandlung Härterei",
+   "personen": 1,
+   "umgebung": [
+    "hitze",
+    "laerm_umgebung",
+    "boden"
+   ],
+   "angaben": {
+    "last_kg": 20
+   },
+   "schritte": [
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "stetigfoerderer",
+     "material": [
+      "metallwerkstueck"
+     ]
+    },
+    {
+     "vorgang": "maschine_bedienen",
+     "ausfuehrung": "vollautomat",
+     "material": [
+      "metallwerkstueck",
+      "inertgas",
+      "nebel_aerosol",
+      "heisses_maschinenteil",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "anmischen",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "heisses_werkstueck",
+      "oel_schmierstoff"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "oel_schmierstoff"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Durchlaufofen, etwa zwölf Meter lang, 850 Grad unter Schutzgas",
+   "fehlt": "Härteofen mit Schutzgasatmosphäre nicht als eigene Anlage in den Stammdaten; als Maschine bedienen mit Schutzgas und heißem Maschinenteil gewählt"
+  },
+  {
+   "text": "Am Ende fallen die Teile in ein Ölbad, das abschreckt.",
+   "fehlt": "Vorgang Abschrecken im Ölbad fehlt"
+  },
+  {
+   "text": "Nachgefüllt wird der Ölspiegel mit einer Pumpe.",
+   "fehlt": "Ausführung Pumpe fehlt, von Hand gewählt"
+  },
+  {
+   "text": "pro Korb etwa zwanzig Kilo",
+   "fehlt": "Unklar, ob 20 kg je Griff gelten, Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "Der Mitarbeiter steht an einem Bedienpult neben dem Ofen",
+   "fehlt": "Bedienpult im Protokoll, aber kein Vorgang für Überwachen am Pult getrennt vom Ofenbetrieb"
+  },
+  {
+   "text": "Das Öl ist dunkel und dampft, an der Badoberfläche steht ein feiner Nebel",
+   "fehlt": "Abschrecköl ist kein Gefahrstoff-Stammdatum, deshalb kein Stoff eingetragen, Öl nur als Material der Schritte"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Der Boden um das Bad ist ölig, man sieht Lachen.",
+   "art": "weg_boden",
+   "gegenstand": "Boden um das Ölbad"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "legt die Teile aus Gitterkörben auf das Band, und zwar von Hand",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Im Ofen werden die Teile auf rund achthundertfünfzig Grad erwärmt, unter einem Schutzgas",
+   "sicher": false
+  },
+  {
+   "schritt": 3,
+   "stelle": "Nachgefüllt wird der Ölspiegel mit einer Pumpe",
+   "sicher": false
+  },
+  {
+   "schritt": 4,
+   "stelle": "Die Teile werden anschließend von Hand aus dem Ölbad gefischt",
+   "sicher": true
+  },
+  {
+   "schritt": 5,
+   "stelle": "Gereinigt wird das Ölbad einmal im Monat durch die Instandhaltung, der Schlamm wird abgepumpt",
+   "sicher": true
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "id": "R021-08",
+ "name": "R021-08",
+ "betrieb": {},
+ "angaben": {
+  "gleichfoermig": true
+ },
+ "stoffe": [],
+ "stationen": [
+  {
+   "nr": 1,
+   "name": "Montagelinie Fensterflügel",
+   "bereich": "Fertigung",
+   "personen": 6,
+   "umgebung": [
+    "laerm_umgebung",
+    "taktarbeit"
+   ],
+   "angaben": {
+    "last_kg": 3,
+    "gleichfoermig": true
+   },
+   "schritte": [
+    {
+     "vorgang": "foerdern",
+     "ausfuehrung": "stetigfoerderer",
+     "material": [
+      "rahmen"
+     ]
+    },
+    {
+     "vorgang": "verschrauben",
+     "ausfuehrung": "handmaschine",
+     "material": [
+      "rahmen",
+      "beschlag"
+     ]
+    },
+    {
+     "vorgang": "handhaben",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "beschlag"
+     ]
+    },
+    {
+     "vorgang": "sonderbetrieb",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "anlage",
+      "rahmen"
+     ]
+    },
+    {
+     "vorgang": "schneiden",
+     "ausfuehrung": "messer",
+     "material": [
+      "rahmen"
+     ]
+    },
+    {
+     "vorgang": "kehren",
+     "ausfuehrung": "von_hand",
+     "material": [
+      "holzstaub"
+     ]
+    }
+   ]
+  }
+ ],
+ "wuensche": [
+  {
+   "text": "Die Mitarbeiter stehen dabei die ganze Schicht, nur eine kurze Pause nach zwei Stunden.",
+   "fehlt": "Dauerndes Stehen ist keine Umgebung in den Stammdaten"
+  },
+  {
+   "text": "jeder Schrauber hängt an einem Federzug über dem Platz",
+   "fehlt": "Ausführung Federzug fehlt"
+  },
+  {
+   "text": "Die Flügel tragen Folie, die man mit dem Messer abzieht",
+   "fehlt": "Material Schutzfolie auf Flügeln fehlt, Abziehen kein eigener Vorgang"
+  },
+  {
+   "text": "zwei bis drei Kilo pro Kiste",
+   "fehlt": "Last je Griff mit 3 kg als Obergrenze eingetragen, Griffe je Stunde nicht genannt"
+  },
+  {
+   "text": "Späne und Schaumreste werden weggekehrt",
+   "fehlt": "Material Schaumreste fehlt, Holzstaub und Späne gewählt"
+  }
+ ],
+ "maengel": [
+  {
+   "text": "Wenn ein Flügel stockt, drückt man ihn von Hand weiter, dann greift man kurz unter den Rahmen.",
+   "art": "arbeitsweise",
+   "gegenstand": "Eingriff unter den Rahmen am laufenden Band"
+  }
+ ],
+ "zuordnung": [
+  {
+   "schritt": 1,
+   "stelle": "der Flügel wird auf Paletten gelegt und getaktet nach vorne geschoben",
+   "sicher": true
+  },
+  {
+   "schritt": 2,
+   "stelle": "Die Schrauben werden mit einem Druckluftschrauber eingedreht",
+   "sicher": true
+  },
+  {
+   "schritt": 3,
+   "stelle": "die Kisten werden von Hand nachgelegt, etwa zwei bis drei Kilo pro Kiste",
+   "sicher": true
+  },
+  {
+   "schritt": 4,
+   "stelle": "Wenn ein Flügel stockt, drückt man ihn von Hand weiter",
+   "sicher": false
+  },
+  {
+   "schritt": 5,
+   "stelle": "Folie, die man mit dem Messer abzieht",
+   "sicher": false
+  },
+  {
+   "schritt": 6,
+   "stelle": "Späne und Schaumreste werden weggekehrt",
+   "sicher": false
+  }
+ ]
+}
