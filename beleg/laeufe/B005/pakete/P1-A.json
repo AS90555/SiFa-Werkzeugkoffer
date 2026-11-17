@@ -1,0 +1,448 @@
+{
+ "lauf": "B005",
+ "paket": "P1",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R78",
+   "fingerabdruck": "3fc24f186cd7415e",
+   "name": "Gleichförmige Handarbeit",
+   "gilt_wenn": "(Von Hand, Körperkraft oder Handgeführte Maschine) UND „Wird dieselbe Handbewegung sehr oft wiederholt, zum Beispiel hunderte Male je Schicht“: ja",
+   "entsteht": "Immer gleiche Bewegung in hoher Zahl",
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R78-M1",
+     "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"
+    },
+    {
+     "id": "R78-M2",
+     "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R76",
+   "fingerabdruck": "1ad3cadcaf6d84c6",
+   "name": "Verschmutzter oder unebener Boden",
+   "gilt_wenn": "Verschmutzter oder unebener Boden",
+   "entsteht": "Späne, Öl, Pulver, Kabel, Kanten am Boden",
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R76-M1",
+     "text": "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen"
+    },
+    {
+     "id": "R76-M2",
+     "text": "Stolperstellen beseitigen oder kennzeichnen"
+    },
+    {
+     "id": "R76-M3",
+     "text": "Rutschhemmende Sicherheitsschuhe"
+    },
+    {
+     "id": "R76-M4",
+     "text": "Verkehrswege freihalten"
+    },
+    {
+     "id": "R76-M5",
+     "text": "Rutschhemmenden Fußboden vorsehen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-5",
+     "titel": "ASR A1.5 Fußböden",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-5.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R82",
+   "fingerabdruck": "e6ddc2655a133588",
+   "name": "Sperrige Teile absetzen",
+   "gilt_wenn": "Von Hand, Körperkraft UND Sperriges Teil",
+   "entsteht": "Schweres Teil wird von Hand abgesetzt",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R82-M1",
+     "text": "Sicherheitsschuhe"
+    },
+    {
+     "id": "R82-M2",
+     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R59",
+   "fingerabdruck": "97f4a5207e93134c",
+   "name": "Heiße Werkstücke",
+   "gilt_wenn": "Heiße Werkstücke oder Flächen oder Heißes Werkstück oder heißer Stoff",
+   "entsteht": "Heiße Teile und Spritzer",
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R59-M1",
+     "text": "Fester, gekennzeichneter Ablageplatz für heiße Teile"
+    },
+    {
+     "id": "R59-M2",
+     "text": "Hitzebeständige Handschuhe und Schutzkleidung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R112",
+   "fingerabdruck": "8ccf450bba5cb720",
+   "name": "Zwangshaltung",
+   "gilt_wenn": "Arbeiten gebückt, kniend, über Kopf oder weit vorgebeugt",
+   "entsteht": "Langes Arbeiten in ungünstiger Körperhaltung",
+   "gefaehrdung": "Muskel-Skelett-Beschwerden durch Zwangshaltung",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R112-M1",
+     "text": "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden"
+    },
+    {
+     "id": "R112-M2",
+     "text": "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R119",
+   "fingerabdruck": "225205b0b0a7b4f8",
+   "name": "Funkenflug: Verbrennung",
+   "gilt_wenn": "Funkenflug oder Funkenflug oder heiße Partikel in der Umgebung",
+   "entsteht": "Funken, Zunder und heiße Partikel treffen Haut oder Kleidung",
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R119-M1",
+     "text": "Funkenflug abschirmen: Stellwände, Vorhänge, Funkenrichtung von Personen weg"
+    },
+    {
+     "id": "R119-M2",
+     "text": "Schwer entflammbare Kleidung, Handschuhe und Schutzbrille tragen, auch Personen daneben"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R60",
+   "fingerabdruck": "ee7ae2610b7ef8c2",
+   "name": "Funkenflug",
+   "gilt_wenn": "Funkenflug oder Funkenflug oder heiße Partikel in der Umgebung",
+   "entsteht": "Funken und glühende Partikel",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R60-M1",
+     "text": "Brennbare Stoffe aus dem Funkenbereich entfernen"
+    },
+    {
+     "id": "R60-M2",
+     "text": "Feuerlöscher griffbereit"
+    },
+    {
+     "id": "R60-M3",
+     "text": "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-800",
+     "titel": "TRGS 800 Brandschutzmaßnahmen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-800.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R120",
+   "fingerabdruck": "9f9100d93add171b",
+   "name": "Öl, Fett und Betriebsflüssigkeiten",
+   "gilt_wenn": "Öl, Fett, Schmierstoff oder Betriebsflüssigkeit: Hautkontakt",
+   "entsteht": "Hautkontakt beim Nachfüllen, Schmieren und Reinigen, Spritzer",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R120-M1",
+     "text": "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen"
+    },
+    {
+     "id": "R120-M2",
+     "text": "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille"
+    },
+    {
+     "id": "R120-M3",
+     "text": "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trgs-401",
+     "titel": "TRGS 401 Gefährdung durch Hautkontakt",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-401.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R90",
+   "fingerabdruck": "4bfd3a1f502abf09",
+   "name": "Arbeiten in der Höhe",
+   "gilt_wenn": "Arbeiten in der Höhe",
+   "entsteht": "Arbeitsplatz über dem Boden",
+   "gefaehrdung": "Absturz aus der Höhe",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R90-M1",
+     "text": "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter"
+    },
+    {
+     "id": "R90-M2",
+     "text": "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt"
+    },
+    {
+     "id": "R90-M3",
+     "text": "Unterweisung und Beauftragung der Bediener"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trbs-2121",
+     "titel": "TRBS 2121 Gefährdung von Beschäftigten durch Absturz",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2121.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "pflicht",
+   "id": "P20",
+   "fingerabdruck": "017f6d8c46d7b709",
+   "name": "Prüfung und Beauftragung an Kranen und Hebezeugen",
+   "gilt_wenn": "Kran, Kettenzug, Hebezeug",
+   "aussagen": [
+    {
+     "id": "P20",
+     "text": "Krane und Hebezeuge wiederkehrend prüfen lassen, Kranführer unterweisen und beauftragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v52",
+     "titel": "DGUV Vorschrift 52 Krane",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-52_Krane.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "lauf": "B005",
+ "paket": "P2",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R113",
+   "fingerabdruck": "71a8d320cdb8d03c",
+   "name": "Maschine bedienen",
+   "gilt_wenn": "Kraftbetriebene Maschine, die bedient wird",
+   "entsteht": "Bedienfehler, Arbeiten ohne Kenntnis der Maschine",
+   "gefaehrdung": "Unfall durch falsche Bedienung der Maschine",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R113-M1",
+     "text": "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen"
+    },
+    {
+     "id": "R113-M2",
+     "text": "Schriftliche Betriebsanweisung für die Maschine bereitstellen"
+    },
+    {
+     "id": "R113-M3",
+     "text": "Maschine nur bestimmungsgemäß verwenden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R65",
+   "fingerabdruck": "db7fc3e95e6577af",
+   "name": "Kran oder Hebezeug",
+   "gilt_wenn": "Kran, Kettenzug, Hebezeug",
+   "entsteht": "Schwebende Last",
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R65-M1",
+     "text": "Niemand unter der schwebenden Last"
+    },
+    {
+     "id": "R65-M2",
+     "text": "Anschlagmittel vor Gebrauch prüfen"
+    },
+    {
+     "id": "R65-M3",
+     "text": "Wiederkehrende Prüfung des Hebezeugs"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-v52",
+     "titel": "DGUV Vorschrift 52 Krane",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-52_Krane.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R87",
+   "fingerabdruck": "76371be84660d881",
+   "name": "Hitze am Arbeitsplatz",
+   "gilt_wenn": "Hitze, Wärmestrahlung",
+   "entsteht": "Wärmestrahlung, hohe Raumtemperatur",
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R87-M1",
+     "text": "Abschirmung der Wärmequelle, Lüftung"
+    },
+    {
+     "id": "R87-M2",
+     "text": "Trinkpausen, Aufenthalt begrenzen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a3-5",
+     "titel": "ASR A3.5 Raumtemperatur",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-5.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R86",
+   "fingerabdruck": "7676ac49111999d7",
+   "name": "Abblasen mit Druckluft",
+   "gilt_wenn": "Abblasen mit Druckluft",
+   "entsteht": "Aufgewirbelter Staub, wegfliegende Teile",
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R86-M1",
+     "text": "Saugen statt Abblasen"
+    },
+    {
+     "id": "R86-M2",
+     "text": "Schutzbrille"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R114",
+   "fingerabdruck": "cb8d7a1347442908",
+   "name": "Absaugung für Holzstaub wirksam halten",
+   "gilt_wenn": "(Abtragender Vorgang, erzeugt Staub oder Späne) UND Werkstoff Holz",
+   "entsteht": "Absaugung fehlt, ist abgeschaltet oder wirkt nicht mehr",
+   "gefaehrdung": "Atemwegserkrankung durch Holzstaub",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R114-M1",
+     "text": "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen"
+    },
+    {
+     "id": "R114-M2",
+     "text": "Maschine nur mit eingeschalteter Absaugung betreiben"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-553",
+     "titel": "TRGS 553 Holzstaub",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-553.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R27",
+   "fingerabdruck": "d43a00528ce0e1de",
+   "name": "Verschrauben mit Handmaschine",
+   "gilt_wenn": "Verschrauben UND Handgeführte Maschine",
+   "entsteht": "Gleichförmige Bewegung, Drehmoment",
+   "gefaehrdung": "Hand-Arm-Beschwerden durch gleichförmige Arbeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R27-M1",
+     "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse"
+    },
+    {
+     "id": "R27-M2",
+     "text": "Schrauber mit Abschaltkupplung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": "§ 5"
+    },
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": "Manuelle Arbeitsprozesse"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R73",
+   "fingerabdruck": "6b30fcd4c3a35886",
+   "name": "Lösemittel von Hand",
+   "gilt_wenn": "Lösemittel, Verdünnung, Kaltreiniger UND Von Hand, Körperkraft",
+   "entsteht": "Hautkontakt und Dämpfe",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R73-M1",
+     "text": "Geschlossene Waschgeräte statt offener Wanne"
+    },
+    {
+     "id": "R73-M2",
+     "text": "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R67",
+   "fingerabdruck": "f585308d4448544c",
+   "name": "Fahrverkehr im Arbeitsbereich",
+   "gilt_wenn": "Fahrverkehr im Arbeitsbereich",
+   "entsteht": "Fahrzeuge kreuzen den Arbeitsplatz",
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R67-M1",
+     "text": "Fahr- und Gehwege trennen und kennzeichnen"
+    },
+    {
+     "id": "R67-M2",
+     "text": "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R91",
+   "fingerabdruck": "0818549da99ccd20",
+   "name": "Herabfallende Teile bei Arbeiten in der Höhe",
+   "gilt_wenn": "Arbeiten in der Höhe",
+   "entsteht": "Werkzeug und Bauteile über Personen",
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R91-M1",
+     "text": "Bereich darunter absperren"
+    },
+    {
+     "id": "R91-M2",
+     "text": "Werkzeug sichern"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trbs-2121",
+     "titel": "TRBS 2121 Gefährdung von Beschäftigten durch Absturz",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2121.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}
