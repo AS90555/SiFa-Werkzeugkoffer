@@ -1,0 +1,279 @@
+{
+ "paket": "P1",
+ "pruefer": "B",
+ "eintraege": [
+  {
+   "id": "R87",
+   "aussagen": [
+    {
+     "id": "R87-M1",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in ASR/ASR-A3-5.txt nach Abschirmung, Wärmestrahlung, Lüftung. Lüftung steht nur als Beispielmaßnahme in Tabelle 4 (4.4 Abs. 2); eine Abschirmung der Wärmequelle steht in ASR A3.5 nirgends. Abschirmung gegen Wärmestrahlung steht nur in der Gießerei-Regel DGUV 109-608, nicht im genannten Text. Aussage hat zwei Teile, nur einer ist in der Quelle."
+    },
+    {
+     "id": "R87-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in ASR A3.5 nach Trinkpause, Aufenthalt, Getränke, Entwärmung. Dort stehen nur 'Festlegung zusätzlicher Entwärmungsphasen' (Tabelle 4 g) und die Bereitstellung geeigneter Getränke (4.4 Abs. 5). Von Trinkpausen oder einer Begrenzung der Aufenthaltsdauer ist in ASR A3.5 nicht die Rede."
+    }
+   ],
+   "vorschlag": "Aufteilen: Lüftung/Lüftungseinrichtungen steuern (ASR A3.5 4.4 Tab. 4) und zusätzliche Entwärmungsphasen festlegen, geeignete Getränke bereitstellen (ASR A3.5 4.4 Abs. 5). Abschirmung der Wärmequelle über ASR V3 (Wärmeschutzschilde) oder eine passende Hitzearbeits-Regel belegen."
+  },
+  {
+   "id": "R91",
+   "aussagen": [
+    {
+     "id": "R91-M1",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "ASR/ASR-A2-1.txt",
+       "stelle": "Abschnitt 4.4 Nr. 3",
+       "zitat": "Lassen sich Bereiche aus betriebstechnischen Gründen nicht durch Maßnahmen nach Nr. 1 und 2 sichern, muss eine zeitlich-organisatorische Trennung in Verbindung mit einer Absperrung und Kennzeichnung des Gefahrenbereiches oder einer Überwachung (z. B. Warnposten) des Gefahrenbereiches erfolgen."
+      }
+     ]
+    },
+    {
+     "id": "R91-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in TRBS/TRBS-2121.txt (Teil 1 bis 4 dazu) und ASR A2.1 nach Werkzeug, Herabfallen, sichern. TRBS 2121 behandelt nur Absturz von Personen. In TRBS 2121-2 und ASR A1.8 stehen Werkzeugtaschen zum Leiter-Transport, kein allgemeines Sichern von Werkzeug gegen Herabfallen bei Arbeiten in der Höhe."
+    }
+   ],
+   "vorschlag": "Quelle ist ASR A2.1 (Abschnitt 4.4, 6.1), nicht TRBS 2121. R91-M1 ist dort nur die dritte Stufe der Rangfolge (nach Fußleisten/Schutzwänden und Schutzdächern/Fangnetzen); besser: 'Wenn bauliche und technische Schutzeinrichtungen nicht möglich sind, Gefahrenbereich darunter absperren und kennzeichnen oder durch Warnposten überwachen'."
+  },
+  {
+   "id": "R19",
+   "aussagen": [
+    {
+     "id": "R19-M1",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "BetrSichV enthält nichts zu Schutzhaube oder Fixieren des Werkstücks an handgeführten Maschinen. Im ganzen Textordner ist die Schutzhaube nur für den Winkelschleifer belegt (DGUV 109-607 Abschnitt 3.7.1: 'Die Schutzhaube ist stets so zu verstellen, dass sie sich zwischen Schleifkörper und Bedienperson befindet'); bei der Handoberfräse verlangt DGUV 109-606 Abschnitt 3.3.2 Absaughauben, keine Schutzhaube. Die Aussage ist für alle schnell drehenden Handmaschinen zu weit gefasst."
+    },
+    {
+     "id": "R19-M2",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
+       "stelle": "Abschnitt 3.7.1 Schleifmaschinen, Betrieb",
+       "zitat": "Winkelschleifer sind stets mit beiden Händen zu führen, auch beim Schruppschleifen."
+      },
+      {
+       "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+       "stelle": "Abschnitt 3.3.2 Handoberfräsen, Arbeitsgang durchführen",
+       "zitat": "Während der Bearbeitung muss die Maschine immer mit beiden Händen geführt werden."
+      }
+     ]
+    }
+   ],
+   "vorschlag": "Quelle ist nicht die BetrSichV, sondern DGUV Regel 109-607 und 109-606. M1 aufteilen: 'Winkelschleifer: Schutzhaube zwischen Schleifkörper und Bedienperson einstellen, Werkstück gegen Verrutschen sichern' (DGUV 109-607 3.7.1) und 'Handoberfräse: Werkstück fixieren' (DGUV 109-606 3.3.2)."
+  },
+  {
+   "id": "R89",
+   "aussagen": [
+    {
+     "id": "R89-M1",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "Gesetze-Verordnungen/GefStoffV.txt",
+       "stelle": "§ 7 Abs. 3 Satz 2",
+       "zitat": "Er hat Gefahrstoffe oder Verfahren durch Stoffe, Gemische oder Erzeugnisse oder Verfahren zu ersetzen, die unter den jeweiligen Verwendungsbedingungen für die Gesundheit und Sicherheit der Beschäftigten nicht oder weniger gefährlich sind."
+      }
+     ]
+    },
+    {
+     "id": "R89-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in GefStoffV nach Absaugung, Lüftung, Augenspülung, Augendusche. § 7 Abs. 4 Nr. 2 nennt 'angemessene Be- und Entlüftung' als Beispiel für technische Maßnahmen, aber Augenspülung steht in der GefStoffV nirgends. Augenduschen stehen nur in branchen- oder laborbezogenen Texten (DGUV 109-602 Galvanik, TRGS 526 Laboratorien), nicht allgemein für ätzende Stoffe. 'In der Nähe' ist nirgends belegt."
+    },
+    {
+     "id": "R89-M3",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in GefStoffV nach Schutzbrille, Gesichtsschutz, Handschuh, Schürze, säurefest. Die GefStoffV verlangt nur allgemein geeignete persönliche Schutzausrüstung (§ 7 Abs. 4 Nr. 3, Abs. 5). Konkrete Ausrüstung steht nur in der Galvanik-Regel DGUV 109-602 (Kunststoffschürze, Chemikalienschutzhandschuhe, Augenschutz), die für Galvanik gilt, nicht für jeden ätzenden Stoff."
+    }
+   ],
+   "vorschlag": "R89-M2 aufteilen: 'Technische Schutzmaßnahmen wie angemessene Be- und Entlüftung an der Gefahrenquelle' (GefStoffV § 7 Abs. 4 Nr. 2) getrennt von der Augenspülung. R89-M3 als 'geeignete persönliche Schutzausrüstung nach Gefährdungsbeurteilung, wenn Maßnahmen nach Nr. 1 und 2 nicht ausreichen' fassen."
+  },
+  {
+   "id": "R62",
+   "aussagen": [
+    {
+     "id": "R62-M1",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "TRGS 401 Abschnitt 5.3 Abs. 1 nennt 'Kapselungen, Absaugungen oder Lüftungen' nur als Beispiele ('u. a.') technischer Maßnahmen gegen Hautkontakt, und im Anhang 'gekapselte Maschinen' als Beispiel. Die GefStoffV hat nichts zu Kühlschmierstoff-Maschinen. Der Text verlangt weder beides zusammen noch eine Absaugung der Maschine; die Aussage ist als Pflicht formuliert, der Text nennt nur Möglichkeiten."
+    },
+    {
+     "id": "R62-M2",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "TRGS/TRGS-401.txt",
+       "stelle": "Abschnitt 6 Abs. 2",
+       "zitat": "In Abhängigkeit vom Ergebnis der Gefährdungsbeurteilung ist nach TRGS 500 Abschnitt 6.4 ein Hautschutzplan für die Hautmittel zu erstellen."
+      },
+      {
+       "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
+       "stelle": "Abschnitt 3.1.3 Biostoffe, Maßnahmen",
+       "zitat": "Erstellen Sie für die Tätigkeiten mit Kühlschmierstoffen einen Hautschutzplan. Veranlassen Sie, dass dieser von Ihren Beschäftigten eingehalten und berücksichtigt wird."
+      }
+     ]
+    },
+    {
+     "id": "R62-M3",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "TRGS/TRGS-401.txt",
+       "stelle": "Abschnitt 5.3 Abs. 1",
+       "zitat": "Kapselungen, Absaugungen oder Lüftungen, durch deren Einsatz der Hautkontakt verhindert oder minimiert wird."
+      },
+      {
+       "datei": "TRGS/TRGS-401.txt",
+       "stelle": "Abschnitt 5.5.1 Abs. 10",
+       "zitat": "Bei Arbeiten an Maschinen mit Einzugsgefahr bei gleichzeitiger chemischer Belastung ist das Tragen von Schutzhandschuhen verboten. Stattdessen sind geeignete Hautschutzmittel einzusetzen."
+      },
+      {
+       "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
+       "stelle": "Metallbandsäge, Maßnahmen, Betrieb allgemein",
+       "zitat": "Das Benutzen von Handschuhen im Bereich drehender Werkzeuge oder Werkstücke ist verboten."
+      }
+     ]
+    }
+   ],
+   "vorschlag": "R62-M1: 'Kapselung oder Absaugung der Maschine als technische Maßnahme gegen Hautkontakt und Nebel prüfen' (TRGS 401 5.3 Abs. 1; Absaugung von Kühlschmierstoff-Aerosol an der Entstehungsstelle: DGUV 109-607 Biostoffe). R62-M3: an Maschinen mit Einzugsgefahr keine Handschuhe, stattdessen Hautschutzmittel."
+  },
+  {
+   "id": "R80",
+   "aussagen": [
+    {
+     "id": "R80-M1",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "BetrSichV und der übrige Textordner durchsucht nach Einzugsstelle, Vorschubwalze, Vorschubapparat, verdeckt. Es gibt keinen Text, der für Vorschubwalzen mit Anlegen von Hand eine möglichst weitgehende Verdeckung der Einzugsstelle verlangt. DGUV 109-607 (Walzen/Biegen) verlangt nur, Einzugsstellen zu sichern, oder Nothalteinrichtungen, wenn das nicht möglich ist; DGUV 109-606 3.1.10 Dickenhobel nennt Einzugswalzen nur als Bauteil."
+    },
+    {
+     "id": "R80-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht nach nachgreifen, nachfassen, anlegen, Abstand, Walzen im ganzen Textordner. Nichts gefunden. Die Anweisung 'Werkstück mit Abstand anlegen, nicht nachgreifen' steht in keiner Quelle."
+    }
+   ],
+   "vorschlag": "Ohne Fundstelle keine Aussage möglich. Als Teilaussage belegbar wäre nur: 'Einzugsstellen sichern; ist das nicht möglich, Nothalteinrichtungen (Schaltstange, Reißleine) im Knie-/Fußbereich vorsehen' (DGUV 109-607, Kapitel Maschinen mit Zustellwalzen)."
+  },
+  {
+   "id": "R56",
+   "aussagen": [
+    {
+     "id": "R56-M1",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+       "stelle": "Abschnitt 3.1.1 Maßnahmen",
+       "zitat": "Werkzeugauswahl, Drehzahl, Einstellung des Spaltkeils und Verwendung der oberen Schutzhaube sind elementar."
+      },
+      {
+       "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
+       "stelle": "Abschnitt 3.1.1 Beschaffenheit",
+       "zitat": "der Abstand zwischen dem Spaltkeil und dem Kreissägeblatt maximal 8 mm beträgt; der Abstand muss nach jedem Sägeblattwechsel geprüft werden"
+      }
+     ]
+    },
+    {
+     "id": "R56-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Abschnitt 3.1.1 DGUV 109-606 sagt: 'Geeignete Hilfsmittel, wie Schiebestock, Schiebeholz oder die Sägehilfe nach Möglichkeit einsetzen' und nennt schmale Werkstücke als besondere Gefährdung. Eine Stelle, die Schiebestock oder Schiebeholz ausdrücklich für schmale Werkstücke empfiehlt, fehlt (Schiebestock nur allgemein und zum Entfernen von Abschnitten im Sägeblattbereich). Die Verbindung 'bei schmalen Werkstücken' ist eine eigene Schlussfolgerung."
+    }
+   ],
+   "vorschlag": "R56-M2: 'Geeignete Hilfsmittel wie Schiebestock, Schiebeholz oder Sägehilfe nach Möglichkeit einsetzen; Werkstücke im Bereich des Sägeblatts nur mit dem Schiebestock entfernen' (DGUV 109-606 3.1.1)."
+  },
+  {
+   "id": "R121",
+   "aussagen": [
+    {
+     "id": "R121-M1",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "TRBS/TRBS-1112.txt",
+       "stelle": "Abschnitt 5.2 Abs. 1",
+       "zitat": "Nicht unmittelbar an der Erprobung beteiligte Personen sind fernzuhalten (Absperren der Bereiche)."
+      },
+      {
+       "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+       "stelle": "§ 11 Abs. 5 Satz 1",
+       "zitat": "Insbesondere bei Rüst- und Einrichtungsarbeiten, der Erprobung und der Prüfung von Arbeitsmitteln sowie bei der Fehlersuche sind Gefahrenbereiche festzulegen."
+      }
+     ]
+    },
+    {
+     "id": "R121-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in TRBS 1112 und BetrSichV nach Verständigung, Kommunikation, Zeichen, Zuständigkeit. Es stehen nur beispielhafte Maßnahmen: 'Festlegung der Kommunikation und Koordination zwischen allen Beteiligten' und 'Festlegen von Personen, die mit Beobachtungsaufgaben betraut sind' (TRBS 1112 Anhang 2, bei Arbeiten bei laufendem Betrieb) sowie BetrSichV § 8 Abs. 6 'Möglichkeiten zur Verständigung und Warnung vor dem Ingangsetzen'. Die Rollenverteilung 'wer fährt, wer gibt Zeichen, wer hält an' steht nirgends; Anhang 2 ist nur Beispiel."
+    },
+    {
+     "id": "R121-M3",
+     "urteil": "gedeckt",
+     "belege": [
+      {
+       "datei": "Gesetze-Verordnungen/BetrSichV.txt",
+       "stelle": "§ 8 Abs. 6 Satz 1",
+       "zitat": "Kraftbetriebene Arbeitsmittel müssen mit einer schnell erreichbaren und auffällig gekennzeichneten Notbefehlseinrichtung zum sicheren Stillsetzen des gesamten Arbeitsmittels ausgerüstet sein"
+      },
+      {
+       "datei": "TRBS/TRBS-1112.txt",
+       "stelle": "Anhang 2, Tabelle, Arbeiten bei laufendem Betrieb",
+       "zitat": "Not-Halt-Einrichtung in unmittelbarer Nähe des Instandhaltungspersonals"
+      }
+     ]
+    }
+   ],
+   "vorschlag": "R121-M2: 'Kommunikation und Koordination zwischen allen Beteiligten festlegen, Person mit Beobachtungsaufgabe bestimmen; Verständigung und Warnung vor dem Ingangsetzen sicherstellen' (TRBS 1112 Anhang 2, BetrSichV § 8 Abs. 6)."
+  },
+  {
+   "id": "R68",
+   "aussagen": [
+    {
+     "id": "R68-M1",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "PSA-BV enthält keine Sicherheitsschuhe, nur allgemeine Anforderungen an PSA (§ 2, § 3). Im Textordner stehen Sicherheitsschuhe nur allgemein für Werkstatt und Baustelle sowie beim Umgang mit schweren Werkstücken (DGUV 109-606), nicht für Handhubwagen."
+    },
+    {
+     "id": "R68-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in PSA-BV, TRBS 2111-1, DGUV-Texten nach Hubwagen, Ziehen, Schieben, Sicht. Nur TRBS 2111 Teil 1 nennt als Beispiel einer Festlegung 'Festlegungen für das manuelle Ziehen und Schieben von Handhubwagen, Transportwagen und rollbaren Einheiten, z. B. schwere Einheiten nicht alleine bewegen, Transportwagen nur schieben und nicht ziehen, vorgesehene Handgriffe benutzen'. Das betrifft Transportwagen und geht in eine andere Richtung; 'Ziehen nur mit Sicht, Last niedrig' steht nirgends."
+    }
+   ],
+   "vorschlag": "Ohne Fundstelle für Handhubwagen. Belegbar wäre nur: 'Festlegungen für das manuelle Ziehen und Schieben treffen (z. B. schwere Einheiten nicht alleine bewegen, vorgesehene Handgriffe benutzen)' (TRBS 2111 Teil 1) und Sicherheitsschuhe bei Werkstatttätigkeit (DGUV 109-606)."
+  },
+  {
+   "id": "R125",
+   "aussagen": [
+    {
+     "id": "R125-M1",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "LasthandhabV § 2 Abs. 1 verlangt allgemein 'geeignete Arbeitsmittel, insbesondere mechanische Ausrüstungen'. Konkret nennt DGUV 109-606 nur 'Hilfsmittel wie Hubtische oder Tischverlängerungen' bei großen, schweren oder langen Werkstücken (Abschnitte 3.1.14 und 3.2.1, Schleifmaschinen) und Scherenhubtische als beste Praxis. Rollenböcke und Auflagetische stehen nirgends; die genannte Quelle LasthandhabV/ArbSchG nennt keine dieser Geräte."
+    },
+    {
+     "id": "R125-M2",
+     "urteil": "nicht-gedeckt",
+     "belege": [],
+     "bemerkung": "Gesucht in LasthandhabV, ArbSchG und Textordner nach 'zu zweit', Drehbewegung, seitlich einlegen. Der Anhang der LasthandhabV nennt 'die erforderliche Körperhaltung oder Körperbewegung, insbesondere Drehbewegung' nur als Beurteilungsmerkmal, nicht als Maßnahme. Die Handhabung zu zweit steht nur in der Leitmerkmalmethode als Rechenwert, nicht als Forderung."
+    }
+   ],
+   "vorschlag": "R125-M1: 'Geeignete Arbeitsmittel (z. B. Hubtische, Tischverlängerungen) einsetzen, um manuelle Handhabung schwerer Lasten zu vermeiden oder zu verringern' (LasthandhabV § 2 Abs. 1, DGUV 109-606). R125-M2 getrennt als eigene Aussage 'Körperhaltung und Drehbewegungen bei der Beurteilung berücksichtigen' (LasthandhabV Anhang Abs. 2 Nr. 1)."
+  }
+ ]
+}
