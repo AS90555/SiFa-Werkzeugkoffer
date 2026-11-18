@@ -1,0 +1,131 @@
+{
+ "paket": "F007",
+ "status": "offen",
+ "eintraege": [
+  {
+   "id": "R04",
+   "art": "regel",
+   "fingerabdruck": "94d152376d9e1cf8"
+  },
+  {
+   "id": "R07",
+   "art": "regel",
+   "fingerabdruck": "67ca2309344445ef"
+  },
+  {
+   "id": "R19",
+   "art": "regel",
+   "fingerabdruck": "0952c956751eed44"
+  },
+  {
+   "id": "R28",
+   "art": "regel",
+   "fingerabdruck": "c15db74fb65186e7"
+  },
+  {
+   "id": "R30b",
+   "art": "regel",
+   "fingerabdruck": "6aea7aaaf57218a3"
+  },
+  {
+   "id": "R56",
+   "art": "regel",
+   "fingerabdruck": "a5aa3bff43131dc4"
+  },
+  {
+   "id": "R57",
+   "art": "regel",
+   "fingerabdruck": "fb6c4a4b6e834096"
+  },
+  {
+   "id": "R58",
+   "art": "regel",
+   "fingerabdruck": "dc747fef2e3b96e4"
+  },
+  {
+   "id": "R61",
+   "art": "regel",
+   "fingerabdruck": "f6d1c48774df1d7e"
+  },
+  {
+   "id": "R62",
+   "art": "regel",
+   "fingerabdruck": "b72cb2111afdc63e"
+  },
+  {
+   "id": "R63",
+   "art": "regel",
+   "fingerabdruck": "68fd23a8b2203f4e"
+  },
+  {
+   "id": "R64",
+   "art": "regel",
+   "fingerabdruck": "de5d6cfd5bfb9427"
+  },
+  {
+   "id": "R70",
+   "art": "regel",
+   "fingerabdruck": "ce5debfdd8954945"
+  },
+  {
+   "id": "R74",
+   "art": "regel",
+   "fingerabdruck": "4c7feb5634a1cd08"
+  },
+  {
+   "id": "R79",
+   "art": "regel",
+   "fingerabdruck": "0c221f598b0432f5"
+  },
+  {
+   "id": "R81",
+   "art": "regel",
+   "fingerabdruck": "db8d1c6396577000"
+  },
+  {
+   "id": "R89",
+   "art": "regel",
+   "fingerabdruck": "ee61d38c0ea8e89e"
+  },
+  {
+   "id": "R91",
+   "art": "regel",
+   "fingerabdruck": "0818549da99ccd20"
+  },
+  {
+   "id": "R92",
+   "art": "regel",
+   "fingerabdruck": "7693fa5b4be8318c"
+  },
+  {
+   "id": "R109",
+   "art": "regel",
+   "fingerabdruck": "ec7a271b02f54822"
+  },
+  {
+   "id": "R111",
+   "art": "regel",
+   "fingerabdruck": "d9e375ebdae714c6"
+  },
+  {
+   "id": "R117",
+   "art": "regel",
+   "fingerabdruck": "68ae1e3e60de481f"
+  },
+  {
+   "id": "R121",
+   "art": "regel",
+   "fingerabdruck": "de447a5152f02908"
+  },
+  {
+   "id": "R123",
+   "art": "regel",
+   "fingerabdruck": "9b5652941545388b"
+  },
+  {
+   "id": "R124",
+   "art": "regel",
+   "fingerabdruck": "04a69a88b5b082b7"
+  }
+ ]
+}

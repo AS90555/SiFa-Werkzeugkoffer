@@ -4,13 +4,13 @@ Stand nach R022 und Beleg-Lauf B006. Diese Datei schreibt `node lernen/leitstand
 
 ## Als Nächstes fällig
 
-1. **Beleg-Lauf B006 fertig prüfen:** 0 von 8 Berichten liegen vor. Aufträge unter `beleg/laeufe/B006/auftraege/`.
-2. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
+1. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
 
 ## Wartet auf Andre
 
 - **Freigabe-Paket F005:** 2 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F005.md`.
 - **Freigabe-Paket F006:** 17 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F006.md`.
+- **Freigabe-Paket F007:** 25 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F007.md`.
 
 ## Hinweise
 
@@ -25,8 +25,8 @@ Stand nach R022 und Beleg-Lauf B006. Diese Datei schreibt `node lernen/leitstand
 | Gefährdungen | 64 |
 | Stammdaten | 242 |
 | Wörterbuch | 221 |
-| Regeln doppelt belegt | 52 von 144 (36 %) |
-| Regeln nur einfach geprüft | 6 |
+| Regeln doppelt belegt | 77 von 144 (53 %) |
+| Regeln nur einfach geprüft | 5 |
 | Pflichten doppelt belegt | 20 von 20 |
 | Von Andre freigegeben | 34 Regeln, 19 Pflichten |
 | Freie Aufträge im Abdeckungsplan | 49 von 263 |
@@ -67,4 +67,4 @@ Stand nach R022 und Beleg-Lauf B006. Diese Datei schreibt `node lernen/leitstand
 | B003 | 36 | 28 | 2 | 0 | 0 | übernommen |
 | B004 | 20 | 12 | 5 | 0 | 0 | übernommen |
 | B005 | 19 | 10 | 5 | 0 | 0 | übernommen |
-| B006 |  |  |  |  |  | läuft |
+| B006 | 40 | 25 | 15 | 0 | 0 | übernommen |
