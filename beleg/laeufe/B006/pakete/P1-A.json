@@ -1,0 +1,357 @@
+{
+ "lauf": "B006",
+ "paket": "P1",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R87",
+   "fingerabdruck": "76371be84660d881",
+   "name": "Hitze am Arbeitsplatz",
+   "gilt_wenn": "Hitze, Wärmestrahlung",
+   "entsteht": "Wärmestrahlung, hohe Raumtemperatur",
+   "gefaehrdung": "Belastung durch Kälte, Hitze oder Zugluft",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R87-M1",
+     "text": "Abschirmung der Wärmequelle, Lüftung"
+    },
+    {
+     "id": "R87-M2",
+     "text": "Trinkpausen, Aufenthalt begrenzen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a3-5",
+     "titel": "ASR A3.5 Raumtemperatur",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A3-5.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R91",
+   "fingerabdruck": "0818549da99ccd20",
+   "name": "Herabfallende Teile bei Arbeiten in der Höhe",
+   "gilt_wenn": "Arbeiten in der Höhe",
+   "entsteht": "Werkzeug und Bauteile über Personen",
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R91-M1",
+     "text": "Bereich darunter absperren"
+    },
+    {
+     "id": "R91-M2",
+     "text": "Werkzeug sichern"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trbs-2121",
+     "titel": "TRBS 2121 Gefährdung von Beschäftigten durch Absturz",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2121.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R19",
+   "fingerabdruck": "888727d15111b441",
+   "name": "Handgeführte Maschine mit drehendem Werkzeug",
+   "gilt_wenn": "Schnell drehendes Werkzeug UND Handgeführte Maschine",
+   "entsteht": "Offenes Werkzeug, Rückschlag",
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R19-M1",
+     "text": "Schutzhaube, Werkstück fixiert"
+    },
+    {
+     "id": "R19-M2",
+     "text": "Beide Hände an der Maschine"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 6"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R89",
+   "fingerabdruck": "ee61d38c0ea8e89e",
+   "name": "Ätzender Stoff",
+   "gilt_wenn": "Ätzender Stoff, Säure oder Lauge",
+   "entsteht": "Säure oder Lauge auf Haut und Augen, ätzende Dämpfe",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R89-M1",
+     "text": "Weniger gefährliches Verfahren oder Produkt prüfen"
+    },
+    {
+     "id": "R89-M2",
+     "text": "Absaugung oder Lüftung, Augenspülung in der Nähe"
+    },
+    {
+     "id": "R89-M3",
+     "text": "Säurefeste Handschuhe, Schutzbrille oder Gesichtsschutz, Schürze"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R62",
+   "fingerabdruck": "f91f1d9caf8de632",
+   "name": "Kühlschmierstoff",
+   "gilt_wenn": "Kühlschmierstoff",
+   "entsteht": "Hautkontakt, Nebel und Dämpfe",
+   "gefaehrdung": "Haut- und Atemwegserkrankung durch Kühlschmierstoff",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R62-M1",
+     "text": "Kapselung und Absaugung der Maschine"
+    },
+    {
+     "id": "R62-M2",
+     "text": "Hautschutzplan"
+    },
+    {
+     "id": "R62-M3",
+     "text": "Hautkontakt vermeiden, geeignete Handschuhe außerhalb drehender Teile"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trgs-401",
+     "titel": "TRGS 401 Gefährdung durch Hautkontakt",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-401.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R80",
+   "fingerabdruck": "081c17677c0c2552",
+   "name": "Vorschubwalzen mit Anlegen von Hand",
+   "gilt_wenn": "Vorschubwalzen, Werkstück von Hand angelegt",
+   "entsteht": "Einzugsstelle an den Walzen",
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R80-M1",
+     "text": "Einzugsstelle so weit wie möglich verdeckt"
+    },
+    {
+     "id": "R80-M2",
+     "text": "Werkstück mit Abstand anlegen, nicht nachgreifen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R56",
+   "fingerabdruck": "a5aa3bff43131dc4",
+   "name": "Sägen mit Handvorschub",
+   "gilt_wenn": "Sägen UND Stationäre Maschine, Werkstück von Hand geführt",
+   "entsteht": "Hand nah am Sägeblatt, Rückschlag des Werkstücks",
+   "gefaehrdung": "Kontakt mit laufendem Werkzeug",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R56-M1",
+     "text": "Schutzhaube und Spaltkeil richtig eingestellt"
+    },
+    {
+     "id": "R56-M2",
+     "text": "Schiebestock oder Schiebeholz bei schmalen Werkstücken"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r109-606",
+     "titel": "DGUV Regel 109-606 Branche Tischler- und Schreinerhandwerk",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R121",
+   "fingerabdruck": "de447a5152f02908",
+   "name": "Probelauf mit Personen im Gefahrbereich",
+   "gilt_wenn": "Probelauf, Funktionsprüfung mit Bewegung",
+   "entsteht": "Maschine, Kran oder Tor wird zum Test gefahren, während Personen in der Nähe sind",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R121-M1",
+     "text": "Vor dem Probelauf den Gefahrbereich räumen und absperren"
+    },
+    {
+     "id": "R121-M2",
+     "text": "Verständigung und Zuständigkeit festlegen: Wer fährt, wer gibt Zeichen, wer hält an"
+    },
+    {
+     "id": "R121-M3",
+     "text": "Not-Halt für die Person am Bedienteil erreichbar"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "trbs-1112",
+     "titel": "TRBS 1112 Instandhaltung",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-1112.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R68",
+   "fingerabdruck": "5bdf534a49c90268",
+   "name": "Handhubwagen",
+   "gilt_wenn": "Handhubwagen ohne Antrieb",
+   "entsteht": "Schwere Last auf kleinen Rollen",
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R68-M1",
+     "text": "Sicherheitsschuhe"
+    },
+    {
+     "id": "R68-M2",
+     "text": "Ziehen statt schieben nur mit Sicht, Last niedrig"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R125",
+   "fingerabdruck": "5106fd23601f68f9",
+   "name": "Große Werkstücke an stationärer Maschine von Hand geführt",
+   "gilt_wenn": "Stationäre Maschine, Werkstück von Hand geführt UND Sperriges Teil",
+   "entsteht": "Große, schwere oder lange Werkstücke werden von Hand aufgelegt und über den Tisch geschoben oder geführt; Rücken und Schultern werden einseitig belastet",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R125-M1",
+     "text": "Auflage- und Abnahmetische, Rollenböcke oder Hubtische einsetzen, damit schwere Teile nicht frei getragen werden"
+    },
+    {
+     "id": "R125-M2",
+     "text": "Schwere oder lange Werkstücke zu zweit handhaben und den Arbeitsplatz so einrichten, dass nicht verdreht oder seitlich eingelegt werden muss"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}

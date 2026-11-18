@@ -1,0 +1,348 @@
+{
+ "lauf": "B006",
+ "paket": "P3",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R119",
+   "fingerabdruck": "225205b0b0a7b4f8",
+   "name": "Funkenflug: Verbrennung",
+   "gilt_wenn": "Funkenflug oder Funkenflug oder heiße Partikel in der Umgebung",
+   "entsteht": "Funken, Zunder und heiße Partikel treffen Haut oder Kleidung",
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R119-M1",
+     "text": "Funkenflug abschirmen: Stellwände, Vorhänge, Funkenrichtung von Personen weg"
+    },
+    {
+     "id": "R119-M2",
+     "text": "Schwer entflammbare Kleidung, Handschuhe und Schutzbrille tragen, auch Personen daneben"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    },
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R36",
+   "fingerabdruck": "f24d4ff028a9418c",
+   "name": "Halbautomat mit Einlegen von Hand",
+   "gilt_wenn": "Halbautomat, Einlegen von Hand",
+   "entsteht": "Arbeitstakt bei Hand im Bereich",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R36-M1",
+     "text": "Auslösung nur bei freiem Bereich"
+    },
+    {
+     "id": "R36-M2",
+     "text": "Schutzeinrichtung geprüft"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R57",
+   "fingerabdruck": "fb6c4a4b6e834096",
+   "name": "Schweißrauch",
+   "gilt_wenn": "Schweißen",
+   "entsteht": "Schweißrauch und Gase",
+   "gefaehrdung": "Atemwegserkrankung durch Schweißrauch",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R57-M1",
+     "text": "Emissionsarmes Verfahren und Zusatzwerkstoff wählen"
+    },
+    {
+     "id": "R57-M2",
+     "text": "Absaugung an der Entstehungsstelle, nachgeführt"
+    },
+    {
+     "id": "R57-M3",
+     "text": "Atemschutz, wenn die Absaugung nicht ausreicht"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-528",
+     "titel": "TRGS 528 Schweißtechnische Arbeiten",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-528.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R61",
+   "fingerabdruck": "f6d1c48774df1d7e",
+   "name": "Druckgasflasche",
+   "gilt_wenn": "Druckgasflasche",
+   "entsteht": "Hoher Druck, schwere Flasche",
+   "gefaehrdung": "Umfallende Druckgasflasche, abgerissenes Ventil",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R61-M1",
+     "text": "Flasche gegen Umfallen sichern"
+    },
+    {
+     "id": "R61-M2",
+     "text": "Transport nur mit Ventilschutz"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-745",
+     "titel": "TRBS 3145 / TRGS 745 Ortsbewegliche Druckgasbehälter",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-745.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R64",
+   "fingerabdruck": "de5d6cfd5bfb9427",
+   "name": "Rutschiger Boden durch Kühlschmierstoff",
+   "gilt_wenn": "Kühlschmierstoff",
+   "entsteht": "Öl und Emulsion auf dem Boden",
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R64-M1",
+     "text": "Auffangwannen, Spritzschutz"
+    },
+    {
+     "id": "R64-M2",
+     "text": "Boden sauber halten"
+    },
+    {
+     "id": "R64-M3",
+     "text": "Rutschhemmende Schuhe"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-5",
+     "titel": "ASR A1.5 Fußböden",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-5.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R123",
+   "fingerabdruck": "038a097175bbbeab",
+   "name": "Arbeiten mit hohem Druck",
+   "gilt_wenn": "Flüssigkeit oder Gas unter hohem Druck: Hochdruckstrahl, Druckprüfung",
+   "entsteht": "Hochdruckstrahl, Druckprüfung, Schlauch oder Leitung unter Druck",
+   "gefaehrdung": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R123-M1",
+     "text": "Bei Druckprüfungen Prüfling abschirmen oder aus sicherem Abstand prüfen"
+    },
+    {
+     "id": "R123-M2",
+     "text": "Schläuche und Leitungen vor der Benutzung auf Schäden prüfen, beschädigte sofort tauschen"
+    },
+    {
+     "id": "R123-M3",
+     "text": "Strahl nie auf Personen richten; vor Arbeiten am Gerät Druck ablassen"
+    },
+    {
+     "id": "R123-M4",
+     "text": "Unterweisen: Bei Verdacht auf Einspritzen von Flüssigkeit in die Haut sofort ärztliche Hilfe"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    },
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R70",
+   "fingerabdruck": "ce5debfdd8954945",
+   "name": "Arbeiten an elektrischen Anlagen",
+   "gilt_wenn": "Arbeiten an elektrischen Anlagen",
+   "entsteht": "Spannung führende Teile",
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R70-M1",
+     "text": "Arbeiten nur durch Elektrofachkraft oder unter deren Leitung und Aufsicht"
+    },
+    {
+     "id": "R70-M2",
+     "text": "Vor Beginn der Arbeiten an aktiven Teilen spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v3",
+     "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R28",
+   "fingerabdruck": "19d297728de17883",
+   "name": "Druckluft-Eintreibgerät",
+   "gilt_wenn": "(Eintreiben von Klammern oder Nägeln) UND Druckluft-Eintreibgerät",
+   "entsteht": "Klammer mit hoher Energie",
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R28-M1",
+     "text": "Auslösesicherung"
+    },
+    {
+     "id": "R28-M2",
+     "text": "Schutzbrille"
+    },
+    {
+     "id": "R28-M3",
+     "text": "Freie Hand aus der Schusslinie"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R07",
+   "fingerabdruck": "67ca2309344445ef",
+   "name": "Vakuumheber",
+   "gilt_wenn": "Vakuumheber",
+   "entsteht": "Last hängt am Unterdruck",
+   "gefaehrdung": "Schwebende Last fällt herab",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R07-M1",
+     "text": "Warneinrichtung bei Unterdruckabfall funktionsfähig"
+    },
+    {
+     "id": "R07-M2",
+     "text": "Wiederkehrende Prüfung; die Frist legt der Arbeitgeber fest"
+    },
+    {
+     "id": "R07-M3",
+     "text": "Niemand unter der Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R81",
+   "fingerabdruck": "fb1c09a66beecc26",
+   "name": "Bohr-, Dreh- oder Fräsmaschine mit Handbedienung: Erfasstwerden",
+   "gilt_wenn": "Schnell drehendes Werkzeug UND Stationäre Maschine, Werkstück von Hand geführt UND Werkstoff Metall",
+   "entsteht": "Drehende Spindel, Bohrer oder Welle",
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R81-M1",
+     "text": "Keine Handschuhe, eng anliegende Kleidung, kein Schmuck"
+    },
+    {
+     "id": "R81-M2",
+     "text": "Werkstück spannen statt von Hand halten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

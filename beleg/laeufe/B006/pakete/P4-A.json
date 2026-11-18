@@ -1,0 +1,335 @@
+{
+ "lauf": "B006",
+ "paket": "P4",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R73",
+   "fingerabdruck": "6b30fcd4c3a35886",
+   "name": "Lösemittel von Hand",
+   "gilt_wenn": "Lösemittel, Verdünnung, Kaltreiniger UND Von Hand, Körperkraft",
+   "entsteht": "Hautkontakt und Dämpfe",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R73-M1",
+     "text": "Geschlossene Waschgeräte statt offener Wanne"
+    },
+    {
+     "id": "R73-M2",
+     "text": "Handschuhe und Schutzbrille nach Sicherheitsdatenblatt"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R79",
+   "fingerabdruck": "0c221f598b0432f5",
+   "name": "Presse, Abkantpresse, Stanze",
+   "gilt_wenn": "Presse, Abkantpresse, Stanze",
+   "entsteht": "Schließbewegung mit hoher Kraft",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R79-M1",
+     "text": "Schutzeinrichtung wirksam: Lichtgitter, Zweihandschaltung oder feste Verkleidung"
+    },
+    {
+     "id": "R79-M2",
+     "text": "Schutzeinrichtung vor Schichtbeginn prüfen, nichts überbrücken"
+    },
+    {
+     "id": "R79-M3",
+     "text": "Wiederkehrende Prüfung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R58",
+   "fingerabdruck": "ee5483e67e219fe2",
+   "name": "Optische Strahlung beim Schweißen",
+   "gilt_wenn": "Schweißen",
+   "entsteht": "Ultraviolette und sichtbare Strahlung des Lichtbogens",
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R58-M1",
+     "text": "Schweißplatz zu Nachbarplätzen abschirmen"
+    },
+    {
+     "id": "R58-M2",
+     "text": "Schweißerschutzschild und bedeckende Kleidung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "ostrv",
+     "titel": "Arbeitsschutzverordnung zu künstlicher optischer Strahlung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/OStrV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R66",
+   "fingerabdruck": "3f4886f7bbe252d3",
+   "name": "Förderband oder Rollenbahn",
+   "gilt_wenn": "Förderband, Rollenbahn, Späneförderer",
+   "entsteht": "Einzugsstellen an Rollen und Bändern",
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R66-M1",
+     "text": "Einzugs- und Umlenkstellen verkleidet"
+    },
+    {
+     "id": "R66-M2",
+     "text": "Reinigen und Entstören nur im Stillstand"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R74",
+   "fingerabdruck": "fc4c361d71643738",
+   "name": "Metall trennen mit Handmaschine",
+   "gilt_wenn": "Werkstoff Metall UND Trennender Vorgang UND Handgeführte Maschine",
+   "entsteht": "Funken, Splitter, berstende Scheibe",
+   "gefaehrdung": "Getroffen werden von Klammer oder Teil",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R74-M1",
+     "text": "Schutzhaube richtig eingestellt"
+    },
+    {
+     "id": "R74-M2",
+     "text": "Schutzbrille, bei Trennscheiben Gesichtsschutz"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R48",
+   "fingerabdruck": "4ec317dc68c2751a",
+   "name": "Schneidwerkzeuge handhaben",
+   "gilt_wenn": "Schneidwerkzeug, Messer, Fräskopf",
+   "entsteht": "Scharfe Messer, schwere Köpfe",
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R48-M1",
+     "text": "Schnittschutzhandschuhe"
+    },
+    {
+     "id": "R48-M2",
+     "text": "Transportwagen und Aufnahmevorrichtung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 5"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R55",
+   "fingerabdruck": "1eed15eecb27bb19",
+   "name": "Entzündbare Sprühdose",
+   "gilt_wenn": "Sprühdose, Aerosol UND „Ist der Stoff laut Sicherheitsdatenblatt entzündbar“: ja",
+   "entsteht": "Entzündbares Aerosol, Druckbehälter",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R55-M1",
+     "text": "Nicht in der Nähe von Zündquellen und heißen Flächen sprühen"
+    },
+    {
+     "id": "R55-M2",
+     "text": "Nur Tagesbedarf am Arbeitsplatz, Vorrat geschützt vor Wärme lagern"
+    },
+    {
+     "id": "R55-M3",
+     "text": "Für Lüftung sorgen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-510",
+     "titel": "TRGS 510 Lagerung von Gefahrstoffen in ortsbeweglichen Behältern",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-510.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R49",
+   "fingerabdruck": "44fd864fd5d3c9c6",
+   "name": "Reinigen im Tauchbad",
+   "gilt_wenn": "Reinigungsbecken, Tauchbad",
+   "entsteht": "Meist alkalischer Reiniger",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R49-M1",
+     "text": "Einstufung nach Sicherheitsdatenblatt"
+    },
+    {
+     "id": "R49-M2",
+     "text": "Schutzbrille und Handschuhe"
+    },
+    {
+     "id": "R49-M3",
+     "text": "Augenspülung in der Nähe"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 7"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R111",
+   "fingerabdruck": "d9e375ebdae714c6",
+   "name": "Arbeiten unter angehobenem Fahrzeug",
+   "gilt_wenn": "Fahrzeug-Hebebühne, Arbeiten unter angehobenem Fahrzeug",
+   "entsteht": "Fahrzeug steht nicht sicher auf der Hebebühne",
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R111-M1",
+     "text": "Fahrzeug nur an den vorgesehenen Aufnahmepunkten aufnehmen"
+    },
+    {
+     "id": "R111-M2",
+     "text": "Hebebühne regelmäßig prüfen lassen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r109-009",
+     "titel": "DGUV Regel 109-009 Fahrzeuginstandhaltung",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-009_Fahrzeuginstandhaltung.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R109",
+   "fingerabdruck": "ec7a271b02f54822",
+   "name": "Alleinarbeit",
+   "gilt_wenn": "Eine Person arbeitet allein, außer Ruf- und Sichtweite",
+   "entsteht": "Niemand bemerkt einen Unfall oder kann helfen",
+   "gefaehrdung": "Nach einem Unfall bei Alleinarbeit kommt Hilfe zu spät",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R109-M1",
+     "text": "Bei gefährlicher Alleinarbeit für technische oder organisatorische Personenschutzmaßnahmen sorgen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v1",
+     "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}

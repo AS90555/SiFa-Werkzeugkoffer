@@ -1,0 +1,378 @@
+{
+ "lauf": "B006",
+ "paket": "P2",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R59",
+   "fingerabdruck": "97f4a5207e93134c",
+   "name": "Heiße Werkstücke",
+   "gilt_wenn": "Heiße Werkstücke oder Flächen oder Heißes Werkstück oder heißer Stoff",
+   "entsteht": "Heiße Teile und Spritzer",
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R59-M1",
+     "text": "Fester, gekennzeichneter Ablageplatz für heiße Teile"
+    },
+    {
+     "id": "R59-M2",
+     "text": "Hitzebeständige Handschuhe und Schutzkleidung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R92",
+   "fingerabdruck": "7693fa5b4be8318c",
+   "name": "Leiter",
+   "gilt_wenn": "Leiter oder Tritt",
+   "entsteht": "Stand auf schmaler Stufe oder Sprosse",
+   "gefaehrdung": "Absturz aus der Höhe",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R92-M1",
+     "text": "Leiter nur für kurze, leichte Arbeiten; Standhöhe und Dauer begrenzen"
+    },
+    {
+     "id": "R92-M2",
+     "text": "Leitern regelmäßig prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trbs-2121-2",
+     "titel": "TRBS 2121 Teil 2 Gefährdung bei der Verwendung von Leitern",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2121-Teil-2.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R117",
+   "fingerabdruck": "68ae1e3e60de481f",
+   "name": "Ziehen und Schieben",
+   "gilt_wenn": "Ziehen und Schieben von Lasten mit Wagen oder Karre",
+   "entsteht": "Schwere Wagen oder Karren, unebene Wege, Steigungen",
+   "gefaehrdung": "Muskel-Skelett-Belastung durch Ziehen und Schieben von Lasten",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R117-M1",
+     "text": "Belastung mit der Leitmerkmalmethode Ziehen und Schieben bewerten"
+    },
+    {
+     "id": "R117-M2",
+     "text": "Geeignete Transportmittel bereitstellen und Fahrwege eben halten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "bauau-lmm",
+     "titel": "Leitmerkmalmethoden der BAuA",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "Leitmerkmalmethoden/Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-Einstiegsscreening.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-E.txt",
+      "Leitmerkmalmethoden/Hinweise-LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-E-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-E-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-E-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-E-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-E-Ziehen-Schieben.txt",
+      "Leitmerkmalmethoden/LMM-Ganzkoerperkraefte.txt",
+      "Leitmerkmalmethoden/LMM-Heben-Halten-Tragen.txt",
+      "Leitmerkmalmethoden/LMM-Koerperfortbewegung.txt",
+      "Leitmerkmalmethoden/LMM-Koerperzwangshaltungen.txt",
+      "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
+      "Leitmerkmalmethoden/LMM-Multi-E.txt",
+      "Leitmerkmalmethoden/LMM-Ziehen-Schieben.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R30b",
+   "fingerabdruck": "6aea7aaaf57218a3",
+   "name": "Entzündbarer Lack oder Reiniger",
+   "gilt_wenn": "Beschichten mit Lack UND „Ist der Stoff laut Sicherheitsdatenblatt entzündbar“: ja",
+   "entsteht": "Explosionsfähige Atmosphäre",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R30b-M1",
+     "text": "Explosionsschutz prüfen und im Explosionsschutzdokument ausweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 6 Abs. 9, § 12"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R63",
+   "fingerabdruck": "68fd23a8b2203f4e",
+   "name": "Keime im wassergemischten Kühlschmierstoff",
+   "gilt_wenn": "Kühlschmierstoff UND „Ist der Kühlschmierstoff wassergemischt (Emulsion)“: ja",
+   "entsteht": "Bakterien und Pilze in der Emulsion",
+   "gefaehrdung": "Infektion oder Allergie durch Keime, zum Beispiel im Kühlschmierstoff",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R63-M1",
+     "text": "Kühlschmierstoff regelmäßig prüfen und pflegen"
+    },
+    {
+     "id": "R63-M2",
+     "text": "Wechsel und Reinigung nach Plan"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-611",
+     "titel": "TRGS 611 Verwendungsbeschränkungen für wassermischbare Kühlschmierstoffe",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-611.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R118",
+   "fingerabdruck": "7442f00d9e51cfb5",
+   "name": "Runde Last kann wegrollen",
+   "gilt_wenn": "Runde Last, die wegrollen kann: Stämme, Rohre, Coils",
+   "entsteht": "Stämme, Rohre oder Rollen liegen lose oder im Stapel",
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R118-M1",
+     "text": "Runde Lasten gegen Wegrollen sichern: Keile, Rungen, Lagergestelle"
+    },
+    {
+     "id": "R118-M2",
+     "text": "Nicht vor oder auf ungesicherten Stapeln aufhalten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r108-007",
+     "titel": "DGUV Information 208-061 Lagereinrichtungen und Ladungsträger (Nachfolger der DGUV Regel 108-007)",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Information-208-061_Lagereinrichtungen-und-Ladungstraeger.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R134",
+   "fingerabdruck": "34b59d8fb12b3a15",
+   "name": "Hubarbeitsbühne kippt bei weichem oder schrägem Untergrund",
+   "gilt_wenn": "Hubarbeitsbühne, Arbeitsbühne",
+   "entsteht": "Bei nachgebendem, unebenem oder abfallendem Untergrund kann die Hubarbeitsbühne kippen und der Korb mit den Personen stürzen",
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R134-M1",
+     "text": "Nur auf ausreichend tragfähigem, ebenem Untergrund aufstellen; Stützen auf geeignete Unterlagen setzen"
+    },
+    {
+     "id": "R134-M2",
+     "text": "Standsicherheit vor jedem Einsatz prüfen und das Ergebnis dokumentieren"
+    },
+    {
+     "id": "R134-M3",
+     "text": "Bediener nach Herstellerangaben einweisen und beauftragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R124",
+   "fingerabdruck": "04a69a88b5b082b7",
+   "name": "Elektrisches Betriebsmittel im Arbeitsbereich",
+   "gilt_wenn": "Elektrisches Betriebsmittel oder Leitung im Arbeitsbereich: Kabel am Boden, Strahler, Verlängerung",
+   "entsteht": "Kabel, Strahler oder Verlängerungen liegen am Boden, im Weg oder im Nassen und können beschädigt werden; dann droht ein elektrischer Schlag",
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R124-M1",
+     "text": "Leitungen und Betriebsmittel so verlegen und aufstellen, dass sie nicht beschädigt werden und nicht im Nassen oder im Gehweg liegen"
+    },
+    {
+     "id": "R124-M2",
+     "text": "Betriebsmittel vor dem Gebrauch auf sichtbare Schäden prüfen, beschädigte aus dem Verkehr ziehen und die wiederkehrende Prüfung veranlassen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v3",
+     "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R04",
+   "fingerabdruck": "94d152376d9e1cf8",
+   "name": "Fahrzeug im Außengelände oder am Gefälle",
+   "gilt_wenn": "(Flurförderzeug mit Fahrersitz oder Fahrerstand oder Handhubwagen ohne Antrieb oder Mitgänger-Flurförderzeug) UND (Außengelände oder Gefälle, Rampe)",
+   "entsteht": "Nässe, Eis, Unebenheit, Mischverkehr",
+   "gefaehrdung": "Fahrzeug kippt oder wird falsch bedient",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R04-M1",
+     "text": "Verkehrswege mit ebener und trittsicherer Oberfläche"
+    },
+    {
+     "id": "R04-M2",
+     "text": "Verkehrswege im Freien sicher benutzbar halten, zum Beispiel durch Winterdienst"
+    },
+    {
+     "id": "R04-M3",
+     "text": "Verkehrswege im Freien für die Dauer der Benutzung beleuchten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R75",
+   "fingerabdruck": "3af0bb97a5e5f452",
+   "name": "Lagern im Regal",
+   "gilt_wenn": "Lagern im Regal",
+   "entsteht": "Teile können herabfallen",
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R75-M1",
+     "text": "Schwere Teile unten lagern"
+    },
+    {
+     "id": "R75-M2",
+     "text": "Sicherung gegen Durchschieben und Herabfallen"
+    },
+    {
+     "id": "R75-M3",
+     "text": "Regale regelmäßig prüfen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r108-007",
+     "titel": "DGUV Information 208-061 Lagereinrichtungen und Ladungsträger (Nachfolger der DGUV Regel 108-007)",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Information-208-061_Lagereinrichtungen-und-Ladungstraeger.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}
