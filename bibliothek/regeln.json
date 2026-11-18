@@ -6012,36 +6012,48 @@
    {
     "id": "R132-M1",
     "art": "T",
-    "text": "Ausgebaute Teile in einem dafür vorgesehenen, gekennzeichneten und gesicherten Behältnis lagern"
+    "text": "Ausgebaute Teile in einem dafür vorgesehenen, gekennzeichneten und gesicherten Behältnis lagern",
+    "fundstelle": "keine"
    },
    {
     "id": "R132-M2",
     "art": "O",
-    "text": "Nur unterwiesene Personen nach Herstellerangaben an pyrotechnischen Teilen arbeiten lassen"
+    "text": "Nur unterwiesene Personen nach Herstellerangaben an pyrotechnischen Teilen arbeiten lassen",
+    "fundstelle": "keine"
    },
    {
     "id": "R132-M3",
     "art": "O",
-    "text": "Betriebsanweisung für Ausbau, Lagerung und Entsorgung festlegen"
+    "text": "Betriebsanweisung für Ausbau, Lagerung und Entsorgung festlegen",
+    "beleg": {
+     "quelle": "dguv-r109-009",
+     "stelle": "Abschnitt 5.9.6"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "hersteller",
-    "stelle": null
-   },
-   {
     "id": "dguv-r109-009",
-    "stelle": null
+    "stelle": "Abschnitt 5.9.6; Nr. 5.9.6"
    },
    {
-    "id": "arbschg",
-    "stelle": null
+    "id": "hersteller",
+    "stelle": "Verweis auf das Dokument am Arbeitsplatz"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B008",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "5588b2b4b59b830e",
+   "ohneFundstelle": [
+    "R132-M1",
+    "R132-M2"
+   ]
+  }
  },
  {
   "id": "R133",

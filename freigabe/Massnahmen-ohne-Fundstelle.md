@@ -1,6 +1,6 @@
 # Maßnahmen ohne Fundstelle
 
-Stand 18.11.2026. 59 Maßnahmen. Beide Prüfer haben sie im Regelwerk gesucht und keine wörtliche Fundstelle gefunden. Die Regel selbst ist belegt; diese Maßnahmen stehen im Bericht als „fachliche Empfehlung, ohne Fundstelle“. Sie können trotzdem richtig sein. Je Zeile entscheidest du:
+Stand 18.11.2026. 61 Maßnahmen. Beide Prüfer haben sie im Regelwerk gesucht und keine wörtliche Fundstelle gefunden. Die Regel selbst ist belegt; diese Maßnahmen stehen im Bericht als „fachliche Empfehlung, ohne Fundstelle“. Sie können trotzdem richtig sein. Je Zeile entscheidest du:
 
 - **Erfahrung:** Die Maßnahme bleibt und wird als Empfehlung der Fachkraft gekennzeichnet.
 - **Streichen:** Die Maßnahme entfällt.
@@ -65,6 +65,8 @@ Antwort im Gespräch, zum Beispiel: „alle Erfahrung außer R14-M2 streichen“
 | R128-M2 | Anlage mit gefährlicher elektrischer Spannung | Anlage und Zuleitungen regelmäßig durch eine Elektrofachkraft prüfen lassen und Bediener zu den elektrischen Gefahren unterweisen | B007 |
 | R129-M1 | UV-Strahler und UV-Härtung | UV-Strahler vollständig abdecken oder einhausen, sodass keine Strahlung in den Arbeitsbereich gelangt; Abdeckung nicht umgehen | B007 |
 | R129-M2 | UV-Strahler und UV-Härtung | Strahler nur bei geschlossener Abdeckung einschalten und Beschäftigte über die Gefahr der UV-Strahlung unterweisen | B007 |
+| R132-M1 | Pyrotechnische Teile | Ausgebaute Teile in einem dafür vorgesehenen, gekennzeichneten und gesicherten Behältnis lagern | B008 |
+| R132-M2 | Pyrotechnische Teile | Nur unterwiesene Personen nach Herstellerangaben an pyrotechnischen Teilen arbeiten lassen | B008 |
 | R133-M2 | Schwere Last von Hand heben | Last auf mehrere Personen verteilen oder in kleinere Einheiten aufteilen | B007 |
 | R138-M2 | Gießpfanne mit flüssigem Metall am Kran | Transportweg der Pfanne freihalten und für Personen sperren, Kran nur durch unterwiesene Kranführer bedienen | B007 |
 | R138-M3 | Gießpfanne mit flüssigem Metall am Kran | Hitzeschutzkleidung und Gesichtsschutz | B007 |
