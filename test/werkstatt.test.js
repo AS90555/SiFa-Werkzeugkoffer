@@ -82,3 +82,12 @@ test('Selbstlernen: Die Übernahme hält die Schranken ein (nur Neues, Anlass w�
     for (const [p, a] of [[vp, altV], [up, altU]]) { if (a === null) { if (fs.existsSync(p)) fs.unlinkSync(p); } else fs.writeFileSync(p, a); }
   }
 });
+test('Unterlagen: Gefährdungsbeurteilung mit drei Teilen und allen elf Faktoren je Arbeitsplatz, nichts erfunden', () => {
+  const path = require('path'); const { ladeBibliothek } = require('../kern/laden'); const { dokumente } = require('../kern/dokumente');
+  const b = ladeBibliothek(path.join(__dirname, '..', 'bibliothek')); const fall = require('../faelle/andre-001.json');
+  const { html, zahlen } = dokumente(b, fall, { heute: '2026-11-18' });
+  for (const t of ['Entscheidungsvorlage', 'Teil 1: Ergebnis der Beurteilung', 'Teil 2: Festgelegte Maßnahmen', 'Teil 3: Überprüfung der Wirksamkeit', 'Maßnahmenplan', 'Pflichten-Check', 'Gefahrstoffverzeichnis', 'Arbeitsplatzkarten']) assert.ok(html.includes(t), t);
+  for (const f of b.faktoren.faktoren) assert.ok(html.includes(`${f.nr} ${f.name}`), f.name);
+  assert.ok(!/\d+ × \d+ =/.test(html), 'ohne Eintrag der Fachkraft keine Bewertung');
+  assert.strictEqual(zahlen.stationen, fall.stationen.length);
+});

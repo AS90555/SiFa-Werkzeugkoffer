@@ -1,10 +1,11 @@
 # Leitstand
 
-Stand nach R022 und Beleg-Lauf B005. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
+Stand nach R022 und Beleg-Lauf B006. Diese Datei schreibt `node lernen/leitstand.js`; nicht von Hand ändern.
 
 ## Als Nächstes fällig
 
-1. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
+1. **Beleg-Lauf B006 fertig prüfen:** 0 von 8 Berichten liegen vor. Aufträge unter `beleg/laeufe/B006/auftraege/`.
+2. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
 
 ## Wartet auf Andre
 
@@ -66,3 +67,4 @@ Stand nach R022 und Beleg-Lauf B005. Diese Datei schreibt `node lernen/leitstand
 | B003 | 36 | 28 | 2 | 0 | 0 | übernommen |
 | B004 | 20 | 12 | 5 | 0 | 0 | übernommen |
 | B005 | 19 | 10 | 5 | 0 | 0 | übernommen |
+| B006 |  |  |  |  |  | läuft |
