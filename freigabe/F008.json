@@ -1,0 +1,116 @@
+{
+ "paket": "F008",
+ "status": "offen",
+ "eintraege": [
+  {
+   "id": "R06",
+   "art": "regel",
+   "fingerabdruck": "f5073c0a60d70d92"
+  },
+  {
+   "id": "R25",
+   "art": "regel",
+   "fingerabdruck": "f17886a85aa0085f"
+  },
+  {
+   "id": "R32",
+   "art": "regel",
+   "fingerabdruck": "ff61578a85b29393"
+  },
+  {
+   "id": "R33",
+   "art": "regel",
+   "fingerabdruck": "8d78337b833a34bc"
+  },
+  {
+   "id": "R40",
+   "art": "regel",
+   "fingerabdruck": "8559f7f84011b637"
+  },
+  {
+   "id": "R43",
+   "art": "regel",
+   "fingerabdruck": "392d4b00950148e9"
+  },
+  {
+   "id": "R45",
+   "art": "regel",
+   "fingerabdruck": "97ef455776ac8584"
+  },
+  {
+   "id": "R46",
+   "art": "regel",
+   "fingerabdruck": "e6e0aa5554e1a3c0"
+  },
+  {
+   "id": "R52",
+   "art": "regel",
+   "fingerabdruck": "9c7d15a3b61a7143"
+  },
+  {
+   "id": "R69",
+   "art": "regel",
+   "fingerabdruck": "3c984376b808dc59"
+  },
+  {
+   "id": "R84",
+   "art": "regel",
+   "fingerabdruck": "6cd515d8233c62d4"
+  },
+  {
+   "id": "R85",
+   "art": "regel",
+   "fingerabdruck": "92d69253d7e50d7e"
+  },
+  {
+   "id": "R107",
+   "art": "regel",
+   "fingerabdruck": "05ec3e9d0a9904da"
+  },
+  {
+   "id": "R108",
+   "art": "regel",
+   "fingerabdruck": "619080baa165ae02"
+  },
+  {
+   "id": "R115",
+   "art": "regel",
+   "fingerabdruck": "3865980fe8f0d373"
+  },
+  {
+   "id": "R116",
+   "art": "regel",
+   "fingerabdruck": "2c06ca278944432b"
+  },
+  {
+   "id": "R126",
+   "art": "regel",
+   "fingerabdruck": "4c06b6d0d62638a4"
+  },
+  {
+   "id": "R128",
+   "art": "regel",
+   "fingerabdruck": "c4a741ba06a88805"
+  },
+  {
+   "id": "R129",
+   "art": "regel",
+   "fingerabdruck": "87b8fe4887c9194c"
+  },
+  {
+   "id": "R133",
+   "art": "regel",
+   "fingerabdruck": "114704c09172fde0"
+  },
+  {
+   "id": "R138",
+   "art": "regel",
+   "fingerabdruck": "f04fbd469ccdd19e"
+  },
+  {
+   "id": "R143",
+   "art": "regel",
+   "fingerabdruck": "c01b1181cbbbf3d4"
+  }
+ ]
+}

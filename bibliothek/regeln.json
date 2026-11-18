@@ -245,24 +245,37 @@
    {
     "id": "R06-M1",
     "art": "O",
-    "text": "Stapelhöhe begrenzen"
+    "text": "Stapelhöhe begrenzen",
+    "beleg": {
+     "quelle": "dguv-r108-007",
+     "stelle": "Abschnitt 5.4.1"
+    }
    },
    {
     "id": "R06-M2",
     "art": "T",
-    "text": "Unterleghölzer und ebener, tragfähiger Boden"
+    "text": "Unterleghölzer und ebener, tragfähiger Boden",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "dguv-r108-007",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "Abschnitt 5.4.1; Abschnitt 5.4.1, gilt nach 5.5 sinngemäß auch ohne Ladungsträger"
    }
   ],
   "verbindlichkeit": "empfehlung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "f5073c0a60d70d92",
+   "ohneFundstelle": [
+    "R06-M2"
+   ]
+  }
  },
  {
   "id": "R07",
@@ -1200,33 +1213,44 @@
    {
     "id": "R25-M1",
     "art": "O",
-    "text": "Tägliche Funktionsprobe der Lichtschranke"
+    "text": "Tägliche Funktionsprobe der Lichtschranke",
+    "fundstelle": "keine"
    },
    {
     "id": "R25-M2",
     "art": "O",
-    "text": "Wiederkehrende Prüfung"
+    "text": "Wiederkehrende Prüfung",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 14 Abs. 2 Satz 1"
+    }
    },
    {
     "id": "R25-M3",
     "art": "T",
-    "text": "Umgehen nicht möglich"
+    "text": "Umgehen nicht möglich",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": "§ 14"
-   },
-   {
-    "id": "trbs-2111",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "§ 14 Abs. 2 Satz 1"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "f17886a85aa0085f",
+   "ohneFundstelle": [
+    "R25-M1",
+    "R25-M3"
+   ]
+  }
  },
  {
   "id": "R26",
@@ -1476,7 +1500,7 @@
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "geprueft",
+  "beleg": "offen",
   "freigabe": "entwurf"
  },
  {
@@ -1578,23 +1602,37 @@
    {
     "id": "R32-M1",
     "art": "T",
-    "text": "Abgesaugter Bereich"
+    "text": "Abgesaugter Bereich",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 3 Satz 2"
+    }
    },
    {
     "id": "R32-M2",
     "art": "O",
-    "text": "Bewertung nach Sicherheitsdatenblatt des Lacks"
+    "text": "Bewertung nach Sicherheitsdatenblatt des Lacks",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 1 Satz 2 Nr. 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": "§ 7"
+    "stelle": "Anhang I Nr. 2.3 Abs. 3 Satz 2; Anhang I Nr. 2.3 Abs. 5 Satz 1; § 6 Abs. 1 Satz 2 Nr. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "ff61578a85b29393"
+  }
  },
  {
   "id": "R33",
@@ -1606,28 +1644,41 @@
    {
     "id": "R33-M1",
     "art": "T",
-    "text": "Quetschstellen gesichert"
+    "text": "Quetschstellen gesichert",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 9 Abs. 1 Nr. 8"
+    }
    },
    {
     "id": "R33-M2",
     "art": "O",
-    "text": "Bedienung mit Sicht auf die Last"
+    "text": "Bedienung mit Sicht auf die Last",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": "§ 6"
+    "stelle": "§ 9 Abs. 1 Nr. 8"
    },
    {
     "id": "trbs-2111",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "Abschnitt 4.5.1 Abs. 1"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "8d78337b833a34bc",
+   "ohneFundstelle": [
+    "R33-M2"
+   ]
+  }
  },
  {
   "id": "R34",
@@ -1853,24 +1904,41 @@
    {
     "id": "R40-M1",
     "art": "P",
-    "text": "Sicherheitsschuhe"
+    "text": "Sicherheitsschuhe",
+    "beleg": {
+     "quelle": "trbs-2111",
+     "stelle": "Abschnitt 5.4 Abs. 2"
+    }
    },
    {
     "id": "R40-M2",
     "art": "O",
-    "text": "Unterweisung und Beauftragung"
+    "text": "Unterweisung und Beauftragung",
+    "beleg": {
+     "quelle": "dguv-v68",
+     "stelle": "§ 7 Abs. 2"
+    }
    }
   ],
   "quellen": [
    {
+    "id": "trbs-2111",
+    "stelle": "Abschnitt 5.4 Abs. 2"
+   },
+   {
     "id": "dguv-v68",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "§ 7 Abs. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "8559f7f84011b637"
+  }
  },
  {
   "id": "R41",
@@ -1996,23 +2064,37 @@
    {
     "id": "R43-M1",
     "art": "T",
-    "text": "Kapselung der Säge"
+    "text": "Kapselung der Säge",
+    "fundstelle": "keine"
    },
    {
     "id": "R43-M2",
     "art": "P",
-    "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+    "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)",
+    "beleg": {
+     "quelle": "laermvibv",
+     "stelle": "§ 8 Abs. 1 (unterer Auslösewert 80 dB(A) nach § 6 Nr. 2)"
+    }
    }
   ],
   "quellen": [
    {
     "id": "laermvibv",
-    "stelle": "§§ 6, 7, 8"
+    "stelle": "§ 8 Abs. 1 (unterer Auslösewert 80 dB(A) nach § 6 Nr. 2); § 8 Abs. 1"
    }
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "392d4b00950148e9",
+   "ohneFundstelle": [
+    "R43-M1"
+   ]
+  }
  },
  {
   "id": "R44",
@@ -2039,7 +2121,7 @@
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "geprueft",
+  "beleg": "offen",
   "freigabe": "entwurf"
  },
  {
@@ -2052,28 +2134,50 @@
    {
     "id": "R45-M1",
     "art": "O",
-    "text": "Explosionsschutzdokument"
+    "text": "Explosionsschutzdokument",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 9 Satz 1"
+    }
    },
    {
     "id": "R45-M2",
     "art": "T",
-    "text": "Funkenlöschung und Druckentlastung"
+    "text": "Funkenlöschung und Druckentlastung",
+    "fundstelle": "keine"
    },
    {
     "id": "R45-M3",
     "art": "O",
-    "text": "Prüfung der Anlage"
+    "text": "Prüfung der Anlage",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 7 Satz 3"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": "§ 6 Abs. 9"
+    "stelle": "§ 6 Abs. 9 Satz 1; Anhang I Nr. 2.3 Abs. 7 Satz 3"
+   },
+   {
+    "id": "betrsichv",
+    "stelle": "Anhang 2 Abschnitt 3 Nr. 5.1"
    }
   ],
   "verbindlichkeit": "pflicht",
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "97ef455776ac8584",
+   "ohneFundstelle": [
+    "R45-M2"
+   ]
+  }
  },
  {
   "id": "R46",
@@ -2093,23 +2197,37 @@
    {
     "id": "R46-M1",
     "art": "O",
-    "text": "Nur mit Erlaubnisschein"
+    "text": "Nur mit Erlaubnisschein",
+    "beleg": {
+     "quelle": "dguv-r113-004",
+     "stelle": "Abschnitt 4.2.6.1 Erlaubnisschein"
+    }
    },
    {
     "id": "R46-M2",
     "art": "O",
-    "text": "Sicherungsposten"
+    "text": "Sicherungsposten",
+    "beleg": {
+     "quelle": "dguv-r113-004",
+     "stelle": "Abschnitt 4.2.5.1 Sicherungsposten"
+    }
    }
   ],
   "quellen": [
    {
     "id": "dguv-r113-004",
-    "stelle": "Abschnitt 2.10 Sicherungsposten; Mustererlaubnisschein im Anhang"
+    "stelle": "Abschnitt 4.2.6.1 Erlaubnisschein; Abschnitt 4.2.6.1; Abschnitt 4.2.5.1 Sicherungsposten; Abschnitt 4.2.5.1"
    }
   ],
   "verbindlichkeit": "empfehlung",
   "beleg": "geprueft",
-  "freigabe": "entwurf"
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "e6e0aa5554e1a3c0"
+  }
  },
  {
   "id": "R47",
@@ -2300,27 +2418,37 @@
    {
     "id": "R52-M1",
     "art": "O",
-    "text": "Einweisung und Abstimmung der Arbeiten"
+    "text": "Einweisung und Abstimmung der Arbeiten",
+    "beleg": {
+     "quelle": "arbschg",
+     "stelle": "§ 8 Abs. 1 Satz 2"
+    }
    },
    {
     "id": "R52-M2",
     "art": "O",
-    "text": "Bei besonderen Gefahren aufsichtführende Person und Erlaubnisschein"
+    "text": "Bei besonderen Gefahren aufsichtführende Person und Erlaubnisschein",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "arbschg",
-    "stelle": "§ 8"
-   },
-   {
-    "id": "dguv-v1",
-    "stelle": "§ 6"
+    "stelle": "§ 8 Abs. 1 Satz 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "9c7d15a3b61a7143",
+   "ohneFundstelle": [
+    "R52-M2"
+   ]
+  }
  },
  {
   "id": "R53",
@@ -3045,23 +3173,37 @@
    {
     "id": "R69-M1",
     "art": "O",
-    "text": "Stapelhöhe begrenzen"
+    "text": "Stapelhöhe begrenzen",
+    "beleg": {
+     "quelle": "dguv-r108-007",
+     "stelle": "Abschnitt 5.4.1"
+    }
    },
    {
     "id": "R69-M2",
     "art": "T",
-    "text": "Ladung sichern, zum Beispiel mit Folie oder Band"
+    "text": "Ladung sichern, zum Beispiel mit Folie oder Band",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "dguv-r108-007",
-    "stelle": null
+    "stelle": "Abschnitt 5.4.1"
    }
   ],
   "verbindlichkeit": "empfehlung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "3c984376b808dc59",
+   "ohneFundstelle": [
+    "R69-M2"
+   ]
+  }
  },
  {
   "id": "R70",
@@ -3736,26 +3878,40 @@
    {
     "id": "R84-M1",
     "art": "T",
-    "text": "Staubarm einfüllen, Absaugung"
+    "text": "Staubarm einfüllen, Absaugung",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 3"
+    }
    },
    {
     "id": "R84-M2",
     "art": "P",
-    "text": "Atemschutz, wenn Staub nicht vermieden werden kann"
+    "text": "Atemschutz, wenn Staub nicht vermieden werden kann",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 8 Satz 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": null
+    "stelle": "Anhang I Nr. 2.3 Abs. 3; Anhang I Nr. 2.3 Abs. 3 Satz 1; Anhang I Nr. 2.3 Abs. 8 Satz 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
+  "beleg": "geprueft",
   "freigabe": "entwurf",
   "braucht": [
    "sdb"
-  ]
+  ],
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "6cd515d8233c62d4"
+  }
  },
  {
   "id": "R85",
@@ -3767,31 +3923,49 @@
    {
     "id": "R85-M1",
     "art": "O",
-    "text": "Ablagerungen regelmäßig entfernen"
+    "text": "Ablagerungen regelmäßig entfernen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 1.2 Abs. 4"
+    }
    },
    {
     "id": "R85-M2",
     "art": "O",
-    "text": "Explosionsschutz prüfen und dokumentieren"
+    "text": "Explosionsschutz prüfen und dokumentieren",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 9 Satz 1"
+    }
    },
    {
     "id": "R85-M3",
     "art": "T",
-    "text": "Zündquellen vermeiden"
+    "text": "Zündquellen vermeiden",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 12 Abs. 2 Nr. 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": null
+    "stelle": "Anhang I Nr. 1.2 Abs. 4; § 6 Abs. 9 Satz 1; § 12 Abs. 2 Nr. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
+  "beleg": "geprueft",
   "freigabe": "entwurf",
   "braucht": [
    "sdb"
-  ]
+  ],
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "92d69253d7e50d7e"
+  }
  },
  {
   "id": "R86",
@@ -4821,27 +4995,41 @@
    {
     "id": "R107-M1",
     "art": "O",
-    "text": "Fluchtwege und Notausgänge ständig freihalten"
+    "text": "Fluchtwege und Notausgänge ständig freihalten",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "§ 4 Abs. 4 Satz 1"
+    }
    },
    {
     "id": "R107-M2",
     "art": "T",
-    "text": "Feuerlöscher gut sichtbar und leicht erreichbar anbringen"
+    "text": "Feuerlöscher gut sichtbar und leicht erreichbar anbringen",
+    "beleg": {
+     "quelle": "asr-a2-2",
+     "stelle": "Abschnitt 5.3 Anforderungen an die Bereitstellung von Feuerlöscheinrichtungen, 1. Spiegelstrich"
+    }
    }
   ],
   "quellen": [
    {
     "id": "arbstaettv",
-    "stelle": null
+    "stelle": "§ 4 Abs. 4 Satz 1"
    },
    {
     "id": "asr-a2-2",
-    "stelle": null
+    "stelle": "Abschnitt 5.3 Anforderungen an die Bereitstellung von Feuerlöscheinrichtungen, 1. Spiegelstrich; Abschnitt 5.3 Anforderungen an die Bereitstellung von Feuerlöscheinrichtungen, Absatz 1, erster Spiegelstrich"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "05ec3e9d0a9904da"
+  }
  },
  {
   "id": "R108",
@@ -4853,27 +5041,37 @@
    {
     "id": "R108-M1",
     "art": "T",
-    "text": "Treppen mit Handlauf ausstatten"
+    "text": "Treppen mit Handlauf ausstatten",
+    "beleg": {
+     "quelle": "asr-a1-8",
+     "stelle": "Abschnitt 4.5 Abs. 10"
+    }
    },
    {
     "id": "R108-M2",
     "art": "O",
-    "text": "Stufen trittsicher und in ordnungsgemäßem Zustand halten"
+    "text": "Stufen trittsicher und in ordnungsgemäßem Zustand halten",
+    "beleg": {
+     "quelle": "asr-a1-8",
+     "stelle": "Abschnitt 4.5 Abs. 13"
+    }
    }
   ],
   "quellen": [
    {
     "id": "asr-a1-8",
-    "stelle": null
-   },
-   {
-    "id": "arbstaettv",
-    "stelle": null
+    "stelle": "Abschnitt 4.5 Abs. 10; Abschnitt 4.5 Abs. 10 Nr. 1; Abschnitt 4.5 Abs. 13; Abschnitt 4.5 Abs. 14"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "619080baa165ae02"
+  }
  },
  {
   "id": "R109",
@@ -5108,27 +5306,37 @@
    {
     "id": "R115-M1",
     "art": "T",
-    "text": "Für ausreichende Lüftung sorgen"
+    "text": "Für ausreichende Lüftung sorgen",
+    "beleg": {
+     "quelle": "dguv-r113-004",
+     "stelle": "Abschnitt 4.3.3.1"
+    }
    },
    {
     "id": "R115-M2",
     "art": "O",
-    "text": "Vor dem Einsteigen in Behälter und enge Räume die Atmosphäre messen und freigeben"
+    "text": "Vor dem Einsteigen in Behälter und enge Räume die Atmosphäre messen und freigeben",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "dguv-r113-004",
-    "stelle": null
-   },
-   {
-    "id": "gefstoffv",
-    "stelle": null
+    "stelle": "Abschnitt 4.3.3.1"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "3865980fe8f0d373",
+   "ohneFundstelle": [
+    "R115-M2"
+   ]
+  }
  },
  {
   "id": "R116",
@@ -5140,27 +5348,37 @@
    {
     "id": "R116-M1",
     "art": "T",
-    "text": "Staubarm arbeiten: nass bearbeiten oder an der Entstehungsstelle absaugen"
+    "text": "Staubarm arbeiten: nass bearbeiten oder an der Entstehungsstelle absaugen",
+    "beleg": {
+     "quelle": "trgs-559",
+     "stelle": "Abschnitt 4.3.4.2 Spanende Bearbeitung (Schneiden, Trennen, Schleifen, Fräsen)"
+    }
    },
    {
     "id": "R116-M2",
     "art": "O",
-    "text": "Staub aufsaugen, nicht trocken kehren oder abblasen"
+    "text": "Staub aufsaugen, nicht trocken kehren oder abblasen",
+    "beleg": {
+     "quelle": "trgs-559",
+     "stelle": "Abschnitt 3.5.2 Nr. 6"
+    }
    }
   ],
   "quellen": [
    {
     "id": "trgs-559",
-    "stelle": null
-   },
-   {
-    "id": "gefstoffv",
-    "stelle": null
+    "stelle": "Abschnitt 4.3.4.2 Spanende Bearbeitung (Schneiden, Trennen, Schleifen, Fräsen); Abschnitt 4.3.4.2 Spanende Bearbeitung (Schneiden, Trennen, Schleifen, Fräsen), Absatz 1; Abschnitt 3.5.2 Nr. 6"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "2c06ca278944432b"
+  }
  },
  {
   "id": "R117",
@@ -5550,27 +5768,41 @@
    {
     "id": "R126-M1",
     "art": "T",
-    "text": "Benutzte Lappen in einem nicht brennbaren, verschließbaren Sammelbehälter ablegen"
+    "text": "Benutzte Lappen in einem nicht brennbaren, verschließbaren Sammelbehälter ablegen",
+    "beleg": {
+     "quelle": "trgs-500",
+     "stelle": "Abschnitt 6.2 Abs. 20 Satz 2"
+    }
    },
    {
     "id": "R126-M2",
     "art": "O",
-    "text": "Lappen nicht liegen lassen oder zusammenknüllen, Behälter regelmäßig leeren und die Entsorgung festlegen"
+    "text": "Lappen nicht liegen lassen oder zusammenknüllen, Behälter regelmäßig leeren und die Entsorgung festlegen",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
-    "id": "gefstoffv",
-    "stelle": null
+    "id": "trgs-500",
+    "stelle": "Abschnitt 6.2 Abs. 20 Satz 2"
    },
    {
-    "id": "trgs-800",
-    "stelle": null
+    "id": "dguv-r109-607",
+    "stelle": "Beste Praxis, Abschnitt Brand- und Explosionsschutz (Selbstentzündung)"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "vermutungswirkung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "4c06b6d0d62638a4",
+   "ohneFundstelle": [
+    "R126-M2"
+   ]
+  }
  },
  {
   "id": "R127",
@@ -5614,27 +5846,37 @@
    {
     "id": "R128-M1",
     "art": "T",
-    "text": "Gehäuse, Zuleitungen und Anschlüsse berührsicher abdecken; Abdeckungen nur bei abgeschalteter und gesicherter Anlage öffnen"
+    "text": "Gehäuse, Zuleitungen und Anschlüsse berührsicher abdecken; Abdeckungen nur bei abgeschalteter und gesicherter Anlage öffnen",
+    "beleg": {
+     "quelle": "dguv-v3",
+     "stelle": "§ 4 Abs. 4"
+    }
    },
    {
     "id": "R128-M2",
     "art": "O",
-    "text": "Anlage und Zuleitungen regelmäßig durch eine Elektrofachkraft prüfen lassen und Bediener zu den elektrischen Gefahren unterweisen"
+    "text": "Anlage und Zuleitungen regelmäßig durch eine Elektrofachkraft prüfen lassen und Bediener zu den elektrischen Gefahren unterweisen",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "dguv-v3",
-    "stelle": null
-   },
-   {
-    "id": "betrsichv",
-    "stelle": null
+    "stelle": "§ 4 Abs. 4"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "c4a741ba06a88805",
+   "ohneFundstelle": [
+    "R128-M2"
+   ]
+  }
  },
  {
   "id": "R129",
@@ -5646,28 +5888,44 @@
    {
     "id": "R129-M1",
     "art": "T",
-    "text": "UV-Strahler vollständig abdecken oder einhausen, sodass keine Strahlung in den Arbeitsbereich gelangt; Abdeckung nicht umgehen"
+    "text": "UV-Strahler vollständig abdecken oder einhausen, sodass keine Strahlung in den Arbeitsbereich gelangt; Abdeckung nicht umgehen",
+    "fundstelle": "keine"
    },
    {
     "id": "R129-M2",
     "art": "O",
-    "text": "Strahler nur bei geschlossener Abdeckung einschalten und Beschäftigte über die Gefahr der UV-Strahlung unterweisen"
+    "text": "Strahler nur bei geschlossener Abdeckung einschalten und Beschäftigte über die Gefahr der UV-Strahlung unterweisen",
+    "fundstelle": "keine"
    },
    {
     "id": "R129-M3",
     "art": "P",
-    "text": "Bei Arbeiten in der Nähe ungeschützter Strahler geeigneten Augen- und Hautschutz tragen"
+    "text": "Bei Arbeiten in der Nähe ungeschützter Strahler geeigneten Augen- und Hautschutz tragen",
+    "beleg": {
+     "quelle": "ostrv",
+     "stelle": "§ 7 Abs. 1 Satz 5"
+    }
    }
   ],
   "quellen": [
    {
     "id": "ostrv",
-    "stelle": null
+    "stelle": "§ 7 Abs. 1 Satz 5"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "87b8fe4887c9194c",
+   "ohneFundstelle": [
+    "R129-M1",
+    "R129-M2"
+   ]
+  }
  },
  {
   "id": "R130",
@@ -5800,32 +6058,46 @@
    {
     "id": "R133-M1",
     "art": "T",
-    "text": "Hebehilfe oder Hebezeug einsetzen, damit die Last nicht von Hand gehoben werden muss"
+    "text": "Hebehilfe oder Hebezeug einsetzen, damit die Last nicht von Hand gehoben werden muss",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 2 Abs. 1"
+    }
    },
    {
     "id": "R133-M2",
     "art": "O",
-    "text": "Last auf mehrere Personen verteilen oder in kleinere Einheiten aufteilen"
+    "text": "Last auf mehrere Personen verteilen oder in kleinere Einheiten aufteilen",
+    "fundstelle": "keine"
    },
    {
     "id": "R133-M3",
     "art": "O",
-    "text": "Beschäftigte in richtigem Heben und Tragen unterweisen"
+    "text": "Beschäftigte in richtigem Heben und Tragen unterweisen",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 4 Satz 2"
+    }
    }
   ],
   "quellen": [
    {
     "id": "lasthandhabv",
-    "stelle": null
-   },
-   {
-    "id": "arbschg",
-    "stelle": null
+    "stelle": "§ 2 Abs. 1; § 4 Satz 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "114704c09172fde0",
+   "ohneFundstelle": [
+    "R133-M2"
+   ]
+  }
  },
  {
   "id": "R134",
@@ -5986,36 +6258,44 @@
    {
     "id": "R138-M1",
     "art": "T",
-    "text": "Pfannengehänge, Kran und Pfanne für flüssiges Metall ausgelegt, regelmäßig geprüft und mit Kippsicherung"
+    "text": "Pfannengehänge, Kran und Pfanne für flüssiges Metall ausgelegt, regelmäßig geprüft und mit Kippsicherung",
+    "beleg": {
+     "quelle": "dguv-r109-608",
+     "stelle": "Tiegel- und Pfannenwirtschaft (3.1.3), Maßnahmen Zu 1. Auslegung und Zustand"
+    }
    },
    {
     "id": "R138-M2",
     "art": "O",
-    "text": "Transportweg der Pfanne freihalten und für Personen sperren, Kran nur durch unterwiesene Kranführer bedienen"
+    "text": "Transportweg der Pfanne freihalten und für Personen sperren, Kran nur durch unterwiesene Kranführer bedienen",
+    "fundstelle": "keine"
    },
    {
     "id": "R138-M3",
     "art": "P",
-    "text": "Hitzeschutzkleidung und Gesichtsschutz"
+    "text": "Hitzeschutzkleidung und Gesichtsschutz",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "dguv-r109-608",
-    "stelle": null
-   },
-   {
-    "id": "dguv-v52",
-    "stelle": null
-   },
-   {
-    "id": "psa-bv",
-    "stelle": null
+    "stelle": "Tiegel- und Pfannenwirtschaft (3.1.3), Maßnahmen Zu 1. Auslegung und Zustand; Abschnitt Pfannenwirtschaft, Zu 1. Auslegung und Zustand"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "f04fbd469ccdd19e",
+   "ohneFundstelle": [
+    "R138-M2",
+    "R138-M3"
+   ]
+  }
  },
  {
   "id": "R139",
@@ -6165,26 +6445,36 @@
    {
     "id": "R143-M1",
     "art": "T",
-    "text": "Hebezeug oder Hebehilfe so einsetzen, dass die Last auch beim Ausrichten und Absetzen nicht von Hand getragen werden muss"
+    "text": "Hebezeug oder Hebehilfe so einsetzen, dass die Last auch beim Ausrichten und Absetzen nicht von Hand getragen werden muss",
+    "beleg": {
+     "quelle": "lasthandhabv",
+     "stelle": "§ 2 Abs. 1"
+    }
    },
    {
     "id": "R143-M2",
     "art": "O",
-    "text": "Schwere Last mit mehreren Personen bewegen, Ablauf vorher abstimmen und in Heben und Tragen unterweisen"
+    "text": "Schwere Last mit mehreren Personen bewegen, Ablauf vorher abstimmen und in Heben und Tragen unterweisen",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "lasthandhabv",
-    "stelle": null
-   },
-   {
-    "id": "arbschg",
-    "stelle": null
+    "stelle": "§ 2 Abs. 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B007",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "c01b1181cbbbf3d4",
+   "ohneFundstelle": [
+    "R143-M2"
+   ]
+  }
  }
 ]

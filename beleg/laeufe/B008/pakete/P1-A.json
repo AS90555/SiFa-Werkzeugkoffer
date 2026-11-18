@@ -1,0 +1,290 @@
+{
+ "lauf": "B008",
+ "paket": "P1",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R132",
+   "fingerabdruck": "1043036d505df8a9",
+   "name": "Pyrotechnische Teile",
+   "gilt_wenn": "Pyrotechnisches Teil, das unbeabsichtigt auslösen kann: Airbagmodul, Gurtstraffer",
+   "entsteht": "Airbagmodule und ähnliche Teile können beim Ausbau, Lagern oder Zerlegen unbeabsichtigt auslösen",
+   "gefaehrdung": "Unbeabsichtigtes Auslösen pyrotechnischer Teile",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R132-M1",
+     "text": "Ausgebaute Teile in einem dafür vorgesehenen, gekennzeichneten und gesicherten Behältnis lagern"
+    },
+    {
+     "id": "R132-M2",
+     "text": "Nur unterwiesene Personen nach Herstellerangaben an pyrotechnischen Teilen arbeiten lassen"
+    },
+    {
+     "id": "R132-M3",
+     "text": "Betriebsanweisung für Ausbau, Lagerung und Entsorgung festlegen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r109-009",
+     "titel": "DGUV Regel 109-009 Fahrzeuginstandhaltung",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-009_Fahrzeuginstandhaltung.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R135",
+   "fingerabdruck": "300ce5b6b7c00688",
+   "name": "Hand-Arm-Vibration an handgeführten Werkzeugen",
+   "gilt_wenn": "Hand-Arm-Vibration: Griffe oder Werkzeug vibrieren spürbar",
+   "entsteht": "Vibrierende Griffe übertragen Schwingungen über Stunden in Hände und Arme",
+   "gefaehrdung": "Hand-Arm-Vibrationen schädigen auf Dauer Durchblutung und Nerven der Hände",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R135-M1",
+     "text": "Vibrationsarme Geräte einsetzen, Werkzeuge und Einsatzwerkzeuge regelmäßig warten und erneuern"
+    },
+    {
+     "id": "R135-M2",
+     "text": "Arbeitszeit mit vibrierenden Geräten begrenzen, Tätigkeiten abwechseln, Beschäftigte unterweisen"
+    },
+    {
+     "id": "R135-M3",
+     "text": "Gefährdung beurteilen, Vorsorge anbieten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R137",
+   "fingerabdruck": "ae9a6b84e142d8d9",
+   "name": "Mineralfasern reizen Haut und Augen",
+   "gilt_wenn": "Mineralwolle und Dämmwolle: Fasern und Faserstaub",
+   "entsteht": "Fasern und Faserstaub setzen sich auf Haut, Augen und Kleidung",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R137-M1",
+     "text": "Material abdecken oder getrennt lagern, damit kein Faserstaub herabfällt"
+    },
+    {
+     "id": "R137-M2",
+     "text": "Betriebsanweisung und Unterweisung, Hautschutz und Reinigung nach der Arbeit"
+    },
+    {
+     "id": "R137-M3",
+     "text": "Schutzhandschuhe, Schutzbrille und geeignete Kleidung tragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R139",
+   "fingerabdruck": "c9e838141bbc697c",
+   "name": "Offenes Ölbad: Brand",
+   "gilt_wenn": "Offenes Ölbad mit brennbarem Öl: Abschreckbad, Erodiertank",
+   "entsteht": "Brennbares Öl in einem offenen Bad wird heiß oder ist Funken ausgesetzt; es dampft, kann Feuer fangen und brennt dann weiter, auch wenn das Bad ohne Aufsicht läuft",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R139-M1",
+     "text": "Bad abdecken oder mit selbsttätiger Löscheinrichtung und Temperaturüberwachung ausrüsten"
+    },
+    {
+     "id": "R139-M2",
+     "text": "Zündquellen vom Bad fernhalten, Löschmittel bereithalten und den Betrieb ohne Aufsicht festlegen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R140",
+   "fingerabdruck": "8b2bd3a59623097a",
+   "name": "Zange oder Greifzange am Balancer oder Manipulator",
+   "gilt_wenn": "Balancer oder Manipulator mit Zange oder Greifzange, von Hand oder Pult geführt",
+   "entsteht": "Hände liegen beim Führen oder Einlegen zwischen Zange und Werkstück oder Gerät; die Zange kann nachgeben oder das Werkstück verrutschen, und Finger oder Hand werden gequetscht",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R140-M1",
+     "text": "Griffe und Führung so gestalten, dass die Hände nicht in den Schließbereich der Zange reichen; Zweihandbedienung oder Zustimmschalter prüfen"
+    },
+    {
+     "id": "R140-M2",
+     "text": "Hände nur an den Griffen führen, Werkstück erst loslassen und Zange erst bewegen, wenn alle Beteiligten Sicht und Zuruf haben; unterweisen"
+    },
+    {
+     "id": "R140-M3",
+     "text": "Geeignete Schutzhandschuhe tragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R141",
+   "fingerabdruck": "9632fa9bc694d503",
+   "name": "Reifen aufpumpen mit Druckluft",
+   "gilt_wenn": "Reifen oder Behälter mit Druckluft aufpumpen",
+   "entsteht": "Beim Aufpumpen kann der Reifen platzen oder der Reifensitz auf der Felge nachgeben; Teile und Druck treffen die Person",
+   "gefaehrdung": "Verletzung durch Flüssigkeit oder Gas unter hohem Druck: Strahl dringt in die Haut, Leitung platzt, Schlauch schlägt weg",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R141-M1",
+     "text": "Reifen in einem Schutzkäfig oder mit Aufpumpvorrichtung und Sicherheitsabstand aufpumpen"
+    },
+    {
+     "id": "R141-M2",
+     "text": "Reifen und Felge vor dem Aufpumpen auf Schäden und richtigen Sitz prüfen, Fülldruck vorgeben und unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r109-009",
+     "titel": "DGUV Regel 109-009 Fahrzeuginstandhaltung",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-009_Fahrzeuginstandhaltung.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R142",
+   "fingerabdruck": "212778d67f88cf5a",
+   "name": "Enger Durchstieg",
+   "gilt_wenn": "Enger Durchstieg: Mannloch, Kabinenöffnung, zwischen Gehänge und Wand",
+   "entsteht": "Beim Durchsteigen oder Durchzwängen durch eine enge Öffnung stoßen Kopf oder Körper an; man kann sich verletzen oder einklemmen, besonders mit Gerät",
+   "gefaehrdung": "Anstoßen oder Einklemmen beim Durchstieg durch enge Öffnungen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R142-M1",
+     "text": "Öffnung und Bewegungsfläche vergrößern oder Kanten polstern und kennzeichnen, wo es möglich ist"
+    },
+    {
+     "id": "R142-M2",
+     "text": "Gerät getrennt hereinreichen, nur mit Sicherungsposten durchsteigen und unterweisen"
+    },
+    {
+     "id": "R142-M3",
+     "text": "Kopfschutz tragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-r113-004",
+     "titel": "DGUV Regel 113-004 Behälter, Silos und enge Räume",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-113-004_Behaelter-Silos-enge-Raeume.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}
