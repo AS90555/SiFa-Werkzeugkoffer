@@ -4,13 +4,12 @@ Stand nach R022 und Beleg-Lauf B005. Diese Datei schreibt `node lernen/leitstand
 
 ## Als Nächstes fällig
 
-1. **Beleg-Lauf B004 zusammenführen:** `node beleg/zusammenfuehren.js B004`, Bericht ansehen, dann mit `--uebernehmen`.
-2. **Beleg-Lauf B005 zusammenführen:** `node beleg/zusammenfuehren.js B005`, Bericht ansehen, dann mit `--uebernehmen`.
-3. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
+1. **Ziel erreicht:** zwei Prüfrunden im Feld BGHM mit mindestens 80 %. Weiter mit Meilenstein 3 der Roadmap.
 
 ## Wartet auf Andre
 
 - **Freigabe-Paket F005:** 2 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F005.md`.
+- **Freigabe-Paket F006:** 17 doppelt belegte Einträge warten auf deine Entscheidung. Datei `freigabe/F006.md`.
 
 ## Hinweise
 
@@ -25,7 +24,7 @@ Stand nach R022 und Beleg-Lauf B005. Diese Datei schreibt `node lernen/leitstand
 | Gefährdungen | 64 |
 | Stammdaten | 242 |
 | Wörterbuch | 221 |
-| Regeln doppelt belegt | 35 von 144 (24 %) |
+| Regeln doppelt belegt | 52 von 144 (36 %) |
 | Regeln nur einfach geprüft | 6 |
 | Pflichten doppelt belegt | 20 von 20 |
 | Von Andre freigegeben | 34 Regeln, 19 Pflichten |
@@ -62,8 +61,8 @@ Stand nach R022 und Beleg-Lauf B005. Diese Datei schreibt `node lernen/leitstand
 
 | Lauf | Einträge | geprüft | teilweise oder offen | strittig | verworfene Zitate | Stand |
 | --- | --- | --- | --- | --- | --- | --- |
-| B001 | 24 | 15 | 7 | 2 | 0 | übernommen |
-| B002 | 36 | 15 | 19 | 2 | 0 | übernommen |
-| B003 | 36 | 21 | 14 | 1 | 0 | übernommen |
-| B004 | 20 | 4 | 16 | 0 | 0 | wartet auf Zusammenführen |
-| B005 | 19 | 1 | 18 | 0 | 0 | wartet auf Zusammenführen |
+| B001 | 24 | 12 | 1 | 0 | 0 | übernommen |
+| B002 | 36 | 15 | 1 | 0 | 0 | übernommen |
+| B003 | 36 | 28 | 2 | 0 | 0 | übernommen |
+| B004 | 20 | 12 | 5 | 0 | 0 | übernommen |
+| B005 | 19 | 10 | 5 | 0 | 0 | übernommen |

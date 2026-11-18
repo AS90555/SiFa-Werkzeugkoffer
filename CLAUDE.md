@@ -16,6 +16,7 @@ Sprache: Deutsch, klar, ohne Fachjargon aus der Softwareentwicklung. Andre ist F
 - Die Auswertung rechnet ohne KI. KI darf nur ein Protokoll in einen Fall übersetzen, als Vorschlag mit markierten Unsicherheiten.
 - Nie raten: Fehlt eine Angabe, bleibt das Ergebnis offen.
 - Jede Regel und Pflicht braucht eine Quelle. `beleg: geprueft` setzt nur `node beleg/zusammenfuehren.js <Lauf> --uebernehmen`, also nur nach zwei unabhängigen Prüfern mit wörtlichem Zitat. Nie von Hand. Sonst `offen`.
+- Eine Regel gilt als belegt, wenn mindestens eine Maßnahme doppelt belegt ist und kein Widerspruch besteht. Maßnahmen ohne Fundstelle bekommen `fundstelle: keine`, stehen im Bericht als „fachliche Empfehlung, ohne Fundstelle“ und kommen auf `freigabe/Massnahmen-ohne-Fundstelle.md` (`node freigabe/ohne-fundstelle.js`). Pflichten brauchen weiter jede Aussage doppelt belegt.
 - Wird eine belegte oder freigegebene Regel geändert, meldet die Prüfung das. Dann `node beleg/stand.js --bereinigen`: Beleg und Freigabe fallen zurück.
 - `freigabe: geprueft` setzt nur Andre: `node freigabe/setzen.js` erst ausführen, wenn er es im Gespräch ausdrücklich gesagt hat. Ein Bericht eines Agenten ist keine Freigabe.
 - `grundlage: erfahrung` an einer Maßnahme setzt nur Andre.

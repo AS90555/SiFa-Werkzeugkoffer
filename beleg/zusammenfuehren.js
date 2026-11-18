@@ -31,9 +31,14 @@ for (const pd of fs.readdirSync(path.join(ordner, 'pakete')).filter(x => x.endsW
     }
     for (const r of ['A', 'B']) { const v = ber[r].get(pe.id).vorschlag; if (v) z.hinweise.push(`Vorschlag ${r}: ${v}`); }
     const st = z.aussagen.map(a => a.status);
-    z.status = st.includes('strittig') ? 'strittig' : st.every(s => s === 'doppelt') ? 'geprueft' : st.includes('doppelt') ? 'teilweise' : 'offen';
+    // Regel: geprüft, sobald mindestens eine Maßnahme doppelt belegt ist und kein Widerspruch besteht (seit 18.11.2026).
+    // Maßnahmen ohne doppelten Beleg bleiben stehen, werden aber als „fachliche Empfehlung, ohne Fundstelle“ gekennzeichnet und kommen auf Andres Liste.
+    // Pflicht: weiterhin jede Aussage doppelt belegt.
+    z.status = st.includes('strittig') ? 'strittig' : st.every(s => s === 'doppelt') ? 'geprueft' : (pe.art === 'regel' && st.includes('doppelt')) ? 'geprueft' : st.includes('doppelt') ? 'teilweise' : 'offen';
+    z.ohneFundstelle = z.status === 'geprueft' ? z.aussagen.filter(a => a.status !== 'doppelt').map(a => a.id) : [];
+    if (z.ohneFundstelle.length) z.hinweise.push(`Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: ${z.ohneFundstelle.join(', ')}`);
     if (z.status === 'geprueft') {
-      const belege = z.aussagen.flatMap(a => [a.A.belege[0], a.B.belege[0]]);
+      const belege = z.aussagen.filter(a => a.status === 'doppelt').flatMap(a => [a.A.belege[0], a.B.belege[0]]);
       const fremd = [...new Set(belege.filter(x => !quelleZuDatei(b, x.datei)).map(x => x.datei))];
       if (fremd.length) { z.status = 'neue-quelle'; z.hinweise.push('Belegt aus Dateien, die noch nicht in quellen.json stehen: ' + fremd.join(', ')); }
       else if (pe.art === 'regel') { const beste = Math.max(...belege.map(x => STUFE[quelleZuDatei(b, x.datei).stufe]));
@@ -49,14 +54,16 @@ if (uebernehmen) {
     const e = E.get(z.id);
     if (z.status === 'geprueft') {
       const stellen = new Map(); const merke = (bl) => { const q = quelleZuDatei(b, bl.datei).id; if (!stellen.has(q)) stellen.set(q, new Set()); stellen.get(q).add(bl.stelle.trim()); return q; };
-      for (const a of z.aussagen) { const q = merke(a.A.belege[0]); merke(a.B.belege[0]);
-        if (z.art === 'regel') e.massnahmen.find(m => m.id === a.id).beleg = { quelle: q, stelle: a.A.belege[0].stelle.trim() }; }
+      for (const a of z.aussagen) { const m = z.art === 'regel' ? e.massnahmen.find(x => x.id === a.id) : null;
+        if (a.status !== 'doppelt') { if (m) { delete m.beleg; if (m.grundlage !== 'erfahrung') m.fundstelle = 'keine'; } continue; }
+        const q = merke(a.A.belege[0]); merke(a.B.belege[0]);
+        if (m) { m.beleg = { quelle: q, stelle: a.A.belege[0].stelle.trim() }; delete m.fundstelle; } }
       const verweise = (e.quellen || []).filter(q => b.quellen.find(x => x.id === q.id).verweis && !stellen.has(q.id));
       e.quellen = [...[...stellen].map(([id, s]) => ({ id, stelle: [...s].join('; ') })), ...verweise.map(q => ({ id: q.id, stelle: q.stelle || 'Verweis auf das Dokument am Arbeitsplatz' }))];
       if (z.art === 'regel') { // Die Verbindlichkeit darf nicht höher sein als die ranghöchste Quelle, die die Maßnahmen wirklich belegt.
         const beste = Math.max(...[...stellen.keys()].map(id => STUFE[b.quellen.find(x => x.id === id).stufe])); const name = Object.keys(STUFE).find(k => STUFE[k] === beste);
         if (STUFE[e.verbindlichkeit] > beste) { z.hinweise = z.hinweise.filter(h => !h.startsWith('Verbindlichkeit prüfen')); z.hinweise.push(`Verbindlichkeit von „${e.verbindlichkeit}“ auf „${name}“ gesenkt: Die Belege stammen aus keiner höher eingestuften Quelle.`); e.verbindlichkeit = name; } }
-      e.beleg = 'geprueft'; e.belegstand = { lauf, datum: heute, pruefungen: 2, fingerabdruck: fingerabdruck(e) };
+      e.beleg = 'geprueft'; e.belegstand = { lauf, datum: heute, pruefungen: 2, fingerabdruck: fingerabdruck(e), ...(z.ohneFundstelle.length ? { ohneFundstelle: z.ohneFundstelle } : {}) };
     } else if (['strittig', 'offen', 'teilweise'].includes(z.status) && e.beleg === 'geprueft' && !(e.belegstand && e.belegstand.pruefungen >= 2)) {
       e.beleg = 'offen'; z.hinweise.push('War bisher einfach geprüft und ist in der Gegenprüfung nicht bestätigt worden: zurück auf offen.');
     }
@@ -68,7 +75,7 @@ if (uebernehmen) {
 const zeile = bl => `„${bl.zitat.trim().replace(/\s+/g, ' ')}“ (${bl.datei.replace(/\.txt$/, '')}, ${bl.stelle.trim()})`;
 const md = [`# Beleg-Lauf ${lauf}`, '', `${ergebnis.length} Einträge, ${aussagenAlle} Aussagen. Doppelt belegt: ${aussagenDoppelt} Aussagen. Verworfene Zitate (standen nicht wörtlich im Text): ${zitateVerworfen}.`, '',
   '| Ergebnis | Anzahl | Bedeutung |', '| --- | --- | --- |',
-  `| geprüft | ${zaehler.geprueft} | jede Aussage von beiden Prüfern mit wörtlichem Zitat belegt |`, `| teilweise | ${zaehler.teilweise} | mindestens eine Aussage ohne doppelten Beleg |`,
+  `| geprüft | ${zaehler.geprueft} | Regel: mindestens eine Maßnahme von beiden Prüfern wörtlich belegt, der Rest als Empfehlung ohne Fundstelle gekennzeichnet; Pflicht: jede Aussage belegt |`, `| teilweise | ${zaehler.teilweise} | Pflicht mit mindestens einer Aussage ohne doppelten Beleg |`,
   `| offen | ${zaehler.offen} | keine Aussage doppelt belegt |`, `| strittig | ${zaehler.strittig} | ein Prüfer hat einen Widerspruch zum Text gefunden |`,
   `| neue Quelle | ${zaehler['neue-quelle']} | belegt, aber aus einem Dokument, das noch nicht im Quellenverzeichnis steht |`, `| veraltet oder Bericht fehlt | ${zaehler.veraltet + zaehler['bericht-fehlt']} | seit der Paketbildung geändert oder nicht bearbeitet |`, ''];
 for (const st of ['strittig', 'teilweise', 'offen', 'neue-quelle', 'geprueft', 'veraltet', 'bericht-fehlt']) {

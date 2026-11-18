@@ -1,19 +1,19 @@
 {
  "lauf": "B003",
- "datum": "2026-11-12",
+ "datum": "2026-11-18",
  "uebernommen": true,
  "zaehler": {
-  "geprueft": 21,
-  "teilweise": 12,
+  "geprueft": 28,
+  "teilweise": 0,
   "offen": 2,
-  "strittig": 1,
-  "veraltet": 0,
+  "strittig": 0,
+  "veraltet": 6,
   "neue-quelle": 0,
   "bericht-fehlt": 0
  },
  "aussagen": {
-  "alle": 76,
-  "doppelt": 59
+  "alle": 62,
+  "doppelt": 52
  },
  "zitateVerworfen": 0,
  "eintraege": [
@@ -67,9 +67,14 @@
    ],
    "hinweise": [
     "Vorschlag A: R78-M2 nur mit Quelle und Anwendungsfall belegen, in dem der Text steht: Arbeitsplatzrotation bei körperlich belastenden Tätigkeiten laut DGUV Regel 109-606 Abschnitt 3.4.5 (Heben und Tragen). Für gleichförmige Handarbeit eine andere Quelle suchen oder die Maßnahme allgemeiner fassen: Gestaltungsmaßnahmen nach Bewertung mit der LMM-MA ab Risikobereich 3.",
-    "Vorschlag B: R78-M2 streichen oder auf den Fall Heben und Tragen von Lasten beschränken. Für gleichförmige Handarbeit nur belegbar als allgemeine Arbeitsgestaltung nach ArbSchG § 4 Nr. 1, ohne Nennung des Arbeitsplatzwechsels."
+    "Vorschlag B: R78-M2 streichen oder auf den Fall Heben und Tragen von Lasten beschränken. Für gleichförmige Handarbeit nur belegbar als allgemeine Arbeitsgestaltung nach ArbSchG § 4 Nr. 1, ohne Nennung des Arbeitsplatzwechsels.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R78-M2",
+    "Verbindlichkeit von „pflicht“ auf „empfehlung“ gesenkt: Die Belege stammen aus keiner höher eingestuften Quelle."
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R78-M2"
+   ]
   },
   {
    "id": "R11",
@@ -179,72 +184,16 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R42",
    "art": "regel",
    "name": "Scharfkantige Teile von Hand",
-   "aussagen": [
-    {
-     "id": "R42-M1",
-     "text": "Schnittfeste Handschuhe",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
-        "stelle": "Kapitel Betrieb allgemein, 2. Aufzählungspunkt (Seite 72)",
-        "zitat": "Stellen Sie den Beschäftigten geeignete Hilfsmittel, zum Beispiel Handfeger, Spänehaken mit Handschutz und Schutzausrüstung, zum Beispiel schnittfeste Handschuhe, zur Verfügung."
-       }
-      ],
-      "bemerkung": "PSA-BV § 2 gibt nur allgemein vor, geeignete PSA bereitzustellen, nennt aber keine Schnittschutzhandschuhe. Die konkrete Maßnahme steht in der Branchenregel Metallbau (Empfehlung)."
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
-        "stelle": "Abschnitt Persönliche Schutzausrüstung, Absatz 2",
-        "zitat": "Während der Arbeit mit scharfkantigen Werkstücken sind Schnittschutzhandschuhe zu verwenden."
-       }
-      ],
-      "bemerkung": "Quelle ist eine Empfehlung der Branchenregel Metallbau; PSA-BV und TRBS 2111 nennen Schnittschutzhandschuhe nur allgemein bzw. als Beispiel."
-     }
-    },
-    {
-     "id": "R42-M2",
-     "text": "Gefährliche Kanten sicher gestalten, zum Beispiel entgraten oder abrunden",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "TRBS/TRBS-2111.txt",
-        "stelle": "Abschnitt 5.2.3 Abs. 2",
-        "zitat": "Konstruktive Maßnahmen zur sicheren Gestaltung von Oberflächen sind z. B.: – Glätten von Oberflächen, – ausreichende Dimensionierung von Biegeradien, – Entgraten oder Abrunden von Kanten,"
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "TRBS/TRBS-2111.txt",
-        "stelle": "Abschnitt 5.2.3 Abs. 2",
-        "zitat": "Konstruktive Maßnahmen zur sicheren Gestaltung von Oberflächen sind z. B.: – Glätten von Oberflächen, – ausreichende Dimensionierung von Biegeradien, – Entgraten oder Abrunden von Kanten,"
-       }
-      ],
-      "bemerkung": "Der Text nennt Entgraten und Abrunden als Beispiele; die Aussage ist ebenfalls als Beispiel formuliert (zum Beispiel)."
-     }
-    }
-   ],
-   "hinweise": [
-    "Verbindlichkeit von „pflicht“ auf „vermutungswirkung“ gesenkt: Die Belege stammen aus keiner höher eingestuften Quelle."
-   ],
-   "status": "geprueft"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "R77",
@@ -317,7 +266,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R72",
@@ -410,7 +360,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R105",
@@ -500,7 +451,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R99",
@@ -573,7 +525,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R27",
@@ -625,9 +578,14 @@
    ],
    "hinweise": [
     "Vorschlag A: R27-M2 entweder streichen oder mit einer Quelle belegen, die Schrauber mit Abschaltkupplung verlangt. Im vorliegenden Regelwerkstext steht dazu nichts.",
-    "Vorschlag B: R27-M2 streichen oder so umformulieren, dass es nur durch einen Beleg gedeckt wird, den es im Textordner gibt (zum Beispiel Drehschrauber anstelle von Schlagschraubern, TRLV Vibration Teil 1)."
+    "Vorschlag B: R27-M2 streichen oder so umformulieren, dass es nur durch einen Beleg gedeckt wird, den es im Textordner gibt (zum Beispiel Drehschrauber anstelle von Schlagschraubern, TRLV Vibration Teil 1).",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R27-M2",
+    "Verbindlichkeit von „pflicht“ auf „empfehlung“ gesenkt: Die Belege stammen aus keiner höher eingestuften Quelle."
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R27-M2"
+   ]
   },
   {
    "id": "R65",
@@ -716,9 +674,13 @@
     }
    ],
    "hinweise": [
-    "Vorschlag A: R65-M2 streichen oder durch eine Quelle ersetzen, die die Prüfung der Anschlagmittel vor Gebrauch verlangt; im Textordner nur gefunden: Anschlagmittel sind passend auszuwählen und so aufzubewahren, dass sie nicht beschädigt werden (BetrSichV Anhang 1 Nr. 2.5 f und 2.6)."
+    "Vorschlag A: R65-M2 streichen oder durch eine Quelle ersetzen, die die Prüfung der Anschlagmittel vor Gebrauch verlangt; im Textordner nur gefunden: Anschlagmittel sind passend auszuwählen und so aufzubewahren, dass sie nicht beschädigt werden (BetrSichV Anhang 1 Nr. 2.5 f und 2.6).",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R65-M2"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R65-M2"
+   ]
   },
   {
    "id": "R02",
@@ -754,7 +716,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "P13",
@@ -795,7 +758,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "P16",
@@ -841,7 +805,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R50",
@@ -936,7 +901,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R88",
@@ -1046,153 +1012,24 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R71",
    "art": "regel",
    "name": "Kälte und Zugluft",
-   "aussagen": [
-    {
-     "id": "R71-M1",
-     "text": "Bei zu niedriger Lufttemperatur arbeitsplatzbezogen heizen, zum Beispiel mit Wärmestrahlungsheizung oder Heizmatten",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A3-5.txt",
-        "stelle": "Abschnitt 4.2 Abs. 2, 1. Spiegelstrich",
-        "zitat": "arbeitsplatzbezogene technische Maßnahmen (z. B. Wärmestrahlungsheizung, Heizmatten),"
-       }
-      ],
-      "bemerkung": "Die ASR verlangt dies, wenn die Mindestwerte der Tabelle 1 auch bei Ausschöpfung der technischen Möglichkeiten nicht erreicht werden."
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A3-5.txt",
-        "stelle": "Abschnitt 4.2 Abs. 2, erster Spiegelstrich",
-        "zitat": "arbeitsplatzbezogene technische Maßnahmen (z. B. Wärmestrahlungsheizung, Heizmatten)"
-       },
-       {
-        "datei": "ASR/ASR-A3-5.txt",
-        "stelle": "Abschnitt 4.2 Abs. 2 Einleitung",
-        "zitat": "Werden die Mindestwerte nach Tabelle 1 in Arbeitsräumen auch bei Ausschöpfung der technischen Möglichkeiten nicht erreicht, ist der Schutz gegen zu niedrige Temperaturen in folgender Rangfolge durch zusätzliche"
-       }
-      ],
-      "bemerkung": "Die ASR gilt für Arbeitsräume ohne besondere raumklimatische Anforderungen. Zugluft behandelt sie nicht (Abschnitt 4.1 Abs. 7 verweist auf die ASR A3.6)."
-     }
-    },
-    {
-     "id": "R71-M2",
-     "text": "Wärmende Arbeitskleidung",
-     "status": "einfach",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A3-5.txt",
-        "stelle": "Abschnitt 4.2 Abs. 2, 3. Spiegelstrich",
-        "zitat": "personenbezogene Maßnahmen (z. B. geeignete Kleidung) sicher zu stellen."
-       }
-      ],
-      "bemerkung": "Der Text sagt geeignete Kleidung als letzte Stufe der Rangfolge, nach technischen und organisatorischen Maßnahmen."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in ASR A3.5 (Abschnitt 4.2 Abs. 2). Dort steht nur als letzte Stufe der Rangfolge nach den technischen und organisatorischen Maßnahmen: personenbezogene Maßnahmen (z. B. geeignete Kleidung), also als Beispiel und nachrangig. Die Aussage nennt wärmende Arbeitskleidung ohne Beispielform und ohne Rangfolge."
-     }
-    }
-   ],
+   "aussagen": [],
    "hinweise": [],
-   "status": "teilweise"
+   "status": "veraltet"
   },
   {
    "id": "R04",
    "art": "regel",
    "name": "Fahrzeug im Außengelände oder am Gefälle",
-   "aussagen": [
-    {
-     "id": "R04-M1",
-     "text": "Verkehrswege mit ebener und trittsicherer Oberfläche",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A1-8.txt",
-        "stelle": "Abschnitt 4.1 Abs. 5 Satz 1",
-        "zitat": "Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A1-8.txt",
-        "stelle": "Abschnitt 4.1 Abs. 5 Satz 1",
-        "zitat": "Verkehrswege müssen eine ebene und trittsichere Oberfläche aufweisen, um Gefährdungen durch z. B. Stolpern, Umstürzen oder Wegrutschen zu vermeiden."
-       }
-      ],
-      "bemerkung": ""
-     }
-    },
-    {
-     "id": "R04-M2",
-     "text": "Winterdienst und Verkehrsregelung",
-     "status": "einfach",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A1-8.txt",
-        "stelle": "Abschnitt 5 Abs. 1 Satz 2",
-        "zitat": "Für die Sicherheit auf Verkehrswegen sind geeignete Schutzmaßnahmen (z. B. innerbetriebliche Verkehrsregeln, geeignete Warnkleidung, farbliche Markierungen, Reinigungsverfahren, Winterdienst, Überdachung) im Rahmen der Gefährdungsbeurteilung festzulegen und umzusetzen."
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in ASR A1.8 Abschnitt 4.1 Abs. 8 und Abschnitt 5 Abs. 1. Winterdienst und innerbetriebliche Verkehrsregeln stehen dort nur als Beispiele in der Klammer („z. B.“) für Schutzmaßnahmen, die im Rahmen der Gefährdungsbeurteilung festzulegen sind. Die Aussage ist ohne Beispielform formuliert."
-     }
-    },
-    {
-     "id": "R04-M3",
-     "text": "Verkehrswege im Freien für die Dauer der Benutzung beleuchten",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A1-8.txt",
-        "stelle": "Abschnitt 5 Abs. 4",
-        "zitat": "Verkehrswege im Freien und in Gebäuden sind für die Dauer der Benutzung so zu beleuchten (siehe ASR A3.4 „Beleuchtung“), dass eine sichere Benutzung gewährleistet wird."
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "ASR/ASR-A1-8.txt",
-        "stelle": "Abschnitt 5 Abs. 4",
-        "zitat": "Verkehrswege im Freien und in Gebäuden sind für die Dauer der Benutzung so zu beleuchten"
-       }
-      ],
-      "bemerkung": ""
-     }
-    }
-   ],
+   "aussagen": [],
    "hinweise": [],
-   "status": "teilweise"
+   "status": "veraltet"
   },
   {
    "id": "R100",
@@ -1255,7 +1092,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R93",
@@ -1377,60 +1215,16 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R82",
    "art": "regel",
    "name": "Sperrige Teile absetzen",
-   "aussagen": [
-    {
-     "id": "R82-M1",
-     "text": "Sicherheitsschuhe",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
-        "stelle": "Abschnitt 2.2.2, Persönliche Schutzausrüstung",
-        "zitat": "Bei Tätigkeiten in der Werkstatt und auf Baustellen müssen grundsätzlich Sicherheitsschuhe getragen werden."
-       }
-      ],
-      "bemerkung": "Gilt allgemein für Werkstatt und Baustelle, also auch für das Absetzen von Hand. Abschnitt 3.4.5 verlangt Sicherheitsschuhe ausdrücklich bei schwereren Werkstücken. Die PSA-BV nennt keine Sicherheitsschuhe."
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
-        "stelle": "Abschnitt 3.4.5, Persönliche Schutzausrüstung",
-        "zitat": "Zur Vermeidung von Fußverletzungen müssen bei der Handhabung von schwereren Werkstücken Sicherheitsschuhe getragen werden."
-       }
-      ],
-      "bemerkung": ""
-     }
-    },
-    {
-     "id": "R82-M2",
-     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in PSA-BV und DGUV Regel 109-606 (Finger, Quetsch, unterleg, absetz, ablegen, abstell) und im ganzen Textordner (Finger nicht unter die Last, Unterlagen absetzen, unterlegen). Weder das Absetzen auf Unterlagen noch die Anweisung, die Finger nicht unter die Last zu bringen, steht dort. Beide Teile fehlen."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in DGUV Regel 109-606 (absetzen, ablegen, abstellen, unterlegen, Finger, Quetschen) und PSA-BV sowie im ganzen Textordner nach „nicht unter die Last“, „Unterlage“, „absetzen“. Nichts zum Absetzen auf Unterlagen oder zur Fingerstellung beim Absetzen einer Last gefunden. Beide Teile fehlen."
-     }
-    }
-   ],
-   "hinweise": [
-    "Vorschlag A: R82-M2 in zwei Aussagen teilen und beide ohne Beleg lassen, bis eine passende Quelle vorliegt."
-   ],
-   "status": "teilweise"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "R29",
@@ -1491,64 +1285,21 @@
      }
     }
    ],
-   "hinweise": [],
-   "status": "teilweise"
+   "hinweise": [
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R29-M1"
+   ],
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R29-M1"
+   ]
   },
   {
    "id": "R70",
    "art": "regel",
    "name": "Arbeiten an elektrischen Anlagen",
-   "aussagen": [
-    {
-     "id": "R70-M1",
-     "text": "Nur Elektrofachkräfte",
-     "status": "strittig",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt",
-        "stelle": "§ 3 Abs. 1 Satz 1",
-        "zitat": "Der Unternehmer hat dafür zu sorgen, dass elektrische Anlagen und Betriebsmittel nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft den elektrotechnischen Regeln entsprechend errichtet, geändert und instandgehalten werden."
-       }
-      ],
-      "bemerkung": "Der Text erlaubt auch Arbeit unter Leitung und Aufsicht einer Elektrofachkraft."
-     },
-     "B": {
-      "urteil": "widerspruch",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt",
-        "stelle": "§ 3 Abs. 1 Satz 1",
-        "zitat": "Der Unternehmer hat dafür zu sorgen, dass elektrische Anlagen und Betriebsmittel nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft den elektrotechnischen Regeln entsprechend errichtet, geändert und instandgehalten werden."
-       },
-       {
-        "datei": "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt",
-        "stelle": "§ 8 Nr. 2, zweiter Spiegelstrich",
-        "zitat": "der Unternehmer mit diesen Arbeiten nur Personen beauftragt, die für diese Arbeiten an unter Spannung stehenden aktiven Teilen fachlich geeignet sind"
-       }
-      ],
-      "bemerkung": "Der Text lässt Arbeiten auch unter Leitung und Aufsicht einer Elektrofachkraft zu, nicht nur durch Elektrofachkräfte selbst. Er regelt außerdem nur Errichten, Ändern und Instandhalten; für Arbeiten unter Spannung nach § 8 genügt fachliche Eignung der beauftragten Personen."
-     }
-    },
-    {
-     "id": "R70-M2",
-     "text": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in DGUV Vorschrift 3 (spannungsfrei, freischalt, Wiedereinschalten, feststell) und im ganzen Textordner (Spannungsfreiheit, gegen Wiedereinschalten, Sicherheitsregeln). § 6 Abs. 2 verlangt nur, dass der spannungsfreie Zustand hergestellt und für die Dauer der Arbeiten sichergestellt wird. Das Feststellen der Spannungsfreiheit steht nicht ausdrücklich im Text, ebenso wenig die drei Schritte als Folge."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in DGUV Vorschrift 3 (spannungsfrei, Wiedereinschalten, feststellen) und im ganzen Textordner. § 6 Abs. 2 verlangt nur: vor Beginn der Arbeiten an aktiven Teilen den spannungsfreien Zustand herstellen und für die Dauer der Arbeiten sicherstellen. Das Feststellen der Spannungsfreiheit als eigener Schritt und die Reihenfolge Freischalten, gegen Wiedereinschalten sichern stehen dort nicht; gedeckt wäre nur der erste und der zweite Teil sinngemäß, der dritte Teil fehlt."
-     }
-    }
-   ],
+   "aussagen": [],
    "hinweise": [],
-   "status": "strittig"
+   "status": "veraltet"
   },
   {
    "id": "R05",
@@ -1572,7 +1323,8 @@
     }
    ],
    "hinweise": [],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   },
   {
    "id": "P14",
@@ -1613,7 +1365,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "P17",
@@ -1659,7 +1412,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R16",
@@ -1759,7 +1513,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R76",
@@ -1910,8 +1665,13 @@
      }
     }
    ],
-   "hinweise": [],
-   "status": "teilweise"
+   "hinweise": [
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R76-M3"
+   ],
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R76-M3"
+   ]
   },
   {
    "id": "R21",
@@ -2004,8 +1764,13 @@
      }
     }
    ],
-   "hinweise": [],
-   "status": "teilweise"
+   "hinweise": [
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R21-M1"
+   ],
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R21-M1"
+   ]
   },
   {
    "id": "R14",
@@ -2055,8 +1820,13 @@
      }
     }
    ],
-   "hinweise": [],
-   "status": "teilweise"
+   "hinweise": [
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R14-M2"
+   ],
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R14-M2"
+   ]
   },
   {
    "id": "R102",
@@ -2092,7 +1862,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R94",
@@ -2165,7 +1936,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R08",
@@ -2226,8 +1998,13 @@
      }
     }
    ],
-   "hinweise": [],
-   "status": "teilweise"
+   "hinweise": [
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R08-M2"
+   ],
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R08-M2"
+   ]
   },
   {
    "id": "R38",
@@ -2251,7 +2028,8 @@
     }
    ],
    "hinweise": [],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   },
   {
    "id": "R83",
@@ -2334,80 +2112,16 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R07",
    "art": "regel",
    "name": "Vakuumheber",
-   "aussagen": [
-    {
-     "id": "R07-M1",
-     "text": "Warneinrichtung bei Unterdruckabfall funktionsfähig",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in BetrSichV (Anhang 1 Nr. 2, § 11), DGUV Regel 109-606, 109-607 und DGUV Vorschrift 52 nach Vakuum, Unterdruck, Saug, Warneinrichtung: Keine Stelle verlangt eine Warneinrichtung bei Unterdruckabfall. BetrSichV Anhang 1 Nr. 2.3.4 verlangt Warneinrichtungen nur für Hebemittel, deren Befehlseinrichtung nicht in der Nähe der Last liegt; DGUV Vorschrift 52 verlangt eine Warneinrichtung nur für Krane."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in BetrSichV und im ganzen Textordner nach Vakuum, Unterdruck, Unterdruckabfall, Warneinrichtung. Vakuumheber kommen nur als Beispiel für Lastaufnahmemittel in DGUV 109-607 (Kran) und als Bild in 109-606 vor; eine Warneinrichtung bei Unterdruckabfall wird nirgends verlangt. Die Norm für Vakuumheber steht nicht im Textordner."
-     }
-    },
-    {
-     "id": "R07-M2",
-     "text": "Wiederkehrende Prüfung; Frist legt der Arbeitgeber fest, üblicher Richtwert jährlich",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Teilweise belegt: wiederkehrende Prüfung und Fristfestlegung durch den Arbeitgeber stehen so in BetrSichV § 14 Abs. 2 und § 3 Abs. 6. Es fehlt der Teil üblicher Richtwert jährlich: Gesucht in BetrSichV und DGUV Regel 109-606, 109-607, 100-500, Vorschrift 52 nach jährlich und mindestens einmal bei Vakuumheber oder Lastaufnahmemittel, nichts gefunden (DGUV Regel 109-607 sagt nur, die Prüfungen müssten dokumentiert sein)."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Nur ein Teil gedeckt: wiederkehrende Prüfung und Fristfestlegung durch den Arbeitgeber (§ 3 Abs. 6, § 14 Abs. 2). Der 'übliche Richtwert jährlich' steht für Vakuumheber nirgends im Text; die Jahresfristen in der BetrSichV betreffen andere Anlagen. In DGUV 109-607 stehen für Lastaufnahmemittel wiederkehrende Prüfungen ohne Frist."
-     }
-    },
-    {
-     "id": "R07-M3",
-     "text": "Niemand unter der Last",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
-        "stelle": "Anhang 1 Abschnitt 2 Nr. 2.5 Buchstabe g",
-        "zitat": "Lasten nicht mit kraftschlüssig wirkenden Lastaufnahmemitteln über ungeschützte Beschäftigte geführt werden."
-       }
-      ],
-      "bemerkung": "Der Vakuumheber hält die Last durch Saugkraft und ist ein kraftschlüssig wirkendes Lastaufnahmemittel; das nennt der Text nicht ausdrücklich beim Namen. Die Verwendung ist in § 14 und § 3 Abs. 6 nicht geregelt, die behauptete Fundstelle trifft nur für M2 zu."
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
-        "stelle": "Anhang 1 Abschnitt 2 (Heben von Lasten), Aufzählung 'Der Arbeitgeber hat dafür zu sorgen, dass', Buchstabe g",
-        "zitat": "Lasten nicht mit kraftschlüssig wirkenden Lastaufnahmemitteln über ungeschützte Beschäftigte geführt werden."
-       },
-       {
-        "datei": "Gesetze-Verordnungen/BetrSichV.txt",
-        "stelle": "Anhang 1 Abschnitt 2 (Heben von Lasten), Aufzählung 'Der Arbeitgeber hat dafür zu sorgen, dass', Buchstabe a",
-        "zitat": "Beschäftigte nicht durch hängende Lasten gefährdet werden, insbesondere hängende Lasten nicht über ungeschützte Bereiche, an denen sich für gewöhnlich Beschäftigte aufhalten, bewegt werden,"
-       }
-      ],
-      "bemerkung": "Vakuumheber wirken kraftschlüssig; das Verbot gilt für das Führen der Last über ungeschützte Beschäftigte."
-     }
-    }
-   ],
-   "hinweise": [
-    "War bisher einfach geprüft und ist in der Gegenprüfung nicht bestätigt worden: zurück auf offen."
-   ],
-   "status": "teilweise"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "P15",
@@ -2463,7 +2177,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "P18",
@@ -2504,7 +2219,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   }
  ]
 }

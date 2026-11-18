@@ -27,7 +27,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "bd96cc51e7b93077"
   },
@@ -66,7 +66,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "34b933ef5399c351"
   },
@@ -124,7 +124,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "0bd52031ce380b2a"
   },
@@ -300,28 +300,37 @@
    {
     "id": "R08-M1",
     "art": "T",
-    "text": "Schutzeinrichtungen wirksam, nichts überbrückt"
+    "text": "Schutzeinrichtungen wirksam, nichts überbrückt",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 6 Abs. 2 Satz 1"
+    }
    },
    {
     "id": "R08-M2",
     "art": "O",
-    "text": "Schutzeinrichtungen regelmäßig prüfen"
+    "text": "Schutzeinrichtungen regelmäßig prüfen",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": "§ 6"
-   },
-   {
-    "id": "trbs-2111",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "§ 6 Abs. 2 Satz 1"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "bce7834f3e078f1f",
+   "ohneFundstelle": [
+    "R08-M2"
+   ]
+  }
  },
  {
   "id": "R09",
@@ -368,7 +377,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "cab834960bdcdbd5"
   },
@@ -485,7 +494,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "897897e6899aca7e"
   },
@@ -563,7 +572,7 @@
   "freigabe": "entwurf",
   "belegstand": {
    "lauf": "B004",
-   "datum": "2026-11-17",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "f49a2409b30070ec"
   }
@@ -622,23 +631,37 @@
    {
     "id": "R14-M1",
     "art": "T",
-    "text": "Wagen ausreichend standsicher"
+    "text": "Wagen ausreichend standsicher",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 6 Abs. 1 Satz 2 Nr. 1 (nicht § 5)"
+    }
    },
    {
     "id": "R14-M2",
     "art": "O",
-    "text": "Beladeregel"
+    "text": "Beladeregel",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": "§ 5"
+    "stelle": "§ 6 Abs. 1 Satz 2 Nr. 1 (nicht § 5); § 9 Abs. 1 Satz 2 Nr. 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "ce9c35a4d33da8f2",
+   "ohneFundstelle": [
+    "R14-M2"
+   ]
+  }
  },
  {
   "id": "R15",
@@ -724,7 +747,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "48fdfebae118ca48"
   },
@@ -777,7 +800,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "aa482d18ceabd2a2"
   },
@@ -839,7 +862,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "3d887ecef292963b"
   },
@@ -932,33 +955,50 @@
    {
     "id": "R21-M1",
     "art": "T",
-    "text": "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen"
+    "text": "Schutzeinrichtungen der Maschine benutzen und auf das Werkstück einstellen",
+    "fundstelle": "keine"
    },
    {
     "id": "R21-M2",
     "art": "T",
-    "text": "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden"
+    "text": "Für Arbeiten mit Handvorschub nur dafür geeignete Werkzeuge verwenden",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 2.2.1, Absatz Werkzeuge"
+    }
    },
    {
     "id": "R21-M3",
     "art": "T",
-    "text": "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz"
+    "text": "Hilfsmittel zum Zuführen benutzen, zum Beispiel Schiebestock oder Schiebeholz",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.1.1, Maßnahmen, Betrieb"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "dguv-r100-500",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "id": "dguv-r109-606",
+    "stelle": "Abschnitt 2.2.1, Absatz Werkzeuge; Kapitel 2.1, Abschnitt 'Werkzeuge'; Abschnitt 3.1.1, Maßnahmen, Betrieb"
    },
    {
-    "id": "dguv-r109-606",
-    "stelle": null
+    "id": "dguv-r100-500",
+    "stelle": "Nr. 3.9.7 (Kreissägemaschinen)"
    }
   ],
   "verbindlichkeit": "empfehlung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "16d28d92b5eb3fdb",
+   "ohneFundstelle": [
+    "R21-M1"
+   ]
+  }
  },
  {
   "id": "R22",
@@ -1011,7 +1051,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B001",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "df10b376ab0095c7"
   },
@@ -1184,7 +1224,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "277a754e9ae43dba"
   },
@@ -1210,27 +1250,37 @@
    {
     "id": "R27-M1",
     "art": "O",
-    "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse"
+    "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
+    "beleg": {
+     "quelle": "bauau-lmm",
+     "stelle": "LMM-MA, Anwendungsbereich"
+    }
    },
    {
     "id": "R27-M2",
     "art": "T",
-    "text": "Schrauber mit Abschaltkupplung"
+    "text": "Schrauber mit Abschaltkupplung",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
-    "id": "arbschg",
-    "stelle": "§ 5"
-   },
-   {
     "id": "bauau-lmm",
-    "stelle": "Manuelle Arbeitsprozesse"
+    "stelle": "LMM-MA, Anwendungsbereich; Anwendungsbereich der LMM-MA, Absatz 1"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "2375ca23d265bbe8",
+   "ohneFundstelle": [
+    "R27-M2"
+   ]
+  }
  },
  {
   "id": "R28",
@@ -1284,28 +1334,41 @@
    {
     "id": "R29-M1",
     "art": "O",
-    "text": "Aufhängepunkte nach Gewicht festlegen"
+    "text": "Aufhängepunkte nach Gewicht festlegen",
+    "fundstelle": "keine"
    },
    {
     "id": "R29-M2",
     "art": "T",
-    "text": "Bereich unter dem Förderer sichern"
+    "text": "Bereich unter dem Förderer sichern",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "Anhang 1 Abschnitt 2 Nr. 2.6 Buchstabe a"
+    }
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": "§ 6"
+    "stelle": "Anhang 1 Abschnitt 2 Nr. 2.6 Buchstabe a"
    },
    {
     "id": "asr-a2-1",
-    "stelle": null,
-    "hinweis": "noch zuordnen"
+    "stelle": "Abschnitt 4.4 Nr. 3"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "0c4cc17b8b27c935",
+   "ohneFundstelle": [
+    "R29-M1"
+   ]
+  }
  },
  {
   "id": "R30",
@@ -1764,7 +1827,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B004",
-   "datum": "2026-11-17",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "f09f1f6c7f1d923b"
   },
@@ -2115,7 +2178,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "c6c7807403d5c5ca"
   },
@@ -2447,32 +2510,46 @@
    {
     "id": "R60-M1",
     "art": "O",
-    "text": "Brennbare Stoffe aus dem Funkenbereich entfernen"
+    "text": "Brennbare Stoffe aus dem Funkenbereich entfernen",
+    "beleg": {
+     "quelle": "dguv-r109-607",
+     "stelle": "Abschnitt 3.7.1 Schleifmaschinen, Schleif- und Bürstwerkzeuge, Gefährdungen durch Gefahrstoffe"
+    }
    },
    {
     "id": "R60-M2",
     "art": "T",
-    "text": "Feuerlöscher griffbereit"
+    "text": "Feuerlöscher griffbereit",
+    "beleg": {
+     "quelle": "dguv-r109-607",
+     "stelle": "Besonderheiten bei Brandgefährdung (Heißarbeiten)"
+    }
    },
    {
     "id": "R60-M3",
     "art": "O",
-    "text": "Außerhalb fester Schweißplätze nur mit Erlaubnis"
+    "text": "Außerhalb fester Schweißplätze nur mit Erlaubnis",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
-    "id": "trgs-800",
-    "stelle": null
-   },
-   {
-    "id": "dguv-r100-500",
-    "stelle": null
+    "id": "dguv-r109-607",
+    "stelle": "Abschnitt 3.7.1 Schleifmaschinen, Schleif- und Bürstwerkzeuge, Gefährdungen durch Gefahrstoffe; Abschnitt 3.7.1 Schleifmaschinen, Gefährdungen durch Brände / Gefährdungen durch Gefahrstoffe; Besonderheiten bei Brandgefährdung (Heißarbeiten); Abschnitt 3.1.1, Besonderheiten bei Brandgefährdung, Aufzählung"
    }
   ],
-  "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B004",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "c12b317705a840be",
+   "ohneFundstelle": [
+    "R60-M3"
+   ]
+  }
  },
  {
   "id": "R61",
@@ -2621,32 +2698,48 @@
    {
     "id": "R65-M1",
     "art": "O",
-    "text": "Niemand unter der schwebenden Last"
+    "text": "Niemand unter der schwebenden Last",
+    "fundstelle": "keine"
    },
    {
     "id": "R65-M2",
     "art": "O",
-    "text": "Anschlagmittel vor Gebrauch prüfen"
+    "text": "Anschlagmittel vor Gebrauch prüfen",
+    "fundstelle": "keine"
    },
    {
     "id": "R65-M3",
     "art": "O",
-    "text": "Wiederkehrende Prüfung des Hebezeugs"
+    "text": "Wiederkehrende Prüfung des Hebezeugs",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 14 Abs. 2 Satz 1"
+    }
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": null
+    "stelle": "§ 14 Abs. 2 Satz 1"
    },
    {
     "id": "dguv-v52",
-    "stelle": null
+    "stelle": "§ 26 Abs. 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "db7fc3e95e6577af",
+   "ohneFundstelle": [
+    "R65-M1",
+    "R65-M2"
+   ]
+  }
  },
  {
   "id": "R66",
@@ -2686,23 +2779,37 @@
    {
     "id": "R67-M1",
     "art": "T",
-    "text": "Fahr- und Gehwege trennen und kennzeichnen"
+    "text": "Fahr- und Gehwege trennen und kennzeichnen",
+    "fundstelle": "keine"
    },
    {
     "id": "R67-M2",
     "art": "T",
-    "text": "Sicht schaffen, Spiegel an unübersichtlichen Stellen"
+    "text": "Sicht schaffen, Spiegel an unübersichtlichen Stellen",
+    "beleg": {
+     "quelle": "asr-a1-8",
+     "stelle": "Abschnitt 4.1 Abs. 7"
+    }
    }
   ],
   "quellen": [
    {
     "id": "asr-a1-8",
-    "stelle": null
+    "stelle": "Abschnitt 4.1 Abs. 7"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "f585308d4448544c",
+   "ohneFundstelle": [
+    "R67-M1"
+   ]
+  }
  },
  {
   "id": "R68",
@@ -2830,7 +2937,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B004",
-   "datum": "2026-11-17",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "d0e8b1fb859810ef"
   },
@@ -2881,7 +2988,7 @@
   ],
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "4a4c192c8ec3fb48"
   },
@@ -3009,42 +3116,68 @@
    {
     "id": "R76-M1",
     "art": "O",
-    "text": "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen"
+    "text": "Verunreinigungen, die zu Gefährdungen führen können, unverzüglich beseitigen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "§ 4 Abs. 2 Satz 2"
+    }
    },
    {
     "id": "R76-M2",
     "art": "T",
-    "text": "Stolperstellen beseitigen oder kennzeichnen"
+    "text": "Stolperstellen beseitigen oder kennzeichnen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 1.5 Abs. 2 Satz 1"
+    }
    },
    {
     "id": "R76-M3",
     "art": "P",
-    "text": "Rutschhemmende Sicherheitsschuhe"
+    "text": "Rutschhemmende Sicherheitsschuhe",
+    "fundstelle": "keine"
    },
    {
     "id": "R76-M4",
     "art": "O",
-    "text": "Verkehrswege freihalten"
+    "text": "Verkehrswege freihalten",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "§ 4 Abs. 4 Satz 1"
+    }
    },
    {
     "id": "R76-M5",
     "art": "T",
-    "text": "Rutschhemmenden Fußboden vorsehen"
+    "text": "Rutschhemmenden Fußboden vorsehen",
+    "beleg": {
+     "quelle": "arbstaettv",
+     "stelle": "Anhang Nr. 1.5 Abs. 2"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "asr-a1-5",
-    "stelle": null
+    "id": "arbstaettv",
+    "stelle": "§ 4 Abs. 2 Satz 2; Anhang Nr. 1.5 Abs. 2 Satz 1; § 4 Abs. 4 Satz 1; Anhang Nr. 1.5 Abs. 2"
    },
    {
-    "id": "arbstaettv",
-    "stelle": null
+    "id": "asr-a1-5",
+    "stelle": "Abschnitt 8 Abs. 1 Satz 2; Abschnitt 4 Abs. 3 Satz 1; Abschnitt 4 Abs. 3 Satz 2"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "1ad3cadcaf6d84c6",
+   "ohneFundstelle": [
+    "R76-M3"
+   ]
+  }
  },
  {
   "id": "R77",
@@ -3083,7 +3216,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "e9046af045499d90"
   },
@@ -3117,31 +3250,37 @@
    {
     "id": "R78-M1",
     "art": "O",
-    "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten"
+    "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
+    "beleg": {
+     "quelle": "bauau-lmm",
+     "stelle": "LMM-MA, Anwendungsbereich"
+    }
    },
    {
     "id": "R78-M2",
     "art": "O",
-    "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)"
+    "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
-    "id": "arbschg",
-    "stelle": null
-   },
-   {
     "id": "bauau-lmm",
-    "stelle": null
-   },
-   {
-    "id": "dguv-r109-606",
-    "stelle": null
+    "stelle": "LMM-MA, Anwendungsbereich; Anwendungsbereich der LMM-MA, Absatz 1"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B003",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "40e9535180ae7e76",
+   "ohneFundstelle": [
+    "R78-M2"
+   ]
+  }
  },
  {
   "id": "R79",
@@ -3253,27 +3392,37 @@
    {
     "id": "R82-M1",
     "art": "P",
-    "text": "Sicherheitsschuhe"
+    "text": "Sicherheitsschuhe",
+    "beleg": {
+     "quelle": "dguv-r109-606",
+     "stelle": "Abschnitt 3.4.5 Heben und Tragen, Persönliche Schutzausrüstung"
+    }
    },
    {
     "id": "R82-M2",
     "art": "O",
-    "text": "Auf Unterlagen absetzen, Finger nicht unter die Last"
+    "text": "Auf Unterlagen absetzen, Finger nicht unter die Last",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
-    "id": "psa-bv",
-    "stelle": null
-   },
-   {
     "id": "dguv-r109-606",
-    "stelle": null
+    "stelle": "Abschnitt 3.4.5 Heben und Tragen, Persönliche Schutzausrüstung; Abschnitt 3.4.5, Persönliche Schutzausrüstung"
    }
   ],
-  "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "verbindlichkeit": "empfehlung",
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B002",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "61791a9ee7fad429",
+   "ohneFundstelle": [
+    "R82-M2"
+   ]
+  }
  },
  {
   "id": "R83",
@@ -3317,7 +3466,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "1c2a36a3cb0def99"
   },
@@ -3405,23 +3554,37 @@
    {
     "id": "R86-M1",
     "art": "S",
-    "text": "Saugen statt Abblasen"
+    "text": "Saugen statt Abblasen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "Anhang I Nr. 2.3 Abs. 6 Satz 2"
+    }
    },
    {
     "id": "R86-M2",
     "art": "P",
-    "text": "Schutzbrille"
+    "text": "Schutzbrille",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": null
+    "stelle": "Anhang I Nr. 2.3 Abs. 6 Satz 2; Anhang I Nr. 2.3 Abs. 6"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "7676ac49111999d7",
+   "ohneFundstelle": [
+    "R86-M2"
+   ]
+  }
  },
  {
   "id": "R87",
@@ -3513,7 +3676,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "3cddb236368e6f1c"
   },
@@ -3570,28 +3733,54 @@
    {
     "id": "R90-M1",
     "art": "T",
-    "text": "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter"
+    "text": "Sicheres Arbeitsmittel wählen: Bühne oder Gerüst vor Leiter",
+    "beleg": {
+     "quelle": "trbs-2121-2",
+     "stelle": "Nummer 3 Gefährdungsbeurteilung, letzter Absatz"
+    }
    },
    {
     "id": "R90-M2",
     "art": "T",
-    "text": "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt"
+    "text": "Absturzsicherung, in der Hubarbeitsbühne Gurt am Anschlagpunkt",
+    "fundstelle": "keine"
    },
    {
     "id": "R90-M3",
     "art": "O",
-    "text": "Unterweisung und Beauftragung der Bediener"
+    "text": "Unterweisung und Beauftragung der Bediener",
+    "beleg": {
+     "quelle": "dguv-r100-500",
+     "stelle": "Kapitel 2.10 Hebebühnen, Nr. 2.1 Beschäftigungsbeschränkung"
+    }
    }
   ],
   "quellen": [
    {
-    "id": "trbs-2121",
-    "stelle": null
+    "id": "trbs-2121-2",
+    "stelle": "Nummer 3 Gefährdungsbeurteilung, letzter Absatz; Abschnitt 3 Gefährdungsbeurteilung"
+   },
+   {
+    "id": "dguv-r100-500",
+    "stelle": "Kapitel 2.10 Hebebühnen, Nr. 2.1 Beschäftigungsbeschränkung"
+   },
+   {
+    "id": "dguv-r109-606",
+    "stelle": "Abschnitt 3.5.4 Fahrbare Hubarbeitsbühnen, Organisation"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "4bfd3a1f502abf09",
+   "ohneFundstelle": [
+    "R90-M2"
+   ]
+  }
  },
  {
   "id": "R91",
@@ -3712,7 +3901,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "be34b39de4dad0ac"
   },
@@ -3764,7 +3953,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "7b50aee30b734edf"
   },
@@ -3825,7 +4014,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "2420037f83e8ce48"
   },
@@ -3873,7 +4062,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "f459862ae8756925"
   },
@@ -3953,7 +4142,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "f29168a08292cb4b"
   },
@@ -4001,7 +4190,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "cbb57f40697678de"
   },
@@ -4053,7 +4242,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "1746f396512e80c6"
   },
@@ -4092,7 +4281,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "e68e86e68c2d05fa"
   },
@@ -4131,7 +4320,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "66368d655665e7a2"
   },
@@ -4170,7 +4359,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "d764ff7b5a3cc4b3"
   },
@@ -4209,7 +4398,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "1f58d2633180793c"
   },
@@ -4270,7 +4459,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B003",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "e9140e2f6f506038"
   },
@@ -4318,7 +4507,7 @@
   "freigabe": "geprueft",
   "belegstand": {
    "lauf": "B002",
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
    "pruefungen": 2,
    "fingerabdruck": "f9c1a33b44cbdd93"
   },
@@ -4458,27 +4647,37 @@
    {
     "id": "R112-M1",
     "art": "T",
-    "text": "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden"
+    "text": "Arbeitshöhe und Erreichbarkeit so gestalten, dass Zwangshaltungen vermieden werden",
+    "fundstelle": "keine"
    },
    {
     "id": "R112-M2",
     "art": "O",
-    "text": "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten"
+    "text": "Belastung mit der Leitmerkmalmethode Körperzwangshaltungen bewerten",
+    "beleg": {
+     "quelle": "bauau-lmm",
+     "stelle": "Anwendungsbereich der Leitmerkmalmethode LMM-KH"
+    }
    }
   ],
   "quellen": [
    {
     "id": "bauau-lmm",
-    "stelle": null
-   },
-   {
-    "id": "arbschg",
-    "stelle": null
+    "stelle": "Anwendungsbereich der Leitmerkmalmethode LMM-KH; Handlungsanleitung, Anwendungsgebiet"
    }
   ],
   "verbindlichkeit": "empfehlung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "8ccf450bba5cb720",
+   "ohneFundstelle": [
+    "R112-M1"
+   ]
+  }
  },
  {
   "id": "R113",
@@ -4490,28 +4689,46 @@
    {
     "id": "R113-M1",
     "art": "O",
-    "text": "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen"
+    "text": "Beschäftigte vor der ersten Verwendung der Maschine und danach regelmäßig unterweisen",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 12 Abs. 1 Satz 2 und 3"
+    }
    },
    {
     "id": "R113-M2",
     "art": "O",
-    "text": "Schriftliche Betriebsanweisung für die Maschine bereitstellen"
+    "text": "Schriftliche Betriebsanweisung für die Maschine bereitstellen",
+    "beleg": {
+     "quelle": "betrsichv",
+     "stelle": "§ 12 Abs. 2 Satz 1"
+    }
    },
    {
     "id": "R113-M3",
     "art": "O",
-    "text": "Maschine nur bestimmungsgemäß verwenden"
+    "text": "Maschine nur bestimmungsgemäß verwenden",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "betrsichv",
-    "stelle": null
+    "stelle": "§ 12 Abs. 1 Satz 2 und 3; § 12 Abs. 1 Sätze 2 und 3; § 12 Abs. 2 Satz 1"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "71a8d320cdb8d03c",
+   "ohneFundstelle": [
+    "R113-M3"
+   ]
+  }
  },
  {
   "id": "R114",
@@ -4528,27 +4745,41 @@
    {
     "id": "R114-M1",
     "art": "T",
-    "text": "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen"
+    "text": "Absaugung regelmäßig auf ausreichende Funktion und Wirksamkeit prüfen",
+    "beleg": {
+     "quelle": "trgs-553",
+     "stelle": "Abschnitt 4.6 Abs. 3 Satz 1"
+    }
    },
    {
     "id": "R114-M2",
     "art": "O",
-    "text": "Maschine nur mit eingeschalteter Absaugung betreiben"
+    "text": "Maschine nur mit eingeschalteter Absaugung betreiben",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "trgs-553",
-    "stelle": null
+    "stelle": "Abschnitt 4.6 Abs. 3 Satz 1"
    },
    {
     "id": "gefstoffv",
-    "stelle": null
+    "stelle": "Anhang I Nr. 2.3 Abs. 7 Satz 3"
    }
   ],
   "verbindlichkeit": "vermutungswirkung",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "cb8d7a1347442908",
+   "ohneFundstelle": [
+    "R114-M2"
+   ]
+  }
  },
  {
   "id": "R115",
@@ -4725,32 +4956,44 @@
    {
     "id": "R120-M1",
     "art": "O",
-    "text": "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen"
+    "text": "Sicherheitsdatenblatt beschaffen und Stoff ins Gefahrstoffverzeichnis aufnehmen",
+    "beleg": {
+     "quelle": "gefstoffv",
+     "stelle": "§ 6 Abs. 2 Satz 2 und 3"
+    }
    },
    {
     "id": "R120-M2",
     "art": "P",
-    "text": "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille"
+    "text": "Geeignete Schutzhandschuhe, bei Spritzgefahr Schutzbrille",
+    "fundstelle": "keine"
    },
    {
     "id": "R120-M3",
     "art": "O",
-    "text": "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken"
+    "text": "Hautschutzplan: Hautschutz, Reinigung, Pflege; ölgetränkte Lappen nicht in die Kleidung stecken",
+    "fundstelle": "keine"
    }
   ],
   "quellen": [
    {
     "id": "gefstoffv",
-    "stelle": null
-   },
-   {
-    "id": "trgs-401",
-    "stelle": null
+    "stelle": "§ 6 Abs. 2 Satz 2 und 3; § 6 Abs. 1 Satz 2 Nr. 2"
    }
   ],
   "verbindlichkeit": "pflicht",
-  "beleg": "offen",
-  "freigabe": "entwurf"
+  "beleg": "geprueft",
+  "freigabe": "entwurf",
+  "belegstand": {
+   "lauf": "B005",
+   "datum": "2026-11-18",
+   "pruefungen": 2,
+   "fingerabdruck": "9f9100d93add171b",
+   "ohneFundstelle": [
+    "R120-M2",
+    "R120-M3"
+   ]
+  }
  },
  {
   "id": "R121",

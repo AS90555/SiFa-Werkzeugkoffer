@@ -1,19 +1,19 @@
 {
  "lauf": "B005",
- "datum": "2026-11-17",
- "uebernommen": false,
+ "datum": "2026-11-18",
+ "uebernommen": true,
  "zaehler": {
-  "geprueft": 1,
-  "teilweise": 12,
-  "offen": 6,
+  "geprueft": 10,
+  "teilweise": 0,
+  "offen": 5,
   "strittig": 0,
-  "veraltet": 0,
+  "veraltet": 4,
   "neue-quelle": 0,
   "bericht-fehlt": 0
  },
  "aussagen": {
-  "alle": 45,
-  "doppelt": 18
+  "alle": 36,
+  "doppelt": 15
  },
  "zitateVerworfen": 0,
  "eintraege": [
@@ -21,54 +21,9 @@
    "id": "R78",
    "art": "regel",
    "name": "Gleichförmige Handarbeit",
-   "aussagen": [
-    {
-     "id": "R78-M1",
-     "text": "Belastung mit der Leitmerkmalmethode manuelle Arbeitsprozesse bewerten",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
-        "stelle": "Anwendungsbereich der Leitmerkmalmethode LMM-MA",
-        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen"
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
-        "stelle": "Anwendungsbereich der Leitmerkmalmethode LMM-MA",
-        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen, meist stationär im Sitzen oder Stehen."
-       }
-      ],
-      "bemerkung": "Die Methode ist als Verfahren zur Beurteilung gleichförmig wiederholter Handbewegungen beschrieben (Empfehlung der BAuA, keine Rechtspflicht)."
-     }
-    },
-    {
-     "id": "R78-M2",
-     "text": "Wenn technische Maßnahmen nicht ausreichen: wechselnder Einsatz der Beschäftigten (Arbeitsplatzwechsel)",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in allen Leitmerkmalmethoden, im Arbeitsschutzgesetz und in der DGUV Regel 109-606 nach Arbeitsplatzwechsel, Rotation, wechselndem Einsatz. Der einzige Satz dazu steht in DGUV Regel 109-606 Abschnitt 3.4.5 Heben und Tragen (Organisatorische Maßnahmen: wenn technische Maßnahmen nicht reichen, wechselnder Einsatz der Mitarbeiter als Arbeitsplatzrotation), also für den Fall Heben und Tragen, nicht für gleichförmige Handarbeit mit vielen Wiederholungen. Für diesen Fall steht der Wechsel nirgends."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in ArbSchG, DGUV Regel 109-606 und den Leitmerkmalmethoden nach Arbeitsplatzwechsel, Rotation, wechselndem Einsatz bei gleichförmiger Handarbeit. Der Satz mit wechselndem Einsatz (DGUV Regel 109-606 Abschnitt 3.4.5, Organisatorische Maßnahmen) steht im Abschnitt Heben und Tragen und gilt für körperlich belastende Tätigkeiten dort, nicht für sich wiederholende Handbewegungen. Für gleichförmige Handarbeit nennt der Text nur die Beurteilung (LMM-MA) und, bei psychischer Belastung, Job-Rotation als bewährte Gestaltung, nicht als Folge unzureichender technischer Maßnahmen."
-     }
-    }
-   ],
-   "hinweise": [
-    "Vorschlag A: Entweder die Maßnahme der Regel für Heben und Tragen zuordnen, oder für gleichförmige Handarbeit nur belegte Maßnahmen führen (Leitmerkmalmethode manuelle Arbeitsprozesse anwenden und Gestaltungsmaßnahmen daraus ableiten)."
-   ],
-   "status": "teilweise"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "R76",
@@ -210,62 +165,21 @@
     }
    ],
    "hinweise": [
-    "Vorschlag A: R76-M3 streichen oder auf Außenbereiche bei Witterung beschränken (ASR A5.1). Für verschmutzte Böden gilt: Rutschgefahr vorrangig durch geeigneten Fußboden und unverzügliches Beseitigen von Verunreinigungen vermeiden."
+    "Vorschlag A: R76-M3 streichen oder auf Außenbereiche bei Witterung beschränken (ASR A5.1). Für verschmutzte Böden gilt: Rutschgefahr vorrangig durch geeigneten Fußboden und unverzügliches Beseitigen von Verunreinigungen vermeiden.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R76-M3"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R76-M3"
+   ]
   },
   {
    "id": "R82",
    "art": "regel",
    "name": "Sperrige Teile absetzen",
-   "aussagen": [
-    {
-     "id": "R82-M1",
-     "text": "Sicherheitsschuhe",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
-        "stelle": "Abschnitt 3.4.5 Heben und Tragen, Persönliche Schutzausrüstung",
-        "zitat": "Zur Vermeidung von Fußverletzungen müssen bei der Handhabung von schwereren Werkstücken Sicherheitsschuhe getragen werden."
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-606_Branche-Tischler-Schreiner.txt",
-        "stelle": "Abschnitt 3.4.5 Heben und Tragen, Persönliche Schutzausrüstung",
-        "zitat": "Zur Vermeidung von Fußverletzungen müssen bei der Handhabung von schwereren Werkstücken Sicherheitsschuhe getragen werden."
-       }
-      ],
-      "bemerkung": "Die PSA-Benutzungsverordnung nennt keine Sicherheitsschuhe, nur die Branchenregel."
-     }
-    },
-    {
-     "id": "R82-M2",
-     "text": "Auf Unterlagen absetzen, Finger nicht unter die Last",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in DGUV Regel 109-606, DGUV Regel 100-500, PSA-BV und im ganzen Textordner nach Absetzen, Abstellen, Unterlegen, Finger oder Hände unter der Last. Keine Stelle verlangt, schwere Teile auf Unterlagen abzusetzen oder die Finger nicht unter die Last zu bringen. Beide Teile fehlen."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in PSA-BV und DGUV Regel 109-606 (absetzen, abgesetzt, Unterlagen, Unterlegen, Finger, Last) sowie im ganzen Textordner nach Absetzen auf Unterlagen und Finger nicht unter die Last. Nichts Entsprechendes gefunden; die Fundstelle zum Unterlegen (Abschnitt Holzbearbeitung) betrifft ein anderes Thema."
-     }
-    }
-   ],
-   "hinweise": [
-    "Vorschlag A: Aussage streichen oder als Erfahrungsmaßnahme führen. Belegt ist nur: bei der Handhabung schwererer Werkstücke Sicherheitsschuhe tragen (R82-M1)."
-   ],
-   "status": "teilweise"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "R59",
@@ -312,7 +226,8 @@
    "hinweise": [
     "Vorschlag A: Aussage ersetzen durch: Heiße Teile vor der manuellen Handhabung abkühlen lassen oder geeignete Handschuhe benutzen (DGUV Regel 109-607 Abschnitt 3.1.1 bzw. 109-608 Zu 2.1), sonst streichen."
    ],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   },
   {
    "id": "R112",
@@ -369,9 +284,13 @@
     }
    ],
    "hinweise": [
-    "Vorschlag A: Aussage teilen: (a) Arbeitshöhe verändern, um ungünstige Körperhaltungen zu vermeiden (Hinweise-Einstiegsscreening.txt, Ansatzpunkte für Maßnahmen); (b) Erreichbarkeit streichen oder anders belegen."
+    "Vorschlag A: Aussage teilen: (a) Arbeitshöhe verändern, um ungünstige Körperhaltungen zu vermeiden (Hinweise-Einstiegsscreening.txt, Ansatzpunkte für Maßnahmen); (b) Erreichbarkeit streichen oder anders belegen.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R112-M1"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R112-M1"
+   ]
   },
   {
    "id": "R119",
@@ -412,75 +331,16 @@
    "hinweise": [
     "Vorschlag A: Aussage streichen oder anders belegen. Aussage teilen und einzeln belegen: schwer entflammbare Arbeitskleidung beim Schleifen (109-607 Abschnitt 3.7.1); Schutzkleidung beim Schweißen (109-607 Abschnitt 3.5.1). Übrige Teile streichen."
    ],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   },
   {
    "id": "R60",
    "art": "regel",
    "name": "Funkenflug",
-   "aussagen": [
-    {
-     "id": "R60-M1",
-     "text": "Brennbare Stoffe aus dem Funkenbereich entfernen",
-     "status": "einfach",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
-        "stelle": "Abschnitt 3.7.1 Schleifmaschinen, Gefährdungen durch Gefahrstoffe",
-        "zitat": "Entfernen Sie brennbare Stoffe und Flüssigkeiten aus dem Arbeitsbereich. In feuer- oder gar explosionsgefährdeten Bereichen darf ohne vorherige Freigabe nicht geschliffen werden."
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in TRGS 800 und DGUV Regel 100-500 nach brennbaren Stoffen, Funken, Entfernen. TRGS 800 nennt Schweißspritzer nur als Zündquelle und regelt Brandschutz nach Brandgefährdungsstufen, ohne das Entfernen brennbarer Stoffe aus dem Funkenbereich zu verlangen. Das Entfernen brennbarer Stoffe steht nur im Beispiel einer Betriebsanweisung für Flammwärmen in engen Räumen (TRGS 528, Anhang 5) und in Branchenregeln."
-     }
-    },
-    {
-     "id": "R60-M2",
-     "text": "Feuerlöscher griffbereit",
-     "status": "einfach",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "DGUV/DGUV-Regel-109-607_Branche-Metallbau.txt",
-        "stelle": "Abschnitt 3.1.5 Brand- und Explosionsschutz, Besonderheiten bei Brandgefährdung",
-        "zitat": "Für jedes eingesetzte Heißarbeits-Arbeitsmittel wie Schweißgerät oder Trennschleifer ist ein geeigneter Feuerlöscher mit mindestens 6 Löschmitteleinheiten vorzuhalten."
-       }
-      ],
-      "bemerkung": ""
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in TRGS 800 nach Feuerlöscher. Einzige Stelle: Die Grundausstattung mit Feuerlöschern wird bei normaler Brandgefährdung vorausgesetzt. Griffbereit bei Funkenflug verlangt der Text nicht."
-     }
-    },
-    {
-     "id": "R60-M3",
-     "text": "Außerhalb fester Schweißplätze nur mit Erlaubnis",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in TRGS 800, TRGS 528, DGUV Regel 100-500, 109-606, 109-607 nach Erlaubnis, Erlaubnisschein, Freigabe, festem Schweißplatz. Die Texte verlangen ein Freigabesystem bzw. einen Erlaubnisschein für Arbeiten mit Brandgefährdung (109-607 Abschnitt 3.1.5; 109-606 Abschnitt 3.4.1: feuergefährdende Arbeiten wie Schweiß-, Trenn- oder Schleifarbeiten erst nach vorheriger Freigabe mit einem Erlaubnisschein) ohne Ausnahme für feste Schweißplätze. Die Einschränkung außerhalb fester Schweißplätze steht nirgends."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in TRGS 800 und DGUV Regel 100-500 nach Erlaubnis, Freigabe, Schweißplatz. TRGS 800 nennt Arbeitsfreigabeverfahren nur beispielhaft (z. B. bei Tätigkeiten mit offener Flamme, bei hoher Brandgefährdung) und das Freigabescheinverfahren als Beispiel für zeitweise erhöhte Brandgefährdung. Von festen Schweißplätzen und Erlaubnis nur außerhalb davon ist keine Rede."
-     }
-    }
-   ],
-   "hinweise": [
-    "Vorschlag A: Aussage ändern: Feuergefährdende Arbeiten wie Schweiß-, Trenn- oder Schleifarbeiten nur nach vorheriger Freigabe mit Erlaubnisschein (DGUV Regel 109-606 Abschnitt 3.4.1)."
-   ],
-   "status": "offen"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "R120",
@@ -582,8 +442,14 @@
      }
     }
    ],
-   "hinweise": [],
-   "status": "teilweise"
+   "hinweise": [
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R120-M2, R120-M3"
+   ],
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R120-M2",
+    "R120-M3"
+   ]
   },
   {
    "id": "R90",
@@ -671,9 +537,13 @@
     }
    ],
    "hinweise": [
-    "Vorschlag A: Aussage teilen: (a) Absturzsicherungen haben Vorrang vor Auffangeinrichtungen und PSA gegen Absturz (TRBS 2121 Nr. 4 Abs. 2); (b) In Hubarbeitsbühnen beim Risiko des Herauskatapultierens PSAgA benutzen und nur die in der Betriebsanleitung vorgesehenen Anschlagpunkte verwenden (DGUV Regel 109-606 Abschnitt 3.5.4)."
+    "Vorschlag A: Aussage teilen: (a) Absturzsicherungen haben Vorrang vor Auffangeinrichtungen und PSA gegen Absturz (TRBS 2121 Nr. 4 Abs. 2); (b) In Hubarbeitsbühnen beim Risiko des Herauskatapultierens PSAgA benutzen und nur die in der Betriebsanleitung vorgesehenen Anschlagpunkte verwenden (DGUV Regel 109-606 Abschnitt 3.5.4).",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R90-M2"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R90-M2"
+   ]
   },
   {
    "id": "P20",
@@ -739,7 +609,8 @@
     }
    ],
    "hinweise": [],
-   "status": "geprueft"
+   "status": "geprueft",
+   "ohneFundstelle": []
   },
   {
    "id": "R113",
@@ -818,9 +689,13 @@
    ],
    "hinweise": [
     "Vorschlag A: Aussage ändern in: Auf weitere Schutzmaßnahmen nach §§ 8 und 9 BetrSichV darf nur verzichtet werden, wenn die Arbeitsmittel ausschließlich bestimmungsgemäß nach den Vorgaben des Herstellers verwendet werden (§ 7 Abs. 1 Nr. 2).",
-    "Vorschlag B: Wer auf weitere Maßnahmen nach §§ 8 und 9 BetrSichV verzichten will, muss die Maschine ausschließlich bestimmungsgemäß nach den Vorgaben des Herstellers verwenden lassen."
+    "Vorschlag B: Wer auf weitere Maßnahmen nach §§ 8 und 9 BetrSichV verzichten will, muss die Maschine ausschließlich bestimmungsgemäß nach den Vorgaben des Herstellers verwenden lassen.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R113-M3"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R113-M3"
+   ]
   },
   {
    "id": "R65",
@@ -908,9 +783,14 @@
     }
    ],
    "hinweise": [
-    "Vorschlag B: Hängende Lasten nicht über ungeschützte Bereiche bewegen, an denen sich Beschäftigte aufhalten; Lasten nicht über Personen hinwegführen. Nur mit Quelle DGUV Regel 109-607 (Metallbau) belegbar oder Quelle ergänzen; für Krane allgemein nicht gedeckt."
+    "Vorschlag B: Hängende Lasten nicht über ungeschützte Bereiche bewegen, an denen sich Beschäftigte aufhalten; Lasten nicht über Personen hinwegführen. Nur mit Quelle DGUV Regel 109-607 (Metallbau) belegbar oder Quelle ergänzen; für Krane allgemein nicht gedeckt.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R65-M1, R65-M2"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R65-M1",
+    "R65-M2"
+   ]
   },
   {
    "id": "R87",
@@ -952,7 +832,8 @@
     "Vorschlag A: Zu M1: Aussage teilen: (1) Bei Lufttemperatur über 30 °C Lüftung wirksam steuern und innere thermische Lasten verringern (ASR A3.5 Abschnitt 4.4 Abs. 2, Tabelle 4). (2) Abschirmung der Wärmestrahlungsquelle als eigene Aussage mit anderer Quelle belegen (DGUV Regel 109-608 gilt nur für Gießereien). Zu M2: Aussage ändern in: Bei mehr als 30 °C Lufttemperatur geeignete Getränke bereitstellen (bei mehr als 26 °C sollen sie bereitgestellt werden) und zusätzliche Entwärmungsphasen festlegen (ASR A3.5 Abschnitt 4.4 Abs. 5 und Tabelle 4 g).",
     "Vorschlag B: Bei erheblichem Wärmeeinfluss in der Gefährdungsbeurteilung prüfen, welche technischen, organisatorischen oder personenbezogenen Maßnahmen nötig sind; ab +30 Grad Lufttemperatur wirksame Maßnahmen, z. B. Lüftung steuern, ergreifen. Bei mehr als +26 Grad geeignete Getränke bereitstellen (ab +30 Grad Pflicht); zusätzliche Entwärmungsphasen festlegen."
    ],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   },
   {
    "id": "R86",
@@ -1009,9 +890,13 @@
    ],
    "hinweise": [
     "Vorschlag A: Aussage ändern in: Bei augenschädigenden Gefahrstoffen persönliche Schutzausrüstung bereitstellen, wenn technische und organisatorische Maßnahmen nicht ausreichen (§ 9 Abs. 4 GefStoffV); Schutzbrille beim Abblasen ohne andere Quelle nicht belegbar.",
-    "Vorschlag B: Streichen oder Quelle ergänzen, die Augenschutz bei Druckluftarbeiten verlangt."
+    "Vorschlag B: Streichen oder Quelle ergänzen, die Augenschutz bei Druckluftarbeiten verlangt.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R86-M2"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R86-M2"
+   ]
   },
   {
    "id": "R114",
@@ -1078,63 +963,21 @@
     }
    ],
    "hinweise": [
-    "Vorschlag B: Maschinen, die Holzstaub freisetzen, mit wirksamer Absaugung ausrüsten; Handmaschinen nur mit direkter Absaugung an der Maschine verwenden."
+    "Vorschlag B: Maschinen, die Holzstaub freisetzen, mit wirksamer Absaugung ausrüsten; Handmaschinen nur mit direkter Absaugung an der Maschine verwenden.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R114-M2"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R114-M2"
+   ]
   },
   {
    "id": "R27",
    "art": "regel",
    "name": "Verschrauben mit Handmaschine",
-   "aussagen": [
-    {
-     "id": "R27-M1",
-     "text": "Bewertung mit Leitmerkmalmethode manuelle Arbeitsprozesse",
-     "status": "doppelt",
-     "A": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
-        "stelle": "Anwendungsbereich der Leitmerkmalmethode LMM-MA",
-        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen, meist stationär im Sitzen oder Stehen."
-       }
-      ],
-      "bemerkung": "Die Methode ist als Verfahren zur Beurteilung für solche Tätigkeiten beschrieben (Empfehlung). Das Verschrauben wird nicht namentlich genannt, fällt aber unter gleichförmige Bewegungsabläufe mit handgeführten Maschinen. Die Pflicht zur Gefährdungsbeurteilung steht in § 5 ArbSchG, die Methode selbst schreibt das Gesetz nicht vor."
-     },
-     "B": {
-      "urteil": "gedeckt",
-      "belege": [
-       {
-        "datei": "Leitmerkmalmethoden/LMM-Manuelle-Arbeit.txt",
-        "stelle": "Anwendungsbereich der Leitmerkmalmethode LMM-MA",
-        "zitat": "Diese Belastungsart berücksichtigt gleichförmig, sich wiederholende Bewegungsabläufe und Kraftaufwendungen der oberen Extremitäten ggf. unter der Verwendung von Instrumenten, kleineren Werkzeugen oder handgeführten Maschinen, meist stationär im Sitzen oder Stehen."
-       }
-      ],
-      "bemerkung": "Die Methode ist eine Empfehlung der BAuA, keine Pflicht; sie passt zu gleichförmiger Arbeit mit handgeführten Maschinen."
-     }
-    },
-    {
-     "id": "R27-M2",
-     "text": "Schrauber mit Abschaltkupplung",
-     "status": "keiner",
-     "A": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht in ArbSchG.txt und allen Dateien in Leitmerkmalmethoden nach Schrauber, Abschaltkupplung, Kupplung, Drehmoment, außerdem im ganzen Textordner (DGUV, TRBS, TRGS, TRLV) nach Abschaltkupplung und Schrauber. Gefunden nur ein beschriebenes Beispiel in TRBS 1151 (Schrauber schalten bei Erreichen des Drehmoments ab), das keine Anforderung ist, und Regelungen zu Schlagschraubern. Eine Forderung nach Schraubern mit Abschaltkupplung steht nirgends."
-     },
-     "B": {
-      "urteil": "nicht-gedeckt",
-      "belege": [],
-      "bemerkung": "Gesucht im ganzen Textordner nach 'Abschaltkupplung', 'Schrauber', 'abschaltend', 'Drehmoment'. In ArbSchG und den Leitmerkmalmethoden steht keine Forderung nach Schraubern mit Abschaltkupplung. Treffer nur in DGUV Regel 109-009 (Schlag- und Drehmomentschrauber, Überlastschutz), das ist eine andere Aussage und nicht Quelle des Pakets."
-     }
-    }
-   ],
-   "hinweise": [
-    "Vorschlag A: Aussage ohne Quelle nicht belegbar; als Maßnahme nur mit Grundlage Erfahrung oder mit einer anderen Quelle führen.",
-    "Vorschlag B: Streichen oder Quelle ergänzen, die Abschaltkupplungen bei Schraubern fordert."
-   ],
-   "status": "teilweise"
+   "aussagen": [],
+   "hinweise": [],
+   "status": "veraltet"
   },
   {
    "id": "R73",
@@ -1176,7 +1019,8 @@
     "Vorschlag A: Zu M1: Aussage ändern in: Wenn Substitution technisch nicht möglich ist und eine erhöhte inhalative Gefährdung besteht, Gefahrstoffe im geschlossenen System verwenden (§ 9 Abs. 2 GefStoffV); sonst Exposition so weit wie möglich verringern. Zu M2: Aussage teilen: (1) Persönliche Schutzausrüstung bereitstellen, wenn trotz technischer und organisatorischer Maßnahmen eine Gefährdung durch Haut- oder Augenkontakt bleibt (§ 9 Abs. 4 GefStoffV). (2) Auswahl der Chemikalienschutzhandschuhe nach Sicherheitsdatenblatt mit TRGS 401 belegen.",
     "Vorschlag B: Gefahrstoffe in einem geschlossenen System verwenden, wenn Substitution nicht möglich ist und eine erhöhte inhalative Gefährdung besteht (§ 9 Abs. 2 GefStoffV). Bei haut- oder augenschädigenden Gefahrstoffen persönliche Schutzausrüstung bereitstellen, wenn trotz technischer und organisatorischer Maßnahmen eine Gefährdung durch Haut- oder Augenkontakt besteht (§ 9 Abs. 4 GefStoffV)."
    ],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   },
   {
    "id": "R67",
@@ -1238,9 +1082,13 @@
     }
    ],
    "hinweise": [
-    "Vorschlag B: Fußgänger- und Fahrzeugverkehr so führen, dass Beschäftigte nicht gefährdet werden; Verkehrswege kennzeichnen und bei Bedarf nach Gefährdungsbeurteilung durch Geländer oder Leitplanken abgrenzen."
+    "Vorschlag B: Fußgänger- und Fahrzeugverkehr so führen, dass Beschäftigte nicht gefährdet werden; Verkehrswege kennzeichnen und bei Bedarf nach Gefährdungsbeurteilung durch Geländer oder Leitplanken abgrenzen.",
+    "Ohne doppelt belegte Fundstelle, gekennzeichnet als fachliche Empfehlung: R67-M1"
    ],
-   "status": "teilweise"
+   "status": "geprueft",
+   "ohneFundstelle": [
+    "R67-M1"
+   ]
   },
   {
    "id": "R91",
@@ -1288,7 +1136,8 @@
     "Vorschlag A: Zu M1: Aussage ergänzen: Bereich darunter absperren und kennzeichnen, wenn bauliche Maßnahmen und Schutzeinrichtungen (Schutzdach, Fangnetz) nicht möglich sind; alternativ überwachen. Zu M2: Aussage ohne Quelle nicht belegbar; als Maßnahme nur mit Grundlage Erfahrung führen. Möglich wäre: Werkzeuge beim Arbeiten auf Leitern in Werkzeugtaschen, -gürteln oder -schürzen tragen (TRBS 2121 Teil 2).",
     "Vorschlag B: Quelle ASR A2.1 ergänzen und formulieren: Wenn bauliche und technische Maßnahmen nicht möglich sind, Gefahrenbereich absperren und kennzeichnen oder überwachen (ASR A2.1 Abschnitt 4.4 Nr. 3). Quelle ergänzen, die das Sichern von Werkzeug bei Arbeiten in der Höhe verlangt, oder streichen."
    ],
-   "status": "offen"
+   "status": "offen",
+   "ohneFundstelle": []
   }
  ]
 }

@@ -50,7 +50,7 @@ for (const s of e.stationen) {
     const r = R.get(t.regel);
     const quelle = r.quellen.length ? r.quellen.map(q => `${Q.get(q.id).titel}, ${q.stelle || 'Fundstelle offen'}`).join('; ') : 'ohne Beleg';
     z.push(`- **${G.get(r.gefaehrdung).name}** (${r.id}, ${r.verbindlichkeit}${t.status === 'offen' ? ', offen bis zur Angabe' : ''})`);
-    for (const m of r.massnahmen) z.push(`  - ${m.art}: ${m.text} [${istStand(fall, s.nr, m.id)}]`);
+    for (const m of r.massnahmen) z.push(`  - ${m.art}: ${m.text} [${istStand(fall, s.nr, m.id)}]${m.grundlage === 'erfahrung' ? ' (Erfahrung der Fachkraft, ohne Fundstelle)' : m.fundstelle === 'keine' ? ' (fachliche Empfehlung, ohne Fundstelle)' : ''}`);
     z.push(`  - Quelle: ${quelle}. Beleg: ${r.beleg}.`);
     if (t.fehlt.length) z.push(`  - Angabe fehlt: ${t.fehlt.map(a => A.get(a).frage).join(' ')}`);
   }

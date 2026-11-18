@@ -132,3 +132,11 @@ Was abgelehnt wurde und warum, steht je Runde in `uebernahme.json` und im Berich
 **Eichprobe für Modelle.** Bevor ein kleineres Modell eine Rolle bekommt, wiederholt es eine schon gelaufene Runde. Übersetzer: Das kleinere Modell darf keine Gefährdungen verlieren, die als Treffer gewertet waren. Schiedsrichter: mindestens 90 % gleiche Urteile wie das bisherige Modell, und nicht milder. Die Probeläufe liegen unter `lernen/runden/E…`.
 
 **Anhalten.** Liefert ein Agent nach drei Versuchen nicht vollständig, hält der Zyklus an und sagt, was fehlt. Fällt die Quote einer Prüfrunde unter die vorige, läuft der Zyklus zu Ende und vermerkt die Stopp-Regel im Bericht. Sind zu Beginn weniger als 25 % der Regeln doppelt belegt, steht im Bericht, dass vor dem nächsten Zyklus ein Beleg-Lauf fällig ist.
+
+## Belegt heißt: Kern belegt, Rest gekennzeichnet (seit 18.11.2026)
+
+Bis 17.11. galt eine Regel nur dann als belegt, wenn jede einzelne Maßnahme wörtlich im Regelwerk stand. Organisatorische Maßnahmen wie „unterweisen“ stehen dort selten wörtlich; so blieben fast alle neuen Regeln „teilweise“, und je Beleg-Lauf wurden nur ein bis vier Regeln fertig.
+
+Seit 18.11. gilt: Eine Regel ist belegt, wenn beide Prüfer unabhängig mindestens eine Maßnahme wörtlich belegen und keiner einen Widerspruch findet. Jede Maßnahme ohne doppelten Beleg bleibt stehen, bekommt `fundstelle: keine` und erscheint im Bericht als „fachliche Empfehlung, ohne Fundstelle“. Sie steht auf Andres Liste `freigabe/Massnahmen-ohne-Fundstelle.md`; er entscheidet je Maßnahme: Erfahrung, streichen oder Quelle nennen. Die Verbindlichkeit richtet sich nur nach den Quellen der belegten Maßnahmen. Für Pflichten bleibt es streng: jede Aussage doppelt belegt.
+
+Die Läufe B001 bis B005 wurden ohne neue Prüfer nach dieser Regel neu ausgewertet: 52 statt 35 Regeln belegt.

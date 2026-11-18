@@ -24,7 +24,7 @@ for (const [art, e] of kand) {
   const le = lauf(e.belegstand.lauf).get(e.id); md.push(`## ${e.id} ${e.name}`, '', `- **Gilt, wenn:** ${klartext(b, e.wenn)}`);
   if (art === 'regel') { const g = G.get(e.gefaehrdung); md.push(`- **Dann entsteht:** ${e.entsteht} → Gefährdung „${g.name}“ (Faktor ${g.faktor} ${F.get(g.faktor)})`, `- **Verbindlichkeit:** ${STUFE[e.verbindlichkeit]}`, '- **Maßnahmen:**');
     for (const m of e.massnahmen) { const a = le && le.aussagen.find(x => x.id === m.id);
-      md.push(`  - ${m.id} (${ART[m.art]}): **${m.text}**`); if (m.grundlage === 'erfahrung') md.push('    - Grundlage: Erfahrung der Fachkraft, ohne Fundstelle'); else if (a) md.push(`    - Prüfer: ${zit(a.A.belege[0])}`, `    - Gegenprüfer: ${zit(a.B.belege[0])}`); } }
+      md.push(`  - ${m.id} (${ART[m.art]}): **${m.text}**`); if (m.grundlage === 'erfahrung') md.push('    - Grundlage: Erfahrung der Fachkraft, ohne Fundstelle'); else if (m.fundstelle === 'keine') md.push('    - **Ohne Fundstelle:** fachliche Empfehlung. Steht auch auf der Liste `freigabe/Massnahmen-ohne-Fundstelle.md`.'); else if (a) md.push(`    - Prüfer: ${zit(a.A.belege[0])}`, `    - Gegenprüfer: ${zit(a.B.belege[0])}`); } }
   else { const a = le && le.aussagen[0]; md.push(`- **Pflicht:** ${e.pflicht}`, `- **Nachweis im Betrieb:** ${e.nachweis}`); if (a) md.push(`  - Prüfer: ${zit(a.A.belege[0])}`, `  - Gegenprüfer: ${zit(a.B.belege[0])}`); }
   md.push(`- **Quellen:** ${e.quellen.map(q => `${Q.get(q.id).titel}, ${q.stelle}`).join(' · ')}`); for (const h of (le && le.hinweise) || []) md.push(`- **Hinweis der Prüfung:** ${h}`); md.push('');
 }
