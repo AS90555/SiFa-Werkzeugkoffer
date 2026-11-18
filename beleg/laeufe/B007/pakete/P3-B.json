@@ -1,0 +1,352 @@
+{
+ "lauf": "B007",
+ "paket": "P3",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R20",
+   "fingerabdruck": "021e7efc93ed1d32",
+   "name": "Schleifen mit Handvorschub",
+   "gilt_wenn": "Schleifen UND Stationäre Maschine, Werkstück von Hand geführt",
+   "entsteht": "Hand nah am Band",
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R20-M1",
+     "text": "Werkstückauflage, Anschlag, Absaugung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r100-500",
+     "titel": "DGUV Regel 100-500 Betreiben von Arbeitsmitteln",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-100-500_Betreiben-von-Arbeitsmitteln.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R116",
+   "fingerabdruck": "2c06ca278944432b",
+   "name": "Quarzhaltiger Staub",
+   "gilt_wenn": "Mineralischer Staub mit Quarzanteil",
+   "entsteht": "Feiner Staub beim Schneiden, Schleifen oder Bohren von Stein, Beton und Komposit",
+   "gefaehrdung": "Lungenerkrankung durch mineralischen Staub mit Quarzanteil",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R116-M1",
+     "text": "Staubarm arbeiten: nass bearbeiten oder an der Entstehungsstelle absaugen"
+    },
+    {
+     "id": "R116-M2",
+     "text": "Staub aufsaugen, nicht trocken kehren oder abblasen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "trgs-559",
+     "titel": "TRGS 559 Quarzhaltiger Staub",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-559.txt"
+     ]
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R46",
+   "fingerabdruck": "e6e0aa5554e1a3c0",
+   "name": "Einstieg in Silo oder Behälter",
+   "gilt_wenn": "(Silo oder Behälter) UND („Steigen Personen in das Silo oder den Behälter ein“: ja)",
+   "entsteht": "Enger Raum, Schüttgut",
+   "gefaehrdung": "Verschüttung, Sauerstoffmangel oder Absturz in Silos, Behältern und engen Räumen",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R46-M1",
+     "text": "Nur mit Erlaubnisschein"
+    },
+    {
+     "id": "R46-M2",
+     "text": "Sicherungsposten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r113-004",
+     "titel": "DGUV Regel 113-004 Behälter, Silos und enge Räume",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-113-004_Behaelter-Silos-enge-Raeume.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R31",
+   "fingerabdruck": "3b104cef068c6c10",
+   "name": "Sonderbetrieb an der Lackieranlage",
+   "gilt_wenn": "Rüsten, Reinigen, Instandhalten, Störung beheben UND Lackreste und Anlagenreiniger",
+   "entsteht": "Lackreste, Reiniger",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R31-M1",
+     "text": "Arbeitsanweisung Reinigung"
+    },
+    {
+     "id": "R31-M2",
+     "text": "Schutzausrüstung nach Sicherheitsdatenblatt"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    },
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R30",
+   "fingerabdruck": "23dc93caa4d0fd39",
+   "name": "Lackieranlage",
+   "gilt_wenn": "Beschichten mit Lack UND Vollautomatische Anlage, kein Zugriff im Normalbetrieb",
+   "entsteht": "Lacknebel, Dämpfe",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R30-M1",
+     "text": "Absaugung der Lacknebel"
+    },
+    {
+     "id": "R30-M2",
+     "text": "Einstufung nach Sicherheitsdatenblatt"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R107",
+   "fingerabdruck": "05ec3e9d0a9904da",
+   "name": "Fluchtweg oder Feuerlöscher verstellt",
+   "gilt_wenn": "Fluchtweg, Notausgang oder Feuerlöscher verstellt",
+   "entsteht": "Im Brandfall kommt man nicht schnell hinaus oder nicht an das Löschmittel",
+   "gefaehrdung": "Im Brandfall sind Fluchtweg oder Löschmittel nicht erreichbar",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R107-M1",
+     "text": "Fluchtwege und Notausgänge ständig freihalten"
+    },
+    {
+     "id": "R107-M2",
+     "text": "Feuerlöscher gut sichtbar und leicht erreichbar anbringen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    },
+    {
+     "id": "asr-a2-2",
+     "titel": "ASR A2.2 Maßnahmen gegen Brände",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A2-2.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R43",
+   "fingerabdruck": "392d4b00950148e9",
+   "name": "Sägen von Aluminium",
+   "gilt_wenn": "Sägen UND Aluminiumprofil",
+   "entsteht": "Sehr hoher Lärm",
+   "gefaehrdung": "Gehörschaden durch Lärm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R43-M1",
+     "text": "Kapselung der Säge"
+    },
+    {
+     "id": "R43-M2",
+     "text": "Gehörschutz nach den Stufen 80 und 85 dB(A)"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "laermvibv",
+     "titel": "Lärm- und Vibrations-Arbeitsschutzverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LaermVibrationsArbSchV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R128",
+   "fingerabdruck": "c4a741ba06a88805",
+   "name": "Anlage mit gefährlicher elektrischer Spannung",
+   "gilt_wenn": "Anlage mit gefährlicher elektrischer Spannung, zum Beispiel Röntgenröhre, Hochfrequenzanlage, Funkenstrecke",
+   "entsteht": "An Röntgenröhre, Hochfrequenzanlage oder Funkenstrecke liegt eine Spannung an, die bei Berührung von Gehäuse, Kabeln oder Anschlüssen einen elektrischen Schlag auslösen kann",
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R128-M1",
+     "text": "Gehäuse, Zuleitungen und Anschlüsse berührsicher abdecken; Abdeckungen nur bei abgeschalteter und gesicherter Anlage öffnen"
+    },
+    {
+     "id": "R128-M2",
+     "text": "Anlage und Zuleitungen regelmäßig durch eine Elektrofachkraft prüfen lassen und Bediener zu den elektrischen Gefahren unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v3",
+     "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt"
+     ]
+    },
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R143",
+   "fingerabdruck": "c01b1181cbbbf3d4",
+   "name": "Schwere Einzellast auch am Hebezeug von Hand geführt",
+   "gilt_wenn": "Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist",
+   "entsteht": "Eine schwere Einzellast muss trotz Hebezeug von Hand angehoben, geschoben oder ausgerichtet werden; Rücken und Gelenke werden überlastet",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R143-M1",
+     "text": "Hebezeug oder Hebehilfe so einsetzen, dass die Last auch beim Ausrichten und Absetzen nicht von Hand getragen werden muss"
+    },
+    {
+     "id": "R143-M2",
+     "text": "Schwere Last mit mehreren Personen bewegen, Ablauf vorher abstimmen und in Heben und Tragen unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ]
+    },
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R127",
+   "fingerabdruck": "a8732be50fa50860",
+   "name": "Quetschstelle zwischen Anlage und Wand",
+   "gilt_wenn": "Enge Stelle zwischen bewegter Anlage und Wand oder festem Hindernis",
+   "entsteht": "Zwischen einer bewegten Anlage oder einem bewegten Teil und der Wand bleibt nur ein enger Durchgang; Personen können eingeklemmt werden",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R127-M1",
+     "text": "Abstand zur Wand vergrößern oder die enge Stelle durch Absperrung oder Schutzeinrichtung sichern"
+    },
+    {
+     "id": "R127-M2",
+     "text": "Aufenthalt im Bewegungsbereich während des Betriebs untersagen, Zugang kennzeichnen und unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    },
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

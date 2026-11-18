@@ -1,0 +1,368 @@
+{
+ "lauf": "B007",
+ "paket": "P2",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R126",
+   "fingerabdruck": "21e922af7cea93d8",
+   "name": "Getränkte Lappen können sich entzünden",
+   "gilt_wenn": "Mit Öl, Reiniger oder Lösemittel getränkte Putzlappen",
+   "entsteht": "Mit Öl, Reiniger oder Lösemittel getränkte Lappen liegen herum oder werden zusammengeknüllt; in Haufen können sie sich erhitzen und Feuer fangen",
+   "gefaehrdung": "Brand oder Explosion durch entzündbare Stoffe oder Gase",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R126-M1",
+     "text": "Benutzte Lappen in einem nicht brennbaren, verschließbaren Sammelbehälter ablegen"
+    },
+    {
+     "id": "R126-M2",
+     "text": "Lappen nicht liegen lassen oder zusammenknüllen, Behälter regelmäßig leeren und die Entsorgung festlegen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    },
+    {
+     "id": "trgs-800",
+     "titel": "TRGS 800 Brandschutzmaßnahmen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRGS/TRGS-800.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R108",
+   "fingerabdruck": "619080baa165ae02",
+   "name": "Treppe im Arbeitsweg",
+   "gilt_wenn": "Treppe oder Stufen im Arbeitsweg",
+   "entsteht": "Sturz auf der Treppe, besonders mit Last",
+   "gefaehrdung": "Stolpern, Rutschen, Stürzen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R108-M1",
+     "text": "Treppen mit Handlauf ausstatten"
+    },
+    {
+     "id": "R108-M2",
+     "text": "Stufen trittsicher und in ordnungsgemäßem Zustand halten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ]
+    },
+    {
+     "id": "arbstaettv",
+     "titel": "Arbeitsstättenverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbStaettV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R45",
+   "fingerabdruck": "97ef455776ac8584",
+   "name": "Holzstaub in Filter und Silo",
+   "gilt_wenn": "Absauganlage mit Filter und Silo",
+   "entsteht": "Explosionsfähige Atmosphäre",
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R45-M1",
+     "text": "Explosionsschutzdokument"
+    },
+    {
+     "id": "R45-M2",
+     "text": "Funkenlöschung und Druckentlastung"
+    },
+    {
+     "id": "R45-M3",
+     "text": "Prüfung der Anlage"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R136",
+   "fingerabdruck": "71eb6e2086a14a5c",
+   "name": "Einklemmen der Hände beim Positionieren von Hand",
+   "gilt_wenn": "Last von Hand einschieben, einhängen oder ausrichten, Hände an der Last",
+   "entsteht": "Hände liegen beim Einschieben, Einhängen oder Ausrichten zwischen Last und festem Teil",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R136-M1",
+     "text": "Einführ- und Positionierhilfen verwenden, damit die Hände nicht zwischen Last und festem Teil liegen"
+    },
+    {
+     "id": "R136-M2",
+     "text": "Last erst führen, wenn sie ruhig hängt oder liegt; Verständigung zwischen den Beteiligten festlegen; unterweisen"
+    },
+    {
+     "id": "R136-M3",
+     "text": "Geeignete Schutzhandschuhe tragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    },
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R23",
+   "fingerabdruck": "ec6c58af0425f0dc",
+   "name": "Imprägnieranlage",
+   "gilt_wenn": "(Imprägnieren UND Vollautomatische Anlage, kein Zugriff im Normalbetrieb) oder (Rüsten, Reinigen, Instandhalten, Störung beheben UND Holzschutz-Imprägnierung)",
+   "entsteht": "Kontakt beim Nachfüllen und Reinigen",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R23-M1",
+     "text": "Geschlossenes System, Absaugung"
+    },
+    {
+     "id": "R23-M2",
+     "text": "Handschuhe nach Sicherheitsdatenblatt beim Nachfüllen und Reinigen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R69",
+   "fingerabdruck": "3c984376b808dc59",
+   "name": "Hoher Stapel wird bewegt",
+   "gilt_wenn": "(Hoher Stapel auf Palette oder Ladungsträger) UND Last wird bewegt, abgeladen, abgesetzt",
+   "entsteht": "Ladung kann verrutschen",
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R69-M1",
+     "text": "Stapelhöhe begrenzen"
+    },
+    {
+     "id": "R69-M2",
+     "text": "Ladung sichern, zum Beispiel mit Folie oder Band"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r108-007",
+     "titel": "DGUV Information 208-061 Lagereinrichtungen und Ladungsträger (Nachfolger der DGUV Regel 108-007)",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Information-208-061_Lagereinrichtungen-und-Ladungstraeger.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R33",
+   "fingerabdruck": "8d78337b833a34bc",
+   "name": "Hub-Senk-Station",
+   "gilt_wenn": "Hub-Senk-Station",
+   "entsteht": "Senkbewegung mit Last",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R33-M1",
+     "text": "Quetschstellen gesichert"
+    },
+    {
+     "id": "R33-M2",
+     "text": "Bedienung mit Sicht auf die Last"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    },
+    {
+     "id": "trbs-2111",
+     "titel": "TRBS 2111 Mechanische Gefährdungen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2111.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R122",
+   "fingerabdruck": "902617fcc4b0b4e0",
+   "name": "Schmiedehammer",
+   "gilt_wenn": "Schmiedehammer, Lufthammer: Schlagbewegung",
+   "entsteht": "Schlagbewegung zwischen Hammer und Amboss",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R122-M1",
+     "text": "Werkstück mit Zange führen, Hände nicht zwischen Hammer und Amboss"
+    },
+    {
+     "id": "R122-M2",
+     "text": "Hammer nur von unterwiesenen Personen bedienen lassen, Schlag erst nach Zuruf auslösen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R138",
+   "fingerabdruck": "ddf30c6f2082a0e3",
+   "name": "Gießpfanne mit flüssigem Metall am Kran",
+   "gilt_wenn": "(Flüssiges Metall oder Schlacke) UND Kran, Kettenzug, Hebezeug",
+   "entsteht": "Pfanne mit flüssigem Metall pendelt, kippt oder stürzt beim Kranhub ab, das Metall trifft Personen",
+   "gefaehrdung": "Verbrennung durch flüssiges Metall, Auswurf von Schmelze bei Feuchtigkeit",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R138-M1",
+     "text": "Pfannengehänge, Kran und Pfanne für flüssiges Metall ausgelegt, regelmäßig geprüft und mit Kippsicherung"
+    },
+    {
+     "id": "R138-M2",
+     "text": "Transportweg der Pfanne freihalten und für Personen sperren, Kran nur durch unterwiesene Kranführer bedienen"
+    },
+    {
+     "id": "R138-M3",
+     "text": "Hitzeschutzkleidung und Gesichtsschutz"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r109-608",
+     "titel": "DGUV Regel 109-608 Branche Gießereien",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-109-608_Branche-Giessereien.txt"
+     ]
+    },
+    {
+     "id": "dguv-v52",
+     "titel": "DGUV Vorschrift 52 Krane",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-52_Krane.txt"
+     ]
+    },
+    {
+     "id": "psa-bv",
+     "titel": "PSA-Benutzungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/PSA-BV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R47",
+   "fingerabdruck": "1992e8832db63d8f",
+   "name": "Zerkleinerer",
+   "gilt_wenn": "Zerkleinerer mit Einzugswerk",
+   "entsteht": "Einzugswerk",
+   "gefaehrdung": "Einzug von Hand oder Arm",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R47-M1",
+     "text": "Zuführen mit Hilfsmittel, Not-Halt"
+    },
+    {
+     "id": "R47-M2",
+     "text": "Störung nur an der gesicherten Maschine beheben"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

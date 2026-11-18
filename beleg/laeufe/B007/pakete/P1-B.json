@@ -1,0 +1,344 @@
+{
+ "lauf": "B007",
+ "paket": "P1",
+ "pruefer": "B",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R115",
+   "fingerabdruck": "e20eb2f64f7f7caa",
+   "name": "Gase, die den Sauerstoff verdrängen",
+   "gilt_wenn": "Gas, das den Sauerstoff verdrängt: Stickstoff, Argon, Kohlendioxid, Kältemittel",
+   "entsteht": "Gas tritt aus und sammelt sich, besonders in Behältern, Gruben und kleinen Räumen",
+   "gefaehrdung": "Ersticken durch Gase, die den Sauerstoff verdrängen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R115-M1",
+     "text": "Für ausreichende Lüftung sorgen"
+    },
+    {
+     "id": "R115-M2",
+     "text": "Vor dem Einsteigen in Behälter und enge Räume die Atmosphäre messen und freigeben"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r113-004",
+     "titel": "DGUV Regel 113-004 Behälter, Silos und enge Räume",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Regel-113-004_Behaelter-Silos-enge-Raeume.txt"
+     ]
+    },
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R85",
+   "fingerabdruck": "92d69253d7e50d7e",
+   "name": "Brennbares Pulver",
+   "gilt_wenn": "Feines, staubendes Pulver",
+   "entsteht": "Aufgewirbelter, brennbarer Staub",
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R85-M1",
+     "text": "Ablagerungen regelmäßig entfernen"
+    },
+    {
+     "id": "R85-M2",
+     "text": "Explosionsschutz prüfen und dokumentieren"
+    },
+    {
+     "id": "R85-M3",
+     "text": "Zündquellen vermeiden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R37",
+   "fingerabdruck": "7ee0449b8c089d26",
+   "name": "2-Komponenten-Klebstoff",
+   "gilt_wenn": "2-Komponenten-Klebstoff",
+   "entsteht": "Kontakt beim Gebindewechsel und Reinigen",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R37-M1",
+     "text": "Einstufung nach Sicherheitsdatenblatt"
+    },
+    {
+     "id": "R37-M2",
+     "text": "Handschuhe beim Gebindewechsel"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R130",
+   "fingerabdruck": "290822fadc158688",
+   "name": "Spritznebel im Freien erreicht Dritte",
+   "gilt_wenn": "Beschichten mit Lack UND Außengelände",
+   "entsteht": "Wind verweht den Spritznebel über das Gelände hinaus, Personen außerhalb des Arbeitsplatzes atmen ihn ein oder werden in der Sicht behindert",
+   "gefaehrdung": "Gefährdung Dritter außerhalb des Arbeitsplatzes durch verwehten Spritznebel",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R130-M1",
+     "text": "Spritzen nur an einem Platz mit Windschutz oder in einer Kabine mit Absaugung"
+    },
+    {
+     "id": "R130-M2",
+     "text": "Bei Wind das Spritzen unterbrechen und den Bereich zur Straße und zu Dritten absichern"
+    },
+    {
+     "id": "R130-M3",
+     "text": "Beschäftigte unterweisen, Wetter und Windrichtung vor Beginn zu beachten"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R40",
+   "fingerabdruck": "8559f7f84011b637",
+   "name": "Mitgänger-Flurförderzeug",
+   "gilt_wenn": "Mitgänger-Flurförderzeug",
+   "entsteht": "Gerät folgt dem Bediener",
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R40-M1",
+     "text": "Sicherheitsschuhe"
+    },
+    {
+     "id": "R40-M2",
+     "text": "Unterweisung und Beauftragung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v68",
+     "titel": "DGUV Vorschrift 68 Flurförderzeuge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R52",
+   "fingerabdruck": "9c7d15a3b61a7143",
+   "name": "Fremdfirma im Betrieb",
+   "gilt_wenn": "Fremdfirma arbeitet im Betrieb",
+   "entsteht": "Fremde Beschäftigte in unbekannter Umgebung",
+   "gefaehrdung": "Unfall durch fehlende Abstimmung mit Fremden",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R52-M1",
+     "text": "Einweisung und Abstimmung der Arbeiten"
+    },
+    {
+     "id": "R52-M2",
+     "text": "Bei besonderen Gefahren aufsichtführende Person und Erlaubnisschein"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    },
+    {
+     "id": "dguv-v1",
+     "titel": "DGUV Vorschrift 1 Grundsätze der Prävention",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-1_Grundsaetze-der-Praevention.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R24",
+   "fingerabdruck": "9072ce1f1dcf81ac",
+   "name": "Infrarot-Trocknung",
+   "gilt_wenn": "Trocknen mit Infrarot",
+   "entsteht": "Heiße Flächen, Wärmestau",
+   "gefaehrdung": "Verbrennung oder Verbrühung an heißen Flächen, Flüssigkeiten oder Dampf",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R24-M1",
+     "text": "Abschaltung bei Bandstillstand, Temperaturüberwachung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R06",
+   "fingerabdruck": "f5073c0a60d70d92",
+   "name": "Pakete im Stapel",
+   "gilt_wenn": "Lagern im Stapel UND Gebündeltes, schweres Paket",
+   "entsteht": "Stapel kann kippen",
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R06-M1",
+     "text": "Stapelhöhe begrenzen"
+    },
+    {
+     "id": "R06-M2",
+     "text": "Unterleghölzer und ebener, tragfähiger Boden"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r108-007",
+     "titel": "DGUV Information 208-061 Lagereinrichtungen und Ladungsträger (Nachfolger der DGUV Regel 108-007)",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Information-208-061_Lagereinrichtungen-und-Ladungstraeger.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R133",
+   "fingerabdruck": "114704c09172fde0",
+   "name": "Schwere Last von Hand heben",
+   "gilt_wenn": "Von Hand, Körperkraft UND Schwere Einzellast, die für eine Person nicht ohne Hilfe zu bewegen ist",
+   "entsteht": "Schwere Einzellasten werden von Hand gehoben, gehalten oder eingesetzt; Rücken und Schultern werden überlastet",
+   "gefaehrdung": "Muskel-Skelett-Erkrankung durch Heben, Halten, Tragen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R133-M1",
+     "text": "Hebehilfe oder Hebezeug einsetzen, damit die Last nicht von Hand gehoben werden muss"
+    },
+    {
+     "id": "R133-M2",
+     "text": "Last auf mehrere Personen verteilen oder in kleinere Einheiten aufteilen"
+    },
+    {
+     "id": "R133-M3",
+     "text": "Beschäftigte in richtigem Heben und Tragen unterweisen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "lasthandhabv",
+     "titel": "Lastenhandhabungsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/LasthandhabV.txt"
+     ]
+    },
+    {
+     "id": "arbschg",
+     "titel": "Arbeitsschutzgesetz",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/ArbSchG.txt"
+     ]
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R35",
+   "fingerabdruck": "579dbca6beeaa38d",
+   "name": "Sekundenkleber",
+   "gilt_wenn": "Cyanacrylat-Klebstoff",
+   "entsteht": "Sofort haftender Klebstoff, reizende Dämpfe",
+   "gefaehrdung": "Verätzung, Reizung oder Verkleben von Haut und Augen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R35-M1",
+     "text": "Kleine Gebinde"
+    },
+    {
+     "id": "R35-M2",
+     "text": "Schutzbrille"
+    },
+    {
+     "id": "R35-M3",
+     "text": "Lüftung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,332 @@
+{
+ "lauf": "B007",
+ "paket": "P4",
+ "pruefer": "A",
+ "textordner": "/home/claude/regelwerk-text",
+ "eintraege": [
+  {
+   "art": "regel",
+   "id": "R84",
+   "fingerabdruck": "6cd515d8233c62d4",
+   "name": "Staubendes Pulver",
+   "gilt_wenn": "Feines, staubendes Pulver",
+   "entsteht": "Feiner Staub beim Einfüllen und Reinigen",
+   "gefaehrdung": "Atemwegserkrankung durch Staub",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R84-M1",
+     "text": "Staubarm einfüllen, Absaugung"
+    },
+    {
+     "id": "R84-M2",
+     "text": "Atemschutz, wenn Staub nicht vermieden werden kann"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R34",
+   "fingerabdruck": "5101730a5071c0ff",
+   "name": "Handwerkzeug mit Klinge",
+   "gilt_wenn": "Handwerkzeug mit Klinge",
+   "entsteht": "Offene Klinge",
+   "gefaehrdung": "Schnitt- und Stichverletzung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R34-M1",
+     "text": "Werkzeug mit Abdeckung der Klinge"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 5"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R53",
+   "fingerabdruck": "a5184c131d108443",
+   "name": "Flurförderzeug und Fußgänger in der Halle",
+   "gilt_wenn": "(Flurförderzeug mit Fahrersitz oder Fahrerstand) UND Halle mit Arbeitsplätzen und Fußgängern",
+   "entsteht": "Fahrzeug und Fußgänger im selben Verkehrsraum",
+   "gefaehrdung": "Person wird von Fahrzeug angefahren oder überrollt",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R53-M1",
+     "text": "Fahr- und Gehwege trennen und kennzeichnen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "asr-a1-8",
+     "titel": "ASR A1.8 Verkehrswege",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "ASR/ASR-A1-8.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R39",
+   "fingerabdruck": "0e115f81ed9486ce",
+   "name": "Glas stehend im Paket",
+   "gilt_wenn": "Glas stehend im Paket oder Gestell",
+   "entsteht": "Hohes Gewicht, kippgefährdet",
+   "gefaehrdung": "Stapel, Wagen oder Paket kippt",
+   "verbindlichkeit": "empfehlung",
+   "aussagen": [
+    {
+     "id": "R39-M1",
+     "text": "Sicherung am Gestell"
+    },
+    {
+     "id": "R39-M2",
+     "text": "Entnahmeregel, niemand in Kipprichtung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-r108-007",
+     "titel": "DGUV Information 208-061 Lagereinrichtungen und Ladungsträger (Nachfolger der DGUV Regel 108-007)",
+     "stufe": "empfehlung",
+     "textdateien": [
+      "DGUV/DGUV-Information-208-061_Lagereinrichtungen-und-Ladungstraeger.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R32",
+   "fingerabdruck": "ff61578a85b29393",
+   "name": "Schleifen beschichteter Flächen",
+   "gilt_wenn": "Schleifen UND Beschichtete Oberfläche",
+   "entsteht": "Lackstaub",
+   "gefaehrdung": "Gesundheitsschaden durch Gefahrstoff nach Einstufung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R32-M1",
+     "text": "Abgesaugter Bereich"
+    },
+    {
+     "id": "R32-M2",
+     "text": "Bewertung nach Sicherheitsdatenblatt des Lacks"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 7"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R15",
+   "fingerabdruck": "4ab7936a5993d301",
+   "name": "Wagen auf der Gabel",
+   "gilt_wenn": "(Flurförderzeug mit Fahrersitz oder Fahrerstand) UND Wagen mit stehendem Langgut, hoher Schwerpunkt",
+   "entsteht": "Wagen liegt auf der Gabel",
+   "gefaehrdung": "Last fällt, rutscht oder trifft Personen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R15-M1",
+     "text": "Wagen mit Aufnahmetaschen oder Sicherung"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v68",
+     "titel": "DGUV Vorschrift 68 Flurförderzeuge",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-68_Flurfoerderzeuge.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R44",
+   "fingerabdruck": "7b7e990db918b561",
+   "name": "Aluminiumspäne und -staub",
+   "gilt_wenn": "(Abtragender Vorgang, erzeugt Staub oder Späne) UND Aluminiumprofil",
+   "entsteht": "Brennbarer Metallstaub",
+   "gefaehrdung": "Brand oder Staubexplosion",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R44-M1",
+     "text": "Getrennt von Holzstaub erfassen und sammeln"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "gefstoffv",
+     "titel": "Gefahrstoffverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/GefStoffV.txt"
+     ],
+     "behauptete_stelle": "§ 12"
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R131",
+   "fingerabdruck": "55e3d0b002215f5d",
+   "name": "Freileitung in Reichweite",
+   "gilt_wenn": "Freileitung oder andere spannungsführende Leitung in Reichweite von Kran, Ausleger oder Bühne",
+   "entsteht": "Ausleger, Kranarm oder Last kommen einer Freileitung zu nahe; Stromschlag oder Lichtbogen",
+   "gefaehrdung": "Elektrischer Schlag, Störlichtbogen",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R131-M1",
+     "text": "Freileitung abschalten und erden lassen oder gegen Annäherung sichern, bevor in ihrer Nähe gearbeitet wird"
+    },
+    {
+     "id": "R131-M2",
+     "text": "Vor Arbeitsbeginn mit dem Netzbetreiber den einzuhaltenden Abstand klären und dem Bediener sowie dem Einweiser bekanntgeben"
+    },
+    {
+     "id": "R131-M3",
+     "text": "Abstand nicht nach Augenmaß schätzen, sondern sichtbar markieren und einen Einweiser einsetzen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "dguv-v3",
+     "titel": "DGUV Vorschrift 3 Elektrische Anlagen und Betriebsmittel",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-3_Elektrische-Anlagen-und-Betriebsmittel.txt"
+     ],
+     "behauptete_stelle": null
+    },
+    {
+     "id": "dguv-v52",
+     "titel": "DGUV Vorschrift 52 Krane",
+     "stufe": "pflicht",
+     "textdateien": [
+      "DGUV/DGUV-Vorschrift-52_Krane.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R25",
+   "fingerabdruck": "f17886a85aa0085f",
+   "name": "Presse mit Lichtschranke",
+   "gilt_wenn": "Schließbewegung mit Kraft UND Automat mit Lichtschranke, Zugang zwischen den Takten",
+   "entsteht": "Schließbewegung bei regelmäßigem Zugang",
+   "gefaehrdung": "Quetschen und Scheren an bewegten Teilen",
+   "verbindlichkeit": "vermutungswirkung",
+   "aussagen": [
+    {
+     "id": "R25-M1",
+     "text": "Tägliche Funktionsprobe der Lichtschranke"
+    },
+    {
+     "id": "R25-M2",
+     "text": "Wiederkehrende Prüfung"
+    },
+    {
+     "id": "R25-M3",
+     "text": "Umgehen nicht möglich"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "betrsichv",
+     "titel": "Betriebssicherheitsverordnung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/BetrSichV.txt"
+     ],
+     "behauptete_stelle": "§ 14"
+    },
+    {
+     "id": "trbs-2111",
+     "titel": "TRBS 2111 Mechanische Gefährdungen",
+     "stufe": "vermutungswirkung",
+     "textdateien": [
+      "TRBS/TRBS-2111.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  },
+  {
+   "art": "regel",
+   "id": "R129",
+   "fingerabdruck": "87b8fe4887c9194c",
+   "name": "UV-Strahler und UV-Härtung",
+   "gilt_wenn": "UV-Strahler oder UV-Lampe als Strahlungsquelle",
+   "entsteht": "UV-Strahlung aus Lampen oder Strahlern kann bei offener oder fehlender Abdeckung Augen und Haut schädigen",
+   "gefaehrdung": "Augen- und Hautschaden durch optische Strahlung",
+   "verbindlichkeit": "pflicht",
+   "aussagen": [
+    {
+     "id": "R129-M1",
+     "text": "UV-Strahler vollständig abdecken oder einhausen, sodass keine Strahlung in den Arbeitsbereich gelangt; Abdeckung nicht umgehen"
+    },
+    {
+     "id": "R129-M2",
+     "text": "Strahler nur bei geschlossener Abdeckung einschalten und Beschäftigte über die Gefahr der UV-Strahlung unterweisen"
+    },
+    {
+     "id": "R129-M3",
+     "text": "Bei Arbeiten in der Nähe ungeschützter Strahler geeigneten Augen- und Hautschutz tragen"
+    }
+   ],
+   "quellen": [
+    {
+     "id": "ostrv",
+     "titel": "Arbeitsschutzverordnung zu künstlicher optischer Strahlung",
+     "stufe": "pflicht",
+     "textdateien": [
+      "Gesetze-Verordnungen/OStrV.txt"
+     ],
+     "behauptete_stelle": null
+    }
+   ]
+  }
+ ]
+}

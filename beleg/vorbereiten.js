@@ -31,7 +31,11 @@ function eintrag(art, e) {
     ...(art === 'regel' ? { entsteht: e.entsteht, gefaehrdung: G.get(e.gefaehrdung).name, verbindlichkeit: e.verbindlichkeit } : {}),
     aussagen, quellen: mitText.map(q => ({ id: q.id, titel: q.q.titel, stufe: q.q.stufe, textdateien: q.texte, behauptete_stelle: q.stelle || null })) };
 }
-const regeln = b.regeln.filter(r => !doppelt(r) && r.beleg !== 'ohne-beleg').map(r => ({ e: eintrag('regel', r), n: nutzung[r.id] || 0 })).filter(x => x.e)
+// Schon geprüft und unverändert: Ein zweiter Lauf auf denselben Text bringt nichts. Solche Regeln brauchen eine neue Quelle oder Andres Entscheidung.
+const ld0 = path.join(WURZEL, 'beleg', 'laeufe'); const geprueft = new Set();
+if (fs.existsSync(ld0)) for (const l of fs.readdirSync(ld0)) { const pd = path.join(ld0, l, 'pakete'); if (fs.existsSync(pd)) for (const f of fs.readdirSync(pd).filter(x => x.endsWith('-A.json'))) for (const e of lies(path.join(pd, f)).eintraege) if (fs.existsSync(path.join(ld0, l, 'ergebnis.json'))) geprueft.add(e.id + ':' + e.fingerabdruck); }
+const schonGeprueft = r => geprueft.has(r.id + ':' + fingerabdruck(r)) && !zuerst.includes(r.id);
+const regeln = b.regeln.filter(r => !doppelt(r) && r.beleg !== 'ohne-beleg' && !schonGeprueft(r)).map(r => ({ e: eintrag('regel', r), n: nutzung[r.id] || 0 })).filter(x => x.e)
   .sort((x, y) => vor(y) - vor(x) || y.n - x.n || x.e.id.localeCompare(y.e.id)).slice(0, nRegeln).map(x => x.e);
 const pflichten = b.pflichten.filter(p => !doppelt(p)).map(p => eintrag('pflicht', p)).filter(Boolean).slice(0, nPflichten);
 const alle = [...regeln, ...pflichten];
