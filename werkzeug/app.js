@@ -34,7 +34,7 @@
 
   // ---------- Sichten
   function sKopf() {
-    const f = fall(); const tabs = [['ablauf', 'Rundgang'], ['pflichten', 'Pflichten'], ['stoffe', 'Stoffe'], ['ergebnis', 'Ergebnis'], ['daten', 'Daten']];
+    const f = fall(); const tabs = [['ablauf', 'Rundgang'], ['pflichten', 'Pflichten'], ['stoffe', 'Stoffe'], ['ergebnis', 'Ergebnis'], ['unterlagen', 'Unterlagen'], ['daten', 'Daten']];
     return `<div class="betrieb"><h1>${esc(f.name)}</h1>${f.beispiel ? '<small>Beispiel aus dem Pilot</small>' : ''}</div>
       <nav>${tabs.map(([k, t]) => `<button data-a="sicht" data-v="${k}" aria-current="${Z.sicht === k || (k === 'ablauf' && Z.sicht === 'station')}">${t}</button>`).join('')}</nav>`;
   }
@@ -131,6 +131,44 @@
       ${an ? `<div class="blatt"><h2>Annahmen des Systems</h2><div class="tabelle"><table><thead><tr><th>Annahme</th><th>Plätze</th></tr></thead><tbody>${an}</tbody></table></div></div>` : ''}
       <div class="blatt"><h2>Wünsche an die Bibliothek</h2><div class="tabelle"><table><thead><tr><th>Platz</th><th>Was fehlt</th><th></th></tr></thead><tbody>${wu || '<tr><td colspan="3" class="leise">Keine.</td></tr>'}</tbody></table></div></div>`;
   }
+  // ---------- Unterlagen: was die Fachkraft festlegt, und die fertigen Unterlagen
+  // Die Bewertung vor Ort (Vorhanden, Fehlt, Trifft nicht zu) wird für den Kern in den Ist-Stand übersetzt.
+  const IST = { ok: 'erfuellt', fehlt: 'nicht_erfuellt', entfaellt: 'entfaellt' };
+  function fuerKern(f) {
+    const stationen = f.stationen.filter(s => s.schritte.length).map(s => { const ist = { ...(s.ist || {}) };
+      for (const [k, w] of Object.entries(f.pruefung || {})) { const [nr, mid] = k.split('|'); if (Number(nr) === s.nr && IST[w]) ist[mid] = IST[w]; }
+      return { ...s, ist }; });
+    return { ...f, stationen };
+  }
+  function sUnterlagen(erg) {
+    const f = fall(); if (erg.fehler) return `<div class="hinweis">${esc(erg.fehler)}</div>`;
+    const k = fuerKern(f); const zeilen = KERN.dokumente.planzeilen(BIB, k); const plan = f.massnahmenplan || {}; const ue = f.ueberpruefung || {};
+    const feld = (key, feldname, typ, wert, ph) => `<input type="${typ}" data-a-change="plan" data-k="${esc(key)}" data-v="${feldname}" value="${esc(wert || '')}"${ph ? ` placeholder="${esc(ph)}"` : ''}>`;
+    const tz = zeilen.map((z, i) => { const p = plan[z.key] || {};
+      return `<tr><td class="z">${i + 1}</td><td><span class="marke ${z.dringlichkeit === 'sofort' ? 'pflicht' : ''}">${esc(z.dringlichkeit)}</span></td><td class="z">${z.station || 'Betrieb'}</td><td>${esc(z.was)}<div class="klein leise">${esc(z.anlass)}</div></td>
+        <td>${feld(z.key, 'wer', 'text', p.wer, 'Name oder Funktion')}</td><td>${feld(z.key, 'bis', 'date', p.bis)}</td><td>${feld(z.key, 'erledigt', 'date', p.erledigt)}</td>
+        <td><select data-a-change="plan" data-k="${esc(z.key)}" data-v="wirksam">${[['', '–'], ['ja', 'ja'], ['nein', 'nein']].map(([v, t]) => `<option value="${v}"${(p.wirksam || '') === v ? ' selected' : ''}>${t}</option>`).join('')}</select></td></tr>`; }).join('');
+    const offen = KERN.dokumente.dokumente(BIB, k).zahlen.pruefliste;
+    const BW = BIB.bewertung; const verf = BW ? BW.verfahren.find(v => v.id === (f.bewertungsverfahren || BW.standard)) : null;
+    const bew = f.bewertung || {};
+    const bewTeil = !verf || !verf.stufen ? `<p class="leise">Die Bewertung nach Schwere und Wahrscheinlichkeit kommt hinzu, sobald das Verfahren aus seiner Originalquelle in der Bibliothek steht. Bis dahin steht in den Unterlagen „von der Fachkraft zu bewerten“.</p>`
+      : erg.e.stationen.map(s => { const gs = [...new Set(treffer(erg, s.nr).filter(x => x.status === 'trifft zu').map(x => R.get(x.regel).gefaehrdung))];
+        return gs.length ? `<h3>${s.nr} ${esc(s.name)}</h3>` + gs.map(g => { const x = bew[`${s.nr}:${g}`] || {}; const sel = (feldname, liste) => `<select data-a-change="bewertung" data-k="${s.nr}:${g}" data-v="${feldname}"><option value="">${feldname === 'schwere' ? 'Schwere' : 'Wahrscheinlichkeit'}</option>${liste.map(y => `<option value="${esc(y.id)}"${x[feldname] === y.id ? ' selected' : ''}>${esc(y.name)}</option>`).join('')}</select>`;
+          return `<div class="reihe"><span>${esc(G.get(g).name)}</span>${sel('schwere', verf.schwere)}${sel('wahrscheinlichkeit', verf.wahrscheinlichkeit)}</div>`; }).join('') : ''; }).join('');
+    const uez = f.stationen.filter(s => s.schritte.length).map(s => { const x = ue[s.nr] || {};
+      return `<tr><td class="z">${s.nr}</td><td>${esc(s.name)}</td><td><input type="date" data-a-change="ueberpruefung" data-k="${s.nr}" data-v="datum" value="${esc(x.datum || '')}"></td><td><input type="text" data-a-change="ueberpruefung" data-k="${s.nr}" data-v="von" value="${esc(x.von || '')}" placeholder="Name"></td><td><input type="text" data-a-change="ueberpruefung" data-k="${s.nr}" data-v="ergebnis" value="${esc(x.ergebnis || '')}" placeholder="wirksam, neue Gefährdung …"></td></tr>`; }).join('');
+    return `<div class="blatt"><h2>Unterlagen erzeugen</h2><p class="leise">Aus dem Rundgang entstehen Entscheidungsvorlage, Gefährdungsbeurteilung je Arbeitsplatz, Maßnahmenplan mit Prüfliste, Pflichten-Check, Gefahrstoffverzeichnis und Arbeitsplatzkarten. Alles, was unten fehlt, bleibt dort als Leerfeld zum Ausfüllen.</p>
+        ${offen > 0 ? `<div class="hinweis">${offen} Maßnahmen sind vor Ort noch nicht bewertet (gleiche Maßnahmen am selben Platz einmal gezählt). Sie stehen in den Unterlagen als Prüfliste für den nächsten Rundgang.</div>` : ''}
+        <div class="reihe"><label>Fachkraft für Arbeitssicherheit<input type="text" data-a-change="kopf" data-v="fachkraft" value="${esc(f.fachkraft || '')}"></label><label>Unternehmer oder Verantwortlicher<input type="text" data-a-change="kopf" data-v="unternehmer" value="${esc(f.unternehmer || '')}"></label></div>
+        <div class="reihe"><button class="knopf fest" data-a="unterlagen-zeigen">Unterlagen ansehen</button><button class="knopf zweit fest" data-a="unterlagen-datei">Als Datei speichern</button></div></div>
+      ${Z.vorschau ? `<div class="blatt"><div class="reihe"><button class="knopf fest" data-a="unterlagen-drucken">Drucken oder als PDF sichern</button><button class="knopf zweit fest" data-a="unterlagen-zu">Vorschau schließen</button></div><iframe id="vorschau" class="vorschau" title="Unterlagen"></iframe></div>` : ''}
+      <div class="blatt"><h2>Maßnahmenplan</h2><p class="leise">Hier stehen alle Maßnahmen, die beim Rundgang als „Fehlt“ markiert wurden, nach Dringlichkeit. Wer kümmert sich, bis wann, wann erledigt, und hat es gewirkt?</p>
+        <div class="tabelle"><table class="plan"><thead><tr><th>Nr</th><th>Dringlichkeit</th><th>Platz</th><th>Was</th><th>Wer</th><th>Bis wann</th><th>Erledigt</th><th>Wirksam</th></tr></thead><tbody>${tz || '<tr><td colspan="8" class="leise">Noch keine Maßnahme als fehlend markiert.</td></tr>'}</tbody></table></div></div>
+      <div class="blatt"><h2>Bewertung der Gefährdungen</h2>${bewTeil}</div>
+      <div class="blatt"><h2>Überprüfung der Wirksamkeit</h2><p class="leise">Je Arbeitsplatz: wann, von wem, mit welchem Ergebnis überprüft.</p>
+        <div class="tabelle"><table class="plan"><thead><tr><th>Platz</th><th>Arbeitsplatz</th><th>Am</th><th>Von</th><th>Ergebnis</th></tr></thead><tbody>${uez || '<tr><td colspan="5" class="leise">Noch kein Arbeitsplatz mit Schritten.</td></tr>'}</tbody></table></div></div>`;
+  }
+  const unterlagen = () => KERN.dokumente.dokumente(BIB, fuerKern(fall())).html;
   function sDaten() {
     const f = fall(); const andere = Object.values(Z.faelle).map(x => `<button class="chip" data-a="fall" data-v="${esc(x.id)}" aria-pressed="${x.id === f.id}">${esc(x.name)}</button>`).join('');
     return `<div class="blatt"><h2>Betriebe</h2><div class="chips">${andere}</div>
@@ -145,8 +183,9 @@
     const erg = rechne();
     document.getElementById('kopf').innerHTML = sKopf();
     const m = document.getElementById('inhalt');
-    m.innerHTML = (Z.meldung ? `<div class="hinweis">${esc(Z.meldung)}</div>` : '') + ({ ablauf: sAblauf, station: sStation, pflichten: sPflichten, stoffe: sStoffe, ergebnis: sErgebnis, daten: sDaten }[Z.sicht])(erg);
+    m.innerHTML = (Z.meldung ? `<div class="hinweis">${esc(Z.meldung)}</div>` : '') + ({ ablauf: sAblauf, station: sStation, pflichten: sPflichten, stoffe: sStoffe, ergebnis: sErgebnis, unterlagen: sUnterlagen, daten: sDaten }[Z.sicht])(erg);
     Z.meldung = '';
+    const v = document.getElementById('vorschau'); if (v) v.srcdoc = unterlagen();
   }
 
   // ---------- Aktionen
@@ -174,6 +213,10 @@
     'beob-weg': v => { station().beobachtungen.splice(Number(v), 1); },
     'betrieb-jn': v => { const [k, w] = v.split('|'); const f = fall(); (f.betrieb = f.betrieb || {})[k] = w === '1'; },
     pflicht: v => { const [id, w] = v.split('|'); const f = fall(); f.pflichtpruefung = f.pflichtpruefung || {}; if (f.pflichtpruefung[id] === w) delete f.pflichtpruefung[id]; else f.pflichtpruefung[id] = w; },
+    'unterlagen-zeigen': () => { Z.vorschau = true; },
+    'unterlagen-zu': () => { Z.vorschau = false; },
+    'unterlagen-drucken': () => { const i = document.getElementById('vorschau'); try { i.contentWindow.focus(); i.contentWindow.print(); } catch (e) { Z.meldung = 'Drucken ist hier nicht erlaubt. Bitte „Als Datei speichern“ und die Datei im Browser drucken.'; zeichne(); } return 'ohne'; },
+    'unterlagen-datei': () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([unterlagen()], { type: 'text/html' })); a.download = (fall().id || 'fall') + '-unterlagen.html'; document.body.appendChild(a); a.click(); a.remove(); return 'ohne'; },
     fall: v => { Z.aktiv = v; Z.sicht = 'ablauf'; },
     'fall-neu': () => { const n = wert('neu-fall'); if (!n) { Z.meldung = 'Bitte einen Namen eingeben.'; return; } const id = 'fall-' + Date.now().toString(36); Z.faelle[id] = { id, name: n, betrieb: {}, angaben: {}, stoffe: [], stationen: [], pruefung: {}, pflichtpruefung: {}, wuensche: [] }; Z.aktiv = id; Z.sicht = 'ablauf'; },
     kopieren: () => { const t = document.getElementById('fall-text'); const fertig = () => { Z.meldung = 'Text kopiert.'; zeichne(); }; try { navigator.clipboard.writeText(t.value).then(fertig, () => { t.select(); }); } catch (e) { t.select(); } return 'ohne'; },
@@ -186,9 +229,13 @@
     'station-bereich': (v, w) => { station().bereich = w.trim() || undefined; },
     'station-personen': (v, w) => { if (w === '') delete station().personen; else station().personen = Number(w); },
     betrieb: (v, w) => { const f = fall(); f.betrieb = f.betrieb || {}; if (w === '') delete f.betrieb[v]; else f.betrieb[v] = Number(w); },
+    kopf: (v, w) => { const f = fall(); if (w.trim()) f[v] = w.trim(); else delete f[v]; return 'ohne'; },
+    plan: (v, w, b) => { const f = fall(); const p = (f.massnahmenplan = f.massnahmenplan || {}); const z = (p[b.dataset.k] = p[b.dataset.k] || {}); if (w.trim()) z[v] = w.trim(); else delete z[v]; if (!Object.keys(z).length) delete p[b.dataset.k]; return b.tagName === 'SELECT' ? '' : 'ohne'; },
+    ueberpruefung: (v, w, b) => { const f = fall(); const u = (f.ueberpruefung = f.ueberpruefung || {}); const z = (u[b.dataset.k] = u[b.dataset.k] || {}); if (w.trim()) z[v] = w.trim(); else delete z[v]; if (!Object.keys(z).length) delete u[b.dataset.k]; return 'ohne'; },
+    bewertung: (v, w, b) => { const f = fall(); const u = (f.bewertung = f.bewertung || {}); const z = (u[b.dataset.k] = u[b.dataset.k] || {}); if (w) z[v] = w; else delete z[v]; if (!Object.keys(z).length) delete u[b.dataset.k]; },
     angabe: (v, w) => { const s = station(); s.angaben = s.angaben || {}; if (w === '') delete s.angaben[v]; else s.angaben[v] = Number(w); }
   };
   document.addEventListener('click', e => { const b = e.target.closest('[data-a]'); if (!b) return; const f = AKT[b.dataset.a]; if (!f) return; if (b.dataset.a !== 'station-weg' && Z.sicht === 'station' && station()) delete station().loeschen; if (f(b.dataset.v) === 'ohne') return; sichern(); zeichne(); });
-  document.addEventListener('change', e => { const b = e.target.closest('[data-a-change]'); if (!b) return; AEND[b.dataset.aChange](b.dataset.v, b.value); sichern(); zeichne(); });
+  document.addEventListener('change', e => { const b = e.target.closest('[data-a-change]'); if (!b) return; const r = AEND[b.dataset.aChange](b.dataset.v, b.value, b); sichern(); if (r !== 'ohne') zeichne(); });
   laden(); zeichne();
 })();

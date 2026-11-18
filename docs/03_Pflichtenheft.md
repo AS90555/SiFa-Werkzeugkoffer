@@ -28,10 +28,10 @@ Quelle: DGUV Grundsatz 311-003 „Erstellung von Handlungshilfen zur Gefährdung
 | --- | --- | --- | --- |
 | 1 | Festlegen von Arbeitsbereichen und Tätigkeiten | Betrieb, Bereich, Arbeitsplatz, Schritte | vorhanden |
 | 2 | Ermitteln der Gefährdungen | Regeln der Bibliothek, dazu eigene Beobachtungen | vorhanden |
-| 3 | Bewerten der Gefährdungen | Modul Bewertung | offen |
+| 3 | Bewerten der Gefährdungen | Modul Bewertung | teilweise: Eingabe und Ausgabe gebaut, Verfahren (Nohl) fehlt bis zur Originalquelle |
 | 4 | Festlegen konkreter Arbeitsschutzmaßnahmen | Maßnahmen je Regel in der Rangfolge S, T, O, P | vorhanden |
-| 5 | Durchführen der Maßnahmen | Maßnahmenplan mit Verantwortlichem und Termin | offen |
-| 6 | Überprüfen der Wirksamkeit | Maßnahmenplan, Begehung | offen |
+| 5 | Durchführen der Maßnahmen | Maßnahmenplan mit Verantwortlichem und Termin | vorhanden |
+| 6 | Überprüfen der Wirksamkeit | Maßnahmenplan, Begehung | vorhanden |
 | 7 | Fortschreiben der Gefährdungsbeurteilung | Versionen, Anlässe, Wächter | teilweise |
 
 ### 2.2 Die elf Gefährdungsfaktoren

@@ -91,3 +91,16 @@ test('Unterlagen: Gefährdungsbeurteilung mit drei Teilen und allen elf Faktoren
   assert.ok(!/\d+ × \d+ =/.test(html), 'ohne Eintrag der Fachkraft keine Bewertung');
   assert.strictEqual(zahlen.stationen, fall.stationen.length);
 });
+test('Unterlagen: Eingaben der Fachkraft landen im Maßnahmenplan, „entfällt“ nicht in der Prüfliste', () => {
+  const path = require('path'); const { ladeBibliothek } = require('../kern/laden'); const { dokumente, planzeilen } = require('../kern/dokumente'); const { auswerten } = require('../kern/auswerten');
+  const b = ladeBibliothek(path.join(__dirname, '..', 'bibliothek')); const fall = JSON.parse(JSON.stringify(require('../faelle/andre-001.json')));
+  const s = auswerten(b, fall).stationen.find(x => x.treffer.some(t => t.status === 'trifft zu')); const r = b.regeln.find(x => x.id === s.treffer.find(t => t.status === 'trifft zu').regel);
+  const [m1, m2] = r.massnahmen; const st = fall.stationen.find(x => x.nr === s.nr);
+  const vorher = dokumente(b, fall, { heute: '2026-11-18' }).zahlen.pruefliste;
+  st.ist = { ...(st.ist || {}), [m1.id]: 'nicht_erfuellt', ...(m2 ? { [m2.id]: 'entfaellt' } : {}) };
+  const z = planzeilen(b, fall).find(x => x.key === `${m1.id}@${s.nr}`); assert.ok(z, 'nicht erfüllt steht im Plan');
+  fall.massnahmenplan = { [z.key]: { wer: 'Meisterin', bis: '2026-12-15', wirksam: 'ja' } }; fall.fachkraft = 'Fachkraft A';
+  const { html, zahlen } = dokumente(b, fall, { heute: '2026-11-18' });
+  for (const t of ['Meisterin', '15.12.2026', 'Fachkraft A']) assert.ok(html.includes(t), t);
+  if (m2) assert.ok(zahlen.pruefliste <= vorher - 2, 'erfasste Maßnahmen verlassen die Prüfliste');
+});

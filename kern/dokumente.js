@@ -8,6 +8,20 @@
 const fs = require('fs'); const path = require('path');
 const { ladeBibliothek } = require('./laden'); const { auswerten, uebersicht, pflichten, maengelliste, istStand } = require('./auswerten');
 
+const ARTRANG = { S: 0, T: 1, O: 2, P: 3 };
+// Maßnahmen eines Arbeitsplatzes nach Rangfolge S-T-O-P, ohne Doppelungen, mit Ist-Stand.
+function massnahmenAm(R, fall, s) { const seen = new Map();
+  for (const t of s.treffer) { const r = R.get(t.regel); for (const m of r.massnahmen) { const k = m.text.trim().toLowerCase(); if (!seen.has(k)) seen.set(k, { m, r, offen: t.status === 'offen', ist: istStand(fall, s.nr, m.id) }); } }
+  return [...seen.values()].sort((a, b2) => ARTRANG[a.m.art] - ARTRANG[b2.m.art]); }
+
+// Zeilen des Maßnahmenplans: Mängel und Maßnahmen „nicht erfüllt“, nach Dringlichkeit. Der Schlüssel verbindet die Zeile mit fall.massnahmenplan.
+function planzeilen(b, fall, e = auswerten(b, fall)) {
+  const R = new Map(b.regeln.map(r => [r.id, r])); const G = new Map(b.gefaehrdungen.map(g => [g.id, g])); const zeilen = [];
+  for (const m of maengelliste(b, fall)) zeilen.push({ quelle: 'Mangel', station: m.station, was: m.massnahme || `Mangel abstellen: ${m.text}`, anlass: m.text, dringlichkeit: m.dringlichkeit || 'offen', key: `mangel:${m.station || 0}:${m.text}` });
+  for (const s of e.stationen) for (const x of massnahmenAm(R, fall, s)) if (x.ist === 'nicht erfüllt') zeilen.push({ quelle: 'Maßnahme', station: s.nr, was: x.m.text, anlass: G.get(x.r.gefaehrdung).name, dringlichkeit: 'kurzfristig', key: `${x.m.id}@${s.nr}` });
+  const RANG = { sofort: 0, kurzfristig: 1, einplanen: 2 };
+  return zeilen.sort((a, b2) => (RANG[a.dringlichkeit] ?? 9) - (RANG[b2.dringlichkeit] ?? 9) || (a.station || 0) - (b2.station || 0)); }
+
 function dokumente(b, fall, { heute = new Date().toISOString().slice(0, 10) } = {}) {
   const e = auswerten(b, fall); const u = uebersicht(b, e);
   const R = new Map(b.regeln.map(r => [r.id, r])); const G = new Map(b.gefaehrdungen.map(g => [g.id, g])); const Q = new Map(b.quellen.map(q => [q.id, q]));
@@ -15,7 +29,7 @@ function dokumente(b, fall, { heute = new Date().toISOString().slice(0, 10) } = 
   const BW = b.bewertung || null; const verfahren = BW ? BW.verfahren.find(v => v.id === (fall.bewertungsverfahren || BW.standard)) : null;
   const h = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const datum = d => (d ? d.split('-').reverse().join('.') : '');
-  const ART = { S: 'Ersetzen', T: 'Technisch', O: 'Organisatorisch', P: 'Persönlich' }; const ARTRANG = { S: 0, T: 1, O: 2, P: 3 };
+  const ART = { S: 'Ersetzen', T: 'Technisch', O: 'Organisatorisch', P: 'Persönlich' };
   const quelle = r => (r.quellen || []).map(q => `${Q.get(q.id).titel}${q.stelle ? ', ' + q.stelle : ''}`).join('; ') || 'ohne Quelle';
   const stand = r => (r.freigabe === 'geprueft' ? 'freigegeben' : r.beleg === 'geprueft' ? 'belegt, Freigabe offen' : 'Entwurf');
   const herkunft = m => (m.grundlage === 'erfahrung' ? 'Erfahrung der Fachkraft' : m.fundstelle === 'keine' ? 'Empfehlung ohne Fundstelle' : '');
@@ -29,14 +43,10 @@ function dokumente(b, fall, { heute = new Date().toISOString().slice(0, 10) } = 
     const wert = s * w; const st = verfahren.stufen.find(y => wert >= y.ab); return { wert, stufe: st ? st.name : '', s: verfahren.schwere[s - 1].name, w: verfahren.wahrscheinlichkeit[w - 1].name }; };
 
   // Maßnahmen je Arbeitsplatz, nach Rangfolge S-T-O-P, ohne Doppelungen.
-  const massnahmen = s => { const seen = new Map();
-    for (const t of s.treffer) { const r = R.get(t.regel); for (const m of r.massnahmen) { const k = m.text.trim().toLowerCase(); if (!seen.has(k)) seen.set(k, { m, r, offen: t.status === 'offen', ist: istStand(fall, s.nr, m.id) }); } }
-    return [...seen.values()].sort((a, b2) => ARTRANG[a.m.art] - ARTRANG[b2.m.art]); };
+  const massnahmen = s => massnahmenAm(R, fall, s);
 
   // Maßnahmenplan: zuerst Mängel (nach Dringlichkeit), dann Maßnahmen „nicht erfüllt“. „Zu prüfen“ geht in die Prüfliste für den Rundgang.
-  const zeilen = [];
-  for (const m of ml) zeilen.push({ quelle: 'Mangel', station: m.station, was: m.massnahme || `Mangel abstellen: ${m.text}`, anlass: m.text, dringlichkeit: m.dringlichkeit || 'offen', key: `mangel:${m.station || 0}:${m.text}` });
-  for (const s of stationen) for (const x of massnahmen(s)) if (x.ist === 'nicht erfüllt') zeilen.push({ quelle: 'Maßnahme', station: s.nr, was: x.m.text, anlass: G.get(x.r.gefaehrdung).name, dringlichkeit: 'kurzfristig', key: `${x.m.id}@${s.nr}` });
+  const zeilen = planzeilen(b, fall, e);
   const pruefliste = stationen.flatMap(s => massnahmen(s).filter(x => x.ist === 'zu prüfen').map(x => ({ s, x })));
 
   const pl = pflichten(b, fall); const pflOffen = pl.filter(t => t.status === 'offen' || !((fall.pflichtpruefung || {})[t.pflicht]));
@@ -84,8 +94,7 @@ function dokumente(b, fall, { heute = new Date().toISOString().slice(0, 10) } = 
 
   // 3 Maßnahmenplan
   o.push('<section id="plan"><h2>3 Maßnahmenplan</h2><p>Reihenfolge nach Dringlichkeit. Verantwortliche und Fristen sind festzulegen (DGUV Grundsatz 311-003, Schritt 5).</p><table><thead><tr><th>Nr</th><th>Dringlichkeit</th><th>Platz</th><th>Was</th><th>Anlass</th><th>Wer</th><th>Bis wann</th><th>Erledigt</th><th>Wirksam</th></tr></thead><tbody>');
-  const RANG = { sofort: 0, kurzfristig: 1, einplanen: 2 };
-  zeilen.sort((a, b2) => (RANG[a.dringlichkeit] ?? 9) - (RANG[b2.dringlichkeit] ?? 9) || (a.station || 0) - (b2.station || 0)).forEach((z, i) => { const p = plan[z.key] || {};
+  zeilen.forEach((z, i) => { const p = plan[z.key] || {};
     o.push(`<tr><td>${i + 1}</td><td class="d-${h(z.dringlichkeit)}">${h(z.dringlichkeit)}</td><td>${z.station || 'Betrieb'}</td><td>${h(z.was)}</td><td class="klein">${h(z.anlass)}</td><td>${h(p.wer || '')}</td><td>${h(datum(p.bis))}</td><td>${h(datum(p.erledigt))}</td><td>${h(p.wirksam || '')}</td></tr>`); });
   if (!zeilen.length) o.push('<tr><td colspan="9">Keine Mängel und keine Maßnahme „nicht erfüllt“. Die Prüfliste unten ist beim Rundgang abzuarbeiten.</td></tr>');
   o.push('</tbody></table>', `<h3>Prüfliste für den Rundgang (${pruefliste.length})</h3><p class="klein">Maßnahmen, deren Ist-Stand noch nicht festgestellt ist. Was nicht erfüllt ist, kommt in den Plan.</p><table><thead><tr><th>Platz</th><th>Maßnahme</th><th>erfüllt</th><th>nicht erfüllt</th></tr></thead><tbody>`);
@@ -124,7 +133,7 @@ table{width:100%;border-collapse:collapse;margin:6px 0 10px}th,td{border:1px sol
 @media (max-width:640px){.spalten{grid-template-columns:1fr}table{font-size:9pt}nav ol{columns:1}}
 @media print{body{max-width:none;padding:0}section{break-before:page}.platz,.karte{break-inside:avoid}nav{display:none}a{color:inherit;text-decoration:none}}`;
 
-module.exports = { dokumente };
+module.exports = { dokumente, planzeilen };
 if (require.main === module) {
   const datei = process.argv[2]; if (!datei) { console.error('Aufruf: node kern/dokumente.js <fall.json> [ziel.html]'); process.exit(2); }
   const b = ladeBibliothek(path.join(__dirname, '..', 'bibliothek')); const fall = JSON.parse(fs.readFileSync(datei, 'utf8'));

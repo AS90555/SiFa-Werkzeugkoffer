@@ -162,6 +162,6 @@ function maengelliste(b, fall) {
 function istStand(fall, station, massnahmeId) {
   const st = (fall.stationen || []).find(s => s.nr === station) || {}; const ist = { ...(fall.ist || {}), ...(st.ist || {}) };
   if ([...(fall.maengel || []), ...(st.maengel || [])].some(m => m.betrifft === massnahmeId && (!m.station || m.station === station))) return 'nicht erfüllt';
-  return ist[massnahmeId] === 'erfuellt' ? 'erfüllt' : ist[massnahmeId] === 'nicht_erfuellt' ? 'nicht erfüllt' : 'zu prüfen';
+  return ist[massnahmeId] === 'erfuellt' ? 'erfüllt' : ist[massnahmeId] === 'nicht_erfuellt' ? 'nicht erfüllt' : ist[massnahmeId] === 'entfaellt' ? 'entfällt' : 'zu prüfen';
 }
 module.exports = { auswerten, uebersicht, werte, ausStoffen, pflichten, abgleich, maengelliste, istStand };
